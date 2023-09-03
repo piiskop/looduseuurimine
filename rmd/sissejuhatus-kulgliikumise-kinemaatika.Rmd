@@ -127,7 +127,7 @@ Kava:
 
 3. Plickers: *Teaduse olemus*[@giancoli, lk 2-4].
 
-4. Arutelu teaduse olemuse üle.
+4. Arutelu teaduse olemuse üle[@fsikaline, lk 3-5].
 
 5. Ajurünnak oma tulevikusoovide ja füüsikaseoste kohta[@giancoli, lk 4-5].
 
@@ -138,6 +138,8 @@ Kava:
 8. Arutelu mudelite, teooriate ja seaduste üle.
 
 9. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave!
 
 ### 2023-09-08
 
