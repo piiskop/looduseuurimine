@@ -5,12 +5,16 @@
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
+
 1. selgitab mõisteid loodus, maailm ja vaatleja; hindab füüsika kohta teiste loodusteaduste seas ning
 määratleb füüsika uurimisala;
+
 2. määratleb looduse struktuuritasemete skeemil makro-, mikro- ja megamaailma ning nimetab nende
 erinevusi;
+
 3. selgitab loodusteadusliku meetodi olemust ja teab, et eksperimenditulemusi üldistades jõutakse
 mudelini;
+
 4. põhjendab mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
 5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
 6. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid;
@@ -99,6 +103,41 @@ Teaduse olemus.
 Füüsika ja selle seos teiste valdkondadega.
 
 Mudelid, teooriad ja seadused.
+
+Eesmärgina õpilane oskab
+
+1. selgitada mõisteid loodus, maailm ja vaatleja; hindab füüsika kohta teiste loodusteaduste seas ning
+määratleb füüsika uurimisala;
+
+2. määratleda looduse struktuuritasemete skeemil makro-, mikro- ja megamaailma ning nimetab nende
+erinevusi;
+
+3. selgitada loodusteadusliku meetodi olemust ja teab, et eksperimenditulemusi üldistades jõutakse
+mudelini.
+
+Õppesisu: Füüsika kui loodusteadus. Füüsika kui nähtavushorisonte edasi nihutav teadus. Mikro-, makro- ja
+megamaailm. Loodusteaduslik meetod. Vaatlus, eksperiment, mudeli loomine. Mudeli järelduste kontroll
+ning mudeli areng.
+
+Kava:
+
+1. Tutvustus.
+
+2. Ajurünnak õpitu kohta.
+
+3. Plickers: *Teaduse olemus*[@giancoli, lk 2-4].
+
+4. Arutelu teaduse olemuse üle.
+
+5. Ajurünnak oma tulevikusoovide ja füüsikaseoste kohta[@giancoli, lk 4-5].
+
+6. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers].
+
+7. Plickers: *Mudelid, teooriad ja seadused*[@giancoli, lk 5].
+
+8. Arutelu mudelite, teooriate ja seaduste üle.
+
+9. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
 
 ### 2023-09-08
 
