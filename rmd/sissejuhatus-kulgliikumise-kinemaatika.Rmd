@@ -96,21 +96,21 @@ langemine
 
 Teaduse olemus.
 
-### 2023-09-08
-
 Füüsika ja selle seos teiste valdkondadega.
-
-### 2023-09-11
 
 Mudelid, teooriad ja seadused.
 
+### 2023-09-08
+
+Mõõtmine ja määramatus; tüvenumbrid.
+
+### 2023-09-11
+
+Mõõtmine ja määramatus; tüvenumbrid.
+
 ### 2023-09-15
 
-Mõõtmine ja määramatus; tüvenumbrid.
-
 ### 2023-09-18
-
-Mõõtmine ja määramatus; tüvenumbrid.
 
 ### 2023-09-22
 
@@ -134,9 +134,9 @@ Mõõtmed ja mõõtmete analüüs.
 
 ### 2023-10-9
 
-Füüsika olemuse, mõõtmise ja hindamise teadmiste ja oskuste kaardistamine.
-
 ### 2023-10-13
+
+Füüsika olemuse, mõõtmise ja hindamise teadmiste ja oskuste kaardistamine.
 
 ### 2023-10-16
 
@@ -182,8 +182,8 @@ Liikumise kirjeldamise teadmiste ja oskuste kaardistamine.
 
 ### 2024-1-15
 
-Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
-
 ### 2024-1-19
+
+Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
 
 ### 2024-1-22

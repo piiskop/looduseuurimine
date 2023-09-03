@@ -227,3 +227,17 @@ render_color <- function(color, text) {
 
 # Sissejuhatus {-}
 
+Olen peacecop kalmer: ning õpetan füüsikat Kohila Gümnaasiumis, füüsikat ja keemiat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2023 on mul esimene kord neid kaht teadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See koduleht siin kajastab iga kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
+
+Leian, et tõhus on iga teema puhul käsitleda juppi teooriat, lahendada selle kohta hulganisti arvutusülesandeid ning kontrollides teooriat eksperimentaalselt, enne kui võtta ette järgmine jupp. Samuti peavad jupid olema üksteisega loogiliselt seotud. Iga järgmine jupp võib eeldada eelneva jupi valdamist.
+
+Igal õpilasel soovitan kasutusele võtta *A4*-vormingus ruuduliste lehtedega kaustik, kuhu õpilane loob oma konspekti, st märgib üles kõik vajaliku ja kuhu lahendab ka ülesanded. Samuti on õpilasel vaja eri värvi füüsilisi kirjutusvahendeid ja geomeetriavahendeid. Kalkulaator on abiks keeruliste arvutuste puhul. Konspekti võib luua ka virtuaalselt, kui õpilasel on graafikatahvel. Sellisel juhul annan kasutusse minu halduses oleva virtuaaltahvlite keskkonna, et kõik virtuaalsed konspektid oleksid ühes kohas.
+
+Kuna iga kontaktsessioon on vaid 45 min pikk, siis teadmiste-oskuste kinnistamiseks on vajalik õpilasel lahendada hulganisti ülesandeid, lugeda, vaadata ja kuulata juurde väljaspool kontaktsessiooni.
+
+Opik.fyysika.ee[@pikud] sisaldab hulganisti eestikeelseid füüsikaõpikuid, mida saavad õpilased kasutada täiendavaks lugemiseks ja harjutamiseks. Põhiõpik, mida kasutan, on Douglas Giancoli *PHYS ICS
+SE
+VE N T H
+ED
+ITION
+PR INCIPLES WITH APPLICATIONS*[@giancoli]. Selles on õpilase- ja õpetajasõbralik kujundus ja sisu. Välja on jäetud tuletised ja integraalid. Õpik sisaldab hulganisti enesekontrolli küsimusi ja ülesandeid, millest osadele on esitatud lahend. Selle õpiku kasutamisega lõimin looduseuurimise õppesse inglise keelt. Ülesanded iseseisvaks harjutamiseks pärinevad sellest õpikust. Parim füüsikaõpetaja Ameerikas on minu meelest mr.p, kelle Flipping Physics[@flipping] aitab kindlasti paremini mõista paljusid füüsikateemasid. Need allikad on abiks, kuni ma oma kursuseid veel piisavalt valmis pole saanud, ja edaspidi täienduseks.

@@ -3,6 +3,7 @@ new_session: false
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
+  "rmd/hindamine.Rmd",
   "rmd/sissejuhatus-kulgliikumise-kinemaatika.Rmd",
   "rmd/elektromagnetism.Rmd",
   "rmd/mikro-megamaailma-füüsika.Rmd",

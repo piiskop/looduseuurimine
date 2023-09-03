@@ -1,0 +1,63 @@
+# Hindamine
+
+Hindan eksperimentide protokolle ja kontrolltööde tulemusi.
+
+Eksperimentide protokollid peavad kõik olema tehtud, korrektselt vormistatud ja esitatud, et saada kursusesse hinnet.
+
+Kontrolltööde tulemusi hindan arvulise hindega. Iga kontrolltöö kirjeldusse on märgitud selle kontrolltöö hinde osakaal kursuse lõpphindest.
+
+See tähendab, et kui protokollidega on kõik korras, siis kontrolltööde tulemused moodustavad kursuse lõpphindest 100 %, ja kui protokollidega ei ole kõik korras, siis kontrolltööde tulemused moodustavad kursuse lõpphindest 0 %.
+
+Eksperimendi protokoll peab olema selline, mille järgi on võimalik teisel õpilasel algusest peale eksperimenti sooritada ja võrrelda oma tulemust protokolli märgituga.
+
+Kontrolltöö sisaldab viie ülesande lahendamist:
+
+1. Millegi sõnaline selgitamine kasutades vajadusel valemindust ja/või joonistamist/joonestamist (11 % kontrolltööd).
+
+2. Valemi tuletamine (15 % kontrolltööd).
+
+3. Kõige lihtsam arvutusülesanne (20 % kontrolltööd).
+
+4. Mõõduka raskusastmega arvutusülesanne (25 % kontrolltööd).
+
+5. Väljakutsuv arvutusülesanne (29 % kontrolltööd).
+
+Kui õpilane on korrektselt lahendanud kõrgema raskusastmega arvutusülesande, siis väiksema raskusastmega ülesande lahenduse soorituse arvestan korrektselt tehtuks.
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest mulle märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane minu enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega.
+
+Valemites tuleb kasutada üldtuntud muutujate nimesid või selgitada tähistused legendis.
+
+Arvutusülesande sooritamine peab koosnema järgmistest osadest:
+
+1. sisend(id),
+
+2. väljund(id),
+
+3. reeglistik,
+
+4. lahendus ja
+
+5. lahend.
+
+Arvutusülesande soorituses tuleb luua joonis, kui see on vajalik ja/või abiks ülesande lahendamises.
+
+Sisendiossa kirjutatakse muutujad väärtustega teisendades kõik ühikud Système Internationale'i (SI), kui pole vajalik kasutada muud ühikut.
+
+Väljundiossa kirjutatakse muutuja(d), millele otsitakse ülesande lahendamise kaudu väärtust.
+
+Reeglistikuosas õpilane arutleb, kuidas ülesannet lahendada. Selles osas paneb õpilane kokku lõpliku valemi.
+
+Lahenduse osas kasutab õpilane lõplikku valemit pannes sinna muutujatele väärtused, näitab arvutuskäigu ja arvutab kasutades korrektselt tüvenumbrite teooriat. Kui ülesande osa on vahetulemuste arvutamine, siis need tuleb arvutada igaüks vastava lõpliku valemiga ja lõpptulemuses võib siis vahetulemusi kasutada.
+
+Lahendiossa kirjutatakse ülesande lahend täistekstiga. 
+
+Kõik suurused tuleb kirjutada vastavalt SI reeglitele.
+
+Kui kontrolltöö on sooritatud, annab õpilane oma tehtu mulle üle. Kui õppesessiooni aega on veel järel, kasutab õpilane seda, et oma järgmisi harjutusülesandeid lahendada või lugeda õpikust.
+
+Mina jäädvustan lehed, hindan ja tagasisidestan järgmises õppesessioonis. Siis tagastan ka õpilasele tema kontrolltöö tulemuse ning ta omakorda järgmiseks sessiooniks hindab oma sooritust ise vastavalt minu esitatud ühele teisendile õigetest lahenditest. Hiljem võrdlen enda ja õpilase hinnangut ja teeme järelduse.
+
+Uuesti sooritada või esimesel korral tegemata jätmise puhul sooritada saab minuga kokkuleppel reedese kuuenda õppeperioodi järel.
