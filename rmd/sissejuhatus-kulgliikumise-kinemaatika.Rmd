@@ -1,0 +1,189 @@
+# Sissejuhatus füüsikasse. Kulgliikumise kinemaatika[@Ainevaldkonna_undated-sr, lk 29-30]
+
+## Füüsika meetod
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. selgitab mõisteid loodus, maailm ja vaatleja; hindab füüsika kohta teiste loodusteaduste seas ning
+määratleb füüsika uurimisala;
+2. määratleb looduse struktuuritasemete skeemil makro-, mikro- ja megamaailma ning nimetab nende
+erinevusi;
+3. selgitab loodusteadusliku meetodi olemust ja teab, et eksperimenditulemusi üldistades jõutakse
+mudelini;
+4. põhjendab mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+6. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid;
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet;
+8. toob näiteid põhjusliku seose kohta;
+9. mõistab, et füüsika üldprintsiibid on kõige üldisemad tõdemused looduse kohta, ning tõestab nende
+kehtivust kooskõla eksperimendiga.
+
+### Õppesisu
+
+Füüsika kui loodusteadus. Füüsika kui nähtavushorisonte edasi nihutav teadus. Mikro-, makro- ja
+megamaailm. Loodusteaduslik meetod. Vaatlus, eksperiment, mudeli loomine. Mudeli järelduste kontroll
+ning mudeli areng. Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+Põhjuslikkus ja juhuslikkus füüsikas. Füüsika tunnetuslik ja ennustuslik väärtus. Füüsikaga seotud ohud.
+Üldprintsiibid.
+
+### Põhimõisted
+
+loodus, loodusteadus, füüsika, mõõtevahend, taatlemine, nähtavushorisont, makro-, mikro- ja
+megamaailm; vaatlus, hüpotees, eksperiment, mõõtmine, mõõtühik, mõõtühikute süsteem,
+mõõtemääramatus, mõõtesuurus, mõõdetava suuruse väärtus, mõõtetulemus
+
+### Praktiline tegevus ning teabe- ja suhtlustehnoloogia kasutamine
+
+1. juhusliku loomuga nähtuse (palli põrke, heitkeha liikumise, kaldpinnalt libisemise vms) uurimine koos
+mõõtmistulemuste analüüsiga; 
+2. keha joonmõõtmete mõõtmine ja korrektse mõõtetulemuse esitamine;
+3. mõõtmisest ning andmetöötlusest mudelini jõudmine erinevate katsete põhjal.
+
+## Kulgliikumise kinemaatika
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel;
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas;
+3. teab relativistliku füüsika peamist erinevust klassikalisest füüsikast;
+4. teab, et väli liigub aine suhtes alati suurima võimaliku kiiruse ehk absoluutkiirusega;
+5. eristab skalaarseid ja vektoriaalseid suurusi ning toob nende kohta näiteid;
+6. seletab füüsika valemites esineva miinusmärgi tähendust (suuna muutumine esialgsele
+vastupidiseks);
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid;
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise;
+9. lahendab probleemülesandeid, rakendades definitsioone ; kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks vastavalt
+10. liikumisvõrrandeid ;
+11. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala;
+12. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: .
+
+### Õppesisu
+
+Punktmass kui keha mudel. Koordinaadid. Taustsüsteem, liikumise suhtelisus. Relatiivsusprintsiip. Teepikkus
+ja nihe. Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud. Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused. Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta. Vaba langemise
+kiirendus. Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel. Erisihiliste liikumiste sõltumatus.
+
+### Põhimõisted
+
+füüsikaline suurus, skalaarne ja vektoriaalne suurus, pikkus, liikumisolek, aeg, kulgliikumine,
+punktmass, taustsüsteem, kinemaatika, teepikkus, nihe, keskmine kiirus, hetkkiirus, kiirendus, vaba
+langemine
+
+### Praktiline tegevus
+
+1. Kiiruse ja kiirenduse mõõtmine;
+2. langevate kehade liikumise uurimine;
+3. kaldrennis veereva kuuli liikumise uurimine;
+4. heitkeha liikumise uurimine. 
+
+## Kalender
+
+### 2023-09-04
+
+Teaduse olemus.
+
+### 2023-09-08
+
+Füüsika ja selle seos teiste valdkondadega.
+
+### 2023-09-11
+
+Mudelid, teooriad ja seadused.
+
+### 2023-09-15
+
+Mõõtmine ja määramatus; tüvenumbrid.
+
+### 2023-09-18
+
+Mõõtmine ja määramatus; tüvenumbrid.
+
+### 2023-09-22
+
+Ühikud, standardid ja Système Internationale.
+
+### 2023-09-25
+
+Ühikud, standardid ja Système Internationale.
+
+### 2023-09-29
+
+Ühikute teisendamine.
+
+### 2023-10-2
+
+Suurusjärk: kiire hindamine.
+
+### 2023-10-6
+
+Mõõtmed ja mõõtmete analüüs.
+
+### 2023-10-9
+
+Füüsika olemuse, mõõtmise ja hindamise teadmiste ja oskuste kaardistamine.
+
+### 2023-10-13
+
+### 2023-10-16
+
+### 2023-10-20
+
+### 2023-10-30
+
+### 2023-11-3
+
+### 2023-11-6
+
+### 2023-11-10
+
+### 2023-11-13
+
+### 2023-11-17
+
+### 2023-11-20
+
+### 2023-11-24
+
+Liikumise kirjeldamise teadmiste ja oskuste kaardistamine.
+
+### 2023-11-27
+
+### 2023-12-1
+
+### 2023-12-4
+
+### 2023-12-8
+
+### 2023-12-11
+
+### 2023-12-15
+
+### 2023-12-18
+
+### 2023-12-22
+
+### 2024-1-8
+
+### 2024-1-12
+
+### 2024-1-15
+
+Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
+
+### 2024-1-19
+
+### 2024-1-22

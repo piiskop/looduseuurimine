@@ -1,0 +1,191 @@
+# Füüsika ja tehnika
+
+## Valikkursuse lühikirjeldus
+
+Kursus on üles ehitatud õpilasele jõukohaste füüsikalis-tehnoloogiliste probleemide lahendamisele. Õpilane
+teeb konkreetse probleemiga seonduvaid põhjendatud ja kompetentseid otsuseid, arvestades probleemi
+loodusteaduslikke, tehnoloogilisi, majanduslikke, sotsiaalseid ja eetilisi dimensioone. Seejuures hoitakse
+tasakaalus varasemates, eelkõige füüsika, ent ka teiste loodusainete kohustuslikes kursustes omandatud
+teadmiste rakendamine uutes kontekstides ning uute tehnoloogiliste teadmiste ja oskuste omandamine
+lähtuvalt nüüdisaja kõrgtehnoloogia väljatöötluste füüsikalisest sisust.
+Kursuse struktuur põhineb üldjuhul kolmeastmelisel mudelil:
+1. probleemi tuvastamine (nt teravikmikroskoopias ilmnev vajadus teha kontrollitavaid nanoskoopilisi
+manipulatsioone);
+2. probleeme lahendav ja sageli uurimuslikul käsitlusviisil põhinev uute teadmiste omandamine
+(piesoelektrikud ja nende omadused);
+3. sobiva tehnoloogilise lahenduseni jõudmine (piesoelektrilised andurid ja täiturid).
+Palju kasutatakse praktilisi töid, millega määratakse peamiselt uuritava materjali või tehnilise seadme
+omadusi, kuid need võivad anda ka uusi füüsikalisi teadmisi.
+Kursuse õppesisu loetelus esitatakse 15 moodulit, igaüks mahuga 3–6 õppetundi. Nende hulgast valib õpetaja
+koostöös õpilastega enne selgitatud vajaduste või huvide põhjal kuni 8 moodulit. Moodulid on õppesisu
+loetelus esitatud nende käsitlemise soovitatavas järjestuses. Moodulite sisu uuendatakse pidevalt kooskõlas
+teaduse ja tehnoloogia arenguga ning teadmistepõhise ühiskonna vajadustega. Kui kohustusliku kursuse ja
+valikkursuse õppesisus on samad teemad, lisandub kohustusliku kursuse kvalitatiivkäsitlusele valikkursuses
+kvantitatiivkäsitlus.
+
+## Gümnaasiumi õppe- ja kasvatuseesmärgid
+
+Valikkursusega taotletakse, et kursuse läbinud õpilane omandaks:
+1. oma tõenäolises tulevases tehnilis-tehnoloogilises ametis kasulikke teadmisi;
+2. oskuse tuvastada füüsikalis-tehnilisi probleeme tavaelus;
+3. oskuse leida asjakohast ning usaldusväärset teavet meie tehnoloogilises keskkonnas ilmnevate
+probleemide lahendamise kohta;
+4. loodusteadusliku meetodi, sh uurimusliku käsitlusviisi kasutamise probleeme lahendades;
+5. oskuse teha põhjendatud tehnilis-tehnoloogilisi otsuseid lihtsamates situatsioonides;
+6. loomingulise ja kriitilisel mõtlemisel baseeruva vaate tehnoloogilistele probleemidele;
+7. suulise ja kirjaliku tehnoloogilise kommunikatsiooni oskusi; 
+8. loodusteaduslikke ja tehnoloogilisi teadmisi väärtustava hoiaku ning valmiduse elukestvaks õppeks;
+9. oskuse hinnata tehnoloogilisi riske ning prognoosida uute tehnoloogiliste lahenduste mõju
+keskkonnale. 
+
+## Õpitulemused
+
+Kursuse lõpus õpilane:
+1. oskab leida füüsikalis-tehnoloogilisi probleeme ja nende lahendusteid argielu situatsioonidest;
+2. analüüsib ja teeb põhjendatud otsuseid valitud füüsikalis-tehnoloogilisi näidisprobleeme lahendades;
+3. lõimib uued tehnoloogilised teadmised varem omandatud loodusteaduslike baasteadmistega
+ühtseks tervikuks;
+4. kirjeldab mingi füüsikalis-tehnoloogilise probleemi parajasti kasutuses olevat lahendust ning
+analüüsib selle eeliseid ja puudusi;
+5. analüüsib füüsikalis-tehnoloogiliste lahendustega kaasnevaid keskkonna- või personaalriske ja nende
+riskide minimeerimise võimalusi;
+6. mõistab füüsikaliste loodusteaduste ning vastavate tehnoloogiate olemust ja kohta ühiskonnas ning
+suhestatust kooli loodusteaduslike õppeainetega;
+7. on seesmiselt motiveeritud täiendama oma füüsikalis-tehnoloogilisi teadmisi terve elu vältel.
+
+## Õppesisu
+
+1. Aero- ja hüdrodünaamika. Keskkonna takistusjõud. Teised õhusõidukile mõjuvad jõud. Vedelike
+voolamine torudes. Inimese ja looma vereringe, diastoolne ja süstoolne vererõhk. Hüdroturbiin.
+2. Elastsuslained. Elastse deformatsiooni energia. Võnkumiste ja lainete energia. Võnkumiste liitumine.
+Võnkumiste spekter. Doppleri efekt helilainete korral. Helitugevus. Detsibell. Müra ja mürakaitse.
+3. Ebatavalised faasid ja faasisiirded. Gaaside veeldamine. Madalate temperatuuride saamine.
+Krüovedelikud ja krüogeenika. Allajahutatud ja ülekuumendatud vedelikud. Härmatumine
+(sublimatsioon), aine sulamistemperatuuri sõltuvus rõhust. Süsihappelumi ja teised mitte-H2O jääd.
+Lahused ja faasisiirded.
+4. Soojusmasinad ja energiamajandus. Termodünaamika I printsiibi ilmnemine isoprotsessides.
+Adiabaatiline protsess. Ideaalne soojusmasin. Soojusmasina kasutegur. Ringprotsess. Pööratavad ja
+mittepööratavad protsessid. Reaalsed soojusmasinad (auruturbiin, ottomootor, diiselmootor,
+stirlingmootor) ja nende kasutegurid. Energiaallikad, energia muundamine, transport ja salvestamine.
+5. Entroopia ja negentroopia. Entroopia mõiste käsitlused. Info, energia ja aine entroopiliselt
+seisukohalt. Maa ja universumi entroopia ning negentroopia. Mittetasakaalulised protsessid.
+Rakendused: külmuti ja soojuspump.
+6. Kondensaator ja induktiivpool. Plaatkondensaatori mahtuvus. Kondensaatorite ehitus ja liigid. Laetud
+kondensaatori energia. Kondensaatorite kasutusnäited. Pika ja peenikese pooli induktiivsus. Vooluga
+induktiivpooli energia. Ülijuhtiva mähisega elektromagnetid ja nende kasutamine.
+7. Juhid ja dielektrikud. Dielektrikute polarisatsioon. Varjestamine. Aine dielektriline läbitavus.
+Piesoelektrikud ja ferroelektrikud. Rakendused: piesoelektrilised andurid ja täiturid, elektronkaal,
+kvartskell.
+8. Ainete magnetilised omadused. Aine magnetiline läbitavus. Dia- ja paramagneetikud. Kõvad ja
+pehmed ferromagneetikud. Ferromagneetiku domeenstruktuur ja hüsterees. Rakendused:
+elektromagnetid ja magnetiline infosalvestus.
+9. Elektrivool vedelikes ja gaasides. Elektrolüüs. Faraday I seadus elektrolüüsi kohta. Elektrolüüsi
+rakendusnäiteid. Sõltuv ja sõltumatu gaaslahendus. Kasutusnäited.
+10. Pooljuhtelektroonika. Juhi, pooljuhi ja mittejuhi erinevused tsooniteoorias. Pooljuhtide omajuhtivus
+ja selle rakendused: termotakisti, fototakisti, pooljuht-kiirgusdetektor. Pooljuhtide legeerimine.
+Elektronjuhtivus ja aukjuhtivus. pn-siire. Alaldi, fotodiood, valgusdiood, dioodmaatriks, CCD-maatriks,
+pooljuhtlaser. Päikesepaneelid. Bipolaar- ja väljatransistor. Kiip, selle kasutamine analoog- ja
+digitaallülitustes.
+11. Vahelduvvoolu kasutamine. Vahelduvvoolu iseloomustavad suurused. Elektriohutus. Kaitsemaandus.
+Kaitsmed. Aktiiv-, induktiiv- ja mahtuvustakistus vahelduvvooluahelas. Näivtakistus. Kogutakistus.
+Ohmi seadus vahelduvvooluahela kohta.
+12. Vahelduvvoolumasinad. Alalisvoolumootor ja -generaator. Trafo talitlus, trafode kasutamine.
+Vahelduvvoolugeneraator ja asünkroonmootor. Vahelduvvoolu võimsustegur. Kolmefaasiline vool.
+Elektrienergia tootmine, ülekanne ja jaotamine Eesti näitel.
+13. Elektromagnetvõnkumised ja -lained. Võnkering. Elektromagnetlainete tekitamine.
+Elektromagnetlainete skaala. Raadiolained ja nende levimine. Raadioside põhialused.
+Raadiolokatsioon ja GPS. Nüüdisaegsed sidevahendid.
+14. Optilised seadmed. Valguskiir. Valguse sirgjooneline levimine. Valguse täielik peegeldumine.
+Valgusjuhid ja nende kasutamine. Optilised süsteemid (objektiiv, teleskoop, mikroskoop), nende
+lahutusvõime. Polariseeritud valgus ja selle saamine. Rakendused: polaroidprillid ja
+vedelkristallekraan.
+15. Fotomeetria. Inimsilma valgustundlikkus. Valgustugevus ja valgusvoog. Valgustatus. Ruuminurk.
+Ühikud: kandela, luumen ja luks. Luksmeeter. Erinevate valgusallikate valgusviljakused.
+
+## Õppetegevus
+
+Kasutatakse järgmisi õppemeetodeid:
+1. konkreetses kontekstis vajaliku füüsikalis-tehnoloogilise info leidmine õppetekstidest ja veebist;
+2. teadmiste kinnistamine interaktiivsete õppevideote ja arvutimudelitega;
+3. kas reaalsuses praktiliselt või katsevahendite puudumise korral virtuaalselt tehtavad uurimistööd, et
+määrata eelkõige vaatlusaluse materjali või tehnilise seadme omadused;
+4. rühmatöö, et leida ja analüüsida füüsikalis-tehnoloogilisi probleeme ning otsida neile lahendusi;
+5. mingi tehnoloogilise lahenduse või selle alternatiivide olemust kirjeldava ning analüüsiva essee
+kirjutamine; esseede vastastikune hindamine;
+6. loovust arendavad tegevused: plakati loomine, arvutiesitluste koostamine, debatid ja rollimängud,
+ajurünnak;
+7. Cmapi meetodi kasutamine, et teadvustada ja kinnistada vaadeldava temaatika sisemisi olemuslikke
+seoseid;
+8. uuenduslike projektide kavandamine. 
+
+## Kalender
+
+### 2023-09-08
+
+### 2023-09-15
+
+### 2023-09-22
+
+### 2023-09-29
+
+### 2023-10-6
+
+### 2023-10-13
+
+### 2023-10-20
+
+### 2023-11-3
+
+### 2023-11-10
+
+### 2023-11-17
+
+### 2023-11-24
+
+### 2023-12-1
+
+### 2023-12-8
+
+### 2023-12-15
+
+### 2023-12-22
+
+### 2024-1-12
+
+### 2024-1-19
+
+### 2024-1-26
+
+### 2024-2-2
+
+### 2024-2-9
+
+### 2024-2-16
+
+### 2024-2-23
+
+### 2024-3-8
+
+### 2024-3-15
+
+### 2024-3-22
+
+### 2024-3-29
+
+### 2024-4-5
+
+### 2024-4-12
+
+### 2024-4-19
+
+### 2024-4-26
+
+### 2024-5-3
+
+### 2024-5-10
+
+### 2024-5-17
+
+### 2024-5-24
+
+### 2024-5-31

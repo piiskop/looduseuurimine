@@ -1,0 +1,200 @@
+# Elektromagnetism[@Ainevaldkonna_undated-sr, lk 33-34]
+
+## Elektriväli ja magnetväli
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust;
+2. võrdleb mõisteid aine ja väli;
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit ;
+4. kasutab probleeme lahendades
+Coulomb’i seadust
+5. kasutab probleeme lahendades seoseid ;
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis;
+7. teab, et kahe erinimeliselt laetud paralleelse plaadi vahel tekib homogeenne elektriväli;
+8. teab, et magnetväljal on kaks põhimõtteliselt erinevat võimalikku tekitajat: püsimagnet ja elektrivool,
+ning rakendab valemit ;
+9. kasutab probleeme lahendades Ampere’i seadust ;
+10. määrab sirgvoolu tekitatud magnetinduktsiooni suuna etteantud punktis;
+11. kasutab valemit F = B I l sin α ning Ampere’i jõu suuna määramise eeskirja;
+12. rakendab probleeme lahendades Lorentzi jõu valemit FL = q v B sin α ning määrab Lorentzi jõu suunda;
+13. seletab pööriselektrivälja tekkimist magnetvoo muutumisel, rakendades
+induktsiooni elektromotoorjõu mõistet;
+14. võrdleb generaatori ning elektrimootori tööpõhimõtteid;
+15. selgitab elektri- ja magnetvälja energia salvestamise võimalusi.
+
+### Õppesisu
+
+Elektrilaeng. Elementaarlaeng. Laengu jäävuse seadus. Elektrivool. Aine ja väli. Coulomb’i seadus.
+Punktlaeng. Väljatugevus. Elektrivälja potentsiaal ja pinge. Pinge ja väljatugevuse seos. Välja
+visualiseerimine, välja jõujooned. Väljade liitumine, superpositsiooni printsiip. Homogeenne elektriväli kahe
+erinimeliselt laetud plaadi vahel, kondensaator. Püsimagnet ja vooluga juhe. Ampere’i jõud.
+Magnetinduktsioon. Liikuvale laetud osakesele mõjuv Lorentzi jõud. Magnetväljas liikuva juhtmelõigu otstele
+indutseeritav pinge. Elektromagnetiline induktsioon. Induktsiooni elektromotoorjõud. Magnetvoog. Faraday
+induktsiooniseadus. Elektrimootor ja generaator. Lenzi reegel. Eneseinduktsioon.
+Induktiivpool. Homogeenne magnetväli solenoidis. Elektri- ja magnetvälja energia.
+
+### Põhimõisted
+
+elektrilaeng, elementaarlaeng, voolutugevus, punktlaeng, elektriväli, elektrivälja tugevus,
+potentsiaal, pinge, elektronvolt, jõujoon, kondensaator, püsimagnet, magnetväli, magnetinduktsioon,
+Lorentzi jõud, pööriselektriväli, induktsiooni elektromotoorjõud, magnetvoog, endainduktsioon
+
+### Praktiline tegevus
+
+1. Tutvumine välja mõistega elektri- ja magnetvälja näitel;
+2. elektrostaatika katsete tegemine;
+3. kahe vooluga juhtme magnetilise vastastikmõju uurimine; 
+4. Ørstedi katsega tutvumine;
+5. elektromagnetilise induktsiooni uurimine;
+6. Lenzi reegli rakendamine;
+7. elektrimootori ja selle omaduste uurimine;
+8. tutvumine kondensaatorite ja induktiivpoolide tööga. 
+
+## Elektromagnetlained
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. selgitab elektromagnetlaine mõistet ja elektromagnetlainete rakendusi;
+2. kirjeldab võnkeringi kui elektromagnetlainete kiirgamise ja vastuvõtu baasseadet;
+3. kirjeldab elektromagnetlainete skaalat, rakendades seost c = f λ, ning teab nähtava valguse
+lainepikkuste piire ja põhivärvuste lainepikkuste järjestust;
+4. selgitab graafiku järgi elektromagnetlainete amplituudi ja intensiivsuse mõistet;
+5. kirjeldab joonisel või arvutiimitatsiooniga interferentsi- ja difraktsiooninähtusi optikas ning toob
+nende rakendamise näiteid;
+6. seletab valguse koherentsuse tingimusi ja nende täidetuse vajalikkust vaadeldava
+a. interferentsipildi saamisel;
+7. seostab polariseeritud valguse omadusi rakendustega looduses ja tehnikas;
+8. rakendab valguse murdumisseadust, kasutades seoseid ;
+9. kirjeldab valge valguse spektriks lahutumise võimalusi;
+10. võrdleb spektrite põhiliike;
+11. seletab valguse tekkimist aatomi energiatasemete skeemil ning rakendab probleeme
+a. lahendades valemit E = h f;
+12. selgitab valguse korral dualismiprintsiipi ja selle seost atomistliku printsiibiga;
+13. eristab soojuskiirgust ja luminestsentsi ning seostab neid vastavate valgusallikatega.
+
+### Õppesisu
+
+Elektromagnetlainete skaala. Lainepikkus ja sagedus. Nähtava valguse värvuse seos valguse lainepikkusega
+vaakumis. Elektromagnetlainete amplituud ja intensiivsus. Difraktsioon ja interferents, nende
+rakendusnäited. Murdumisseadus. Murdumisnäitaja seos valguse kiirusega. Valguse dispersioon.
+Spektroskoobi töö põhimõte. Spektraalanalüüs. Polariseeritud valgus, selle saamine, omadused ja
+rakendused. Valguse dualism ning dualismiprintsiip looduses. Footoni energia. Atomistlik printsiip. Valguse
+kiirgumine. Soojuskiirgus ja luminestsents.
+
+### Põhimõisted
+
+elektromagnetlaine, elektromagnetlainete skaala, lainepikkus, sagedus, kvandi (footoni)
+energia, dualismiprintsiip, amplituud, intensiivsus, difraktsioon, interferents, polarisatsioon,
+elektromagnetväli, murdumine, absoluutne ja suhteline murdumisnäitaja, valguse dispersioon aines, prisma,
+luminestsents
+
+### Praktiline tegevus
+
+1. Ühelt pilult, kaksikpilult ja juuksekarvalt saadava difraktsioonipildi uurimine;
+2. läbipaistva aine murdumisnäitaja määramine;
+3. spektroskoobi valmistamine;
+4. tutvumine erinevate valgusallikatega;
+5. valguse spektri uurimine;
+6. soojuskiirguse uurimine;
+7. polaroidide tööpõhimõtte uurimine;
+8. valguse polariseerumise uurimine peegeldumisel. 
+
+## Kalender
+
+### 2023-09-04
+
+Staatiline elekter, elektrilaeng ja selle jäävus.
+
+Elektrilaeng aatomis.
+
+Isolaatorid ja juhid.
+
+Indutseeritud laeng ja elektroskoop.
+
+### 2023-09-08
+
+### 2023-09-11
+
+### 2023-09-15
+
+Elektrilaengu ja elektrivälja teadmiste ja oskuste kaardistamine.
+
+### 2023-09-18
+
+### 2023-09-22
+
+### 2023-09-25
+
+### 2023-09-29
+
+Elektrilise potentsiaali teadmiste ja oskuste kaardistamine.
+
+### 2023-10-2
+
+### 2023-10-6
+
+### 2023-10-9
+
+### 2023-10-13
+
+Elektrivoolu teadmiste ja oskuste kaardistamine.
+
+### 2023-10-16
+
+### 2023-10-20
+
+### 2023-10-30
+
+### 2023-11-3
+
+Magnetismi teadmiste ja oskuste kaardistamine.
+
+### 2023-11-6
+
+### 2023-11-10
+
+### 2023-11-13
+
+### 2023-11-17
+
+Elektromagnetilise induktsiooni ja Faraday' seaduse teadmiste ja oskuste kaardistamine.
+
+### 2023-11-20
+
+### 2023-11-24
+
+### 2023-11-27
+
+### 2023-12-1
+
+Elektromagnetiliste lainete teadmiste ja oskuste kaardistamine.
+
+### 2023-12-4
+
+### 2023-12-8
+
+### 2023-12-11
+
+### 2023-12-15
+
+Geomeetrilise optika teadmiste ja oskuste kaardistamine.
+
+### 2023-12-18
+
+### 2023-12-22
+
+### 2024-1-8
+
+### 2024-1-12
+
+Valguse lainelise olemuse teadmiste ja oskuste kaardistamine.
+
+### 2024-1-15
+
+### 2024-1-19
+
+### 2024-1-22

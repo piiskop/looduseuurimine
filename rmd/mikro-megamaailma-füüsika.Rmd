@@ -1,0 +1,195 @@
+# Mikro- ja megamaailma füüsika[@Ainevaldkonna_undated-sr, lk 36-38]
+
+## Aine ehituse alused
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. kirjeldab aine olekuid mikrotasandil;
+2. võrdleb reaalgaasi ja ideaalgaasi mudeleid;
+3. kasutab mõisteid küllastunud aur, absoluutne niiskus, suhteline niiskus ja kastepunkt ning seostab
+neid ilmastikunähtustega;
+4. selgitab mõisteid pindpinevus, märgamine ja kapillaarsus looduses ning tehnoloogias toimuvate
+nähtustega;
+5. kirjeldab aine olekuid, kasutades õigesti mõisteid faas ja faasisiire; 
+6. seletab faasisiirdeid erinevatel rõhkudel ja temperatuuridel.
+
+### Õppesisu
+
+Aine olekud, nende sarnasused ja erinevused. Aine olekud mikrotasemel. Molekulaarjõud. Reaalgaas. Veeaur
+õhus. Õhuniiskus. Küllastunud ja küllastumata aur. Absoluutne ja suhteline niiskus, kastepunkt.
+Ilmastikunähtused. Pindpinevus. Märgamine ja kapillaarsus, nende ilmnemine looduses. Faasisiirded ning
+siirdesoojused.
+
+### Põhimõisted
+
+aine olek, gaas, vedelik, kondensaine, tahkis, reaalgaas, küllastunud aur, absoluutne ja
+suhteline niiskus, kastepunkt, faas ja faasisiire
+
+### Praktiline tegevus
+
+1. Sulamistemperatuuri määramine;
+2. jahutussegude võrdlemine;
+3. keemistemperatuuri sõltuvuse määramine sõltuvalt lahuse kontsentratsioonist;
+4. õhuniiskuse mõõtmine;
+5. pindpinevuse uurimine;
+6. seebivee omaduste uurimine.
+
+## Mikromaailma füüsika
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. nimetab välis- ja sisefotoefekti olulisi tunnuseid;
+2. kasutab leiulaine mõistet mikromaailma nähtusi kirjeldades;
+3. kirjeldab elektronide difraktsiooni;
+4. nimetab füüsikaliste suuruste paare, mille vahel valitseb määramatusseos;
+5. analüüsib eriseoseenergia ja massiarvu sõltuvuse graafikut;
+6. teab, et massi ja energia samasust kirjeldab valem E = m c2
+;
+7. kirjeldab tuumade lõhustumise ja sünteesi reaktsioone;
+8. seletab radioaktiivse dateerimise meetodi olemust ning toob näiteid selle meetodi rakendamise
+kohta;
+9. seletab tuumareaktorite üldist tööpõhimõtet ning analüüsib tuumaenergeetika eeliseid ja sellega
+seonduvaid ohte;
+10. teab ioniseeriva kiirguse liike ja allikaid, analüüsib ioniseeriva kiirguse mõju elusorganismidele ning
+pakub võimalusi kiirgusohu vähendamiseks.
+
+### Õppesisu
+
+Välis- ja sisefotoefekt. Aatomimudelid. Osakeste leiulained. Kvantmehaanika. Elektronide difraktsioon.
+Määramatusseos. Aatomi kvantarvud. Aatomituum. Massidefekt. Seoseenergia. Eriseoseenergia. Massi ja
+energia samaväärsus. Tuumareaktsioonid. Tuumaenergeetika ja tuumarelv. Radioaktiivsus. Poolestusaeg.
+Radioaktiivne dateerimine. Ioniseerivad kiirgused ja nende toimed. Kiirguskaitse.
+
+### Põhimõisted
+
+välis- ja sisefotoefekt, kvantarv, energiatase, kvantmehaanika, määramatusseos,
+eriseoseenergia, tuumaenergeetika, tuumarelv, radioaktiivsus, poolestusaeg, radioaktiivne dateerimine,
+ioniseeriv kiirgus, kiirguskaitse
+
+### Praktiline tegevus
+
+1) tutvumine fotoefektiga;
+2) kiirgusfooni mõõtmine;
+3) udukambri valmistamine. 
+
+## Megamaailma füüsika
+
+### Õpitulemused
+
+Kursuse lõpus õpilane: 
+1. teab, et info maailmaruumist jõuab meieni elektromagnetlainetena; nimetab ning eristab
+maapealseid ja kosmoses liikuvaid astronoomia vaatlusvahendeid;
+2. võrdleb Päikesesüsteemi põhiliste koostisosade mõõtmeid ja liikumisviisi: Päike, planeedid,
+kaaslased, asteroidid, väikeplaneedid, komeedid, meteoorkehad;
+3. kirjeldab tähti, nende evolutsiooni ja planeedisüsteemide tekkimist;
+4. kirjeldab galaktikate ehitust ja evolutsiooni;
+5. kirjeldab universumi tekkimist ja arengut Suure Paugu teooria põhjal.
+
+### Õppesisu
+
+Astronoomia vaatlusvahendid ja nende areng. Tähtkujud. Maa ja Kuu perioodiline liikumine aja arvestuse
+alusena. Kalender. Päikesesüsteemi koostis, ehitus ning tekkimise hüpoteesid. Päike ja teised tähed. Tähtede
+evolutsioon. Galaktikad. Linnutee galaktika. Universumi struktuur. Universumi evolutsioon.
+Põhimõisted: observatoorium, teleskoop, kosmoseteleskoop, Päikesesüsteem, planeet, planeedikaaslane,
+tehiskaaslane, asteroid, komeet, väikeplaneet, meteoorkeha, täht, galaktika, Linnutee, kosmoloogia.
+
+### Praktilised tööd
+
+1) Erinevate taevakehade vaatlemine;
+2) päikesekella valmistamine. 
+
+## Kalender
+
+### 2023-09-04
+
+Aine faasid.
+
+Tihedus ja erikaal.
+
+Rõhk voolavates ainetes.
+
+Atmosfäärirõhk ja manomeetriline rõhk.
+
+### 2023-09-11
+
+### 2023-09-18
+
+### 2023-09-25
+
+### 2023-10-2
+
+Vedelike teadmiste ja oskuste kaardistamine.
+
+### 2023-10-9
+
+### 2023-10-16
+
+### 2023-10-30
+
+### 2023-11-6
+
+### 2023-11-13
+
+Erirelatiivsusteooria teadmiste ja oskuste kaardistamine.
+
+### 2023-11-20
+
+### 2023-11-27
+
+### 2023-12-4
+
+### 2023-12-11
+
+### 2023-12-18
+
+Varase kvantteooria ja aatomi mudelite teadmiste ja oskuste kaardistamine.
+
+### 2024-1-8
+
+### 2024-1-15
+
+### 2024-1-22
+
+### 2024-1-29
+
+### 2024-2-5
+
+Aatomite kvantmehaanika teadmiste ja oskuste kaardistamine.
+
+### 2024-2-12
+
+### 2024-2-19
+
+### 2024-3-4
+
+### 2024-3-11
+
+### 2024-3-18
+
+Tuumafüüsika ja radioaktiivuse teadmiste ja oskuste kaardistamine.
+
+### 2024-3-25
+
+### 2024-4-1
+
+### 2024-4-8
+
+### 2024-4-15
+
+### 2024-4-22
+
+Tuumaenergia ning radiatsiooni mõju ja kasutamise teadmiste ja oskuste kaardistamine.
+
+### 2024-4-29
+
+### 2024-5-6
+
+### 2024-5-13
+
+### 2024-5-20
+
+### 2024-5-27
+
+Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
