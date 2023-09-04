@@ -4,9 +4,11 @@ delete_merged_file: true
 rmd_files: [
   "index.Rmd",
   "rmd/hindamine.Rmd",
+  "rmd/baasreeglistik.Rmd",
   "rmd/sissejuhatus-kulgliikumise-kinemaatika.Rmd",
   "rmd/elektromagnetism.Rmd",
   "rmd/mikro-megamaailma-füüsika.Rmd",
   "rmd/füüsika-tehnika.Rmd",
+  "rmd/keemia-alused.Rmd",
   "references.Rmd"
 ]
