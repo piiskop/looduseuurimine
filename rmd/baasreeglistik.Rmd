@@ -36,6 +36,13 @@ Aja mõõtühik Système Internationale's on sekund.
 sekund
 : kestus 9 192 631 770 kiirgusperioodi, mis vastab $\ce{^133Cs}$ aatomi häirimatu põhiseisundi kahe ülipeene taseme vahelisele üleminekule
 
+$$SECONDS\_IN\_YEAR = (\frac{241}{1000} \cdot 366 + \frac{1000 - 241}{1000} \cdot 365) \cdot 24 \cdot 60 \cdot 60$$
+
+```{r label = "seconds_in_year", echo=FALSE}
+SECONDS_IN_YEAR <- (365 * (9 * 76 + 75) + 366 * (9 * 24 + 25)) / 1000 * 24 * 60 * 60
+SECONDS_IN_YEAR
+```
+
 \onecolumn
 
 ### Vahemaa
@@ -430,6 +437,62 @@ Avaldan avaldisest \@ref(eq:planck-constant) leheküljel `r render_pageref(refer
 
 []{#momentum}
 
+## Massikontsentratsioon (massi tihedus)
+
+```{r label = "calculate-V"}
+#' This function calculates the volume of a substance, given its mass concentration, and its mass.
+#'
+#' @param density the mass concentration
+#' @param m_B the mass
+#' 
+#' @returns the volume
+calculate_V <- function(density, m_B) {
+  return(m_B / density)
+}
+
+```
+
+```{=tex}
+\begin{align}
+γ_\mathrm{B} := \frac{m_\mathrm{B}}{V}
+(\#eq:mass-concentration)
+\end{align}
+```
+
+[@haynes_2014_crc, p. 2-8].
+
+Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{M}{L^3}},
+(\#eq:dimensional-analysis-for-mass-concentration)
+\end{align}
+```
+
+millest johtuvalt on ühik $\unit{\kilogram\per\cubic\metre}$.
+
+Massikontsentratsiooni konverteerimine grammidest kuupsentimeetri kohta kilogrammidesse kuupmeetri kohta on näidatud avaldises \@ref(eq:mass-concentration-conversion-from-g-per-cm3-to-kg-per-m3):
+
+```{=tex}
+\begin{align}
+\qty{1}{\g\per\cm\cubed} \times \qty{0,001}{\kg\per\g} \times \qty{1e6}{\cm\cubed\per\metre\cubed} = \qty{1000}{\kg\metre\cubed}.
+(\#eq:mass-concentration-conversion-from-g-per-cm3-to-kg-per-m3)
+\end{align}
+```
+
+```{r label = "coversion-from-g-per-cm3-to-kg-per-m3"}
+#' This function converts a mass concentration from grams per cubic centimeters to kilograms per cubic meters.
+#' 
+#' @param g_per_cm3 the mass concentration in grams per cubic centimeters
+#' 
+#' @returns the mass concentration in kilograms per cubic meters
+convert_from_g_per_cm3_to_kg_per_m3 <- function(g_per_cm3) {
+  return(g_per_cm3 * 1e-3 * 1e6)
+}
+
+```
+
 ## Impulss
 
 ### Lineaarne impulss
@@ -664,6 +727,126 @@ Et väljendada jõumoment impulsimomendi kaudu, asendan jõumomendi avaldamise v
 \begin{align}
 \vec{T} = \frac{\mathrm{d}(\vec{L})}{\mathrm{d}(\vec{\omega})} \times \vec{\frac{\mathrm{d}(\omega)}{\mathrm{d}(t)}} = \frac{\mathrm{d}({\vec{L}})}{\mathrm{d}(t)}.
 (\#eq:torque-by-angular-velocity)
+\end{align}
+
+```
+
+## Rõhk
+
+```{=tex}
+\begin{align}
+p := \frac{F}{A} = \frac{m \cdot a}{A},
+(\#eq:pressure)
+\end{align}
+```
+
+kus *A* on pindala [@haynes_2014_crc, p. 2-2]. Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{L \cdot M}{T^2 \cdot L^2} = \frac{M}{T^2 \cdot L}},
+(\#eq:dimensional-analysis-for-pressure)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\kilogram\per\second\squared\per\meter}$ või lühemalt $\unit{\pascal}$.
+
+
+```{r label = "pressure"}
+p <- 100e3
+p_at <- 101.325e3
+```
+
+standardseisund
+: määratletud olek (määratud temperatuur, rõhk, kontsentratsioon jne) termodünaamiliste funktsioonide tabeleerimiseks ja termodünaamiliste arvutuste tegemiseks [@haynes_2014_crc, p. 2-65]
+
+Standardseisundi rõhk on `r p` $\unit{\pascal}$ [@haynes_2014_crc, p. 1-7]. Standardne atmosfäärirõhk on `r p_at` $\unit{\pascal}$ [@haynes_2014_crc, p. 6-12].
+
+Ideaalse gaasi rõhk:
+```{r label = "r"}
+R <- 8314.472e-3
+librarian::shelf("psychrolib")
+T_0 <- GetTKelvinFromTCelsius(0)
+T_1 <- GetTKelvinFromTCelsius(200)
+```
+
+```{=tex}
+\begin{align}
+p := \frac{n \cdot R \cdot T}{V},
+(\#eq:pressure-of-ideal-gas)
+\end{align}
+```
+
+milles *n* on ainehulk, *R* on universaalne gaasikonstant $`r R` \times \unit{\joule\per\mole\per\kelvin}$ ja *V* on ruumala [@American_Society_of_Heating_Refrigerating_and_Air-Conditioning_Engineers2017-im, p. 14]. Dimensionaalanalüüs:
+
+
+```{=tex}
+\begin{align}
+\frac{\mathrm{N} \cdot \frac{\mathrm{L^2 \cdot M}}{\mathrm{T^2 \cdot N} \cdot \Theta} \cdot \Theta}{\mathrm{L^3}} = \mathrm{\frac{M}{L \cdot T^2}},
+(\#eq:dimensional-analysis-for-pressure-of-ideal-gas)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\kilogram\per\meter\per\second\squared}$ ehk lühemalt $\unit{\pascal}$.
+```{r label = "p-sat-of-liquid-h2o"}
+T_p_sat <- 237.3 - T_0 # must be separated as used inside an equation
+
+#' This function calculates the saturation vapor pressure.
+#' 
+#' @param T the absolute temperature
+#' @param method the method of calculation: "ASHRAE" or "FAO"
+#' 
+#' @returns the saturation vapor pressure
+calculate_p_sat <- function(T, method) {
+  
+  if (is.null(method)) {
+    stop("The method must be either \"ASHRAE\" or \"FAO\". The method is currently not set.")
+  } else if ("ASHRAE" == method) {
+    
+    for (index in 1:length(T)) {
+    
+      if (T[index] < 273.15 | T[index] > 473.15) {
+        stop(paste("The absolute temperature must be between 273.15 and 473.15 K inclusive. The current absolute temperature at the position", index, "is", T[index], "K."))
+      }
+      
+    }
+  
+    p_sat <- exp(-5.8002206e3 / T + 1.3914993 - 4.8640239e-2 * T + 4.1764768e-5 * T^2 - 1.4452093e-8 * T^3 + 6.5459673 * log(T))
+  } else if ("FAO" == method) {
+    p_sat <- 610.8 * exp((17.27 * (T - T_0)) / (T + T_p_sat))
+  } else {
+    stop(paste("The method must be either \"ASHRAE\" or \"FAO\". The method is currently", method, "."))
+  }
+  
+  return(signif(p_sat, digits = 5))
+}
+
+```
+
+Küllastusrõhk vedela vee kohal temperatuurivahemikus $\qty{`r as.character(T_0)`}{\kelvin}$ kuni $\qty{`r as.character(T_1)`}{\kelvin}$ on antud valemiga
+
+```{=tex}
+
+\begin{align}
+& p_\text{sat} && := e^{\sum_{i := 8}^{n}{C_i \times T^{i - 9}} + 6.5459673 \times \mathrm{ln}(T)}\\
+&&&= e^{\sum_{i := 8}^n{C_i \times (t + 273.15)^{i - 9}} + 6.5459673 \times \mathrm{ln}(t + 273.15)}\text{, kus}\\
+& C_8 && := -5.8002206 \times 10^3,\\
+& C_9 && := 1.3914993,\\
+& C_{10} && := -4.8640239 \times 10^{-2},\\
+& C_{11} && := 4.1764768 \times 10^{-5},\\
+& C_{12} && := -1.4452093 \times 10^{-8}
+(\#eq:saturation-pressure-over-liquid-h2o)
+\end{align}
+
+```
+
+milles *T* on absoluutne temperatuur [@American_Society_of_Heating_Refrigerating_and_Air-Conditioning_Engineers2017-im, p. 14]. [@inbook, p. 37] on esitatud teistsugune valem küllastusrõhu arvutamiseks:
+
+```{=tex}
+
+\begin{align}
+p_\text{sat} := 610.8 \times e^\frac{17.27 \times (T - \qty{`r as.character(T_0)`}{\kelvin})}{T - \qty{`r as.character(T_0)`}{\kelvin} + \qty{237.3}{\kelvin}} \times \unit{\pascal} = 610.8 \times e^\frac{17.27 \times (T - \qty{`r as.character(T_0)`}{\kelvin})}{T + \qty{`r as.character(T_p_sat)`}{\kelvin}} \times \unit{\pascal}.
+(\#eq:saturation-pressure-in-inbook)
 \end{align}
 
 ```
@@ -1087,3 +1270,63 @@ calculate_force_through_electric_field_strength <- function(E, Q) {
 \end{align}
 
 ```
+
+\onecolumn
+
+## Ühikud
+
++----------+-----------------+--------+------------+--------------------+
+| Eesliide | Kümne astendaja | Lühend | Näide      | Selgitus           |
++==========+=================+========+============+====================+
+| piko-    | -12             | p      | 1 pN    | üks pikonjuuton    |
++----------+-----------------+--------+------------+--------------------+
+| nano-    | -9              | n      | 2 nm    | kaks nanomeetrit   |
++----------+-----------------+--------+------------+--------------------+
+| mikro-   | -6              | μ      | 3 μg    | kolm mikrogrammi   |
++----------+-----------------+--------+------------+--------------------+
+| milli-   | -3              | m      | 4 mW    | neli millivatti    |
++----------+-----------------+--------+------------+--------------------+
+| senti-   | -2              | c      | 5 cK    | viis sentikelvinit |
++----------+-----------------+--------+------------+--------------------+
+| detsi-   | -1              | d      | 6 dA    | kuus detsiamprit   |
++----------+-----------------+--------+------------+--------------------+
+| deka-    | 1               | D      | 7 Db    | seitse dekabitti   |
++----------+-----------------+--------+------------+--------------------+
+| hekto-   | 2               | H      | 8 HB    | kaheksa hektobaiti |
++----------+-----------------+--------+------------+--------------------+
+| kilo-    | 3               | K      | 9 Klx   | üheksa kiloluksi   |
++----------+-----------------+--------+------------+--------------------+
+| mega-    | 6               | M      | 10 MJ   | kümme megadžauli   |
++----------+-----------------+--------+------------+--------------------+
+| giga-    | 9               | G      | 100 GPa | sada gigapaskalit  |
++----------+-----------------+--------+------------+--------------------+
+| tera-    | 12              | T      | .5 Tcd  | pool terakandelat  |
++----------+-----------------+--------+------------+--------------------+
+
+: Ühikute eesliited
+
+Konvertereid:
+
+1.  (UnitConverters.net)[<https://www.unitconverters.net/volume/cubic-kilometer-to-cubic-meter.htm>]
+
+2.  (Calculate weight of compounds and materials per volume)[<https://www.aqua-calc.com/calculate/volume-to-weight>]
+
+```{r label = "converters", echo=FALSE}
+convertFromKmPerHToMPerS <- function(velocityInKmPerH) {
+  (velocityInKmPerH * 1000 / 3600)
+}
+
+convertFromMiToM <- function(mi) {
+  mi * 1609.344
+}
+
+convertFromFtToM <- function(ft) {
+  convertFromMiToM(ft / 5280)
+}
+
+convert_degrees_to_radians <- function(degrees) {
+  return(degrees * pi / 180)
+}
+```
+
+\twocolumn

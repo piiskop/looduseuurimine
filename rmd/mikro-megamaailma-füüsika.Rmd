@@ -100,7 +100,137 @@ tehiskaaslane, asteroid, komeet, väikeplaneet, meteoorkeha, täht, galaktika, L
 1) Erinevate taevakehade vaatlemine;
 2) päikesekella valmistamine. 
 
-## Kalender
+## Kalender Edu Valemis
+
+### 2023-09-07
+
+Aine faasid.
+
+Tihedus ja erikaal.
+
+Rõhk voolavates ainetes.
+
+Atmosfäärirõhk ja manomeetriline rõhk.
+
+Eesmärk: Oskus kirjeldada aine olekuid mikrotasandil.
+
+Õppesisu: Aine olekud, nende sarnasused ja erinevused.
+
+Põhimõisted: aine olek, gaas, vedelik.
+
+Kava:
+
+1. Tutvustus.
+
+2. Ajurünnak õpitu kohta.
+
+3. Arutelu aine faaside üle[@giancoli, lk 261, @fsikaline, lk 18-24].
+
+4. Arutelu tiheduse ja erikaalu üle koos arvutusülesande lahendamisega[@giancoli, lk 261-262].
+
+5. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesannete lahendamisega[@giancoli, lk 262-263].
+
+6. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@giancoli, lk 24].
+
+7. Kokkuvõte.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave! Lahendada @giancoli, lk 285-286 õpikust ülesanded 1, 3, 5, 7.
+
+### 2023-09-07
+
+Pascali põhimõte[@giancoli, lk 265].
+
+Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267].
+
+Elavhõbedaga õhurõhu mõõtmise video kogemine (hiljem).
+
+Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
+
+Kõrrega joomise demonstratsioon.
+
+Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272].
+
+### 2023-09-18
+
+### 2023-09-25
+
+### 2023-10-2
+
+Voolavate ainete teadmiste ja oskuste kaardistamine.
+
+### 2023-10-9
+
+### 2023-10-16
+
+### 2023-10-30
+
+### 2023-11-6
+
+### 2023-11-13
+
+Erirelatiivsusteooria teadmiste ja oskuste kaardistamine.
+
+### 2023-11-20
+
+### 2023-11-27
+
+### 2023-12-4
+
+### 2023-12-11
+
+### 2023-12-18
+
+Varase kvantteooria ja aatomi mudelite teadmiste ja oskuste kaardistamine.
+
+### 2024-1-8
+
+### 2024-1-15
+
+### 2024-1-22
+
+### 2024-1-29
+
+### 2024-2-5
+
+Aatomite kvantmehaanika teadmiste ja oskuste kaardistamine.
+
+### 2024-2-12
+
+### 2024-2-19
+
+### 2024-3-4
+
+### 2024-3-11
+
+### 2024-3-18
+
+Tuumafüüsika ja radioaktiivuse teadmiste ja oskuste kaardistamine.
+
+### 2024-3-25
+
+### 2024-4-1
+
+### 2024-4-8
+
+### 2024-4-15
+
+### 2024-4-22
+
+Tuumaenergia ning radiatsiooni mõju ja kasutamise teadmiste ja oskuste kaardistamine.
+
+### 2024-4-29
+
+### 2024-5-6
+
+### 2024-5-13
+
+### 2024-5-20
+
+### 2024-5-27
+
+Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
+
+## Kalender Kohila Gümnaasiumis
 
 ### 2023-09-04
 
