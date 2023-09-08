@@ -1,5 +1,7 @@
 # Hindamine
 
+## Põhikursused
+
 Hindan eksperimentide protokolle ja kontrolltööde tulemusi.
 
 Eksperimentide protokollid peavad kõik olema tehtud, korrektselt vormistatud ja esitatud, et saada kursusesse hinnet.
@@ -61,3 +63,8 @@ Kui kontrolltöö on sooritatud, annab õpilane oma tehtu mulle üle. Kui õppes
 Mina jäädvustan lehed, hindan ja tagasisidestan järgmises õppesessioonis. Siis tagastan ka õpilasele tema kontrolltöö tulemuse ning ta omakorda järgmiseks sessiooniks hindab oma sooritust ise vastavalt minu esitatud ühele teisendile õigetest lahenditest. Hiljem võrdlen enda ja õpilase hinnangut ja teeme järelduse.
 
 Uuesti sooritada või esimesel korral tegemata jätmise puhul sooritada saab minuga kokkuleppel reedese kuuenda õppeperioodi järel.
+
+## Valikkursused
+
+Hindan väljundeid mitteeristavalt. *A* märgin, kui kõik väljundid vastavad kõikidele kriteeriumidele.
+

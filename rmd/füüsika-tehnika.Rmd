@@ -55,51 +55,66 @@ suhestatust kooli loodusteaduslike õppeainetega;
 
 ## Õppesisu
 
-1. Aero- ja hüdrodünaamika. Keskkonna takistusjõud. Teised õhusõidukile mõjuvad jõud. Vedelike
+1. **Aero- ja hüdrodünaamika.** Keskkonna takistusjõud. Teised õhusõidukile mõjuvad jõud. Vedelike
 voolamine torudes. Inimese ja looma vereringe, diastoolne ja süstoolne vererõhk. Hüdroturbiin.
-2. Elastsuslained. Elastse deformatsiooni energia. Võnkumiste ja lainete energia. Võnkumiste liitumine.
+
+2. **Elastsuslained.** Elastse deformatsiooni energia. Võnkumiste ja lainete
+energia. Võnkumiste liitumine.
 Võnkumiste spekter. Doppleri efekt helilainete korral. Helitugevus. Detsibell. Müra ja mürakaitse.
-3. Ebatavalised faasid ja faasisiirded. Gaaside veeldamine. Madalate temperatuuride saamine.
+
+3. **Ebatavalised faasid ja faasisiirded.** Gaaside veeldamine. Madalate temperatuuride saamine.
 Krüovedelikud ja krüogeenika. Allajahutatud ja ülekuumendatud vedelikud. Härmatumine
 (sublimatsioon), aine sulamistemperatuuri sõltuvus rõhust. Süsihappelumi ja teised mitte-H2O jääd.
 Lahused ja faasisiirded.
-4. Soojusmasinad ja energiamajandus. Termodünaamika I printsiibi ilmnemine isoprotsessides.
+
+4. **Soojusmasinad ja energiamajandus.** Termodünaamika I printsiibi ilmnemine isoprotsessides.
 Adiabaatiline protsess. Ideaalne soojusmasin. Soojusmasina kasutegur. Ringprotsess. Pööratavad ja
 mittepööratavad protsessid. Reaalsed soojusmasinad (auruturbiin, ottomootor, diiselmootor,
 stirlingmootor) ja nende kasutegurid. Energiaallikad, energia muundamine, transport ja salvestamine.
-5. Entroopia ja negentroopia. Entroopia mõiste käsitlused. Info, energia ja aine entroopiliselt
+
+5. **Entroopia ja negentroopia.** Entroopia mõiste käsitlused. Info, energia ja aine entroopiliselt
 seisukohalt. Maa ja universumi entroopia ning negentroopia. Mittetasakaalulised protsessid.
 Rakendused: külmuti ja soojuspump.
-6. Kondensaator ja induktiivpool. Plaatkondensaatori mahtuvus. Kondensaatorite ehitus ja liigid. Laetud
+
+6. **Kondensaator ja induktiivpool.** Plaatkondensaatori mahtuvus. Kondensaatorite ehitus ja liigid. Laetud
 kondensaatori energia. Kondensaatorite kasutusnäited. Pika ja peenikese pooli induktiivsus. Vooluga
 induktiivpooli energia. Ülijuhtiva mähisega elektromagnetid ja nende kasutamine.
-7. Juhid ja dielektrikud. Dielektrikute polarisatsioon. Varjestamine. Aine dielektriline läbitavus.
+
+7. **Juhid ja dielektrikud.** Dielektrikute polarisatsioon. Varjestamine. Aine dielektriline läbitavus.
 Piesoelektrikud ja ferroelektrikud. Rakendused: piesoelektrilised andurid ja täiturid, elektronkaal,
 kvartskell.
-8. Ainete magnetilised omadused. Aine magnetiline läbitavus. Dia- ja paramagneetikud. Kõvad ja
+
+8. **Ainete magnetilised omadused.** Aine magnetiline läbitavus. Dia- ja paramagneetikud. Kõvad ja
 pehmed ferromagneetikud. Ferromagneetiku domeenstruktuur ja hüsterees. Rakendused:
 elektromagnetid ja magnetiline infosalvestus.
-9. Elektrivool vedelikes ja gaasides. Elektrolüüs. Faraday I seadus elektrolüüsi kohta. Elektrolüüsi
+
+9. **Elektrivool vedelikes ja gaasides.** Elektrolüüs. Faraday I seadus elektrolüüsi kohta. Elektrolüüsi
 rakendusnäiteid. Sõltuv ja sõltumatu gaaslahendus. Kasutusnäited.
-10. Pooljuhtelektroonika. Juhi, pooljuhi ja mittejuhi erinevused tsooniteoorias. Pooljuhtide omajuhtivus
+
+10. **Pooljuhtelektroonika.** Juhi, pooljuhi ja mittejuhi erinevused tsooniteoorias. Pooljuhtide omajuhtivus
 ja selle rakendused: termotakisti, fototakisti, pooljuht-kiirgusdetektor. Pooljuhtide legeerimine.
 Elektronjuhtivus ja aukjuhtivus. pn-siire. Alaldi, fotodiood, valgusdiood, dioodmaatriks, CCD-maatriks,
 pooljuhtlaser. Päikesepaneelid. Bipolaar- ja väljatransistor. Kiip, selle kasutamine analoog- ja
 digitaallülitustes.
-11. Vahelduvvoolu kasutamine. Vahelduvvoolu iseloomustavad suurused. Elektriohutus. Kaitsemaandus.
+
+11. **Vahelduvvoolu kasutamine.** Vahelduvvoolu iseloomustavad suurused. Elektriohutus. Kaitsemaandus.
 Kaitsmed. Aktiiv-, induktiiv- ja mahtuvustakistus vahelduvvooluahelas. Näivtakistus. Kogutakistus.
 Ohmi seadus vahelduvvooluahela kohta.
-12. Vahelduvvoolumasinad. Alalisvoolumootor ja -generaator. Trafo talitlus, trafode kasutamine.
+
+12. **Vahelduvvoolumasinad.** Alalisvoolumootor ja -generaator. Trafo talitlus, trafode kasutamine.
 Vahelduvvoolugeneraator ja asünkroonmootor. Vahelduvvoolu võimsustegur. Kolmefaasiline vool.
 Elektrienergia tootmine, ülekanne ja jaotamine Eesti näitel.
-13. Elektromagnetvõnkumised ja -lained. Võnkering. Elektromagnetlainete tekitamine.
+
+13. **Elektromagnetvõnkumised ja -lained.** Võnkering. Elektromagnetlainete tekitamine.
 Elektromagnetlainete skaala. Raadiolained ja nende levimine. Raadioside põhialused.
 Raadiolokatsioon ja GPS. Nüüdisaegsed sidevahendid.
-14. Optilised seadmed. Valguskiir. Valguse sirgjooneline levimine. Valguse täielik peegeldumine.
+
+14. **Optilised seadmed.** Valguskiir. Valguse sirgjooneline levimine. Valguse täielik peegeldumine.
 Valgusjuhid ja nende kasutamine. Optilised süsteemid (objektiiv, teleskoop, mikroskoop), nende
 lahutusvõime. Polariseeritud valgus ja selle saamine. Rakendused: polaroidprillid ja
 vedelkristallekraan.
-15. Fotomeetria. Inimsilma valgustundlikkus. Valgustugevus ja valgusvoog. Valgustatus. Ruuminurk.
+
+15. **Fotomeetria.** Inimsilma valgustundlikkus. Valgustugevus ja valgusvoog. Valgustatus. Ruuminurk.
 Ühikud: kandela, luumen ja luks. Luksmeeter. Erinevate valgusallikate valgusviljakused.
 
 ## Õppetegevus
@@ -121,6 +136,24 @@ seoseid;
 ## Kalender
 
 ### 2023-09-08
+
+Eesmärgid:
+
+1. Kursuse reeglid on selged.
+
+2. Moodulid on valitud.
+
+3. Kui aega jääb üle, siis MathCityMapiga on tutvutud.
+
+Kava:
+
+1. Miks õpilane valis just selle kursuse?
+
+2. Tutvustus: 15'st moodulist viis või kuus, millest igaühele kuus kontaktsessiooni, pluss iseseisev tegutsemine. Igas moodulis teooria, arvutusülesanded. Kui võimalik, siis eksperiment, muidu orienteerumispunkt, plakat, essee, mäng vms. Hindamine.
+
+3. Moodulite valimine.
+
+4. Kui aega jääb üle, siis MathCityMapi tutvustamine[@mathcitymap].
 
 ### 2023-09-15
 

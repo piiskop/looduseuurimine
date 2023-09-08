@@ -109,13 +109,7 @@ luminestsents
 
 Staatiline elekter, elektrilaeng ja selle jäävus.
 
-Elektrilaeng aatomis.
-
-Isolaatorid ja juhid.
-
-Indutseeritud laeng ja elektroskoop.
-
-Õppesisu: Elektrilaeng. Elementaarlaeng. Laengu jäävuse seadus.
+Õppesisu: Elektrilaeng.
 
 Kava:
 
@@ -127,23 +121,35 @@ Kava:
 
 4. Arutelu staatilise elektri, elektrilaengu[@fsikaline, lk 36] ja selle jäävuse üle[@previous].
 
-5. Plickers: *Elektrilaeng aatomis*[@giancoli, lk 445].
-
-6. Arutelu aatomis oleva elektrilaengu üle.
-
-7. Plickers: *Isolaatorid ja elektrijuhid*[@giancoli, lk 445].
-
-8. Arutelu isolaatorite ja elektrijuhtide üle.
-
-9. Plickers: *Indutseeritud laeng ja elektroskoop*[@giancoli, lk 446-447].
-
-10. Arutelu indutseeritud laengu ja elektroskoobi üle.
-
-11. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
-
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave!
 
 ### 2023-09-08
+
+Elektrilaeng aatomis.
+
+Isolaatorid ja juhid.
+
+Indutseeritud laeng ja elektroskoop.
+
+Õppesisu: Elementaarlaeng. Laengu jäävuse seadus.
+
+Kava:
+
+1. Plickers: *Elektrilaeng aatomis*[@giancoli, lk 445].
+
+2. Arutelu aatomis oleva elektrilaengu üle.
+
+3. Plickers: *Isolaatorid ja elektrijuhid*[@giancoli, lk 445].
+
+4. Arutelu isolaatorite ja elektrijuhtide üle.
+
+5. Plickers: *Indutseeritud laeng ja elektroskoop*[@giancoli, lk 446-447].
+
+6. Arutelu indutseeritud laengu ja elektroskoobi üle.
+
+7. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Võtta järgmiseks korraks kaasa klaaspurk! Võimalusel võtta kaasa ka lainepappi vähemalt nii palju, et kataks klaaspurgi suu, peenikest traati, kõrs, käärid, näpitsad, tükk vahtplasti, tükk villa, tükk puitu, plastikkott, supilusikas! Valmistame elektroskoope.
 
 ### 2023-09-11
 
