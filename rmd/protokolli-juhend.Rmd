@@ -1,0 +1,35 @@
+[]{#eksperimendi-protokolli-koostamise-juhend}
+
+# Eksperimendi protokolli koostamise juhend
+
+Protokoll peab koosnema järgmistest osadest:
+
+1. tiitelleht,
+
+2. eesmärgid,
+
+3. vahendid,
+
+4. teooria,
+
+5. praktika,
+
+6. järeldus(ed)
+
+7. välisviited, kui on.
+
+Tiitellehele märgid eksperimendi nimetuse, teostaja(te) nime(d), teostamisaja ja -koha, samuti kooli ja juhendaja nime, milleks on peacecop kalmer: (kindlasti nii vaja kirjutada).
+
+Eesmärkide ossa kirjutad, mille jaoks seda eksperimenti tegid.
+
+Vahendite loetelu peab olema piisava täpsusega.
+
+Teooriaosas selgitad, kuidas asi võiks toimida.
+
+Praktika osas kirjutad üles samm-sammulise juhise, kuidas eksperimendi tegid.
+
+Järeldusossa kirjutad, kuidas sinu eksperiment kinnitas teooriat või ei olnud sellega kooskõlas. Mõlemal juhul põhjendad. Viimasel juhul selgitad ka põhjuseid, mis läks valesti.
+
+Kui kasutad väliseid andmeallikaid, ka neid, mida oled varem ise loonud, siis viitad nendele tekstis, kus kasutad, ning lõpus on viidete loetelu.
+
+Saad uurida üht minu valmistatud protokolli, mis on küll keskkooliõpilase protokollide jaoks liiga põhjalik[@noauthor_undated-st].

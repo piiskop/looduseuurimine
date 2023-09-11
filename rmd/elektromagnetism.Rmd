@@ -5,103 +5,143 @@
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
-1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust;
-2. võrdleb mõisteid aine ja väli;
-3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit ;
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+2. võrdleb mõisteid aine ja väli (21.6);
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit (21.6);
 4. kasutab probleeme lahendades
-Coulomb’i seadust
-5. kasutab probleeme lahendades seoseid ;
+Coulomb’i seadust (21.5)
+5. kasutab probleeme lahendades seoseid (23.1, 23.7);
 6. rakendab superpositsiooni printsiipi
-elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis;
-7. teab, et kahe erinimeliselt laetud paralleelse plaadi vahel tekib homogeenne elektriväli;
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6);
+7. teab, et kahe erinimeliselt laetud paralleelse plaadi vahel tekib homogeenne elektriväli (21.7);
 8. teab, et magnetväljal on kaks põhimõtteliselt erinevat võimalikku tekitajat: püsimagnet ja elektrivool,
-ning rakendab valemit ;
-9. kasutab probleeme lahendades Ampere’i seadust ;
-10. määrab sirgvoolu tekitatud magnetinduktsiooni suuna etteantud punktis;
-11. kasutab valemit F = B I l sin α ning Ampere’i jõu suuna määramise eeskirja;
-12. rakendab probleeme lahendades Lorentzi jõu valemit FL = q v B sin α ning määrab Lorentzi jõu suunda;
+ning rakendab valemit (27.3);
+9. kasutab probleeme lahendades Ampere’i seadust (28.4);
+10. määrab sirgvoolu tekitatud magnetinduktsiooni suuna etteantud punktis (29.1-29.3);
+11. kasutab valemit F = B I l sin α ning Ampere’i jõu suuna määramise eeskirja (28.2, 28.4);
+12. rakendab probleeme lahendades Lorentzi jõu valemit FL = q v B sin α ning määrab Lorentzi jõu suunda (27.4);
 13. seletab pööriselektrivälja tekkimist magnetvoo muutumisel, rakendades
-induktsiooni elektromotoorjõu mõistet;
-14. võrdleb generaatori ning elektrimootori tööpõhimõtteid;
-15. selgitab elektri- ja magnetvälja energia salvestamise võimalusi.
+induktsiooni elektromotoorjõu mõistet (29.1);
+14. võrdleb generaatori ning elektrimootori tööpõhimõtteid (29.4);
+15. selgitab elektri- ja magnetvälja energia salvestamise võimalusi (24.4, 25.1).
 
 ### Õppesisu
 
-Elektrilaeng. Elementaarlaeng. Laengu jäävuse seadus. Elektrivool. Aine ja väli. Coulomb’i seadus.
-Punktlaeng. Väljatugevus. Elektrivälja potentsiaal ja pinge. Pinge ja väljatugevuse seos. Välja
-visualiseerimine, välja jõujooned. Väljade liitumine, superpositsiooni printsiip. Homogeenne elektriväli kahe
-erinimeliselt laetud plaadi vahel, kondensaator. Püsimagnet ja vooluga juhe. Ampere’i jõud.
-Magnetinduktsioon. Liikuvale laetud osakesele mõjuv Lorentzi jõud. Magnetväljas liikuva juhtmelõigu otstele
-indutseeritav pinge. Elektromagnetiline induktsioon. Induktsiooni elektromotoorjõud. Magnetvoog. Faraday
-induktsiooniseadus. Elektrimootor ja generaator. Lenzi reegel. Eneseinduktsioon.
-Induktiivpool. Homogeenne magnetväli solenoidis. Elektri- ja magnetvälja energia.
+Elektrilaeng (21.2). Elementaarlaeng (21.5). Laengu jäävuse seadus (21.1). Elektrivool (25.2). Aine ja väli (21.6). Coulomb’i seadus (21.5).
+Punktlaeng (21.5). Väljatugevus (21.6). Elektrivälja potentsiaal ja pinge (23). Pinge ja väljatugevuse seos (23.1). Välja
+visualiseerimine, välja jõujooned (21.8). Väljade liitumine, superpositsiooni printsiip (21.11). Homogeenne elektriväli kahe
+erinimeliselt laetud plaadi vahel, kondensaator (24.1, 24.3). Püsimagnet ja vooluga juhe (27.3). Ampere’i jõud (28.4).
+Magnetinduktsioon (29.1-29.3). Liikuvale laetud osakesele mõjuv Lorentzi jõud (27.4). Magnetväljas liikuva juhtmelõigu otstele
+indutseeritav pinge (29.3). Elektromagnetiline induktsioon (29.1-29.3, 29.9). Induktsiooni elektromotoorjõud (29.1). Magnetvoog (29.7). Faraday
+induktsiooniseadus (29.2). Elektrimootor ja generaator (29.4). Lenzi reegel (29.2). Eneseinduktsioon (30.2).
+Induktiivpool (30.2). Homogeenne magnetväli solenoidis (28.5). Elektri- ja magnetvälja energia (23.1, 23.8, 24.4, 25.5).
 
 ### Põhimõisted
 
-elektrilaeng, elementaarlaeng, voolutugevus, punktlaeng, elektriväli, elektrivälja tugevus,
-potentsiaal, pinge, elektronvolt, jõujoon, kondensaator, püsimagnet, magnetväli, magnetinduktsioon,
-Lorentzi jõud, pööriselektriväli, induktsiooni elektromotoorjõud, magnetvoog, endainduktsioon
+elektrilaeng (21.2), elementaarlaeng (21.5), voolutugevus (25.2), punktlaeng (21.5), elektriväli (21.6), elektrivälja tugevus (21.6),
+potentsiaal (23), pinge (21.1), elektronvolt (23.8), jõujoon (21.8), kondensaator (24.1), püsimagnet (27.1), magnetväli (27.1), magnetinduktsioon (29.1-29.3),
+Lorentzi jõud (27.4), pööriselektriväli (29.1), induktsiooni elektromotoorjõud (29.1), magnetvoog (29.7), endainduktsioon (30.2)
 
 ### Praktiline tegevus
 
 1. Tutvumine välja mõistega elektri- ja magnetvälja näitel;
 2. elektrostaatika katsete tegemine;
 3. kahe vooluga juhtme magnetilise vastastikmõju uurimine; 
-4. Ørstedi katsega tutvumine;
+4. Ørstedi katsega tutvumine (27.2);
 5. elektromagnetilise induktsiooni uurimine;
 6. Lenzi reegli rakendamine;
 7. elektrimootori ja selle omaduste uurimine;
 8. tutvumine kondensaatorite ja induktiivpoolide tööga. 
+
+21.1-21.2, 21.4-21.8, 21.11,
+23,
+24.1, 24.3-24.4,
+25.1-25.2, 25.5,
+27.1-27.4,
+28.2, 28.4-28.5,
+29.1-29.4, 29.7, 29.9,
+30.2
 
 ## Elektromagnetlained
 
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
-1. selgitab elektromagnetlaine mõistet ja elektromagnetlainete rakendusi;
-2. kirjeldab võnkeringi kui elektromagnetlainete kiirgamise ja vastuvõtu baasseadet;
+1. selgitab elektromagnetlaine mõistet ja elektromagnetlainete rakendusi (31.4-31.6, 31.8);
+2. kirjeldab võnkeringi kui elektromagnetlainete kiirgamise ja vastuvõtu baasseadet (30.5);
 3. kirjeldab elektromagnetlainete skaalat, rakendades seost c = f λ, ning teab nähtava valguse
-lainepikkuste piire ja põhivärvuste lainepikkuste järjestust;
-4. selgitab graafiku järgi elektromagnetlainete amplituudi ja intensiivsuse mõistet;
+lainepikkuste piire ja põhivärvuste lainepikkuste järjestust (31.6);
+4. selgitab graafiku järgi elektromagnetlainete amplituudi ja intensiivsuse mõistet (15.3);
 5. kirjeldab joonisel või arvutiimitatsiooniga interferentsi- ja difraktsiooninähtusi optikas ning toob
-nende rakendamise näiteid;
+nende rakendamise näiteid (34.1, 34.3, 35);
 6. seletab valguse koherentsuse tingimusi ja nende täidetuse vajalikkust vaadeldava
-a. interferentsipildi saamisel;
-7. seostab polariseeritud valguse omadusi rakendustega looduses ja tehnikas;
-8. rakendab valguse murdumisseadust, kasutades seoseid ;
-9. kirjeldab valge valguse spektriks lahutumise võimalusi;
-10. võrdleb spektrite põhiliike;
+a. interferentsipildi saamisel (34.3);
+7. seostab polariseeritud valguse omadusi rakendustega looduses ja tehnikas (34.7);
+8. rakendab valguse murdumisseadust, kasutades seoseid (32.6-32.7);
+9. kirjeldab valge valguse spektriks lahutumise võimalusi (32.8);
+10. võrdleb spektrite põhiliike (31.6);
 11. seletab valguse tekkimist aatomi energiatasemete skeemil ning rakendab probleeme
-a. lahendades valemit E = h f;
-12. selgitab valguse korral dualismiprintsiipi ja selle seost atomistliku printsiibiga;
-13. eristab soojuskiirgust ja luminestsentsi ning seostab neid vastavate valgusallikatega.
+a. lahendades valemit E = h f (37.11);
+12. selgitab valguse korral dualismiprintsiipi ja selle seost atomistliku printsiibiga (37.6);
+13. eristab soojuskiirgust ja luminestsentsi ning seostab neid vastavate valgusallikatega (34.10).
 
 ### Õppesisu
 
-Elektromagnetlainete skaala. Lainepikkus ja sagedus. Nähtava valguse värvuse seos valguse lainepikkusega
-vaakumis. Elektromagnetlainete amplituud ja intensiivsus. Difraktsioon ja interferents, nende
-rakendusnäited. Murdumisseadus. Murdumisnäitaja seos valguse kiirusega. Valguse dispersioon.
-Spektroskoobi töö põhimõte. Spektraalanalüüs. Polariseeritud valgus, selle saamine, omadused ja
-rakendused. Valguse dualism ning dualismiprintsiip looduses. Footoni energia. Atomistlik printsiip. Valguse
-kiirgumine. Soojuskiirgus ja luminestsents.
+Elektromagnetlainete skaala (31.6). Lainepikkus ja sagedus (15.1). Nähtava valguse värvuse seos valguse lainepikkusega
+vaakumis (32.8). Elektromagnetlainete amplituud ja intensiivsus (15.3). Difraktsioon ja interferents, nende
+rakendusnäited (34.1, 34.3, 35). Murdumisseadus (32.6-32.7). Murdumisnäitaja seos valguse kiirusega (32.6). Valguse dispersioon (32.8).
+Spektroskoobi töö põhimõte (35.9). Spektraalanalüüs (35.9). Polariseeritud valgus, selle saamine, omadused ja
+rakendused (34.7). Valguse dualism ning dualismiprintsiip looduses (37.6). Footoni energia (37.11). Atomistlik printsiip (37.6). Valguse
+kiirgumine (37.1). Soojuskiirgus ja luminestsents (19.10, 34.10).
 
 ### Põhimõisted
 
-elektromagnetlaine, elektromagnetlainete skaala, lainepikkus, sagedus, kvandi (footoni)
-energia, dualismiprintsiip, amplituud, intensiivsus, difraktsioon, interferents, polarisatsioon,
-elektromagnetväli, murdumine, absoluutne ja suhteline murdumisnäitaja, valguse dispersioon aines, prisma,
-luminestsents
+elektromagnetlaine (31.4), elektromagnetlainete skaala (31.6), lainepikkus (15.1), sagedus (15.1), kvandi (footoni)
+energia (37.11), dualismiprintsiip (37.6), amplituud (15.3), intensiivsus (15.3), difraktsioon (35), interferents (34.3), polarisatsioon (34.7),
+elektromagnetväli (43.2), murdumine (32.6-32.7), absoluutne ja suhteline murdumisnäitaja (32.6), valguse dispersioon aines (32.8), prisma (32.8),
+luminestsents (34.10)
 
 ### Praktiline tegevus
 
-1. Ühelt pilult, kaksikpilult ja juuksekarvalt saadava difraktsioonipildi uurimine;
+1. Ühelt pilult, kaksikpilult ja juuksekarvalt saadava difraktsioonipildi uurimine (34.3-34.4);
 2. läbipaistva aine murdumisnäitaja määramine;
 3. spektroskoobi valmistamine;
-4. tutvumine erinevate valgusallikatega;
+4. tutvumine erinevate valgusallikatega (43.1);
 5. valguse spektri uurimine;
-6. soojuskiirguse uurimine;
+6. soojuskiirguse uurimine (19.10);
 7. polaroidide tööpõhimõtte uurimine;
 8. valguse polariseerumise uurimine peegeldumisel. 
+
+15.1, 15.3,
+19.10,
+30.5,
+31.4-31.6, 31.8,
+32.6-32.8,
+34.1, 34.3, 34.7, 34.10,
+35,
+37.1, 37.6, 37.11,
+43.2
+
+
+15 (30),
+19.10 (10),
+21 (30),
+
+23 (30),
+24 (30),
+25.2 (2),
+27.1-27.6 (20),
+
+28.1-28.5 (10),
+29.1-29.4 (10),
+30.1-30.8 (20)
+31.6 (3),
+32.6-32.10 (20),
+34.1-34.7 (20),
+
+35 (30),
+37.1-37.2, 37.6-37.12 (30),
+43.1-43.2 (10)
 
 ## Kalender
 
@@ -147,15 +187,31 @@ Kava:
 
 6. Arutelu indutseeritud laengu ja elektroskoobi üle.
 
-7. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
-
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Võtta järgmiseks korraks kaasa klaaspurk! Võimalusel võtta kaasa ka lainepappi vähemalt nii palju, et kataks klaaspurgi suu, peenikest traati, kõrs, käärid, näpitsad, tükk vahtplasti, tükk villa, tükk puitu, plastikkott, supilusikas! Valmistame elektroskoope.
 
 ### 2023-09-11
 
+Kava: elektroskoobi valmistamine[@measure]. Kes saab valmis, hakkab looma protokolli.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Luua elektroskoobi valmistamise eksperimendi protokoll! See tuleb kirjutada eraldi paberilehele või -lehtedele, et saaksid protokolli järgmises kontaktsessioonis mulle ülevaatamiseks üle anda. Sa võid ka digitaalse raporti teha ja siis saad selle siia keskkonda üles laadida. Sul tuleb järgida [protokolli koostamise juhist](#eksperimendi-protokolli-koostamise-juhend).
+
 ### 2023-09-15
 
-Elektrilaengu ja elektrivälja teadmiste ja oskuste kaardistamine.
+Staatiline elekter, elektrilaeng ja selle jäävus.
+
+Elektrilaeng aatomis.
+
+Isolaatorid ja juhid.
+
+Indutseeritud laeng ja elektroskoop.
+
+Õppesisu: Elektrilaeng. Elementaarlaeng. Laengu jäävuse seadus.
+
+Kava:
+
+1. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
+
+2. 
 
 ### 2023-09-18
 
@@ -165,7 +221,7 @@ Elektrilaengu ja elektrivälja teadmiste ja oskuste kaardistamine.
 
 ### 2023-09-29
 
-Elektrilise potentsiaali teadmiste ja oskuste kaardistamine.
+Laine liikumise, elektrilaengu ja elektrivälja ning soojuskiirguse teadmiste ja oskuste kaardistamine.
 
 ### 2023-10-2
 
@@ -175,8 +231,6 @@ Elektrilise potentsiaali teadmiste ja oskuste kaardistamine.
 
 ### 2023-10-13
 
-Elektrivoolu teadmiste ja oskuste kaardistamine.
-
 ### 2023-10-16
 
 ### 2023-10-20
@@ -185,7 +239,7 @@ Elektrivoolu teadmiste ja oskuste kaardistamine.
 
 ### 2023-11-3
 
-Magnetismi teadmiste ja oskuste kaardistamine.
+Elektrilise potentsiaali, mahtuvuse, dielektrikute, elektrienergia salvestamise, elektrivoolu ja magnetismi teadmiste ja oskuste kaardistamine.
 
 ### 2023-11-6
 
@@ -195,8 +249,6 @@ Magnetismi teadmiste ja oskuste kaardistamine.
 
 ### 2023-11-17
 
-Elektromagnetilise induktsiooni ja Faraday' seaduse teadmiste ja oskuste kaardistamine.
-
 ### 2023-11-20
 
 ### 2023-11-24
@@ -205,7 +257,7 @@ Elektromagnetilise induktsiooni ja Faraday' seaduse teadmiste ja oskuste kaardis
 
 ### 2023-12-1
 
-Elektromagnetiliste lainete teadmiste ja oskuste kaardistamine.
+Magnetvälja allikate, elektromagnetilise induktsiooni ja Faraday' seaduse, induktiivsuse, elektromagnetiliste võnkumiste, valguse kui elektromagnetlaine ja elektromagnetilise spektri, valguse peegeldumise ja murdumise ning valguse lainelise olemuse teadmiste ja oskuste kaardistamine.
 
 ### 2023-12-4
 
@@ -215,8 +267,6 @@ Elektromagnetiliste lainete teadmiste ja oskuste kaardistamine.
 
 ### 2023-12-15
 
-Geomeetrilise optika teadmiste ja oskuste kaardistamine.
-
 ### 2023-12-18
 
 ### 2023-12-22
@@ -225,7 +275,7 @@ Geomeetrilise optika teadmiste ja oskuste kaardistamine.
 
 ### 2024-1-12
 
-Valguse lainelise olemuse teadmiste ja oskuste kaardistamine.
+Difraktsiooni, varase kvantteooria ja aatomimudelite ning elementaarosakeste teadmiste ja oskuste kaardistamine.
 
 ### 2024-1-15
 

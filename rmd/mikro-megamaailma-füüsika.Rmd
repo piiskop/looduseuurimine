@@ -5,7 +5,7 @@
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
-1. kirjeldab aine olekuid mikrotasandil;
+1. kirjeldab aine olekuid mikrotasandil ();
 2. võrdleb reaalgaasi ja ideaalgaasi mudeleid;
 3. kasutab mõisteid küllastunud aur, absoluutne niiskus, suhteline niiskus ja kastepunkt ning seostab
 neid ilmastikunähtustega;
@@ -25,6 +25,9 @@ siirdesoojused.
 
 aine olek, gaas, vedelik, kondensaine, tahkis, reaalgaas, küllastunud aur, absoluutne ja
 suhteline niiskus, kastepunkt, faas ja faasisiire
+
+p: 10.13, 13.11-13.12, 14.5, 29.3, 29.5
+r: 13.1, 13.13, 17.1, 18.3-18.4, 19.5, 40.5
 
 ### Praktiline tegevus
 
@@ -68,6 +71,8 @@ välis- ja sisefotoefekt, kvantarv, energiatase, kvantmehaanika, määramatusseo
 eriseoseenergia, tuumaenergeetika, tuumarelv, radioaktiivsus, poolestusaeg, radioaktiivne dateerimine,
 ioniseeriv kiirgus, kiirguskaitse
 
+27.2-27.3, 27-12, 28.1, 28.3, 28.5-28.6, 30.2-30.3, 30.8-30.9, 30.11, 31
+
 ### Praktiline tegevus
 
 1) tutvumine fotoefektiga;
@@ -92,8 +97,13 @@ kaaslased, asteroidid, väikeplaneedid, komeedid, meteoorkehad;
 Astronoomia vaatlusvahendid ja nende areng. Tähtkujud. Maa ja Kuu perioodiline liikumine aja arvestuse
 alusena. Kalender. Päikesesüsteemi koostis, ehitus ning tekkimise hüpoteesid. Päike ja teised tähed. Tähtede
 evolutsioon. Galaktikad. Linnutee galaktika. Universumi struktuur. Universumi evolutsioon.
-Põhimõisted: observatoorium, teleskoop, kosmoseteleskoop, Päikesesüsteem, planeet, planeedikaaslane,
-tehiskaaslane, asteroid, komeet, väikeplaneet, meteoorkeha, täht, galaktika, Linnutee, kosmoloogia.
+
+### Põhimõisted
+
+observatoorium, teleskoop, kosmoseteleskoop, Päikesesüsteem, planeet, planeedikaaslane,
+tehiskaaslane, asteroid, komeet, väikeplaneet, meteoorkeha, täht, galaktika, Linnutee, kosmoloogia
+
+5.8, 7.10, 25.4, 25.8, 31.3, 32.11, 33
 
 ### Praktilised tööd
 
@@ -267,6 +277,16 @@ Kava:
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave! Lahendada @giancoli, lk 285-286 õpikust ülesanded 1, 3, 5, 7.
 
 ### 2023-09-11
+
+Kava:
+
+1. Pindpinevuse ja kapillaarsuse õppimine näidisülesande lahendamisega[@physics, lk 386-388].
+
+2. Aine aatomiteooria õppimine näidisülesande lahendamisega[@physics, lk 492-494].
+
+3. Ideaalse gaasi seaduse ja temperatuuri molekulaarse tõlgenduse õppimine näidisülesannete lahendamisega[@physics, lk 516-520].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @physics, lk 289'st ülesanded 67, 69 ja 71, @physics, lk 511'st ülesanne 1 ning @physics, lk 534'st ülesanded 1, 3, 5, 7, 9, 11, 13, 15, 17 ja 19!
 
 ### 2023-09-18
 

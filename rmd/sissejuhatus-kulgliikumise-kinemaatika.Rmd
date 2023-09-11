@@ -342,15 +342,11 @@ Kava:
 
 4. Arutelu mudelite, teooriate ja seaduste üle[@loodusteaduslik].
 
-5. Näidete esitamine põhjusliku seose kohta[@giancoli, lk 128].
-
-6. Füüsika üldprintsiipid ja nende kehtivuse tõestamine[@teised].
-
-7. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
+5. Teaduste piiride kirjeldamine[@looduse, @mikro].
 
 ### 2023-09-11
 
-Ühikud, standardid ja Système Internationale[@giancoli, lk 8-11].
+Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
 
 Ühikute teisendamine[@giancoli, lk 11-12].
 
@@ -369,13 +365,28 @@ mõõtühikute süsteem
 
 Kava:
 
-1. Teaduste piiride kirjeldamine[@looduse, @mikro].
+0. *10.b*: Plickers: *Mudelid, teooriad ja seadused*.
 
-2. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers, @giancoli, lk 9].
+1. Mudelid.
 
-3. Mõõtühikute eesliidetega tutvumine[@mthikute, @giancoli, lk 10].
+2. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers; @giancoli, lk 9-10].
 
-4. Harjutused mõõtühikute eesliidetega.
+3. Näidete esitamine põhjusliku seose kohta[@giancoli, lk 128].
+
+4. Füüsika üldprintsiibid ja nende kehtivuse tõestamine[@teised].
+
+5. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
+
+6.  Ühik[@mtmised, lk 7].
+
+    ```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused"}
+    include_external_graphics("rmd/physics-measuring.svg")                                # 2
+                                                                                 # 3
+    ```
+
+7. Mõõtühikute eesliidetega tutvumine[@mthikute; @giancoli, lk 10; @mdulint].
+
+8. Harjutused mõõtühikute eesliidetega.
 
 ### 2023-09-15
 
