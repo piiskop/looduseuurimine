@@ -1,5 +1,18 @@
 # Baasreeglistik
 
+## Mõõtmine
+
+Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud joonisel \@ref(fig:activities-of-learning-measuring) leheküljel `r render_pageref(reference = "fig:activities-of-learning-measuring")`.
+
+\onecolumn
+
+```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused"}
+include_external_graphics("rmd/physics-measuring.svg")                                # 2
+                                                                                 # 3
+```
+
+\twocolumn
+
 ## Aeg ja selle talitlused
 
 ### Aeg

@@ -191,11 +191,11 @@ mõõtühikute süsteem
 
 Kava:
 
-1. Teaduste piiride kirjeldamine[@looduse, @mikro].
+1. Teaduste piiride kirjeldamine[@looduse; @mikro].
 
-2. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers, @giancoli, lk 9].
+2. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers; @giancoli, lk 9].
 
-3. Mõõtühikute eesliidetega tutvumine[@mthikute, @giancoli, lk 10].
+3. Mõõtühikute eesliidetega tutvumine[@mthikute; @giancoli, lk 10].
 
 4. Harjutused mõõtühikute eesliidetega.
 
@@ -205,11 +205,71 @@ Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
 
 Kava:
 
-1. Mõõtemääramatusega tutvumine[@kella, @mtetulemus, @neli, @higgsi, @a, @giancoli, lk 5-6].
+1. Mõõtemääramatusega tutvumine[@kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
 
-2. Mõõtemääramatuse praktiliste ülesannete lahendamine
+2. Mõõtemääramatuse praktiliste ülesannete lahendamine.
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @giancoli, lk 18 ülesanded 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 ja 23!
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @giancoli, lk 18 ülesanded 1, 3, 5, 7, 9, 11, 13!
+
+### 2023-9-7
+
+Õpilased jätkasid teisendamisharjutuste sooritamist.
+
+### 2023-9-12
+
+Eesmärgina õpilane
+
+4. oskab põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid;
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+taatlemine
+: protseduur, mille käigus pädev taatluslabor või teavitatud asutus kontrollib mõõtevahendi vastavust kehtestatud nõuetele ja märgistab nõuetele vastavaks tunnistatud mõõtevahendi taatlusmärgisega[@mtevahendite]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+1. Ümardamine[@rounding].
+
+2. Tüvenumbrid[@sigfigpdf; @significantfigurespdf; @physics, lk 4-6; @introduction; @rounding].
+
+3. Ühikute teisendamine[@physics, lk 9-10; @introduction_conversions].
+
+4. SI[@sipostera4pdf; @physics, lk 6-9].
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision].
+
+7. Toores hinnang[@physics, lk 11-13].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+
+3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
+
+5: 55, 57,
+
+2, 6: 1, 3, 5, 7, 9, 11, 13,
+
+7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
 ### 2023-09-15
 
@@ -378,11 +438,6 @@ Kava:
 5. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
 
 6.  Ühik[@mtmised, lk 7].
-
-    ```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused"}
-    include_external_graphics("rmd/physics-measuring.svg")                                # 2
-                                                                                 # 3
-    ```
 
 7. Mõõtühikute eesliidetega tutvumine[@mthikute; @giancoli, lk 10; @mdulint].
 
