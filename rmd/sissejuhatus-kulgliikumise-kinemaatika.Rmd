@@ -7,97 +7,161 @@
 Kursuse lõpus õpilane:
 
 1. selgitab mõisteid loodus, maailm ja vaatleja; hindab füüsika kohta teiste loodusteaduste seas ning
-määratleb füüsika uurimisala;
+määratleb füüsika uurimisala (1-1);
 
 2. määratleb looduse struktuuritasemete skeemil makro-, mikro- ja megamaailma ning nimetab nende
 erinevusi;
 
 3. selgitab loodusteadusliku meetodi olemust ja teab, et eksperimenditulemusi üldistades jõutakse
-mudelini;
+mudelini (1-2);
 
 4. põhjendab mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
 
 5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
 
-6. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid;
+6. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid (1-4);
 
 7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
-mõõtemääramatust hinnates standardhälvet;
+mõõtemääramatust hinnates standardhälvet (1-3);
 
-8. toob näiteid põhjusliku seose kohta;
+8. toob näiteid põhjusliku seose kohta (6-5);
 
 9. mõistab, et füüsika üldprintsiibid on kõige üldisemad tõdemused looduse kohta, ning tõestab nende
 kehtivust kooskõla eksperimendiga.
 
+1: 1-4
+6: 5
+
 ### Õppesisu
 
 Füüsika kui loodusteadus. Füüsika kui nähtavushorisonte edasi nihutav teadus. Mikro-, makro- ja
-megamaailm. Loodusteaduslik meetod. Vaatlus, eksperiment, mudeli loomine. Mudeli järelduste kontroll
-ning mudeli areng. Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
-ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
-Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
-Põhjuslikkus ja juhuslikkus füüsikas. Füüsika tunnetuslik ja ennustuslik väärtus. Füüsikaga seotud ohud.
+megamaailm. Loodusteaduslik meetod (1-1). Vaatlus, eksperiment, mudeli loomine (1-2). Mudeli järelduste kontroll
+ning mudeli areng (1-2). Mõõtmine ja mõõtetulemus (1-3). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng (1-4). Rahvusvaheline mõõtühikute süsteem (SI) (1-4). Mõõteriistad ja mõõtevahendid (1-3).
+Mõõteseadus. Mõõtemääramatus ning selle hindamine (1-3). Mõõtetulemuste analüüs (1-7).
+Põhjuslikkus ja juhuslikkus füüsikas (6-5). Füüsika tunnetuslik ja ennustuslik väärtus. Füüsikaga seotud ohud (26-6).
 Üldprintsiibid.
+
+1
+6: 5
+26: 6
 
 ### Põhimõisted
 
-loodus, loodusteadus, füüsika, mõõtevahend, taatlemine, nähtavushorisont, makro-, mikro- ja
-megamaailm; vaatlus, hüpotees, eksperiment, mõõtmine, mõõtühik, mõõtühikute süsteem,
-mõõtemääramatus, mõõtesuurus, mõõdetava suuruse väärtus, mõõtetulemus
+loodus (1-2), loodusteadus (1-1), füüsika (1-1), mõõtevahend (1-3), taatlemine, nähtavushorisont, makro-, mikro- ja
+megamaailm; vaatlus, hüpotees, eksperiment, mõõtmine (1-1, 1-3), mõõtühik (1-4), mõõtühikute süsteem (1-4),
+mõõtemääramatus (1-3), mõõtesuurus, mõõdetava suuruse väärtus, mõõtetulemus
+
+1: 1-4
+
+1
+6: 5
+26: 6
 
 ### Praktiline tegevus ning teabe- ja suhtlustehnoloogia kasutamine
 
 1. juhusliku loomuga nähtuse (palli põrke, heitkeha liikumise, kaldpinnalt libisemise vms) uurimine koos
-mõõtmistulemuste analüüsiga; 
-2. keha joonmõõtmete mõõtmine ja korrektse mõõtetulemuse esitamine;
-3. mõõtmisest ning andmetöötlusest mudelini jõudmine erinevate katsete põhjal.
+mõõtmistulemuste analüüsiga (1: 3-7); 
+2. keha joonmõõtmete mõõtmine ja korrektse mõõtetulemuse esitamine (1: 3-7);
+3. mõõtmisest ning andmetöötlusest mudelini jõudmine erinevate katsete põhjal (1: 2-7).
+
+1
+6: 5
+26: 6
 
 ## Kulgliikumise kinemaatika
 
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
+
 1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
-kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel;
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
 2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
-makromaailmas;
+makromaailmas (2-2, 2-3);
+
 3. teab relativistliku füüsika peamist erinevust klassikalisest füüsikast;
+
 4. teab, et väli liigub aine suhtes alati suurima võimaliku kiiruse ehk absoluutkiirusega;
-5. eristab skalaarseid ja vektoriaalseid suurusi ning toob nende kohta näiteid;
+
+5. eristab skalaarseid ja vektoriaalseid suurusi ning toob nende kohta näiteid (3-1);
+
 6. seletab füüsika valemites esineva miinusmärgi tähendust (suuna muutumine esialgsele
-vastupidiseks);
+vastupidiseks) (3-2);
+
 7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
-aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid;
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
 8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
-mõõtmise või määramise viise;
-9. lahendab probleemülesandeid, rakendades definitsioone ; kasutab ühtlase
-sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks vastavalt
-10. liikumisvõrrandeid ;
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades definitsioone (2: 2-6);
+
+10. kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks vastavaltliikumisvõrrandeid (2-5, 2-6);
+
 11. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
-oskab leida teepikkust kui kiiruse graafiku alust pindala;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
 12. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
-leidmiseks järgmisi seoseid: .
+leidmiseks järgmisi seoseid: (2: 5-7).
+
+2
+3: 1-2
+
+1
+2
+3: 1-2
+6: 5
+26: 6
 
 ### Õppesisu
 
-Punktmass kui keha mudel. Koordinaadid. Taustsüsteem, liikumise suhtelisus. Relatiivsusprintsiip. Teepikkus
-ja nihe. Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
-liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud. Nihe, kiirus ja kiirendus kui
-vektoriaalsed suurused. Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta. Vaba langemise
-kiirendus. Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel. Erisihiliste liikumiste sõltumatus.
+Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+2: 1, 5, 7
+3: 4-9
+
+1
+2
+3
+6: 5
+26: 6
 
 ### Põhimõisted
 
-füüsikaline suurus, skalaarne ja vektoriaalne suurus, pikkus, liikumisolek, aeg, kulgliikumine,
-punktmass, taustsüsteem, kinemaatika, teepikkus, nihe, keskmine kiirus, hetkkiirus, kiirendus, vaba
-langemine
+füüsikaline suurus, skalaarne ja vektoriaalne suurus (3-1), pikkus (2-1), liikumisolek (2: 1-4), aeg (2-2), kulgliikumine (2, 3),
+punktmass, taustsüsteem (2-1), kinemaatika (2, 3), teepikkus (2-1), nihe (2-1), keskmine kiirus (2-2), hetkkiirus (2-3), kiirendus (2: 4, 5, 8), vaba
+langemine (2-7)
+
+2
+3
+
+1
+2
+3
+6: 5
+26: 6
 
 ### Praktiline tegevus
 
-1. Kiiruse ja kiirenduse mõõtmine;
-2. langevate kehade liikumise uurimine;
-3. kaldrennis veereva kuuli liikumise uurimine;
-4. heitkeha liikumise uurimine. 
+1. Kiiruse ja kiirenduse mõõtmine (2: 2-8);
+2. langevate kehade liikumise uurimine (2-7);
+3. kaldrennis veereva kuuli liikumise uurimine (2: 4-7);
+4. heitkeha liikumise uurimine (2-7). 
+
+2: 2-8
+
+1
+2
+3
+6: 5
+26: 6
 
 ## Edu Valemi Kalender
 
@@ -219,6 +283,28 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni:
 
 Eesmärgina õpilane
 
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+Õppesisu: Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Kava:
+
+1. Ümardamine[@rounding].
+
+2. Tüvenumbrid[@sigfigpdf; @significantfigurespdf; @physics, lk 4-6; @introduction; @rounding].
+
+Selgitasin ümardamise ja tüvenumbrite reegleid.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+### 2023-9-12
+
+Rakendasime ümardamise ja tüvenumbrite reegleid.
+
+### 2023-09-14
+
+Eesmärgina õpilane
+
 4. oskab põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
 
 5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
@@ -245,21 +331,17 @@ mõõtemääramatus
 
 Kava:
 
-1. Ümardamine[@rounding].
+3. Ühikute teisendamine[@physics, lk 1, 9-10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
 
-2. Tüvenumbrid[@sigfigpdf; @significantfigurespdf; @physics, lk 4-6; @introduction; @rounding].
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
 
-3. Ühikute teisendamine[@physics, lk 9-10; @introduction_conversions].
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
 
-4. SI[@sipostera4pdf; @physics, lk 6-9].
-
-5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions].
-
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision].
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12].
 
 7. Toores hinnang[@physics, lk 11-13].
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
 
 3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
 
@@ -270,8 +352,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni 
 7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-09-15
 
 ### 2023-09-18
 

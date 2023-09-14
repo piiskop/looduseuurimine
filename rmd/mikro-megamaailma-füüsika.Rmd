@@ -5,109 +5,247 @@
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
-1. kirjeldab aine olekuid mikrotasandil ();
-2. võrdleb reaalgaasi ja ideaalgaasi mudeleid;
+
+1. kirjeldab aine olekuid mikrotasandil (13-1, 17-1);
+
+2. võrdleb reaalgaasi ja ideaalgaasi mudeleid (17: 7-10, 18-3);
+
 3. kasutab mõisteid küllastunud aur, absoluutne niiskus, suhteline niiskus ja kastepunkt ning seostab
-neid ilmastikunähtustega;
+neid ilmastikunähtustega (18-4);
+
 4. selgitab mõisteid pindpinevus, märgamine ja kapillaarsus looduses ning tehnoloogias toimuvate
-nähtustega;
-5. kirjeldab aine olekuid, kasutades õigesti mõisteid faas ja faasisiire; 
+nähtustega (13-13);
+
+5. kirjeldab aine olekuid, kasutades õigesti mõisteid faas ja faasisiire (13-1, 17-1); 
+
 6. seletab faasisiirdeid erinevatel rõhkudel ja temperatuuridel.
+
+13: 1, 13
+17: 1, 7-10
+18: 3, 4
 
 ### Õppesisu
 
-Aine olekud, nende sarnasused ja erinevused. Aine olekud mikrotasemel. Molekulaarjõud. Reaalgaas. Veeaur
-õhus. Õhuniiskus. Küllastunud ja küllastumata aur. Absoluutne ja suhteline niiskus, kastepunkt.
-Ilmastikunähtused. Pindpinevus. Märgamine ja kapillaarsus, nende ilmnemine looduses. Faasisiirded ning
-siirdesoojused.
+Aine olekud, nende sarnasused ja erinevused (13-1, 17-1). Aine olekud mikrotasemel (17-1). Molekulaarjõud. Reaalgaas (18-3). Veeaur
+õhus (18-4). Õhuniiskus (18-4). Küllastunud ja küllastumata aur (18-4). Absoluutne ja suhteline niiskus, kastepunkt (18-4).
+Ilmastikunähtused. Pindpinevus (13-13). Märgamine ja kapillaarsus, nende ilmnemine looduses (13-13). Faasisiirded ning
+siirdesoojused (18-3, 19-5, 19-10).
+
+13: 1, 13
+17: 1
+18: 3-4
+19: 5, 10
+
+13: 1, 13
+17: 1, 7-10
+18: 3-4
+19: 5, 10
 
 ### Põhimõisted
 
-aine olek, gaas, vedelik, kondensaine, tahkis, reaalgaas, küllastunud aur, absoluutne ja
-suhteline niiskus, kastepunkt, faas ja faasisiire
+aine olek (13-1), gaas (17: 6-10, 18), vedelik (13, 17-1), kondensaine (40: 5-11), tahkis (13-1, 40: 5-7), reaalgaas (18-3), küllastunud aur (18-4), absoluutne ja
+suhteline niiskus (18-4), kastepunkt (18-4), faas ja faasisiire (13-1, 17-1)
 
 p: 10.13, 13.11-13.12, 14.5, 29.3, 29.5
 r: 13.1, 13.13, 17.1, 18.3-18.4, 19.5, 40.5
 
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+40: 5-11
+
 ### Praktiline tegevus
 
-1. Sulamistemperatuuri määramine;
-2. jahutussegude võrdlemine;
+1. Sulamistemperatuuri määramine (19-5);
+
+2. jahutussegude võrdlemine (19-10);
+
 3. keemistemperatuuri sõltuvuse määramine sõltuvalt lahuse kontsentratsioonist;
-4. õhuniiskuse mõõtmine;
-5. pindpinevuse uurimine;
-6. seebivee omaduste uurimine.
+
+4. õhuniiskuse mõõtmine (18-4);
+
+5. pindpinevuse uurimine (13-13);
+
+6. seebivee omaduste uurimine (13-13).
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+40: 5-11
 
 ## Mikromaailma füüsika
 
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
+
 1. nimetab välis- ja sisefotoefekti olulisi tunnuseid;
+
 2. kasutab leiulaine mõistet mikromaailma nähtusi kirjeldades;
-3. kirjeldab elektronide difraktsiooni;
+
+3. kirjeldab elektronide difraktsiooni (37-7);
+
 4. nimetab füüsikaliste suuruste paare, mille vahel valitseb määramatusseos;
-5. analüüsib eriseoseenergia ja massiarvu sõltuvuse graafikut;
-6. teab, et massi ja energia samasust kirjeldab valem E = m c2
-;
-7. kirjeldab tuumade lõhustumise ja sünteesi reaktsioone;
+
+5. analüüsib eriseoseenergia ja massiarvu sõltuvuse graafikut (40: 1-3);
+
+6. teab, et massi ja energia samasust kirjeldab valem E = m c2;
+
+7. kirjeldab tuumade lõhustumise ja sünteesi reaktsioone (42: 3-4);
+
 8. seletab radioaktiivse dateerimise meetodi olemust ning toob näiteid selle meetodi rakendamise
-kohta;
+kohta (41-10);
+
 9. seletab tuumareaktorite üldist tööpõhimõtet ning analüüsib tuumaenergeetika eeliseid ja sellega
-seonduvaid ohte;
+seonduvaid ohte (42: 3-4);
+
 10. teab ioniseeriva kiirguse liike ja allikaid, analüüsib ioniseeriva kiirguse mõju elusorganismidele ning
-pakub võimalusi kiirgusohu vähendamiseks.
+pakub võimalusi kiirgusohu vähendamiseks (42-5).
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+37: 7
+40
+41: 10-11
+42: 3-5
 
 ### Õppesisu
 
-Välis- ja sisefotoefekt. Aatomimudelid. Osakeste leiulained. Kvantmehaanika. Elektronide difraktsioon.
-Määramatusseos. Aatomi kvantarvud. Aatomituum. Massidefekt. Seoseenergia. Eriseoseenergia. Massi ja
-energia samaväärsus. Tuumareaktsioonid. Tuumaenergeetika ja tuumarelv. Radioaktiivsus. Poolestusaeg.
-Radioaktiivne dateerimine. Ioniseerivad kiirgused ja nende toimed. Kiirguskaitse.
+Välis- ja sisefotoefekt. Aatomimudelid. Osakeste leiulained. Kvantmehaanika (38-40). Elektronide difraktsioon (37-7).
+Määramatusseos. Aatomi kvantarvud (37-11, 39: 1, 4, 40-4). Aatomituum. Massidefekt. Seoseenergia (40: 1, 3). Eriseoseenergia. Massi ja
+energia samaväärsus. Tuumareaktsioonid (42-1). Tuumaenergeetika ja tuumarelv (42: 1, 4). Radioaktiivsus (41: 3). Poolestusaeg (41-8).
+Radioaktiivne dateerimine (41-10). Ioniseerivad kiirgused ja nende toimed (42-5). Kiirguskaitse.
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+37: 7, 11-12
+38
+39
+40
+41: 1-3, 8-11
+42: 1-5
 
 ### Põhimõisted
 
-välis- ja sisefotoefekt, kvantarv, energiatase, kvantmehaanika, määramatusseos,
-eriseoseenergia, tuumaenergeetika, tuumarelv, radioaktiivsus, poolestusaeg, radioaktiivne dateerimine,
-ioniseeriv kiirgus, kiirguskaitse
+välis- ja sisefotoefekt, kvantarv (37: 1, 11, 38-8, 39-1, 40-4), energiatase (38-8), kvantmehaanika (38-39), määramatusseos,
+eriseoseenergia, tuumaenergeetika (42), tuumarelv (42-4), radioaktiivsus (41-3), poolestusaeg (41-8), radioaktiivne dateerimine (41-10),
+ioniseeriv kiirgus (42-5), kiirguskaitse
 
 27.2-27.3, 27-12, 28.1, 28.3, 28.5-28.6, 30.2-30.3, 30.8-30.9, 30.11, 31
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+37: 1, 7, 11-12
+38
+39
+40
+41: 1-3, 8-11
+42
 
 ### Praktiline tegevus
 
 1) tutvumine fotoefektiga;
-2) kiirgusfooni mõõtmine;
+
+2) kiirgusfooni mõõtmine (42-6);
+
 3) udukambri valmistamine. 
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+37: 1, 7, 11-12
+38
+39
+40
+41: 1-3, 8-11
+42
 
 ## Megamaailma füüsika
 
 ### Õpitulemused
 
 Kursuse lõpus õpilane: 
+
 1. teab, et info maailmaruumist jõuab meieni elektromagnetlainetena; nimetab ning eristab
 maapealseid ja kosmoses liikuvaid astronoomia vaatlusvahendeid;
+
 2. võrdleb Päikesesüsteemi põhiliste koostisosade mõõtmeid ja liikumisviisi: Päike, planeedid,
 kaaslased, asteroidid, väikeplaneedid, komeedid, meteoorkehad;
-3. kirjeldab tähti, nende evolutsiooni ja planeedisüsteemide tekkimist;
-4. kirjeldab galaktikate ehitust ja evolutsiooni;
-5. kirjeldab universumi tekkimist ja arengut Suure Paugu teooria põhjal.
+
+3. kirjeldab tähti, nende evolutsiooni ja planeedisüsteemide tekkimist (44: 1-2);
+
+4. kirjeldab galaktikate ehitust ja evolutsiooni (44-1);
+
+5. kirjeldab universumi tekkimist ja arengut Suure Paugu teooria põhjal (43-11).
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+37: 1, 7, 11-12
+38
+39
+40
+41: 1-3, 8-11
+42
+43: 11-12
+44: 1-2
 
 ### Õppesisu
 
-Astronoomia vaatlusvahendid ja nende areng. Tähtkujud. Maa ja Kuu perioodiline liikumine aja arvestuse
-alusena. Kalender. Päikesesüsteemi koostis, ehitus ning tekkimise hüpoteesid. Päike ja teised tähed. Tähtede
-evolutsioon. Galaktikad. Linnutee galaktika. Universumi struktuur. Universumi evolutsioon.
+Astronoomia vaatlusvahendid ja nende areng (33-8). Tähtkujud. Maa ja Kuu perioodiline liikumine aja arvestuse
+alusena. Kalender. Päikesesüsteemi koostis, ehitus ning tekkimise hüpoteesid. Päike ja teised tähed (44-1). Tähtede
+evolutsioon (44-2). Galaktikad (44-1). Linnutee galaktika (44-1). Universumi struktuur. Universumi evolutsioon.
+
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+33: 8
+37: 1, 7, 11-12
+38
+39
+40
+41: 1-3, 8-11
+42
+43: 11-12
+44: 1-2
 
 ### Põhimõisted
 
-observatoorium, teleskoop, kosmoseteleskoop, Päikesesüsteem, planeet, planeedikaaslane,
-tehiskaaslane, asteroid, komeet, väikeplaneet, meteoorkeha, täht, galaktika, Linnutee, kosmoloogia
+observatoorium, teleskoop (33-8), kosmoseteleskoop, Päikesesüsteem, planeet (6-5), planeedikaaslane,
+tehiskaaslane (6-4), asteroid, komeet, väikeplaneet, meteoorkeha, täht (44-1), galaktika (44-1), Linnutee (44-1), kosmoloogia (44)
 
 5.8, 7.10, 25.4, 25.8, 31.3, 32.11, 33
 
+6: 4, 5
+13
+17: 1, 6-10
+18: 3, 4
+19: 5, 10
+33: 8
+37: 1, 7, 11-12
+38
+39
+40
+41: 1-3, 8-11
+42
+43: 11-12
+44
+
 ### Praktilised tööd
 
-1) Erinevate taevakehade vaatlemine;
+1) Erinevate taevakehade vaatlemine (6-5);
+
 2) päikesekella valmistamine. 
 
 ## Kalender Edu Valemis
@@ -138,27 +276,39 @@ Kava:
 
 4. Arutelu tiheduse ja erikaalu üle koos arvutusülesande lahendamisega[@giancoli, lk 261-262].
 
-5. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesannete lahendamisega[@giancoli, lk 262-263].
-
-6. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@giancoli, lk 24].
-
-7. Kokkuvõte.
+5. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262].
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave! Lahendada @giancoli, lk 285-286 õpikust ülesanded 1, 3, 5, 7.
 
 ### 2023-09-07
 
-Pascali põhimõte[@giancoli, lk 265].
+Jätkasime eelmise sessiooni tegevusi.
 
-Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267].
+### 2023-09-14
 
-Elavhõbedaga õhurõhu mõõtmise video kogemine (hiljem).
+Rõhk voolavates ainetes.
 
-Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
+Atmosfäärirõhk ja manomeetriline rõhk.
 
-Kõrrega joomise demonstratsioon.
+Kava:
 
-Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272].
+1. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesannete lahendamisega[@physics, lk 367-370].
+
+2. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371].
+
+3. Pascali põhimõte[@giancoli, lk 265].
+
+4. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267].
+
+5. Elavhõbedaga õhurõhu mõõtmise video kogemine (hiljem).
+
+6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
+
+7. Kõrrega joomise demonstratsioon.
+
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui jõuame baromeetri teema läbitud, siis lahendada @physics, lk 392-393'st ülesanded 7, 9, 11, 13, 15, 17, 19, 21, 23 ja 25! Kui jõuame ka Archimedese põhimõtte käsitletud, siis lahendada @physics, lk 393-394 ülesanded 27, 29, 31, 33, 35, 37, 39, 41 ja 43!
 
 ### 2023-09-18
 
