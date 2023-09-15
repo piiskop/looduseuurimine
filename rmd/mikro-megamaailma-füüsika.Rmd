@@ -312,6 +312,8 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni:
 
 ### 2023-09-18
 
+Näidata, kuidas integratsiooni kasutada füüsikas!
+
 ### 2023-09-25
 
 ### 2023-10-2

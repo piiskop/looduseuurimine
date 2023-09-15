@@ -209,9 +209,17 @@ Indutseeritud laeng ja elektroskoop.
 
 Kava:
 
-1. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
+1. Tagasiside protokollidele.
 
-2. 
+2. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
+
+3. Coulomb'i seadus[@physics, lk 613-618].
+
+4. Elektriväli[@physics, lk 618-622].
+
+5. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics, lk 622-625].
+
+Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada paaritu tähistusega ülesanded @physics, lk 636-637'st!
 
 ### 2023-09-18
 

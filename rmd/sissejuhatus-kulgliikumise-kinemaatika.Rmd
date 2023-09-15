@@ -517,13 +517,31 @@ Kava:
 
 5. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
 
-6.  Ühik[@mtmised, lk 7].
+6. Ühik[@mtmised, lk 7].
 
 7. Mõõtühikute eesliidetega tutvumine[@mthikute; @giancoli, lk 10; @mdulint].
 
 8. Harjutused mõõtühikute eesliidetega.
 
 ### 2023-09-15
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+Õppesisu: Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Kava:
+
+0. *10.b*: Plickers: *Mudelid, teooriad ja seadused*.
+
+1. Ümardamine[@rounding].
+
+2. Tüvenumbrid[@sigfigpdf; @significantfigurespdf; @physics, lk 4-6; @introduction; @rounding].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+### 2023-09-18
 
 Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
 
@@ -551,8 +569,6 @@ Kava:
 2. Mõõtemääramatuse praktiliste ülesannete lahendamine
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @giancoli, lk 18 ülesanded 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 ja 23!
-
-### 2023-09-18
 
 ### 2023-09-22
 

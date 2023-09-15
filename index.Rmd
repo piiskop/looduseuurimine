@@ -5,9 +5,6 @@ colorlinks: TRUE
 author: "peacecop kalmer:"
 description: "looduseuurimise õppe allikas"
 lang: et
-language:
-  label:
-    fig: "Joonis "
 include-before:
     - \input{title-page.tex}
 title: "`r if (knitr::is_latex_output()) { '' } else { 'Looduseuurimine' }`"

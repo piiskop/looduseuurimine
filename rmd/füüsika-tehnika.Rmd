@@ -55,8 +55,13 @@ suhestatust kooli loodusteaduslike õppeainetega;
 
 ## Õppesisu
 
-1. **Aero- ja hüdrodünaamika.** Keskkonna takistusjõud. Teised õhusõidukile mõjuvad jõud. Vedelike
-voolamine torudes. Inimese ja looma vereringe, diastoolne ja süstoolne vererõhk. Hüdroturbiin.
+1.  **Aero- ja hüdrodünaamika.** Keskkonna takistusjõud (5-6)[@labor_9_keskkonnatakistuse_uurimine_vedelikesdocxpdf; @looduseuurimine]. Teised õhusõidukile mõjuvad jõud (5-6). Vedelike
+voolamine torudes (13: 8-10). Inimese ja looma vereringe, diastoolne ja süstoolne vererõhk (13: 10, 12, 14, 18-8). Hüdroturbiin (29-4).
+
+    5: 6
+    13: 8-14
+    18: 8
+    29: 4
 
 2. **Elastsuslained.** Elastse deformatsiooni energia. Võnkumiste ja lainete
 energia. Võnkumiste liitumine.
@@ -153,9 +158,15 @@ Kava:
 
 3. Moodulite valimine.
 
-4. Kui aega jääb üle, siis MathCityMapi tutvustamine[@mathcitymap].
+4. Kui aega jääb üle, siis MathCityMapi tutvustamine[@mathcitymap]. Ei jäänud.
 
 ### 2023-09-15
+
+**Aero- ja hüdrodünaamika.**
+
+Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 134-135].
+
+Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanded 73, 75, 77 ja 79!
 
 ### 2023-09-22
 
