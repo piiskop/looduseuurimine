@@ -61,11 +61,14 @@ voolamine torudes (13: 8-10). Inimese ja looma vereringe, diastoolne ja süstool
     5: 6
     13: 8-14
     18: 8
-    29: 4
+    29: 4*
 
-2. **Elastsuslained.** Elastse deformatsiooni energia. Võnkumiste ja lainete
-energia. Võnkumiste liitumine.
-Võnkumiste spekter. Doppleri efekt helilainete korral. Helitugevus. Detsibell. Müra ja mürakaitse.
+2.  **Elastsuslained.** Elastse deformatsiooni energia[@a82]. Võnkumiste ja lainete
+energia[@a2016_165]. Võnkumiste liitumine[@hallidayresnickwalker2c, lk 550-584].
+Võnkumiste spekter (40-4). Doppleri efekt helilainete korral (16: 7-9). Helitugevus (16: 1-3). Detsibell (16-3). Müra ja mürakaitse (16-5).
+
+    16*
+    40: 4
 
 3. **Ebatavalised faasid ja faasisiirded.** Gaaside veeldamine. Madalate temperatuuride saamine.
 Krüovedelikud ja krüogeenika. Allajahutatud ja ülekuumendatud vedelikud. Härmatumine
@@ -166,9 +169,15 @@ Kava:
 
 Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 134-135].
 
-Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanded 73, 75, 77 ja 79!
+Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanded  75, 77 ja 79!
 
 ### 2023-09-22
+
+**Aero- ja hüdrodünaamika.**
+
+Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135].
+
+Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanne 73!
 
 ### 2023-09-29
 

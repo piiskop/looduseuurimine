@@ -62,9 +62,10 @@ Kui kontrolltöö on sooritatud, annab õpilane oma tehtu mulle üle. Kui õppes
 
 Mina jäädvustan lehed, hindan ja tagasisidestan järgmises õppesessioonis. Siis tagastan ka õpilasele tema kontrolltöö tulemuse ning ta omakorda järgmiseks sessiooniks hindab oma sooritust ise vastavalt minu esitatud ühele teisendile õigetest lahenditest. Hiljem võrdlen enda ja õpilase hinnangut ja teeme järelduse.
 
-Uuesti sooritada või esimesel korral tegemata jätmise puhul sooritada saab minuga kokkuleppel reedese kuuenda õppeperioodi järel.
+Kui õpilane selgitab tahvli abil kõigile korrektselt mingi kontaktsessiooniväliseks lahendamiseks jäetud analüütikaülesande, saab ta selle kohta ühe protsendipunkti kursuse lõpphindest juurde. Tagan, et kõik soovijad saaksid võrdselt selgitada, mis tähendab, et kui keegi juba selgitas, aga soovijaid on veel, siis tuleb võtta järgmisena muu soovija, kes veel pole selgitanud. Esimesena saab selgitama esimesena soovi avaldanud õpilane.
 
 ## Valikkursused
 
 Hindan väljundeid mitteeristavalt. *A* märgin, kui kõik väljundid vastavad kõikidele kriteeriumidele.
 
+Kui õpilane selgitab mingi kontaktsessiooniväliseks lahendamiseks jäetud ülesande lahenduse tahvli abil meile kõigile korrektselt, vabaneb ta selle ülesande mooduli osas teiste tegevuste hindamiseks esitamisest ja tema selle mooduli teadmised-oskused saavad märgituks kui olemasolevad (*A*).

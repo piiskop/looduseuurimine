@@ -6,7 +6,7 @@ Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud 
 
 \onecolumn
 
-```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused"}
+```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused", out.height="96%"}
 include_external_graphics("rmd/physics-measuring.svg")                                # 2
                                                                                  # 3
 ```

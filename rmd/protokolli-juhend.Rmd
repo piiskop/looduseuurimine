@@ -24,12 +24,14 @@ Eesmärkide ossa kirjutad, mille jaoks seda eksperimenti tegid.
 
 Vahendite loetelu peab olema piisava täpsusega.
 
-Teooriaosas selgitad, kuidas asi võiks toimida.
+Teooriaosas selgitad, kuidas asi võiks toimida. See peab olema piisavalt detailne.
 
-Praktika osas kirjutad üles samm-sammulise juhise, kuidas eksperimendi tegid.
+Praktika osas kirjutad üles samm-sammulise juhise, kuidas eksperimendi tegid. Palun väldi asesõnu, mis võivad tekitada segadust.
 
 Järeldusossa kirjutad, kuidas sinu eksperiment kinnitas teooriat või ei olnud sellega kooskõlas. Mõlemal juhul põhjendad. Viimasel juhul selgitad ka põhjuseid, mis läks valesti.
 
-Kui kasutad väliseid andmeallikaid, ka neid, mida oled varem ise loonud, siis viitad nendele tekstis, kus kasutad, ning lõpus on viidete loetelu.
+Kui kasutad väliseid andmeallikaid, ka neid, mida oled varem ise loonud, siis viitad nendele tekstis, kus kasutad, ning lõpus on viidete loetelu. Veebiviidete juurde tuleb märkida, millal sealt andmeid ammutasid.
+
+Protokoll võib sisaldada ja mõõdukalt keeruka eksperimendi puhul peabki sisaldama seadme skeemi või skeeme. Sellisel juhul tuleb skeem tekstiga siduda sellele viidates.
 
 Saad uurida üht minu valmistatud protokolli, mis on küll keskkooliõpilase protokollide jaoks liiga põhjalik[@noauthor_undated-st].

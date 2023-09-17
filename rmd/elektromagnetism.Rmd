@@ -5,24 +5,39 @@
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
+
 1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
 2. võrdleb mõisteid aine ja väli (21.6);
+
 3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit (21.6);
+
 4. kasutab probleeme lahendades
 Coulomb’i seadust (21.5)
+
 5. kasutab probleeme lahendades seoseid (23.1, 23.7);
+
 6. rakendab superpositsiooni printsiipi
 elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6);
+
 7. teab, et kahe erinimeliselt laetud paralleelse plaadi vahel tekib homogeenne elektriväli (21.7);
+
 8. teab, et magnetväljal on kaks põhimõtteliselt erinevat võimalikku tekitajat: püsimagnet ja elektrivool,
 ning rakendab valemit (27.3);
+
 9. kasutab probleeme lahendades Ampere’i seadust (28.4);
+
 10. määrab sirgvoolu tekitatud magnetinduktsiooni suuna etteantud punktis (29.1-29.3);
+
 11. kasutab valemit F = B I l sin α ning Ampere’i jõu suuna määramise eeskirja (28.2, 28.4);
+
 12. rakendab probleeme lahendades Lorentzi jõu valemit FL = q v B sin α ning määrab Lorentzi jõu suunda (27.4);
+
 13. seletab pööriselektrivälja tekkimist magnetvoo muutumisel, rakendades
 induktsiooni elektromotoorjõu mõistet (29.1);
+
 14. võrdleb generaatori ning elektrimootori tööpõhimõtteid (29.4);
+
 15. selgitab elektri- ja magnetvälja energia salvestamise võimalusi (24.4, 25.1).
 
 ### Õppesisu
@@ -45,12 +60,19 @@ Lorentzi jõud (27.4), pööriselektriväli (29.1), induktsiooni elektromotoorj�
 ### Praktiline tegevus
 
 1. Tutvumine välja mõistega elektri- ja magnetvälja näitel;
+
 2. elektrostaatika katsete tegemine;
+
 3. kahe vooluga juhtme magnetilise vastastikmõju uurimine; 
+
 4. Ørstedi katsega tutvumine (27.2);
+
 5. elektromagnetilise induktsiooni uurimine;
+
 6. Lenzi reegli rakendamine;
+
 7. elektrimootori ja selle omaduste uurimine;
+
 8. tutvumine kondensaatorite ja induktiivpoolide tööga. 
 
 21.1-21.2, 21.4-21.8, 21.11,
@@ -67,22 +89,35 @@ Lorentzi jõud (27.4), pööriselektriväli (29.1), induktsiooni elektromotoorj�
 ### Õpitulemused
 
 Kursuse lõpus õpilane:
+
 1. selgitab elektromagnetlaine mõistet ja elektromagnetlainete rakendusi (31.4-31.6, 31.8);
+
 2. kirjeldab võnkeringi kui elektromagnetlainete kiirgamise ja vastuvõtu baasseadet (30.5);
+
 3. kirjeldab elektromagnetlainete skaalat, rakendades seost c = f λ, ning teab nähtava valguse
 lainepikkuste piire ja põhivärvuste lainepikkuste järjestust (31.6);
+
 4. selgitab graafiku järgi elektromagnetlainete amplituudi ja intensiivsuse mõistet (15.3);
+
 5. kirjeldab joonisel või arvutiimitatsiooniga interferentsi- ja difraktsiooninähtusi optikas ning toob
 nende rakendamise näiteid (34.1, 34.3, 35);
+
 6. seletab valguse koherentsuse tingimusi ja nende täidetuse vajalikkust vaadeldava
-a. interferentsipildi saamisel (34.3);
+interferentsipildi saamisel (34.3);
+
 7. seostab polariseeritud valguse omadusi rakendustega looduses ja tehnikas (34.7);
+
 8. rakendab valguse murdumisseadust, kasutades seoseid (32.6-32.7);
+
 9. kirjeldab valge valguse spektriks lahutumise võimalusi (32.8);
+
 10. võrdleb spektrite põhiliike (31.6);
+
 11. seletab valguse tekkimist aatomi energiatasemete skeemil ning rakendab probleeme
-a. lahendades valemit E = h f (37.11);
+lahendades valemit E = h f (37.11);
+
 12. selgitab valguse korral dualismiprintsiipi ja selle seost atomistliku printsiibiga (37.6);
+
 13. eristab soojuskiirgust ja luminestsentsi ning seostab neid vastavate valgusallikatega (34.10).
 
 ### Õppesisu
@@ -104,12 +139,19 @@ luminestsents (34.10)
 ### Praktiline tegevus
 
 1. Ühelt pilult, kaksikpilult ja juuksekarvalt saadava difraktsioonipildi uurimine (34.3-34.4);
+
 2. läbipaistva aine murdumisnäitaja määramine;
+
 3. spektroskoobi valmistamine;
+
 4. tutvumine erinevate valgusallikatega (43.1);
+
 5. valguse spektri uurimine;
+
 6. soojuskiirguse uurimine (19.10);
+
 7. polaroidide tööpõhimõtte uurimine;
+
 8. valguse polariseerumise uurimine peegeldumisel. 
 
 15.1, 15.3,
@@ -125,7 +167,7 @@ luminestsents (34.10)
 
 15 (30),
 19.10 (10),
-21 (30),
+21 (30)*,
 
 23 (30),
 24 (30),
@@ -213,15 +255,36 @@ Kava:
 
 2. Plickers: *Staatiline elekter, elektrilaeng ja selle jäävus*, *Elektrilaeng aatomis*, *Isolaatorid ja elektrijuhid* ning *Indutseeritud laeng ja elektroskoop*.
 
-3. Coulomb'i seadus[@physics, lk 613-618].
+3. Coulomb'i seadus[@physics, lk 613-614].
+
+Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad!
+
+### 2023-09-18
+
+Eesmärgina õpilane oskab
+
+4. kasutada probleeme lahendades
+Coulomb’i seadust (21.5),
+
+5. kasutada probleeme lahendades seoseid (23.1, 23.7).
+
+Õppesisu: Coulomb’i seadus (21.5).
+Punktlaeng (21.5).
+
+Põhimõiste:
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+Kava:
+
+3. Coulomb'i seadus[@physics, lk 613-618]. *11a*: pärast võrdlust gravitatsiooniseadusega. *11b*: Coulombi skeemist edasi.
 
 4. Elektriväli[@physics, lk 618-622].
 
 5. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics, lk 622-625].
 
-Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada paaritu tähistusega ülesanded @physics, lk 636-637'st!
-
-### 2023-09-18
+Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada paaritu tähistusega nende teemade, mida jõudsime käsitleda terves mahus, ülesanded @physics, lk 636-637'st!
 
 ### 2023-09-22
 
@@ -290,3 +353,111 @@ Difraktsiooni, varase kvantteooria ja aatomimudelite ning elementaarosakeste tea
 ### 2024-1-19
 
 ### 2024-1-22
+
+## Eksperimentide protokollid
+
+Eksperimentide protokollide seis on esitatud tabelis \@ref(tab:protocols) leheküljel `r render_pageref(reference = "tab:protocols")`.
+
+\onecolumn
+
+```{r label = "protocols", echo=FALSE}
+electroscope <- c(
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1, # Maarja-Lii Erm
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1, # Teele Tuul
+  0,
+  0
+)
+
+data_frame_of_protocols <- data.frame(
+  electroscope
+)
+
+colnames(data_frame_of_protocols) <- c(
+  "Elektroskoop"
+)
+
+rownames(data_frame_of_protocols) <- c(
+	"1. Allert, Marie",
+	"2. Brinkmann, Sander",
+	"3. Ernits, Enrico",
+	"4. Heinaru, Merili",
+	"5. Kaljuvee, Fredi",
+	"6. Kangro, Kristofer",
+	"7. Küling, Mireta",
+	"8. Meriküll, Eteli",
+	"9. Miljand, Hugo",
+	"10. Orro, Oliver",
+	"11. Parkkanen, Henrico",
+	"12. Parve, Marken",
+	"13. Plamus, Kristofer-Robin",
+	"14. Saar, Carl-Joonas",
+	"15. Schulzendorff, Katharina Helene",
+	"16. Taimre, Kris",
+	"17. Tepp, Kiara Keiti",
+	"18. Tori, Birgit",
+	"19. Ööbik, Markus",
+	"1. Ader, Georg",
+	"2. Aus, Matteus",
+	"3. Erm, Maarja-Lii",
+	"4. Jakobson, Jasper",
+	"5. Jürissaar, Kaia Kretel",
+	"6. Jürissaar, Miia Mirtel",
+	"7. Kabel, Kairit",
+	"8. Kivirüüt, Alice",
+	"9. Kruusmann, Ketli",
+	"10. Mihkelson, Sten-Erik",
+	"11. Mäesalu, Martin",
+	"12. Oolma, Robert-Heinrich",
+  "13. Paavel, Anni Kaisi",
+	"14. Reiter, Karl Mattias",
+	"15. Solman, Kärt",
+	"16. Tobi, Morris",
+	"17. Toom, Martha",
+	"18. Tuul, Teele",
+	"19. Vahesaar, Toren Holder",
+	"20. Volman, Andreas"
+)
+
+print_table(
+  caption = "Eksperimentide protokollid. Kui tabelis on \\textit{1}, siis on korras.",
+  table = data_frame_of_protocols
+)
+
+```
+
+\twocolumn

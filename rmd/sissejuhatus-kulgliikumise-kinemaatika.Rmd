@@ -543,6 +543,10 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 
 ### 2023-09-18
 
+Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
+
+Ühikute teisendamine[@giancoli, lk 11-12].
+
 Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
 
 Eesmärgid:
@@ -551,24 +555,53 @@ Eesmärgid:
 
 2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
 
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
 7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
 mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
 
-Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
 Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
-Põhimõiste:
+Põhimõisted:
 
 füüsikaline suurus
 : füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
 
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
 Kava:
 
-1. Mõõtemääramatusega tutvumine[@kella, @mtetulemus, @neli, @higgsi, @a, @giancoli, lk 5-6].
+2. Tüvenumbrite harjutamine[@significantfigurespdf, lk 2].
 
-2. Mõõtemääramatuse praktiliste ülesannete lahendamine
+3. Ühikute teisendamine[@physics, lk 1, 9-10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @giancoli, lk 18 ülesanded 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 ja 23!
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+
+7. Toores hinnang[@physics, lk 11-13].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+
+3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
+
+5: 55, 57,
+
+2, 6: 1, 3, 5, 7, 9, 11, 13,
+
+7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
+
+2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
 ### 2023-09-22
 
