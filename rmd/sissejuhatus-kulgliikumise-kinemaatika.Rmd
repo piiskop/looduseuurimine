@@ -303,6 +303,17 @@ Rakendasime ümardamise ja tüvenumbrite reegleid.
 
 ### 2023-09-14
 
+Õppesisu: Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng.
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 1, 9-10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+### 2023-09-19
+
 Eesmärgina õpilane
 
 4. oskab põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
@@ -331,8 +342,6 @@ mõõtemääramatus
 
 Kava:
 
-3. Ühikute teisendamine[@physics, lk 1, 9-10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
-
 4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
 
 5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
@@ -352,8 +361,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-09-18
 
 ### 2023-09-22
 

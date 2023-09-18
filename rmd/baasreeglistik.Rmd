@@ -446,8 +446,6 @@ Avaldan avaldisest \@ref(eq:planck-constant) leheküljel `r render_pageref(refer
 
 ```
 
-\twocolumn
-
 []{#momentum}
 
 ## Massikontsentratsioon (massi tihedus)
@@ -505,6 +503,8 @@ convert_from_g_per_cm3_to_kg_per_m3 <- function(g_per_cm3) {
 }
 
 ```
+
+\twocolumn
 
 ## Impulss
 
@@ -962,6 +962,8 @@ Dimensionaalanalüüs on esitatud valemina \@ref(eq:dimensional-analysis-of-rota
 (\#eq:dimensional-analysis-of-rotational-kinetic-energy)
 \end{align}
 
+\onecolumn
+
 ### Mehaanilise energia jäävus
 
 Kogu mehaaniline energia on kineetilise ja potentsiaalse energia summa igal hetkel[@giancoli_2014_physics(lk 150)] (valem \@ref(eq:total-mechanical-energy) leheküljel `r render_pageref(reference = "eq:total-mechanical-energy")`).
@@ -1054,6 +1056,8 @@ I := \frac{\mathrm{d}(Q)}{\mathrm{d}(t)},(\#eq:I)
 
 mistõttu ühik on $\unit{A}$.
 
+\twocolumn
+
 ## Elektromotoorjõud
 
 elektromotoorjõud
@@ -1144,6 +1148,8 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-V)
 ```
 
 Seetõttu ühik on $\unit{\m\squared\kg\per\A\per\s\cubed}$ või kõige lühemalt $\unit{\V}$.
+
+\onecolumn
 
 ## Elektripotentsiaalide erinevus
 
@@ -1313,7 +1319,7 @@ calculate_force_through_electric_field_strength <- function(E, Q) {
 +----------+-----------------+--------+---------+--------------------+
 | giga-    | 9               | G      | 100 GPa | sada gigapaskalit  |
 +----------+-----------------+--------+---------+--------------------+
-| tera-    | 12              | T      | 0.5 Tcd  | pool terakandelat  |
+| tera-    | 12              | T      | 0.5 Tcd | pool terakandelat  |
 +----------+-----------------+--------+---------+--------------------+
 
 : Ühikute eesliited
