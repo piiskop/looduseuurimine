@@ -59,15 +59,19 @@ suhestatust kooli loodusteaduslike õppeainetega;
 voolamine torudes (13: 8-10). Inimese ja looma vereringe, diastoolne ja süstoolne vererõhk (13: 10, 12, 14, 18-8). Hüdroturbiin (29-4).
 
     5: 6
-    13: 8-14
-    18: 8
-    29: 4*
+    13: 8-14 (ainult põhikursuses)
+    18: 8 (pärast põhikursuse 18: 1-4)
+    29: 4 (pärast 27.4, kui on 11-tasemel käsitletud)
 
-2.  **Elastsuslained.** Elastse deformatsiooni energia[@a82]. Võnkumiste ja lainete
-energia[@a2016_165]. Võnkumiste liitumine[@hallidayresnickwalker2c, lk 550-584].
+2.  **Elastsuslained.** Elastse deformatsiooni energia[@a82] (8.2). Võnkumiste ja lainete
+energia[@a2016_165] (14: 3, 15: 3). Võnkumiste liitumine[@hallidayresnickwalker2c, lk 550-584].
 Võnkumiste spekter (40-4). Doppleri efekt helilainete korral (16: 7-9). Helitugevus (16: 1-3). Detsibell (16-3). Müra ja mürakaitse (16-5).
 
-    16*
+    8: 2 (ainult mehaanika kursuses)
+    12: 5 (elastse deformatsiooni energia mõistmiseks ainult mehaanika kursuses)
+    14: 3 (ainult mehaanika kursuses)
+    15: 3 (ainult mehaanika kursuses)
+    16* (samafoonid peale 16: 3, intensiivsus ja interferents peale 16: 6, konsonants ja dissonants kõige lõpus)
     40: 4
 
 3. **Ebatavalised faasid ja faasisiirded.** Gaaside veeldamine. Madalate temperatuuride saamine.
@@ -128,17 +132,25 @@ vedelkristallekraan.
 ## Õppetegevus
 
 Kasutatakse järgmisi õppemeetodeid:
+
 1. konkreetses kontekstis vajaliku füüsikalis-tehnoloogilise info leidmine õppetekstidest ja veebist;
+
 2. teadmiste kinnistamine interaktiivsete õppevideote ja arvutimudelitega;
+
 3. kas reaalsuses praktiliselt või katsevahendite puudumise korral virtuaalselt tehtavad uurimistööd, et
 määrata eelkõige vaatlusaluse materjali või tehnilise seadme omadused;
+
 4. rühmatöö, et leida ja analüüsida füüsikalis-tehnoloogilisi probleeme ning otsida neile lahendusi;
+
 5. mingi tehnoloogilise lahenduse või selle alternatiivide olemust kirjeldava ning analüüsiva essee
 kirjutamine; esseede vastastikune hindamine;
+
 6. loovust arendavad tegevused: plakati loomine, arvutiesitluste koostamine, debatid ja rollimängud,
 ajurünnak;
+
 7. Cmapi meetodi kasutamine, et teadvustada ja kinnistada vaadeldava temaatika sisemisi olemuslikke
 seoseid;
+
 8. uuenduslike projektide kavandamine. 
 
 ## Kalender
@@ -176,6 +188,12 @@ Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 
 **Aero- ja hüdrodünaamika.**
 
 Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135].
+
+**Elastsuslained**
+
+Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463].
+
+Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467].
 
 Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanne 73!
 

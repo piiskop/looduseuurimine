@@ -230,7 +230,7 @@ tehiskaaslane (6-4), asteroid, komeet, väikeplaneet, meteoorkeha, täht (44-1),
 6: 4, 5
 13
 17: 1, 6-10
-18: 3, 4
+18: 1-4
 19: 5, 10
 33: 8
 37: 1, 7, 11-12
@@ -255,10 +255,6 @@ tehiskaaslane (6-4), asteroid, komeet, väikeplaneet, meteoorkeha, täht (44-1),
 Aine faasid.
 
 Tihedus ja erikaal.
-
-Rõhk voolavates ainetes.
-
-Atmosfäärirõhk ja manomeetriline rõhk.
 
 Eesmärk: Oskus kirjeldada aine olekuid mikrotasandil.
 
@@ -308,13 +304,23 @@ Kava:
 
 8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272].
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui jõuame baromeetri teema läbitud, siis lahendada @physics, lk 392-393'st ülesanded 7, 9, 11, 13, 15, 17, 19, 21, 23 ja 25! Kui jõuame ka Archimedese põhimõtte käsitletud, siis lahendada @physics, lk 393-394 ülesanded 27, 29, 31, 33, 35, 37, 39, 41 ja 43!
+### 2023-09-21
 
-### 2023-09-18
+Kava:
 
-Näidata, kuidas integratsiooni kasutada füüsikas!
+1. Näidata, kuidas integratsiooni kasutada füüsikas!
 
-### 2023-09-25
+2. Teeme läbi näite 13-4 uuesti[@physics, lk 369].
+
+3. Jätkame arutelu koos analüütikaga voolavate ainete rõhu teemas[@physics, lk 370].
+
+4. Arutelu atmosfäärilise ja manomeetrilise rõhu üle koos kontseptuaalse näitega[@physics, lk 371].
+
+5. Arutelu Pascali printsiibi üle[@physics, lk 371-372].
+
+### 2023-09-21
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @physics, lk 392 ülesanded 1, 3 ja 5!
 
 ### 2023-10-2
 
@@ -400,10 +406,6 @@ Aine faasid.
 
 Tihedus ja erikaal.
 
-Rõhk voolavates ainetes.
-
-Atmosfäärirõhk ja manomeetriline rõhk.
-
 Eesmärk: Oskus kirjeldada aine olekuid mikrotasandil.
 
 Õppesisu: Aine olekud, nende sarnasused ja erinevused.
@@ -418,11 +420,7 @@ Kava:
 
 3. Arutelu aine faaside üle[@giancoli, lk 261, @fsikaline, lk 18-24].
 
-4. Arutelu tiheduse ja erikaalu üle koos arvutusülesande lahendamisega[@giancoli, lk 261-262].
-
-5. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesannete lahendamisega[@giancoli, lk 262-263].
-
-6. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@giancoli, lk 24].
+4. Arutelu tiheduse ja erikaalu üle koos arvutusülesande lahendamisega[@giancoli, lk 261-262]. *12a*: Selle ülesande lahendamine jäi ainult algusfaasi. *12b*: See ülesanne sai lahendatud.
 
 7. Kokkuvõte.
 
@@ -432,17 +430,7 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni:
 
 Kava:
 
-1. Pindpinevuse ja kapillaarsuse õppimine näidisülesande lahendamisega[@physics, lk 386-388].
-
-2. Aine aatomiteooria õppimine näidisülesande lahendamisega[@physics, lk 492-494].
-
-3. Ideaalse gaasi seaduse ja temperatuuri molekulaarse tõlgenduse õppimine näidisülesannete lahendamisega[@physics, lk 516-520].
-
-Viimast kaht ei olnud.
-
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @physics, lk 289'st ülesanded 67, 69 ja 71, @physics, lk 511'st ülesanne 1 ning @physics, lk 534'st ülesanded 1, 3, 5, 7, 9, 11, 13, 15, 17 ja 19!
-
-Ei olnud neid ülesandeid veel lahendada.
+1. Pindpinevuse ja kapillaarsuse õppimine näidisülesande lahendamisega[@physics, lk 386-388]. Lahend jäi kommenteerimata.
 
 ### 2023-09-18
 
@@ -459,8 +447,41 @@ Kava:
 
 1. Arutelu tiheduse ja erikaalu üle koos arvutusülesande lahendamisega (*12a*)[@giancoli, lk 261-262; @physics, lk 366-367].
 
-2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370].
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12b*: Tuletasin rõhu valemi tiheduse, kõrguse ja g järgi.
 
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada ülesanded @physics, lk 392, 396'st:
+
+0*: 73, 75, 77,
+
+1*: 1, 3, 5.
+
+Esitan siinkohal kõik need ülesanded maakeeles:
+
+1: El Capitan Yosemite'i rahvuspargis oleva graniitmonoliidi ligikaudne maht on umbes \qty{1e8}{\m\cubed}  (joonis *13-51*)[@haynes_2014_crc]. Mis on selle ligikaudne mass?
+
+3: Milline on ligikaudne õhu mass elutoas mõõtmetega
+5,6 m * 4,6 m * 2,4 m[@haynes_2014_crc]?
+
+5: Pudeli mass tühjana on \qty{32,00}{\g} ja \qty{98,44}{\g},
+kui see on täidetud veega. Kui täidetakse teise vedelikuga,
+on pudeli ja vedeliku mass kokku \qty{89,22}{\g}. Milline on selle teise vedeliku eritihedus?
+
+73: Arvuta traadi voolava vedeliku pinnal hoidmiseks vajalik jõud (joonis *13-37*), kui see vedelik on seebilahus (tabel *13-4*) ja
+traat on \qty{21,5}{\cm} pikk.
+
+75: Hinda terasnõela läbimõõtu, mis jääb
+pindpinevuse tõttu vaevu vee peale (joonised *13-38*, *13-39a*, tabel *13-1*)!
+
+77: Pindpinevuse tõttu suudab vedelik kerkida kitsas torus.
+Näita, et kitsas torus, mis asetatakse vedelikku tihedusega $\rho$ ja pindpinevusega $\gamma$, raadiusega *r* tõuseb edelik kõrgusele $h = \frac{2 \cdot \gamma}{g \cdot r \cdot \rho}$ vedeliku pinnast väljaspool kapillaari, kusjuures *g* on gravitatsioonist tingitud kiirendus. Eelda, et vedelik märgab toru ja et vedeliku pind on toruga risti.
+
+\onecolumn
+
+### 2023-09-25
+
+Kava:
+
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: alustame algusest. *12b*: alustame ülesandest *A*. 
 3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
 
 4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372].
@@ -475,15 +496,11 @@ Kava:
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Vastavalt läbitud teemadele lahendada ülesanded @physics, lk 392-396'st:
 
-0: 73, 75, 77,
-
-1: 1, 3, 5,
-
 2-5: 7, 9, 11, 13, 15, 17, 19, 21, 23, 25,
 
 8: 27, 29, 31, 33, 35, 37, 39, 41, 43.
 
-### 2023-09-25
+\twocolumn
 
 ### 2023-10-2
 

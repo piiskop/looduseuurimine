@@ -1,0 +1,223 @@
+# Mehaanika
+
+## Dünaamika
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses (44.4);
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6);
+
+5. sõnastab impulsi jäävuse seaduse ja lahendab probleemülesandeid, kasutades seost
+a. (9.2);
+
+6. seostab reaktiivliikumist impulsi jäävuse seadusega; toob näiteid reaktiivliikumise kohta looduses ja
+rakenduste kohta tehnikas (9.2);
+
+7. toob näiteid nähtuste kohta, kus impulsi muutumise kiirus on võrdne seda muutust põhjustava jõuga (9.2);
+
+8. rakendab gravitatsiooniseadust (6: 1-2);
+
+9. tunneb gravitatsioonivälja mõistet (6.8);
+
+10. teab, et üldrelatiivsusteooria kirjeldab gravitatsioonilist vastastikmõju aegruumi kõverdumise kaudu (6.9);
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk (4.6, 6, 8.7, 8.10)
+
+12. probleemülesandeid lahendades ning rakendab seost P = m (g ± a) (4.7);
+
+13. selgitab mõisteid hõõrdejõud ja elastsusjõud ning rakendab loodus- ja tehiskeskkonnas toimuvaid
+nähtusi selgitades seoseid Fh = µ N ja Fe = – k ∆l (5.1, 7.3);
+
+14. rakendab mõisteid töö, energia, kineetiline ja potentsiaalne energia, võimsus, kasulik energia,
+kasutegur, selgitades looduses ja tehiskeskkonnas toimuvaid nähtusi (7, 8.2, 8.8, 20: 2-3);
+
+15. rakendab probleeme lahendades seoseid A = Fs cos α; , Ep = mgh ning E = Ek + Ep; 15)
+selgitab energia miinimumi printsiibi kehtivust looduses ja tehiskeskkonnas (7.1, 8: 2-3).
+
+4
+5
+6
+7
+8: 1-3, 7-10
+9: 2
+20: 2-3
+44: 4
+
+### Õppesisu
+
+Newtoni seadused (4-6). Jõud (4: 1). Jõudude vektoriaalne liitmine (4: 4). Resultantjõud (4: 4). Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel (4: 2). Keha impulss (9). Impulsi jäävuse seadus (9: 2). Reaktiivliikumine (9: 2).
+Gravitatsiooniseadus (6: 1-2). Raskusjõud, keha kaal, toereaktsioon (4: 6). Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
+Jäikustegur (7: 3). Hõõrdejõud ja hõõrdetegur (5: 1). Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
+seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
+jäävuse seadus looduses ja tehnikas (8).
+
+4
+5
+6
+7
+8
+9
+12: 5
+20: 2-3
+29: 4
+44: 4
+
+### Põhimõisted
+
+Kuju muutumine, reaktiivliikumine (9: 2), resultantjõud (4: 4), keha inertsus ja mass (4: 2-3), impulss (9), impulsi
+jäävuse seadus (9: 2), raskusjõud (4: 6), keha kaal (4: 6), kaalutus (6: 4), toereaktsioon (4: 6), elastsusjõud (7: 3), jäikustegur (7: 3), hõõrdejõud (5: 1),
+hõõrdetegur (5: 1), mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
+
+### Praktiline tegevus
+
+1. Tutvumine Newtoni seaduste olemusega (4-6);
+
+2. jäikusteguri määramine (7: 3);
+
+3. liugehõõrdeteguri määramine (5: 1);
+
+4. seisuhõõrde uurimine (5: 1);
+
+5. tutvumine reaktiivliikumise ja jäävusseadustega (7: 3, 8: 3). 
+
+## Perioodilised liikumised
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. seostab looduses ja tehnoloogias esinevad perioodilised nähtused ühtlase ja mitteühtlase tiirlemise
+ning pöörlemisega (10);
+
+2. kasutab ringliikumist kirjeldades füüsikalisi suurusi pöördenurk, periood, sagedus, nurkkiirus,
+joonkiirus ja kesktõmbekiirendus (10: 1);
+
+3. rakendab ringliikumisega seotud probleemülesannete lahendamisel järgmisi seoseid: (10: 1);
+
+5. analüüsib orbitaalliikumist, kasutades inertsi ja kesktõmbejõu mõistet (5: 3);
+
+6. kasutab vabavõnkumise ja sundvõnkumise mõistet looduses ning tehnikas toimuvaid võnkumisi
+kirjeldades (14: 8);
+
+7. rakendab füüsikalisi suurusi hälve, amplituud, periood, sagedus ja faas perioodilisi liikumisi
+kirjeldades (10: 1);
+
+8. kasutab võnkumise probleemülesandeid lahendades seoseid (10: 1);
+
+9. analüüsib energia jäävuse seaduse kehtivust pendli võnkumisel (11: 6);
+
+10. analüüsib võnkumise graafikuid (14: 2-4);
+
+11. selgitab resonantsi ning toob näiteid selle esinemise kohta looduses ja tehnikas (14: 8, 15: 9);
+
+12. kirjeldab piki- ja ristlainete tekkimist ning levimist ning toob nende kohta näiteid (15: 2);
+
+13. rakendab füüsikalisi suurusi lainepikkus, laine levimiskiirus, periood ja sagedus lainenähtusi
+selgitades (15: 2);
+
+14. kasutab probleeme lahendades seoseid (15: 1);
+
+15. toob nähtuste peegeldumine, murdumine, interferents ja difraktsioon näiteid loodusest ning
+tehnikast (15: 10-11).
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14: 1-4, 8
+15: 1-2, 9-11
+20: 1-3
+29: 4
+44: 4
+
+### Õppesisu
+
+Ühtlase ringjoonelise liikumise kirjeldamine: pöördenurk, periood, sagedus, nurk- ja joonkiirus,
+kesktõmbekiirendus (10: 1). Tiirlemine ja pöörlemine looduses ning tehnikas, orbitaalliikumine (10). Võnkumine kui
+perioodiline liikumine (14). Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas (14: 5-6). Energia
+muundumine võnkumisel (14: 3). Võnkumised ja resonants looduses ning tehnikas (14: 8). Lained (15). Piki- ja ristlained (15: 2). Lainet
+iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus (15: 1). Lainenähtused: peegeldumine,
+murdumine, interferents, difraktsioon, lained looduses ning tehnikas (15: 10-11). 3D-printimine.
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+20: 1-3
+29: 4
+44: 4
+
+### Põhimõisted
+
+Ppöördenurk, periood (5: 2, 10: 1, 14: 1-2, 15: 1), sagedus (15: 1), nurkkiirus (10: 1), joonkiirus (10: 1), kesktõmbekiirendus (10: 1), võnkumine (14), hälve (14: 1),
+amplituud (14: 1), faas (14: 2), vabavõnkumine, sundvõnkumine (14: 8), pendel (14: 5-6), resonants (14: 8, 15: 9), laine (15), pikilaine (15: 2),
+ristlaine (15: 2), lainepikkus (15: 1), peegeldumine (15: 7, 32: 1-2, 32: 9, 34: 5), murdumine (15: 10), interferents (15: 8), difraktsioon (15: 11).
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+20: 1-3
+29: 4
+32: 1-2, 9-10
+34: 5
+44: 4
+
+### Praktiline tegevus
+
+1. pöördliikumise uurimine, kesktõmbekiirenduse määramine (10);
+
+2. matemaatilise pendli ja vedrupendli võnkumise uurimine (14: 5);
+
+3. gravitatsioonivälja tugevuse määramine pendliga;
+
+4. tutvumine lainenähtustega (15);
+
+5. helikiiruse määramine (16: 1). 
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+16: 1
+20: 1-3
+29: 4
+32: 1-2, 9-10
+34: 5
+44: 4

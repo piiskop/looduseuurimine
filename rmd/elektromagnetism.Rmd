@@ -288,7 +288,54 @@ Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktse
 
 ### 2023-09-22
 
+Eesmärgina õpilane oskab
+
+4. kasutada probleeme lahendades
+Coulomb’i seadust (21.5),
+
+5. kasutada probleeme lahendades seoseid (23.1, 23.7).
+
+Õppesisu: Coulomb’i seadus (21.5).
+Punktlaeng (21.5).
+
+Põhimõiste:
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+Kava:
+
+3. Coulomb'i seadus[@physics, lk 615-618]. *11a*: Ülesandest *C*. Näite *21-4* puhul selgitasin püstituse ja selle, kuidas jõud arvutada. *11b*: Näitest *21-2*. Jõudsime *21-4* skeemini ja arvutamise osa väärtuste väljakirjutamiseni.
+
+Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad!
+
 ### 2023-09-25
+
+Eesmärgina õpilane oskab
+
+4. kasutada probleeme lahendades
+Coulomb’i seadust (21.5),
+
+Õppesisu: Elektrivool (25.2). Coulomb’i seadus (21.5).
+Punktlaeng (21.5).
+
+Põhimõisted:
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+Kava:
+
+3. Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: *21-4* skeemini ja arvutamise osa väärtuste väljakirjutamisest edasi. *11b*: Näitest *21-4* skeemist ja väljakirjutatud jõudude arvutamise osast.
+
+4. Elektriline aku [@physics, lk 717-720].
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the].
+
+Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada paaritu tähistusega nende teemade, mida jõudsime käsitleda terves mahus, ülesanded @physics, lk 636-637'st!
 
 ### 2023-09-29
 

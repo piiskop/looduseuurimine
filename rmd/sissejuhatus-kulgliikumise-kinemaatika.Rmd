@@ -320,6 +320,50 @@ Eesmärgina õpilane
 
 5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
 
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus.
+
+Põhimõisted:
+
+taatlemine
+: protseduur, mille käigus pädev taatluslabor või teavitatud asutus kontrollib mõõtevahendi vastavust kehtestatud nõuetele ja märgistab nõuetele vastavaks tunnistatud mõõtevahendi taatlusmärgisega[@mtevahendite]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. Ainult selgitasin.
+
+### 2023-9-19
+
+Eesmärgina õpilane
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. Õpilased lahendasid ülesandeid jõudes kolmanda plokini.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+### 2023-09-21
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
 6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid;
 
 7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
@@ -330,9 +374,6 @@ ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõ
 Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
 Põhimõisted:
-
-taatlemine
-: protseduur, mille käigus pädev taatluslabor või teavitatud asutus kontrollib mõõtevahendi vastavust kehtestatud nõuetele ja märgistab nõuetele vastavaks tunnistatud mõõtevahendi taatlusmärgisega[@mtevahendite]
 
 mõõtühikute süsteem
 : kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
@@ -361,10 +402,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-09-22
-
-Ühikud, standardid ja Système Internationale.
 
 ### 2023-09-25
 
@@ -548,6 +585,8 @@ Kava:
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
+\onecolumn
+
 ### 2023-09-18
 
 Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
@@ -596,6 +635,85 @@ Kava:
 
 7. Toores hinnang[@physics, lk 11-13].
 
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+### 2023-09-22
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
+
+Ühikute teisendamine[@giancoli, lk 11-12].
+
+Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
+
+Eesmärgid:
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+\twocolumn
+
+### 2023-09-25
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Alustame ülesandest *F*. *10b*: Jätkame *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+
+7. Toores hinnang[@physics, lk 11-13].
+
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
 
 3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
@@ -609,10 +727,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-09-22
-
-### 2023-09-25
 
 ### 2023-09-29
 

@@ -2,22 +2,49 @@
 
 ## Mõõtmine
 
-Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud joonisel \@ref(fig:activities-of-learning-measuring) leheküljel `r render_pageref(reference = "fig:activities-of-learning-measuring")`.
+Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud joonisel \@ref(fig:activities-of-learning-measuring) leheküljel `r render_pageref(reference = "fig:activities-of-learning-measuring")`. Nende seas mõõtemääramatuse otsustusskeem on esitatud joonisel \@ref(fig:activities-of-learning-uncertainty) leheküljel `r render_pageref(reference = "fig:activities-of-learning-uncertainty")`.
 
 \onecolumn
 
-```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused", out.height="96%"}
+```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused.", out.height="96%"}
 include_external_graphics("rmd/physics-measuring.svg")                                # 2
+                                                                                 # 3
+```
+
+```{r label = "activities-of-learning-uncertainty", echo=FALSE, fig.cap = "Mõõtemääramatuse otsustamine.", out.height="96%"}
+include_external_graphics("rmd/physics-uncertainty.svg")                                # 2
                                                                                  # 3
 ```
 
 \twocolumn
 
+## Suhteline viga
+
+Suhteline viga näitab väljamõõdetud ja aktsepteeritud väärtuse erinevuse suhet aktsepteeritud väärtusse (valem \@ref(eq:relative-error) leheküljel `r render_pageref(reference = "eq:relative-error")`).
+
+\begin{align}
+R = \frac{|\text{väärtus}_\text{aktsepteeritud} - \text{väärtus}_\text{mõõdetud}|}{\text{väärtus}_\text{aktsepteeritud}}
+(\#eq:relative-error)
+\end{align}
+
+## Pythagorase teoreem:
+
+Pythagorase teoreem on esitatud avaldisena \@ref(eq:pythagorean) leheküljel `r render_pageref(reference = "eq:pythagorean")`.
+
+```{=tex}
+\begin{equation}
+|c| = \sqrt{|kaatet_2|^2 + |kaatet_2|^2}
+(\#eq:pythagorean)
+\end{equation}
+```
+
+\onecolumn
+
 ## Aeg ja selle talitlused
 
 ### Aeg
 
-```{r label = "delta-nu-cs"}
+```{r label = "delta-nu-cs", echo=FALSE}
 delta_nu_cs <- 9192631770
 
 ```
@@ -49,20 +76,23 @@ Aja mõõtühik Système Internationale's on sekund.
 sekund
 : kestus 9 192 631 770 kiirgusperioodi, mis vastab $\ce{^133Cs}$ aatomi häirimatu põhiseisundi kahe ülipeene taseme vahelisele üleminekule
 
-$$SECONDS\_IN\_YEAR = (\frac{241}{1000} \cdot 366 + \frac{1000 - 241}{1000} \cdot 365) \cdot 24 \cdot 60 \cdot 60$$
+Aasta keskmine päevade kogus on esitatud avaldises \@ref(eq:days-year) leheküljel `r render_pageref(reference = "eq:days-year")`.
 
-```{r label = "seconds_in_year", echo=FALSE}
-SECONDS_IN_YEAR <- (365 * (9 * 76 + 75) + 366 * (9 * 24 + 25)) / 1000 * 24 * 60 * 60
-SECONDS_IN_YEAR
+```{r label = "days_in_year", echo=FALSE}
+DAYS_IN_YEAR <- (365 * (9 * 76 + 75) + 366 * (9 * 24 + 25)) / 1000
+
 ```
 
-\onecolumn
+\begin{align}
+\overline{\frac{days}{year}} = \frac{\num{365} \times (\num{9} \times \num{76} + \num{75}) + \num{366} \times (\num{9} \times \num{24} + \num{25})}{1000} = \num{`r as.character(DAYS_IN_YEAR)`}
+(\#eq:days-year)
+\end{align}
 
 ### Vahemaa
 
-Valguse kiirus vaakumis:
+Valguse kiirus vaakumis on esitatud avaldisena \@ref(eq:speed-of-light-in-vacuum) leheküljel `r render_pageref(reference = "eq:speed-of-light-in-vacuum")`:
 
-```{r label = "speed-of-light"}
+```{r label = "speed-of-light", echo=FALSE}
 speed_of_light_in_vacuum <- 299792458
 delta_nu_cs_over_speed_of_light_in_vacuum_over <- delta_nu_cs / speed_of_light_in_vacuum
 reciprocal_of_speed_of_light_in_vacuum <- 1 / speed_of_light_in_vacuum
@@ -71,7 +101,7 @@ reciprocal_of_speed_of_light_in_vacuum <- 1 / speed_of_light_in_vacuum
 
 ```{=tex}
 \begin{align}
-c = \qty{`r as.character(speed_of_light_in_vacuum)`}{\m\per\s}
+c = \qty{`r as.character(speed_of_light_in_vacuum)`}{\m\per\s}.
 (\#eq:speed-of-light-in-vacuum)
 \end{align}
 
@@ -79,7 +109,7 @@ c = \qty{`r as.character(speed_of_light_in_vacuum)`}{\m\per\s}
 
 [@bureau_1974_the(lk 127)].
 
-Avaldan valguskiiruse vaakumis valemist \@ref(eq:speed-of-light-in-vacuum) leheküljel `r render_pageref(reference = "eq:speed-of-light-in-vacuum")` meetri ning asendan sekundi avaldisest \@ref(eq:second):
+Avaldan valguskiiruse vaakumis valemist \@ref(eq:speed-of-light-in-vacuum) leheküljel `r render_pageref(reference = "eq:speed-of-light-in-vacuum")` meetri ning asendan sekundi avaldisest \@ref(eq:second), et saada meetri valem \@ref(eq:meter) leheküljel `r render_pageref(reference = "eq:meter")`.
 
 ```{=tex}
 \begin{align}
@@ -94,7 +124,10 @@ Vahemaa mõõtühik Système Internationale's on meeter.
 meeter
 : vahemaa, mille valgus läbib vaakumis `r reciprocal_of_speed_of_light_in_vacuum` sekundi kestel
 
-Asukoha vektor
+Asukoha vektor on esitatud avaldises \@ref(eq:r) leheküljel `r render_pageref(reference = "eq:r")`, milles
+
+$x$, $y$ ja $z$
+: Descartes'i ruumi koordinaadid [@haynes_2014_crc(lk 2-1)]
 
 ```{=tex}
 \begin{align}
@@ -103,11 +136,6 @@ Asukoha vektor
 \end{align}
 
 ```
-
-kus
-
-$x$, $y$ ja $z$
-: Descartes'i ruumi koordinaadid [@haynes_2014_crc(lk 2-1)]
 
 Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-for-r) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-r")` ja sellest johtuvalt on ühik $\unit{\m}$.
 
@@ -119,7 +147,20 @@ Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-for-r)
 
 ```
 
-\twocolumn
+Maa keskmine raadius:
+
+```{r}
+RADIUS_EARTH <- 6.371E6
+```
+
+Ringjoone pikkus:
+
+```{=tex}
+\begin{equation}
+pikkus_{ringjoon} = 2 \cdot \pi \cdot raadius
+(\#eq:length-of-circle)
+\end{equation}
+```
 
 ### Tasapinna nurk
 
@@ -150,6 +191,36 @@ Dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-of-pla
 \end{align}
 
 ```
+
+Tõusunurga arvutamise valem on \@ref(eq:tangent-angle) leheküljel `r render_pageref(reference = "eq:tangent-angle")`.
+
+```{=tex}
+\begin{equation}
+\alpha = atan(\frac{nihe_{vertikaalne}}{\Delta(x)})
+(\#eq:tangent-angle)
+\end{equation}
+```
+
+Nurgateisendus kraadidest radiaanidesse on esitatud valemine \@ref(eq:angle-from-degrees-to-radians) leheküljel `r render_pageref(reference = "eq:angle-from-degrees-to-radians")`.
+
+```{=tex}
+\begin{equation}
+nurk_{rad} = \frac{nurk° \cdot \pi}{180°}
+(\#eq:angle-from-degrees-to-radians)
+\end{equation}
+```
+
+Koosinusteoreem on esitatud avaldisena \@ref(eq:cosine-theorem) leheküljel `r render_pageref(reference = "eq:cosine-theorem")`.
+
+```{=tex}
+\begin{equation}
+|a| =\\
+\sqrt{|b|^2 + |c|^2 - 2 \cdot |b| \cdot |c| \cdot cos(nurk_{b, c})}
+(\#eq:cosine-theorem)
+\end{equation}
+```
+
+\twocolumn
 
 ### Kiirus
 
@@ -277,6 +348,22 @@ g_Tallinn <- 9.82
 
 ```
 
+"The value 9.806 m/s2 is midway between these two extremes, so it's sort of true to say that…
+
+g = 9.806 ± 0.026 m/s2
+
+This is not the same thing as an average, however. For that, use this value that someone else derived…
+
+g = 9.798 m/s2
+
+Here are my suggestions. Use the value of 9.8 m/s2 with two significant digits for calculations on the surface of the Earth unless a value of gravity is otherwise specified. That seems reasonable. Use the value of 9.80665 m/s2  [@haynes_2014_crc, p. 2-44, 14-11] with six significant digits only when you want to convert m/s2 to g. That is the law."
+
+Selline valem kehtib objekti kohta, mis on täpselt Maa pinnal. Kui see asub pinna sees või selle kohal, siis tuleb kasutada sellist valemit:
+
+$$g = G * \frac{m}{(r + h) ^ 2},$$
+
+kus *g* on gravitatsioonikiirendus, *G* on gravitatsioonikonstant, *m* on Maa mass, *r* on Maa raadius, *h* on kõrgus Maa pinnast.
+
 \twocolumn
 
 #### Nurkkiirendus
@@ -310,6 +397,15 @@ Kui asendan nurkkiirenduse põhivalemisse \@ref(eq:angular-acceleration) lehekü
 \end{align}
 
 ```
+
+```{=tex}
+\begin{equation}
+a_c = \frac{v^2}{r}
+(\#eq:centripetal-acceleration)
+\end{equation}
+```
+
+[@edsarx.1602.0636120160101, p. 2]
 
 ### Jõnks
 
@@ -379,14 +475,14 @@ a(t) = w(t) \cdot t + a(0).
 
 #### Kiirus püsiva jõnksu kaudu
 
-Kiiruse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference = "eq:speed-by-jerk")` kasutades kiirenduse valemit kiiruse kaudu \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")` ja kiirenduse valemit jõnksu kaudu \@ref(eq:acceleration-at-constant-jerk) leheküljel `r render_pageref(reference = "eq:acceleration-at-constant-jerk")`.
+Kiiruse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference = "eq:speed-by-jerk")` kasutades kiirenduse valemit kiiruse kaudu \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")` ja kiirenduse valemit jõnksu kaudu \@ref(eq:acceleration-at-constant-jerk) leheküljel `r render_pageref(reference = "eq:acceleration-at-constant-jerk")`, kusjuures *E* ja *F* on suvalised reaalarvud.
 
 ```{=tex}
 \begin{align}
 \int{a(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
 \int{w(t) \cdot t + a(0)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-\frac{w(t) \times t^2}{2} + a(0) \times t + C &= v(t) + D,\\
-\frac{w(t) \times t^2}{2} + a(0) \times t + v(0) &= v(t).
+\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + E &= v(t) + F,\\
+\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0) &= v(t).
 (\#eq:speed-by-jerk)
 \end{align}
 
@@ -394,14 +490,14 @@ Kiiruse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näida
 
 #### Vahemaa pikkus püsiva jõnksu kaudu
 
-Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference = "eq:path-length-by-jerk")` kasutades kiiruse valemit tee pikkuse kaudu \@ref(eq:velocity) leheküljel `r render_pageref(reference = "eq:velocity")` ja kiiruse valemit muutumatu jõnksu kaudu \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference = "eq:speed-by-jerk")`.
+Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näidatud seostes \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference = "eq:path-length-by-jerk")` kasutades kiiruse valemit tee pikkuse kaudu \@ref(eq:velocity) leheküljel `r render_pageref(reference = "eq:velocity")` ja kiiruse valemit muutumatu jõnksu kaudu \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference = "eq:speed-by-jerk")`, kusjuures *G* ja *H* on suvalised reaalarvud.
 
 ```{=tex}
 \begin{align}
 \int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \\
-\int{\frac{w(t) \times t^2}{2} + a(0) \times t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \\
-\frac{w(t) \times t^3}{6} + \frac{a(0) \times t^2}{2} + v(0) \times t + C &= r(t) + D, \\
-\frac{w(t) \times t^3}{6} + \frac{a(0) \times t^2}{2} + v(0) \times t + r(0) &= r(t)
+\int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \\
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \\
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t)
 (\#eq:path-length-by-jerk)
 \end{align}
 
@@ -450,7 +546,7 @@ Avaldan avaldisest \@ref(eq:planck-constant) leheküljel `r render_pageref(refer
 
 ## Massikontsentratsioon (massi tihedus)
 
-```{r label = "calculate-V"}
+```{r label = "calculate-V", echo=FALSE}
 #' This function calculates the volume of a substance, given its mass concentration, and its mass.
 #'
 #' @param density the mass concentration
@@ -492,7 +588,7 @@ Massikontsentratsiooni konverteerimine grammidest kuupsentimeetri kohta kilogram
 \end{align}
 ```
 
-```{r label = "coversion-from-g-per-cm3-to-kg-per-m3"}
+```{r label = "coversion-from-g-per-cm3-to-kg-per-m3", echo=FALSE}
 #' This function converts a mass concentration from grams per cubic centimeters to kilograms per cubic meters.
 #' 
 #' @param g_per_cm3 the mass concentration in grams per cubic centimeters
@@ -503,8 +599,6 @@ convert_from_g_per_cm3_to_kg_per_m3 <- function(g_per_cm3) {
 }
 
 ```
-
-\twocolumn
 
 ## Impulss
 
@@ -531,6 +625,47 @@ Dimensioonanalüüs impulsi valemile on esitatud avaldisena \@ref(eq:dimensional
 
 ```
 
+Kehade süsteemi koguimpulss, mis on esitatud avaldises \@ref(eq:total-momentum) leheküljel `r render_pageref(reference = "eq:total-momentum")`, on alati jääv.
+
+\begin{align}
+\vec{p} = \sum_i{\vec{p_i}}
+(\#eq:total-momentum)
+\end{align}
+
+Elastne põrge:
+
+```{=tex}
+\begin{equation}
+m_1 * \vec{v_1} + m_2 * \vec{v_2} === m_1 * \vec{v_1 ^ \prime} + m_2 + \vec{v_2 ^ \prime},
+(\#eq:elastic-collision)
+\end{equation}
+```
+
+kus *m* on mass, *v* on kiirus
+
+Energia jäävuse seadus:
+
+```{=tex}
+\begin{equation}
+\frac{m_1 \cdot \vec{v_1} ^ 2}{2} + \frac{m_2 \cdot \vec{v_2} ^ 2}{2} === \frac{m_1 \cdot (\vec{v_1} ^ \prime) ^ 2}{2} + \frac{m_2 \cdot (\vec{v_2} ^ \prime) ^ 2}{2},
+(\#eq:conservation-of-energy)
+\end{equation}
+```
+
+kus *m* on mass ja *v* on kiirus.
+
+Mitteelastne põrge:
+
+$$m_1 * \vec{v_1} + m_2 * \vec{v_2} === (m_1 + m_2) * \vec{v ^ \prime},$$
+
+kus *m* on mass ja *v* on kiirus.
+
+$$jõuImpulss = impulsiMuut$$
+
+$$jõud * ajavahemik === impulsiMuut$$
+
+\twocolumn
+
 ### Impulsimoment
 
 osakese nurkimpulss punkti ümber
@@ -553,6 +688,10 @@ Dimensioonanalüüs impulsimomendi valemile on esitatud avaldisena \@ref(eq:dime
 \end{align}
 
 ```
+
+Suund on kruvireegli järgi.
+
+Suletud süsteemi koguimpulsimoment on jääv.
 
 ## Inertsimoment
 
@@ -690,6 +829,72 @@ kus *m* on mass ja $\vec{a}$ on kiirenduse vektor [@haynes_2014_crc(lk 2-2)]. Im
 \end{align}
 ```
 
+gravitatsioonikonstant:
+
+$$G := 6.67428 \times 10 ^ {-11} \times m^3 \times kg^{-1} \times s^{-2}$$ [@haynes_2014_crc, p. 14-1]
+
+```{r label = "G"}
+G = 6.67428E-11
+```
+
+või Newtoni oma
+
+$$G := 6.67384(80) × 10^{−11} \times m^3 \times kg^{-1} \times s^{-2}$$ [@haynes_2014_crc, p. 1-1, 1-2, 87]
+
+Maa mass:
+
+$$M_e := 5.9736 \times 10^{24} \times kg$$ [@haynes_2014_crc, p. 14-2]
+
+```{r label = "M_e"}
+M_e = 5.9736e24
+```
+
+```{=tex}
+\begin{equation}
+F_g = G \cdot \frac{m_1 \cdot m_2}{r^2},
+(\#eq:gravitational-force)
+\end{equation}
+```
+
+kus $F_g$ on raskusjõud, *G* on gravitatsioonikonstant, *m* on mass, *s* on punktmasside vaheline kaugus  [@haynes_2014_crc, p. 2-2].
+
+Vaba langemise ehk gravitatsiooni põhjustatud kiirendus  [@haynes_2014_crc, p. 2-12, 2-34, 14-21] valemitest \@ref(eq:force) ja \@ref(eq:gravitational-force):
+
+```{=tex}
+\begin{equation}
+\vec{g} := \frac{G \cdot m_1}{r^2}
+(\#eq:g)
+\end{equation}
+```
+
+Hooke'i seadus:
+
+```{=tex}
+\begin{equation}
+F = –k∙Δx,
+(\#eq:elasticity)
+\end{equation}
+```
+
+kus *F* on elastsusjõud, *k* elastsustegur ja $\Delta(x)$ on pikenemisvahemik.
+
+```{=tex}
+\begin{equation}
+F = k∙Δx,
+(\#eq:pulling-force)
+\end{equation}
+```
+
+kus $F$ on tõmbejõud, $k$ on elastsustegru ja $\Delta(x)$ on pikenemisvahemik.
+
+hõõrdeJõud = hõõrdeTegur \* rõhk
+
+```{r}
+calculateDistanceOfDecceleration <- function(velocity, frictionFactor) {
+  ((velocity) ^ 2) / 2 / g / frictionFactor
+}
+```
+
 ### Jõumoment
 
 Jõumomendi valem on \@ref(eq:torque) leheküljel `r render_pageref(reference = "eq:torque")`[@haynes_2014_crc(lk 2-2)].
@@ -744,6 +949,8 @@ Et väljendada jõumoment impulsimomendi kaudu, asendan jõumomendi avaldamise v
 
 ```
 
+\onecolumn
+
 ## Rõhk
 
 ```{=tex}
@@ -765,7 +972,7 @@ kus *A* on pindala [@haynes_2014_crc, p. 2-2]. Dimensionaalanalüüs:
 mistõttu ühik on $\unit{\kilogram\per\second\squared\per\meter}$ või lühemalt $\unit{\pascal}$.
 
 
-```{r label = "pressure"}
+```{r label = "pressure", echo=FALSE}
 p <- 100e3
 p_at <- 101.325e3
 ```
@@ -776,7 +983,7 @@ standardseisund
 Standardseisundi rõhk on `r p` $\unit{\pascal}$ [@haynes_2014_crc, p. 1-7]. Standardne atmosfäärirõhk on `r p_at` $\unit{\pascal}$ [@haynes_2014_crc, p. 6-12].
 
 Ideaalse gaasi rõhk:
-```{r label = "r"}
+```{r label = "r", echo=FALSE}
 R <- 8314.472e-3
 librarian::shelf("psychrolib")
 T_0 <- GetTKelvinFromTCelsius(0)
@@ -801,7 +1008,8 @@ milles *n* on ainehulk, *R* on universaalne gaasikonstant $`r R` \times \unit{\j
 ```
 
 mistõttu ühik on $\unit{\kilogram\per\meter\per\second\squared}$ ehk lühemalt $\unit{\pascal}$.
-```{r label = "p-sat-of-liquid-h2o"}
+
+```{r label = "p-sat-of-liquid-h2o", echo=FALSE}
 T_p_sat <- 237.3 - T_0 # must be separated as used inside an equation
 
 #' This function calculates the saturation vapor pressure.
@@ -864,6 +1072,8 @@ p_\text{sat} := 610.8 \times e^\frac{17.27 \times (T - \qty{`r as.character(T_0)
 
 ```
 
+\twocolumn
+
 ## Töö
 
 Töö valem on \@ref(eq:W) leheküljel `r render_pageref(reference = "eq:W")` [@haynes_2014_crc(lk 2-2)].
@@ -916,6 +1126,15 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-po
 ```
 
 Seetõttu ühik on $\unit{\m\squared\kg\per\second\squared}$ või lühemalt $\unit{\m\N}$ või kõige lühemalt $\unit{\J}$.
+
+Välisjõudude töö koorma tõstmisel võrdub koorma potentsiaalse energia muuduga:
+
+$$töö = E_{pot_2} - E_{pot_1},$$
+
+kus $E_{pot}$ on potentsiaalne energia.
+$${elastsusJõuEenergia}_{pot} = \frac{k * (\Delta(s)) ^ 2}{2},$$
+
+kus *k* on jäikus, $\Delta(s)$ on kokkusurumise vahemaa, *pot* on potentsiaalne.
 
 ### Kineetiline energia
 
@@ -997,7 +1216,65 @@ milles
 *j*
 : hilisem ajahetk
 
-## Elektrivool
+$${tegur}_{kasu} = \frac{töö}{energia}$$
+
+## Võimsus
+
+```{=tex}
+\begin{align}
+P := \frac{E}{t} = \frac{m \cdot a \cdot \Delta(s)}{t},
+(\#eq:power)
+\end{align}
+```
+
+kus *t* on aeg. Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\frac{L^2 \cdot M}{T^2 \cdot T} = \frac{L^2 \cdot M}{T^3}
+(\#eq:dimensional-analysis-for-power)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\frac{m^2 \cdot kg}{s^3}}$ või lühemalt $\unit{\frac{J}{s}}$ või veelgi lühemalt $\unit{W}$.
+
+```{=tex}
+\begin{equation}
+P_hp := 746 \times P 
+(\#eq:power-hp)
+\end{equation}
+```
+
+[@haynes_2014_crc, p. 2-55]
+```{r label = "function-for-power-hp"}
+convert_W_to_hp <- function(W) {
+  return(W / 746)
+}
+```
+
+## Aurustumissoojus
+
+```{=tex}
+\begin{align}
+\Delta_\text{vap}(H) = \frac{E}{m} = \frac{m \cdot a \cdot \Delta(s)}{m} = a \cdot \Delta(s).
+(\#eq:heat-of-vaporization)
+\end{align}
+```
+
+Dimensionaalanalüüs:
+
+```{=tex}
+\begin{align}
+\frac{L^2 \cdot M}{T^2 \cdot M} = \frac{L^2}{T^2},
+(\#eq:dimensional-analysis-for-heat-of-vaporization)
+\end{align}
+```
+
+mistõttu ühik on $\unit{\metre\squared\per\second\squared}$ või teisiti $\unit{\joule\kg}$.
+
+## Elektromagnetism
+
+### Elektrivool
 
 Elementaarlaeng on esitatud avaldises \@ref(eq:elementary-charge) leheküljel `r render_pageref(reference = "eq:elementary-charge")` [@bureau_1974_the(lk 134)].
 
@@ -1058,7 +1335,7 @@ mistõttu ühik on $\unit{A}$.
 
 \twocolumn
 
-## Elektromotoorjõud
+### Elektromotoorjõud
 
 elektromotoorjõud
 : allikast tarnitud energia jagatud läbi allika transporditava laenguga
@@ -1126,7 +1403,7 @@ Dimensionaalanalüüs:
 
 millest johtuvalt on ühik $\unit{\m\squared\kg\per\s\squared}$ ehk lühemalt $\unit{\m\N}$ ehk kõige lühemalt $\unit{\J}$.
 
-## Elektriline potentsiaal
+### Elektriline potentsiaal
 
 Elektrilise potentsiaali definitsioon on esitatud valemina \@ref(eq:V) leheküljel `r render_pageref(reference = "eq:V")`, milles $W$ on töö [@haynes_2014_crc(lk 2-2)].
 
@@ -1151,7 +1428,7 @@ Seetõttu ühik on $\unit{\m\squared\kg\per\A\per\s\cubed}$ või kõige lühemal
 
 \onecolumn
 
-## Elektripotentsiaalide erinevus
+### Elektripotentsiaalide erinevus
 
 Elektripotentsiaalide erinevus on ühtlasi pingelang ning selle definitsioon on esitatud valemina \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` ning selles $V_1$ ja $V_2$ on elektrilised potentsiaalid [@haynes_2014_crc(lk 2-2)].
 
@@ -1176,7 +1453,7 @@ Seetõttu ühik on $\unit{\m\squared\kg\per\A\per\s\cubed}$ või kõige lühemal
 
 Töö arvutamise valem laengu liigutamiseks väiksema elektrilise potentsiaaliga punktist suurema potentsiaaliga punkti panen töö valemisse \@ref(eq:W-via-E-Q) leheküljel `r render_pageref(reference = "eq:W-via-E-Q")` elektromotoorjõu asemele elektriliste potentsiaalide erinevuse valemist \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` luues töö valemi \@ref(eq:work-through-U) leheküljel `r render_pageref(reference = "eq:work-through-U")`.
 
-```{r label = "calculate_work_through_U"}
+```{r label = "calculate_work_through_U", echo=FALSE}
 #' This function calculates the work done for moving a charge from a lower electric potential point to a higher electric potential one.
 #' 
 #' @param V_2 the higher electric potential
@@ -1198,7 +1475,7 @@ W = U \cdot Q.
 
 ```
 
-## Elektrivälja tugevus
+### Elektrivälja tugevus
 
 Elektrivälja tugevuse arvutamise eeskiri on esitatud avaldisena \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")`.
 
@@ -1245,7 +1522,7 @@ Näeme, et elektrivälja tugevuse ühik võib olla ka $\unit{\V\per\m}$.
 
 Samamoodi saan elektromotoorjõu asemel kasutada viimases valemis elektripotentsiaalide erinevust valemist \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` ning tulemuseks on avaldis \@ref(eq:electric-field-strength-through-U) leheküljel `r render_pageref(reference = "eq:electric-field-strength-through-U")`.
 
-```{r label = "calculate-electric-field-strength-through-U"}
+```{r label = "calculate-electric-field-strength-through-U", echo=FALSE}
 #' This function calculates the electric field strength between two electric potential lines.
 #' 
 #' @param V_2 the higher electric potential
@@ -1269,7 +1546,7 @@ calculate_electric_field_strength_through_U <- function(V_2, V_1, s) {
 
 Lasen avaldada elektrivälja tugevuse põhivalemist \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` jõu avaldisena \@ref(eq:force-through-electric-field-strength) leheküljel `r render_pageref(reference = "eq:force-through-electric-field-strength")`.
 
-```{r label = "calculate-force-through-electric-field-strength"}
+```{r label = "calculate-force-through-electric-field-strength", echo=FALSE}
 #' This function calculates the force through electric field strength.
 #' 
 #' @param E the electric field strength
@@ -1346,6 +1623,269 @@ convertFromFtToM <- function(ft) {
 convert_degrees_to_radians <- function(degrees) {
   return(degrees * pi / 180)
 }
+```
+
+## Mõõtemääramatus
+
+### Usaldusintervall
+
+1 - α usaldusintervall aritmeetilise keskmise tõelise väärtuse jaoks:
+
+```{=tex}
+\begin{equation}
+\overline{x} \pm \mathrm{t}(n - 1, \frac{\alpha}{2}) \times \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}}
+(\#eq:confidence-interval)
+\end{equation}
+
+```
+
+### Suhteline mõõtemääramatus
+
+Suhteline mõõtemääramatus arvutatakse absoluutse mõõtemääramatuse ja mõõdetud keskväärtuse suhtena (valem \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")`)[@uncertaintypdf, lk 22, 23; @mtmised, lk 16].
+
+\begin{align}
+R = \frac{u}{\overline{q}}
+(\#eq:relative-uncertainty)
+\end{align}
+
+\newpage
+
+### Mõõtkavadega joonlaud
+
+Mõõtkavadega joonlaud on analoogmõõtevahend, millel on mitu mõõtkava ja mida saab kasutada vastava mõõtkavaga kaardi vahemaade lugemiseks ilma lisaarvutamise vajaduseta.
+
+Kui mõõdan sellega staatilist sihitist, siis saan ilmselt iga kord sama või ainult veidi erineva tulemuse sõltuvalt sellest, kui hästi suudan joonlaua paigutada. Seetõttu suur arv kordusmõõtmisi ei lisa oluliselt täpsust. Seega pole vaja arvutada A-tüüpi mõõtemääramatust.
+
+```{r label = "ruler", echo=FALSE}
+ruler_smallest_unit <- .5
+ruler_relation = 4000 / 400
+ruler_smallest_unit_actual <- ruler_smallest_unit * ruler_relation 
+ruler_x <- 42
+ruler_x_actual <- ruler_x * ruler_relation
+ruler_relative <- ruler_smallest_unit / ruler_x
+ruler_data_frame <- data.frame(ruler_x_actual)
+
+ruler_lower <- ruler_x_actual - ruler_smallest_unit_actual
+ruler_upper <- ruler_x_actual + ruler_smallest_unit_actual
+
+```
+
+Minu kasutada oleva *deli* joonlaua kohta puuduvad tehaseandmed, mistõttu lähtun B-tüüpi mõõtemääramatuse arvutamises joonlaua väikseimast ühikust, milleks on skaalat $\frac{\num{1}}{\num{400}}$ kasutades \qty{`r as.character(ruler_smallest_unit)`}{\m} (joonis \@ref(fig:measuring-with-ruler-with-scales) leheküljel `r render_pageref(reference = "fig:measuring-with-ruler-with-scales")`[@noauthor_undated-ar]). Kuna kaardi mõõtkava on $\frac{\num{1}}{{4000}}$, siis on tegelikkuses lühim selle joonlauaga ja skaalaga mõõdetav vahemaa \qty{`r as.character(ruler_smallest_unit_actual)`}{\m}.
+
+```{r label = "measuring-with-ruler-with-scales", echo=FALSE, fig.cap = "Kahe kontrollpunkti vahelise kauguse mõõtmine mõõtkavadega joonlauaga."}
+include_external_graphics("rmd/skaaladega-joonlaud.png")                                # 2
+                                                                                 # 3
+```
+
+See joonlaud ei ole digitaalne, mistõttu jääb B-tüüpi mõõtemääramatuseks väikseim ühik.
+
+Mõõdetud vahemaa on väljendatuna täielikult \qty{`r as.character(ruler_x_actual)`(`r as.character(ruler_smallest_unit_actual)`)}{\m}.
+
+Suhtelise mõõtemääramatuse arvutamiseks tuleb absoluutne mõõtemääramatus jagada mõõdetud suurusega vastavalt valemile \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")` ning see arvutuskäik on esitatud avaldisena \@ref(eq:ruler-relational-uncertainty) leheküljel `r render_pageref(reference = "eq:ruler-relational-uncertainty")`:
+
+\begin{align}
+R = \frac{\qty{`r as.character(ruler_smallest_unit)`}{\m}}{\qty{`r as.character(ruler_x)`}{\m}} =  \num{`r as.character(signif(x = ruler_relative, digits = 3))`}
+(\#eq:ruler-relational-uncertainty)
+\end{align}
+
+Mõõdetud suurus esitatuna suhtelise mõõtemääramatusega on \qty{`r as.character(ruler_x)`}{\m}\pm\num{`r as.character(signif(x = ruler_relative, digits = 3))`}.
+
+See tähendab, et nende kahe kontrollpunkti vaheline kaugus on vahemikus vahemikus [\qty{`r as.character(signif(x = ruler_lower, digits = 3))`}{\m}; \qty{`r as.character(signif(x = ruler_upper, digits = 3))`}{\m}].
+
+Joonisel \@ref(fig:ruler-uncertainties) leheküljel `r render_pageref(reference = "fig:ruler-uncertainties")` on esitatud mõõdetud keskväärtus koos mõõtemääramatusega graafiliselt.
+
+```{r label = "ruler-uncertainties", fig.cap="Kahe kontrollpunkti omavaheline kaugus mõõtemääramatusega.", echo=FALSE}
+librarian::shelf(c(                                                                                                                                                                                                                                                                               # 2
+  "ggplot2",                                                                                                                                                                                                                                                                                      # 3
+  "latex2exp"                                                                                                                                                                                                                                                                                     # 4
+))                                                                                                                                                                                                                                                                                                # 5
+                                                                                                                                                                                                                                                                                                  # 6
+color_x <- "#008000"                                                                                                                                                                                                                                                                             # 10
+                                                                                                                                                                                                                                                                                                 # 12
+ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +                                                                                                                                                                                                   # 13
+  geom_point(shape = 23, size = 1) +                                                                                                                                                                                                                                                             # 14
+  labs(x = TeX("$\\frac{\\textit{q}}{m}$")) +                                                                                                                                                                                              # 15
+  geom_errorbarh(aes(xmin = `ruler_x_actual` - ruler_smallest_unit_actual, xmax = `ruler_x_actual` + ruler_smallest_unit_actual), color = color_x) +                                                                                                                                                                      # 16
+  theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
+        axis.text.y=element_blank(), 
+        axis.ticks.y=element_blank()) +
+  scale_x_continuous(
+  labels = scales::number_format(accuracy = 1))
+
+```
+
+\onecolumn
+
+### Nihik
+
+Nihik on kauguse mõõtmisvahend, mille haarade vahele saab panna mõõdetava sihitise või mille haarad saab panna mõõdetavasse vahesse ja lugeda skaalalt välja kaugus.
+
+Digitaalne nihik omab kuva, mis näitab elektrooniliselt kauguse kuvades selle teatud täpsusega ja tehes ümardamise inimese eest. Elektrooniliste vahenditega pruugime kordusmõõtmisel saada eelmisest veidi erineva tulemuse, sest eksperimenteerija ei pruugi sättida haarasid täpselt, eri väljad võivad mõjutada masina tööd. Mida tundlikum on sensor, seda rohkem mõõtetulemused üksteisest erinevad. Seetõttu tuleb digitaalse mõõtmisvahendi puhul arvutada mõõtmistulemusele ka A-tüüpi mõõtemääramatus. Et tulemusi vähegi tõsiselt võtta, tuleb teha vähemalt neli mõõtmist. Mida rohkem mõõtmisi eksperimenteerija teeb, seda stabiilsemaks ta mõõtmistulemuste keskväärtuse saab.
+
+Näitena on mul kasutuses digitaalne nihik ja ma mõõdan sellega oma sõrme jämedust, nagu on näha joonisel \@ref(fig:measuring-with-caliper) leheküljel `r render_pageref(reference = "fig:measuring-with-caliper")`.
+
+```{r label = "measuring-with-caliper", echo=FALSE, fig.cap = "Sõrme jämeduse mõõtmine digitaalse nihikuga."}
+include_external_graphics("rmd/nihik.jpg")                                # 2
+                                                                                 # 3
+```
+
+
+```{r label = "caliper", echo=FALSE}
+caliper <- c(9.97e-3, 9.47e-3, 9.44e-3, 9.42e-3)
+caliper_number <- length(caliper)
+caliper_mean <- mean(caliper)
+caliper_difference_from_mean <- caliper - caliper_mean
+caliper_difference_from_mean_squared <- caliper_difference_from_mean^2
+caliper_difference_from_mean_squared_sum <- sum(caliper_difference_from_mean_squared)
+caliper_number_less_1 <- caliper_number - 1
+caliper_variance <- caliper_difference_from_mean_squared_sum / (caliper_number_less_1)
+caliper_sd <- sqrt(caliper_variance)
+caliper_sd_over_number <- caliper_sd / sqrt(caliper_number)
+librarian::shelf(c(
+  "distributions3"
+))
+studentTDistribution = StudentsT(df = caliper_number_less_1)
+alpha <- 1 - .05 / 2
+caliper_number_student = quantile(studentTDistribution, alpha)
+student_8 <- quantile(StudentsT(df = 8), alpha)
+caliper_sd_mean <- caliper_sd_over_number * caliper_number_student
+
+caliper_smallest_unit <- .01e-3
+caliper_b <- caliper_smallest_unit / 2
+#caliper_b_last <- caliper_b * 10
+caliper_uncertainty <- caliper_sd_mean + caliper_b
+
+caliper_lower <- caliper_mean - caliper_uncertainty
+caliper_upper <- caliper_mean + caliper_uncertainty
+caliper_relative <- caliper_uncertainty / caliper_mean
+
+caliper_data_frame = data.frame(caliper)
+
+```
+
+Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:confidence-interval) leheküljel `r render_pageref(reference = "eq:confidence-interval")`.
+
+Selleks tuleb esmalt arvutada aritmeetiline keskmine. Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:caliper-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
+
+\begin{align}
+x_1 = \qty{`r as.character(caliper[1])`}{\m},\\
+x_2 = \qty{`r as.character(caliper[2])`}{\m},\\
+x_3 = \qty{`r as.character(caliper[3])`}{\m},\\
+x_4 = \qty{`r as.character(caliper[4])`}{\m}.
+(\#eq:caliper-x)
+\end{align}
+
+
+Aritmeetilise keskmise arvutan liites kõik mõõdetud väärtused kokku ja jagades nende arvuga (avaldis \@ref(eq:caliper-mean) leheküljel `r render_pageref(reference = "eq:caliper-mean")`).
+
+\begin{align}
+\overline{x} = \frac{(\qty{`r as.character(caliper[1])`}{\m}) + (\qty{`r as.character(caliper[2])`}{\m}) +  \qty{`r as.character(caliper[3])`}{\m} + \qty{`r as.character(caliper[4])`}{\m}}{\num{`r as.character(caliper_number)`}} = \qty{`r as.character(caliper_mean)`}{\m}.
+(\#eq:caliper-mean)
+\end{align}
+
+Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (avaldised \@ref(eq:caliper-mean-x) leheküljel `r render_pageref(reference = "eq:caliper-mean-x")`).
+
+\begin{align}
+\overline(x) - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\\
+\overline(x) - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\\
+\overline(x) - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\\
+\overline(x) - x_4 = (\qty{`r as.character(caliper[4])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m}.
+(\#eq:caliper-mean-x)
+\end{align}
+
+Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared")`).
+
+\begin{align}
+(\overline(x) - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\\
+(\overline(x) - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\\
+(\overline(x) - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\\
+(\overline(x) - x_4)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}.
+(\#eq:caliper-mean-x-squared)
+\end{align}
+
+Ruudustatud erinevused on vaja kokku liita (avaldis \@ref(eq:caliper-difference-from-mean-square-sum) leheküljel `r render_pageref(reference = "eq:caliper-difference-from-mean-square-sum")`).
+
+\begin{align}
+\sum_{i = 1}{\overline{x} - x_i} =\\
+(\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}) =\\
+\qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}.
+(\#eq:caliper-difference-from-mean-square-sum)
+\end{align}
+
+Summa tuleb jagada ühega vähem kui mõõtmiste arv, et saada üksiktulemuse dispersioon (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1")`).
+
+\begin{align}
+\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)} = \frac{\qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}}{\num{`r as.character(caliper_number)`} - \num{1}} = \qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}.
+(\#eq:caliper-mean-x-squared-sum-over-n-1)
+\end{align}
+
+Üksiktulemuse standardhälbe saan, kui arvutan ruutjuure dispersioonist (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1-sqrt) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1-sqrt")`).
+
+\begin{align}
+\sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)}} = \sqrt{\qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}} = \qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}.
+(\#eq:caliper-mean-x-squared-sum-over-n-1-sqrt)
+\end{align}
+
+Järgnevalt on vaja standardhälve jagada ruutjuurega mõõtmiste arvust (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt")`).
+
+\begin{align}
+\sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \frac{\qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}}{\sqrt{\num{`r as.character(caliper_number)`}}} =\qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m}.
+(\#eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt)
+\end{align}
+
+Tulemus on vaja korrutada Studenti jaotuse teguriga *t*, milleks on  \num{0,95} tõenäosuse ja nelja katse korral \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} ning kaheksa katse korral nagu õpilasel \num{`r as.character(signif(x = student_8, digits = 3))`} (avaldis \@ref(eq:caliper-uncertainty-a) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty-a")`).
+
+\begin{align}
+u_\mathrm{A} = t \times \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m} \times \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} =\qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m}.
+(\#eq:caliper-uncertainty-a)
+\end{align}
+
+Studenti tegurid on ka @haynes_2014_crc, lk A-72, kuid need on esitatud meile vajalikust ühe tulba võrra nihkes. Ehk siis tuleb mõõtmiste arvust lahutada üks ja otsida väärtus tulbast, mis on soovitud tõenäosusele järgmine tulp.
+
+Nüüd on A-tüüpi mõõtemääramatus arvutatud.
+
+Kuna pole teada, milline on nihiku tegija poolt spetsifitseeritud mõõtemääramatus, siis ainus B-tüüpi mõõtemääramatus, mille saame määrata ja peame määrama, on näidiku viimase numbrikoha järgi peale koma. See nihik näitab millimeetri sajandiku täpsusega. Kuna tegemist on digiseadmega ja eksimisvõimalust algusega pole, küll aga on lõpuga, siis B-tüüpi mõõtemääramatus on pool seda kõige väiksemat ühikut (avaldis \@ref(eq:caliper-smallest-unit-by-2) leheküljel `r render_pageref(reference = "eq:caliper-smallest-unit-by-2")`).
+
+\begin{align}
+u_\mathrm{B} = \frac{\qty{`r as.character(signif(x = caliper_smallest_unit, digits = 1))`}{\m}}{\num{2}} = \qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m}.
+(\#eq:caliper-smallest-unit-by-2)
+\end{align}
+
+Järgnevalt tuleb mõõtemääramatused liita (avaldis \@ref(eq:caliper-uncertainty) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty")`).
+
+\begin{align}
+u = u_\mathrm{A} + u_\mathrm{B} = \qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m} + \qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m} = \qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}.
+(\#eq:caliper-uncertainty)
+\end{align}
+
+Nüüd on mõõtemääramatus arvutatud ja saan keskmise mõõtetulemuse koos sellega välja kirjutada: $\qty{`r as.character(signif(x = caliper_mean, digits = 3))`(`r as.character(signif(x = caliper_uncertainty, digits = 2))`)}{\m}$.
+
+See tähendab, et minu sõrme jämedus on tõenäosusega \num{0,95} Studenti jaotuse korral vahemikus [\qty{`r as.character(signif(x = caliper_lower, digits = 3))`}{\m}; \qty{`r as.character(signif(x = caliper_upper, digits = 3))`}{\m}].
+
+Suhteline mõõtemääramatus on $\frac{\qty{`r as.character(signif(x = caliper_sd_mean, digits = 2))`}{\m}}{\qty{`r as.character(signif(x = caliper_mean, digits = 3))`}{\m}} = \num{`r as.character(signif(x = caliper_relative, digits = 3))`}$.
+
+Joonisel \@ref(fig:caliper-uncertainties) leheküljel `r render_pageref(reference = "fig:caliper-uncertainties")` on esitatud mõõdetud keskväärtus koos mõõtemääramatusega graafiliselt.
+
+```{r label = "caliper-uncertainties", fig.cap="Sõrme mõõdetud jämedused koos keskmise jämeduse ja mõõtemääramatusega.", echo=FALSE}
+librarian::shelf(c(                                                                                                                                                                                                                                                                               # 2
+  "ggplot2",                                                                                                                                                                                                                                                                                      # 3
+  "latex2exp"                                                                                                                                                                                                                                                                                     # 4
+))                                                                                                                                                                                                                                                                                                # 5
+                                                                                                                                                                                                                                                                                                  # 6
+color_x <- "#008000"                                                                                                                                                                                                                                                                             # 10
+                                                                                                                                                                                                                                                                                                 # 12
+ggplot(data = caliper_data_frame, mapping = aes(x = `caliper`, y = 0)) +                                                                                                                                                                                                   # 13
+  geom_point(shape = 23, size = 1) +    
+  geom_point(aes(x = caliper_mean, y = 0), shape = 23, size = 2) +
+  labs(x = TeX("$\\frac{\\bar{\\textit{x}}}{m}$")) +                                                                                                                                                                                              # 15
+  geom_errorbarh(aes(xmin = caliper_lower, xmax = caliper_upper), color = color_x) +                                                                                                                                                                      # 16
+  theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
+        axis.text.y=element_blank(), 
+        axis.ticks.y=element_blank()) #+
+#  scale_x_continuous(
+ #   labels = scales::number_format(accuracy = 0.00001)
+#  )
+
 ```
 
 \twocolumn
