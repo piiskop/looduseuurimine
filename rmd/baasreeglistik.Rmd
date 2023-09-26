@@ -1716,6 +1716,8 @@ ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +   
 
 \onecolumn
 
+[]{#caliper}
+
 ### Nihik
 
 Nihik on kauguse mõõtmisvahend, mille haarade vahele saab panna mõõdetava sihitise või mille haarad saab panna mõõdetavasse vahesse ja lugeda skaalalt välja kaugus.
@@ -1786,20 +1788,20 @@ Aritmeetilise keskmise arvutan liites kõik mõõdetud väärtused kokku ja jaga
 Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (avaldised \@ref(eq:caliper-mean-x) leheküljel `r render_pageref(reference = "eq:caliper-mean-x")`).
 
 \begin{align}
-\overline(x) - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\\
-\overline(x) - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\\
-\overline(x) - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\\
-\overline(x) - x_4 = (\qty{`r as.character(caliper[4])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m}.
+\overline{x} - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\\
+\overline{x} - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\\
+\overline{x} - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\\
+\overline{x} - x_4 = (\qty{`r as.character(caliper[4])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m}.
 (\#eq:caliper-mean-x)
 \end{align}
 
 Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared")`).
 
 \begin{align}
-(\overline(x) - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\\
-(\overline(x) - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\\
-(\overline(x) - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\\
-(\overline(x) - x_4)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}.
+(\overline{x} - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_4)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}.
 (\#eq:caliper-mean-x-squared)
 \end{align}
 
@@ -1889,3 +1891,30 @@ ggplot(data = caliper_data_frame, mapping = aes(x = `caliper`, y = 0)) +        
 ```
 
 \twocolumn
+
+### Valgusmõõtur
+
+Valgusmõõturiga saab mõõta valgustust ehk seda, kui palju valgust langeb pinnale.
+
+Meil on kasutada digitaalne valgusmõõtur sarjast *ST-1300*. Kuna see on digitaalne, tuleb mõõtmisi korrata ja arvutada A-tüüpi mõõtemääramatus. Valgusmõõturiga korratakse mõõtmisi niimoodi, et mõõdetakse samas kohas, kuid vahepeal nullitakse näit kattes sensori. A-tüüpi mõõtemääramatuse arvutamine on kirjeldatud [nihiku](#caliper) sektsioonis.
+
+Kuna selle masina puhul on kirjas ka tootjapoolne tabavus, siis tuleb arvutada B-tüüpi mõõtemääramatus selle järgi. Esitatud on kaks tabavuskarakteristikut: $\pm \num{5} \% \pm \num{10} \text{vähim olulist tüvenumbrit}$, kui valgustus on väiksem kui \qty{10000}{\lux}, ja $\pm \num{10} \% \pm \num{10} \text{vähim olulist tüvenumbrit}$, kui valgustus on suurem kui \qty{10000}{\lux}.
+
+
+```{r label = "illuminance", echo=FALSE}
+illuminance <- c(923, 905, 593, 587)
+
+```
+
+Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:illuminance-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
+
+\begin{align}
+x_1 = \qty{`r as.character(illuminance[1])`}{\lux},\\
+x_2 = \qty{`r as.character(illuminance[2])`}{\lux},\\
+x_3 = \qty{`r as.character(illuminance[3])`}{\lux},\\
+x_4 = \qty{`r as.character(illuminance[4])`}{\lux}.
+(\#eq:illuminance-x)
+\end{align}
+
+Kuna kõik mõõdetud väärtused on väiksemad kui \qty{10000}{\lux}, siis kasutan tabavuskarakteristikut $\pm \num{5} \% \pm \num{10} \text{vähim olulist tüvenumbrit}$.
+
