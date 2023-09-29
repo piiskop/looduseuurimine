@@ -280,12 +280,6 @@ Kava:
 
 3. Coulomb'i seadus[@physics, lk 613-618]. *11a*: pärast võrdlust gravitatsiooniseadusega. *11b*: Coulombi skeemist edasi.
 
-4. Elektriväli[@physics, lk 618-622].
-
-5. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics, lk 622-625].
-
-Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada paaritu tähistusega nende teemade, mida jõudsime käsitleda terves mahus, ülesanded @physics, lk 636-637'st!
-
 ### 2023-09-22
 
 Eesmärgina õpilane oskab
@@ -316,6 +310,27 @@ Eesmärgina õpilane oskab
 4. kasutada probleeme lahendades
 Coulomb’i seadust (21.5),
 
+Õppesisu: Coulomb’i seadus (21.5).
+Punktlaeng (21.5).
+
+Põhimõisted:
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+Kava:
+
+3. Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: *21-4* skeemini ja arvutamise osa väärtuste väljakirjutamisest edasi. Selgitasin näite "21-4" lõpuni. Jätsin õpilastele arvutada ja kontrollida. Kokkuleppel õpilastega lõpetasime 5 min varem, seega teinekord teeme 5 min kauem. *11b*: Näitest *21-4* skeemist ja väljakirjutatud jõudude arvutamise osast. Näite "21-4" puhul arvutasin välja jõu suuruse ja kirjutasin välja arvutuskäigu tõusunurga arvutamiseks. Tobile lubasin saata protokolli, mille järgi saab eksperimendi teha.
+
+\onecolumn
+
+### 2023-09-29
+
+Eesmärgina õpilane oskab
+
+4. kasutada probleeme lahendades
+Coulomb’i seadust (21.5),
+
 Õppesisu: Elektrivool (25.2). Coulomb’i seadus (21.5).
 Punktlaeng (21.5).
 
@@ -329,17 +344,20 @@ punktlaeng (21.5)
 
 Kava:
 
-3. Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: *21-4* skeemini ja arvutamise osa väärtuste väljakirjutamisest edasi. *11b*: Näitest *21-4* skeemist ja väljakirjutatud jõudude arvutamise osast.
+3.  Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: *21-4* skeemini ja arvutamise osa väärtuste väljakirjutamisest edasi. *11b*: Näite "21-4" puhul arvutasin välja jõu suuruse ja kirjutasin välja arvutuskäigu tõusunurga arvutamiseks (joonis \@ref(fig:point-charges-21-4-10b) leheküljel `r render_pageref(reference = "fig:point-charges-21-4-10b")`). Jätkame, et arvutada tõusunurk.
+    
+    ```{r label = "point-charges-21-4-10b", echo=FALSE, fig.cap = "Kolme punktlaengu mõju eri sihtides tõusunurga arvutamise osani, milles väärtused eeskirja järgi sisestatud."}
+include_external_graphics("rmd/21-4-10b.jpg")                                # 2
+                                                                                 # 3
+    ```
 
 4. Elektriline aku [@physics, lk 717-720].
 
 5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the].
 
-Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada paaritu tähistusega nende teemade, mida jõudsime käsitleda terves mahus, ülesanded @physics, lk 636-637'st!
+Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada @physics, lk 636-637'st ülesanded *1*, *3*, *5*, *7*, *9*, *11*, *13*, *15*, *17*, *19* ja *21*!
 
-### 2023-09-29
-
-Laine liikumise, elektrilaengu ja elektrivälja ning soojuskiirguse teadmiste ja oskuste kaardistamine.
+\twocolumn
 
 ### 2023-10-2
 

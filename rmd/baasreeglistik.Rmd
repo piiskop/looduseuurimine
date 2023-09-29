@@ -1567,6 +1567,84 @@ calculate_force_through_electric_field_strength <- function(E, Q) {
 
 ```
 
+## Heli
+
+```{r label = "I-0"}
+I_0 <- 1e-12
+
+```
+
+Inimese kuulmislävel on võimsustihedus $\qty{`r as.character(I_0)`}{\W\per\m\squared}$ [@haynes_2014_crc(lk 14-52)].
+
+Helitaseme arvutamiseks võimsustiheduste järgi saab kasutada valemit \@ref(eq:sound-level) leheküljel `r render_pageref(reference = "eq:sound-level")`. Selle valemi dimensionaalanalüüs on esitatud avaldises \@ref(eq:dimensional-analysis-of-sound-level) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-sound-level")`, millest johtuvalt on ühik 1 või spetsiifiliselt detsibell.
+
+```{=tex}
+\begin{align}
+\beta = 10 \times \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}})
+(\#eq:sound-level)
+\end{align}
+
+```
+
+[@giancoli_2014_physics(lk 331)].
+
+```{=tex}
+\begin{align}
+1 \times \mathrm{log}(\frac{\mathrm{\frac{M \times L \times L}{T^3 \times L^2}}}{\mathrm{\frac{M \times L \times L}{T^3 \times L^2}}}).
+(\#eq:dimensional-analysis-of-sound-level)
+\end{align}
+
+```
+
+```{r label = "calculate-sound-level"}
+#' This function calculates the sound level.
+#' 
+#' @param I the power intensity
+#' 
+#' @returns the sound level
+calculate_sound_level <- function(I) {
+  return(10 * log10(I / I_0))
+}
+
+```
+
+Avaldan helitaseme valemist \@ref(eq:sound-level) leheküljel `r render_pageref(reference = "eq:sound-level")` võimsusintensiivsuse avaldises \@ref(eq:power-intensity) leheküljel `r render_pageref(reference = "eq:power-intensity")`
+
+```{=tex}
+\begin{align}
+\frac{\beta}{10} &= \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}}) \\
+10^{\frac{\beta}{10}} &= \frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}} \\
+I &= \qty{`r as.character(I_0)`}{\W\per\m\squared} \times 10^{\frac{\beta}{10}}.
+(\#eq:power-intensity)
+\end{align}
+
+```
+
+```{r label = "calculate-power-intensity"}
+#' This function calculates the power intensity.
+#' 
+#' @param beta the sound level
+#' 
+#' @returns the power intensity
+calculate_power_intensity <- function(beta) {
+  return(I_0 * 10^(beta / 10))
+}
+
+```
+
+Võimsusintensiivsuse sõltuvus kaugusest on esitatud avaldises \@ref(eq:dependence-of-power-intensity-on-distance) leheküljel `r render_pageref(reference = "eq:dependence-of-power-intensity-on-distance")`.
+
+```{=tex}
+\begin{align}
+I = \frac{P}{4 \times \pi \times r^2},
+(\#eq:dependence-of-power-intensity-on-distance)
+\end{align}
+
+```
+
+milles $P$ on võimsus ja $r$ kaugus heliallikast [@giancoli_2014_physics(lk 310)].
+
+
 \onecolumn
 
 ## Ühikud
@@ -1742,20 +1820,24 @@ caliper_difference_from_mean_squared_sum <- sum(caliper_difference_from_mean_squ
 caliper_number_less_1 <- caliper_number - 1
 caliper_variance <- caliper_difference_from_mean_squared_sum / (caliper_number_less_1)
 caliper_sd <- sqrt(caliper_variance)
-caliper_sd_over_number <- caliper_sd / sqrt(caliper_number)
+
+caliper_less_sd <- caliper - caliper_sd
+
+caliper_sd_mean <- caliper_sd / sqrt(caliper_number)
 librarian::shelf(c(
   "distributions3"
 ))
 studentTDistribution = StudentsT(df = caliper_number_less_1)
 alpha <- 1 - .05 / 2
 caliper_number_student = quantile(studentTDistribution, alpha)
-student_8 <- quantile(StudentsT(df = 8), alpha)
-caliper_sd_mean <- caliper_sd_over_number * caliper_number_student
+student_7 <- quantile(StudentsT(df = 6), alpha)
+
+caliper_uncertainty_A <- caliper_sd_mean * caliper_number_student
 
 caliper_smallest_unit <- .01e-3
 caliper_b <- caliper_smallest_unit / 2
 #caliper_b_last <- caliper_b * 10
-caliper_uncertainty <- caliper_sd_mean + caliper_b
+caliper_uncertainty <- sqrt(caliper_uncertainty_A^2 + caliper_b^2)
 
 caliper_lower <- caliper_mean - caliper_uncertainty
 caliper_upper <- caliper_mean + caliper_uncertainty
@@ -1814,28 +1896,28 @@ Ruudustatud erinevused on vaja kokku liita (avaldis \@ref(eq:caliper-difference-
 (\#eq:caliper-difference-from-mean-square-sum)
 \end{align}
 
-Summa tuleb jagada ühega vähem kui mõõtmiste arv, et saada üksiktulemuse dispersioon (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1")`).
+Summa tuleb jagada ühega vähem kui mõõtmiste arv, et saada üksiktulemuse dispersioon (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1")`)[@mtmised, lk 10].
 
 \begin{align}
-\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)} = \frac{\qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}}{\num{`r as.character(caliper_number)`} - \num{1}} = \qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}.
+\sigma_x^2 = \frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)} = \frac{\qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}}{\num{`r as.character(caliper_number)`} - \num{1}} = \qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}.
 (\#eq:caliper-mean-x-squared-sum-over-n-1)
 \end{align}
 
 Üksiktulemuse standardhälbe saan, kui arvutan ruutjuure dispersioonist (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1-sqrt) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1-sqrt")`).
 
 \begin{align}
-\sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)}} = \sqrt{\qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}} = \qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}.
+\sigma_x = \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{(n - 1)}} = \sqrt{\qty{`r as.character(signif(x = caliper_variance, digits = 4))`}{\m\squared}} = \qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}.
 (\#eq:caliper-mean-x-squared-sum-over-n-1-sqrt)
 \end{align}
 
 Järgnevalt on vaja standardhälve jagada ruutjuurega mõõtmiste arvust (avaldis \@ref(eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt")`).
 
 \begin{align}
-\sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \frac{\qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}}{\sqrt{\num{`r as.character(caliper_number)`}}} =\qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m}.
+\sigma_{\bar{x}} = \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \frac{\qty{`r as.character(signif(x = caliper_sd, digits = 4))`}{\m}}{\sqrt{\num{`r as.character(caliper_number)`}}} =\qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m}.
 (\#eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt)
 \end{align}
 
-Tulemus on vaja korrutada Studenti jaotuse teguriga *t*, milleks on  \num{0,95} tõenäosuse ja nelja katse korral \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} ning kaheksa katse korral nagu õpilasel \num{`r as.character(signif(x = student_8, digits = 3))`} (avaldis \@ref(eq:caliper-uncertainty-a) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty-a")`).
+Lõpliku arvu mõõtmiste korral allub mõõtetulemuste jagunemine aritmeetilise keskmise ümber Studenti jaotusele. Tulemus on vaja korrutada Studenti jaotuse teguriga *t*, milleks on  \num{0,95} tõenäosuse ja nelja katse korral \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} ning seitsme katse korral nagu õpilasel \num{`r as.character(signif(x = student_7, digits = 3))`} (avaldis \@ref(eq:caliper-uncertainty-a) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty-a")`).
 
 \begin{align}
 u_\mathrm{A} = t \times \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m} \times \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} =\qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m}.
@@ -1853,10 +1935,12 @@ u_\mathrm{B} = \frac{\qty{`r as.character(signif(x = caliper_smallest_unit, digi
 (\#eq:caliper-smallest-unit-by-2)
 \end{align}
 
-Järgnevalt tuleb mõõtemääramatused liita (avaldis \@ref(eq:caliper-uncertainty) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty")`).
+[]{#caliper-uncertainty}
+
+Järgnevalt tuleb mõõtemääramatused liita, nagu liidetakse vektoreid (avaldis \@ref(eq:caliper-uncertainty) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty")`).
 
 \begin{align}
-u = u_\mathrm{A} + u_\mathrm{B} = \qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m} + \qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m} = \qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}.
+u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B}^2} = \sqrt{(\qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m})^2 + (\qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m})^2} = \qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}.
 (\#eq:caliper-uncertainty)
 \end{align}
 
@@ -1866,7 +1950,7 @@ See tähendab, et minu sõrme jämedus on tõenäosusega \num{0,95} Studenti jao
 
 Suhteline mõõtemääramatus on $\frac{\qty{`r as.character(signif(x = caliper_sd_mean, digits = 2))`}{\m}}{\qty{`r as.character(signif(x = caliper_mean, digits = 3))`}{\m}} = \num{`r as.character(signif(x = caliper_relative, digits = 3))`}$.
 
-Joonisel \@ref(fig:caliper-uncertainties) leheküljel `r render_pageref(reference = "fig:caliper-uncertainties")` on esitatud mõõdetud keskväärtus koos mõõtemääramatusega graafiliselt.
+Joonisel \@ref(fig:caliper-uncertainties) leheküljel `r render_pageref(reference = "fig:caliper-uncertainties")` on esitatud mõõdetud keskväärtus koos mõõtemääramatusega graafiliselt. Graafikule on märgitud neli mõõtmistulemust ja nende seas on suuremalt tähistatud mõõtmistulemuste aritmeetiline keskmine. Mustalt on tähistatud üksiktulemuse standardhälbed, oranžilt aritmeetilise keskmise standardhälbed, roosalt A-tüüpi mõõtemääramatus, roheliselt kogu mõõtemääramatus. Mustalt tähistatud vahemikku mahub \qty{70}{\percent} andmeid. Kui kahekordistada standardhälve, siis sellisesse vahemikku mahuks \qty{95}{\percent} andmeid. Kui kolmekordistada standardhälve, siis sellisesse vahemikku mahuks \qty{99}{\percent} andmeid. Kuna tegeliku väärtus sõltub ka sellest, mitu mõõtmisseeriat tehakse, siis tegelik väärtus on roheliselt tähistatud vahemikus tõenäosusega \qty{68,3}{\percent}. Kui aritmeetilise keskmise standardhälve kahekordistada, siis sellisesse vahemikku mahuks tegelik väärtus tõenäosusega \qty{95,4}{\percent}. Kui aritmeetilise keskmise standardhälve kolmekordistada, siis sellisesse vahemikku mahuks tegelik väärtus tõenäosusega \qty{99,7}{\percent}.
 
 ```{r label = "caliper-uncertainties", fig.cap="Sõrme mõõdetud jämedused koos keskmise jämeduse ja mõõtemääramatusega.", echo=FALSE}
 librarian::shelf(c(                                                                                                                                                                                                                                                                               # 2
@@ -1878,9 +1962,12 @@ color_x <- "#008000"                                                            
                                                                                                                                                                                                                                                                                                  # 12
 ggplot(data = caliper_data_frame, mapping = aes(x = `caliper`, y = 0)) +                                                                                                                                                                                                   # 13
   geom_point(shape = 23, size = 1) +    
-  geom_point(aes(x = caliper_mean, y = 0), shape = 23, size = 2) +
-  labs(x = TeX("$\\frac{\\bar{\\textit{x}}}{m}$")) +                                                                                                                                                                                              # 15
-  geom_errorbarh(aes(xmin = caliper_lower, xmax = caliper_upper), color = color_x) +                                                                                                                                                                      # 16
+  geom_point(aes(x = caliper_mean, y = 0), shape = 23, size = 2, color = color_x) +
+  labs(x = TeX("$\\frac{\\textit{x}}{m}$")) +                                                                                                                                                                                              # 15
+  geom_errorbarh(aes(xmin = caliper_lower, xmax = caliper_upper), color = color_x) +
+  geom_errorbarh(aes(xmin = caliper_mean - caliper_sd, xmax = caliper_mean + caliper_sd), height = .1) +
+  geom_errorbarh(aes(xmin = caliper_mean - caliper_sd_mean, xmax = caliper_mean + caliper_sd_mean), color = "#ff6600", height = .2) +
+  geom_errorbarh(aes(xmin = caliper_mean - caliper_uncertainty_A, xmax = caliper_mean + caliper_uncertainty_A), color = "#ff66ff", height = .4) +
   theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
         axis.text.y=element_blank(), 
         axis.ticks.y=element_blank()) #+
@@ -1890,19 +1977,43 @@ ggplot(data = caliper_data_frame, mapping = aes(x = `caliper`, y = 0)) +        
 
 ```
 
-\twocolumn
+\newpage
 
 ### Valgusmõõtur
 
 Valgusmõõturiga saab mõõta valgustust ehk seda, kui palju valgust langeb pinnale.
 
-Meil on kasutada digitaalne valgusmõõtur sarjast *ST-1300*. Kuna see on digitaalne, tuleb mõõtmisi korrata ja arvutada A-tüüpi mõõtemääramatus. Valgusmõõturiga korratakse mõõtmisi niimoodi, et mõõdetakse samas kohas, kuid vahepeal nullitakse näit kattes sensori. A-tüüpi mõõtemääramatuse arvutamine on kirjeldatud [nihiku](#caliper) sektsioonis.
+Meil on kasutada digitaalne valgusmõõtur sarjast *ST-1300* (joonis \@ref(fig:measuring-with-light-meter) leheküljel `r render_pageref(reference = "fig:measuring-with-light-meter")`). Kuna see on digitaalne, tuleb mõõtmisi korrata ja arvutada A-tüüpi mõõtemääramatus. Valgusmõõturiga korratakse mõõtmisi niimoodi, et mõõdetakse samas kohas, kuid vahepeal nullitakse näit kattes sensori. A-tüüpi mõõtemääramatuse arvutamine on kirjeldatud [nihiku](#caliper) sektsioonis.
 
-Kuna selle masina puhul on kirjas ka tootjapoolne tabavus, siis tuleb arvutada B-tüüpi mõõtemääramatus selle järgi. Esitatud on kaks tabavuskarakteristikut: $\pm \num{5} \% \pm \num{10} \text{vähim olulist tüvenumbrit}$, kui valgustus on väiksem kui \qty{10000}{\lux}, ja $\pm \num{10} \% \pm \num{10} \text{vähim olulist tüvenumbrit}$, kui valgustus on suurem kui \qty{10000}{\lux}.
+```{r label = "measuring-with-light-meter", echo=FALSE, fig.cap = "Valgusmõõtur sarjast *ST-1300*."}
+include_external_graphics("rmd/light-meter.jpg")                                # 2
+                                                                                 # 3
+```
+
+Kuna selle masina puhul on kirjas ka tootjapoolne tabavus, siis tuleb arvutada B-tüüpi mõõtemääramatus selle järgi. Esitatud on kaks tabavuskarakteristikut: $\pm \qty{5}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$, kui valgustus on väiksem kui \qty{10000}{\lux}, ja $\pm \qty{10}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$, kui valgustus on suurem kui \qty{10000}{\lux}.
 
 
 ```{r label = "illuminance", echo=FALSE}
 illuminance <- c(923, 905, 593, 587)
+illuminance_mean <- mean(illuminance)
+librarian::shelf(c(
+  "ggplot2"
+))
+illuminance_se <- as.numeric(mean_se(illuminance)["ymax"] - illuminance_mean) 
+illuminance_uncertainty_A <- caliper_number_student * illuminance_se
+probability <- .95
+precision_ratio <- .05
+number_of_least_sigfig = 10
+illuminance_uncertainty_B_1 <- probability * (illuminance_mean * precision_ratio + number_of_least_sigfig)
+
+illuminance_smallest_unit <- 1
+student_inf <- quantile(StudentsT(df = Inf), alpha)
+illuminance_uncertainty_B_2 <- student_inf * illuminance_smallest_unit / 2
+
+illuminance_uncertainty <- sqrt(illuminance_uncertainty_A^2 + illuminance_uncertainty_B_1^2 + illuminance_uncertainty_B_2^2)
+illuminance_uncertainty_relative <- illuminance_uncertainty / illuminance_mean
+
+illuminance_data_frame = data.frame(illuminance)
 
 ```
 
@@ -1916,5 +2027,50 @@ x_4 = \qty{`r as.character(illuminance[4])`}{\lux}.
 (\#eq:illuminance-x)
 \end{align}
 
-Kuna kõik mõõdetud väärtused on väiksemad kui \qty{10000}{\lux}, siis kasutan tabavuskarakteristikut $\pm \num{5} \% \pm \num{10} \text{vähim olulist tüvenumbrit}$.
+Mõõtetulemuste aritmeetiline keskmine on \qty{`r as.character(illuminance_mean)`}{\m}. A-tüüpi mõõtemääramatus nelja mõõtmise ja \num{95}-\% tõenäosuse korral on \qty{`r as.character(signif(x = illuminance_uncertainty_A, digits = 3))`}{\lux}.
 
+Kuna kõik mõõdetud väärtused on väiksemad kui \qty{10000}{\lux}, siis kasutan tabavuskarakteristikut $\pm \qty{5}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$. Esimese B-tüüpi mõõtemääramatuse saan niimoodi, et arvutan aritmeetilisest keskmisest nimetatud osamäära ja liidan kümnekordse minimaalse ühiku. See on ühese tõenäosusega. Kui tahan kasutada tõenäosust \num{`r as.character(probability)`}, siis korrutan tulemuse sellega läbi (avaldis \@ref(eq:illuminance-uncertainty-B-1) leheküljel `r render_pageref(reference = "eq:illuminance-uncertainty-B-1")`.
+
+\begin{align}
+u_\mathrm{B1} &= p \cdot (\text{täpsusosamäär} \cdot \bar{q} + \text{vähim oluliste tüvenumbrite arv})\\
+&= \num{`r as.character(probability)`} \times (\num{`r as.character(precision_ratio)`} \times \qty{`r as.character(illuminance_mean)`}{\lux} + \qty{`r as.character(number_of_least_sigfig)`}{\lux}) = \qty{`r as.character(signif(x = illuminance_uncertainty_B_1, digits = 2))`}{\lux}.
+(\#eq:illuminance-uncertainty-B-1)
+\end{align}
+
+Väikseim ühik on \qty{`r as.character(illuminance_smallest_unit)`}{\lux}. Kuna sisendeid on ainult üks, siis teine B-tüüpi mõõtemääramatus on pool väikseimat ühikut korrutatuna lõputu arvu mõõtmiste Studenti teguriga antud tõenäosuse korral (avaldis \@ref(eq:illuminance-uncertainty-B-2) leheküljel `r render_pageref(reference = "eq:illuminance-uncertainty-B-2")`.
+
+\begin{align}
+u_\mathrm{B2} = t_{\infty, p} \cdot \frac{\text{väikseim ühik}}{2} = \num{`r as.character(signif(x = student_inf, digits = 4))`} \times \frac{\qty{`r as.character(illuminance_smallest_unit)`}{\lux}}{2} = \qty{`r as.character(signif(x = illuminance_uncertainty_B_2, digits = 3))`}{\lux}.
+(\#eq:illuminance-uncertainty-B-2)
+\end{align}
+
+Kogu mõõtemääramatuse arvutamiseks tuleb kõik alammõõtemääramatuste vektorid kokku liita nagu [nihiku](#caliper-uncertainty) osas. Seega on kogu mõõtemääramatus \qty{`r as.character(signif(x = illuminance_uncertainty, digits = 3))`}{\lux} ja mõõtetulemuse võib välja kirjutada järgnevalt: \num{`r as.character(probability)`}-\% tõenäosusega nelja mõõtmise korral mõõtsin valgustugevuseks \qty{`r as.character(signif(x = illuminance_mean, digits = 3))`(`r as.character(signif(x = illuminance_uncertainty, digits = 3))`)}{\lux}. Suhteline mõõtemääramatus on samadel tingimustel \num{`r as.character(signif(x = illuminance_uncertainty_relative, digits = 3))`}. Viimane näitab, et mõõtmine on ebaõnnestunud ja see tuleks uuesti läbi viia, sest suhteline viga ületab \qty{10}{\percent}.
+
+Joonisel \@ref(fig:illuminance-uncertainties) leheküljel `r render_pageref(reference = "fig:illuminance-uncertainties")` on esitatud valgustugevuse mõõtmise tulemused keskväärtuse ja mõõtemääramatustega: mustaga on tähistatud A-, oranžiga B1-, roosaga B2-tüüpi ja rohelisega kogu mõõtemääramatus. Sellelt jooniselt näeme, kui palju mingit tüüpi mõõtemääramatus antud juhul mõju avaldab.
+
+```{r label = "illuminance-uncertainties", fig.cap="Valgustugevus koos keskmise valgustugevuse ja mõõtemääramatustega.", echo=FALSE}
+librarian::shelf(c(                                                                                                                                                                                                                                                                               # 2
+  "ggplot2",                                                                                                                                                                                                                                                                                      # 3
+  "latex2exp"                                                                                                                                                                                                                                                                                     # 4
+))                                                                                                                                                                                                                                                                                                # 5
+                                                                                                                                                                                                                                                                                                  # 6
+color_x <- "#008000"                                                                                                                                                                                                                                                                             # 10
+                                                                                                                                                                                                                                                                                                 # 12
+ggplot(data = illuminance_data_frame, mapping = aes(x = `illuminance`, y = 0)) +                                                                                                                                                                                                   # 13
+  geom_point(shape = 23, size = 1) +    
+  geom_point(aes(x = illuminance_mean, y = 0), shape = 23, size = 2, color = color_x) +
+  labs(x = TeX("$\\frac{\\textit{q}}{lx}$")) +                                                                                                                                                          # 15
+  geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty, xmax = illuminance_mean + illuminance_uncertainty), color = color_x) +
+  geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty_A, xmax = illuminance_mean + illuminance_uncertainty_A), height = .1) +
+  geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty_B_1, xmax = illuminance_mean + illuminance_uncertainty_B_1), color = "#ff6600", height = .2) +
+  geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty_B_2, xmax = illuminance_mean + illuminance_uncertainty_B_2), color = "#ff66ff", height = .4) +
+  theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
+        axis.text.y=element_blank(), 
+        axis.ticks.y=element_blank()) #+
+#  scale_x_continuous(
+ #   labels = scales::number_format(accuracy = 0.00001)
+#  )
+
+```
+
+\twocolumn

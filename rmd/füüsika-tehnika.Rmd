@@ -163,8 +163,6 @@ Eesmärgid:
 
 2. Moodulid on valitud.
 
-3. Kui aega jääb üle, siis MathCityMapiga on tutvutud.
-
 Kava:
 
 1. Miks õpilane valis just selle kursuse?
@@ -181,25 +179,89 @@ Kava:
 
 Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 134-135].
 
-Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanded  75, 77 ja 79!
+Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanded  75, 77 ja 79! Esitan siinkohal kõikide nende ülesannete püstitused maakeeli:
+
+75: Takistusjõud suurtele objektidele, nagu autod, lennukid ja
+läbi õhu liikuv taevasukelduja avaldub ligikaudselt valemiga $F_\text{D} = -c \cdot v^2$.
+
+(a) Selle ruutsõltuvuse jaoks *v*-st määrake valem
+vertikaalselt langeva objekti lõppkiiruse $v_\mathrm{T}$ jaoks.
+
+(b) Määrake konstandi *c* väärtus \qty{75}{\kg} massiva
+taevasukelduja kohta, kelle lõppkiirus on umbes \qty{60}{\m\per\s}.
+
+(c) Joonistage selle juhtumi - $F_\mathrm{D} \propto v^2$ -  jaoks kõver nagu joonisel *5-27b*. Kummal pool joonisel *5-27* asuvat kõverat see kõver sama lõppkiiruse korral aseteseks? Selgita miks.
+
+77: Jalgrattur võib \qty{7,8}{\degree} mäest järsult alla sõita
+\qty{9,5}{\km\per\hour}. Kui takistusjõud on võrdeline kiiruse *v* ruuduga, nii et $F_\mathrm{D} = c \cdot v^2$, arvuta
+
+(a) konstandi *c* väärtus ja
+
+(b) keskmine jõud, mida tuleb rakendada
+selleks, et laskuda mäest \qty{25}{\km\per\hour}.
+
+Jalgratta ja jalgratturi mass on kokku \qty{80}{\kg}. Ignoreeri muud tüüpi hõõrdumist.
+
+79: Mootorpaat, mis sõidab kiirusega \qty{2,4}{\m\per\s}, lülitab oma mootorid välja ajahetkes $t = 0$. Kui kaugele see enne seismajäämist liigub, kui märgitakse, et \qty{3,0}{\s} pärast on paadi kiirus langenud pooleni
+paadi kiiruse algset väärtust? Oletame, et vee takistusjõud on
+võrdeline *v*-ga.
+
+Näidislahendused on tahvlil[@looduseuurimine].
 
 ### 2023-09-22
 
 **Aero- ja hüdrodünaamika.**
 
-Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135].
+Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*: Diferentsiaalvõrrandist jätkasin näidet 5-17 ja jõudsin t avaldamisest järgmise sammuni, ent siis avastasin, et olin tõstnud b valesse kohta. Õpilased soovisid ka 15 min varem lahkuda, mistõttu lõpetasin.
 
 **Elastsuslained**
 
-Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463].
+Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463]. *12b*: Jõudsime lõpuni.
 
-Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467].
+Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanne 73! Maakeeli on see ülesanne selline:
 
-Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanne 73!
+\qty{3e-5}{\kg} massiva vihmapiisa lõppkiirus on
+umbes \qty{9}{\m\per\s}. Eeldades takistusjõu $F_\mathrm{D} = -b \cdot v$ olemasolu tee kindlaks konstandi *b* väärtus ja aeg, mis on 
+vajalik, et see vihmapiisk alates puhkeseisundist langedes saavutaks \qty{63}{\percent}
+lõppkiirusest.
+
+Näidislahendus on tahvlil[@looduseuurimine].
 
 ### 2023-09-29
 
+**Aero- ja hüdrodünaamika.**
+
+Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*'ga jätkame uuesti diferentsiaalvõrrandist, milles asume kohe asendusvõttega integreerima.
+
+**Elastsuslained**
+
+1. Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463].
+
+2. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12b*'ga alustame.
+
+Iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486 lahendada ülesanded *7*, *8* ja *9*! Maakeeli on nende ülesannete püstitused sellised:
+
+*7*: Helilaine rõhuamplituud õhus
+($\rho = \qty{1,29}{\kg\per\cubic\m}$) temperatuuril \qty{0}{\degreeCelsius} on \qty{3,0e-3}{\Pa}. Mis on
+nihke amplituud, kui sagedus on
+
+(a) \qty{250}{\Hz} ja
+
+(b) \qty{25}{\kHz}?
+
+*8*: Milline peab olema rõhu amplituud helilaines
+õhus (\qty{0}{\degreeCelsius}), kui õhumolekulid läbivad maksimaalselt nihke, mis on võrdne hapnikumolekuli läbimõõduga,
+umbes \qty{3e-10}{\m}? Oletame helilaine sageduseks
+
+(a) \qty{75}{\Hz} ja
+
+(b) \qty{7,5}{\kHz}.
+
+*9*: Kirjutage avaldis, mis kirjeldab rõhu muutumist funktsioonina *x*'st ja *t*'st ülesandes *8* kirjeldatud lainete puhul.
+
 ### 2023-10-6
+
+Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Kõrv ja kuulmine*[@labor1pdf]. Näidiseks on minu protokoll[@katrin_2022_akustika, lk 11-16].
 
 ### 2023-10-13
 
