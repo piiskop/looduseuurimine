@@ -30,6 +30,8 @@
 
 11. Suur voltmeeter.
 
+12. Tavaline joonlaud.
+
 Jaamas oleva mõõtmisvahendiga tuleb teostada mõõtmine või mõõtmised ning täheldada sõltuvalt mõõtevahendist oma konspekti järgmised andmed:
 
 1. Mõõtevahend.
@@ -62,7 +64,86 @@ Jaamas oleva mõõtmisvahendiga tuleb teostada mõõtmine või mõõtmised ning 
 
 15. Mõõteviga.
 
-\newpage
+\onecolumn
+
+## Mõõtmisraport
+
+### Mõõtevahend
+
+#### Milline mõõtevahend?
+
+\vspace{0.3\textheight}
+
+#### Kas digitaalne või analoogne?
+
+\vspace{0.3\textheight}
+
+#### Mõõtevahendi tootjapoolne mõõtetäpsus
+
+\vspace{0.3\textheight}
+
+#### Väikseim ühik
+
+\vspace{0.3\textheight}
+
+### Mõõtmine
+
+#### Mida mõõtsin?
+
+\vspace{0.3\textheight}
+
+#### Väljamõõdetud väärtus
+
+\vspace{0.3\textheight}
+
+#### A-tüüpi mõõtemääramatus
+
+```{r label = "measuring-uncertainty-A", echo=FALSE}
+x <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  7,
+  ""
+)
+
+data_frame_of_uncertainty_A <- data.frame(
+  x
+)
+
+colnames(data_frame_of_uncertainty_A) <- c(
+  "$\\frac{x}{}$"
+)
+
+rownames(data_frame_of_uncertainty_A) <- c(
+	"1.",
+	"2.",
+	"3.",
+	"4.",
+	"5.",
+	"6.",
+	"7.",
+	"$\\sum_{i = 1}^n{x}$",
+	"$n$",
+	"$\\bar{x}$"
+)
+
+print_table(
+  caption = "A-tüüpi mõõtemääramatuse arvutamine.",
+  table = data_frame_of_uncertainty_A
+)
+
+```
+
+
+#### B1-tüüpi mõõtemääramatus
+
+\twocolumn
 
 ## Tegevused jaamati
 

@@ -1703,7 +1703,7 @@ convert_degrees_to_radians <- function(degrees) {
 }
 ```
 
-## Mõõtemääramatus
+## Mõõtemääramatus[@ldmtmisedloodusteadustesxlsx]
 
 ### Usaldusintervall
 

@@ -491,14 +491,51 @@ mõõtemääramatus
 
 Kava:
 
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Selgitasin suhtelist viga, esitatud mõõtetulemuse ja mõõtevea eraldi interpreteerimist koos interpreteerimisena, eraldi mõõdetud komponentide mõõtetulemuste esitamist kokku välja arvutatud tulemusena, intervalle. Õpilased asusid mõõtemääramatuse prantsuskeelselt lehelt lahendama ülesandeid kolm ja neli minu selgituste järgi.
+
+### 2023-9-28
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Selgitasin prantsuskeelsel lehel olevate ülesannete sisu lõpuni ja kõige kaugemale lahendamisega jõutigi viimase ülesandeni, mis jäi iseseisvalt lõpetada.
+
+### 2023-10-3
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12].
 
 7. Toores hinnang[@physics, lk 11-13].
 
-
-### 2023-9-28
-
-### 2023-9-28
+### 2023-10-3
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
 
@@ -508,13 +545,13 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
-### 2023-10-20
+### 2023-10-5
 
-### 2023-10-30
+### 2023-10-5
 
-### 2023-11-3
+### 2023-10-10
 
-### 2023-11-6
+Füüsika meetodi teadmiste ja oskuste kontroll.
 
 ### 2023-11-10
 
