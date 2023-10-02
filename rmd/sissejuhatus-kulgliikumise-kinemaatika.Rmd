@@ -785,9 +785,49 @@ mõõtühikute süsteem
 
 Kava:
 
-3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Alustame ülesandest *F*. *10b*: Jätkame *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Alustame ülesandest *F*. Jõudsime *A4*-lehelt osa ülesandeid lahendatud. *10b*: Jätkame *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
 
-4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10b*: selgitasin SI.
+
+### 2023-10-02
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Jätkame *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10b*: Alustame prantsuskeelsete ülesannete lahendamisega.
 
 5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
 
@@ -808,14 +848,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-09-29
-
-Ühikute teisendamine.
-
-### 2023-10-2
-
-Suurusjärk: kiire hindamine.
 
 ### 2023-10-6
 

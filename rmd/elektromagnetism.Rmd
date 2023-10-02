@@ -331,13 +331,10 @@ Eesmärgina õpilane oskab
 4. kasutada probleeme lahendades
 Coulomb’i seadust (21.5),
 
-Õppesisu: Elektrivool (25.2). Coulomb’i seadus (21.5).
+Õppesisu: Coulomb’i seadus (21.5).
 Punktlaeng (21.5).
 
 Põhimõisted:
-
-voolutugevus (25.2)
-: igasugune laenguvool[@physics, lk 720]
 
 punktlaeng (21.5)
 : laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
@@ -351,15 +348,35 @@ include_external_graphics("rmd/21-4-10b.jpg")                                # 2
                                                                                  # 3
     ```
 
-4. Elektriline aku [@physics, lk 717-720].
-
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the].
-
 Iseseisev harjutamine järgneva kontaktsessiooni alguseni: Lugeda üle kontaktsessioonis käsitletud teemad! Lahendada @physics, lk 636-637'st ülesanded *1*, *3*, *5*, *7*, *9*, *11*, *13*, *15*, *17*, *19* ja *21*!
 
 \twocolumn
 
 ### 2023-10-2
+
+Eesmärgina õpilane oskab
+
+4. kasutada probleeme lahendades
+Coulomb’i seadust (21.5),
+
+Õppesisu: Elektrivool (25.2). Coulomb’i seadus (21.5).
+Punktlaeng (21.5).
+
+Põhimõisted:
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+Kava:
+
+3.  Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: Jätkame teisel lehel olevate ülesannete lahendamist. *11b*: Alustame ülesannetega lehtedel.
+
+4. Elektriline aku [@physics, lk 717-720].
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the].
 
 ### 2023-10-6
 
@@ -524,5 +541,69 @@ print_table(
 )
 
 ```
+
+## Testid
+
+### Staatilisest elektrist Coulomb' seaduseni
+
+```{r}
+from_statical_electricity_to_coulomb_explanations <- c(
+  "Coulomb' seadus",
+  "elektrilaeng",
+  "elementaarlaeng",
+  "punktlaeng",
+  "staatiline elekter",
+  "laenguliigid",
+  "elektrilaengu jäävuse seadus",
+  "laengu jaotumine polaarses molekulis",
+  "elektrijuht",
+  "elektri isolaator",
+  "pooljuht",
+  "kulon",
+  "kvantiseerimine",
+  "pöördruudu seadus",
+  "vaakumi läbilaskvus",
+  "elektrostaatiline jõud",
+  "Coulomb' jõud",
+  "elektrostaatika",
+  "superpositsiooni põhimõte",
+  "Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest, kas need kehad on laetud eri- või õhenimeliselt? Tee joonis, kus on näidatud laengute jaotus."
+)
+
+from_statical_electricity_to_coulomb_derivation <- c(
+  "punktlaengu suurus Coulomb' seaduses",
+  "punktlaengutevaheline kaugus Coulomb' seaduses",
+  "elementaarlaengute arv ühes punktlaengus Coulomb' seaduses",
+  "punktlaengu suurus Coulomb' seaduses elementaarlaengute kaudu",
+  "punktlaengutevaheline kaugus Coulomb' seaduses elementaarlaengute kaudu",
+  "prootoni ja elektroni laengu suhe",
+  "prootoni ja elektroni massi suhe",
+  "gravitatsioonilise ja kulonilise jõu suhe",
+  "kulonilise ja gravitatsioonilise jõu suhe",
+  "elektroni ja prootoni laengu suhe",
+  "elektroni ja prootoni massi suhe",
+  "ülemaailmse gravitatsioonikonstandi ja Coulomb' seaduse *k* suhe",
+  "kahe laetud keha vahelise gravitatsioonijõu avaldamine Coulomb' seaduse kaudu nende kehade laengutest"
+)
+
+from_statical_electricity_to_coulomb_calculation_1 <- c(
+    "Keedusoolakristallis on naatriumiooni ja klooriooni vahelin ekaugus \\qty{2,84e-10}{\\m}. Kui suure jõuga mõjutavad need ioonid teineteist?",
+    "Kaks pilve, mille laengud on vastavalt \\qty{10}{\\Coulomb} ja \\qty{-20}{\\Coulomb}, paiknevad teineteisest keskmiselt \\qty{20}{\\kilo\\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?"
+)
+
+from_statical_electricity_to_coulomb_calculation_2 <- c(
+  "Kahe teineteisest \\qty{20}{\\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \\qty{18}{\\milli\\Newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \\qty{60}{\\cm} kaugusele?",
+  "Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \\qty{0,1}{\\m} kaugusel paiknevat laengut \\qty{0,1}{\\micro\\Coulomb} või \\qty{0,2}{\\m} kaugusel paiknevat laengut \\qty{0,3}{\\micro\\Coulomb}?",
+  "Kaks ühesugust metallkuuli, mille laengud on \\qty{-60}{\\nano\\Coulomb} ja \\qty{180}{\\nano\\Coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \\qty{20}{\\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?",
+  "Kaks positiivset punktlaengut mõjutavad teineteist õhus \\qty{10}{\\cm} kauguselt jõuga \\qty{2,5e-3}{\\Newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?",
+  "Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?"
+)
+
+from_statical_electricity_to_coulomb_calculation_3 <- c(
+  "Punktlaengud \\qty{0,2}{\\micro\\Coulomb} ja \\qty{0,8}{\\micro\\Coulomb} paiknevad teineteisest \\qty{12}{\\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?"
+)
+
+```
+
 
 \twocolumn

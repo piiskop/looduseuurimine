@@ -481,7 +481,14 @@ Näita, et kitsas torus, mis asetatakse vedelikku tihedusega $\rho$ ja pindpinev
 
 Kava:
 
-2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: alustame algusest. *12b*: alustame ülesandest *A*. 
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Õpilased sportisid, mina passisin. *12b*: alustame ülesandest *A*. Jõudsin valemini 13-6b.
+
+### 2023-10-2
+
+Kava:
+
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: alustame algusest. *12b*: alustame näitest *13-3*.
+
 3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
 
 4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372].
@@ -494,17 +501,9 @@ Kava:
 
 8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378].
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Vastavalt läbitud teemadele lahendada ülesanded @physics, lk 392-396'st:
-
-2-5: 7, 9, 11, 13, 15, 17, 19, 21, 23, 25,
-
-8: 27, 29, 31, 33, 35, 37, 39, 41, 43.
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @physics, lk 392'st ülesanded *1*, *3*, ja *5*!
 
 \twocolumn
-
-### 2023-10-2
-
-Voolavate ainete teadmiste ja oskuste kaardistamine.
 
 ### 2023-10-9
 
