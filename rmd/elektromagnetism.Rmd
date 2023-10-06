@@ -372,15 +372,68 @@ punktlaeng (21.5)
 
 Kava:
 
-3.  Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: Jätkame teisel lehel olevate ülesannete lahendamist. *11b*: Alustame ülesannetega lehtedel.
+3.  Coulomb'i seadus[@physics, lk 615-618; @physics_coulomb; @staticelectricitypdf, lk 13-14; @coulombi]. *11a*: Jätkasime teisel lehel olevate ülesannete lahendamist. Lahendati lehtede pealt lõpuni. Näitasin ka ülesande 18 arutluskäiku.
+*11b*: Alustasime ülesannetega lehtedel. Jõuti teise lehtedel ülesannete kogumiga esimesele leheküljele.
+
+### 2023-10-6
+
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+4. kasutab probleeme lahendades
+Coulomb’i seadust (21.5)
+
+Õppesisu: 
+Elektrilaeng (21.2). Elementaarlaeng (21.5). Laengu jäävuse seadus (21.1). Coulomb’i seadus (21.5).
+Punktlaeng (21.5).
+
+Põhimõisted:
+
+elektrilaeng (21.2)
+: füüsikaline suurus, mis iseloomustab, kui tugevasti osaleb laetud keha elektromagnetilises vastastikmõjus[@ebook]
+
+elementaarlaeng (21.5)
+: väikseim looduses täheldatud laeng[@physics, lk 614]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+Kava: test.
+
+### 2023-10-9
+
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+4. kasutab probleeme lahendades
+Coulomb’i seadust (21.5)
+
+Õppesisu: Elektrilaeng (21.2). Elementaarlaeng (21.5). Laengu jäävuse seadus (21.1). Coulomb’i seadus (21.5).
+Punktlaeng (21.5). Elektrivool (25.2).
+
+Põhimõisted:
+
+elektrilaeng (21.2)
+: füüsikaline suurus, mis iseloomustab, kui tugevasti osaleb laetud keha elektromagnetilises vastastikmõjus[@ebook]
+
+elementaarlaeng (21.5)
+: väikseim looduses täheldatud laeng[@physics, lk 614]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+Kava:
+
+1. Testi tagasiside.
 
 4. Elektriline aku [@physics, lk 717-720].
 
 5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the].
-
-### 2023-10-6
-
-### 2023-10-9
 
 ### 2023-10-13
 
@@ -482,7 +535,7 @@ electroscope <- c(
   0,
   1, # Teele Tuul
   0,
-  0
+  1 # Andreas Volman
 )
 
 data_frame_of_protocols <- data.frame(
@@ -546,7 +599,437 @@ print_table(
 
 ### Staatilisest elektrist Coulomb' seaduseni
 
-```{r}
+#### Mõisted
+
+1.1. Coulomb' seadus
+  
+1.2.  elektrilaeng
+
+1.3.  elementaarlaeng
+
+1.4.  punktlaeng
+
+1.5.  staatiline elekter
+
+1.6.  laenguliigid
+
+1.7.  elektrilaengu jäävuse seadus
+
+1.8.  laengu jaotumine polaarses molekulis
+
+1.9.  elektrijuht
+
+1.10.  elektri isolaator
+
+1.11.  pooljuht
+
+1.12.  kulon
+
+1.13.  kvantiseerimine
+
+1.14.  pöördruudu seadus
+
+1.15.  vaakumi läbilaskvus
+
+1.16.  elektrostaatiline jõud
+
+1.17.  Coulomb' jõud
+
+1.18.  elektrostaatika
+
+1.19.  superpositsiooni põhimõte
+
+1.20.  Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest, kas need kehad on laetud eri- või ühenimeliselt? Tee joonis, kus on näidatud laengute jaotus.
+
+1.21.  Elektrostaatikat saime pulga sisse seda hõõrudes elektrostaatikat võimelise ülekandega riiet.
+
+1.1. Coulomb' seadus
+  
+1.2.  elektrilaeng
+
+1.3.  elementaarlaeng
+
+1.4.  punktlaeng
+
+1.5.  staatiline elekter
+
+1.6.  laenguliigid
+
+1.7.  elektrilaengu jäävuse seadus
+
+1.8.  laengu jaotumine polaarses molekulis
+
+1.9.  elektrijuht
+
+1.10.  elektri isolaator
+
+1.11.  pooljuht
+
+1.12.  kulon
+
+1.13.  kvantiseerimine
+
+1.14.  pöördruudu seadus
+
+1.15.  vaakumi läbilaskvus
+
+1.16.  elektrostaatiline jõud
+
+1.17.  Coulomb' jõud
+
+1.18.  elektrostaatika
+
+1.19.  superpositsiooni põhimõte
+
+1.20.  Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest, kas need kehad on laetud eri- või ühenimeliselt? Tee joonis, kus on näidatud laengute jaotus.
+
+1.21.  Elektrostaatikat saime pulga sisse seda hõõrudes elektrostaatikat võimelise ülekandega riiet.
+  
+#### Tuletamine
+
+2.1.  punktlaengu suurus Coulomb' seaduses
+
+2.2.  punktlaengutevaheline kaugus Coulomb' seaduses
+
+2.3.  elementaarlaengute arv ühes punktlaengus Coulomb' seaduses
+
+2.4.  punktlaengu suurus Coulomb' seaduses elementaarlaengute kaudu
+
+2.5.  punktlaengutevaheline kaugus Coulomb' seaduses elementaarlaengute kaudu
+
+2.6.  prootoni ja elektroni laengu suhe
+
+2.7.  prootoni ja elektroni massi suhe
+
+2.8.  gravitatsioonilise ja kulonilise jõu suhe
+
+2.9.  kulonilise ja gravitatsioonilise jõu suhe
+
+2.10.  elektroni ja prootoni laengu suhe
+
+2.11.  elektroni ja prootoni massi suhe
+
+2.12.  ülemaailmse gravitatsioonikonstandi ja Coulomb' seaduse *k* suhe
+
+2.13.  kahe laetud keha vahelise gravitatsioonijõu avaldamine Coulomb' seaduse kaudu nende kehade laengutest
+
+2.1.  punktlaengu suurus Coulomb' seaduses
+
+2.2.  punktlaengutevaheline kaugus Coulomb' seaduses
+
+2.3.  elementaarlaengute arv ühes punktlaengus Coulomb' seaduses
+
+2.4.  punktlaengu suurus Coulomb' seaduses elementaarlaengute kaudu
+
+2.5.  punktlaengutevaheline kaugus Coulomb' seaduses elementaarlaengute kaudu
+
+2.6.  prootoni ja elektroni laengu suhe
+
+2.7.  prootoni ja elektroni massi suhe
+
+2.8.  gravitatsioonilise ja kulonilise jõu suhe
+
+2.9.  kulonilise ja gravitatsioonilise jõu suhe
+
+2.10.  elektroni ja prootoni laengu suhe
+
+2.11.  elektroni ja prootoni massi suhe
+
+2.12.  ülemaailmse gravitatsioonikonstandi ja Coulomb' seaduse *k* suhe
+
+2.13.  kahe laetud keha vahelise gravitatsioonijõu avaldamine Coulomb' seaduse kaudu nende kehade laengutest
+
+2.1.  punktlaengu suurus Coulomb' seaduses
+
+2.2.  punktlaengutevaheline kaugus Coulomb' seaduses
+
+2.3.  elementaarlaengute arv ühes punktlaengus Coulomb' seaduses
+
+2.4.  punktlaengu suurus Coulomb' seaduses elementaarlaengute kaudu
+
+2.5.  punktlaengutevaheline kaugus Coulomb' seaduses elementaarlaengute kaudu
+
+2.6.  prootoni ja elektroni laengu suhe
+
+2.7.  prootoni ja elektroni massi suhe
+
+2.8.  gravitatsioonilise ja kulonilise jõu suhe
+
+2.9.  kulonilise ja gravitatsioonilise jõu suhe
+
+2.10.  elektroni ja prootoni laengu suhe
+
+2.11.  elektroni ja prootoni massi suhe
+
+2.12.  ülemaailmse gravitatsioonikonstandi ja Coulomb' seaduse *k* suhe
+
+2.13.  kahe laetud keha vahelise gravitatsioonijõu avaldamine Coulomb' seaduse kaudu nende kehade laengutest
+
+#### Lihtsaimad arvutusülesanded
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+\newpage
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+\newpage
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+\newpage
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+
+3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+
+#### Keskmise keerukusega arvutusülesanded
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+\newpage
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+\newpage
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+\newpage
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+\newpage
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
+
+4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
+
+4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
+
+4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
+
+4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
+
+#### Väljakutsuvaimad arvutusülesanded
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+\newpage
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+\newpage
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
+
+5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
+
+5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
+
+5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
+
+5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
+
+```{r label = "test-from-statical-electricity-to-coulomb-law", echo=FALSE}
 from_statical_electricity_to_coulomb_explanations <- c(
   "Coulomb' seadus",
   "elektrilaeng",
@@ -567,7 +1050,8 @@ from_statical_electricity_to_coulomb_explanations <- c(
   "Coulomb' jõud",
   "elektrostaatika",
   "superpositsiooni põhimõte",
-  "Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest, kas need kehad on laetud eri- või õhenimeliselt? Tee joonis, kus on näidatud laengute jaotus."
+  "Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest, kas need kehad on laetud eri- või ühenimeliselt? Tee joonis, kus on näidatud laengute jaotus.",
+  "Elektrostaatikat saime pulga sisse seda hõõrudes elektrostaatikat võimelise ülekandega riiet"
 )
 
 from_statical_electricity_to_coulomb_derivation <- c(
@@ -588,22 +1072,47 @@ from_statical_electricity_to_coulomb_derivation <- c(
 
 from_statical_electricity_to_coulomb_calculation_1 <- c(
     "Keedusoolakristallis on naatriumiooni ja klooriooni vahelin ekaugus \\qty{2,84e-10}{\\m}. Kui suure jõuga mõjutavad need ioonid teineteist?",
-    "Kaks pilve, mille laengud on vastavalt \\qty{10}{\\Coulomb} ja \\qty{-20}{\\Coulomb}, paiknevad teineteisest keskmiselt \\qty{20}{\\kilo\\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?"
+    "Kaks pilve, mille laengud on vastavalt \\qty{10}{\\coulomb} ja \\qty{-20}{\\coulomb}, paiknevad teineteisest keskmiselt \\qty{20}{\\kilo\\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?"
 )
 
 from_statical_electricity_to_coulomb_calculation_2 <- c(
-  "Kahe teineteisest \\qty{20}{\\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \\qty{18}{\\milli\\Newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \\qty{60}{\\cm} kaugusele?",
-  "Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \\qty{0,1}{\\m} kaugusel paiknevat laengut \\qty{0,1}{\\micro\\Coulomb} või \\qty{0,2}{\\m} kaugusel paiknevat laengut \\qty{0,3}{\\micro\\Coulomb}?",
-  "Kaks ühesugust metallkuuli, mille laengud on \\qty{-60}{\\nano\\Coulomb} ja \\qty{180}{\\nano\\Coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \\qty{20}{\\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?",
-  "Kaks positiivset punktlaengut mõjutavad teineteist õhus \\qty{10}{\\cm} kauguselt jõuga \\qty{2,5e-3}{\\Newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?",
+  "Kahe teineteisest \\qty{20}{\\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \\qty{18}{\\milli\\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \\qty{60}{\\cm} kaugusele?",
+  "Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \\qty{0,1}{\\m} kaugusel paiknevat laengut \\qty{0,1}{\\micro\\coulomb} või \\qty{0,2}{\\m} kaugusel paiknevat laengut \\qty{0,3}{\\micro\\coulomb}?",
+  "Kaks ühesugust metallkuuli, mille laengud on \\qty{-60}{\\nano\\coulomb} ja \\qty{180}{\\nano\\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \\qty{20}{\\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?",
+  "Kaks positiivset punktlaengut mõjutavad teineteist õhus \\qty{10}{\\cm} kauguselt jõuga \\qty{2,5e-3}{\\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?",
   "Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?"
 )
 
 from_statical_electricity_to_coulomb_calculation_3 <- c(
-  "Punktlaengud \\qty{0,2}{\\micro\\Coulomb} ja \\qty{0,8}{\\micro\\Coulomb} paiknevad teineteisest \\qty{12}{\\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?"
+  "Punktlaengud \\qty{0,2}{\\micro\\coulomb} ja \\qty{0,8}{\\micro\\coulomb} paiknevad teineteisest \\qty{12}{\\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?",
+  "Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \\qty{2e-10}{\\newton}?",
+  "Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \\qty{4}{\\nano\\coulomb} ja \\qty{3}{\\nano\\coulomb}? Piiskadevaheline kaugus on \\qty{3}{\\milli\\meter}[@list_of_dielectric_constants_enpdf, lk 6].",
+  "Kaks punktlaengut paiknevad petrooleumis teineteisest \\qty{12}{\\centi\\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis?",
+  "Kaks laetud kuulikest mõjutavad teineteist \\qty{5}{\\centi\\meter} kauguselt õlis sama suure jõuga nagu \\qty{11,2}{\\centi\\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?"
 )
 
 ```
 
+#### Struktuur
 
+0. Olen... ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev...
+
+1. Kirjutan ülesande tunnuse. Selgitan mõiste. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
+
+2. Kirjutan ülesande tunnuse. Avaldan ja / või arvutan selle, mis on sedelil kirjas. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+  
 \twocolumn

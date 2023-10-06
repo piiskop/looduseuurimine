@@ -135,7 +135,7 @@ kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-
 
 ### Põhimõisted
 
-füüsikaline suurus, skalaarne ja vektoriaalne suurus (3-1), pikkus (2-1), liikumisolek (2: 1-4), aeg (2-2), kulgliikumine (2, 3),
+füüsikaline suurus, skalaarne ja vektoriaalne suurus (2-2, 3-1), pikkus (2-1), liikumisolek (2: 1-4), aeg (2-2), kulgliikumine (2, 3),
 punktmass, taustsüsteem (2-1), kinemaatika (2, 3), teepikkus (2-1), nihe (2-1), keskmine kiirus (2-2), hetkkiirus (2-3), kiirendus (2: 4, 5, 8), vaba
 langemine (2-7)
 
@@ -531,29 +531,104 @@ mõõtemääramatus
 
 Kava:
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12].
-
-7. Toores hinnang[@physics, lk 11-13].
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Tutvuti mõõtmisvahenditega ja raporteeriti kuni seitsmenda punktini. Alisa: analoogtermomeeter, Demid ja Grigori: vana multimeeter, Daniil ja Vladimir: nurgik, Stanislavs: mõõtkavadega joonlaud, Vladislav: pulsi- ja oksümeeter, Polina ja Mihhail: kompass. Ülejäänud lahkusid.
 
 ### 2023-10-3
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+Eesmärgina õpilane
 
-2, 6: 1, 3, 5, 7, 9, 11, 13,
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
 
-7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Jätkasime mõõtmistega ja nende tulemuste raporteerimisega. Alisa jõudis digitermomeetriga teha veidi A-tabelit, Mihhail ja Polina tutvuda valgustugevuse mõõtjaga. Donat uuris nihikut.
+
+### 2023-10-5
+
+Õppesisu: Mõõtetulemuste analüüs.
+
+Kava:
+
+7. Toores hinnang[@physics, lk 11-13].
+
+### 2023-10-5
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+1. Võrdlusraamid ja nihe[@physics, lk 20-22].
+
+2. Keskmine kiirus[@physics, lk 22-24].
+
+3. Hetkekiirus[@physics, lk 24-26].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17-19'st järgmised ülesanded: *1*, *3*, *5*, *7*, *9*, *11*, *13*, *35*, *37*, *39*, *41*, *43*, *45*, *47*, *49*, *51*, *53*, *59*, *61*, *63*, *65*, *67*, *69*, *71*, *73*, *75*, *77* ja *79*.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
-### 2023-10-5
-
-### 2023-10-5
+### 2023-10-10
 
 ### 2023-10-10
 
 Füüsika meetodi teadmiste ja oskuste kontroll.
-
-### 2023-11-10
 
 ### 2023-11-13
 
@@ -826,6 +901,8 @@ Kava:
 
 4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10b*: selgitasin SI.
 
+\onecolumn
+
 ### 2023-10-02
 
 Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
@@ -862,15 +939,55 @@ mõõtühikute süsteem
 
 Kava:
 
-3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Jätkame *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Jätkasime *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
 
-4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10b*: Alustame prantsuskeelsete ülesannete lahendamisega.
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10a*: Jõudsin seletada SI. *10b*: Alustasime prantsuskeelsete ülesannete lahendamisega. Prantsuskeelsete ülesannete lehelt jõuti eelviimase plokini.
+
+### 2023-10-6
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10a*: Alustame prantsuskeelsete SI ülesannete lahendamist. *10b*: Jätkame prantsuskeelsete ülesannete lahendamist.
 
 5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
 
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
 
 7. Toores hinnang[@physics, lk 11-13].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17'st järgmised ülesanded: *15*, *17*, *19*, *21*, *23*, *25*, *27*, *29*, *31* ja *33*! Lahendused on võrreldavad[@looduseuurimine]. Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
 
@@ -886,9 +1003,7 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
-### 2023-10-6
-
-Mõõtmed ja mõõtmete analüüs.
+\twocolumn
 
 ### 2023-10-9
 

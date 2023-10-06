@@ -310,7 +310,7 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni:
 
 Kava:
 
-3. Jätkame arutelu koos analüütikaga voolavate ainete rõhu teemas[@physics, lk 370]. Jätkame näitest *13-5*.
+3. Jätkasime arutelu koos analüütikaga voolavate ainete rõhu teemas[@physics, lk 370]. Jätkasime näitest *13-5*.
 
 4. Arutelu atmosfäärilise ja manomeetrilise rõhu üle koos kontseptuaalse näitega[@physics, lk 371].
 
@@ -318,19 +318,36 @@ Kava:
 
 6. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267].
 
+9. Kõrrega joomise demonstratsioon.
+
+Selgitasin elavhõbedasamba näiteni. Lasin neil arvutada, kui kõrge on normaalrõhul elavhõbedasammas. Nad ei jõudnud välja arvutada.
+
+### 2023-9-28
+
+Kava:
+
+10. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4].
+
+Jõudsin püstitada ülesande 13-9. Jätsin iseseisvaks lahendamiseks.
+
+### 2023-10-5
+
+Kava:
+
 7. Elavhõbedaga õhurõhu mõõtmise video kogemine[@elavhbe].
 
 8. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
-9. Kõrrega joomise demonstratsioon.
+10. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. Jätkame ülesandest *13-9*, mis jäi õpilastele iseseisvaks lahendamiseks.
 
-10. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4].
+### 2023-10-5
 
-### 2023-9-28
+Kava:
 
-### 2023-10-16
+1: Liikuvad vedelikud; voolukiirus
+ja järjepidevuse võrrand[@physics, lk 378-380].
 
-### 2023-10-30
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @physics, lk 392-393 ülesanded *7*, *9*, *11*, *13*, *15*, *17*, *19*, *21*, *23* ja *25*!
 
 ### 2023-11-6
 

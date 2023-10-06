@@ -71,7 +71,7 @@ Võnkumiste spekter (40-4). Doppleri efekt helilainete korral (16: 7-9). Helitug
     12: 5 (elastse deformatsiooni energia mõistmiseks ainult mehaanika kursuses)
     14: 3 (ainult mehaanika kursuses)
     15: 3 (ainult mehaanika kursuses)
-    16* (samafoonid peale 16: 3, intensiivsus ja interferents peale 16: 6, konsonants ja dissonants kõige lõpus)
+    16* (heli intensiivsus ja samafoonid peale 16: 3, intensiivsus ja interferents peale 16: 6, konsonants ja dissonants kõige lõpus)
     40: 4
 
 3. **Ebatavalised faasid ja faasisiirded.** Gaaside veeldamine. Madalate temperatuuride saamine.
@@ -231,15 +231,15 @@ Näidislahendus on tahvlil[@looduseuurimine].
 
 **Aero- ja hüdrodünaamika.**
 
-Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*'ga jätkame uuesti diferentsiaalvõrrandist, milles asume kohe asendusvõttega integreerima.
+Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*'ga jätkasime uuesti diferentsiaalvõrrandist, milles asusime kohe asendusvõttega integreerima. Jõudsime lõppu.
 
 **Elastsuslained**
 
 1. Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463].
 
-2. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12b*'ga alustame.
+2. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12b*'ga alustasime. Jõudsime näiteni *16-5*, mida ei käsitlenud.
 
-Iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486 lahendada ülesanded *7*, *8* ja *9*! Maakeeli on nende ülesannete püstitused sellised:
+*12b* iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486 lahendada ülesanded *7*, *8* ja *9*! Maakeeli on nende ülesannete püstitused sellised:
 
 *7*: Helilaine rõhuamplituud õhus
 ($\rho = \qty{1,29}{\kg\per\cubic\m}$) temperatuuril \qty{0}{\degreeCelsius} on \qty{3,0e-3}{\Pa}. Mis on
@@ -261,11 +261,46 @@ umbes \qty{3e-10}{\m}? Oletame helilaine sageduseks
 
 ### 2023-10-6
 
-Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Kõrv ja kuulmine*[@labor1pdf]. Näidiseks on minu protokoll[@katrin_2022_akustika, lk 11-16].
+**Elastsuslained**
+
+1. Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463]. *12a*'ga alustame.
+
+2. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12b*'ga näitest *16-5*.
+
+3. Heli allikad:
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50].
+
+*12a*: Iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486'st lahendada ülesanded *7*, *8* ja *9*! Maakeeli on nende ülesannete püstitused sellised:
+
+*7*: Helilaine rõhuamplituud õhus
+($\rho = \qty{1,29}{\kg\per\cubic\m}$) temperatuuril \qty{0}{\degreeCelsius} on \qty{3,0e-3}{\Pa}. Mis on
+nihke amplituud, kui sagedus on
+
+(a) \qty{250}{\Hz} ja
+
+(b) \qty{25}{\kHz}?
+
+*8*: Milline peab olema rõhu amplituud helilaines
+õhus (\qty{0}{\degreeCelsius}), kui õhumolekulid läbivad maksimaalselt nihke, mis on võrdne hapnikumolekuli läbimõõduga,
+umbes \qty{3e-10}{\m}? Oletame helilaine sageduseks
+
+(a) \qty{75}{\Hz} ja
+
+(b) \qty{7,5}{\kHz}.
+
+*9*: Kirjutage avaldis, mis kirjeldab rõhu muutumist funktsioonina *x*'st ja *t*'st ülesandes *8* kirjeldatud lainete puhul.
+
+Lahendusi saab võrrelda[@looduseuurimine].
+
+*12b* Iseseisvaks lahendamiseks enne järgmist kontaktsessiooni:  @physics, lk 486-487'st lahendada ülesanded *11*, *13*, *15*, *17*, *19*, *21*, *23*, *25* ja *27*!
 
 ### 2023-10-13
 
+Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Heli intensiivsuse määramine*[@heli]. Ülikooli asemel tuleb kasutada meie keskkooli. Näidiseks on minu protokoll[@katrin_2022_akustika].
+
 ### 2023-10-20
+
+Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Kõrv ja kuulmine*[@labor1pdf]. Näidiseks on minu protokoll[@katrin_2022_akustika, lk 11-16].
 
 ### 2023-11-3
 
