@@ -959,12 +959,9 @@ Eesmärgid:
 
 3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
 
-7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
-mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
-
 Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
 ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
-Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+Mõõteseadus.
 
 Põhimõisted:
 
@@ -979,7 +976,47 @@ mõõtühikute süsteem
 
 Kava:
 
-4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10a*: Alustame prantsuskeelsete SI ülesannete lahendamist. *10b*: Jätkame prantsuskeelsete ülesannete lahendamist.
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10a*: Alustasime prantsuskeelsete SI ülesannete lahendamist. Prantsuskeelsete SI ülesannete lehelt jõudsime kõige kaugemale kolmanda plokini.
+*10b*: Jätkasime prantsuskeelsete ülesannete lahendamist. Prantsuskeelselt ühikute teisendamise lehelt kõik lahendatud 1.1.5.
+
+\twocolumn
+
+### 2023-10-9
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkame *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist.
+*10b*: Alustame *Physics 151* ülesannete lahendamist[@physics_151].
 
 5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
 
@@ -1002,10 +1039,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-\twocolumn
-
-### 2023-10-9
 
 ### 2023-10-13
 
@@ -1060,3 +1093,216 @@ Liikumise kirjeldamise teadmiste ja oskuste kaardistamine.
 Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
 
 ### 2024-1-22
+
+\onecolumn
+
+## Testid
+
+### Füüsika meetod
+
+#### Mõisted
+
+Tabelis \@ref(tab:test-physics-method-explanations) leheküljel `r render_pageref(reference = "tab:test-physics-method-explanations")` on mõisted, mis vajavad selgitust.
+
+```{r label = "test-physics-method-explanations", echo=FALSE}
+physics_method_explanations <- c(
+  "loodus",
+  "loodusteadus",
+  "füüsika",
+  "mõõtevahend",
+  "taatlemine",
+  "nähtavushorisont",
+  "makromaailm",
+  "mikromaailm",
+  "megamaailm",
+  "vaatlus",
+  "hüpotees",
+  "eksperiment",
+  "mõõtmine",
+  "mõõtühik",
+  "mõõtühikute süsteem",
+  "mõõtemääramatus",
+  "mõõtesuurus",
+  "mõõdetava suuruse väärtus",
+  "mõõtetulemus",
+  "maailm",
+  "vaatleja",
+  "füüsika koht muude loodusteaduste seas",
+  "füüsika uurimisala",
+  "loodusteaduslik meetod",
+  "eksperimenditulemustest mudelini",
+  "\\textit{Mõõteseadus}",
+  "rahvusvaheline mõõtühikute süsteem",
+  "SI põhisuurused",
+  "SI mõõtühikud",
+  "standardhälve",
+  "põhjuslik seos",
+  "füüsika üldprintsiibid",
+  "nähtavushorisont",
+  "mudeli järelduste kontroll
+ning mudeli areng",
+  "mõõtühikud
+ja vastavate kokkulepete areng",
+  "mõõtemääramatuse hindamine",
+  "füüsika tunnetuslik ja ennustuslik väärtus",
+  "füüsikaga seotud ohud"
+)
+
+number_of_elements_in_physics_method_explanations <- length(physics_method_explanations)
+indices_for_physics_method_explanations <- seq(1:number_of_elements_in_physics_method_explanations)
+indices_for_physics_method_explanations_with_own_index <- paste("1", indices_for_physics_method_explanations, sep = ".")
+data_frame_of_physics_method_explanations <- data.frame(
+  indices_for_physics_method_explanations_with_own_index,
+  physics_method_explanations
+)
+colnames(data_frame_of_physics_method_explanations) <- c(
+  "Tunnus",
+  "Teema"
+)
+print_table(
+  table = data_frame_of_physics_method_explanations,
+  caption = "Füüsika meetodi teadmiste-oskuste kontrolli esimese ülesande sisu."
+)
+
+```
+
+#### Dimensionaalanalüüs
+
+Tabelis \@ref(tab:test-physics-method-dimensional-analysis) leheküljel `r render_pageref(reference = "tab:test-physics-method-dimensional-analysis")` on ühikud, mis tuleb teisendada dimensioonideks.
+
+```{r label = "test-physics-method-dimensional-analysis", echo=FALSE}
+physics_method_dimensional_analysis <- c(
+	"$\\unit{\\radian} = \\frac{\\unit{\\m}}{\\unit{\\m}}$",
+	"$\\unit{\\steradian} = \\frac{\\unit{\\m\\squared}}{\\unit{\\m\\squared}}$",
+	"$\\unit{\\hertz} = \\frac{1}{\\unit{\\s}}$",
+	"$\\unit{\\newton} = \\frac{\\unit{\\kilo\\g\\m}}{\\unit{\\s}}$",
+	"$\\unit{\\pascal} = \\frac{\\unit{\\kilo\\g}}{\\unit{\\m\\s\\squared}}$",
+	"$\\unit{\\joule} = \\frac{\\unit{\\kilo\\g\\m\\squared}}{\\unit{\\s\\squared}}$",
+	"$\\unit{\\watt} = \\frac{\\unit{\\kilo\\g\\m\\squared}}{\\unit{\\s\\cubed}}$",
+	"$\\unit{\\coulomb} = \\unit{\\ampere\\s}$",
+	"$\\unit{\\volt} = \\frac{\\unit{\\kilo\\g\\m\\squared}}{\\unit{\\ampere\\s\\cubed}}$",
+	"$\\unit{\\farad} = \\frac{\\unit{\\ampere\\squared\\s\\tothe{4}}}{\\unit{\\kilogram\\m\\squared}}$",
+	"$\\unit{\\ohm} = \\frac{\\unit{\\kilogram\\m\\squared}}{\\unit{\\ampere\\squared\\s\\cubed}}$",
+	"$\\unit{\\siemens} = \\frac{\\unit{\\ampere\\squared\\s\\cubed}}{\\unit{\\kilogram\\m\\squared}}$",
+	"$\\unit{\\weber} = \\frac{\\unit{\\kilogram\\m\\squared}}{\\unit{\\ampere\\s\\squared}}$",
+	"$\\unit{\\tesla} = \\frac{\\unit{\\kilogram}}{\\unit{\\ampere\\s\\squared}}$",
+	"$\\unit{\\henry} = \\frac{\\unit{\\kilogram\\m\\squared}}{\\unit{\\ampere\\squared\\s\\squared}}$",
+	"$\\unit{\\degreeCelsius} = \\unit{\\kelvin}$",
+	"$\\unit{\\lumen} = \\unit{\\candela\\steradian}$",
+	"$\\unit{\\lux} = \\frac{\\unit{\\candela\\steradian}}{\\unit{\\m\\squared}}$",
+	"$\\unit{\\becquerel} = \\frac{1}{\\unit{\\s}}$",
+	"$\\unit{\\gray} = \\frac{\\unit{\\m\\squared}}{\\unit{\\s\\squared}}$",
+	"$\\unit{\\sievert} = \\frac{\\unit{\\m\\squared}}{\\unit{\\s\\squared}}$",
+	"$\\unit{\\katal} = \\frac{\\unit{\\mole}}{\\unit{\\s}}$",
+	"$A = \\unit{\\m\\squared}$",
+	"$V = \\unit{\\m\\cubed}$",
+	"$v = \\frac{\\unit{\\m}}{\\unit{\\s}}$",
+	"$a = \\frac{\\unit{\\m}}{\\unit{\\s\\squared}}$",
+	"$\\sigma = \\frac{1}{\\unit{\\m}}$",
+	"$\\rho = \\frac{\\unit{\\kilogram}}{\\unit{\\m\\cubed}}$",
+	"$\\rho_\\mathrm{A} = \\unit{\\kilogram\\per\\m\\squared}$",
+	"$\\nu = \\unit{\\m\\cubed\\per\\kilogram}$",
+	"$j = \\unit{\\ampere\\per\\m\\squared}$",
+	"$H = \\unit{\\ampere\\per\\m}$",
+	"$c = \\unit{\\mole\\per\\m\\cubed}$",
+	"$L_\\mathrm{v} = \\unit{\\candela\\per\\m\\squared}$"
+)
+
+number_of_elements_in_physics_method_dimensional_analysis <- length(physics_method_dimensional_analysis)
+indices_for_physics_method_dimensional_analysis <- seq(1:number_of_elements_in_physics_method_dimensional_analysis)
+indices_for_physics_method_dimensional_analysis_with_own_index <- paste("2", indices_for_physics_method_dimensional_analysis, sep = ".")
+data_frame_of_physics_method_dimensional_analysis <- data.frame(
+  indices_for_physics_method_dimensional_analysis_with_own_index,
+  physics_method_dimensional_analysis
+)
+colnames(data_frame_of_physics_method_dimensional_analysis) <- c(
+  "Tunnus",
+  "Ühik"
+)
+print_table(
+  table = data_frame_of_physics_method_dimensional_analysis,
+  caption = "Füüsika meetodi teadmiste-oskuste kontrolli teise ülesande sisu."
+)
+
+```
+
+#### Keskmise raskusastmega arvutusülesanded
+
+Tabelis \@ref(tab:test-physics-method-analytics-at-intermediate-level) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-at-intermediate-level")` on ülesanded, mis on keskmise raskusastmega.
+
+```{r label = "test-physics-method-analytics-at-intermediate-level", echo=FALSE}
+physics_method_analytics_at_intermediate_level <- c(
+	"Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\centi\\volt}, mõõdeti patarei elektriliste potentsiaalide erinevuseks ehk pingeks \\qty{2,85}{\\volt}. Milline on mõõdetud pinge koos täieliku mõõtemääramatusega SI põhiühikuga? Milline on mõõdetud pinge suhteline mõõtemääramatus? Kas mõõtmise tabavuse või täpsuse kohta saab hinnangu anda? Miks?"
+)
+
+number_of_elements_in_physics_method_analytics_at_intermediate_level <- length(physics_method_analytics_at_intermediate_level)
+indices_for_physics_method_analytics_at_intermediate_level <- seq(1:number_of_elements_in_physics_method_analytics_at_intermediate_level)
+indices_for_physics_method_analytics_at_intermediate_level_with_own_index <- paste("4", indices_for_physics_method_analytics_at_intermediate_level, sep = ".")
+data_frame_of_physics_method_analytics_at_intermediate_level <- data.frame(
+  indices_for_physics_method_analytics_at_intermediate_level_with_own_index,
+  physics_method_analytics_at_intermediate_level
+)
+colnames(data_frame_of_physics_method_analytics_at_intermediate_level) <- c(
+  "Tunnus",
+  "Ülesanne"
+)
+print_table(
+  table = data_frame_of_physics_method_analytics_at_intermediate_level,
+  caption = "Füüsika meetodi teadmiste-oskuste kontrolli neljanda ülesande sisu."
+) %>%
+  column_spec(2, width = "32em") 
+
+```
+
+#### Väljakutsuvad arvutusülesanded
+
+Tabelis \@ref(tab:test-physics-method-analytics-with-challenge) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-with-challenge")` on ülesanded, mis on kõige suurema väljakutsega.
+
+```{r label = "test-physics-method-analytics-with-challenge", echo=FALSE}
+physics_method_analytics_with_challenge <- c(
+	"Jõumoment $L$ on jõu $F$ ja jõuõla pikkuse $x$ korrutis. Jõud on massi $m$ ja kiirenduse $g$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $t$ jagatis. Kiirus on vahemaa $s$ ja ajavahemiku $t$ jagatis. Sihitist kaaluti seitse korda digikaaluga, mille väikseim ühik on \\qty{0,1}{\\kilogram}, ja saadi järgmised tulemused: \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram} ja \\qty{78,8}{\\kilogram}. Jõuõla pikkuseks mõõdeti mõõdulindiga, mille väikseim ühik on \\num{0,0625} in., \\num{13,8125} in. $g = \\qty{9,82}{\\m\\per\\s\\squared}$. Milline on jõumomendi väärtus koos mõõtemääramatusega SI ühikuga? Milline on jõumomendi suhteline mõõtemääramatus? Milline on suhteline viga, kui aktsepteeritavaks väärtuseks on \\qty{109}{\\mega\\g\\m\\squared\\per\\s\\squared}? Kas mõõtmine oli tabav? Kas mõõtmine oli täpne?",
+	"Elektrivälja tugevus $E$ on elektriliste potentsiaalide erinevuse ehk pinge $U$ ja vahemaa $x$ suhe. Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\milli\\volt} ja mille mõõtetäpsuseks on märgitud $\\pm(\\qty{0,8}{\\percent} + \\num{1})$ mõõdeti aku pooluste elektriliste potentsiaalide erinevuseks \\qty{1,260}{\\volt}. Aku nominaalpingeks on märgitud \\qty{1,2}{\\volt}. Mõõdulindiga, mille väikseim ühik on \\qty{1}{\\milli\\m}, mõõdeti aku pikkuseks \\qty{4,3}{\\centi\\m}. Milline on elektrivälja tugevuse väärtus koos mõõtemääramatusega SI ühikuga? Milline on elektrivälja tugevuse suhteline mõõtemääramatus? Milline on mõõtmistulemuse suhteline viga? Kas mõõtmine oli tabav? Kas mõõtetäpsuse kohta saab hinnangu anda? Miks?"
+)
+
+number_of_elements_in_physics_method_analytics_with_challenge <- length(physics_method_analytics_with_challenge)
+indices_for_physics_method_analytics_with_challenge <- seq(1:number_of_elements_in_physics_method_analytics_with_challenge)
+indices_for_physics_method_analytics_with_challenge_with_own_index <- paste("5", indices_for_physics_method_analytics_with_challenge, sep = ".")
+data_frame_of_physics_method_analytics_with_challenge <- data.frame(
+  indices_for_physics_method_analytics_with_challenge_with_own_index,
+  physics_method_analytics_with_challenge
+)
+colnames(data_frame_of_physics_method_analytics_with_challenge) <- c(
+  "Tunnus",
+  "Ülesanne"
+)
+print_table(
+  table = data_frame_of_physics_method_analytics_with_challenge,
+  caption = "Füüsika meetodi teadmiste-oskuste kontrolli viienda ülesande sisu."
+) %>%
+  column_spec(2, width = "32em") 
+
+```
+
+#### Struktuur
+
+0. Olen... ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev...
+
+1. Kirjutan ülesande tunnuse. Selgitan mõiste. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
+
+2. Kirjutan ülesande tunnuse. Avaldan ja / või arvutan selle, mis on sedelil kirjas. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+  
+\twocolumn

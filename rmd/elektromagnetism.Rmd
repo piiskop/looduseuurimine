@@ -1115,4 +1115,324 @@ from_statical_electricity_to_coulomb_calculation_3 <- c(
   
   - lahend täislausega.
   
+#### Tulemused
+
+```{r label = "test-from-statical-electricity-to-coulomb-law-results", echo=FALSE}
+from_statical_electricity_to_coulomb_law_1 <- c(
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, # Maarja-Lii Erm
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0.06, # Sten-Erik Mihkelson
+  0,
+  0,
+  0,
+  0.11, # Karl Reiter
+  0,
+  0,
+  0,
+  0, # Teele Tuul
+  .11, # Toren
+  0.06 # Andreas Volman
+)
+
+from_statical_electricity_to_coulomb_law_2 <- c(
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, # Maarja-Lii Erm
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  .04, # Karl Reiter
+  0,
+  0,
+  0,
+  0, # Teele Tuul
+  0.08, # Toren
+  0.15 # Andreas Volman
+)
+
+from_statical_electricity_to_coulomb_law_3 <- c(
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, # Maarja-Lii Erm
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  .07, # Karl Reiter
+  0,
+  0,
+  0,
+  0, # Teele Tuul
+  0,
+  0.14 # Andreas Volman
+)
+
+from_statical_electricity_to_coulomb_law_4 <- c(
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, # Maarja-Lii Erm
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  .07, # Karl Reiter
+  0,
+  0,
+  0,
+  0, # Teele Tuul
+  0,
+  0 # Andreas Volman
+)
+
+from_statical_electricity_to_coulomb_law_5 <- c(
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, # Maarja-Lii Erm
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0.08, # Sten-Erik Mihkelson
+  0,
+  0,
+  0,
+  .1, # Karl Reiter
+  0,
+  0,
+  0,
+  0, # Teele Tuul
+  0.04, # Toren
+  0.18 # Andreas Volman
+)
+
+from_statical_electricity_to_coulomb_law_summary <- from_statical_electricity_to_coulomb_law_1 + from_statical_electricity_to_coulomb_law_2 + from_statical_electricity_to_coulomb_law_3 + from_statical_electricity_to_coulomb_law_4 + from_statical_electricity_to_coulomb_law_5
+
+#' This function calculates the grade according to the fraction.
+#'
+#' @param fractions the vector of fractions out of a whole
+#' 
+#' @example calculate_grade(fraction=.57)
+#' 
+#' @returns the grades as a vector
+calculate_grade <- function(fractions) {
+  
+  grades <- c()
+  for (index in 1:length(fractions)) {  # 2
+    if (fractions[index] < .9) {
+      if (fractions[index] < .75) {
+        if (fractions[index] < .5) {
+          if (fractions[index] < .2) {
+            grades[index] <- 1
+          } else {
+            grades[index] <- 2
+          }
+        } else {
+          grades[index] <- 3
+        }
+      } else {
+        grades[index] <- 4
+      }
+    } else {
+      grades[index] <- 5
+    }
+  }
+
+  return(grades)
+}
+
+from_statical_electricity_to_coulomb_law_grade <- calculate_grade(from_statical_electricity_to_coulomb_law_summary)
+
+data_frame_of_from_static_electricity_to_coulomb_law <- data.frame(
+  from_statical_electricity_to_coulomb_law_1,
+  from_statical_electricity_to_coulomb_law_2,
+  from_statical_electricity_to_coulomb_law_3,
+  from_statical_electricity_to_coulomb_law_4,
+  from_statical_electricity_to_coulomb_law_5,
+  from_statical_electricity_to_coulomb_law_summary,
+  from_statical_electricity_to_coulomb_law_grade
+)
+
+colnames(data_frame_of_from_static_electricity_to_coulomb_law) <- c(
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "Koond",
+  "Hinne"
+)
+
+rownames(data_frame_of_from_static_electricity_to_coulomb_law) <- c(
+	"1. Allert, Marie",
+	"2. Brinkmann, Sander",
+	"3. Ernits, Enrico",
+	"4. Heinaru, Merili",
+	"5. Kaljuvee, Fredi",
+	"6. Kangro, Kristofer",
+	"7. Küling, Mireta",
+	"8. Meriküll, Eteli",
+	"9. Miljand, Hugo",
+	"10. Orro, Oliver",
+	"11. Parkkanen, Henrico",
+	"12. Parve, Marken",
+	"13. Plamus, Kristofer-Robin",
+	"14. Saar, Carl-Joonas",
+	"15. Schulzendorff, Katharina Helene",
+	"16. Taimre, Kris",
+	"17. Tepp, Kiara Keiti",
+	"18. Tori, Birgit",
+	"19. Ööbik, Markus",
+	"1. Ader, Georg",
+	"2. Aus, Matteus",
+	"3. Erm, Maarja-Lii",
+	"4. Jakobson, Jasper",
+	"5. Jürissaar, Kaia Kretel",
+	"6. Jürissaar, Miia Mirtel",
+	"7. Kabel, Kairit",
+	"8. Kivirüüt, Alice",
+	"9. Kruusmann, Ketli",
+	"10. Mihkelson, Sten-Erik",
+	"11. Mäesalu, Martin",
+	"12. Oolma, Robert-Heinrich",
+  "13. Paavel, Anni Kaisi",
+	"14. Reiter, Karl Mattias",
+	"15. Solman, Kärt",
+	"16. Tobi, Morris",
+	"17. Toom, Martha",
+	"18. Tuul, Teele",
+	"19. Vahesaar, Toren Holder",
+	"20. Volman, Andreas"
+)
+
+#print_table(
+#  table = data_frame_of_from_static_electricity_to_coulomb_law,
+#  caption = "Statistikast Colulomb' seaduseni testi tulemused"
+#) %>%
+#  landscape()
+
+```
+
 \twocolumn
