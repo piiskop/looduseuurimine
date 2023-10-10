@@ -559,9 +559,31 @@ Kava:
 
 Kava:
 
-7. Toores hinnang[@physics, lk 11-13].
+7. Toores hinnang[@physics, lk 11-13]. Jõudsime käsitleda kõik, välja arvatud klaverihäälestajate näite.
 
 ### 2023-10-5
+
+Üks võõras õpilane rääkis interferentsist kahe piluga, prootonite koostisest, Schrödingeri kassist. Demid rääkis kvantsurematusest.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17-19'st järgmised ülesanded: *1*, *3*, *5*, *7*, *9*, *11*, *13*, *35*, *37*, *39*, *41*, *43*, *45*, *47*, *49*, *51*, *53*, *59*, *61*, *63*, *65*, *67*, *69*, *71*, *73*, *75*, *77* ja *79*.
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+### 2023-10-10
+
+Õppesisu: Mõõtetulemuste analüüs.
+
+Kava:
+
+1. Loodusteaduste klubi tutvustamine.
+
+7. Toores hinnang[@physics, lk 11-13]. Klaverihäälestajate näide.
+
+### 2023-10-10
+
+Füüsika meetodi teadmiste ja oskuste kontroll.
+
+### 2023-10-12
 
 Sessiooni lõpus õpilane:
 
@@ -619,18 +641,6 @@ Kava:
 2. Keskmine kiirus[@physics, lk 22-24].
 
 3. Hetkekiirus[@physics, lk 24-26].
-
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17-19'st järgmised ülesanded: *1*, *3*, *5*, *7*, *9*, *11*, *13*, *35*, *37*, *39*, *41*, *43*, *45*, *47*, *49*, *51*, *53*, *59*, *61*, *63*, *65*, *67*, *69*, *71*, *73*, *75*, *77* ja *79*.
-
-Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-10-10
-
-### 2023-10-10
-
-Füüsika meetodi teadmiste ja oskuste kontroll.
-
-### 2023-11-13
 
 ### 2023-11-17
 
@@ -1138,14 +1148,40 @@ physics_method_explanations <- c(
   "standardhälve",
   "põhjuslik seos",
   "füüsika üldprintsiibid",
-  "nähtavushorisont",
   "mudeli järelduste kontroll
 ning mudeli areng",
   "mõõtühikud
 ja vastavate kokkulepete areng",
   "mõõtemääramatuse hindamine",
   "füüsika tunnetuslik ja ennustuslik väärtus",
-  "füüsikaga seotud ohud"
+  "füüsikaga seotud ohud",
+  "Millised on inimese jala standardina kasutamise eelised ja puudused? Mõelge nii (a) konkreetse inimese jalale kui ka (b) mis tahes inimese jalale. Pidage meeles, et on kasulik, kui põhistandardid on juurdepääsetavad (lihtne võrrelda), muutumatud (ei muutu), hävimatud ja reprodutseeritavad.",
+  "Miks on vale arvata, et mida rohkem numbreid oma vastusesse lisate, seda täpsem see on?",
+  "Täieliku vastuse saamiseks tuleb määrata ühikud. Miks?",
+  "[Loetlege kõik kehtivad vastused.]
+Füüsikaseadused
+a) on püsivad ja muutumatud.
+b) on osa loodusest ja ootavad avastamist.
+c) võib muutuda, kuid ainult tänu tõenditele, mis veenavad füüsikute kogukonda.
+d) kehtivad füüsikas, kuid mitte tingimata keemias või muudes valdkondades.
+e) olid põhimõtteliselt valmis 1900. aastaks ja on pärast seda läbinud vaid väikeseid muudatusi.
+(f ) on aktsepteeritud kõigis suuremates maailma riikides ja neid ei saa muuta ilma rahvusvaheliste lepinguteta.",
+  "[Loetlege kõik kehtivad vastused.] Tabavus
+a) tähistab mõõtmise korratavust, kasutades antud instrumenti.
+b) tähistab, kui lähedal on mõõtmine tegelikule väärtusele.
+c) tähistab ideaalset arvu mõõtmisi.
+d) tähistab, kui halvasti seade töötab.",
+  "[Loetlege kõik kehtivad vastused.] Täpsus
+a) esindab mõõtmise korratavust, kasutades antud instrumenti.
+b) esindab, kui lähedal on mõõtmine tegelikule väärtusele.
+c) esindab ideaalset arvu mõõtmisi.
+d) esindab, kui halvasti seade töötab.",
+  "[Loetlege kõik kehtivad vastused.] Mis pole suurusjärgu hinnangu puhul tõsi?
+a) See annab vastusest ligikaudse ettekujutuse.
+(b) Seda saab teha, jättes ainult ühe olulise numbri.
+(c) Seda saab kasutada selleks, et kontrollida, kas täpne arvutus on mõistlik.
+d) Vastuse arvutamiseks võivad olla vajalikud mõned mõistlikud eeldused.
+(e) See on alati täpne vähemalt kahe olulise numbriga."
 )
 
 number_of_elements_in_physics_method_explanations <- length(physics_method_explanations)
@@ -1159,10 +1195,16 @@ colnames(data_frame_of_physics_method_explanations) <- c(
   "Tunnus",
   "Teema"
 )
+
+librarian::shelf(c(
+  "dplyr",
+  "kableExtra"
+))
 print_table(
   table = data_frame_of_physics_method_explanations,
   caption = "Füüsika meetodi teadmiste-oskuste kontrolli esimese ülesande sisu."
-)
+) %>%
+  column_spec(2, width="32em")
 
 ```
 
@@ -1205,7 +1247,14 @@ physics_method_dimensional_analysis <- c(
 	"$j = \\unit{\\ampere\\per\\m\\squared}$",
 	"$H = \\unit{\\ampere\\per\\m}$",
 	"$c = \\unit{\\mole\\per\\m\\cubed}$",
-	"$L_\\mathrm{v} = \\unit{\\candela\\per\\m\\squared}$"
+	"$L_\\mathrm{v} = \\unit{\\candela\\per\\m\\squared}$",
+	"Mille dimensioonid on $[ \\mathrm{L}^2 ]$?
+a) \\unit{\\centi\\meter\\squared}.
+c) \\unit{\\m\\squared}.
+b) ruutjala.
+d) kõige ülaltoodu.",
+  "Millised on tiheduse mõõtmed, mis on mass ruumala kohta?",
+  "Kolm õpilast tuletavad järgmised võrrandid, milles $x$ tähistab läbitud vahemaad, $v$ kiirust, $a$ kiirendust ( $\\frac{\\unit{\\m}}{\\unit{\\s\\squared}}$), $t$ aega ja alaindeks null ( \\num{0} ) tähendab suurust ajahetkel $t = \\num{0}$. Siin on nende võrrandid: (a) $x = vt^ 2 + 2at$, (b) $x = v_0 t + \\frac{a \\cdot t^2}{\\num{2}}$ ja (c)   $x = v_0 t + 2at^2$. Milline neist võiks olla mõõtmete kontrollimisel õige ja miks?"
 )
 
 number_of_elements_in_physics_method_dimensional_analysis <- length(physics_method_dimensional_analysis)
@@ -1222,7 +1271,69 @@ colnames(data_frame_of_physics_method_dimensional_analysis) <- c(
 print_table(
   table = data_frame_of_physics_method_dimensional_analysis,
   caption = "Füüsika meetodi teadmiste-oskuste kontrolli teise ülesande sisu."
+) %>%
+  column_spec(2, width="32em")
+
+```
+
+#### Lihtsad arvutusülesanded
+
+Tabelis \@ref(tab:test-physics-method-analytics-at-beginner-level) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-at-beginner-level")` on lihtsaimad ülesanded.
+
+```{r label = "test-physics-method-analytics-at-beginner-level", echo=FALSE}
+physics_method_analytics_at_beginner_level <- c(
+	"Mis sellel liiklusmärgil viga on:
+Memphis \\num{7} miili (\\qty{11,263}{\\kilo\\m})?",
+  "Mõõte ratta raadiuseks \\qty{4,16}{\\centi\\m}. Kui läbimõõdu saamiseks korrutada \\num{2}-ga, kas kirjutada tulemuseks \\qty{8}{\\centi\\m} või \\qty{8,32}{\\centi\\m}? Põhjenda oma vastust.",
+  "Väljendage siinus \\qty{30,0}{\\degreeCelsius} õige arvu tüvenumbritega!",
+  "Kuidas peaksime kirjutama järgmise arvutuse tulemuse, olles ettevaatlik oluliste numbrite suhtes?
+$\\qty{3,84}{\\s}\\times\\qty{37}{\\m\\per\\s} + \\qty{5,3}{\\s} \\times \\qty{14,1}{\\m\\per\\s} =$
+a) \\qty{200}{\\m}.
+d) \\qty{217}{\\m}.
+b) \\qty{210}{\\m}.
+e) \\qty{220}{\\m}.
+(c) \\qty{216,81}{\\m}.",
+  "Neli õpilast kasutavad sama pliiatsi pikkuse mõõtmiseks erinevaid instrumente. Milline mõõtmine tähendab suurimat täpsust?
+(a) \\qty{160,0}{\\milli\\m}.
+d) \\qty{0,00016}{\\kilo\\m}.
+(b) \\qty{16,0}{\\centi\\m}.
+(e) Vajad lisateavet.
+(c) \\qty{0,160}{\\m}.",
+  "Mitu tähenduslikku numbrit on arvul \\num{0,0078}?
+(a) \\num{1}.
+(c) \\num{3}.
+(b) \\num{2}.
+(d) \\num{4}.",
+  "Mitu olulist numbrit on $\\num{1,362} + \\num{25,2}$?
+(c) \\num{4}.
+(a) \\num{2}.
+(b) \\num{3}.
+(d) \\num{5}.",
+  "Et teisendada $\\mathrm{ft}^2$ $\\mathrm{yd}^2$-i, peaksite
+a) korrutama \\num{3}'ga.
+d) korrutama $\\frac{\\num{1}}{\\num{9}}$'ga.
+b) korrutama $\\frac{\\num{1}}{\\num{3}}$'ga.
+e) korrutama \\num{6}'ga.
+(f ) korrutama  $\\frac{\\num{1}}{\\num{6}}$'ga.
+c) korrutama \\num{9}'ga."
 )
+
+number_of_elements_in_physics_method_analytics_at_beginner_level <- length(physics_method_analytics_at_beginner_level)
+indices_for_physics_method_analytics_at_beginner_level <- seq(1:number_of_elements_in_physics_method_analytics_at_beginner_level)
+indices_for_physics_method_analytics_at_beginner_level_with_own_index <- paste("3", indices_for_physics_method_analytics_at_beginner_level, sep = ".")
+data_frame_of_physics_method_analytics_at_beginner_level <- data.frame(
+  indices_for_physics_method_analytics_at_beginner_level_with_own_index,
+  physics_method_analytics_at_beginner_level
+)
+colnames(data_frame_of_physics_method_analytics_at_beginner_level) <- c(
+  "Tunnus",
+  "Ülesanne"
+)
+print_table(
+  table = data_frame_of_physics_method_analytics_at_beginner_level,
+  caption = "Füüsika meetodi teadmiste-oskuste kontrolli kolmanda ülesande sisu."
+) %>%
+  column_spec(2, width = "32em") 
 
 ```
 
@@ -1230,9 +1341,17 @@ print_table(
 
 Tabelis \@ref(tab:test-physics-method-analytics-at-intermediate-level) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-at-intermediate-level")` on ülesanded, mis on keskmise raskusastmega.
 
+(ref:test-physics-method-baseball) Tavalise pesapalli ümbermõõt on umbes \qty{23}{\centi\m}. Kui pesapallil oleks sama mass ruumalaühiku kohta[@physics, lk 7-8] kui neutronil või prootonil, siis milline oleks selle mass?
+
+(ref:test-physics-method-sailboats) Paljud purjekad on dokitud jahisadamas, mis asub \qty{4,4}{\kilo\m} kaugusel järve vastaskaldal. Vaatate ühte purjekat, sest kui lebate veepiiril, näete lihtsalt selle tekki, kuid mitte ühtegi purjeka külge. Seejärel lähete teisel pool järve asuvale purjekale ja mõõdate, et tekk $d$ on \qty{1,5}{\m} veepinnast kõrgemal. Kasutades @physics, lk 18 arvestades, et $h = \qty{1,5}{\m}$, hinnake Maa raadiust $R$.
+
 ```{r label = "test-physics-method-analytics-at-intermediate-level", echo=FALSE}
 physics_method_analytics_at_intermediate_level <- c(
-	"Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\centi\\volt}, mõõdeti patarei elektriliste potentsiaalide erinevuseks ehk pingeks \\qty{2,85}{\\volt}. Milline on mõõdetud pinge koos täieliku mõõtemääramatusega SI põhiühikuga? Milline on mõõdetud pinge suhteline mõõtemääramatus? Kas mõõtmise tabavuse või täpsuse kohta saab hinnangu anda? Miks?"
+	"Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\centi\\volt}, mõõdeti patarei elektriliste potentsiaalide erinevuseks ehk pingeks \\qty{2,85}{\\volt}. Milline on mõõdetud pinge koos täieliku mõõtemääramatusega SI põhiühikuga? Esitan mõõdetud pinge täieliku mõõtemääramatusega ka graafiliselt. Milline on mõõdetud pinge suhteline mõõtemääramatus? Kas mõõtmise tabavuse või täpsuse kohta saab hinnangu anda? Miks?",
+	"Mis on \\num{5,1e4}-\\unit{\\centi\\m} raadiusega ringi pindala ja selle ligikaudne määramatus?",
+	"(ref:test-physics-method-baseball)",
+	"Mulle tehakse pakkumine \\num{30}-päevaseks tööks. Saan valida kahe makseviisi vahel: kas (1) \\num{1000} dollarit päevas või (2) üks penn esimesel päeval, kaks senti teisel päeval ja jätkata oma päevapalga kahekordistamist kuni \\num{30}. päevani. Kasutan kiiresti hinnangut oma otsuse tegemiseks ja põhjendan seda.",
+	"(ref:test-physics-method-sailboats)"
 )
 
 number_of_elements_in_physics_method_analytics_at_intermediate_level <- length(physics_method_analytics_at_intermediate_level)
@@ -1260,8 +1379,8 @@ Tabelis \@ref(tab:test-physics-method-analytics-with-challenge) leheküljel `r r
 
 ```{r label = "test-physics-method-analytics-with-challenge", echo=FALSE}
 physics_method_analytics_with_challenge <- c(
-	"Jõumoment $L$ on jõu $F$ ja jõuõla pikkuse $x$ korrutis. Jõud on massi $m$ ja kiirenduse $g$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $t$ jagatis. Kiirus on vahemaa $s$ ja ajavahemiku $t$ jagatis. Sihitist kaaluti seitse korda digikaaluga, mille väikseim ühik on \\qty{0,1}{\\kilogram}, ja saadi järgmised tulemused: \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram} ja \\qty{78,8}{\\kilogram}. Jõuõla pikkuseks mõõdeti mõõdulindiga, mille väikseim ühik on \\num{0,0625} in., \\num{13,8125} in. $g = \\qty{9,82}{\\m\\per\\s\\squared}$. Milline on jõumomendi väärtus koos mõõtemääramatusega SI ühikuga? Milline on jõumomendi suhteline mõõtemääramatus? Milline on suhteline viga, kui aktsepteeritavaks väärtuseks on \\qty{109}{\\mega\\g\\m\\squared\\per\\s\\squared}? Kas mõõtmine oli tabav? Kas mõõtmine oli täpne?",
-	"Elektrivälja tugevus $E$ on elektriliste potentsiaalide erinevuse ehk pinge $U$ ja vahemaa $x$ suhe. Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\milli\\volt} ja mille mõõtetäpsuseks on märgitud $\\pm(\\qty{0,8}{\\percent} + \\num{1})$ mõõdeti aku pooluste elektriliste potentsiaalide erinevuseks \\qty{1,260}{\\volt}. Aku nominaalpingeks on märgitud \\qty{1,2}{\\volt}. Mõõdulindiga, mille väikseim ühik on \\qty{1}{\\milli\\m}, mõõdeti aku pikkuseks \\qty{4,3}{\\centi\\m}. Milline on elektrivälja tugevuse väärtus koos mõõtemääramatusega SI ühikuga? Milline on elektrivälja tugevuse suhteline mõõtemääramatus? Milline on mõõtmistulemuse suhteline viga? Kas mõõtmine oli tabav? Kas mõõtetäpsuse kohta saab hinnangu anda? Miks?"
+	"Jõumoment $L$ on jõu $F$ ja jõuõla pikkuse $x$ korrutis. Jõud on massi $m$ ja kiirenduse $g$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $t$ jagatis. Kiirus on vahemaa $s$ ja ajavahemiku $t$ jagatis. Sihitist kaaluti seitse korda digikaaluga, mille väikseim ühik on \\qty{0,1}{\\kilogram}, ja saadi järgmised tulemused: \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram} ja \\qty{78,8}{\\kilogram}. Jõuõla pikkuseks mõõdeti mõõdulindiga, mille väikseim ühik on \\num{0,0625} in., \\num{13,8125} in. $g = \\qty{9,82}{\\m\\per\\s\\squared}$. Milline on jõumomendi väärtus koos mõõtemääramatusega SI ühikuga? Esitan jõumomendi väärtused ja keskmise väärtuse mõõtemääramatusega ka graafiliselt. Milline on jõumomendi suhteline mõõtemääramatus? Milline on suhteline viga, kui aktsepteeritavaks väärtuseks on \\qty{109}{\\mega\\g\\m\\squared\\per\\s\\squared}? Kas mõõtmine oli tabav? Kas mõõtmine oli täpne?",
+	"Elektrivälja tugevus $E$ on elektriliste potentsiaalide erinevuse ehk pinge $U$ ja vahemaa $x$ suhe. Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\milli\\volt} ja mille mõõtetäpsuseks on märgitud $\\pm(\\qty{0,8}{\\percent} + \\num{1})$ mõõdeti aku pooluste elektriliste potentsiaalide erinevuseks \\qty{1,260}{\\volt}. Aku nominaalpingeks on märgitud \\qty{1,2}{\\volt}. Mõõdulindiga, mille väikseim ühik on \\qty{1}{\\milli\\m}, mõõdeti aku pikkuseks \\qty{4,3}{\\centi\\m}. Milline on elektrivälja tugevuse väärtus koos mõõtemääramatusega SI ühikuga? Esitan elektrivälja tugevuse väärtuse mõõtemääramatusega ka graafiliselt. Milline on elektrivälja tugevuse suhteline mõõtemääramatus? Milline on mõõtmistulemuse suhteline viga? Kas mõõtmine oli tabav? Kas mõõtetäpsuse kohta saab hinnangu anda? Miks?"
 )
 
 number_of_elements_in_physics_method_analytics_with_challenge <- length(physics_method_analytics_with_challenge)
@@ -1289,7 +1408,7 @@ print_table(
 
 1. Kirjutan ülesande tunnuse. Selgitan mõiste. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
 
-2. Kirjutan ülesande tunnuse. Avaldan ja / või arvutan selle, mis on sedelil kirjas. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+2. Kirjutan ülesande tunnuse. Teostan dimensionaalanalüüsi.
 
 3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
 
