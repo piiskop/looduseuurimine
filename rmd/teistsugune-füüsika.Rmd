@@ -1,0 +1,279 @@
+# Teistsugune füüsika
+
+## Valikkursuse õppe- ja kasvatuseesmärgid
+
+Valikkursusega taotletakse, et kursuse läbinud õpilane omandaks:
+
+1) oma tõenäoliseks tulevaseks loodusteadusliku uurimistööga seotud ametiks kasulikke teadmisi;
+
+2) oskuse tuvastada mikro- ja megamaailma füüsikaga seonduvaid nähtusi tavaelus;
+
+3) oskuse leida asjakohast ning usaldusväärset teavet valitud mikro- ja megamaailma nähtuste kohta;
+
+4) loodusteadusliku meetodi, sh uurimusliku käsitlusviisi kasutamise, et aru saada mikromaailma ja universumi seaduspärasustest;
+
+5) oskuse anda põhjendatud hinnanguid mikromaailma ja universumi kirjeldamisel kasutatavatele füüsikalistele mudelitele;
+
+6) loomingulise, füüsikateadmistel ja kriitilisel mõtlemisel põhineva vaate Maa ja universumi senist arengut käsitlevatele kontseptsioonidele;
+
+7) suulise ja kirjaliku suhtluse oskusi aatomi-, tuuma- ja kiirgusfüüsikas ning kosmoloogias;
+
+8) aatomi-, tuuma- ja kiirgusfüüsika- ning kosmoloogiateadmisi väärtustava hoiaku ja valmiduse elukestvaks õppeks;
+
+9) oskuse hinnata tuuma-, kiirgus- ja/või kosmosetehnoloogiaga kaasnevaid keskkonna- ja/või personaalriske ning nende minimeerimise võimalusi.
+
+## Õpitulemused
+
+Kursuse lõpus õpilane:
+
+- oskab etteantud tekstidest leida mikromaailma füüsika või kosmoloogia probleeme;
+
+- analüüsib näidisprobleeme ja teeb põhjendatud otsuseid neid lahendades;
+
+- kirjeldab mingi probleemi parajasti kasutatavat lahendust ning analüüsib selle eeliseid ja puudusi;
+
+- nimetab mingi tuuma-, kiirgus- ja/või kosmosetehnoloogia probleemi lahendusega kaasnevat keskkonna- ja/või personaalriski ning selle minimeerimise võimalusi;
+
+- mõistab osakestefüüsika ja/või kosmoloogia heuristilist tähtsust inimkonnale ning nende suhestatust kooli loodusteaduslike õppeainetega;
+
+- on seesmiselt motiveeritud täiendama oma maailmapilti kogu elu vältel.
+
+## Õppesisu
+
+1. **Relatiivsusteooria.** Relativistlik mõtlemisviis. Absoluutkiiruse printsiibi esitused. Samaaegsuse suhtelisus. Ajavahemike suhtelisus. Pikkuste suhtelisus. Kiiruste liitmine suurte kiiruste korral. Massi sõltuvus kiirusest. Raske ja inertse massi samaväärsus kui üldrelatiivsusteooria alus. Kõvera aegruumi mudel.
+
+2. **Aatomid ja nende uurimine.** Planetaarne aatomimudel, Bohri mudel ja nüüdisaegne aatomimudel. Valikureeglid kui jäävusseadused. Kvantarvude lubatud väärtused. Keemiliste elementide perioodilisuse süsteem. s-, p-, d- ja f-orbitaalid füüsikas ning keemias. Elektronmikroskoop, tunnelmikroskoop ning aatomjõumikroskoop.
+
+3. **Kvantmehaanika.** Elektronide difraktsioon, leiulained ja määramatusseos. Lainefunktsioon kvantmehaanikas. Osakeste tunnelleerumine. Kvantmehaanika tõlgendused. Kvantteleportatsioon.
+
+4. **Kiirgused ja spektrid.** Kiirguse tekkimine, ergastuse eluiga, lainejada. Spontaanne ja stimuleeritud kiirgus. Laser. Laserite kasutamine. Kiirgusspekter. Neeldumisspekter. Pidevspekter, joonspekter. Spektraalanalüüs ja selle kasutamine. Infravalgus. Ultravalgus. Röntgenikiirgus, selle saamine ja kasutamine.
+
+5. **Soojuskiirgus.** Mustkiirguri kiirgusspektri omadused. Stefani-Boltzmanni seadus ja Wieni nihkeseadus. Mustkiirguri spektri lühilainelise osa seletamine Plancki kvanthüpoteesi abil. Soojuskiirguse rakendused.
+
+6. **Fotoefekt.** Punapiir. Einsteini võrrand fotoefekti kohta. Footoni parameetrid. Välis- ja sisefotoefekt. Fotoefekti rakendused: päikesepatarei, fotoelement, CCD element. Valguse rõhk. Fotokeemilised reaktsioonid.
+
+7. **Tuumafüüsika.** Nukleonid. Tuumajõud. Isotoobid. Massidefekt. Seoseenergia. Eriseoseenergia. Tuumareaktsioonid: sünteesireaktsioon ja lagunemisreaktsioon. Sünteesireaktsioon looduses ja selle perspektiivid energiatootmisel. Uute raskete elementide süntees. Osakeste eraldumine lagunemisreaktsioonides. Radioaktiivsus. Ahelreaktsioon.
+
+8. **Radioaktiivsusega kaasnevad kiirgused.** Ioniseeriva kiirguse liigid, nende omadused. Radioaktiivse lagunemise seadus. Poolestusaeg. Allika aktiivsus. Kiirguse intensiivsuse sõltuvus kaugusest. Looduslikud ja tehislikud kiirgusallikad. Tuumafüüsika meetodid meditsiinis, arheoloogias ja paleontoloogias. Kiirgusohutuse alused. Isikudoosi piirmäär.
+
+9. **Standardmudel.** Aine algosakesed ja välja kvandid. Aine algosakesi iseloomustavad suurused. Leptonid ja kvargid. Barüonid ja mesonid. Antiosakesed. Kiirendid ja osakeste detektorid. Inimkonna ressursside piiratus kui põhiprobleem sisemise nähtavushorisondi edasinihutamisel.
+
+10. **Astronoomia ajalugu ja metoodika.** Astronoomias kasutatavad vahendid ja nende areng. Optiline astronoomia ja raadioastronoomia. Kosmilise kiirguse mõõtmine. Hubble’i kosmoseteleskoop. Spektraalmõõtmised. Doppleri efekt. Astronoomia ja kosmoloogia Eestis.
+
+11. **Kosmosetehnoloogiad.** Kosmoselende võimaldav tehnika. Mehitatud kosmoselennud. Tehnoloogilised piirangud kosmilistele kauglendudele. Teadusuuringud kosmoses. Kosmosetehnoloogia rakendused: satelliitnavigatsioon, keskkonna kaugseire, satelliitside. Militaartehnoloogiad kosmoses.
+
+12. **Päikesesüsteem.** Maa-rühma planeedid. Hiidplaneedid. Planeetide kaaslased ja rõngad. Päikesesüsteemi väikekehad. Planeedisüsteemide tekkimine ja areng.
+
+13. **Tähed.** Lähim täht Päike. Päikese atmosfääri ehitus. Aktiivsed moodustised Päikese atmosfääris. Tähtede siseehitus. Tähesuurus. Tähtede põhikarakteristikud: temperatuur, heledus, raadius ja mass. Hertzsprungi-Russelli diagramm. Muutlikud tähed ja noovad. Valged kääbused, neutrontähed, mustad augud. Tähtede areng.
+
+14. **Galaktikad.** Linnutee koostisosad ja struktuur. Täheparved. Galaktikad. Galaktikate parved. Universumi kärgstruktuur. Tume aine ja varjatud energia.
+
+15. **Kosmoloogilised mudelid.** Kosmoloogiline printsiip. Universumi evolutsioon. Suure Paugu teooria ning selle füüsikalised alused: kosmoloogiline punanihe ja reliktkiirgus. Antroopsusprintsiip.
+
+\onecolumn
+
+## Õppe vorm
+
+Õpilased jagunevad kuni kolmeliikmelistesse rühmadesse. Iga rühma peale valivad õpilased omale ühe mooduli, mille kohta teostavad uuringu, valmistavad ette selle esitluse ja esitlevad uuringut.
+
+Uuring peab sisaldama mingi teemakohase probleemi või mingite teemakohaste probleemide käsitlust. Iga probleemi kohta tuleb kirjeldada võimalikku lahendust ning kaasnevaid riske ja nende maandamise võimalusi. Kui probleemile on juba lahendus, siis analüüsitakse uuringus selle eeliseid ja taamuseid. Uurimus ei tohi olla täies mahus tsitaat ega tõlge, vaid peab olema õpilase oma sõnadega ja mõtetega üles kirjutatud. Uuringule peab olema lisatud vähemalt viielauseline eestikeelne kokkuvõte. Kõik välisviited peavad olema korrektsed. Et kontrollida, kas kõike tehakse õigesti, tasub õpilasel õpetajale aegajalt oma poolelioleva uuringu tekstiline teisend ette näidata. Uuringudokumendil peavad olema tiitelleht, sisukord, sissejuhatus, sisu, kokkuvõte, välisviidete loetelu ja kui just kogu kokkuvõte pole eestikeelne, tuleb sellele lisada nimetatud eestikeelne kokkuvõte. Struktuuri osas võib näidiseks võtta sellesama faili siin. Õpetaja tagasisidestab ja kui miski ei vasta õpetaja ootustele, siis tuleb see asi korda teha vastavalt õpetaja juhendamisele.
+
+Esitlus peab olema piisavalt põhjalik, et see kestaks \qtyrange{5}{20}{\minute}. Esitlus võib olla mis tahes sobilike rekvisiitidega ja mis tahes vormis. Esitlusele järgneb ühine arutelu.
+
+## Mooduli valimine
+
+Õpilane kirjutab oma nime valitud mooduli kõrvale lahtrisse tabelisse \@ref(tab:choosing-module) leheküljel `r render_pageref(reference="tab:choosing-module")`.
+
+```{r label="choosing-module", echo=FALSE}
+module <- c(
+  "relatiivsusteooria",
+  "aatomid ja nende uurimine",
+  "kvantmehaanika",
+  "kiirgused ja spektrid",
+  "soojuskiirgus",
+  "fotoefekt",
+  "tuumafüüsika",
+  "radioaktiivsusega kaasnevad kiirgused",
+  "standardmudel",
+  "astronoomia ajalugu ja metoodika",
+  "kosmosetehnoloogiad",
+  "Päikesesüsteem",
+  "tähed",
+  "galaktikad",
+  "kosmoloogilised mudelid"
+)
+
+chooser_1 <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
+
+chooser_2 <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
+
+chooser_3 <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
+
+data_frame_of_modules_of_different_physics <- data.frame(
+  module,
+  chooser_1,
+  chooser_2,
+  chooser_3
+)
+
+colnames(data_frame_of_modules_of_different_physics) <- c(
+  "Moodul",
+  "Valija",
+  "Valija",
+  "Valija"
+)
+
+print_table(
+  table <- data_frame_of_modules_of_different_physics,
+  caption <- "Mooduli valimine."
+) %>%
+  column_spec(1, width="18em") %>%
+  column_spec(2:ncol(data_frame_of_modules_of_different_physics), width="12em") %>%
+  landscape()
+
+```
+
+Õpilane kirjutab oma nime kuupäeva, millal soovib oma uuringut esitleda, lahtrisse tabelisse \@ref(tab:different-physics-choosing-date) leheküljel `r render_pageref(reference="tab:different-physics-choosing-date")`.
+
+```{r label="different-physics-choosing-date", echo=FALSE}
+different_physics_date <- c(
+  "2024-2-6",
+  "2024-2-8",
+  "2024-2-13",
+  "2024-2-15",
+  "2024-2-20",
+  "2024-2-22",
+  "2024-3-5",
+  "2024-3-7",
+  "2024-3-12",
+  "2024-3-14",
+  "2024-3-19",
+  "2024-3-21",
+  "2024-3-26",
+  "2024-3-28",
+  "2024-3-28",
+  "2024-4-2",
+  "2024-4-4",
+  "2024-4-9",
+  "2024-4-11",
+  "2024-4-16",
+  "2024-4-18"
+)
+
+different_physics_chooser_of_date_1 <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
+
+different_physics_chooser_of_date_2 <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+)
+
+data_frame_of_dates_of_different_physics <- data.frame(
+  different_physics_date,
+  different_physics_chooser_of_date_1,
+  different_physics_chooser_of_date_2
+)
+
+colnames(data_frame_of_dates_of_different_physics) <- c(
+  "Kuupäev",
+  "Valija",
+  "Valija"
+)
+
+print_table(
+  table <- data_frame_of_dates_of_different_physics,
+  caption <- "Esitluskuupäeva valimine."
+) %>%
+  column_spec(2:ncol(data_frame_of_dates_of_different_physics), width="12em")
+
+```
+
+\twocolumn

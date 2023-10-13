@@ -433,9 +433,53 @@ Kava:
 
 4. Elektriline aku [@physics, lk 717-720].
 
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the].
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. Jõudsime nii kaugele, et järgmises korras alustame näitest *25-1*.
 
 ### 2023-10-13
+
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+4. kasutab probleeme lahendades
+Coulomb’i seadust (21.5)
+
+Õppesisu: Elektrilaeng (21.2). Elementaarlaeng (21.5). Laengu jäävuse seadus (21.1). Coulomb’i seadus (21.5).
+Punktlaeng (21.5). Elektrivool (25.2).
+
+Põhimõisted:
+
+elektrilaeng (21.2)
+: füüsikaline suurus, mis iseloomustab, kui tugevasti osaleb laetud keha elektromagnetilises vastastikmõjus[@ebook]
+
+elementaarlaeng (21.5)
+: väikseim looduses täheldatud laeng[@physics, lk 614]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+Kava:
+
+1. Induktsiooni, konduktsiooni ja maandamise ülevaatamine[@charging].
+
+2. Testi tagasiside.
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. Alustame näitest *25-1*.
+
+6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663].
+
+Iseseisvaks lahendamiseks järgmise kontaktsessiooni alguseni: 
+
+1. Lahenda kõik enda testiülesanded oma vihikusse korrektselt!
+
+2. Kommenteeri oma testitulemust võimalikult põhjalikult testitulemuse paberile!
+
+3. Pane enda testitulemusele hinne oma testitulemuse paberile!
+
+4. Tagasta mulle testitulemuse paber!
 
 ### 2023-10-16
 
@@ -534,7 +578,7 @@ electroscope <- c(
   0,
   0,
   1, # Teele Tuul
-  0,
+  1, # Toren Holder Vahesaar
   1 # Andreas Volman
 )
 
@@ -1125,37 +1169,37 @@ from_statical_electricity_to_coulomb_law_1 <- c(
   0,
   0,
   0,
+  0.05, # Mireta
+  0.11, # Eteli
   0,
   0,
   0,
   0,
+  0.08, # Kristofer-Robin Plamus
   0,
   0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
+  0.08, # Kris Taimre
+  0.04, # Kiara Keiti Tepp
+  0.11, # Birgit Tori
+  0.11, # Markus Ööbik
+  0.11, # Georg Ader
+  0.11, # Matteus Aus
   0, # Maarja-Lii Erm
   0,
   0,
-  0,
-  0,
-  0,
+  0.07, # Miia Mirtel Jürissaar
+  0.09, # Kairit Kabel
+  0.05, # Alice Kivirüüt
   0,
   0.06, # Sten-Erik Mihkelson
   0,
   0,
-  0,
+  0.11, # Anni Kaisi Paavel
   0.11, # Karl Reiter
   0,
   0,
   0,
-  0, # Teele Tuul
+  0.06, # Teele Tuul
   .11, # Toren
   0.06 # Andreas Volman
 )
@@ -1164,27 +1208,27 @@ from_statical_electricity_to_coulomb_law_2 <- c(
   0,
   0,
   0,
+  0.1, # Merili
+  0,
+  0.02, # Kristofer Kangro
+  0.04, # Mireta
+  0.05, # Eteli
+  0,
+  0,
+  0.15, # Henrico Parkkanen
   0,
   0,
   0,
   0,
   0,
+  0.05, # Kiara Keiti Tepp
   0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
+  0.1, # Markus Ööbik
+  0.12, # Georg Ader
+  0.05, # Matteus Aus
   0, # Maarja-Lii Erm
   0,
-  0,
+  0.1, # Kaia Kretel Jürissaar
   0,
   0,
   0,
@@ -1204,42 +1248,42 @@ from_statical_electricity_to_coulomb_law_2 <- c(
 
 from_statical_electricity_to_coulomb_law_3 <- c(
   0,
+  0.14, # Sander Brinkmann
+  0.18, # Enrico Ernits
+  0.1, # Merili
+  0,
+  0,
+  0.16, # Mireta
+  0.06, # Eteli
   0,
   0,
   0,
   0,
+  0.05, # Kristofer-Robin Plamus
   0,
   0,
   0,
+  0.17, # Kiara Keiti Tepp
+  0.04, # Birgit Tori
+  0.02, # Markus Ööbik
+  0,
+  0.08, # Mattias Aus
+  0.19, # Maarja-Lii Erm
+  0,
+  0.15, # Kaia Kretel Jürissaar
+  0.13, # Miia Mirtel JÜrissaar
+  0.01, # Kairit Kabel 
   0,
   0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0, # Maarja-Lii Erm
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
+  0.15, # Ketli Kruusmann
   0,
   0,
   0,
   .07, # Karl Reiter
   0,
-  0,
-  0,
-  0, # Teele Tuul
+  0.07, # Tobi Morris
+  0.06, # Martha Toom
+  0.13, # Teele Tuul
   0,
   0.14 # Andreas Volman
 )
@@ -1247,6 +1291,12 @@ from_statical_electricity_to_coulomb_law_3 <- c(
 from_statical_electricity_to_coulomb_law_4 <- c(
   0,
   0,
+  0.24, # Enrico Ernits
+  0.11, # Merili
+  0,
+  0,
+  0.02, # Mireta
+  0.13, # Eteli
   0,
   0,
   0,
@@ -1255,39 +1305,36 @@ from_statical_electricity_to_coulomb_law_4 <- c(
   0,
   0,
   0,
+  0.1, # Kiara Keiti Tepp
+  0.02, # Birgit Tori
+  0.02, # Markus Ööbik
   0,
   0,
+  0.15, # Maarja-Lii Erm
+  0,
+  0.18, # Kaia Kretel Jürissaar
+  0.12, # Miia Mirtel Jürissaar
+  0.1, # Kairit Kabel 
+  0,
+  0.13, # Ketli Kruusmann
+  0.15, # Alice Kivirüüt
   0,
   0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0, # Maarja-Lii Erm
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
+  0.06, # Anni Kaisi Paavel
   .07, # Karl Reiter
+  0.05, # Kärt Solman
   0,
-  0,
-  0,
-  0, # Teele Tuul
+  0.05, # Martha Toom
+  0.17, # Teele Tuul
   0,
   0 # Andreas Volman
 )
 
 from_statical_electricity_to_coulomb_law_5 <- c(
   0,
+  0.07, # Sander Brinkmann
+  0.15, # Enrico Ernits
+  0.28, # Merili
   0,
   0,
   0,
@@ -1296,34 +1343,31 @@ from_statical_electricity_to_coulomb_law_5 <- c(
   0,
   0,
   0,
+  0.03, # Kristofer-Robin Plamus
   0,
   0,
+  0.1, # Kris Taimre
+  0.16, # Kiara Keiti Tepp
+  0.02, # Birgit Tori
+  0.01, # Markus Ööbik
+  0.01, # Georg Ader
+  0, 
+  0.12, # Maarja-Lii Erm
   0,
   0,
+  0.15, # Miia Mirtel Jürissaar
+  0.08, # Kairit Kabel
   0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0, # Maarja-Lii Erm
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
+  0.01, # Ketli Kruusmann
   0.08, # Sten-Erik Mihkelson
   0,
   0,
   0,
   .1, # Karl Reiter
+  0.05, # Kärt Solman
   0,
   0,
-  0,
-  0, # Teele Tuul
+  0.13, # Teele Tuul
   0.04, # Toren
   0.18 # Andreas Volman
 )

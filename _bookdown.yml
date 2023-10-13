@@ -11,7 +11,7 @@ rmd_files: [
   "rmd/elektromagnetism.Rmd",
   "rmd/mikro-megamaailma-füüsika.Rmd",
   "rmd/füüsika-tehnika.Rmd",
-  "rmd/keemia-alused.Rmd",
+  "rmd/teistsugune-füüsika.Rmd",
   "rmd/mõõtmiseksperiment.Rmd",
   "references.Rmd"
 ]

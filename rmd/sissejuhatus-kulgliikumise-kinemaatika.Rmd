@@ -577,11 +577,18 @@ Kava:
 
 1. Loodusteaduste klubi tutvustamine.
 
-7. Toores hinnang[@physics, lk 11-13]. Klaverihäälestajate näide.
+7. Toores hinnang[@physics, lk 11-13]. Klaverihäälestajate näide. Lahendasime ka ülesande *51*.
 
 ### 2023-10-10
 
 Füüsika meetodi teadmiste ja oskuste kontroll.
+
+### 2023-10-12
+
+Tagasiside füüsika meetodi testi kohta.
+
+Iseseisvaks lahendamiseks ülesanne järgmise kontaktsessiooni päeva esimese kontaktsessiooni alguseni:
+Lahenda kõik enda testi ülesanded oma vihikusse! Seejärel kommenteeri igat enda lahendust testipaberil testipaberile tühjale alale või eraldi lehele! Lõpuks hinda oma testitulemus! Testipaber koos sinu kommentaaride ja hindega tuleb mulle tagastada kohe kontaktsessiooni alguses.
 
 ### 2023-10-12
 
@@ -1025,14 +1032,61 @@ mõõtühikute süsteem
 
 Kava:
 
-4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkame *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist.
-*10b*: Alustame *Physics 151* ülesannete lahendamist[@physics_151].
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkame *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist. Jõudsime neljanda plokini.
+*10b*: Alustasime *Physics 151* ülesannete lahendamist[@physics_151]. *Physics 151* lehelt jõudsime kolmanda plokini. 
+
+\onecolumn
+
+### 2023-10-13
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+1. [Vigadest õppimine](qmd/physics-method/physics-method.html).
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkame *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist. Jõudsime neljanda plokini.
+*10b*: Alustasime *Physics 151* ülesannete lahendamist[@physics_151]. *Physics 151* lehelt jõudsime kolmanda plokini. 
 
 5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
 
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
 
 7. Toores hinnang[@physics, lk 11-13].
+
+\twocolumn
+
+### 2023-10-16
+
+Gretheliga leppisime kokku konsultatsiooni: 2023-10-16 seitsmes periood.
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17'st järgmised ülesanded: *15*, *17*, *19*, *21*, *23*, *25*, *27*, *29*, *31* ja *33*! Lahendused on võrreldavad[@looduseuurimine]. Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
@@ -1049,12 +1103,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-10-13
-
-Füüsika olemuse, mõõtmise ja hindamise teadmiste ja oskuste kaardistamine.
-
-### 2023-10-16
 
 ### 2023-10-20
 
@@ -1285,7 +1333,7 @@ physics_method_analytics_at_beginner_level <- c(
 	"Mis sellel liiklusmärgil viga on:
 Memphis \\num{7} miili (\\qty{11,263}{\\kilo\\m})?",
   "Mõõte ratta raadiuseks \\qty{4,16}{\\centi\\m}. Kui läbimõõdu saamiseks korrutada \\num{2}-ga, kas kirjutada tulemuseks \\qty{8}{\\centi\\m} või \\qty{8,32}{\\centi\\m}? Põhjenda oma vastust.",
-  "Väljendage siinus \\qty{30,0}{\\degreeCelsius} õige arvu tüvenumbritega!",
+  "Väljendage siinus \\qty{30,0}{\\degree} õige arvu tüvenumbritega!",
   "Kuidas peaksime kirjutama järgmise arvutuse tulemuse, olles ettevaatlik oluliste numbrite suhtes?
 $\\qty{3,84}{\\s}\\times\\qty{37}{\\m\\per\\s} + \\qty{5,3}{\\s} \\times \\qty{14,1}{\\m\\per\\s} =$
 a) \\qty{200}{\\m}.
@@ -1423,5 +1471,172 @@ print_table(
   - arvutamine,
   
   - lahend täislausega.
+
+#### Tulemused
+
+```{r label = "test-physics-method-results", echo=FALSE}
+
+physics_method_1 <- c(
+  0,
+  0,
+  0,
+  0.11, # Kustov, Vladimir
+  0,
+  0.11, # Šerstobitov, Mihhail
+  0.11, # Šesterikov, Daniil
+  0,
+  0,
+  0,
+  0,
+  0, 
+  0.11 # Volkova, Jeva
+)
+
+physics_method_2 <- c(
+  0.04, # Alisa Babiy
+  0,
+  0.15, # Stanislavs
+  0,
+  0.06, # Malõšev, Polina
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, 
+  0.06  # Volkova, Jeva
+)
+
+physics_method_3 <- c(
+  0,
+  0,
+  0.05, # Stansilavs
+  0.14, # Kustov, Vladimir
+  0,
+  0,
+  0,
+  0.06, # Žigadlo, Grigori
+  0,
+  0,
+  0,
+  0.2, # Volkova, Darja
+  0
+)
+
+physics_method_4 <- c(
+  0,
+  0.08, # Donat Irhin
+  0,
+  0.05, # Kustov, Vladimir
+  0.12, # Malõšev, Polina
+  0.08, # Šerstobitov, Mihhail
+  0,
+  0.2, # Žigadlo, Grigori
+  0,
+  0,
+  0,
+  0, 
+  0.14 # Volkova, Jeva
+)
+
+physics_method_5 <- c(
+  0,
+  0,
+  0.01, # Stanislavs
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0, 
+  0
+)
+
+physics_method_summary <- physics_method_1 + physics_method_2 + physics_method_3 + physics_method_4 + physics_method_5
+
+#' This function calculates the grade according to the fraction.
+#'
+#' @param fractions the vector of fractions out of a whole
+#' 
+#' @example calculate_grade(fraction=.57)
+#' 
+#' @returns the grades as a vector
+calculate_grade <- function(fractions) {
   
+  grades <- c()
+  for (index in 1:length(fractions)) {  # 2
+    if (fractions[index] < .9) {
+      if (fractions[index] < .75) {
+        if (fractions[index] < .5) {
+          if (fractions[index] < .2) {
+            grades[index] <- 1
+          } else {
+            grades[index] <- 2
+          }
+        } else {
+          grades[index] <- 3
+        }
+      } else {
+        grades[index] <- 4
+      }
+    } else {
+      grades[index] <- 5
+    }
+  }
+
+  return(grades)
+}
+
+physics_method_grade <- calculate_grade(physics_method_summary)
+
+data_frame_of_physics_method <- data.frame(
+  physics_method_1,
+  physics_method_2,
+  physics_method_3,
+  physics_method_4,
+  physics_method_5,
+  physics_method_summary,
+  physics_method_grade
+)
+
+colnames(data_frame_of_physics_method) <- c(
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "Koond",
+  "Hinne"
+)
+
+rownames(data_frame_of_physics_method) <- c(
+	"1. Babiy, Alisa",
+	"2. Irhin, Donat",
+	"3. Kimasks, Stanislavs",
+	"4. Kustov, Vladimir",
+	"5. Malõšev, Polina",
+	"6. Šerstobitov, Mihhail",
+	"7. Šesterikov, Daniil",
+	"8. Žigadlo, Grigori",
+	"9. Žukova, Darja",
+	"10. Trubilko, Vladislav",
+	"11. Tšerkesov, Demid",
+	"12. Volkova, Darja",
+	"13. Volkova, Jeva"
+)
+
+#print_table(
+#  table = data_frame_of_physics_method,
+#  caption = "Füüsika meetodi testi tulemused"
+#) %>%
+#  landscape()
+
+```
+
+\twocolumn
+
 \twocolumn

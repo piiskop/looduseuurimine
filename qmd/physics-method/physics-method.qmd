@@ -1,0 +1,136 @@
+---
+author:
+  - name: 'peacecop kalmer:'
+bibliography: physics-method.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+title: |
+    | Füüsika meetod
+output-file: physics-method.html
+format:
+  revealjs:
+    # chalkboard: true
+    incremental: true
+    multiplex:
+      url: 'http://manual-for-rstudio.ons.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+    # revealjs-plugins:
+    #   - seminar
+    # attributes:
+    #   quarto-reveal:
+    #     data-seminar-remote: true
+    #     data-seminar-controls: true
+
+---
+
+## Juhend
+
+- Ei loetud juhendit korralikult läbi.
+
+- Jäeti kirjutamata pealkiri, kuupäev.
+
+- Tuli valida igast hunnikust üks ülesanne - kokku viis ülesannet, igaüks eri tüüpi.
+
+- Ei kirjutatud ülesande tunnust.
+
+- Kas ma lubasin väliseid allikaid kasutada ilma minuga kooskõlastamata?
+
+## Ülesande lugemine
+
+- Ülesanne ei loetud korralikult läbi.
+
+- Mõõtemääramatus jäeti arvestamata.
+
+- Graafiline esitus jäeti teostamata.
+
+- Tabavus ja täpsus jäeti selgitamata.
+
+- Dimensioonide kirjutamise asemel selgitati ühikuid.
+
+- $\rho_\text{A} \ne \mathrm{Pa}.$
+
+## Vastamine küsimusele
+
+-   Ülesanne: Selgitada füüsika rolli muude loodusteaduste seas!
+
+    Irrelevantne vastus: Füüsika näitab ja avastab meie maailma reegleid ja kuidas see toimib.
+
+    Relevantne vastus: Füüsika on alus kõikidele muudele loodusteadustele. Keemia jaoks...
+
+- Chat.openai.com on abiks vaid siis, kui oskad sellelt täpselt küsida ja vastust kriitiliselt hinnata.
+
+## Arvutusülesande struktuur
+
+Arvutusülesandes tuli järgida konkreetset struktuuri, milles lahend tuli esitada täislausega:
+
+Ebasobiv: $S = 8 \mathrm{m}^2.$
+
+Sobiv: Pindala on kaheksa ruutmeetrit.
+
+## Tüvenumbrid eraldi
+
+-   Kui on esitatud sisend tüvenumbrite arvuga, siis seda ei muudeta:
+
+    $$30{,}0^{\circ} \ne 30^{\circ}$$
+
+-   Arvu alguses olevad nullid ei ole tüvenumbrid:
+
+    Arvus 0,0253 on kolm tüvenumbrit.
+
+-   Konstandis on tüvenumbrid vastavalt sisendandmetele:
+
+    Kui $r = 5{,}2 m$, siis $\pi = 3,1$.
+
+## Tüvenumbrid tehte tulemusena
+
+-   Korrutamises: Tehte tulemusse jääb nii palju tüvenumbreid, kui palju neid on kõige väiksema tüvenumbrite arvuga väärtuses.
+    
+    $$5{,}3 \mathrm{m} \times 14{,}1 \mathrm{m} = 74{,}73 \mathrm{m}^2 = 75 \mathrm{m}^2.$$
+
+-   Liitmises: Tehte tulemusse jääb nii palju kohti pärast koma, kui palju on neid kõige väiksema komajärgsete kohtade arvuga väärtuses.
+
+    $$5{,}3 \mathrm{m} + 14{,}1 \mathrm{m} = 19{,}4 \mathrm{m}.$$
+
+## Ühik
+
+-   Kui ühik pole üks, siis tuleb see alati arvväärtuse järele kirjutada:
+
+    $$2 \ne 2 \mathrm{m}$$
+
+- Kui ühes jardis on kolm jalga, siis ei saa ühes jardis olla mingi muu arv jalgu.
+
+## Geomeetria
+
+Raadius ei ole pool ümbermõõtu.
+
+## Ülesanne järgmiseks korraks
+
+1. Lahenda kõik enda testiülesanded oma vihikusse korrektselt!
+
+2. Kommenteeri oma testitulemust võimalikult põhjalikult testitulemuse paberile!
+
+3. Pane enda testitulemusele hinne oma testitulemuse paberile!
+
+4. Tagasta mulle testitulemuse paber!
+
+## Soovitused edasiseks
+
+1. Kirjuta-joonista kõik oma vihikusse, mille ma tahvlile kirjutan-joonistan!
+
+2. Loe alati pärast kontaktsessiooni vastav õpiku osa läbi!
+
+3. Teosta kõik sulle koduseks ülesandeks määratud harjutused!
+
+4. Kuula-vaata alati pärast kontaktsessiooni vastav audiovisuaalne vara läbi!
+
+5. Õpi iga päev vähemalt kolm tundi eesti keelt!
+
+[looduse uurimine](/)
+
+## Välisviited
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```

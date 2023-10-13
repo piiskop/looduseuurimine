@@ -1,0 +1,174 @@
+---
+author:
+  - name: 'peacecop kalmer:'
+bibliography: from-statical-electricity-to-coulomb.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+title: |
+    | Staatilisest elektrist Coulomb' seaduseni
+output-file: from-statical-electricity-to-coulomb.html
+format:
+  revealjs:
+    # chalkboard: true
+    incremental: true
+    multiplex:
+      url: 'http://manual-for-rstudio.ons.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+    # revealjs-plugins:
+    #   - seminar
+    # attributes:
+    #   quarto-reveal:
+    #     data-seminar-remote: true
+    #     data-seminar-controls: true
+
+---
+
+## Juhend
+
+- Osa õpilasi luges juhendi korralikult läbi, osa mitte.
+
+- Osa õpilasi jättis kirjutamata pealkirja ja / või kuupäeva.
+
+- Tuli valida igast hunnikust üks ülesanne - kokku viis ülesannet, igaüks eri tüüpi.
+
+- Ülesande tunnus tuli kirjutada.
+
+## Terminid segased
+
+-   Nt staatika käsitleb ikka paigalolevaid nähtusi ja dünaamika liikuvaid:
+
+    > Elektrostaatika on... staatika, mis tuleb, kui elektronid... liiguvad.
+
+- *Elementaarlaengu* mõiste ununenud.
+
+## Seletamine
+
+- Valem esitatud, kuid valemi kooslus mitte.
+
+- Vale valem.
+
+-   Kirjutati irrelevantseid tõsiasju:
+
+    Nt. kui oli vaja seletada aatomi ja elektroni laengu suhet, seletati aatomi ja elektroni olemust.
+    
+    Nt. $\frac{F_\mathrm{g}}{F_\mathrm{C}}=$ > Gravitatsiooniline jõud põhineb massil ja kuloniline jõud elektrilisel laengul.
+    
+-   Kirjutati segaseid asju:
+
+    $\Theta_O = \Theta_r$
+    
+## Valemi kombineerimine
+
+- Kohati osati, kohati mitte koondvalemit kokku panna.
+
+- Valemist muutuja avaldamine kohati vaevaline.
+
+## Ülesande lahendamise struktuur
+
+- Mõnel hästi meeles.
+
+- Ei loodud lõplikku valemit.
+
+- Väljund võidi jätta märkimata.
+
+- Märgiti vale väljund.
+
+-  Lahend tuli esitada täislausega:
+
+    Ebasobiv: $S = 8 \mathrm{m}^2.$
+
+    Sobiv: Pindala on kaheksa ruutmeetrit.
+
+## Ühik
+
+-   Kui ühik pole üks, siis tuleb see alati arvväärtuse järele kirjutada:
+
+    $$2 \ne 2 \mathrm{m}$$
+
+- Samas avaldises kord on ühik, kord mitte.
+
+- Jõu väärtus kiputi kirjutama arvuna, kuid sellel on ühik.
+
+## Välise allika kasutamine
+
+- Tuleb osata küsida.
+
+- Tuleb kirjutada, kuidas ise oled aru saanud, mitte lihtsalt ümber.
+
+- Chat.openai.com on abiks vaid siis, kui oskad sellelt täpselt küsida ja vastust kriitiliselt hinnata.
+
+## Tähistamine
+
+Mida tähendab $F_{12}$?
+
+## Lahendamine
+
+- Katse-eksitamine.
+
+-   Valemist jäeti osi ära:
+
+    $$F = \frac{Q_1\cdot Q_2}{r^2}$$
+    
+- Ununes dielektriline läbitavus.
+
+- Ununes konduktsioon.
+
+- Kirjutati lahend ilma selgitusteta.
+
+- Algebralised teisendused.
+
+## Astendamine
+
+$2{,}84\times 10^{-10}\mathrm{m}=28{,}4^{-10}=18{,}4$[@kaja]
+
+## Täpsus
+
+tüvenumbrid
+
+## Ülesande lugemine
+
+-   Ülesanne ei loetud korralikult läbi.
+
+    Nt kui pidid laengud olema võrdsed ja arvutati välja ebavõrdsed laengud.
+
+## Tähelepanu
+
+- Sisend oli kulon ja arvutamises oli nanokulon.
+
+- Ülesannet *6.5* polnud.
+
+- Ühe suhe teise pole teise suhe ühte.
+
+## Lahendi kontrollimine
+
+Kui $F_\mathrm{g}$ on väga väike ja arvutati hiiglaslik laeng, et seda jõudu tasakaalustada, siis ei sobitu.
+
+## Ülesanne järgmiseks korraks
+
+1. Lahenda kõik enda testiülesanded oma vihikusse korrektselt!
+
+2. Kommenteeri oma testitulemust võimalikult põhjalikult testitulemuse paberile!
+
+3. Pane enda testitulemusele hinne oma testitulemuse paberile!
+
+4. Tagasta mulle testitulemuse paber!
+
+## Soovitused edasiseks
+
+1. Kirjuta-joonista kõik oma vihikusse, mille ma tahvlile kirjutan-joonistan!
+
+2. Loe alati pärast kontaktsessiooni vastav õpiku osa läbi!
+
+3. Teosta kõik sulle koduseks ülesandeks määratud harjutused!
+
+4. Kuula-vaata alati pärast kontaktsessiooni vastav audiovisuaalne vara läbi!
+
+[looduse uurimine](/)
+
+## Välisviited
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```

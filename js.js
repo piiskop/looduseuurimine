@@ -39,9 +39,12 @@ function setTargets() {
   
   let div = document.getElementById("main-nav").getElementsByTagName("nav")[0].getElementsByClassName("book-extra")[0];
   createLink(div, "book-print", "looduseuurimine.pdf", "trükiteisend");
- // let nameOfPresentation = "presentation";
-//  createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "Presentation");
-//  createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "Remote control");
+  let nameOfPresentation = "physics-method";
+  createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "füüsika meetodi esitlus");
+  createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "füüsika meetodi slaidiesitluse kaugjuhtimine");
+  nameOfPresentation = "from-statical-electricity-to-coulomb";
+  createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "staatilisest elektrist Coulomb' seaduseni esitlus");
+  createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "staatilisest elektrist Coulomb' seaduseni esitluse kaugjuhtimine");
 }
 
 window.onload = function () {
