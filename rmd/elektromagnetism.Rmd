@@ -458,18 +458,11 @@ elementaarlaeng (21.5)
 punktlaeng (21.5)
 : laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
 
-voolutugevus (25.2)
-: igasugune laenguvool[@physics, lk 720]
-
 Kava:
 
 1. Induktsiooni, konduktsiooni ja maandamise ülevaatamine[@charging].
 
 2. Testi tagasiside.
-
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. Alustame näitest *25-1*.
-
-6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663].
 
 Iseseisvaks lahendamiseks järgmise kontaktsessiooni alguseni: 
 
@@ -482,6 +475,36 @@ Iseseisvaks lahendamiseks järgmise kontaktsessiooni alguseni:
 4. Tagasta mulle testitulemuse paber!
 
 ### 2023-10-16
+
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+4. kasutab probleeme lahendades
+Coulomb’i seadust (21.5)
+
+Õppesisu: Elektrilaeng (21.2). Elementaarlaeng (21.5). Laengu jäävuse seadus (21.1). Coulomb’i seadus (21.5).
+Punktlaeng (21.5). Elektrivool (25.2).
+
+Põhimõisted:
+
+elektrilaeng (21.2)
+: füüsikaline suurus, mis iseloomustab, kui tugevasti osaleb laetud keha elektromagnetilises vastastikmõjus[@ebook]
+
+elementaarlaeng (21.5)
+: väikseim looduses täheldatud laeng[@physics, lk 614]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+Kava:
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. Alustame näitest *25-1*.
+
+6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663].
 
 ### 2023-10-20
 
@@ -532,6 +555,34 @@ Difraktsiooni, varase kvantteooria ja aatomimudelite ning elementaarosakeste tea
 ### 2024-1-19
 
 ### 2024-1-22
+
+## Ülesanded
+
+### Coulomb' seadus[@physics(lk 636-637)]
+
+1) Kui suur on raua tuuma ($q = + 26e$) ja selle sisemise elektroni vaheline elektriline tõmbejõud, kui nende vaheline kaugus on \qty{1,5e-12}{\m}?
+
+2) Mitu elektroni moodustavad laengu \qty{-58,0}{\micro\coulomb}?
+
+3) Kui suur on jõud, mida \num{+25}-\unit{\micro\coulomb} laeng avaldab \num{+ 2,5}-\unit{\milli\coulomb} laengule \qty{22}{\centi\m} kaugusel?
+
+5) Kui objekti, näiteks plastkammi, laetakse seda lapiga hõõrudes, on netolaeng tavaliselt mõni mikrokulon. Kui see laeng on \qty{2,4}{\micro\coulomb}, siis mitme protsendi võrra muutub \num{9,0}-\unit{\g} kammi mass laadimise ajal?
+
+7) Kaks väikest laetud kera on üksteisest \qty{6,22}{\centi\m} kaugusel. Neid liigutatakse ja jõud, mida kumbki teine teisele avaldab, on kolmekordistunud. Kui kaugel needd kerad teineteisest praegu on?
+
+9) Kui suur on kõigi elektronide kogulaeng \num{12}-\unit{\kilo\g} kullakangis? Kui suur on kangi netolaeng? (Kullal on \num{79} elektroni aatomi kohta ja aatommass on \num{197} u.)
+
+13) Kolm võrdse laenguga positiivset osakest, \qty{+17,0}{\micro\coulomb}, asuvad \qty{15,0}{\centi\m}m võrdkülgse kolmnurga nurkades. Kolmnurga aluskülg on rõhtne. Arvutage igale osakesele kahest teisest tuleneva netojõu suurus ja suund.
+
+15) \num{6,45}-\unit{\milli\coulomb} laeng asetatakse \num{0,100}-\unit{\m} küljepikkusega ruudu igasse nurka. Määrake igale laengule mõjuva jõu suurus ja suund.
+
+17) Ruudu külg $l$ paikneb rõhtsalt. Selle ruudu igas nurgas alustades ülemisest vasemast on punktlaengud suurusjärgus $Q$, $2Q$, $3Q$ ja $4Q$. Määrake laengule $2Q$ mõjuva jõu suurus ja suund.
+
+### Elektrivool[@physics(lk 741)]
+
+3) Juhtmes voolab vool \qty{1,75}{\ampere}. Mitu elektroni voolab traadi mis tahes punktist sekundis mööda?
+
+5) Kui suur on voolutugevus amprites, kui \num{1200} \ce{Na+}-iooni voolab läbi rakumembraani \qty{2,8}{\micro\s} kestel? Naatriumiooni laeng on sama, mis elektronil, kuid positiivne.
 
 ## Eksperimentide protokollid
 
@@ -1158,7 +1209,87 @@ from_statical_electricity_to_coulomb_calculation_3 <- c(
   - arvutamine,
   
   - lahend täislausega.
+
+\newpage
+
+#### Järeltestid
+
+##### Marken Parve
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Marken Parve ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-10-13.
+
+1. Selgitan mõiste *elektrostaatiline jõud*. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
+
+2. Avaldan ja / või arvutan  elektroni ja prootoni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
   
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Kuidas muutub kahe punktlaengu vaheline mõjujõud, kui suurendada laenguid \num{4} korda ning vähendada nende vahekaugust \num{2} korda? 
+
+4. Et saada ettekujutust laengu \qty{1}{\coulomb} suurusest, leida kahe, \qty{1}{\coulomb} suuruse laengu vahel mõjuv jõud vaakumis \qty{1}{\m} kaugusel teineteisest; sama vees.
+ 
+5. Kaks võrdse massiga $m_1=m_2=\qty{1,5}{\g}$ kuulikest riputati siidniitide abil ühte ja samasse punkti. Pärast seda anti nendele võrdsed laengud. Selle tulemusena eemaldusid kuulikesed $r=\qty{10}{\centi\m}$ kaugusele ja niidid moodustasid omavahel nurga $\alpha=36\degree$. Lugedes laengud negatiivseteks, leida nende suurus ja liigsete elektronide arv kummalgi kuulikesel.
+
+\newpage
+
+##### Oliver Orro
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Oliver Orro ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-10-13.
+
+1. Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest,
+kas need kehad on laetud eri- või ühenimeliselt? Teen joonise, kus on näidatud
+laengute jaotus.
+
+2. Avaldan ja / või arvutan kulonilise ja gravitatsioonilise jõu  suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Kaks võrdset punktlaengut tõukuvad vaakumis teineteisest \qty{3}{\m} kaugusele jõuga \qty{0,4}{\newton}. Arvutan laengute suuruse. 
+
+4. \num{20}-\unit{\centi\m} läbimõõduga metallkera laeng on \qty{3,14e-7}{\coulomb}. Arvutan kera laengu pindtiheduse.
+ 
+5. Kuidas muutub laengu pindtihedus, kui ristkülikukujuline juht keerata silindrikujuliseks?
+
 #### Tulemused
 
 ```{r label = "test-from-statical-electricity-to-coulomb-law-results", echo=FALSE}
@@ -1167,68 +1298,68 @@ from_statical_electricity_to_coulomb_law_1 <- c(
   0,
   0,
   0,
+  0.08, # Fredi Kaljuvee
+  0,
+  0.03, # Mireta
+  0.08, # Eteli
+  0.06, # Hugo Miljand
   0,
   0,
-  0.05, # Mireta
-  0.11, # Eteli
+  0,
+  0.06, # Kristofer-Robin Plamus
   0,
   0,
-  0,
-  0,
-  0.08, # Kristofer-Robin Plamus
-  0,
-  0,
-  0.08, # Kris Taimre
-  0.04, # Kiara Keiti Tepp
-  0.11, # Birgit Tori
-  0.11, # Markus Ööbik
-  0.11, # Georg Ader
-  0.11, # Matteus Aus
+  0.06, # Kris Taimre
+  0.03, # Kiara Keiti Tepp
+  0.08, # Birgit Tori
+  0.08, # Markus Ööbik
+  0.08, # Georg Ader
+  0.08, # Matteus Aus
   0, # Maarja-Lii Erm
   0,
   0,
-  0.07, # Miia Mirtel Jürissaar
-  0.09, # Kairit Kabel
-  0.05, # Alice Kivirüüt
+  0.05, # Miia Mirtel Jürissaar
+  0.06, # Kairit Kabel
+  0.03, # Alice Kivirüüt
   0,
-  0.06, # Sten-Erik Mihkelson
-  0,
-  0,
-  0.11, # Anni Kaisi Paavel
-  0.11, # Karl Reiter
+  0.04, # Sten-Erik Mihkelson
   0,
   0,
+  0.08, # Anni Kaisi Paavel
+  0.08, # Karl Reiter
   0,
-  0.06, # Teele Tuul
-  .11, # Toren
-  0.06 # Andreas Volman
+  0,
+  0,
+  0.04, # Teele Tuul
+  .08, # Toren
+  0.04 # Andreas Volman
 )
 
 from_statical_electricity_to_coulomb_law_2 <- c(
   0,
   0,
   0,
-  0.1, # Merili
+  0.11, # Merili
   0,
-  0.02, # Kristofer Kangro
-  0.04, # Mireta
-  0.05, # Eteli
+  0.03, # Kristofer Kangro
+  0.05, # Mireta
+  0.06, # Eteli
+  0.02, # Hugo Miljand
   0,
-  0,
-  0.15, # Henrico Parkkanen
-  0,
-  0,
+  0.16, # Henrico Parkkanen
   0,
   0,
+  0.12, # Carl-Joonas Saar
   0,
-  0.05, # Kiara Keiti Tepp
   0,
-  0.1, # Markus Ööbik
-  0.12, # Georg Ader
-  0.05, # Matteus Aus
+  0.06, # Kiara Keiti Tepp
+  0,
+  0.11, # Markus Ööbik
+  0.13, # Georg Ader
+  0.06, # Matteus Aus
   0, # Maarja-Lii Erm
   0,
-  0.1, # Kaia Kretel Jürissaar
+  0.11, # Kaia Kretel Jürissaar
   0,
   0,
   0,
@@ -1237,139 +1368,139 @@ from_statical_electricity_to_coulomb_law_2 <- c(
   0,
   0,
   0,
-  .04, # Karl Reiter
+  .05, # Karl Reiter
   0,
   0,
   0,
   0, # Teele Tuul
-  0.08, # Toren
-  0.15 # Andreas Volman
+  0.09, # Toren
+  0.16 # Andreas Volman
 )
 
 from_statical_electricity_to_coulomb_law_3 <- c(
   0,
-  0.14, # Sander Brinkmann
-  0.18, # Enrico Ernits
-  0.1, # Merili
+  0.35, # Sander Brinkmann
+  0.45, # Enrico Ernits
+  0.25, # Merili
+  0.4, # Fredi Kaljuvee
   0,
-  0,
-  0.16, # Mireta
-  0.06, # Eteli
-  0,
-  0,
-  0,
-  0,
-  0.05, # Kristofer-Robin Plamus
+  0.4, # Mireta
+  0.15, # Eteli
+  0.1, # Hugo Miljand
   0,
   0,
   0,
-  0.17, # Kiara Keiti Tepp
-  0.04, # Birgit Tori
-  0.02, # Markus Ööbik
-  0,
-  0.08, # Mattias Aus
-  0.19, # Maarja-Lii Erm
-  0,
-  0.15, # Kaia Kretel Jürissaar
-  0.13, # Miia Mirtel JÜrissaar
-  0.01, # Kairit Kabel 
-  0,
-  0,
-  0.15, # Ketli Kruusmann
+  0.13, # Kristofer-Robin Plamus
   0,
   0,
   0,
-  .07, # Karl Reiter
+  0.43, # Kiara Keiti Tepp
+  0.08, # Birgit Tori
+  0.05, # Markus Ööbik
   0,
-  0.07, # Tobi Morris
-  0.06, # Martha Toom
-  0.13, # Teele Tuul
+  0.2, # Mattias Aus
+  0.48, # Maarja-Lii Erm
   0,
-  0.14 # Andreas Volman
+  0.38, # Kaia Kretel Jürissaar
+  0.33, # Miia Mirtel JÜrissaar
+  0.03, # Kairit Kabel 
+  0,
+  0,
+  0.38, # Ketli Kruusmann
+  0,
+  0,
+  0,
+  .18, # Karl Reiter
+  0,
+  0.18, # Tobi Morris
+  0.15, # Martha Toom
+  0.33, # Teele Tuul
+  0,
+  0.35 # Andreas Volman
 )
 
 from_statical_electricity_to_coulomb_law_4 <- c(
   0,
   0,
-  0.24, # Enrico Ernits
-  0.11, # Merili
+  0.72, # Enrico Ernits
+  0.33, # Merili
   0,
   0,
-  0.02, # Mireta
-  0.13, # Eteli
-  0,
-  0,
-  0,
+  0.06, # Mireta
+  0.39, # Eteli
   0,
   0,
   0,
   0,
   0,
-  0.1, # Kiara Keiti Tepp
-  0.02, # Birgit Tori
-  0.02, # Markus Ööbik
   0,
   0,
-  0.15, # Maarja-Lii Erm
   0,
-  0.18, # Kaia Kretel Jürissaar
-  0.12, # Miia Mirtel Jürissaar
-  0.1, # Kairit Kabel 
-  0,
-  0.13, # Ketli Kruusmann
-  0.15, # Alice Kivirüüt
+  0.3, # Kiara Keiti Tepp
+  0.06, # Birgit Tori
+  0.06, # Markus Ööbik
   0,
   0,
-  0.06, # Anni Kaisi Paavel
-  .07, # Karl Reiter
-  0.05, # Kärt Solman
+  0.45, # Maarja-Lii Erm
   0,
-  0.05, # Martha Toom
-  0.17, # Teele Tuul
+  0.54, # Kaia Kretel Jürissaar
+  0.36, # Miia Mirtel Jürissaar
+  0.3, # Kairit Kabel 
+  0,
+  0.39, # Ketli Kruusmann
+  0.45, # Alice Kivirüüt
+  0,
+  0,
+  0.18, # Anni Kaisi Paavel
+  .21, # Karl Reiter
+  0.15, # Kärt Solman
+  0,
+  0.15, # Martha Toom
+  0.51, # Teele Tuul
   0,
   0 # Andreas Volman
 )
 
 from_statical_electricity_to_coulomb_law_5 <- c(
   0,
-  0.07, # Sander Brinkmann
-  0.15, # Enrico Ernits
-  0.28, # Merili
+  0.22, # Sander Brinkmann
+  0.46, # Enrico Ernits
+  0.85, # Merili
   0,
   0,
   0,
   0,
+  0.43, # Hugo Miljand
   0,
   0,
   0,
+  0.1, # Kristofer-Robin Plamus
   0,
-  0.03, # Kristofer-Robin Plamus
   0,
-  0,
-  0.1, # Kris Taimre
-  0.16, # Kiara Keiti Tepp
-  0.02, # Birgit Tori
-  0.01, # Markus Ööbik
-  0.01, # Georg Ader
+  0.31, # Kris Taimre
+  0.49, # Kiara Keiti Tepp
+  0.07, # Birgit Tori
+  0.04, # Markus Ööbik
+  0.04, # Georg Ader
   0, 
-  0.12, # Maarja-Lii Erm
+  0.37, # Maarja-Lii Erm
   0,
   0,
-  0.15, # Miia Mirtel Jürissaar
-  0.08, # Kairit Kabel
+  0.46, # Miia Mirtel Jürissaar
+  0.25, # Kairit Kabel
   0,
-  0.01, # Ketli Kruusmann
-  0.08, # Sten-Erik Mihkelson
-  0,
-  0,
-  0,
-  .1, # Karl Reiter
-  0.05, # Kärt Solman
+  0.04, # Ketli Kruusmann
+  0.25, # Sten-Erik Mihkelson
   0,
   0,
-  0.13, # Teele Tuul
-  0.04, # Toren
-  0.18 # Andreas Volman
+  0,
+  .31, # Karl Reiter
+  0.16, # Kärt Solman
+  0,
+  0,
+  0.4, # Teele Tuul
+  0.13, # Toren
+  0.55 # Andreas Volman
 )
 
 from_statical_electricity_to_coulomb_law_summary <- from_statical_electricity_to_coulomb_law_1 + from_statical_electricity_to_coulomb_law_2 + from_statical_electricity_to_coulomb_law_3 + from_statical_electricity_to_coulomb_law_4 + from_statical_electricity_to_coulomb_law_5

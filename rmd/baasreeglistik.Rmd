@@ -1647,6 +1647,8 @@ milles $P$ on võimsus ja $r$ kaugus heliallikast [@giancoli_2014_physics(lk 310
 
 \onecolumn
 
+[]{#prefixes}
+
 ## Ühikud
 
 +----------+-----------------+--------+---------+--------------------+

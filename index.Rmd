@@ -237,14 +237,12 @@ Kuna iga kontaktsessioon on vaid 45 min pikk, siis teadmiste-oskuste kinnistamis
 
 Opik.fyysika.ee[@pikud] sisaldab hulganisti eestikeelseid füüsikaõpikuid, mida saavad õpilased kasutada täiendavaks lugemiseks ja harjutamiseks.
 
-Põhiõpik, mida kasutan, on Douglas Giancoli *PHYS ICS
-SE
-VE N T H
-ED
-ITION
-PR INCIPLES WITH APPLICATIONS*[@giancoli]. Selles on õpilase- ja õpetajasõbralik kujundus ja sisu. Välja on jäetud tuletised ja integraalid. Õpik sisaldab hulganisti enesekontrolli küsimusi ja ülesandeid, millest osadele on esitatud lahend. Selle õpiku kasutamisega lõimin looduseuurimise õppesse inglise keelt. Ülesanded iseseisvaks harjutamiseks pärinevad sellest õpikust. Parim füüsikaõpetaja Ameerikas on minu meelest mr.p, kelle Flipping Physics[@flipping] aitab kindlasti paremini mõista paljusid füüsikateemasid. Need allikad on abiks, kuni ma oma kursuseid veel piisavalt valmis pole saanud, ja edaspidi täienduseks.
+Põhiõpik, mida kasutan, on Douglas Giancoli *PHYSICS
+for SCIENTISTS and ENGINEERS*[@physics]. Selles on õpilase- ja õpetajasõbralik kujundus ja sisu. Õpik sisaldab hulganisti enesekontrolli küsimusi ja ülesandeid, millest osadele on esitatud lahend. Selle õpiku kasutamisega lõimin looduseuurimise õppesse inglise keelt. Ülesanded iseseisvaks harjutamiseks pärinevad sellest õpikust. Parim füüsikaõpetaja Ameerikas on minu meelest mr.p, kelle Flipping Physics[@flipping] aitab kindlasti paremini mõista paljusid füüsikateemasid. Need allikad on abiks, kuni ma oma kursuseid veel piisavalt valmis pole saanud, ja edaspidi täienduseks.
 
 Eesti keeles saab täiendavalt lugeda ka Ako Sauga konspektist[@fsikaline].
+
+[]{#my-name}
 
 Kuna õpilased on uurinud, miks mu nimi just selline on, siis selgitan.  Teatavasti nimed ei ole looduslikud, vaid inimeste konstrukt, ja mulle meeldib seda reeglistikku järgida. Leian, et nimi peaks olema igaühel unikaalne. Ühtlasi on igaühe enda asi, kuidas ta oma nime soovib näidata ja seda soovi tuleb austada. Igaüks saab ka ise endale sobiliku nime määrata kasvõi nõustudes kellegi muu poolt omistatud nimega.
 

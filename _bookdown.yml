@@ -4,7 +4,6 @@ delete_merged_file: true
 rmd_files: [
   "index.Rmd",
   "rmd/hindamine.Rmd",
-  "rmd/protokolli-juhend.Rmd",
   "rmd/soovitusi-õppimiseks.Rmd",
   "rmd/baasreeglistik.Rmd",
   "rmd/sissejuhatus-kulgliikumise-kinemaatika.Rmd",

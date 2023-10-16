@@ -1051,6 +1051,45 @@ Eesmärgid:
 
 3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
 
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+1. [Vigadest õppimine](qmd/physics-method/physics-method.html).
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkasime *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist. *1.1.5* ehk prantsuskeelsed ülesanded lahendatud.
+*10b*: Jätkasime *Physics 151* ülesannete lahendamist[@physics_151]. Jõudsime lõpuni.
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs. *10b*: Jõudsime pendli valemi testitud.
+
+\twocolumn
+
+### 2023-10-16
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
 7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
 mõõtemääramatust hinnates standardhälvet.
 
@@ -1071,24 +1110,21 @@ mõõtühikute süsteem
 
 Kava:
 
-1. [Vigadest õppimine](qmd/physics-method/physics-method.html).
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Alustame *Physics 151* ülesannete lahendamist[@physics_151].
 
-4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkame *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist. Jõudsime neljanda plokini.
-*10b*: Alustasime *Physics 151* ülesannete lahendamist[@physics_151]. *Physics 151* lehelt jõudsime kolmanda plokini. 
-
-5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs. *10b*: Alustame näitest *1-10*.
 
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
 
 7. Toores hinnang[@physics, lk 11-13].
 
-\twocolumn
-
-### 2023-10-16
-
 Gretheliga leppisime kokku konsultatsiooni: 2023-10-16 seitsmes periood.
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17'st järgmised ülesanded: *15*, *17*, *19*, *21*, *23*, *25*, *27*, *29*, *31* ja *33*! Lahendused on võrreldavad[@looduseuurimine]. Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni:
+
+*10b*: Lahendada [ülesanded](#problems): *15*, *17*, *19*, *21*, *23*, *25*, *27*, *29*, *31*, *33*, *55* ja *57*!
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
 
@@ -1105,6 +1141,10 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
 ### 2023-10-20
+
+Kava:
+
+1. *10b*: Kas keegi tahab saada protsendipunkte kursuse lõpphindest?
 
 ### 2023-10-30
 
@@ -1151,6 +1191,89 @@ Liikumise kirjeldamise teadmiste ja oskuste kaardistamine.
 Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
 
 ### 2024-1-22
+
+[]{#problems}
+
+## Ülesanded
+
+### Ühikud, SI[@physics(lk 17)]
+
+15) Väljendage järgmist, kasutades [eesliiteid](#prefixes):
+
+ - \qty{3e6}{\volt},
+    
+ - \qty{2e6}{\m},
+    
+ - \num{5e3} päeva,
+    
+ - \num{18e2} taala ja
+    
+ - \qty{9e-7}{\s}.
+
+17) Tähendusnumbrite õige arvu saamiseks kasutage nt @haynes_2014_crc's olevat teavet, et määrata
+
+ - Maa pindala ja Kuu pindala suhe,
+    
+ - Maa ruumala võrreldes Kuu mahuga.
+
+19) Arvatakse, et universumi vanus on umbes 14 miljardit aastat. Eeldades kahte olulist numbrit, kirjutage see kümne astmetes
+
+ - aastas,
+    
+ - sekundis.
+
+21) Väljendage õige tüvenumbrite arvuga järgmine summa: $\qty{1,90}{\m} + \qty{142,5}{\centi\m} + \qty{6,27e5}{\micro\m}$.
+
+23) Määrake teisendustegur:
+
+ - $\frac{\unit{\kilo\m}}{\unit{\hour}} \ce{->} \frac{\text{miil}}{\unit{\hour}}$,
+    
+ - $\frac{\unit{m}}{\unit{\s}} \ce{->} \frac{\text{jalg}}{\unit{\s}}$ ning
+    
+ - $\frac{\unit{\kilo\m}}{\unit{\hour}} \ce{->} \frac{\unit{m}}{\unit{\s}}$.
+
+25) Valgusaasta on vahemaa, mille valgus läbib ühe aasta kestel (kiirusel = \qty{2,998e8}{\m\per\s}).
+
+ - Mitu meetrit on \num{1,00}'s valgusaastas?
+    
+ - Astronoomiline ühik (AU) on keskmine kaugus Päikesest Maani, \qty{1,50e8}{\kilo\m}. Kui palju AU'sid on \num{1,00}'s valgusaastas?
+    
+27) Mitu lainepikkust oranži krüptoon-86 valgust[@bureau_1974_the] mahuks  @physics ühe lehekülje paksusesse?
+
+29) Reisilennuk kulutab umbes \qty{12}{\l} kütust ühe lennukilomeetri kohta. Mis on see väärtus väljendatuna miilides galloni kohta?
+
+31) Arvuta:
+
+ - Mitu sekundit on \num{1,00}'s aastas?
+    
+ - Mitu nanosekundit on \num{1,00}'s aastas?
+    
+ - Mitu aastat on \qty{1,00}{\s}'s?
+    
+33) Merkuuri läbimõõt on \qty{4879}{\kilo\m}.
+
+ - Kui suur on Merkuuri pindala?
+    
+ - Mitu korda suurem on Maa pindala?
+    
+### Mõõtmed[@physics(lk 18)]
+
+55) Objekti kiirus $v$ on antud võrrandiga $v = At^3 - Bt$, kus $t$ viitab ajale.
+
+ - Mis on $A$ ja $B$ mõõtmed?
+    
+ - Mis on konstantide $A$ ja $B$ SI ühikud?
+    
+57) Analüüsi:
+
+ -   Näidake, et järgmine kombinatsioon kolmest
+  looduse põhikonstandist - $G = \qty{6,67e-11}{\m\cubed\per\kilo\g\per\s\squared}$, $c = \qty{3,00e8}{\m\per\s}$ ja $h = \qty{6,63e-34}{\kilo\g\m\squared\per\s}$ -  moodustavad aja mõõtmetega suuruse:
+    
+     $t_\text{P} = \sqrt{\frac{G \cdot h}{c^5}}.$
+    
+     Seda suurust $t_\text{P}$ nimetatakse Plancki ajaks ja arvatakse, et see on kõige varasem aeg pärast universumi loomist, mil saab rakendada praegu teadaolevaid füüsikaseadusi.
+    
+ - Hinnake $t_\text{P}$ suurusjärku, kasutades nt @haynes_2014_crc.
 
 \onecolumn
 

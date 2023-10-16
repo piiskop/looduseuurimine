@@ -524,11 +524,22 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni:
 
 Kava:
 
-2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: alustame valemi *13-5* tuletamisest. *12b*: alustame valemi *13-6c* tuletamisest.
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: alustasime valemi *13-5* tuletamisest. Näite *13-4* tegime läbi. Vaja veel vaid kontrollida keskmisega.
+ *12b*: alustasime valemi *13-6c* tuletamisest.
+
+3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe]. *12b*:  Jõudsime peatüki *13-4* lõpuni.
+
+\onecolumn
+
+### 2023-10-16
+
+Kava:
+
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Näite *13-4* tegime läbi. Vaja veel vaid kontrollida keskmisega.
 
 3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
 
-4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372].
+4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372]. *12b*: alustame.
 
 5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374].
 
@@ -538,7 +549,7 @@ Kava:
 
 8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378].
 
-### 2023-10-16
+\twocolumn
 
 ### 2023-10-30
 
