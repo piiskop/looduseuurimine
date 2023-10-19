@@ -27,3 +27,7 @@ Kui loed kontaktsessioonis käsitletud peatüki pärast kontaktsessiooni iseseis
 Arusaamise kinnistamiseks on vaja kümnete teemakohaste ülesannete lahendamine. Kui lahendad mingi valemi kasutamise kohta piisavalt ülesandeid, on see valem sul juba meeles ja ei pea tuletama.
 
 Alati saad ka kontrollida lahendit[@physics(lk A23-A46)]. Kui saad teistsuguse lahendi, võrdle enda lahenduskäiku minu omaga[@looduseuurimine] ja korrigeeri!
+
+## Kujunda endas välja arvutusprobleemide lahendamise harjumused!
+
+@a1dkinpacketpdf(lk 24) on esitatud arvutusprobleemide lahendamise harjumused, mille soovitan sul endas välja kujundada.

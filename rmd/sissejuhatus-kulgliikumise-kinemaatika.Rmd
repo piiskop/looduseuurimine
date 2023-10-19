@@ -585,7 +585,46 @@ Füüsika meetodi teadmiste ja oskuste kontroll.
 
 ### 2023-10-12
 
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
 Tagasiside füüsika meetodi testi kohta.
+
+Jõudsin ka tutvustada asjad osast *2-1* (taustsüsteem ja nihe).
 
 Iseseisvaks lahendamiseks ülesanne järgmise kontaktsessiooni päeva esimese kontaktsessiooni alguseni:
 Lahenda kõik enda testi ülesanded oma vihikusse! Seejärel kommenteeri igat enda lahendust testipaberil testipaberile tühjale alale või eraldi lehele! Lõpuks hinda oma testitulemus! Testipaber koos sinu kommentaaride ja hindega tuleb mulle tagastada kohe kontaktsessiooni alguses.
@@ -645,13 +684,185 @@ Kava:
 
 1. Võrdlusraamid ja nihe[@physics, lk 20-22].
 
-2. Keskmine kiirus[@physics, lk 22-24].
+2. Keskmine kiirus[@physics, lk 22-24]. Näide *2-2* tehtud. Näite *2-3* valem koostatud, nüüd vaja arvud asemele panna ja arvutada. Daniil pusis minu abiga ja väga vaevaliselt tuleb. Algebra on nõrk. Vladislav jätkas ja ta oskas liita harilikke murde, kuid oli unustanud, kuidas jagada hariliku murruga. Samuti vajab palju harjutamist valemisse asendamine teisest valemist.
 
 3. Hetkekiirus[@physics, lk 24-26].
 
-### 2023-11-17
+### 2023-10-17
 
-### 2023-11-20
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+Kava:
+
+1. Võrdlusraamid ja nihe[@a1dkinpacketpdf(lk 1-2)]. Lahendasime kõik variatsiooniülesanded vahemaa ja nihke kohta.
+
+2. Keskmine kiirus[@physics, lk 22-24]. Näite *2-3* valemi koostamiseni teen ise, misjärel vaja arvutada. Lahendasime lõpuni keskmise kiiruse näite õpikust.
+
+### 2023-10-17
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+1. Võrdlusraamid ja nihe[@a1dkinpacketpdf(lk 1-4)]. Lahendasime kõik variatsiooniülesanded vahemaa ja nihke kohta.
+
+2. Keskmine kiirus[@physics, lk 22-24]. Näite *2-3* valemi koostamiseni teen ise, misjärel vaja arvutada. Lahendasime lõpuni keskmise kiiruse näite õpikust. Lahendasime kõik variatsiooniülesanded keskmise kiiruse kohta. Näitasin graafiliselt, kuidas saada kiiruse graafikust vahemaa graafik.
+
+3. Hetkekiirus[@physics, lk 24-26]. Näitasin ka võrdluseks keskmise kiiruse ja hetkekiiruse valemit.
+
+### 2023-10-19
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+3. Hetkekiirus[@a1dkinpacketpdf(lk 5-6, 19); @physics, lk 24-26]. Alustame graafikute võrdlemisega ja tuletise arvutusprotsessi õppega.
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)].
+
+### 2023-10-19
+
+### 2023-10-19
+
+Iseiseisvaks lahendamiseks järgmise kontaktsessioonide päeva esimese kontaktsessiooni alguseni: Lahendada ülesanded @physics(lk 47-48) 1, 3, 5, 7, 9, 11, 13, 15, 17 ja 19!
 
 ### 2023-11-24
 
@@ -1603,24 +1814,24 @@ physics_method_1 <- c(
   0,
   0,
   0,
-  0.11, # Kustov, Vladimir
+  0.08, # Kustov, Vladimir
   0,
-  0.11, # Šerstobitov, Mihhail
-  0.11, # Šesterikov, Daniil
+  0.08, # Šerstobitov, Mihhail
+  0.08, # Šesterikov, Daniil
   0,
   0,
   0,
   0,
   0, 
-  0.11 # Volkova, Jeva
+  0.08 # Volkova, Jeva
 )
 
 physics_method_2 <- c(
-  0.04, # Alisa Babiy
+  0.05, # Alisa Babiy
   0,
-  0.15, # Stanislavs
+  0.16, # Stanislavs
   0,
-  0.06, # Malõšev, Polina
+  0.07, # Malõšev, Polina
   0,
   0,
   0,
@@ -1628,45 +1839,45 @@ physics_method_2 <- c(
   0,
   0,
   0, 
-  0.06  # Volkova, Jeva
+  0.07  # Volkova, Jeva
 )
 
 physics_method_3 <- c(
   0,
   0,
-  0.05, # Stansilavs
-  0.14, # Kustov, Vladimir
+  0.13, # Stansilavs
+  0.35, # Kustov, Vladimir
   0,
   0,
   0,
-  0.06, # Žigadlo, Grigori
+  0.15, # Žigadlo, Grigori
   0,
   0,
   0,
-  0.2, # Volkova, Darja
+  0.45, # Volkova, Darja
   0
 )
 
 physics_method_4 <- c(
   0,
-  0.08, # Donat Irhin
+  0.24, # Donat Irhin
   0,
-  0.05, # Kustov, Vladimir
-  0.12, # Malõšev, Polina
-  0.08, # Šerstobitov, Mihhail
+  0.15, # Kustov, Vladimir
+  0.36, # Malõšev, Polina
+  0.24, # Šerstobitov, Mihhail
   0,
-  0.2, # Žigadlo, Grigori
+  0.6, # Žigadlo, Grigori
   0,
   0,
   0,
   0, 
-  0.14 # Volkova, Jeva
+  0.42 # Volkova, Jeva
 )
 
 physics_method_5 <- c(
   0,
   0,
-  0.01, # Stanislavs
+  0.04, # Stanislavs
   0,
   0,
   0,
