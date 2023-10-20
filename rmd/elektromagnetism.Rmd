@@ -502,11 +502,41 @@ voolutugevus (25.2)
 
 Kava:
 
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. Alustame näitest *25-1*.
+1. Staatiline elekter: *11a*: Enrico lahendas tahvlile ülesannet 5.1 ja jõudis kauguse valemini, kuigi see jäi tal iseseisvalt lihtsustada. Aitasin ka lahendada petrooleumi ülesannet 5.4. Õpilane lahendas muidu õigesti, aga vaakumi epsiloni väärtus oli tal võetud üheks.
 
-6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663].
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. Alustasime näitest *25-1*. *11b*: Peatükk *25-2* käsitletud.
 
 ### 2023-10-20
+
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+4. kasutab probleeme lahendades
+Coulomb’i seadust (21.5)
+
+Õppesisu: Elektrilaeng (21.2). Elementaarlaeng (21.5). Laengu jäävuse seadus (21.1). Coulomb’i seadus (21.5).
+Punktlaeng (21.5). Elektrivool (25.2).
+
+Põhimõisted:
+
+elektrilaeng (21.2)
+: füüsikaline suurus, mis iseloomustab, kui tugevasti osaleb laetud keha elektromagnetilises vastastikmõjus[@ebook]
+
+elementaarlaeng (21.5)
+: väikseim looduses täheldatud laeng[@physics, lk 614]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+Kava:
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Alustame näitest *25-1*. *11b*: Alustame lehe *Elektrivool ja elektriahel* variatsiooniülesannete lahendamist.
+
+6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663].
 
 ### 2023-10-30
 
@@ -1213,6 +1243,44 @@ from_statical_electricity_to_coulomb_calculation_3 <- c(
 \newpage
 
 #### Järeltestid
+
+##### Marie Allert
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Marie Allert ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-10-20.
+
+1. Selgitan pöördruudu seadust.
+
+2. Avaldan punktlaengutevaheline kauguse Coulomb' seaduses. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Arvuta elektroni ja tuuma vahel mõjuv jõud vesiniku aatomis, kui nendevaheline kaugus on \qty{0,5e-8}{\centi\m}. 
+
+4. Arvutada \num{4}-\unit{\centi\m} raadiusega kerale antud laengu suurus, kui selle pinnal on laengu pindtihedus \qty{0,5e-4}{\coulomb\per\m\squared}.
+ 
+5. Kaks laengut, \qty{0,66e-7}{\coulomb} ja \qty{1,1e-5}{\coulomb}, asuvad vees \qty{3,3}{\centi\m} kaugusel teineteisest. Kui suur jõud mõjub laengute vahel? Millisele kaugusele tuleks need laengud asetada vaakumis, et mõjujõud jääks samaks?
+
+\newpage
 
 ##### Marken Parve
 

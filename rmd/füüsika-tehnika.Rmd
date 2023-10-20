@@ -294,20 +294,37 @@ Lahendusi saab võrrelda[@looduseuurimine].
 
 **Elastsuslained**
 
-1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: algusest. *12b*'ga valemi *16-7* tuletamisest.
+1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: algusest. Lahendasime harjutus *A*'ni. *12b*'ga valemi *16-7* tuletamisest.
 
-2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine.
+2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine. 
 
 3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine.
 
 4. Heli allikad:
-Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50].
-
-5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473].
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Jõudsin seletada harmoonikud.
 
 *12b*: Iseseisvaks lahendamiseks enne järgmist kontaktsessiooni:  @physics, lk 486-487'st lahendada ülesanded *11*, *13*, *15*, *17*, *19*, *21*, *23*, *25* ja *27*!
 
 ### 2023-10-20
+
+**Elastsuslained**
+
+0. *12b*: kas keegi tahab mooduli hinnet välja teenida?
+
+1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: harjutuse *A* järgsest.
+
+2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine. 
+
+3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine.
+
+4. Heli allikad:
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Toonide järgsest.
+
+5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473].
+
+6. Helilainete häired ja löögid[@physics(lk 473-476)].
+
+7. *Heli intensiivsuse ja interferentsist*[@labor2pdf] iseseisva eksperimendi selgitamine.
 
 Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Heli intensiivsuse määramine*[@heli]. Ülikooli asemel tuleb kasutada meie keskkooli. Näidiseks on minu protokoll[@katrin_2022_akustika].
 
