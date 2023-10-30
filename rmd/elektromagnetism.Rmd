@@ -534,15 +534,52 @@ voolutugevus (25.2)
 
 Kava:
 
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Alustame näitest *25-1*. *11b*: Alustame lehe *Elektrivool ja elektriahel* variatsiooniülesannete lahendamist.
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Alustasime näitest *25-1*. Jõudsime variatsiooniülesannetest lahendada esimese. *11b*: Alustasime lehe *Elektrivool ja elektriahel* variatsiooniülesannete lahendamist. Lahendasime variatsiooniülesanded lõpuni. Tutvustasin ka välistingimuste testi tingimusi.
 
 6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663].
 
 ### 2023-10-30
 
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+Õppesisu: Elektrivool (25.2).
+
+Põhimõisted:
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+pinge
+: potentsiaalide vahe[@physics, lk 662]
+
+Kava:
+
+1. Koduste ülesannete lahendamine.
+
+2. Välistingimuste testi tutvustamine.
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Lahendame lehe *Elektrivool ja elektriahel* variatsiooniülesanded alates teisest.
+
+6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663]. *11b*: alustame.
+
 ### 2023-11-3
 
-Elektrilise potentsiaali, mahtuvuse, dielektrikute, elektrienergia salvestamise, elektrivoolu ja magnetismi teadmiste ja oskuste kaardistamine.
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+Õppesisu: Elektrivool (25.2).
+
+Põhimõisted:
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+Elektrivoolu tugevuse test. *11a* kood: *s827666*. *11b* kood: *s877667*. Õpilased kogunevad kooli garderoobi juures oleva tagaukse juurde poolsisehoovi kontaktsessiooni alguseks, sisestavad oma täislaetud akuga nutitelefonis olevasse *MathCityMap*i rakendusse raja koodi, mõtlevad oma rühmale nime, sisestavad selle, samuti rühma kuni kolme liikme nime. Seejärel laetakse kaart ja täpselt kontaktsessiooni alguses avaneb mäng. Soovitan liikuda kontrollpunktide vahel kiiresti, et jääks rohkem aega ülesannete lahendamiseks. Test lõpeb täpselt kontaktsessiooni lõpuga.
+
+Martha tahab konsultatsiooni seitsmes periood.
 
 ### 2023-11-6
 
@@ -625,7 +662,7 @@ electroscope <- c(
   0,
   0,
   0,
-  0,
+  1, # Heinaru, Merili
   0,
   0,
   0,
@@ -892,90 +929,13 @@ print_table(
 
 #### Lihtsaimad arvutusülesanded
 
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
+3.1. Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist? Lahendus on esitatud joonisel \@ref(fig:solution-for-14-5) leheküljel `r render_pageref(reference = "fig:solution-for-14-5")`.
 
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
+```{r label = "solution-for-14-5", echo = FALSE, fig.cap = "Ülesande 3.1 lahenduskäik."}
+include_external_graphics("rmd/14-5.png")
 
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-\newpage
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-\newpage
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-\newpage
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
-3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
-
-3.1.    Keedusoolakristallis on naatriumiooni ja klooriooni vaheline kaugus \qty{2,84e-10}{\m}. Kui suure jõuga mõjutavad need ioonid teineteist?
-
+```
+    
 3.2.    Kaks pilve, mille laengud on vastavalt \qty{10}{\coulomb} ja \qty{-20}{\coulomb}, paiknevad teineteisest keskmiselt \qty{20}{\kilo\m} kaugusel. Kui suure jõuga mõjutavad need pilved teineteist?
 
 #### Keskmise keerukusega arvutusülesanded
@@ -1371,13 +1331,13 @@ from_statical_electricity_to_coulomb_law_1 <- c(
   0.03, # Mireta
   0.08, # Eteli
   0.06, # Hugo Miljand
-  0,
+  0.04, # Oliver Orro
   0,
   0,
   0.06, # Kristofer-Robin Plamus
   0,
   0,
-  0.06, # Kris Taimre
+  0.08, # Kris Taimre
   0.03, # Kiara Keiti Tepp
   0.08, # Birgit Tori
   0.08, # Markus Ööbik
@@ -1398,7 +1358,7 @@ from_statical_electricity_to_coulomb_law_1 <- c(
   0,
   0,
   0,
-  0.04, # Teele Tuul
+  0, # Teele Tuul
   .08, # Toren
   0.04 # Andreas Volman
 )
@@ -1413,13 +1373,13 @@ from_statical_electricity_to_coulomb_law_2 <- c(
   0.05, # Mireta
   0.06, # Eteli
   0.02, # Hugo Miljand
-  0,
+  0.15, # Oliver Orro
   0.16, # Henrico Parkkanen
   0,
   0,
   0.12, # Carl-Joonas Saar
   0,
-  0,
+  0.08, # Kris Taimre
   0.06, # Kiara Keiti Tepp
   0,
   0.11, # Markus Ööbik
@@ -1446,16 +1406,16 @@ from_statical_electricity_to_coulomb_law_2 <- c(
 )
 
 from_statical_electricity_to_coulomb_law_3 <- c(
-  0,
+  0.01, # Marie Allert
   0.35, # Sander Brinkmann
-  0.45, # Enrico Ernits
+  0.4, # Enrico Ernits
   0.25, # Merili
   0.4, # Fredi Kaljuvee
   0,
   0.4, # Mireta
   0.15, # Eteli
   0.1, # Hugo Miljand
-  0,
+  0.25, # Oliver Orro
   0,
   0,
   0.13, # Kristofer-Robin Plamus
@@ -1473,8 +1433,8 @@ from_statical_electricity_to_coulomb_law_3 <- c(
   0.33, # Miia Mirtel JÜrissaar
   0.03, # Kairit Kabel 
   0,
-  0,
   0.38, # Ketli Kruusmann
+  0,
   0,
   0,
   0,
@@ -1488,7 +1448,7 @@ from_statical_electricity_to_coulomb_law_3 <- c(
 )
 
 from_statical_electricity_to_coulomb_law_4 <- c(
-  0,
+  0.03, # Marie Allert
   0,
   0.72, # Enrico Ernits
   0.33, # Merili
@@ -1497,7 +1457,7 @@ from_statical_electricity_to_coulomb_law_4 <- c(
   0.06, # Mireta
   0.39, # Eteli
   0,
-  0,
+  0.3, # Oliver Orro
   0,
   0,
   0,
@@ -1514,9 +1474,9 @@ from_statical_electricity_to_coulomb_law_4 <- c(
   0.54, # Kaia Kretel Jürissaar
   0.36, # Miia Mirtel Jürissaar
   0.3, # Kairit Kabel 
-  0,
-  0.39, # Ketli Kruusmann
   0.45, # Alice Kivirüüt
+  0.39, # Ketli Kruusmann
+  0,
   0,
   0,
   0.18, # Anni Kaisi Paavel
@@ -1532,14 +1492,14 @@ from_statical_electricity_to_coulomb_law_4 <- c(
 from_statical_electricity_to_coulomb_law_5 <- c(
   0,
   0.22, # Sander Brinkmann
-  0.46, # Enrico Ernits
+  0.2, # Enrico Ernits
   0.85, # Merili
   0,
   0,
   0,
   0,
   0.43, # Hugo Miljand
-  0,
+  0.1, # Oliver Orro
   0,
   0,
   0.1, # Kristofer-Robin Plamus

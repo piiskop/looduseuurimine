@@ -7,13 +7,13 @@ Mõõtmise jaoks tuleb järjest endale selgeks teha kõik osad, mis on esitatud 
 \onecolumn
 
 ```{r label = "activities-of-learning-measuring", echo=FALSE, fig.cap = "Mõõtmise õppimise tegevused.", out.height="96%"}
-include_external_graphics("rmd/physics-measuring.svg")                                # 2
-                                                                                 # 3
+include_external_graphics("rmd/baasreeglistik/physics-measuring.svg")
+
 ```
 
 ```{r label = "activities-of-learning-uncertainty", echo=FALSE, fig.cap = "Mõõtemääramatuse otsustamine.", out.height="96%"}
-include_external_graphics("rmd/physics-uncertainty.svg")                                # 2
-                                                                                 # 3
+include_external_graphics("rmd/baasreeglistik/physics-uncertainty.svg")
+
 ```
 
 \twocolumn
@@ -338,7 +338,7 @@ Joonisel \@ref(fig:cities) leheküljel `r render_pageref(reference = "fig:cities
 (ref:caption-for-cities) Gravitatsioonist põhjustatud kiirendus eri Maa paigus[@elert_2019_glenn].
 
 ```{r label = "cities", echo = FALSE, fig.cap = "(ref:caption-for-cities)", echo = FALSE, out.extra="angle = 90", out.width=".92\\textheight"}
-include_external_graphics("rmd/g.png")
+include_external_graphics("rmd/baasreeglistik/g.png")
 
 ```
 
@@ -1753,8 +1753,8 @@ ruler_upper <- ruler_x_actual + ruler_smallest_unit_actual
 Minu kasutada oleva *deli* joonlaua kohta puuduvad tehaseandmed, mistõttu lähtun B-tüüpi mõõtemääramatuse arvutamises joonlaua väikseimast ühikust, milleks on skaalat $\frac{\num{1}}{\num{400}}$ kasutades \qty{`r as.character(ruler_smallest_unit)`}{\m} (joonis \@ref(fig:measuring-with-ruler-with-scales) leheküljel `r render_pageref(reference = "fig:measuring-with-ruler-with-scales")`[@noauthor_undated-ar]). Kuna kaardi mõõtkava on $\frac{\num{1}}{{4000}}$, siis on tegelikkuses lühim selle joonlauaga ja skaalaga mõõdetav vahemaa \qty{`r as.character(ruler_smallest_unit_actual)`}{\m}.
 
 ```{r label = "measuring-with-ruler-with-scales", echo=FALSE, fig.cap = "Kahe kontrollpunkti vahelise kauguse mõõtmine mõõtkavadega joonlauaga."}
-include_external_graphics("rmd/skaaladega-joonlaud.png")                                # 2
-                                                                                 # 3
+include_external_graphics("rmd/baasreeglistik/skaaladega-joonlaud.png")
+
 ```
 
 See joonlaud ei ole digitaalne, mistõttu jääb B-tüüpi mõõtemääramatuseks väikseim ühik.
@@ -1786,9 +1786,14 @@ ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +   
   geom_point(shape = 23, size = 1) +                                                                                                                                                                                                                                                             # 14
   labs(x = TeX("$\\frac{\\textit{q}}{m}$")) +                                                                                                                                                                                              # 15
   geom_errorbarh(aes(xmin = `ruler_x_actual` - ruler_smallest_unit_actual, xmax = `ruler_x_actual` + ruler_smallest_unit_actual), color = color_x) +                                                                                                                                                                      # 16
-  theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
-        axis.text.y=element_blank(), 
-        axis.ticks.y=element_blank()) +
+  theme(
+    axis.title.x = element_text(colour = color_x),
+    axis.text.x = element_text(colour = color_x),
+    axis.ticks.x = element_line(colour = color_x),
+    axis.title.y=element_blank(), 
+    axis.text.y=element_blank(), 
+    axis.ticks.y=element_blank()
+  ) +
   scale_x_continuous(
   labels = scales::number_format(accuracy = 1))
 
@@ -1807,8 +1812,8 @@ Digitaalne nihik omab kuva, mis näitab elektrooniliselt kauguse kuvades selle t
 Näitena on mul kasutuses digitaalne nihik ja ma mõõdan sellega oma sõrme jämedust, nagu on näha joonisel \@ref(fig:measuring-with-caliper) leheküljel `r render_pageref(reference = "fig:measuring-with-caliper")`.
 
 ```{r label = "measuring-with-caliper", echo=FALSE, fig.cap = "Sõrme jämeduse mõõtmine digitaalse nihikuga."}
-include_external_graphics("rmd/nihik.jpg")                                # 2
-                                                                                 # 3
+include_external_graphics("rmd/baasreeglistik/nihik.jpg")
+
 ```
 
 
@@ -1970,9 +1975,14 @@ ggplot(data = caliper_data_frame, mapping = aes(x = `caliper`, y = 0)) +        
   geom_errorbarh(aes(xmin = caliper_mean - caliper_sd, xmax = caliper_mean + caliper_sd), height = .1) +
   geom_errorbarh(aes(xmin = caliper_mean - caliper_sd_mean, xmax = caliper_mean + caliper_sd_mean), color = "#ff6600", height = .2) +
   geom_errorbarh(aes(xmin = caliper_mean - caliper_uncertainty_A, xmax = caliper_mean + caliper_uncertainty_A), color = "#ff66ff", height = .4) +
-  theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
-        axis.text.y=element_blank(), 
-        axis.ticks.y=element_blank()) #+
+  theme(
+    axis.title.x = element_text(colour = color_x),
+    axis.text.x = element_text(colour = color_x),
+    axis.ticks.x = element_line(colour = color_x),
+    axis.title.y=element_blank(), 
+    axis.text.y=element_blank(), 
+    axis.ticks.y=element_blank()
+  ) #+
 #  scale_x_continuous(
  #   labels = scales::number_format(accuracy = 0.00001)
 #  )
@@ -1988,8 +1998,8 @@ Valgusmõõturiga saab mõõta valgustust ehk seda, kui palju valgust langeb pin
 Meil on kasutada digitaalne valgusmõõtur sarjast *ST-1300* (joonis \@ref(fig:measuring-with-light-meter) leheküljel `r render_pageref(reference = "fig:measuring-with-light-meter")`). Kuna see on digitaalne, tuleb mõõtmisi korrata ja arvutada A-tüüpi mõõtemääramatus. Valgusmõõturiga korratakse mõõtmisi niimoodi, et mõõdetakse samas kohas, kuid vahepeal nullitakse näit kattes sensori. A-tüüpi mõõtemääramatuse arvutamine on kirjeldatud [nihiku](#caliper) sektsioonis.
 
 ```{r label = "measuring-with-light-meter", echo=FALSE, fig.cap = "Valgusmõõtur sarjast *ST-1300*."}
-include_external_graphics("rmd/light-meter.jpg")                                # 2
-                                                                                 # 3
+include_external_graphics("rmd/baasreeglistik/light-meter.jpg")
+
 ```
 
 Kuna selle masina puhul on kirjas ka tootjapoolne tabavus, siis tuleb arvutada B-tüüpi mõõtemääramatus selle järgi. Esitatud on kaks tabavuskarakteristikut: $\pm \qty{5}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$, kui valgustus on väiksem kui \qty{10000}{\lux}, ja $\pm \qty{10}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$, kui valgustus on suurem kui \qty{10000}{\lux}.
@@ -2051,27 +2061,27 @@ Kogu mõõtemääramatuse arvutamiseks tuleb kõik alammõõtemääramatuste vek
 Joonisel \@ref(fig:illuminance-uncertainties) leheküljel `r render_pageref(reference = "fig:illuminance-uncertainties")` on esitatud valgustugevuse mõõtmise tulemused keskväärtuse ja mõõtemääramatustega: mustaga on tähistatud A-, oranžiga B1-, roosaga B2-tüüpi ja rohelisega kogu mõõtemääramatus. Sellelt jooniselt näeme, kui palju mingit tüüpi mõõtemääramatus antud juhul mõju avaldab.
 
 ```{r label = "illuminance-uncertainties", fig.cap="Valgustugevus koos keskmise valgustugevuse ja mõõtemääramatustega.", echo=FALSE}
-librarian::shelf(c(                                                                                                                                                                                                                                                                               # 2
-  "ggplot2",                                                                                                                                                                                                                                                                                      # 3
-  "latex2exp"                                                                                                                                                                                                                                                                                     # 4
-))                                                                                                                                                                                                                                                                                                # 5
-                                                                                                                                                                                                                                                                                                  # 6
-color_x <- "#008000"                                                                                                                                                                                                                                                                             # 10
-                                                                                                                                                                                                                                                                                                 # 12
-ggplot(data = illuminance_data_frame, mapping = aes(x = `illuminance`, y = 0)) +                                                                                                                                                                                                   # 13
-  geom_point(shape = 23, size = 1) +    
+librarian::shelf(c(
+  "ggplot2",
+  "latex2exp"
+))
+color_x <- "#008000"
+ggplot(data = illuminance_data_frame, mapping = aes(x = `illuminance`, y = 0)) +
+  geom_point(shape = 23, size = 1) +
   geom_point(aes(x = illuminance_mean, y = 0), shape = 23, size = 2, color = color_x) +
-  labs(x = TeX("$\\frac{\\textit{q}}{lx}$")) +                                                                                                                                                          # 15
+  labs(x = TeX("$\\frac{\\textit{q}}{lx}$")) +
   geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty, xmax = illuminance_mean + illuminance_uncertainty), color = color_x) +
   geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty_A, xmax = illuminance_mean + illuminance_uncertainty_A), height = .1) +
   geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty_B_1, xmax = illuminance_mean + illuminance_uncertainty_B_1), color = "#ff6600", height = .2) +
   geom_errorbarh(aes(xmin = illuminance_mean - illuminance_uncertainty_B_2, xmax = illuminance_mean + illuminance_uncertainty_B_2), color = "#ff66ff", height = .4) +
-  theme(axis.title.x = element_text(colour = color_x), axis.text.x = element_text(colour = color_x), axis.ticks.x = element_line(colour = color_x), axis.title.y=element_blank(), 
-        axis.text.y=element_blank(), 
-        axis.ticks.y=element_blank()) #+
-#  scale_x_continuous(
- #   labels = scales::number_format(accuracy = 0.00001)
-#  )
+  theme(
+    axis.title.x = element_text(colour = color_x),
+    axis.text.x = element_text(colour = color_x),
+    axis.ticks.x = element_line(colour = color_x),
+    axis.title.y=element_blank(), 
+    axis.text.y=element_blank(), 
+    axis.ticks.y=element_blank()
+  )
 
 ```
 

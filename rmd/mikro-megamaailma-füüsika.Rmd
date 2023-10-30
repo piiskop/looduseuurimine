@@ -535,13 +535,13 @@ Kava:
 
 Kava:
 
-2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Näite *13-4* tegime läbi. Vaja veel vaid kontrollida keskmisega.
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Näite *13-4* tegime läbi. Lk 370 ülaosa käsitletud. Pillery ja Katrina lahendasid akvaariumiülesannet keskmisega.
 
 3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
 
-4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372]. *12b*: alustame.
+4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372]. *12b*: tegime läbi.
 
-5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374].
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12b*: Tabeli 13-2 kirjeldasin ja arvutasin, kui suurt rõhuerinevust saab mõõta 1 mm veesambaga.
 
 6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
@@ -552,6 +552,22 @@ Kava:
 \twocolumn
 
 ### 2023-10-30
+
+Kava:
+
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Alustame kõrguse mõjuga atmosfäärirõhule lk 370.
+
+3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
+
+4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372].
+
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12b*: Jätkame tabeli 13-2 alt.
+
+6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
+
+7. Kõrrega joomise demonstratsioon.
+
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378].
 
 ### 2023-11-6
 
