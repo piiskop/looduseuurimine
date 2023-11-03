@@ -1089,7 +1089,20 @@ Kava:
 
 ### 2023-11-2
 
+
+
+
 ### 2023-11-2
+
+Ülesanne järgmiseks kontaktsessiooniks:
+
+Lahendada @physics(lk 48-49)'st ülesanded 21, 23, 25, 27, 29 ja 31! Lahendeid saab kontrollida @physics(lk A-23)'st.
+
+Lugeda esimese arusaamatu kohani ja raporteerida mulle arusaamatu koht:
+
+1. @physics(lk 30-33).
+
+Kui jõudsid lõpuni ja kõik oli selge, siis palun kirjuta, et kõik oli selge.
 
 ### 2023-12-11
 
@@ -1659,9 +1672,48 @@ Kava:
 
 4.  SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Mis läks konverteerimises joonisel \@ref(fig:converting-from-m-per-s-into-mi-per-h) leheküljel `r render_pageref(reference = "fig:converting-from-m-per-s-into-mi-per-h")` nihu?
 
-5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions].
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. *10a*: Jõudsime näite 1-10 komponendid dimensionaalanalüüsida.
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10b*: Jätkan B-tüüpi mõõtemääramatuse selgitamisega.
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10b*: Giancoli õpikust rääkisin mõõtemääramatuse ära, samuti eestikeelse õpiku näited.
+
+### 2023-11-3
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. *10a*: Näite 1-10 magnituud arvutada!
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10b*: "The Beginner’s Guide to
+Uncertainty of Measurement"-ga jätkame.
 
 7. Toores hinnang[@physics, lk 11-13].
 
@@ -1679,7 +1731,7 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
-### 2023-11-3
+Grethel tuleb reedes seitsmenda perioodi või kaheksanda perioodi kestel konsultatsiooni.
 
 ### 2023-11-6
 

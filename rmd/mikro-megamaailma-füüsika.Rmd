@@ -634,3 +634,9 @@ Tuumaenergia ning radiatsiooni mõju ja kasutamise teadmiste ja oskuste kaardist
 ### 2024-5-27
 
 Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
+
+## Ülesanded
+
+### Pindpinevus ja kapillaarsus[@physics(lk 396)]
+
+73) Arvutage @physics(lk 386)'i joonisel 13-37 traadi liigutamiseks vajalik jõud, kui see hoiab seebilahust (tabel 13-4 @physics(lk 387)'s) ja traadi pikkus on \qty{21,5}{\centi\m}.

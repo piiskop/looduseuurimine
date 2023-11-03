@@ -79,28 +79,30 @@ Krüovedelikud ja krüogeenika. Allajahutatud ja ülekuumendatud vedelikud. Här
 (sublimatsioon), aine sulamistemperatuuri sõltuvus rõhust. Süsihappelumi ja teised mitte-H2O jääd.
 Lahused ja faasisiirded.
 
-4. **Soojusmasinad ja energiamajandus.** Termodünaamika I printsiibi ilmnemine isoprotsessides.
+4. ~~**Soojusmasinad ja energiamajandus.**~~ Termodünaamika I printsiibi ilmnemine isoprotsessides.
 Adiabaatiline protsess. Ideaalne soojusmasin. Soojusmasina kasutegur. Ringprotsess. Pööratavad ja
 mittepööratavad protsessid. Reaalsed soojusmasinad (auruturbiin, ottomootor, diiselmootor,
 stirlingmootor) ja nende kasutegurid. Energiaallikad, energia muundamine, transport ja salvestamine.
 
-5. **Entroopia ja negentroopia.** Entroopia mõiste käsitlused. Info, energia ja aine entroopiliselt
+5. ~~**Entroopia ja negentroopia.**~~ Entroopia mõiste käsitlused. Info, energia ja aine entroopiliselt
 seisukohalt. Maa ja universumi entroopia ning negentroopia. Mittetasakaalulised protsessid.
 Rakendused: külmuti ja soojuspump.
 
-6. **Kondensaator ja induktiivpool.** Plaatkondensaatori mahtuvus. Kondensaatorite ehitus ja liigid. Laetud
+6. ~~**Kondensaator ja induktiivpool.**~~ Plaatkondensaatori mahtuvus. Kondensaatorite ehitus ja liigid. Laetud
 kondensaatori energia. Kondensaatorite kasutusnäited. Pika ja peenikese pooli induktiivsus. Vooluga
 induktiivpooli energia. Ülijuhtiva mähisega elektromagnetid ja nende kasutamine.
 
-7. **Juhid ja dielektrikud.** Dielektrikute polarisatsioon. Varjestamine. Aine dielektriline läbitavus.
+7. ~~**Juhid ja dielektrikud.**~~ Dielektrikute polarisatsioon. Varjestamine. Aine dielektriline läbitavus.
 Piesoelektrikud ja ferroelektrikud. Rakendused: piesoelektrilised andurid ja täiturid, elektronkaal,
 kvartskell.
 
-8. **Ainete magnetilised omadused.** Aine magnetiline läbitavus. Dia- ja paramagneetikud. Kõvad ja
+8.  **Ainete magnetilised omadused.** Aine magnetiline läbitavus. Dia- ja paramagneetikud. Kõvad ja
 pehmed ferromagneetikud. Ferromagneetiku domeenstruktuur ja hüsterees. Rakendused:
 elektromagnetid ja magnetiline infosalvestus.
 
-9. **Elektrivool vedelikes ja gaasides.** Elektrolüüs. Faraday I seadus elektrolüüsi kohta. Elektrolüüsi
+    28: 8-11?
+
+9. ~~**Elektrivool vedelikes ja gaasides.**~~ Elektrolüüs. Faraday I seadus elektrolüüsi kohta. Elektrolüüsi
 rakendusnäiteid. Sõltuv ja sõltumatu gaaslahendus. Kasutusnäited.
 
 10. **Pooljuhtelektroonika.** Juhi, pooljuhi ja mittejuhi erinevused tsooniteoorias. Pooljuhtide omajuhtivus
@@ -109,15 +111,15 @@ Elektronjuhtivus ja aukjuhtivus. pn-siire. Alaldi, fotodiood, valgusdiood, diood
 pooljuhtlaser. Päikesepaneelid. Bipolaar- ja väljatransistor. Kiip, selle kasutamine analoog- ja
 digitaallülitustes.
 
-11. **Vahelduvvoolu kasutamine.** Vahelduvvoolu iseloomustavad suurused. Elektriohutus. Kaitsemaandus.
+11. ~~**Vahelduvvoolu kasutamine.**~~ Vahelduvvoolu iseloomustavad suurused. Elektriohutus. Kaitsemaandus.
 Kaitsmed. Aktiiv-, induktiiv- ja mahtuvustakistus vahelduvvooluahelas. Näivtakistus. Kogutakistus.
 Ohmi seadus vahelduvvooluahela kohta.
 
-12. **Vahelduvvoolumasinad.** Alalisvoolumootor ja -generaator. Trafo talitlus, trafode kasutamine.
+12. ~~**Vahelduvvoolumasinad.**~~ Alalisvoolumootor ja -generaator. Trafo talitlus, trafode kasutamine.
 Vahelduvvoolugeneraator ja asünkroonmootor. Vahelduvvoolu võimsustegur. Kolmefaasiline vool.
 Elektrienergia tootmine, ülekanne ja jaotamine Eesti näitel.
 
-13. **Elektromagnetvõnkumised ja -lained.** Võnkering. Elektromagnetlainete tekitamine.
+13. ~~**Elektromagnetvõnkumised ja -lained.**~~ Võnkering. Elektromagnetlainete tekitamine.
 Elektromagnetlainete skaala. Raadiolained ja nende levimine. Raadioside põhialused.
 Raadiolokatsioon ja GPS. Nüüdisaegsed sidevahendid.
 
@@ -218,13 +220,7 @@ Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*: Difere
 
 Pikilainete matemaatiline esitus (16-2)[@physics, lk 462-463]. *12b*: Jõudsime lõpuni.
 
-Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanne 73! Maakeeli on see ülesanne selline:
-
-\qty{3e-5}{\kg} massiva vihmapiisa lõppkiirus on
-umbes \qty{9}{\m\per\s}. Eeldades takistusjõu $F_\mathrm{D} = -b \cdot v$ olemasolu tee kindlaks konstandi *b* väärtus ja aeg, mis on 
-vajalik, et see vihmapiisk alates puhkeseisundist langedes saavutaks \qty{63}{\percent}
-lõppkiirusest.
-
+Iseseisev ülesanne lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 142 lahendada ülesanne 73!
 Näidislahendus on tahvlil[@looduseuurimine].
 
 ### 2023-09-29
@@ -239,26 +235,7 @@ Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*'ga jät
 
 2. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12b*'ga alustasime. Jõudsime näiteni *16-5*, mida ei käsitlenud.
 
-*12b* iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486 lahendada ülesanded *7*, *8* ja *9*! Maakeeli on nende ülesannete püstitused sellised:
-
-*7*: Helilaine rõhuamplituud õhus
-($\rho = \qty{1,29}{\kg\per\cubic\m}$) temperatuuril \qty{0}{\degreeCelsius} on \qty{3,0e-3}{\Pa}. Mis on
-nihke amplituud, kui sagedus on
-
-(a) \qty{250}{\Hz} ja
-
-(b) \qty{25}{\kHz}?
-
-*8*: Milline peab olema rõhu amplituud helilaines
-õhus (\qty{0}{\degreeCelsius}), kui õhumolekulid läbivad maksimaalselt nihke, mis on võrdne hapnikumolekuli läbimõõduga,
-umbes \qty{3e-10}{\m}? Oletame helilaine sageduseks
-
-(a) \qty{75}{\Hz} ja
-
-(b) \qty{7,5}{\kHz}.
-
-*9*: Kirjutage avaldis, mis kirjeldab rõhu muutumist funktsioonina *x*'st ja *t*'st ülesandes *8* kirjeldatud lainete puhul.
-
+*12b* iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486 lahendada ülesanded *7*, *8* ja *9*! 
 ### 2023-10-6
 
 **Elastsuslained**
@@ -305,30 +282,52 @@ Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-5
 
 *12b*: Iseseisvaks lahendamiseks enne järgmist kontaktsessiooni:  @physics, lk 486-487'st lahendada ülesanded *11*, *13*, *15*, *17*, *19*, *21*, *23*, *25* ja *27*!
 
+\onecolumn
+
 ### 2023-10-20
 
 **Elastsuslained**
 
 0. *12b*: kas keegi tahab mooduli hinnet välja teenida?
 
-1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: harjutuse *A* järgsest.
+1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: harjutuse *A* järgsest. Näide 16-6 tehtud.
+
+2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine. 
+
+3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine.
+
+4.  Heli allikad:
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Toonide järgsest. Lahendasime näite 16-8. Miski läks nihu, sest korrutamise asemel jagasime (joonis \@ref(fig:piano-strings) leheküljel `r render_pageref(reference = "fig:piano-strings")`).
+
+```{r label = "piano-strings", echo = FALSE, fig.caption = "Esitatud on keele pikkuse, lainepikkuse, sageduse, helikiiruse ja pinge vahelised seosed. Mis läks nihu pikema klaverikeele pikkuse valemi koostamises?"}
+include_external_graphics(path="rmd/klaverikeel-IMG_20231020_093322.jpg")
+
+```
+
+Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Heli intensiivsuse määramine*[@heli]. Ülikooli asemel tuleb kasutada meie keskkooli. Näidiseks on minu protokoll[@katrin_2022_akustika].
+
+\twocolumn
+
+### 2023-11-3
+
+**Elastsuslained**
+
+0. *12b*: ülevaade järgmistest moodulitest ja hetkeseisust, akustika juurdeõppimise võimalustest.
+
+1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: Alustame näitest 16-7.
 
 2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine. 
 
 3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine.
 
 4. Heli allikad:
-Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Toonide järgsest.
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Alustame näiteülesande 16-8 lahenduse kordategemisest (joonis \@ref(fig:piano-strings) leheküljel `r render_pageref(reference = "fig:piano-strings")`).
 
 5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473].
 
 6. Helilainete häired ja löögid[@physics(lk 473-476)].
 
 7. *Heli intensiivsuse ja interferentsist*[@labor2pdf] iseseisva eksperimendi selgitamine.
-
-Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Heli intensiivsuse määramine*[@heli]. Ülikooli asemel tuleb kasutada meie keskkooli. Näidiseks on minu protokoll[@katrin_2022_akustika].
-
-### 2023-11-3
 
 Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Kõrv ja kuulmine*[@labor1pdf]. Näidiseks on minu protokoll[@katrin_2022_akustika, lk 11-16].
 
@@ -385,3 +384,96 @@ Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli
 ### 2024-5-24
 
 ### 2024-5-31
+
+## Ülesanded
+
+### Kiirusvektorist sõltuvad jõud[@physics(lk 142)]
+
+73) \qty{3e-5}{\kg} kaaluva vihmapiisa lõppkiirus on umbes \qty{9}{\m\per\s}. Eeldades tõmbejõudu $F_\mathrm{D} = - b \cdot v$, määrake
+  
+  - konstandi $b$ väärtus ja
+  
+  - aeg, mis kulub sellisele langusele, alustades puhkeseisundist, et jõuda \qty{63}{\percent}'ni lõppkiirusest.
+
+75) Suurte objektide, nagu autod, lennukid ja läbi õhu liikuvad taevasukeldujad, tõmbejõud on $F_\mathrm{D} = - c \cdot v^2$.
+
+  - Selle ruutsõltuvuse jaoks $v$-st määrake vertikaalselt langeva objekti lõppkiiruse $v_\mathrm{T}$ valem.
+  
+  - Määrake konstandi $c$ väärtus \qty{75}{\kg} kaaluvale taevasukeldujale, kelle lõppkiirus on umbes \qty{60}{\m\per\s}.
+  
+  - Joonistage selle $F_\mathrm{D} \propto v^2$ juhtumi jaoks joonisel 5-27b @physics(lk 134)'l kujutatud kõver. Kas see kõver asetseks sama lõppkiiruse korral ülevalpool või allpool joonisel 5-27 olevat? Selgita miks.
+  
+77) Jalgrattur võib \qty{7,8}{\degree} mäest alla sõita ühtlase kiirusega \qty{9,5}{\kilo\m\per\hour}. Kui tõmbejõud on võrdeline kiiruse $v$ ruuduga, nii et $F_\mathrm{D} = -c \cdot v^2$, arvutage
+
+  - konstandi $c$ väärtus ja
+  
+  - keskmine jõud, mida tuleb rakendada mäest \qty{25}{\kilo\m\per\hour} laskumiseks. Jalgratturi ja jalgratta mass on \qty{80,0}{\kg}. Ignoreeri muud tüüpi hõõrdumist.
+
+79) Mootorpaat, mis sõidab kiirusega \qty{2,4}{\m\per\s}, lülitab mootorid välja, kui $t = 0$. Kui kaugele ta läbib enne seisma jäämist, kui on täheldatud, et \qty{3,0}{\s} pärast on selle kiirus langenud pooleni esialgset väärtust? Oletame, et vee tõmbejõud on võrdeline $v$-ga.
+
+### Lainete matemaatiline esitus[@physics(lk 486)]
+
+7) Helilaine rõhuamplituud õhus
+($\rho = \qty{1,29}{\kg\per\cubic\m}$) temperatuuril \qty{0}{\degreeCelsius} on \qty{3,0e-3}{\Pa}. Mis on
+nihke amplituud, kui sagedus on
+
+  - \qty{250}{\Hz} ja
+
+  - \qty{25}{\kHz}?
+
+8) Milline peab olema rõhu amplituud helilaines
+õhus (\qty{0}{\degreeCelsius}), kui õhumolekulid läbivad maksimaalselt nihke, mis on võrdne hapnikumolekuli läbimõõduga,
+umbes \qty{3e-10}{\m}? Oletame helilaine sageduseks
+
+  - \qty{75}{\Hz} ja
+
+  - \qty{7,5}{\kHz}.
+
+9) Kirjutage avaldis, mis kirjeldab rõhu muutumist funktsioonina *x*'st ja *t*'st ülesandes *8* kirjeldatud lainete puhul.
+
+### Helitugevus ja detsibellid
+
+11) Milline on heli, mille helitugevus on \qty{3,0e-6}{\watt\per\m\squared}, helitase?
+
+13) Millised on madalaimad ja kõrgeimad sagedused, mida kõrv suudab tuvastada, kui helitase on \qty{40}{\decibel}? (Vt joon. 16-6 @physics(lk 467)'l.)
+
+15) Teie kõrvad mahutavad suure hulga helitasemeid. Milline on kõrgeima ja madalaima intensiivsuse suhe sagedustel
+
+  - \qty{100}{\Hz},
+  
+  - \qty{5000}{\Hz}?
+  
+  (Vt joon. 16-6 @physics(lk 467)'l.)
+  
+17) Inimene, kes seisab teatud kaugusel nelja võrdselt mürarikka reaktiivmootoriga lennukist, kogeb helitaset \qty{140}{\decibel}. Millist helitaset see inimene kogeks, kui kapten lülitaks kõik peale ühe
+mootori välja? [Vihje: liitke intensiivsused, mitte detsibellid.]
+
+19) Ilutulestiku mürsk plahvatab \qty{100}{\m} kõrgusel maapinnast, tekitades värvilisi sädemeid. Kui palju suurem on plahvatuse müratase inimesel plahvatusest vahetult allpool asuvas punktis kui inimesel horisontaalselt maapinnal \qty{200}{\m} kaugusel?
+
+21) Õhku läbib toatemperatuuril \num{440}-\unit{\Hz} helilaine, mille intensiivsus on valulävel (\qty{120}{\decibel}).
+
+  - Kui palju maksimaalselt nihkuvad õhumolekulid selle helilaine toimel?
+  
+  - Milline on selle laine rõhuamplituud?
+  
+23) Kahel helilainel on võrdne nihke amplituudid, kuid ühe sagedus on \num{3,5} korda suurem kui teise sagedus.
+
+  - Kummal on suurem rõhuamplituud ja millise teguri võrra on see suurem?
+  
+  - Milline on nende intensiivsuse suhe?
+  
+25) Inimese tavavestluse heli intensiivsus \qty{50}{\centi\m} kaugusel on \qty{3e-6}{\watt\per\m\squared}.
+
+  - Hinnake tavavestluses rääkiva inimese heli väljundvõimsust. Oletame, et heli levib ligikaudu ühtlaselt üle suu keskpunktiga sfääri.
+  
+  - Kui palju inimesi oleks vaja
+koguda, et tekitada tavavestluse heli võimsus \qty{60}{\watt}?
+
+    [Vihje: lisage intensiivsused, mitte dBs.]
+    
+27) Kalli võimendi A nimivõimsus on \qty{280}{\watt}, samas kui tagasihoidlikuma võimendi B nimivõimsus on \qty{45}{\watt}.
+
+  - Hinnake helitaset detsibellides, mida võiksite oodata \qty{3,5}{\m} kaugusel asuvas punktis kõlarist, mis on ühendatud kord ühe, kord teise võimendiga.
+  
+  - Millise väljundvõimsusega võimendi tekitaks kahekordse \num{45}-\unit{watt} võimendi helitugevuse?
+  

@@ -551,18 +551,9 @@ Põhimõisted:
 voolutugevus (25.2)
 : igasugune laenguvool[@physics, lk 720]
 
-pinge
-: potentsiaalide vahe[@physics, lk 662]
-
 Kava:
 
-1. Koduste ülesannete lahendamine.
-
-2. Välistingimuste testi tutvustamine.
-
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Lahendame lehe *Elektrivool ja elektriahel* variatsiooniülesanded alates teisest.
-
-6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663]. *11b*: alustame.
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Lahendasime lehe *Elektrivool ja elektriahel* variatsiooniülesanded teisest viiendani. *11b*: Esimese koduse ülesande lahendasime tahvli abil.
 
 ### 2023-11-3
 
@@ -577,11 +568,35 @@ Põhimõisted:
 voolutugevus (25.2)
 : igasugune laenguvool[@physics, lk 720]
 
-Elektrivoolu tugevuse test. *11a* kood: *s827666*. *11b* kood: *s877667*. Õpilased kogunevad kooli garderoobi juures oleva tagaukse juurde poolsisehoovi kontaktsessiooni alguseks, sisestavad oma täislaetud akuga nutitelefonis olevasse *MathCityMap*i rakendusse raja koodi, mõtlevad oma rühmale nime, sisestavad selle, samuti rühma kuni kolme liikme nime. Seejärel laetakse kaart ja täpselt kontaktsessiooni alguses avaneb mäng. Soovitan liikuda kontrollpunktide vahel kiiresti, et jääks rohkem aega ülesannete lahendamiseks. Test lõpeb täpselt kontaktsessiooni lõpuga.
+pinge
+: potentsiaalide vahe[@physics, lk 662]
+
+Kava:
+
+1. Koduste ülesannete lahendamine.
+
+2. Välistingimuste testi tutvustamine.
+
+5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Lahendame lehe *Elektrivool ja elektriahel* variatsiooniülesanded alates kuuendast.
+
+6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663]. *11b*: alustame.
 
 Martha tahab konsultatsiooni seitsmes periood.
 
 ### 2023-11-6
+
+Kursuse lõpus õpilane:
+
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+
+Õppesisu: Elektrivool (25.2).
+
+Põhimõisted:
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
+Elektrivoolu tugevuse test. *11a* kood: *s827666*. *11b* kood: *s877667*. Õpilased kogunevad kooli garderoobi juures oleva tagaukse juurde poolsisehoovi kontaktsessiooni alguseks, sisestavad oma täislaetud akuga nutitelefonis olevasse *MathCityMap*i rakendusse raja koodi, mõtlevad oma rühmale nime, sisestavad selle, samuti rühma kuni kolme liikme nime. Seejärel laetakse kaart ja täpselt kontaktsessiooni alguses avaneb mäng. Soovitan liikuda kontrollpunktide vahel kiiresti, et jääks rohkem aega ülesannete lahendamiseks. Test lõpeb täpselt kontaktsessiooni lõpuga.
 
 ### 2023-11-10
 
