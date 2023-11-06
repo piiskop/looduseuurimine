@@ -1710,16 +1710,34 @@ mõõtühikute süsteem
 
 Kava:
 
-5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. *10a*: Näite 1-10 magnituud arvutada!
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. *10a*: Näite 1-10 magnituudi arvutasime. 
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10b*: "The Beginner’s Guide to
-Uncertainty of Measurement"-ga jätkame.
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Selgitasin tabavuse, täpsuse, mõõtemääramatuse tüübid, B-tüüpi määramatuste olemuse, väikseima ühiku kasutamise, mõõtemääramatuse kirjutamise stiilid, liitmõõtemääramatuse, milles tüübid. Järgmine kord alustame A-tüüpi mõõtemääramatuse eksperimendiga. *10b*: -ga jätkame.Näitasin "The Beginner’s Guide to
+Uncertainty of Measurement"-st asjad ette, näitasin liitmõõtemääramatuse valemi mitme sisendi puhul. Järgmisena võtame ette prantsuskeelse juhendi ja teeme selle näited läbi eri moel alustades näitest 1.2.2 @a12(lk 10)'l.
+
+Grethel tuli reedes seitsmenda perioodi või kaheksanda perioodi kestel konsultatsiooni.
+
+### 2023-11-6
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: alustame A-tüüpi mõõtemääramatuse eksperimendiga. *10b*: -ga jätkame. Võtame ette prantsuskeelse juhendi ja teeme selle näited läbi eri moel alustades näitest 1.2.2 @a12(lk 10)'l.
 
 7. Toores hinnang[@physics, lk 11-13].
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
-
-3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
 
 5: 55, 57,
 
@@ -1730,10 +1748,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-Grethel tuleb reedes seitsmenda perioodi või kaheksanda perioodi kestel konsultatsiooni.
-
-### 2023-11-6
 
 ### 2023-11-10
 

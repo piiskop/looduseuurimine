@@ -299,7 +299,7 @@ Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-5
 4.  Heli allikad:
 Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Toonide järgsest. Lahendasime näite 16-8. Miski läks nihu, sest korrutamise asemel jagasime (joonis \@ref(fig:piano-strings) leheküljel `r render_pageref(reference = "fig:piano-strings")`).
 
-```{r label = "piano-strings", echo = FALSE, fig.caption = "Esitatud on keele pikkuse, lainepikkuse, sageduse, helikiiruse ja pinge vahelised seosed. Mis läks nihu pikema klaverikeele pikkuse valemi koostamises?"}
+```{r label = "piano-strings", echo = FALSE, fig.cap = "Esitatud on keele pikkuse, lainepikkuse, sageduse, helikiiruse ja pinge vahelised seosed. Mis läks nihu pikema klaverikeele pikkuse valemi koostamises?"}
 include_external_graphics(path="rmd/klaverikeel-IMG_20231020_093322.jpg")
 
 ```

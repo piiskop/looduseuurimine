@@ -16,6 +16,8 @@ include_external_graphics("rmd/baasreeglistik/physics-uncertainty.svg")
 
 ```
 
+Mõõtemääramatust on üldjoontes kaht tüüpi: A ja B.
+
 \twocolumn
 
 ## Suhteline viga
@@ -1275,7 +1277,10 @@ mistõttu ühik on $\unit{\metre\squared\per\second\squared}$ või teisiti $\uni
 
 ## Elektromagnetism
 
-### Elektrivool
+### Elektrostaatika
+
+elektrilaeng ($Q$)
+: elektrienergia kogus; st omadus, mis kontrollib kehade vahelist vastasmõju elektriliste jõudude kaudu[@haynes_2014_crc]
 
 Elementaarlaeng on esitatud avaldises \@ref(eq:elementary-charge) leheküljel `r render_pageref(reference = "eq:elementary-charge")` [@bureau_1974_the(lk 134)].
 
@@ -1293,6 +1298,16 @@ e = \qty{`r as.character(e)`}{\coulomb} = \qty{`r as.character(e)`}{\A\s}.
 
 ```
 
+Elektrilaeng on positiivsete ja negatiivsete elementaarlaengute netosumma (valem \@ref(eq:charge) leheküljel `r render_pageref(reference = "eq:charge")`).
+
+```{=tex}
+\begin{align}
+Q = \sum{\pm e}.
+(\#eq:charge)
+\end{align}
+
+```
+
 Elektrilaengu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-electric-charge) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-electric-charge")`.
 
 ```{=tex}
@@ -1302,6 +1317,100 @@ Elektrilaengu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-
 \end{align}
 
 ```
+
+Vaba ruumi lubatavuse väärtus on esitatud avaldises \@ref(eq:permittivity-of-vacuum) leheküljel `r render_pageref(reference = "eq:permittivity-of-vacuum")`[@haynes_2014_crc(lk 12-151)].
+
+```{=tex}
+\begin{align}
+\epsilon_0 = \qty{8.8542e-12}{\farad\per\m} = \qty{8.8542e-12}{\per\m\cubed\per\kg\s\tothe{4}\A\tothe{2}}.
+(\#eq:permittivity-of-vacuum)
+\end{align}
+
+```
+
+dielektriline konstant ($ε$)
+: elektrilise nihke ja elektrivälja tugevuse suhe keskkonnas. Seda nimetatakse ka lubavuseks[@haynes_2014_crc(lk 2-50)]
+
+Dielektriline konstant on esitatud avaldises \@ref(eq:permittivity) leheküljel `r render_pageref(reference = "eq:permittivity")` [@haynes_2014_crc(lk 6-187)]. Selles $\epsilon_0$ on vaba ruumi lubatavus[@haynes_2014_crc(lk 10-187)].
+
+```{=tex}
+\begin{align}
+\epsilon = \epsilon_0 \cdot \epsilon_\mathrm{r}.
+(\#eq:permittivity)
+\end{align}
+
+```
+
+Levinuimate ainete dielektriline konstant on esitatud tabelis \@ref(tab:permittivity) leheküljel `r render_pageref(reference = "tab:permittivity")`.
+
+(ref:permittivity-co2) \ce{CO2}[@haynes_2014_crc, lk 6-209]
+(ref:permittivity-h2o) \ce{H2O}[@haynes_2014_crc, lk 6-188]
+(ref:permittivity-air) kuiv \ce{CO2}-vaba õhk[@haynes_2014_crc, lk 6-209]
+
+```{r label = "permittivity", echo=FALSE}
+permittivity <- c(
+  1.0009217,
+  80.100,
+  1.0005360
+)
+
+data_frame_of_permittivity <- data.frame(
+  permittivity
+)
+
+rownames(data_frame_of_permittivity) <- c(
+  "(ref:permittivity-co2)",
+  "(ref:permittivity-h2o)",
+  "(ref:permittivity-air)"
+)
+
+colnames(data_frame_of_permittivity) <- c(
+  "$\\epsilon_\\mathrm{r}$"
+)
+
+print_table(
+  caption = "Levinuimate ainete dielektriline läbitavus.",
+  table = data_frame_of_permittivity,
+  digits = 8
+)
+
+```
+
+Coulomb' seadus
+: väide, et jõud $F$ kahe elektrilaengu $q_1$ ja $q_2$ vahel, mis on eraldatud vahemaaga $r$, avaldub valemina \@ref(eq:coulomb-s-law) leheküljel `r render_pageref(reference = "eq:coulomb-s-law")`[@haynes_2014_crc(lk 2-49)]
+
+```{=tex}
+\begin{align}
+F = \frac{1}{4 \cdot π \cdot ε_0} \cdot \frac{q_1 \cdot q_2}{r^2}.
+(\#eq:coulomb-s-law)
+\end{align}
+
+```
+
+See on siiski vaid kuloniline jõud vabas ruumis. Üldiselt avaldub kuloniline jõud valemina \@ref(eq:coulomb-s-law-general) leheküljel `r render_pageref(reference = "eq:coulomb-s-law-general")`[@coulombs].
+
+```{=tex}
+\begin{align}
+F = \frac{1}{4 \cdot π \cdot ε} \cdot \frac{q_1 \cdot q_2}{r^2}.
+(\#eq:coulomb-s-law-general)
+\end{align}
+
+```
+
+Kulonilise jõu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-coulomb-s-law) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-of-coulomb-s-law")`, millest tulenevalt on ühik $\unit{\m\kg\per\s\squared}$ ehk lühimalt $\unit{\newton}$.
+
+```{=tex}
+\begin{align}
+\mathrm{\frac{1}{\frac{T^4 \cdot I^2}{L^3 \cdot M}} \cdot \frac{I \cdot T \cdot I \cdot T}{L^2} = \frac{L \cdot M}{T^2}}.
+(\#eq:dimensional-analysis-of-coulomb-s-law)
+\end{align}
+
+```
+
+### Elektrivool
+
+elektrivool
+: ajaühikus ahelat läbiv laeng[@haynes_2014_crc(lk 2-51)]
 
 Avaldan avaldisest \@ref(eq:elementary-charge) leheküljel `r render_pageref(reference = "eq:elementary-charge")` ampri ja kajastan tulemust avaldises \@ref(eq:ampere) leheküljel `r render_pageref(reference = "eq:ampere")`.
 
@@ -1478,6 +1587,9 @@ W = U \cdot Q.
 
 ### Elektrivälja tugevus
 
+elektrivälja tugevus ($E$)
+: elektrivälja poolt punktlaengule mõjuv jõud jagatuna elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
 Elektrivälja tugevuse arvutamise eeskiri on esitatud avaldisena \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")`.
 
 ```{=tex}
@@ -1498,6 +1610,9 @@ Selles valemis $\vec{F}$ on jõud ja $Q$ on elektrilaeng. Dimensionaalanalüüs 
 ```
 
 Sellest johtuvalt on ühik $\unit{\m\kg\per\A\per\s\cubed}$ ehk lihtsamini $\unit{\N\per\coulomb}$.
+
+elektriline nihe ($D$)
+: vektorsuurus, mille suurus on võrdne elektrivälja tugevuse korrutisega keskkonna läbilaskvusega ja mille suund on sama, mis väljatugevusel[@haynes_2014_crc(lk 2-51)]
 
 Asendan töö valemist \@ref(eq:W) leheküljel `r render_pageref(reference = "eq:W")` jõu ja avaldan elektrivälja tugevuse töö kaudu, mis on esitatud avaldisena \@ref(eq:electric-field-strength-through-work) leheküljel `r render_pageref(reference = "eq:electric-field-strength-through-work")`.
 

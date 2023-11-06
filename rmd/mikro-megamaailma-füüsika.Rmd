@@ -555,21 +555,31 @@ Kava:
 
 Kava:
 
-2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Alustame kõrguse mõjuga atmosfäärirõhule lk 370.
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Alustasime kõrguse mõjuga atmosfäärirõhule lk 370. Näide 13-5: arutasime, kuidas lahendada, jätan koju lahendada.
 
 3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
 
 4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372].
 
-5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12b*: Jätkame tabeli 13-2 alt.
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12b*: Jätkasime tabeli 13-2 alt. Arvutasime vedelikusamba kõrgust elavhõbedaga normaal- ja standardrõhul, samuti veega. Lõpuks proovisime e astme valemit ja tegime vea sellega, et lühem valem kehtib vedeliku sees, pikem valem väljaspool ehk oleks pidanud õhu tiheduse panema.
+
+### 2023-11-6
+
+Kava:
+
+2. Arutelu voolavates ainetes oleva rõhu üle koos arvutusülesande lahendamisega[@giancoli, lk 262-263; @physics, lk 367-370]. *12a*: Kas keegi lahendas näite 13-5?
+
+3. Arutelu atmosfääri rõhu ja manomeetri rõhu üle koos arvutamise ja praktiseerimisega[@physics, lk 371; @elavhbe].
+
+4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372].
+
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12b*: Selgitan, et tegime vea sellega, et lühem valem kehtib vedeliku sees, pikem valem väljaspool ehk oleks pidanud õhu tiheduse panema. See on siis @physics(lk 373) allosas.
 
 6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
 7. Kõrrega joomise demonstratsioon.
 
-8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378].
-
-### 2023-11-6
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4].
 
 ### 2023-11-13
 
@@ -636,6 +646,28 @@ Tuumaenergia ning radiatsiooni mõju ja kasutamise teadmiste ja oskuste kaardist
 Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
 
 ## Ülesanded
+
+### Tihedus ja eritihedus
+
+1) El Capitan Yosemite’i rahvuspargis oleva graniitmonoliidi ligikaudne maht on umbes \qty{1e8}{\m\cubed}. Mis on selle ligikaudne mass?
+
+3) Milline on ligikaudne õhu mass elutoas mõõtmetega $\qty{5,6}{\m} \times \qty{4,6}{\m} \times \qty{2,4}{\m}$?
+
+5) Pudeli mass tühjana on \qty{32,00}{\g} ja \qty{98,44}{\g}, kui see on täidetud veega. Kui täidetakse teise vedelikuga, on pudeli ja vedeliku mass kokku \qty{89,22}{\g}. Milline on selle teise vedeliku eritihedus?
+
+### Rõhk ja Pascali põhimõte
+
+7)  Hinnake põrandale avaldatavat survet
+
+  - ühe terava kontsa pindalaga \qty{0,45}{\centi\m\squared} ja
+  
+  - ühe laia kontsaga, mille pindala on \qty{18}{\centi\m\squared}.
+  
+    Jalatseid kandva inimese mass on \qty{56}{\kg}.
+
+9) Arvutage $\qty{1,7}{\m} \times  \qty{2,6}{\m}$ mõõtmetega laua pealispinnale mõjuv atmosfääri kogujõud. Kui suur on kogu jõud, mis mõjub laua alumisele küljele ülespoole?
+
+11) Kui kõrge oleks tase alkoholibaromeetris normaalsel atmosfäärirõhul?
 
 ### Pindpinevus ja kapillaarsus[@physics(lk 396)]
 

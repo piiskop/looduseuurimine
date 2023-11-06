@@ -6,11 +6,11 @@
 
 Kursuse lõpus õpilane:
 
-1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
+1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi \@ref(eq:I) leheküljel `r render_pageref(reference = "eq:I")` tähendust (21.1-21.2, 21.4, 25.2);
 
 2. võrdleb mõisteid aine ja väli (21.6);
 
-3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit (21.6);
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
 
 4. kasutab probleeme lahendades
 Coulomb’i seadust (21.5)
@@ -561,27 +561,12 @@ Kursuse lõpus õpilane:
 
 1. selgitab mõisteid laeng, elektrivool ja voolutugevus ning valemi tähendust (21.1-21.2, 21.4, 25.2);
 
-Õppesisu: Elektrivool (25.2).
+Tegin konsultatsiooni Marthale ja Anni Kaisile. Selgitasin kompaktselt kogu elektrostaatika arvutamise osa, st Coulomb' seaduse eri kujud ja nende komponendid (joonis \@ref(fig:electrostatics) leheküljel `r render_pageref(reference="fig:electrostatics")`).
 
-Põhimõisted:
+```{r label = "electrostatics", echo=FALSE, fig.cap="Elektrostaatika arvutusülesannete reeglistik."}
+include_external_graphics(path="rmd/elektrostaatika-IMG_20231103_120635.jpg")
 
-voolutugevus (25.2)
-: igasugune laenguvool[@physics, lk 720]
-
-pinge
-: potentsiaalide vahe[@physics, lk 662]
-
-Kava:
-
-1. Koduste ülesannete lahendamine.
-
-2. Välistingimuste testi tutvustamine.
-
-5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Lahendame lehe *Elektrivool ja elektriahel* variatsiooniülesanded alates kuuendast.
-
-6. Elektriline potentsiaalne energia ja potentsiaalide erinevus[@physics, lk 661-663]. *11b*: alustame.
-
-Martha tahab konsultatsiooni seitsmes periood.
+```
 
 ### 2023-11-6
 
@@ -596,9 +581,11 @@ Põhimõisted:
 voolutugevus (25.2)
 : igasugune laenguvool[@physics, lk 720]
 
-Elektrivoolu tugevuse test. *11a* kood: *s827666*. *11b* kood: *s877667*. Õpilased kogunevad kooli garderoobi juures oleva tagaukse juurde poolsisehoovi kontaktsessiooni alguseks, sisestavad oma täislaetud akuga nutitelefonis olevasse *MathCityMap*i rakendusse raja koodi, mõtlevad oma rühmale nime, sisestavad selle, samuti rühma kuni kolme liikme nime. Seejärel laetakse kaart ja täpselt kontaktsessiooni alguses avaneb mäng. Soovitan liikuda kontrollpunktide vahel kiiresti, et jääks rohkem aega ülesannete lahendamiseks. Test lõpeb täpselt kontaktsessiooni lõpuga.
+Elektrivoolu tugevuse test. *11a* kood: *s827666*. *11b* kood: *s587686*. Õpilased kogunevad kooli garderoobi juures oleva tagaukse juurde poolsisehoovi kontaktsessiooni alguseks, sisestavad oma täislaetud akuga nutitelefonis olevasse *MathCityMap*i rakendusse raja koodi, mõtlevad oma rühmale nime, sisestavad selle, samuti rühma kuni kolme liikme nime. Seejärel laetakse kaart ja täpselt kontaktsessiooni alguses avaneb mäng. Soovitan liikuda kontrollpunktide vahel kiiresti, et jääks rohkem aega ülesannete lahendamiseks. Test lõpeb täpselt kontaktsessiooni lõpuga.
 
 ### 2023-11-10
+
+elektriväli
 
 ### 2023-11-13
 
