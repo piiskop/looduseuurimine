@@ -57,6 +57,136 @@ if (!require("librarian")) {
 
 library(librarian)
 
+names_10 <- c(
+	"1. Babiy, Alisa",
+	"2. Irhin, Donat",
+	"3. Kimasks, Stanislavs",
+	"4. Kustov, Vladimir",
+	"5. Malõšev, Polina",
+	"6. Šerstobitov, Mihhail",
+	"7. Šesterikov, Daniil",
+	"8. Žigadlo, Grigori",
+	"9. Žukova, Darja",
+	"10. Trubilko, Vladislav",
+	"11. Tšerkesov, Demid",
+	"12. Volkova, Darja",
+	"13. Volkova, Jeva"
+)
+
+names_11 <- c(
+	"1. Allert, Marie",
+	"2. Brinkmann, Sander",
+	"3. Ernits, Enrico",
+	"4. Heinaru, Merili",
+	"5. Kaljuvee, Fredi",
+	"6. Kangro, Kristofer",
+	"7. Küling, Mireta",
+	"8. Meriküll, Eteli",
+	"9. Miljand, Hugo",
+	"10. Orro, Oliver",
+	"11. Parkkanen, Henrico",
+	"12. Parve, Marken",
+	"13. Plamus, Kristofer-Robin",
+	"14. Saar, Carl-Joonas",
+	"15. Schulzendorff, Katharina Helene",
+	"16. Taimre, Kris",
+	"17. Tepp, Kiara Keiti",
+	"18. Tori, Birgit",
+	"19. Ööbik, Markus",
+	"1. Ader, Georg",
+	"2. Aus, Matteus",
+	"3. Erm, Maarja-Lii",
+	"4. Jakobson, Jasper",
+	"5. Jürissaar, Kaia Kretel",
+	"6. Jürissaar, Miia Mirtel",
+	"7. Kabel, Kairit",
+	"8. Kivirüüt, Alice",
+	"9. Kruusmann, Ketli",
+	"10. Mihkelson, Sten-Erik",
+	"11. Mäesalu, Martin",
+	"12. Oolma, Robert-Heinrich",
+  "13. Paavel, Anni Kaisi",
+	"14. Reiter, Karl Mattias",
+	"15. Solman, Kärt",
+	"16. Tobi, Morris",
+	"17. Toom, Martha",
+	"18. Tuul, Teele",
+	"19. Vahesaar, Toren Holder",
+	"20. Volman, Andreas"
+)
+
+#' This function builds a table with test results.
+#'
+#' @param tasks the data frame with task results
+#' @param names the names of the pupils
+#' @param caption the start of the caption in Estonian in the second case
+#' 
+#' @example build_table_with_grades(tasks = tasks_of_electric_current, names = names_11, caption = "Elektrivoolu")
+build_table_with_grades <- function(tasks, names, caption) {
+  summary <- rowSums(tasks)
+  
+  grade <- calculate_grade(summary)
+
+  indexes_of_tasks = c(1)
+  
+  for (index in 2:length(tasks)) {
+    indexes_of_tasks <- c(indexes_of_tasks, index) 
+  }
+
+  data_frame <- cbind(tasks, summary, grade)
+  colnames(data_frame) <- c(
+    indexes_of_tasks,
+    "Koond",
+    "Hinne"
+  )
+
+  rownames(data_frame) <- names
+  
+  print_table(
+    table = data_frame,
+    caption = paste(caption, "testi tulemused")
+  ) %>%
+    landscape()
+
+}
+
+#' This function calculates the grade according to the fraction.
+#'
+#' @param fractions the vector of fractions out of a whole
+#' 
+#' @example calculate_grade(fraction=.57)
+#' 
+#' @returns the grades as a vector
+calculate_grade <- function(fractions) {
+  
+  grades <- c()
+  for (index in 1:length(fractions)) {  # 2
+    if (fractions[index] < 1.8) {
+      if (fractions[index] < .9) {
+        if (fractions[index] < .75) {
+          if (fractions[index] < .5) {
+            if (fractions[index] < .2) {
+              grades[index] <- 1
+            } else {
+              grades[index] <- 2
+            }
+          } else {
+            grades[index] <- 3
+          }
+        } else {
+          grades[index] <- 4
+        }
+      } else {
+        grades[index] <- 5
+      }
+    } else {
+      grades[index] <- 6
+    }
+  }
+
+  return(grades)
+}
+
 #' This function displays external graphics by making the appropriate conversion aforehead.
 #' 
 #' @param path the path to the image file

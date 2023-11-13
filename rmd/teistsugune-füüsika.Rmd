@@ -99,7 +99,6 @@ module <- c(
   "kosmosetehnoloogiad",
   "Päikesesüsteem",
   "tähed",
-  "galaktikad",
   "kosmoloogilised mudelid"
 )
 
@@ -110,14 +109,13 @@ chooser_1 <- c(
   "",
   "",
   "",
+  "Miša", # tuumafüüsika
+  "Alisa", # radioaktiivsusega kaasnevad kiirgused
   "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "Dasha Žukova", # astronoomia ajalugu ja metoodika
+  "Grigori Žigadlo", # kosmosetehnoloogiad
+  "Stanislavs", # Päikesesüsteem
+  "Jeva Volkova", # tähed
   ""
 )
 
@@ -128,14 +126,13 @@ chooser_2 <- c(
   "",
   "",
   "",
+  "Polina", # tuumafüüsika
   "",
   "",
   "",
+  "Vladimir Kustov", # kosmosetehnoloogiad
   "",
-  "",
-  "",
-  "",
-  "",
+  "Dasha Volkova", # tähed
   ""
 )
 
@@ -146,14 +143,13 @@ chooser_3 <- c(
   "",
   "",
   "",
+  "Vlad", # tuumafüüsika
   "",
   "",
   "",
+  "Daniil Šesterikov", # kosmosetehnoloogiad
   "",
-  "",
-  "",
-  "",
-  "",
+  "Darja Zukova", # tähed
   ""
 )
 
@@ -209,27 +205,27 @@ different_physics_date <- c(
 )
 
 different_physics_chooser_of_date_1 <- c(
+  module[8],
+  "",
+  "",
+  "",
+  "",
+  module[7],
   "",
   "",
   "",
   "",
   "",
+  module[12],
   "",
   "",
   "",
   "",
+  module[10],
+  module[11],
   "",
   "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  module[13]
 )
 
 different_physics_chooser_of_date_2 <- c(
@@ -264,8 +260,8 @@ data_frame_of_dates_of_different_physics <- data.frame(
 
 colnames(data_frame_of_dates_of_different_physics) <- c(
   "Kuupäev",
-  "Valija",
-  "Valija"
+  "Teema",
+  "Teema"
 )
 
 print_table(

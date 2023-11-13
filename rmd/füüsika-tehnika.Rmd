@@ -314,11 +314,11 @@ Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli
 
 0. *12b*: ülevaade järgmistest moodulitest ja hetkeseisust, akustika juurdeõppimise võimalustest.
 
-1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: Alustame näitest 16-7.
+1. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12a*: Alustasime näitest 16-7. Jõudsime peatüki 16-3 lõpuni.
 
-2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine. 
+2. *Heli intensiivsuse määramise*[@heli] iseseisva eksperimendi selgitamine. *12a*: Selgitasin esimese eksperimendi juhise.
 
-3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine.
+3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine. *12a*: Alustasin teise eksperimendi juhise selgitamist. Testisime, kui kõrgeid helisid keegi kuuleb järjestikuse sageduse suurendamisega.
 
 4. Heli allikad:
 Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Alustame näiteülesande 16-8 lahenduse kordategemisest (joonis \@ref(fig:piano-strings) leheküljel `r render_pageref(reference = "fig:piano-strings")`).
@@ -332,6 +332,19 @@ Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-5
 Iseseisvaks tegemiseks järgmise kontaktsessioonini eksperiment koos [protokolli](#eksperimendi-protokolli-koostamise-juhend) koostamisega: *Kõrv ja kuulmine*[@labor1pdf]. Näidiseks on minu protokoll[@katrin_2022_akustika, lk 11-16].
 
 ### 2023-11-10
+
+**Elastsuslained**
+
+3. *Kõrva ja kuulmise*[@labor1pdf] iseseisva eksperimendi selgitamine. *12a*: Jätkan teise eksperimendi juhise selgitamist.
+
+4. Heli allikad:
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12b*: Alustame näiteülesande 16-8 lahenduse kordategemisest (joonis \@ref(fig:piano-strings) leheküljel `r render_pageref(reference = "fig:piano-strings")`).
+
+5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473].
+
+6. Helilainete häired ja löögid[@physics(lk 473-476)].
+
+7. *Heli intensiivsuse ja interferentsist*[@labor2pdf] iseseisva eksperimendi selgitamine.
 
 ### 2023-11-17
 

@@ -555,6 +555,8 @@ Kava:
 
 5. Elektrivool [@physics, lk 720-721; @elektrivool; @a2019_conductors; @current; @physics_circuit; @electric; @the]. *11a*. Lahendasime lehe *Elektrivool ja elektriahel* variatsiooniülesanded teisest viiendani. *11b*: Esimese koduse ülesande lahendasime tahvli abil.
 
+\onecolumn
+
 ### 2023-11-3
 
 Kursuse lõpus õpilane:
@@ -567,6 +569,8 @@ Tegin konsultatsiooni Marthale ja Anni Kaisile. Selgitasin kompaktselt kogu elek
 include_external_graphics(path="rmd/elektrostaatika-IMG_20231103_120635.jpg")
 
 ```
+
+\twocolumn
 
 ### 2023-11-6
 
@@ -585,9 +589,66 @@ Elektrivoolu tugevuse test. *11a* kood: *s827666*. *11b* kood: *s587686*. Õpila
 
 ### 2023-11-10
 
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
 elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+1. Testide tagasiside ülevaatus.
+
+2. Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. Selgitasin valemini välja, tabeli tegime ja lahendasime ülesande 21-6.
 
 ### 2023-11-13
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. Jätkame näitest 21-7. Näite 21-9[@physics(lk 621)] ilmestamiseks tegin GeoGebras joonise \@ref(fig:geogebra-21-9).
+
+    (ref:geogebra-21-9) Punktile A mõjuv elektriväli[@geogebra].
+
+    ```{r label="geogebra-21-9", echo=FALSE, fig.cap="(ref:geogebra-21-9)"}
+    if (knitr::is_html_output()) {
+      knitr::include_url("https://www.geogebra.org/classic/wfafawp5?embed")
+    }
+    
+    ```
+
+Esmaspäevas tahab Marie nõustamist seitsmendas perioodis.
 
 ### 2023-11-17
 
@@ -696,7 +757,7 @@ electroscope <- c(
   0,
   0,
   0,
-  0,
+  1, # Martha Toom
   1, # Teele Tuul
   1, # Toren Holder Vahesaar
   1 # Andreas Volman
@@ -752,10 +813,10 @@ rownames(data_frame_of_protocols) <- c(
 	"20. Volman, Andreas"
 )
 
-print_table(
-  caption = "Eksperimentide protokollid. Kui tabelis on \\textit{1}, siis on korras.",
-  table = data_frame_of_protocols
-)
+#print_table(
+#  caption = "Eksperimentide protokollid. Kui tabelis on \\textit{1}, siis on korras.",
+#  table = data_frame_of_protocols
+#)
 
 ```
 
@@ -1320,323 +1381,719 @@ laengute jaotus.
  
 5. Kuidas muutub laengu pindtihedus, kui ristkülikukujuline juht keerata silindrikujuliseks?
 
+\newpage
+
+##### Jasper Jakobson
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Jasper Jakobson ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-10.
+
+1. Mida tähendab Le Système'i international d'unités teisendatuna väide, et et elektroni laeng on \num{-1} ja prootoni laeng on \num{+1}?
+
+2. Avaldan ja / või arvutan punktlaengutevahelise kauguse Coulomb’ seaduses. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Klaaspulga elektriseerimisel eemaldati sellest 2000 miljardit elektroni. Kui suure laengu omandas klaaspulk? 
+
+4. Punktlaengud $q_1$, $q_2$ ja $q_3$ paiknevad ristküliku tippudes. Arvutada jõud $\vec{F_e}$, mis mõjub laengule $q_3$ laengute $q_1$ ja $q_2$ elektriväljas! Laeng $q_3$ on laengust $q_1$ \qty{1}{\centi\m} ja laengust $q_2$ \qty{3}{\centi\m} kaugusel. $q_3 = \qty{10e9}{\coulomb}$, $q_1 = \qty{-10e-9}{\coulomb}$ ja $q_2 = \qty{-4e-9}{\coulomb}$.
+ 
+5. Kaks kuulikest on riputatud \qty{5}{\centi\m} pikkuste niitide otsa, mis on kinnitatud statiivil ühte punkti. Võrdselt laetuna tõukusid need teineteisest \qty{6}{\centi\m} kaugusele. Mõlema kuuli mass on \qty{10}{\milli\g}. Arvutan laengute suurused.
+
+\newpage
+
+##### Morris Tobi
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Morris Tobi ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-10.
+
+1. Kas võib hõõrumise teel elektriseerida vaskkepikest?
+
+2. Avaldan ja / või arvutan prootoni ja elektroni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Kaks laengut, millest üks on teisest kaks korda suurem, on vaakumis teineteisest \qty{0,30}{\m} kaugusel ning mõjuvad jõuga \qty{30}{\newton}. Arvutada laengute suurused! Kui kaugel teinteteisest mõjuvad samad laengud sama jõuga vees? 
+
+4. Kaks võrdse laenguga kera asuvad \qty{20}{\centi\m} kaugusel teineteisest \qty{-18}{\degreeCelsius} korral jääga täidetud anumas. Kui suur on jää dielektriline läbitavus, kui jää sulamisel veeks temperatuuriga \qty{0}{\degreeCelsius} on vaja kerad lähendada \qty{3,8}{\centi\m} kaugusele teineteisest, et jõud jääks samaks? Vee suhteline dielektriline läbivatus \qty{0}{\degreeCelsius} korral on \num{88}.
+ 
+5. Kuulike massiga \qty{150}{\milli\g} ja laenguga \qty{1,00e-8}{\coulomb} on riputatud isoleeritud niidi otsa. \qty{32}{\centi\m} kaugusele selle alla on asetatud teine kuulike. Kui suur ja millise märgiga peab olema teise kuulikese laeng, et niidi pinge suureneks \num{2} korda?
+
 #### Tulemused
 
 ```{r label = "test-from-statical-electricity-to-coulomb-law-results", echo=FALSE}
-from_statical_electricity_to_coulomb_law_1 <- c(
-  0,
-  0,
-  0,
-  0,
-  0.08, # Fredi Kaljuvee
-  0,
-  0.03, # Mireta
-  0.08, # Eteli
-  0.06, # Hugo Miljand
-  0.04, # Oliver Orro
-  0,
-  0,
-  0.06, # Kristofer-Robin Plamus
-  0,
-  0,
-  0.08, # Kris Taimre
-  0.03, # Kiara Keiti Tepp
-  0.08, # Birgit Tori
-  0.08, # Markus Ööbik
-  0.08, # Georg Ader
-  0.08, # Matteus Aus
-  0, # Maarja-Lii Erm
-  0,
-  0,
-  0.05, # Miia Mirtel Jürissaar
-  0.06, # Kairit Kabel
-  0.03, # Alice Kivirüüt
-  0,
-  0.04, # Sten-Erik Mihkelson
-  0,
-  0,
-  0.08, # Anni Kaisi Paavel
-  0.08, # Karl Reiter
-  0,
-  0,
-  0,
-  0, # Teele Tuul
-  .08, # Toren
-  0.04 # Andreas Volman
+
+tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
+  c( # 1
+    0,
+    0,
+    0,
+    0,
+    0.08, # Fredi Kaljuvee
+    0,
+    0.03, # Mireta
+    0.08, # Eteli
+    0.06, # Hugo Miljand
+    0.04, # Oliver Orro
+    0,
+    0, # Marken Parve
+    0.06, # Kristofer-Robin Plamus
+    0,
+    0,
+    0.08, # Kris Taimre
+    0.03, # Kiara Keiti Tepp
+    0.08, # Birgit Tori
+    0.08, # Markus Ööbik
+    0.08, # Georg Ader
+    0.08, # Matteus Aus
+    0, # Maarja-Lii Erm
+    0,
+    0,
+    0.05, # Miia Mirtel Jürissaar
+    0.06, # Kairit Kabel
+    0.03, # Alice Kivirüüt
+    0,
+    0.04, # Sten-Erik Mihkelson
+    0,
+    0,
+    0.08, # Anni Kaisi Paavel
+    0.08, # Karl Reiter
+    0,
+    0,
+    0,
+    0, # Teele Tuul
+    .08, # Toren
+    0.04 # Andreas Volman
+  ),
+  c( # 2
+    0,
+    0,
+    0,
+    0.11, # Merili
+    0,
+    0.03, # Kristofer Kangro
+    0.05, # Mireta
+    0.06, # Eteli
+    0.02, # Hugo Miljand
+    0.15, # Oliver Orro
+    0.16, # Henrico Parkkanen
+    0.08, # Marken Parve
+    0,
+    0.12, # Carl-Joonas Saar
+    0,
+    0.08, # Kris Taimre
+    0.06, # Kiara Keiti Tepp
+    0,
+    0.11, # Markus Ööbik
+    0.13, # Georg Ader
+    0.06, # Matteus Aus
+    0, # Maarja-Lii Erm
+    0,
+    0.11, # Kaia Kretel Jürissaar
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    .05, # Karl Reiter
+    0,
+    0,
+    0,
+    0, # Teele Tuul
+    0.09, # Toren
+    0.16 # Andreas Volman
+  ),
+  c( # 3
+    0.01, # Marie Allert
+    0.35, # Sander Brinkmann
+    0.4, # Enrico Ernits
+    0.25, # Merili
+    0.4, # Fredi Kaljuvee
+    0,
+    0.4, # Mireta
+    0.15, # Eteli
+    0.1, # Hugo Miljand
+    0.25, # Oliver Orro
+    0,
+    0.25, # Marken Parve
+    0.13, # Kristofer-Robin Plamus
+    0,
+    0,
+    0,
+    0.43, # Kiara Keiti Tepp
+    0.08, # Birgit Tori
+    0.05, # Markus Ööbik
+    0,
+    0.2, # Mattias Aus
+    0.48, # Maarja-Lii Erm
+    0,
+    0.38, # Kaia Kretel Jürissaar
+    0.33, # Miia Mirtel JÜrissaar
+    0.03, # Kairit Kabel 
+    0,
+    0.38, # Ketli Kruusmann
+    0,
+    0,
+    0,
+    0,
+    .18, # Karl Reiter
+    0,
+    0.18, # Tobi Morris
+    0.15, # Martha Toom
+    0.33, # Teele Tuul
+    0,
+    0.35 # Andreas Volman
+  ),
+  c( # 4
+    0.03, # Marie Allert
+    0,
+    0.72, # Enrico Ernits
+    0.33, # Merili
+    0,
+    0,
+    0.06, # Mireta
+    0.39, # Eteli
+    0,
+    0.3, # Oliver Orro
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.3, # Kiara Keiti Tepp
+    0.06, # Birgit Tori
+    0.06, # Markus Ööbik
+    0,
+    0,
+    0.45, # Maarja-Lii Erm
+    0,
+    0.54, # Kaia Kretel Jürissaar
+    0.36, # Miia Mirtel Jürissaar
+    0.3, # Kairit Kabel 
+    0.45, # Alice Kivirüüt
+    0.39, # Ketli Kruusmann
+    0,
+    0,
+    0,
+    0.18, # Anni Kaisi Paavel
+    .21, # Karl Reiter
+    0.15, # Kärt Solman
+    0,
+    0.15, # Martha Toom
+    0.51, # Teele Tuul
+    0,
+    0 # Andreas Volman
+  ),
+  c( # 5
+    0,
+    0.22, # Sander Brinkmann
+    0.2, # Enrico Ernits
+    0.85, # Merili
+    0,
+    0,
+    0,
+    0,
+    0.43, # Hugo Miljand
+    0.1, # Oliver Orro
+    0,
+    0.3, # Marken Parve
+    0.1, # Kristofer-Robin Plamus
+    0,
+    0,
+    0.31, # Kris Taimre
+    0.49, # Kiara Keiti Tepp
+    0.07, # Birgit Tori
+    0.04, # Markus Ööbik
+    0.04, # Georg Ader
+    0, 
+    0.37, # Maarja-Lii Erm
+    0,
+    0,
+    0.46, # Miia Mirtel Jürissaar
+    0.25, # Kairit Kabel
+    0,
+    0.04, # Ketli Kruusmann
+    0.25, # Sten-Erik Mihkelson
+    0,
+    0,
+    0,
+    .31, # Karl Reiter
+    0.16, # Kärt Solman
+    0,
+    0,
+    0.4, # Teele Tuul
+    0.13, # Toren
+    0.55 # Andreas Volman
+  )
 )
 
-from_statical_electricity_to_coulomb_law_2 <- c(
-  0,
-  0,
-  0,
-  0.11, # Merili
-  0,
-  0.03, # Kristofer Kangro
-  0.05, # Mireta
-  0.06, # Eteli
-  0.02, # Hugo Miljand
-  0.15, # Oliver Orro
-  0.16, # Henrico Parkkanen
-  0,
-  0,
-  0.12, # Carl-Joonas Saar
-  0,
-  0.08, # Kris Taimre
-  0.06, # Kiara Keiti Tepp
-  0,
-  0.11, # Markus Ööbik
-  0.13, # Georg Ader
-  0.06, # Matteus Aus
-  0, # Maarja-Lii Erm
-  0,
-  0.11, # Kaia Kretel Jürissaar
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  .05, # Karl Reiter
-  0,
-  0,
-  0,
-  0, # Teele Tuul
-  0.09, # Toren
-  0.16 # Andreas Volman
+#build_table_with_grades(tasks = tasks_of_from_static_electricity_to_coulomb_law, names = names_11, caption = "Staatikast Coulomb' seaduseni")
+
+```
+
+### Elektrivool
+
+```{r label = "test-electric-current", echo=FALSE}
+# 
+# tasks <- data.frame(
+#   c( # 1
+#     0, # 1. Allert, Marie
+#     0, # 2. Brinkmann, Sander
+#     0, # 3. Ernits, Enrico
+#     0, # 4. Heinaru, Merili
+#     0, # Fredi Kaljuvee
+#     0, # 6. Kangro, Kristofer
+#     0, # Mireta
+#     0, # Eteli
+#     0, # Hugo Miljand
+#     0, # Oliver Orro
+#     0, # 11. Parkkanen, Henrico
+#     0, # Marken Parve
+#     0, # Kristofer-Robin Plamus
+#     0, # 14. Saar, Carl-Joonas
+#     0, # 15. Schulzendorff, Katharina Helene
+#     0, # Kris Taimre
+#     0, # Kiara Keiti Tepp
+#     0, # Birgit Tori
+#     0, # Markus Ööbik
+#     0, # Georg Ader
+#     0, # Matteus Aus
+#     0, # Maarja-Lii Erm
+#     0, # 4. Jakobson, Jasper
+#     0, # 5. Jürissaar, Kaia Kretel
+#     0, # Miia Mirtel Jürissaar
+#     0, # Kairit Kabel
+#     0, # Alice Kivirüüt
+#     0, # 9. Kruusmann, Ketli
+#     0, # Sten-Erik Mihkelson
+#     0, # 11. Mäesalu, Martin
+#     0, # 12. Oolma, Robert-Heinrich
+#     0, # Anni Kaisi Paavel
+#     0, # Karl Reiter
+#     0, # 15. Solman, Kärt
+#     0, # 16. Tobi, Morris
+#     0, # 17. Toom, Martha
+#     0, # Teele Tuul
+#     0, # Toren
+#     0 # Andreas Volman
+#   ),
+#   c( # 2
+#     0, # 1. Allert, Marie
+#     0, # 2. Brinkmann, Sander
+#     0, # 3. Ernits, Enrico
+#     0, # 4. Heinaru, Merili
+#     0, # Fredi Kaljuvee
+#     0, # 6. Kangro, Kristofer
+#     0, # Mireta
+#     0, # Eteli
+#     0, # Hugo Miljand
+#     0, # Oliver Orro
+#     0, # 11. Parkkanen, Henrico
+#     0, # Marken Parve
+#     0, # Kristofer-Robin Plamus
+#     0, # 14. Saar, Carl-Joonas
+#     0, # 15. Schulzendorff, Katharina Helene
+#     0, # Kris Taimre
+#     0, # Kiara Keiti Tepp
+#     0, # Birgit Tori
+#     0, # Markus Ööbik
+#     0, # Georg Ader
+#     0, # Matteus Aus
+#     0, # Maarja-Lii Erm
+#     0, # 4. Jakobson, Jasper
+#     0, # 5. Jürissaar, Kaia Kretel
+#     0, # Miia Mirtel Jürissaar
+#     0, # Kairit Kabel
+#     0, # Alice Kivirüüt
+#     0, # 9. Kruusmann, Ketli
+#     0, # Sten-Erik Mihkelson
+#     0, # 11. Mäesalu, Martin
+#     0, # 12. Oolma, Robert-Heinrich
+#     0, # Anni Kaisi Paavel
+#     0, # Karl Reiter
+#     0, # 15. Solman, Kärt
+#     0, # 16. Tobi, Morris
+#     0, # 17. Toom, Martha
+#     0, # Teele Tuul
+#     0, # Toren
+#     0 # Andreas Volman
+#   ),
+#   c( # 3
+#     0, # 1. Allert, Marie
+#     0, # 2. Brinkmann, Sander
+#     0, # 3. Ernits, Enrico
+#     0, # 4. Heinaru, Merili
+#     0, # Fredi Kaljuvee
+#     0, # 6. Kangro, Kristofer
+#     0, # Mireta
+#     0, # Eteli
+#     0, # Hugo Miljand
+#     0, # Oliver Orro
+#     0, # 11. Parkkanen, Henrico
+#     0, # Marken Parve
+#     0, # Kristofer-Robin Plamus
+#     0, # 14. Saar, Carl-Joonas
+#     0, # 15. Schulzendorff, Katharina Helene
+#     0, # Kris Taimre
+#     0, # Kiara Keiti Tepp
+#     0, # Birgit Tori
+#     0, # Markus Ööbik
+#     0, # Georg Ader
+#     0, # Matteus Aus
+#     0, # Maarja-Lii Erm
+#     0, # 4. Jakobson, Jasper
+#     0, # 5. Jürissaar, Kaia Kretel
+#     0, # Miia Mirtel Jürissaar
+#     0, # Kairit Kabel
+#     0, # Alice Kivirüüt
+#     0, # 9. Kruusmann, Ketli
+#     0, # Sten-Erik Mihkelson
+#     0, # 11. Mäesalu, Martin
+#     0, # 12. Oolma, Robert-Heinrich
+#     0, # Anni Kaisi Paavel
+#     0, # Karl Reiter
+#     0, # 15. Solman, Kärt
+#     0, # 16. Tobi, Morris
+#     0, # 17. Toom, Martha
+#     0, # Teele Tuul
+#     0, # Toren
+#     0 # Andreas Volman
+#   ),
+#   c( # 4
+#     0, # 1. Allert, Marie
+#     0, # 2. Brinkmann, Sander
+#     0, # 3. Ernits, Enrico
+#     0, # 4. Heinaru, Merili
+#     0, # Fredi Kaljuvee
+#     0, # 6. Kangro, Kristofer
+#     0, # Mireta
+#     0, # Eteli
+#     0, # Hugo Miljand
+#     0, # Oliver Orro
+#     0, # 11. Parkkanen, Henrico
+#     0, # Marken Parve
+#     0, # Kristofer-Robin Plamus
+#     0, # 14. Saar, Carl-Joonas
+#     0, # 15. Schulzendorff, Katharina Helene
+#     0, # Kris Taimre
+#     0, # Kiara Keiti Tepp
+#     0, # Birgit Tori
+#     0, # Markus Ööbik
+#     0, # Georg Ader
+#     0, # Matteus Aus
+#     0, # Maarja-Lii Erm
+#     0, # 4. Jakobson, Jasper
+#     0, # 5. Jürissaar, Kaia Kretel
+#     0, # Miia Mirtel Jürissaar
+#     0, # Kairit Kabel
+#     0, # Alice Kivirüüt
+#     0, # 9. Kruusmann, Ketli
+#     0, # Sten-Erik Mihkelson
+#     0, # 11. Mäesalu, Martin
+#     0, # 12. Oolma, Robert-Heinrich
+#     0, # Anni Kaisi Paavel
+#     0, # Karl Reiter
+#     0, # 15. Solman, Kärt
+#     0, # 16. Tobi, Morris
+#     0, # 17. Toom, Martha
+#     0, # Teele Tuul
+#     0, # Toren
+#     0 # Andreas Volman
+#   ),
+#   c( # 5
+#     0, # 1. Allert, Marie
+#     0, # 2. Brinkmann, Sander
+#     0, # 3. Ernits, Enrico
+#     0, # 4. Heinaru, Merili
+#     0, # Fredi Kaljuvee
+#     0, # 6. Kangro, Kristofer
+#     0, # Mireta
+#     0, # Eteli
+#     0, # Hugo Miljand
+#     0, # Oliver Orro
+#     0, # 11. Parkkanen, Henrico
+#     0, # Marken Parve
+#     0, # Kristofer-Robin Plamus
+#     0, # 14. Saar, Carl-Joonas
+#     0, # 15. Schulzendorff, Katharina Helene
+#     0, # Kris Taimre
+#     0, # Kiara Keiti Tepp
+#     0, # Birgit Tori
+#     0, # Markus Ööbik
+#     0, # Georg Ader
+#     0, # Matteus Aus
+#     0, # Maarja-Lii Erm
+#     0, # 4. Jakobson, Jasper
+#     0, # 5. Jürissaar, Kaia Kretel
+#     0, # Miia Mirtel Jürissaar
+#     0, # Kairit Kabel
+#     0, # Alice Kivirüüt
+#     0, # 9. Kruusmann, Ketli
+#     0, # Sten-Erik Mihkelson
+#     0, # 11. Mäesalu, Martin
+#     0, # 12. Oolma, Robert-Heinrich
+#     0, # Anni Kaisi Paavel
+#     0, # Karl Reiter
+#     0, # 15. Solman, Kärt
+#     0, # 16. Tobi, Morris
+#     0, # 17. Toom, Martha
+#     0, # Teele Tuul
+#     0, # Toren
+#     0 # Andreas Volman
+#   )
+# )
+
+tasks_of_electric_current <- data.frame(
+  c( # 1
+    0, # 1. Allert, Marie
+    0.08, # 2. Brinkmann, Sander
+    0, # 3. Ernits, Enrico
+    0, # 4. Heinaru, Merili
+    0.85 * .08, # Fredi Kaljuvee
+    0.4 * .08, # 6. Kangro, Kristofer
+    0.85 * .08, # Mireta
+    0, # Eteli
+    0.08, # Hugo Miljand
+    0.85 * .08, # Oliver Orro
+    0.4 * .08, # 11. Parkkanen, Henrico
+    0.08, # Marken Parve
+    0.4 * .08, # Kristofer-Robin Plamus
+    0, # 14. Saar, Carl-Joonas
+    0, # 15. Schulzendorff, Katharina Helene
+    0.08, # Kris Taimre
+    0, # Kiara Keiti Tepp
+    0, # Birgit Tori
+    0.08, # Markus Ööbik
+    0, # Georg Ader
+    0, # Matteus Aus
+    0, # Maarja-Lii Erm
+    0, # 4. Jakobson, Jasper
+    0, # 5. Jürissaar, Kaia Kretel
+    0, # Miia Mirtel Jürissaar
+    0, # Kairit Kabel
+    0, # Alice Kivirüüt
+    0, # 9. Kruusmann, Ketli
+    0, # Sten-Erik Mihkelson
+    0, # 11. Mäesalu, Martin
+    0, # 12. Oolma, Robert-Heinrich
+    0, # Anni Kaisi Paavel
+    0, # Karl Reiter
+    0, # 15. Solman, Kärt
+    0, # 16. Tobi, Morris
+    0, # 17. Toom, Martha
+    0, # Teele Tuul
+    0, # Toren
+    0 # Andreas Volman
+  ),
+  c( # 2
+    0.16, # 1. Allert, Marie
+    0.16, # 2. Brinkmann, Sander
+    .7 * 0.16, # 3. Ernits, Enrico
+    0.16, # 4. Heinaru, Merili
+    0.16, # Fredi Kaljuvee
+    0.85 * .16, # 6. Kangro, Kristofer
+    0.16, # Mireta
+    0, # Eteli
+    0.16, # Hugo Miljand
+    0.16, # Oliver Orro
+    0.85 * .16, # 11. Parkkanen, Henrico
+    0.16, # Marken Parve
+    0.85 * .16, # Kristofer-Robin Plamus
+    0, # 14. Saar, Carl-Joonas
+    .7 * 0.16, # 15. Schulzendorff, Katharina Helene
+    0.16, # Kris Taimre
+    0.16, # Kiara Keiti Tepp
+    0, # Birgit Tori
+    0.16, # Markus Ööbik
+    0, # Georg Ader
+    0.4 * .16, # Matteus Aus
+    0.16, # Maarja-Lii Erm
+    0, # 4. Jakobson, Jasper
+    0.16, # 5. Jürissaar, Kaia Kretel
+    0.16, # Miia Mirtel Jürissaar
+    0.16, # Kairit Kabel
+    0, # Alice Kivirüüt
+    0.16, # 9. Kruusmann, Ketli
+    0, # Sten-Erik Mihkelson
+    0.85 * .16, # 11. Mäesalu, Martin
+    0, # 12. Oolma, Robert-Heinrich
+    0, # Anni Kaisi Paavel
+    0.4 * .16, # Karl Reiter
+    0.16, # 15. Solman, Kärt
+    0, # 16. Tobi, Morris
+    0.16, # 17. Toom, Martha
+    0.16, # Teele Tuul
+    0.85 * .16, # Toren
+    0.85 * .16 # Andreas Volman
+  ),
+  c( # 3
+    0, # 1. Allert, Marie
+    0.5, # 2. Brinkmann, Sander
+    0, # 3. Ernits, Enrico
+    0, # 4. Heinaru, Merili
+    0.5, # Fredi Kaljuvee
+    0.5, # 6. Kangro, Kristofer
+    0.5, # Mireta
+    0, # Eteli
+    0.5, # Hugo Miljand
+    0.5, # Oliver Orro
+    0.5, # 11. Parkkanen, Henrico
+    0.5, # Marken Parve
+    0.5, # Kristofer-Robin Plamus
+    0, # 14. Saar, Carl-Joonas
+    0, # 15. Schulzendorff, Katharina Helene
+    0.5, # Kris Taimre
+    0, # Kiara Keiti Tepp
+    0, # Birgit Tori
+    0.5, # Markus Ööbik
+    0, # Georg Ader
+    0.5, # Matteus Aus
+    0.4 * .5, # Maarja-Lii Erm
+    0.5, # 4. Jakobson, Jasper
+    0, # 5. Jürissaar, Kaia Kretel
+    0.7 * .5, # Miia Mirtel Jürissaar
+    0, # Kairit Kabel
+    0, # Alice Kivirüüt
+    0.7 * .5, # 9. Kruusmann, Ketli
+    0, # Sten-Erik Mihkelson
+    0.5, # 11. Mäesalu, Martin
+    0.5, # 12. Oolma, Robert-Heinrich
+    0, # Anni Kaisi Paavel
+    0.5, # Karl Reiter
+    0, # 15. Solman, Kärt
+    0.5, # 16. Tobi, Morris
+    0.7 * .5, # 17. Toom, Martha
+    0.4 * .5, # Teele Tuul
+    0.5, # Toren
+    0.5 # Andreas Volman
+  ),
+  c( # 4
+    (.16 + .16 + .136 + .01000000000000014) * .75, # 1. Allert, Marie
+    (0.976 + .04 * .16 + .136) * .75, # 2. Brinkmann, Sander
+    0.24, # 3. Ernits, Enrico
+    (.16 + .16 + .136 + .01000000000000014) * .75, # 4. Heinaru, Merili
+    1.8 * .75, # Fredi Kaljuvee
+    1.8 * 0.75, # 6. Kangro, Kristofer
+    1.8 * 0.75, # Mireta
+    (.16 * 2 + .08 + .04 + .618) * .75, # Eteli
+    1.8 * 0.75, # Hugo Miljand
+    1.8 * 0.75, # Oliver Orro
+    1.8 * 0.75, # 11. Parkkanen, Henrico
+    1.8 * 0.75, # Marken Parve
+    1.8 * 0.75, # Kristofer-Robin Plamus
+    (.16 * 2 + .08 + .04 + .618) * 0.75, # 14. Saar, Carl-Joonas
+    0.24, # 15. Schulzendorff, Katharina Helene
+    1.8 * 0.75, # Kris Taimre
+    (.16 + .16 + .136 + .01000000000000014) * .75, # Kiara Keiti Tepp
+    (.16 * 2 + .08 + .04 + .618) * 0.75, # Birgit Tori
+    (0.976 + .04 * .16 + .136) * .75, # Markus Ööbik
+    0, # Georg Ader
+    0.16 * .75, # Matteus Aus
+    0.16 * 3 * .75, # Maarja-Lii Erm
+    (.16 * 3 + .112 * 2 + .904) * 0.75, # 4. Jakobson, Jasper
+    (2 * .16) * 0.75, # 5. Jürissaar, Kaia Kretel
+    0, # Miia Mirtel Jürissaar
+    0, # Kairit Kabel
+    (.112 + .088 + .16) * .75, # Alice Kivirüüt
+    0, # 9. Kruusmann, Ketli
+    0, # Sten-Erik Mihkelson
+    (.16 * 4 + .112 + .952) * 0.75, # 11. Mäesalu, Martin
+    (.16 * 3 + .112 * 2 + .904) * 0.75, # 12. Oolma, Robert-Heinrich
+    (.112 + .088 + .16) * .75, # Anni Kaisi Paavel
+    0.16 * .75, # Karl Reiter
+    0, # 15. Solman, Kärt
+    (.16 * 3 + .112 * 2 + .904) * 0.75, # 16. Tobi, Morris
+    0, # 17. Toom, Martha
+    0.16 * 3 * .75, # Teele Tuul
+    (.16 * 4 + .112 + .952) * 0.75, # Toren
+    (.16 * 4 + .112 + .952) * 0.75 # Andreas Volman
+  ),
+  c( # 5
+    0, # 1. Allert, Marie
+    0.9, # 2. Brinkmann, Sander
+    0, # 3. Ernits, Enrico
+    0, # 4. Heinaru, Merili
+    .85 * .9, # Fredi Kaljuvee
+    0.9, # 6. Kangro, Kristofer
+    .85 * .9, # Mireta
+    0, # Eteli
+    0.9, # Hugo Miljand
+    .85 * .9, # Oliver Orro
+    0.9, # 11. Parkkanen, Henrico
+    0.9, # Marken Parve
+    0.9, # Kristofer-Robin Plamus
+    0, # 14. Saar, Carl-Joonas
+    0, # 15. Schulzendorff, Katharina Helene
+    0.9, # Kris Taimre
+    0, # Kiara Keiti Tepp
+    0, # Birgit Tori
+    0.9, # Markus Ööbik
+    0, # Georg Ader
+    0, # Matteus Aus
+    0, # Maarja-Lii Erm
+    0.9, # 4. Jakobson, Jasper
+    0, # 5. Jürissaar, Kaia Kretel
+    0, # Miia Mirtel Jürissaar
+    0, # Kairit Kabel
+    0, # Alice Kivirüüt
+    0, # 9. Kruusmann, Ketli
+    0, # Sten-Erik Mihkelson
+    0.9, # 11. Mäesalu, Martin
+    0.9, # 12. Oolma, Robert-Heinrich
+    0, # Anni Kaisi Paavel
+    0, # Karl Reiter
+    0, # 15. Solman, Kärt
+    0.9, # 16. Tobi, Morris
+    0, # 17. Toom, Martha
+    0, # Teele Tuul
+    0.9, # Toren
+    0.9 # Andreas Volman
+  )
 )
 
-from_statical_electricity_to_coulomb_law_3 <- c(
-  0.01, # Marie Allert
-  0.35, # Sander Brinkmann
-  0.4, # Enrico Ernits
-  0.25, # Merili
-  0.4, # Fredi Kaljuvee
-  0,
-  0.4, # Mireta
-  0.15, # Eteli
-  0.1, # Hugo Miljand
-  0.25, # Oliver Orro
-  0,
-  0,
-  0.13, # Kristofer-Robin Plamus
-  0,
-  0,
-  0,
-  0.43, # Kiara Keiti Tepp
-  0.08, # Birgit Tori
-  0.05, # Markus Ööbik
-  0,
-  0.2, # Mattias Aus
-  0.48, # Maarja-Lii Erm
-  0,
-  0.38, # Kaia Kretel Jürissaar
-  0.33, # Miia Mirtel JÜrissaar
-  0.03, # Kairit Kabel 
-  0,
-  0.38, # Ketli Kruusmann
-  0,
-  0,
-  0,
-  0,
-  .18, # Karl Reiter
-  0,
-  0.18, # Tobi Morris
-  0.15, # Martha Toom
-  0.33, # Teele Tuul
-  0,
-  0.35 # Andreas Volman
-)
-
-from_statical_electricity_to_coulomb_law_4 <- c(
-  0.03, # Marie Allert
-  0,
-  0.72, # Enrico Ernits
-  0.33, # Merili
-  0,
-  0,
-  0.06, # Mireta
-  0.39, # Eteli
-  0,
-  0.3, # Oliver Orro
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0.3, # Kiara Keiti Tepp
-  0.06, # Birgit Tori
-  0.06, # Markus Ööbik
-  0,
-  0,
-  0.45, # Maarja-Lii Erm
-  0,
-  0.54, # Kaia Kretel Jürissaar
-  0.36, # Miia Mirtel Jürissaar
-  0.3, # Kairit Kabel 
-  0.45, # Alice Kivirüüt
-  0.39, # Ketli Kruusmann
-  0,
-  0,
-  0,
-  0.18, # Anni Kaisi Paavel
-  .21, # Karl Reiter
-  0.15, # Kärt Solman
-  0,
-  0.15, # Martha Toom
-  0.51, # Teele Tuul
-  0,
-  0 # Andreas Volman
-)
-
-from_statical_electricity_to_coulomb_law_5 <- c(
-  0,
-  0.22, # Sander Brinkmann
-  0.2, # Enrico Ernits
-  0.85, # Merili
-  0,
-  0,
-  0,
-  0,
-  0.43, # Hugo Miljand
-  0.1, # Oliver Orro
-  0,
-  0,
-  0.1, # Kristofer-Robin Plamus
-  0,
-  0,
-  0.31, # Kris Taimre
-  0.49, # Kiara Keiti Tepp
-  0.07, # Birgit Tori
-  0.04, # Markus Ööbik
-  0.04, # Georg Ader
-  0, 
-  0.37, # Maarja-Lii Erm
-  0,
-  0,
-  0.46, # Miia Mirtel Jürissaar
-  0.25, # Kairit Kabel
-  0,
-  0.04, # Ketli Kruusmann
-  0.25, # Sten-Erik Mihkelson
-  0,
-  0,
-  0,
-  .31, # Karl Reiter
-  0.16, # Kärt Solman
-  0,
-  0,
-  0.4, # Teele Tuul
-  0.13, # Toren
-  0.55 # Andreas Volman
-)
-
-from_statical_electricity_to_coulomb_law_summary <- from_statical_electricity_to_coulomb_law_1 + from_statical_electricity_to_coulomb_law_2 + from_statical_electricity_to_coulomb_law_3 + from_statical_electricity_to_coulomb_law_4 + from_statical_electricity_to_coulomb_law_5
-
-#' This function calculates the grade according to the fraction.
-#'
-#' @param fractions the vector of fractions out of a whole
-#' 
-#' @example calculate_grade(fraction=.57)
-#' 
-#' @returns the grades as a vector
-calculate_grade <- function(fractions) {
-  
-  grades <- c()
-  for (index in 1:length(fractions)) {  # 2
-    if (fractions[index] < .9) {
-      if (fractions[index] < .75) {
-        if (fractions[index] < .5) {
-          if (fractions[index] < .2) {
-            grades[index] <- 1
-          } else {
-            grades[index] <- 2
-          }
-        } else {
-          grades[index] <- 3
-        }
-      } else {
-        grades[index] <- 4
-      }
-    } else {
-      grades[index] <- 5
-    }
-  }
-
-  return(grades)
-}
-
-from_statical_electricity_to_coulomb_law_grade <- calculate_grade(from_statical_electricity_to_coulomb_law_summary)
-
-data_frame_of_from_static_electricity_to_coulomb_law <- data.frame(
-  from_statical_electricity_to_coulomb_law_1,
-  from_statical_electricity_to_coulomb_law_2,
-  from_statical_electricity_to_coulomb_law_3,
-  from_statical_electricity_to_coulomb_law_4,
-  from_statical_electricity_to_coulomb_law_5,
-  from_statical_electricity_to_coulomb_law_summary,
-  from_statical_electricity_to_coulomb_law_grade
-)
-
-colnames(data_frame_of_from_static_electricity_to_coulomb_law) <- c(
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "Koond",
-  "Hinne"
-)
-
-rownames(data_frame_of_from_static_electricity_to_coulomb_law) <- c(
-	"1. Allert, Marie",
-	"2. Brinkmann, Sander",
-	"3. Ernits, Enrico",
-	"4. Heinaru, Merili",
-	"5. Kaljuvee, Fredi",
-	"6. Kangro, Kristofer",
-	"7. Küling, Mireta",
-	"8. Meriküll, Eteli",
-	"9. Miljand, Hugo",
-	"10. Orro, Oliver",
-	"11. Parkkanen, Henrico",
-	"12. Parve, Marken",
-	"13. Plamus, Kristofer-Robin",
-	"14. Saar, Carl-Joonas",
-	"15. Schulzendorff, Katharina Helene",
-	"16. Taimre, Kris",
-	"17. Tepp, Kiara Keiti",
-	"18. Tori, Birgit",
-	"19. Ööbik, Markus",
-	"1. Ader, Georg",
-	"2. Aus, Matteus",
-	"3. Erm, Maarja-Lii",
-	"4. Jakobson, Jasper",
-	"5. Jürissaar, Kaia Kretel",
-	"6. Jürissaar, Miia Mirtel",
-	"7. Kabel, Kairit",
-	"8. Kivirüüt, Alice",
-	"9. Kruusmann, Ketli",
-	"10. Mihkelson, Sten-Erik",
-	"11. Mäesalu, Martin",
-	"12. Oolma, Robert-Heinrich",
-  "13. Paavel, Anni Kaisi",
-	"14. Reiter, Karl Mattias",
-	"15. Solman, Kärt",
-	"16. Tobi, Morris",
-	"17. Toom, Martha",
-	"18. Tuul, Teele",
-	"19. Vahesaar, Toren Holder",
-	"20. Volman, Andreas"
-)
-
-#print_table(
-#  table = data_frame_of_from_static_electricity_to_coulomb_law,
-#  caption = "Statistikast Colulomb' seaduseni testi tulemused"
-#) %>%
-#  landscape()
+# build_table_with_grades(tasks = tasks_of_electric_current, names = names_11, caption = "Elektrivoolu")
 
 ```
 

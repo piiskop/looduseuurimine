@@ -18,6 +18,8 @@ include_external_graphics("rmd/baasreeglistik/physics-uncertainty.svg")
 
 Mõõtemääramatust on üldjoontes kaht tüüpi: A ja B.
 
+Mõõtesüsteemi varieeruvusest annab ülevaate joonis 15 [@jcgm_gum_6_2020pdf(lk 83)].
+
 \twocolumn
 
 ## Suhteline viga

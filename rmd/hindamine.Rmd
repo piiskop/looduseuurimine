@@ -70,7 +70,7 @@ Kontrolltöö sisaldab viie ülesande lahendamist:
 
 5. Väljakutsuv arvutusülesanne (\qty{90}{\percent} kontrolltööd).
 
-Kui õpilane kogub vähemalt \num{180} protsendipunkti kontrolltöö kohta, siis ta saab hindeks \num{6}, mis eKoolis kajastub lisa-*A*'na.
+Kui õpilane kogub vähemalt \num{180} protsendipunkti kontrolltöö kohta, siis ta saab lisahinde \num{5}.
 
 Kõik suurused tuleb kirjutada vastavalt SI reeglitele.
 

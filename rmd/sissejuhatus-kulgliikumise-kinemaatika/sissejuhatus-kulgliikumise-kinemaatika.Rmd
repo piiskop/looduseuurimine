@@ -1083,16 +1083,57 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)]. Jätkame juuresolevate graafikute kirjeldamisega.
-
-5. Liikumine püsiva kiirendusega[@physics(lk 30-33)].
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)]. Jätkasime juuresolevate graafikute kirjeldamisega. Lahendasime ülesande E kiirendusfunktsioonini.
 
 ### 2023-11-2
 
+Kontaktsessiooni lõpus õpilane
 
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
 
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)].
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jõudsime näites 2-10 selgitada välja, et lennuk ei suuda tõusta.
 
 ### 2023-11-2
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jõudsime näites 2-11 tuletada lõpliku valemi.
 
 Ülesanne järgmiseks kontaktsessiooniks:
 
@@ -1104,11 +1145,92 @@ Lugeda esimese arusaamatu kohani ja raporteerida mulle arusaamatu koht:
 
 Kui jõudsid lõpuni ja kõik oli selge, siis palun kirjuta, et kõik oli selge.
 
-### 2023-12-11
+### 2023-11-7
 
-### 2023-12-15
+Kontaktsessiooni lõpus õpilane
 
-### 2023-12-18
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jätkasime näitega 2-11 kasutades eelmine kord tuletatud lõplikku valemit. Lahendasime näite 2-11, kuid saime veidi vale tulemuse. Võisin ka valemi valesti tuletada.
+
+F-näites jäime valemi tuletamisega pooleli. Avaldasime kiirenduse valemist aja ja panime selle põhivalemisse.
+
+\onecolumn
+
+### 2023-11-7
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendasime näidet F ja tuli nulliga jagamine, seega miski läks ka siin valesti (joonis \@ref(fig:f-ralliauto) leheküljel `r render_pageref(reference="fig:f-ralliauto")`).
+
+```{r label="f-ralliauto", echo=FALSE, fig.cap="Siniselt on püütud lahendada ralliauto ülesannet. Kus on viga?"}
+include_external_graphics(path="rmd/sissejuhatus-kulgliikumise-kinemaatika/f-IMG_20231107_110344.jpg")
+
+```
+
+Lahendasime kiirenduse variatsiooniülesannete lehelt esimese lehekülje, seega selle, kus trammivagunid lõbustuspargis kiirenevalt või mittekiirenevalt liiguvad.
+
+\twocolumn
+
+### 2023-11-9
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendame uuesti ülesande F. Alustame *Acceleration*-i variatsiooniülesannete lahendamisega. Jätkame *Describing Motion with Diagrams*-i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 10)].
+
+6. Probleemide lahendamine[@physics(lk 33-37)].
 
 ### 2023-12-22
 
@@ -1733,13 +1855,56 @@ Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
 Kava:
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: alustame A-tüüpi mõõtemääramatuse eksperimendiga. *10b*: -ga jätkame. Võtame ette prantsuskeelse juhendi ja teeme selle näited läbi eri moel alustades näitest 1.2.2 @a12(lk 10)'l.
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustasime A-tüüpi mõõtemääramatuse eksperimendiga. Tegime läbi A-tüüpi mõõtemääramatuse arvutamise eksperimendi.
+ *10b*: -ga jätkasime. Võtsime ette prantsuskeelse juhendi. Jõudsime prantsuskeelse näite 1.2.5 läbi teha[@a12(lk 28-29)].
+
+7. Toores hinnang[@physics, lk 11-13].
+
+### 2023-11-13
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. Ühiku tuletamine[@mtmised(lk 8)] (*10b*).
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Kogeme eestikeelse õpiku näiteid.
+ *10b*: Alustame prantsuskeelse näitega 1.2.6[@a12(lk 30-31)].
+
+7. Toores hinnang[@physics, lk 11-13].
+
+### 2023-11-17
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+ *10b*: Mõõtmise praktika.
 
 7. Toores hinnang[@physics, lk 11-13].
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
-
-5: 55, 57,
 
 2, 6: 1, 3, 5, 7, 9, 11, 13,
 
@@ -1748,12 +1913,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-11-10
-
-### 2023-11-13
-
-### 2023-11-17
 
 ### 2023-11-20
 
@@ -2196,167 +2355,164 @@ print_table(
 
 ```{r label = "test-physics-method-results", echo=FALSE}
 
-physics_method_1 <- c(
-  0,
-  0,
-  0,
-  0.08, # Kustov, Vladimir
-  0,
-  0.08, # Šerstobitov, Mihhail
-  0.08, # Šesterikov, Daniil
-  0,
-  0,
-  0,
-  0,
-  0, 
-  0.08 # Volkova, Jeva
+tasks_of_physics_method<- data.frame(
+  c( # 1
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0.42 # Volkova, Jeva
+  ),
+  c( # 2
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0.42 # Volkova, Jeva
+  ),
+  c( # 3
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0.42 # Volkova, Jeva
+  ),
+  c( # 4
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0.42 # Volkova, Jeva
+  ),
+  c( # 5
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0.42 # Volkova, Jeva
+  )
 )
 
-physics_method_2 <- c(
-  0.05, # Alisa Babiy
-  0,
-  0.16, # Stanislavs
-  0,
-  0.07, # Malõšev, Polina
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0, 
-  0.07  # Volkova, Jeva
+tasks_of_physics_method<- data.frame(
+  c( # 1
+    0,
+    0,
+    0,
+    0.08, # Kustov, Vladimir
+    0,
+    0.08, # Šerstobitov, Mihhail
+    0.08, # Šesterikov, Daniil
+    0,
+    0,
+    0,
+    0,
+    0, 
+    0.08 # Volkova, Jeva
+  ),
+  c( # 2
+    0.05, # Alisa Babiy
+    0,
+    0.16, # Stanislavs
+    0,
+    0.07, # Malõšev, Polina
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0, 
+    0.07  # Volkova, Jeva
+  ),
+  c( # 3
+    0,
+    0,
+    0.13, # Stansilavs
+    0.35, # Kustov, Vladimir
+    0,
+    0,
+    0,
+    0.15, # Žigadlo, Grigori
+    0,
+    0,
+    0,
+    0.45, # Volkova, Darja
+    0
+  ),
+  c( # 4
+    0,
+    0.24, # Donat Irhin
+    0,
+    0.15, # Kustov, Vladimir
+    0.36, # Malõšev, Polina
+    0.24, # Šerstobitov, Mihhail
+    0,
+    0.6, # Žigadlo, Grigori
+    0,
+    0,
+    0,
+    0, 
+    0.42 # Volkova, Jeva
+  ),
+  c( # 5
+    0,
+    0,
+    0.04, # Stanislavs
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0, 
+    0
+  )
 )
 
-physics_method_3 <- c(
-  0,
-  0,
-  0.13, # Stansilavs
-  0.35, # Kustov, Vladimir
-  0,
-  0,
-  0,
-  0.15, # Žigadlo, Grigori
-  0,
-  0,
-  0,
-  0.45, # Volkova, Darja
-  0
-)
-
-physics_method_4 <- c(
-  0,
-  0.24, # Donat Irhin
-  0,
-  0.15, # Kustov, Vladimir
-  0.36, # Malõšev, Polina
-  0.24, # Šerstobitov, Mihhail
-  0,
-  0.6, # Žigadlo, Grigori
-  0,
-  0,
-  0,
-  0, 
-  0.42 # Volkova, Jeva
-)
-
-physics_method_5 <- c(
-  0,
-  0,
-  0.04, # Stanislavs
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0, 
-  0
-)
-
-physics_method_summary <- physics_method_1 + physics_method_2 + physics_method_3 + physics_method_4 + physics_method_5
-
-#' This function calculates the grade according to the fraction.
-#'
-#' @param fractions the vector of fractions out of a whole
-#' 
-#' @example calculate_grade(fraction=.57)
-#' 
-#' @returns the grades as a vector
-calculate_grade <- function(fractions) {
-  
-  grades <- c()
-  for (index in 1:length(fractions)) {  # 2
-    if (fractions[index] < .9) {
-      if (fractions[index] < .75) {
-        if (fractions[index] < .5) {
-          if (fractions[index] < .2) {
-            grades[index] <- 1
-          } else {
-            grades[index] <- 2
-          }
-        } else {
-          grades[index] <- 3
-        }
-      } else {
-        grades[index] <- 4
-      }
-    } else {
-      grades[index] <- 5
-    }
-  }
-
-  return(grades)
-}
-
-physics_method_grade <- calculate_grade(physics_method_summary)
-
-data_frame_of_physics_method <- data.frame(
-  physics_method_1,
-  physics_method_2,
-  physics_method_3,
-  physics_method_4,
-  physics_method_5,
-  physics_method_summary,
-  physics_method_grade
-)
-
-colnames(data_frame_of_physics_method) <- c(
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "Koond",
-  "Hinne"
-)
-
-rownames(data_frame_of_physics_method) <- c(
-	"1. Babiy, Alisa",
-	"2. Irhin, Donat",
-	"3. Kimasks, Stanislavs",
-	"4. Kustov, Vladimir",
-	"5. Malõšev, Polina",
-	"6. Šerstobitov, Mihhail",
-	"7. Šesterikov, Daniil",
-	"8. Žigadlo, Grigori",
-	"9. Žukova, Darja",
-	"10. Trubilko, Vladislav",
-	"11. Tšerkesov, Demid",
-	"12. Volkova, Darja",
-	"13. Volkova, Jeva"
-)
-
-#print_table(
-#  table = data_frame_of_physics_method,
-#  caption = "Füüsika meetodi testi tulemused"
-#) %>%
-#  landscape()
+# build_table_with_grades(tasks = tasks_of_physics_method, names = names_10, caption = "Füüsika meetodi")
 
 ```
-
-\twocolumn
 
 \twocolumn

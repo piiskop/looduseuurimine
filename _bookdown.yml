@@ -14,3 +14,7 @@ rmd_files: [
   "rmd/mõõtmiseksperiment.Rmd",
   "references.Rmd"
 ]
+language:
+  label:
+    fig: 'Joonis '
+    
