@@ -310,16 +310,7 @@ Asendan nurkkiiruse valemisse \@ref(eq:angular-velocity) leheküljel `r render_p
 kiirendus
 : kiiruse muutumise kiirus aja suhtes [@haynes_2014_crc(lk 2-44)]
 
-Kiirenduse vektori valem on \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")`.
-
-```{=tex}
-\begin{align}
-\vec{a} := \frac{\mathrm{d}(\vec{v})}{\mathrm{d}(t)},
-(\#eq:a)
-\end{align}
-```
-
-kus
+Kiirenduse vektori valem on \@ref(eq:a) leheküljel `r render_pageref(reference = "eq:a")`. Selles on esitatud järgnevad eelnevalt defineerimata muutujad:
 
 $\vec{v}$
 : kiiruse vektor
@@ -327,7 +318,14 @@ $\vec{v}$
 $t$
 : kestus [@haynes_2014_crc(lk 2-2)]
 
-Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-a) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-a")`.
+```{=tex}
+\begin{align}
+\vec{a} = \frac{\mathrm{d}(\vec{v})}{\mathrm{d}(t)},
+(\#eq:a)
+\end{align}
+```
+
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-a) leheküljel `r render_pageref(reference = "eq:dimensional-analysis-for-a")`. Seetõttu on ühik $\unit{\m\per\s\squared}$.
 
 ```{=tex}
 \begin{align}
@@ -336,7 +334,21 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-a
 \end{align}
 ```
 
-mistõttu ühik on $\unit{\m\per\s\squared}$.
+Avaldan valemist \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` aja keskmise kiirenduse ja püsikiirenduse korral valemina \@ref(eq:time-on-constant-acceleration) leheküljel `r render_pageref(reference="eq:time-on-constant-acceleration")`. Selles on esitatud järgnevad eelnevalt defineerimata muutujad:
+
+$\overrightarrow{v(0)}$
+: algkiiruse vektor
+
+$\overrightarrow{a(0)}$
+: alg- ehk püsikiirenduse vektor
+
+```{=tex}
+\begin{align}
+t = \frac{\vec{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}}.
+(\#eq:time-on-constant-acceleration)
+\end{align}
+
+```
 
 Joonisel \@ref(fig:cities) leheküljel `r render_pageref(reference = "fig:cities")` on näidatud gravitatsioonist põhjustatud kiirendus eri piirkondades Maal.
 
@@ -504,6 +516,21 @@ Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on n�
 \frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \\
 \frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t)
 (\#eq:path-length-by-jerk)
+\end{align}
+
+```
+
+#### Nihe kiiruste ja püsikiirenduse kaudu
+
+Kuna püsikiirenduse puhul jõnksu pole, lihtsustub valem \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` jõnksukomponendi võrra ja kui sellesse asendada aeg vastavast valemist \@ref(eq:time-on-constant-acceleration) leheküljel `r render_pageref(reference="eq:time-on-constant-acceleration")`, saan tuletada seose püsikiirenduse, kiiruste ja nihke vahel (avaldised \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`).
+
+```{=tex}
+\begin{align}
+\frac{a(0) \cdot (\frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}})^2}{2} + \overrightarrow{v(0)} \cdot \frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{\overrightarrow{v}^2 - 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v} + \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + \frac{\overrightarrow{v(0)} \cdot \overrightarrow{v} - \overrightarrow{v(0)}^2}{\overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{\overrightarrow{v}^2 \cancel{- 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} + \overrightarrow{v(0)}^2 \cancel{+ 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} - 2 \cdot \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{\overrightarrow{v}^2 - \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} &= r - r(0).
+(\#eq:constant-acceleration-via-velocities-and-displacement)
 \end{align}
 
 ```

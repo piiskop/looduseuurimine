@@ -28,6 +28,6 @@ Arusaamise kinnistamiseks on vaja kümnete teemakohaste ülesannete lahendamine.
 
 Alati saad ka kontrollida lahendit[@physics(lk A23-A46)]. Kui saad teistsuguse lahendi, võrdle enda lahenduskäiku minu omaga[@looduseuurimine] ja korrigeeri!
 
-## Kujunda endas välja arvutusprobleemide lahendamise harjumused!
+## Kujunda endas välja lahendamise harjumused!
 
-@a1dkinpacketpdf(lk 24) on esitatud arvutusprobleemide lahendamise harjumused, mille soovitan sul endas välja kujundada.
+@a1dkinpacketpdf(lk 24) ja @physics(lk 33) on esitatud arvutusprobleemide lahendamise harjumused, mille soovitan sul endas välja kujundada.

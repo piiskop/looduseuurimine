@@ -107,12 +107,12 @@ chooser_1 <- c(
   "",
   "",
   "",
-  "",
-  "",
+  "Veronika Salnikova", # soojuskiirgus
+  "Feliks", # fotoefekt
   "Miša", # tuumafüüsika
   "Alisa", # radioaktiivsusega kaasnevad kiirgused
   "",
-  "Dasha Žukova", # astronoomia ajalugu ja metoodika
+  "", # astronoomia ajalugu ja metoodika
   "Grigori Žigadlo", # kosmosetehnoloogiad
   "Stanislavs", # Päikesesüsteem
   "Jeva Volkova", # tähed
@@ -223,8 +223,8 @@ different_physics_chooser_of_date_1 <- c(
   "",
   module[10],
   module[11],
-  "",
-  "",
+  module[6],
+  module[5],
   module[13]
 )
 

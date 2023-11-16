@@ -1,4 +1,4 @@
-# Sissejuhatus füüsikasse. Kulgliikumise kinemaatika[@Ainevaldkonna_undated-sr, lk 29-30]
+# Sissejuhatus. Kulgliikumise kinemaatika[@Ainevaldkonna_undated-sr, lk 29-30]
 
 ## Füüsika meetod
 
@@ -96,16 +96,14 @@ aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob 
 8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
 mõõtmise või määramise viise (2-2, 2-3);
 
-9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6);
-
-10. kasutab ühtlase
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
 sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
 
-11. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
 oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
 
-12. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
-leidmiseks järgmisi seoseid: (2: 5-7).
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja (2: 5-7).
 
 2
 3: 1-2
@@ -136,7 +134,25 @@ kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-
 ### Põhimõisted
 
 füüsikaline suurus, skalaarne ja vektoriaalne suurus (2-2, 3-1), pikkus (2-1), liikumisolek (2: 1-4), aeg (2-2), kulgliikumine (2, 3),
-punktmass, taustsüsteem (2-1), kinemaatika (2, 3), teepikkus (2-1), nihe (2-1), keskmine kiirus (2-2), hetkkiirus (2-3), kiirendus (2: 4, 5, 8), vaba
+punktmass, taustsüsteem (2-1), kinemaatika (2, 3)
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+vaba
 langemine (2-7)
 
 2
@@ -1152,7 +1168,8 @@ Kontaktsessiooni lõpus õpilane
 8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
 mõõtmise või määramise viise (2-2, 2-3);
 
-9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6).
 
 Õppesisu:
 
@@ -1210,16 +1227,43 @@ Lahendasime kiirenduse variatsiooniülesannete lehelt esimese lehekülje, seega 
 
 Kontaktsessiooni lõpus õpilane
 
-8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
-mõõtmise või määramise viise (2-2, 2-3);
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja (2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+1. Tekitasime tahvlile positsiooni valemist algpositsiooni, algkiiruse ja ajahetke.
+
+### 2023-11-9
+
+Kontaktsessiooni lõpus õpilane
 
 9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
 
 Õppesisu:
 
 Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
-liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
-vektoriaalsed suurused (3-6).
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
 
 Põhimõiste:
 
@@ -1228,23 +1272,128 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendame uuesti ülesande F. Alustame *Acceleration*-i variatsiooniülesannete lahendamisega. Jätkame *Describing Motion with Diagrams*-i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 10)].
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendasime uuesti ülesande F. Tegime tahvlile kiiruse valemi ehk tuletise positsiooni valemist. Panime sinna ajahetke valemi asemele ja arvutasime ülesande F lõppkiiruse.
+
+### 2023-11-9
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Tegime ülesande F kohta veel tabeli, kus aeg, positsioon ja kiirus, lisaks kõik graafikud kuni kiirenduseni välja. *Acceleration*-i variatsiooniülesannetest lahendasime esimese lehekülje ülesanded. Jätkame *Describing Motion with Diagrams*-i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 10)].
 
 6. Probleemide lahendamine[@physics(lk 33-37)].
 
-### 2023-12-22
+### 2023-11-14
 
-### 2024-1-8
+Kontaktsessiooni lõpus õpilane
 
-### 2024-1-12
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
 
-### 2024-1-15
+Õppesisu:
 
-### 2024-1-19
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
 
-Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
+Põhimõiste:
 
-### 2024-1-22
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. *Acceleration*-i variatsiooniülesannetest lahendasime teise lehekülje ülesanded[@a1dkinpacketpdf(lk 8)]. Jätkasime *Describing Motion with Diagrams*-i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 10)]. Lahendasime Describing Motion Numerically teise ülesande Honda Accordini[@a1dkinpacketpdf(lk 11)].
+
+### 2023-11-14
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendasime Numerically variatsiooniülesanded lõpuni[@a1dkinpacketpdf(lk 11-12)].
+
+### 2023-11-16
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustame *Describingi Motion with Position-Time Graphs* variatsiooniülesannete lahendamist[@a1dkinpacketpdf(lk 13)]. Jätkame *Interpretingi Velocity-Time Graphs* variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 19-20)]. Jätkame *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)].
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+
+### 2023-11-16
+
+### 2023-11-16
 
 ## Kohila Gümnaasiumi Kalender
 
@@ -1952,85 +2101,218 @@ Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
 
 ## Ülesanded
 
-### Ühikud, SI[@physics(lk 17)]
+### Sissejuhatus, mõõtmine, hindamine
 
-15) Väljendage järgmist, kasutades [eesliiteid](#prefixes):
+#### Mõõtmine, määramatus, olulised numbrid[@physics(lk 16)]
 
+1. Mitu olulist numbrit on igal järgmistel numbritel:
+ - \num{777},
+ - \num{81,60},
+ - \num{7,03},
+ - \num{0,03},
+ - \num{0,0086},
+ - \num{6465} ja
+ - \num{8700}?
+3. Kirjutage järgmised arvud täispikkuses õige arvu nullidega:
+ - \num{8,69e5},
+ - \num{9,1e3},
+ - \num{2,5e-1},
+ - \num{4,76e2} ja
+ - \num{3,62e-5}.
+5. Füüsilise stopperiga mõõdetud ajavahemike määramatus on tavaliselt umbes \qty{0,2}{\s}, mis on tingitud inimese reaktsiooniajast stardi- ja peatumishetkedel. Kui suur on käsitsi ajastatud mõõtmise määramatuse protsent järgmiste ajavahemike puhul:
+ - \qty{4,5}{\s},
+ - \qty{45}{\s},
+ - \qty{4,5}{\min}?
+7. Korrutage \qty{4,079e2}{\m} \qty{0,057e-1}{\m}'ga, võttes arvesse olulisi numbreid.
+
+9\. Väikeste nurkade $u$ korral on $\mathrm{sin}(u)$ arvväärtus ligikaudu sama, mis $\mathrm{tan}(u)$ arvväärtus.
+Leia suurim nurk, mille puhul siinus ja tangens langevad kokku kahe tüvenumbri piires.
+
+11\. Kellatootja väidab, et tema kellad ei võta juurde ega kaota aastaga rohkem kui \qty{9}{\s}. Kui täpsed need kellad protsentides on?
+
+13\. Kui suur on ligikaudu sfäärilise rannapalli ruumala määramatuse protsent, mille raadius on $r = \qty{0,64(4)}{\m}$?
+
+#### Ühikud, SI[@physics(lk 17)]
+
+15. Väljendage järgmist, kasutades [eesliiteid](#prefixes):
  - \qty{3e6}{\volt},
-    
  - \qty{2e6}{\m},
-    
  - \num{5e3} päeva,
-    
  - \num{18e2} taala ja
-    
  - \qty{9e-7}{\s}.
-
-17) Tähendusnumbrite õige arvu saamiseks kasutage nt @haynes_2014_crc's olevat teavet, et määrata
-
+17. Tähendusnumbrite õige arvu saamiseks kasutage nt @haynes_2014_crc's olevat teavet, et määrata
  - Maa pindala ja Kuu pindala suhe,
-    
  - Maa ruumala võrreldes Kuu mahuga.
-
-19) Arvatakse, et universumi vanus on umbes 14 miljardit aastat. Eeldades kahte olulist numbrit, kirjutage see kümne astmetes
-
+19. Arvatakse, et universumi vanus on umbes 14 miljardit aastat. Eeldades kahte olulist numbrit, kirjutage see kümne astmetes
  - aastas,
-    
  - sekundis.
+21. Väljendage õige tüvenumbrite arvuga järgmine summa: $\qty{1,90}{\m} + \qty{142,5}{\centi\m} + \qty{6,27e5}{\micro\m}$.
 
-21) Väljendage õige tüvenumbrite arvuga järgmine summa: $\qty{1,90}{\m} + \qty{142,5}{\centi\m} + \qty{6,27e5}{\micro\m}$.
-
-23) Määrake teisendustegur:
+23\. Määrake teisendustegur:
 
  - $\frac{\unit{\kilo\m}}{\unit{\hour}} \ce{->} \frac{\text{miil}}{\unit{\hour}}$,
-    
  - $\frac{\unit{m}}{\unit{\s}} \ce{->} \frac{\text{jalg}}{\unit{\s}}$ ning
-    
  - $\frac{\unit{\kilo\m}}{\unit{\hour}} \ce{->} \frac{\unit{m}}{\unit{\s}}$.
+[]{#tasks-intro-units-25}
 
-25) Valgusaasta on vahemaa, mille valgus läbib ühe aasta kestel (kiirusel = \qty{2,998e8}{\m\per\s}).
-
+25. Valgusaasta on vahemaa, mille valgus läbib ühe aasta kestel (kiirusel = \qty{2,998e8}{\m\per\s}).
  - Mitu meetrit on \num{1,00}'s valgusaastas?
-    
  - Astronoomiline ühik (AU) on keskmine kaugus Päikesest Maani, \qty{1,50e8}{\kilo\m}. Kui palju AU'sid on \num{1,00}'s valgusaastas?
-    
-27) Mitu lainepikkust oranži krüptoon-86 valgust[@bureau_1974_the] mahuks  @physics ühe lehekülje paksusesse?
+27. Mitu lainepikkust oranži krüptoon-86 valgust[@bureau_1974_the] mahuks  @physics ühe lehekülje paksusesse?
 
-29) Reisilennuk kulutab umbes \qty{12}{\l} kütust ühe lennukilomeetri kohta. Mis on see väärtus väljendatuna miilides galloni kohta?
+29\. Reisilennuk kulutab umbes \qty{12}{\l} kütust ühe lennukilomeetri kohta. Mis on see väärtus väljendatuna miilides galloni kohta?
 
-31) Arvuta:
+31\. Arvuta:
 
  - Mitu sekundit on \num{1,00}'s aastas?
-    
  - Mitu nanosekundit on \num{1,00}'s aastas?
-    
  - Mitu aastat on \qty{1,00}{\s}'s?
-    
-33) Merkuuri läbimõõt on \qty{4879}{\kilo\m}.
-
+33. Merkuuri läbimõõt on \qty{4879}{\kilo\m}.
  - Kui suur on Merkuuri pindala?
-    
  - Mitu korda suurem on Maa pindala?
+ 
+#### Suurusjärk[@physics(lk 17-18)]
+
+35. Hinnake suurusjärku (\num{10} aste):
+ - \num{3200},
+ - \num{86,30e3},
+ - \num{0,076} ja
+ - \num{15,0e8}.
+37. Hinnake, mitu tundi kuluks jooksmiseks (\qty{10}{\kilo\m\per\hour}) läbi USA New Yorgist Californiasse.
     
-### Mõõtmed[@physics(lk 18)]
+39\. Hinnake rakkude arvu täiskasvanud inimese kehas, arvestades, et tüüpilise raku läbimõõt on umbes \qty{10}{\milli\m} ja inimkeha tihedus umbes \qty{1000}{\kg\per\m\cubed}.
 
-55) Objekti kiirus $v$ on antud võrrandiga $v = At^3 - Bt$, kus $t$ viitab ajale.
+41\. Hinnake kõigi USA autojuhtide poolt aastas tarbitud bensiini gallonite arvu.
 
+43\. Hinnake, mitu kilogrammi pesuseepi kasutatakse USA-s ühe aasta jooksul (ja seepärast pumbatakse see koos musta veega pesumasinatest välja). Oletame, et igale pesukogusele kulub \qty{0,1}{\kg} seepi.
+
+45\. Matkarada on \qty{270}{\kilo\m} pikkune läbi erineva maastiku.
+Ränd matkajaid läbib esimesed \qty{49}{\kilo\m} kahe ja poole päevaga. Hinnake, kui palju aega nad ülejäänud reisi jaoks jätavad.
+
+47\. Hinnake tarretisubade arvu @physics(lk 17) joonisel 1-13 kujutatud purgis.
+
+49\. Olete kuumaõhupallis, \qty{300}{\m} kõrgusel Texase tasasest tasandikust. Sa vaatad silmapiiri poole. Kui kaugele sa näed: see tähendab, kui kaugel on sinu silmapiir? Maa oma
+raadius on umbes \qty{6400}{\kilo\m}.
+
+51\. Rehvidest kulunud kumm satub enamasti atmosfääri tahkete osakeste reostusena. Hinnake, kui palju kummi (kg) Ameerika Ühendriikides aastas õhku lastakse. Alustuseks on hea hinnanguline rehvimustri sügavus uuena \qty{1}{\centi\m} ja kummi mass on umbes \qty{1200}{\kg\per\m\cubed}.
+
+53\. Lamad rannas, silmad \qty{20}{\centi\m} kõrgusel liivast. Just siis, kui Päike loojub, täielikult horisondi taha kadudes, hüppate kohe üles, teie silmad on nüüd \qty{150}{\centi\m} liiva kohal ja näete taas Päikese tippu. Kui loete sekundite arvu ($= t$ ), kuni Päike taas täielikult kaob, saate hinnata Maa raadiust. Kuid selle ülesande jaoks kasutage aja $t$ arvutamiseks teadaolevat Maa raadiust.
+
+#### Mõõtmed[@physics(lk 18)]
+
+55. Objekti kiirus $v$ on antud võrrandiga $v = At^3 - Bt$, kus $t$ viitab ajale.
  - Mis on $A$ ja $B$ mõõtmed?
-    
  - Mis on konstantide $A$ ja $B$ SI ühikud?
-    
-57) Analüüsi:
-
+57. Analüüsi:
  -   Näidake, et järgmine kombinatsioon kolmest
   looduse põhikonstandist - $G = \qty{6,67e-11}{\m\cubed\per\kilo\g\per\s\squared}$, $c = \qty{3,00e8}{\m\per\s}$ ja $h = \qty{6,63e-34}{\kilo\g\m\squared\per\s}$ -  moodustavad aja mõõtmetega suuruse:
     
-     $t_\text{P} = \sqrt{\frac{G \cdot h}{c^5}}.$
+     $$t_\text{P} = \sqrt{\frac{G \cdot h}{c^5}}.$$
     
      Seda suurust $t_\text{P}$ nimetatakse Plancki ajaks ja arvatakse, et see on kõige varasem aeg pärast universumi loomist, mil saab rakendada praegu teadaolevaid füüsikaseadusi.
-    
  - Hinnake $t_\text{P}$ suurusjärku, kasutades nt @haynes_2014_crc.
 
+#### Üldised probleemid[@physics(lk 18-19)]
+
+59. Üks mool aatomeid koosneb \num{6,02e23}'st üksikust aatomist.
+Kui mool aatomeid jaotuks ühtlaselt üle Maa pinna, siis mitu aatomit oleks ruutmeetri kohta?
+
+61\. Kui kasutaksite andmete sisestamiseks ainult klaviatuuri, siis mitu aastat kuluks kõvaketta täitmiseks arvutis, mis suudab salvestada \qty{1,0}{\tera\byte} (\qty{1,0e12}{\byte}) andmeid?
+Oletagem, et töönädalad on \qty{40}{\hour} ja et saate sisestada \num{150} tähemärki minutis ja üks bait on üks klaviatuuri märk.
+
+63\. Teatud kompaktplaat (CD) sisaldab \qty{783216}{\mega\byte} digitaalset teavet. Iga bait koosneb täpselt \qty{8}{\bit}'st.
+Esitamisel loeb CD-mängija CD teavet konstantse kiirusega \qty{1,4}{\mega\bit\per\s}. Mitu minutit kulub mängijal kogu CD lugemiseks?
+
+65\. Tüüpiline täiskasvanud inimese kops sisaldab umbes 300 miljonit väikest õõnsust, mida nimetatakse alveoolideks. Hinnake ühe alveooli keskmist läbimõõtu.
+
+67\. Torm puistab \qty{2}{\hour} jooksul \qty{5}{\kilo\m} laiusele ja \qty{7}{\kilo\m} pikkusele linnale \qty{1,0}{\centi\m} vihma. Mitu tonni ($\qty{1}{\tonne} = \qty{10e3}{\kg}$) vett langes linnale? ( \qty{1}{\centi\m\cubed} vee mass on $\qty{1}{\g} = \qty{10e-3}{\kg}.$ ) Mitu gallonit vett see oli?
+
+69\. Noa laev pidi olema \num{300} küünart pikk ja \num{50} küünart lai,
+ja \num{30} küünart kõrge. Küünar oli mõõtühik, mis võrdub inimese küünarvarre pikkusega küünarnukist pikima sõrme otsani. Väljendage Noa laeva mõõtmed meetrites ja hinnake selle mahtu ( \unit{\m\cubed} ) .
+
+71\. Kui kõnniksite mööda üht Maa pikkusjoont põhja poole, kuni oleksite laiuskraadi muutnud \qty{1}{\arcminute} võrra (kraadi kohta on \qty{60}{\arcminute}), kui kaugele oleksite kõndinud (miilides)? See vahemaa on meremiil[@physics(lk 7)].
+
+73\. Jim seisab laia jõe ääres ja imestab, kui lai see on. Ta märkab otse enda vastas asuval pangal suurt kivi. Seejärel kõnnib ta \num{85} sammu ülesvoolu ja otsustab, et tema ja kivi vaheline nurk, mida ta veel näeb, on nüüd nurga all
+\qty{30}{\degree} allavoolu (@physics(lk 19) joon. 1-17).
+Jim mõõdab oma sammu pikkuseks umbes \qty{0,8}{\m}. Hinnake jõe laiust.
+
+75\. Hinnake San Francisco torulukkseppade arvu.
+
+77\. Järgmine valem hindab keskmise inimese kopsumahtu $V$ (liitrites, kus $\qty{1}{\liter} = \qty{1e3}{\centi\m\cubed}$ ):
+
+$$V = 4,1H - 0,018A - 2,7,$$
+    
+kus $H$ ja $A$ on vastavalt inimese pikkus (meetrites) ja vanus (aastates). Millised on selles valemis olevate arvude \num{4,1}, \num{0,018} ja \num{2,7} ühikud?
+    
+79\. Hiljutised astrofüüsika avastused näitavad, et vaadeldavat universumit saab modelleerida sfäärina raadiusega $R = \num{13,7e9} \text{valgusaastat} = \qty{13,0e25}{\m}$ keskmise kogumassi tihedusega umbes \qty{1e-26}{\kg\per\m\cubed}. umbes \qty{4}{\percent} kogumassist on tingitud "tavalisest" ainest (nagu prootonid, neutronid ja elektronid). Hinnake, kui palju tavalist ainet (\unit{kg}) on vaadeldavas universumis. (Valgusaasta kohta vaadake ülesannet [25](#tasks-intro-units-25)[@physics(lk 17)].)
+
+### *1D*' kinemaatika
+
+#### Kiirus ja kiirusvektor
+
+1. Kui sõidate \qty{85}{\km\per\hour} mööda sirget teed ja vaatate \qty{2,0}{\s} küljele, siis kui kaugele te selle tähelepanematuse perioodi jooksul sõidate?
+
+3\. Osake $t_1 = \qty{-2,0}{\s}$ juures on asukohas $x_1 = \qty{5,2}{\centi\m}$ ja $t_2 = \qty{3,4}{\s}$ juures on asukohas $x_2 = \qty{8,5}{\centi\m}$. Kui suur on selle keskmine kiirusvektor sellel ajavahemikul? Kas saate nende andmete põhjal arvutada selle keskmise kiiruse? Miks või miks mitte?
+
+5\. Sõidate koolist koju stabiilselt \qty{95}{\kilo\m\per\hour} \qty{210}{\kilo\m}. Seejärel hakkab sadama vihma ja aeglustad kiirusele \qty{65}{\kilo\m\per\hour}. Jõuate koju pärast \qty{4,5}{\hour} sõitu.
+
+ - Kui kaugel on teie kodulinn koolist?
+ - Mis oli teie keskmine kiirus?
+7. Inimene jookseb \num{400}-\unit{\m} rajal kaheksa täisringi kokku \qty{14,5}{\minute}. Arvutage
+ - keskmine kiirus ja
+ - keskmine kiirusvektor
+ \unit{\m\per\s}.
+9. Sõiduauto, mis sõidab \qty{95}{\kilo\m\per\hour}, on \qty{310}{\m} taga veoautost, mis sõidab \qty{75}{\kilo\m\per\hour}. Kui kaua kulub autol veokini jõudmiseks?
+
+11\. Kaks vedurit lähenevad üksteisele paralleelsetel rööbasteedel. Kõigi kiirus maapinna suhtes on \qty{155}{\kilo\m\per\hour}. Kui nad on esialgu üksteisest \qty{9,5}{\kilo\m} kaugusel, siis kui kaua läheb aega, enne kui nad üksteiseni jõuavad? (Vt @physics(lk 47) joon. 2-39.)
+
+13\. Väikese objekti asukoht on antud funktsiooniga $x = \num{27} + \num{10} t \num{-2} t^3$, kus $t$ on sekundites ja $x$ meetrites.
+
+ - Joonistage $x(t)$ funktsioonina vahemikus $t = \num{0}$ kuni $t = \qty{3,0}{\s}$.
+ - Leidke objekti keskmine kiirus vahemikus \qtyrange{0}{3,0}{\s}.
+ - Mis ajavahemikus \qtyrange{0}{3,0}{\s} on hetkekiirus null?
+
+15. Kaks laeva peavad korraga jõudma keset ookeani asuvasse kohta. Nad alustavad samal ajal saabumiskohast võrdselt kaugel asuvatest positsioonidest. Nad liiguvad erineva kiirusega, kuid mõlemad liiguvad sirgjooneliselt.
+Esimene laev sõidab esimese \qty{600}{\kilo\m} keskmise kiirusega \qty{20}{\kilo\m\per\hour}, järgmised \qty{800}{\kilo\m} \qty{40}{\kilo\m\per\hour},
+ja \qty{20}{\kilo\m\per\hour} viimase \qty{600}{\kilo\m} jaoks. Teine laev saab sõita ainult konstantse kiirusega. Mis on selle kiiruse suurus?
+
+17\. @physics(lk 48) joonisel 2-40
+
+ - milliste ajavahemike jooksul (kui üldse) on kiirus konstantne?
+ - mis ajal on kiirus suurim?
+ - mis kell on kiirus null, kui üldse?
+ - kas objekt liigub näidatud aja jooksul ühes suunas või mõlemas suunas?
+
+19. Pideva kiirusega liikuv keeglipall tabab \qty{16,5}{\m} pikkuse keegliraja lõpus olevaid kurikaid. Pallur kuuleb palli kurikaid tabava heli \qty{2,75}{\s} pärast palli kätest vabastamist. Kui suur on kuuli kiirus, kui helikiirus on \qty{340}{\m\per\s}?
+
+#### Kiirendus
+
+21. Sprinter kiirendab puhkeolekust kuni kiiruseni \qty{9,00}{\m\per\s} \qty{1,48}{\s}.
+Kui suur on tema kiirendus
+ - \unit{\m\per\s\squared};
+ - \unit{\kilo\m\per\hour\squared}?
+ 
+23. Püsikiirusel liikuv sportauto läbib \qty{120}{\m} \qty{5,0}{\s}. Kui see seejärel pidurdab ja peatub \qty{3,7}{\s} pärast, siis kui suur on selle kiirenduse suurus (oletatav konstantne) ühikutes \unit{\m\per\s\squared} ja $g$-des ($g = \qty{9,80}{\m\per\s\squared}$)?
+
+25\. Sirgjoonel liikuv auto alustab liikumist kohast $x = \num{0}$, kui $t_0 = \num{0}$. See auto läbib punkti $x = \qty{25,0}{\m}$ kiirusega \qty{11,0}{\m\per\s}, kui $t = \qty{3,00}{\s}$. See auto läbib punkti $x = \qty{385}{\m}$ kiirusega \qty{45,0}{\m\per\s} ajaga $t = \qty{20,0}{\s}$. Arvutada
+ 
+ - keskmine kiirus ja
+ - keskmine kiirendus
+vahemikus $t = \qty{3,00}{\s}$ kuni $t = \qty{20,0}{\s}$!
+
+27. Objekti asukoha annab funktsioon $x = At + Bt^2$,
+kus $x$ on meetrites ja $t$ sekundites.
+ - Mis on $A$ ja $B$ ühikud?
+ - Mis on kiirenduse funktsioon ajast?
+ - Mis on kiirus ja kiirendus hetkes $t = \qty{6,0}{\s}$?
+ - Milline on kiirus aja funktsioonina, kui $x = At + Bt^{-3}$?
+29. Auto, mis sõidab \qty{25,0}{\m\per\s}, möödub teisest, puhkeasendis olevast autost. Kui autod on täpselt kõrvuti, aeglustab esimene auto konstantse määraga \qty{2,0}{\m\per\s\squared} ja teine auto hakkab samasuguse konstantse määraga kiirendama. Millal need kaks autot jälle kõrvuti on?
+
+31\. Sportauto kiirendab ligikaudu nii, nagu on näidatud @physics(lk 49) kiiruse-aja graafikul 2-43. (Lühikesed lõigud kõveral tähistavad käiguvahetust käsitsi.) Hinnake auto keskmist kiirendust
+ 
+ - teisel ja
+ - neljandal käigul.
+ 
 \onecolumn
 
 ## Testid

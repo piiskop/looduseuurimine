@@ -677,9 +677,9 @@ Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
 
 9) Arvutage $\qty{1,7}{\m} \times  \qty{2,6}{\m}$ mõõtmetega laua pealispinnale mõjuv atmosfääri kogujõud. Kui suur on kogu jõud, mis mõjub laua alumisele küljele ülespoole?
 
-11) Kui kõrge oleks tase alkoholibaromeetris normaalsel atmosfäärirõhul?
+11\) Kui kõrge oleks tase alkoholibaromeetris normaalsel atmosfäärirõhul?
 
-13) Soovitatav rehvirõhk konkreetse auto jaoks on \qty{220}{\kilo\pascal}. Kui auto mass on \qty{1250}{\kg}, siis milline iga rehvi ala peab olema kokkupuutes teega? Oletame, et auto
+13\) Soovitatav rehvirõhk konkreetse auto jaoks on \qty{220}{\kilo\pascal}. Kui auto mass on \qty{1250}{\kg}, siis milline iga rehvi ala peab olema kokkupuutes teega? Oletame, et auto
 kaal jaotub ühtlaselt kõigi \num{4} rehvi vahel.
 
 ### Pindpinevus ja kapillaarsus[@physics(lk 396)]
