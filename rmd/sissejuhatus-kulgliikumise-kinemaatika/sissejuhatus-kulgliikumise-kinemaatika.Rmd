@@ -1385,15 +1385,115 @@ Kava:
 
 5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustame *Describingi Motion with Position-Time Graphs* variatsiooniülesannete lahendamist[@a1dkinpacketpdf(lk 13)]. Jätkame *Interpretingi Velocity-Time Graphs* variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 19-20)]. Jätkame *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)].
 
+Lahendasime *Describingi Motion with Position-Time Graphs* ülesanded.
+
+### 2023-11-16
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustame *Describingi Motion with Position-Time Graphs* variatsiooniülesannete lahendamist[@a1dkinpacketpdf(lk 13)]. Jätkame *Interpretingi Velocity-Time Graphs* variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 19-20)]. Jätkame *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)].
+
+Lahendasime *Describingi Motion with Velocity-Time Graphs* ülesanded.
+
+### 2023-11-16
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustame *Describingi Motion with Position-Time Graphs* variatsiooniülesannete lahendamist[@a1dkinpacketpdf(lk 13)]. Jätkame *Interpretingi Velocity-Time Graphs* variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 19-20)]. Jätkame *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)].
+
 6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
 
 7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
 
 8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
 
-### 2023-11-16
-
-### 2023-11-16
+Lahendasime *Describingi Motion Graphically* ja *Interpretingi Velocity-Time Graphs* ülesanded.
 
 ## Kohila Gümnaasiumi Kalender
 
@@ -2027,8 +2127,8 @@ Kava:
 
 1. Ühiku tuletamine[@mtmised(lk 8)] (*10b*).
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Kogeme eestikeelse õpiku näiteid.
- *10b*: Alustame prantsuskeelse näitega 1.2.6[@a12(lk 30-31)].
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Kogesime eestikeelse õpiku näiteid. Prantsuskeelse mõõtemääramatuse juhendi osa 1.2.7 läbitud.
+ *10b*: Alustasime prantsuskeelse näitega 1.2.6[@a12(lk 30-31)]. Tegime prantsuskeelse näite 1.2.6 läbi.
 
 7. Toores hinnang[@physics, lk 11-13].
 
@@ -2048,7 +2148,30 @@ Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
 Kava:
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+1. *10a*: Mõõtevead ja mõõtemääramatus: metoodilise vea selgitamine[@mtmised(lk 9)]. *10b*: Keskmine, ruutkeskmine hälve, dispersioon: tõenäosusjaotuse joonis[@mtmised(lk 11)] või Studenti koefitsientide tabel[@mtmised(lk 12); @create; @rstudio].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustame @a12(lk 27) peatükiga 1.2.8.
+ *10b*: Alustame @a12 (lk 32-33) variatsiooniülesannete lahendamist.
+
+7. Toores hinnang[@physics, lk 11-13].
+
+### 2023-11-20
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustame @a12(lk 27) peatükiga 1.2.8.
  *10b*: Mõõtmise praktika.
 
 7. Toores hinnang[@physics, lk 11-13].
@@ -2062,8 +2185,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-11-20
 
 ### 2023-11-24
 

@@ -1,4 +1,4 @@
-# Mikro- ja megamaailma füüsika[@Ainevaldkonna_undated-sr, lk 36-38]
+# Mikro- ja megamaailm[@Ainevaldkonna_undated-sr, lk 36-38]
 
 ## Aine ehituse alused
 
@@ -232,8 +232,8 @@ tehiskaaslane (6-4), asteroid, komeet, väikeplaneet, meteoorkeha, täht (44-1),
 17: 1, 6-10
 18: 1-4
 19: 5, 10
-33: 8
-37: 1, 7, 11-12
+33: 1-8
+37
 38
 39
 40

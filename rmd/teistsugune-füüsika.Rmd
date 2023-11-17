@@ -1,11 +1,10 @@
 # Teistsugune füüsika
 
-## Valikkursuse õppe- ja kasvatuseesmärgid
+## Eesmärgid
 
 Valikkursusega taotletakse, et kursuse läbinud õpilane omandaks:
 
 1) oma tõenäoliseks tulevaseks loodusteadusliku uurimistööga seotud ametiks kasulikke teadmisi;
-
 2) oskuse tuvastada mikro- ja megamaailma füüsikaga seonduvaid nähtusi tavaelus;
 
 3) oskuse leida asjakohast ning usaldusväärset teavet valitud mikro- ja megamaailma nähtuste kohta;

@@ -171,7 +171,7 @@ luminestsents (34.10)
 
 23 (30),
 24 (30),
-25.2 (2),
+25: 1-2 (2),
 27.1-27.6 (20),
 
 28.1-28.5 (10),
@@ -637,7 +637,7 @@ elektrivälja tugevus
 
 Kava:
 
-2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. Jätkame näitest 21-7. Näite 21-9[@physics(lk 621)] ilmestamiseks tegin GeoGebras joonise \@ref(fig:geogebra-21-9).
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. Jätkasime näitest 21-7. Näite 21-9[@physics(lk 621)] ilmestamiseks tegin GeoGebras joonise \@ref(fig:geogebra-21-9).
 
     (ref:geogebra-21-9) Punktile A mõjuv elektriväli[@geogebra].
 
@@ -648,9 +648,35 @@ Kava:
     
     ```
 
+    Tegime näite 21-8 läbi kuni elektrivälja tugevuse arvutamiseni.
+
 Esmaspäevas tahab Marie nõustamist seitsmendas perioodis.
 
 ### 2023-11-17
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+    Alustame näite 21-8 kiirenduse arvutamisest.
 
 ### 2023-11-20
 
@@ -1267,7 +1293,7 @@ from_statical_electricity_to_coulomb_calculation_3 <- c(
 
 #### Järeltestid
 
-##### Marie Allert
+##### Marie Allert 1
 
 ###### Reeglid
 
@@ -1302,6 +1328,47 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 4. Arvutada \num{4}-\unit{\centi\m} raadiusega kerale antud laengu suurus, kui selle pinnal on laengu pindtihedus \qty{0,5e-4}{\coulomb\per\m\squared}.
  
 5. Kaks laengut, \qty{0,66e-7}{\coulomb} ja \qty{1,1e-5}{\coulomb}, asuvad vees \qty{3,3}{\centi\m} kaugusel teineteisest. Kui suur jõud mõjub laengute vahel? Millisele kaugusele tuleks need laengud asetada vaakumis, et mõjujõud jääks samaks?
+
+\newpage
+
+##### Marie Alert 2
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Marie Allert ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-17.
+
+1. Selgitan vaakumi läbilaskvust.
+
+2. Avaldan punktlaengutevaheline kauguse Coulomb' seaduses. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Milline on aatomi ehitus, selles olevate positiivsete osakeste (milliste?) kogulaeng ja terve aatomi kogulaeng
+ - vesinikul,
+ - heeliumil,
+ - liitiumil? 
+
+4. Kaks ühesugust kuulikest asuvad teineteisest \qty{40}{\centi\m} kaugusel. Ühe kuulikese laeng on \qty{9e-9}{\coulomb} ja teise kuulikese laeng \qty{-2e-9}{\coulomb}. Kuulikesed viidi kokkupuutesse ja eemaldati uuesti endisele kaugusele. Arvutada kuulikeste vahel mõjuv jõud enne ja pärast kokkupuudet!
+ 
+5. Kaks punktlaengut, \qty{6e-8}{\coulomb} ja \qty{2,4e-7}{\coulomb}, asuvad transformaatoriõlis \qty{16}{\centi\m} kaugusel teineteisest. Kuhu nende vahele tuleb asetada laeng \qty{3,0e-4}{\coulomb}, et süsteem oleks tasakaalus? Kas tasakaal on püsiv? Kas tasakaal kaob, kui muuta kolmanda laeengu märk?
 
 \newpage
 
@@ -1340,6 +1407,44 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 4. Et saada ettekujutust laengu \qty{1}{\coulomb} suurusest, leida kahe, \qty{1}{\coulomb} suuruse laengu vahel mõjuv jõud vaakumis \qty{1}{\m} kaugusel teineteisest; sama vees.
  
 5. Kaks võrdse massiga $m_1=m_2=\qty{1,5}{\g}$ kuulikest riputati siidniitide abil ühte ja samasse punkti. Pärast seda anti nendele võrdsed laengud. Selle tulemusena eemaldusid kuulikesed $r=\qty{10}{\centi\m}$ kaugusele ja niidid moodustasid omavahel nurga $\alpha=36\degree$. Lugedes laengud negatiivseteks, leida nende suurus ja liigsete elektronide arv kummalgi kuulikesel.
+
+\newpage
+
+##### Martin Mäesalu
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Martin Mäesalu ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-17.
+
+1. Selgitan mõiste *elektrostaatika*. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
+
+2. Avaldan ja / või arvutan  elektroni ja prootoni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Hõljuv tolmukübe kaotas ultraviolettkiirguse mõjul \num{2} elektroni. Kui palju selle tolmukübeme laeng muutus? 
+
+4. Kaks ühesuurust samanimelise laenguga metallkuulikest viidi kokkupuutesse ning eemaldati teineteisest \qty{10}{\centi\m} kaugusele. Kui suur on laengutevaheline mõjujõud, kui enne kokkupuutumist olid laengud vastavalt \qty{7,00e-8}{\coulomb} ja \qty{3,00e-8}{\coulomb}? Arvutada kummagi kuulikese laeng pärast kokkupuutumist.
+ 
+5. Leida transformaatoriõli absoluutne dielektriline läbitavus, kui kaks ühesugust laengut mõjutavad teineteist võrdse jõuga \qty{20}{\centi\m} kaugusel vaakumis ja \qty{0,14}{\m} kaugusel õlis. Lugedes laengutevahelise mõjujõu võrdseks \qty{90}{\newton}, arvutada laengute suurused!
 
 \newpage
 
@@ -1421,7 +1526,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 \newpage
 
-##### Morris Tobi
+##### Morris Tobi 1
 
 ###### Reeglid
 
@@ -1457,6 +1562,41 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
  
 5. Kuulike massiga \qty{150}{\milli\g} ja laenguga \qty{1,00e-8}{\coulomb} on riputatud isoleeritud niidi otsa. \qty{32}{\centi\m} kaugusele selle alla on asetatud teine kuulike. Kui suur ja millise märgiga peab olema teise kuulikese laeng, et niidi pinge suureneks \num{2} korda?
 
+\newpage
+
+##### Morris Tobi 2
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Morris Tobi ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-10.
+
+1. Elektrostaatikat saime pulga sisse seda hõõrudes elektrostaatikatvõimelise ülekandega riiet.
+
+2. Avaldan ja / või arvutan prootoni ja elektroni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  - arutelu,
+  - arvutamine,
+  - lahend täislausega.
+3. Kui suure jõuga mõjutavad teineteist kaks \qty{20}{\nano\coulomb} suurust laengut, mille vaheline kaugus on
+ - \qty{3}{\milli\m},
+ - \qty{6}{\centi\m},
+ - \qty{1}{\m}?
+4. Kaks elektrit juhtivast materjalist kuulikest laengutega \qty{-1,5e-5}{\coulomb} ja \qty{2,5e-5}{\coulomb} eemaldusid pärast kokkutõmbumist uuesti \qty{5}{\centi\m} kaugusele. Arvutada laengute suurused kuulikestel pärast kokkutõmbumist ja nendevaheline mõjujõud.
+5. Punktidesse *A* ja *B*, mille vahekaugus on \qty{10}{\centi\m}, paigutatud laengud \qty{5e-4}{\coulomb} ja \qty{-5e-4}{\coulomb} tekitavad elektrivälja. Laenguid ühendava sirge keskristsirgel, nende lõikepunktist \qty{5}{\centi\m} kaugusel, asub tilgake, mille laeng võrdub \num{10} elektroni laenguga. Arvutada tilgale mõjuv jõud! Millise kiirenduse saab tilgake, kui selle mass on \qty{0,4e-7}{\kg}?
+
 #### Tulemused
 
 ```{r label = "test-from-statical-electricity-to-coulomb-law-results", echo=FALSE}
@@ -1485,7 +1625,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.08, # Georg Ader
     0.08, # Matteus Aus
     0, # Maarja-Lii Erm
-    0,
+    0.08, # Jasper Jakobson
     0,
     0.05, # Miia Mirtel Jürissaar
     0.06, # Kairit Kabel
@@ -1526,7 +1666,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.13, # Georg Ader
     0.06, # Matteus Aus
     0, # Maarja-Lii Erm
-    0,
+    0.15, # Jasper Jakobson
     0.11, # Kaia Kretel Jürissaar
     0,
     0,
@@ -1567,7 +1707,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0.2, # Mattias Aus
     0.48, # Maarja-Lii Erm
-    0,
+    0.45, # Jasper Jakobson
     0.38, # Kaia Kretel Jürissaar
     0.33, # Miia Mirtel JÜrissaar
     0.03, # Kairit Kabel 
@@ -1608,7 +1748,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0,
     0.45, # Maarja-Lii Erm
-    0,
+    0.4, # Jasper Jakobson
     0.54, # Kaia Kretel Jürissaar
     0.36, # Miia Mirtel Jürissaar
     0.3, # Kairit Kabel 
@@ -1649,7 +1789,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.04, # Georg Ader
     0, 
     0.37, # Maarja-Lii Erm
-    0,
+    0.15, # Jasper Jakobson 
     0,
     0.46, # Miia Mirtel Jürissaar
     0.25, # Kairit Kabel
@@ -1669,11 +1809,139 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
   )
 )
 
-#build_table_with_grades(tasks = tasks_of_from_static_electricity_to_coulomb_law, names = names_11, caption = "Staatikast Coulomb' seaduseni")
+# build_table_with_grades(tasks = tasks_of_from_static_electricity_to_coulomb_law, names = names_11, caption = "Staatikast Coulomb' seaduseni")
 
 ```
 
+\newpage
+
 ### Elektrivool
+
+#### Järeltestid
+
+##### Enrico Ernits
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Enrico Ernits ja asun lahendama ülesandeid teemal *Elektrivool*. Täna on kuupäev 2023-11-17.
+
+1. Selgitan voolutugevust.
+
+2. Avaldan ja / või arvutan voolutugevuse laengu ja aja kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  - arutelu,
+  - arvutamine,
+  - lahend täislausega.
+3. Voolutugevus ahelalõigus kasvab \qty{6}{\s} ühtlaselt \qty{0}{\ampere}'lt kuni \qty{1,5}{\ampere}'ni. Ehitada voolutugevuse ajast sõltuvuse graafik ja leida selle põhjal \qty{6}{\s} ahela osa läbinud laeng!
+4.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
+ - \qty{8}{\milli\ampere},
+ - \qty{8e-6}{\ampere},
+ - \qty{3,2}{\ampere}?
+ 
+    Mitu elektroni läbib juhi ristlõike samadel voolutugevustel
+     - \qty{2}{\s},
+     - \qty{2}{\micro\s},
+     - \qty{2e-9}{\s}
+     
+    vältel?
+5. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
+
+\newpage
+
+##### Kaia Kretel Jürissaar
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Kaia Kretel Jürissaar ja asun lahendama ülesandeid teemal *Elektrivool*. Täna on kuupäev 2023-11-17.
+
+1. Selgitan voolutugevust.
+
+2. Avaldan ja / või arvutan voolutugevuse laengu ja aja kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  - arutelu,
+  - arvutamine,
+  - lahend täislausega.
+3. Voolutugevus ahelalõigus kasvab \qty{6}{\s} ühtlaselt \qty{0}{\ampere}'lt kuni \qty{1,5}{\ampere}'ni. Ehitada voolutugevuse ajast sõltuvuse graafik ja leida selle põhjal \qty{6}{\s} ahela osa läbinud laeng!
+4.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
+ - \qty{8}{\milli\ampere},
+ - \qty{8e-6}{\ampere},
+ - \qty{3,2}{\ampere}?
+ 
+    Mitu elektroni läbib juhi ristlõike samadel voolutugevustel
+     - \qty{2}{\s},
+     - \qty{2}{\micro\s},
+     - \qty{2e-9}{\s}
+     
+    vältel?
+5. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
+
+\newpage
+
+##### Kairit Kabel
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Kairit Kabel ja asun lahendama ülesandeid teemal *Elektrivool*. Täna on kuupäev 2023-11-17.
+
+1. Selgitan voolutugevust.
+
+2. Avaldan ja / või arvutan voolutugevuse laengu ja aja kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  - arutelu,
+  - arvutamine,
+  - lahend täislausega.
+3. Voolutugevus ahelalõigus kasvab \qty{6}{\s} ühtlaselt \qty{0}{\ampere}'lt kuni \qty{1,5}{\ampere}'ni. Ehitada voolutugevuse ajast sõltuvuse graafik ja leida selle põhjal \qty{6}{\s} ahela osa läbinud laeng!
+4.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
+ - \qty{8}{\milli\ampere},
+ - \qty{8e-6}{\ampere},
+ - \qty{3,2}{\ampere}?
+ 
+    Mitu elektroni läbib juhi ristlõike samadel voolutugevustel
+     - \qty{2}{\s},
+     - \qty{2}{\micro\s},
+     - \qty{2e-9}{\s}
+     
+    vältel?
+5. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
 
 ```{r label = "test-electric-current", echo=FALSE}
 # 
