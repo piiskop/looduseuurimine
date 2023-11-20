@@ -652,6 +652,8 @@ Kava:
 
 Esmaspäevas tahab Marie nõustamist seitsmendas perioodis.
 
+\onecolumn
+
 ### 2023-11-17
 
 Kursuse lõpus õpilane:
@@ -676,9 +678,44 @@ elektrivälja tugevus
 Kava:
 
 2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
-    Alustame näite 21-8 kiirenduse arvutamisest.
+    Alustasime näite 21-8 kiirenduse arvutamisest. Jõudsime näite 21-9 EA vektori üldvalemini, detailselt ei jõudnud lahti kirjutada (joonis \@ref(fig:electromagnetism-electric-field-superposition) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-superposition")`).
+
+    ```{r label="electromagnetism-electric-field-superposition", echo=FALSE, fig.cap="Elektrivälja tugevuse arvutamine kahe laengu ühendussihist eemal."}
+    include_external_graphics(path="rmd/elektrivälja-tugevus-laengute-ühendussihist-eemal-IMG_20231117_132222.jpg")
+    
+    ```
+    
+\twocolumn
 
 ### 2023-11-20
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+1. *11a*: Superpositsioon[@fsikaline(lk 37)].
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+    Jätkame näitega 21-9[@physics(lk 621)] kirjutades $\overrightarrow{E_A}$ magnituudi arvutamiseeskirja lahti.
+
+3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)].
 
 ### 2023-11-24
 

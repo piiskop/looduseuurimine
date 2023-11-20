@@ -2132,6 +2132,8 @@ Kava:
 
 7. Toores hinnang[@physics, lk 11-13].
 
+\onecolumn
+
 ### 2023-11-17
 
 Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
@@ -2150,10 +2152,10 @@ Kava:
 
 1. *10a*: Mõõtevead ja mõõtemääramatus: metoodilise vea selgitamine[@mtmised(lk 9)]. *10b*: Keskmine, ruutkeskmine hälve, dispersioon: tõenäosusjaotuse joonis[@mtmised(lk 11)] või Studenti koefitsientide tabel[@mtmised(lk 12); @create; @rstudio].
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustame @a12(lk 27) peatükiga 1.2.8.
- *10b*: Alustame @a12 (lk 32-33) variatsiooniülesannete lahendamist.
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustasime @a12(lk 27) peatükiga 1.2.8. Selgitasin näite 1.2.5 ekstreemumite ja suhteliste määramatuste meetodi. Jõudsin tuletise osas rääkida parabooli puutujast. Helena näitab järgmine kord konspekti ette.
+ *10b*: Alustasime @a12 (lk 32-33) variatsiooniülesannete lahendamist. Lahendasime Exercise Préparatoires'st esimesed kaks ülesannet.
 
-7. Toores hinnang[@physics, lk 11-13].
+\twocolumn
 
 ### 2023-11-20
 
@@ -2171,8 +2173,10 @@ Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
 Kava:
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustame @a12(lk 27) peatükiga 1.2.8.
- *10b*: Mõõtmise praktika.
+1. *10a*: Helena näitab ette oma konspekti, milles on näha kõik algusest peal, kaasa arvatud viimase kontaktsessiooni ülestähendused. *10b*: Mõõtemääramatuse leidmine kaudse mõõtmise korral [@mtmised(lk 18-19)].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Selgitan tuletamist alates parabooli puutujast. @a12(lk 28-29) oleva näitega 1.2.5 jätkame näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. Edasi näidet 1.2.6[@a12(lk 30-31)] ei tee, vaid jätkame variatsiooniülesannetega 1.2.9[@a12(lk 32-33)] lahendades ülesanded 1-7, sest kaheksas on segane.
+ *10b*: Lahendame Exercise Préparatoires'st ülesanded 3-7.
 
 7. Toores hinnang[@physics, lk 11-13].
 

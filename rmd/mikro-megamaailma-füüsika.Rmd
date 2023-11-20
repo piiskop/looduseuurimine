@@ -359,72 +359,6 @@ ja järjepidevuse võrrand[@physics, lk 378-380].
 
 Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @physics, lk 392-393 ülesanded *7*, *9*, *11*, *13*, *15*, *17*, *19*, *21*, *23* ja *25*!
 
-### 2023-11-6
-
-### 2023-11-13
-
-Erirelatiivsusteooria teadmiste ja oskuste kaardistamine.
-
-### 2023-11-20
-
-### 2023-11-27
-
-### 2023-12-4
-
-### 2023-12-11
-
-### 2023-12-18
-
-Varase kvantteooria ja aatomi mudelite teadmiste ja oskuste kaardistamine.
-
-### 2024-1-8
-
-### 2024-1-15
-
-### 2024-1-22
-
-### 2024-1-29
-
-### 2024-2-5
-
-Aatomite kvantmehaanika teadmiste ja oskuste kaardistamine.
-
-### 2024-2-12
-
-### 2024-2-19
-
-### 2024-3-4
-
-### 2024-3-11
-
-### 2024-3-18
-
-Tuumafüüsika ja radioaktiivuse teadmiste ja oskuste kaardistamine.
-
-### 2024-3-25
-
-### 2024-4-1
-
-### 2024-4-8
-
-### 2024-4-15
-
-### 2024-4-22
-
-Tuumaenergia ning radiatsiooni mõju ja kasutamise teadmiste ja oskuste kaardistamine.
-
-### 2024-4-29
-
-### 2024-5-6
-
-### 2024-5-13
-
-### 2024-5-20
-
-### 2024-5-27
-
-Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
-
 ## Kalender Kohila Gümnaasiumis
 
 ### 2023-09-04
@@ -587,15 +521,26 @@ Kava:
 
 1. Gaasi- ja vedelikusambad (Mirjam), vedelikusamba rõhu valem (Eneli), hüdrauliline masin (Kristel)[@fsikaline(lk 21)].
 
-4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372]. *12a*: Kuna arvutasime, milline on rõhk 100 m sügavuses vees (lk 371 all), siis jätkan selgitamisega, et sellele lisandub õhurõhk. Ülesanne 9, *12b*: ülesanne 11.
+4. Pascali põhimõte[@giancoli, lk 265; @physics, lk 371-372]. *12a*: Kuna arvutasime, milline on rõhk 100 m sügavuses vees (lk 371 all), siis jätkasin selgitamisega, et sellele lisandub õhurõhk. Ülesanne 9. Jõudsime peatüki 13-5 lõppu.
+*12b*: ülesanne 11.
 
 5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374].
 
 6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
-8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Jätkame näitega 13-9.
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Jätkasime näitega 13-9. Lahendasime näite 13-9.
 
 ### 2023-11-20
+
+Kava:
+
+1. *12a*: tiheduse ühik[@physics(lk 366)].
+
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: alustame.
+
+6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
+
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustame näitest 13-10.
 
 ### 2023-11-27
 
@@ -681,6 +626,8 @@ Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
 
 13\) Soovitatav rehvirõhk konkreetse auto jaoks on \qty{220}{\kilo\pascal}. Kui auto mass on \qty{1250}{\kg}, siis milline iga rehvi ala peab olema kokkupuutes teega? Oletame, et auto
 kaal jaotub ühtlaselt kõigi \num{4} rehvi vahel.
+
+15\) Määrake kogujõud ja absoluutrõhk $\qty{24,0}{\m} \times \qty{8,5}{\m} basseini põhjas, mille ühtlane sügavus on \qty{1,8}{\m}. Kui suur on absoluutne rõhk vastu basseini põhja lähedal asuvat külge?
 
 ### Pindpinevus ja kapillaarsus[@physics(lk 396)]
 

@@ -89,18 +89,12 @@ Sisetingimustes toimub teadmiste ja oskuste kontrollimine järgnevalt:
     2. Õpilane kirjutab ülesande tunnuse. Õpilane avaldab ja / või arvutab selle, mis on sedelil kirjas näidates kogu tuletuskäigu võimalikult üksikasjaliselt. Õpilane tähistab muutujad kas üldtuntud tähistustega või kui kasutab muid tähistusi, siis kirjutab juurde legendi.
 
     3.-5. Õpilane kirjutab ülesande tunnuse ja lahendab ülesande kasutades struktuuri:
-
-        - sisend(id): muutujad väärtustega teisendades kõik ühikud Système Internationale'i (SI), kui pole vajalik kasutada muud ühikut,
-  
-        - väljund(id): muutuja(d), millele otsitakse ülesande lahendamise kaudu väärtust,
-  
-        - (joonis),
-  
-        - arutelu: õpilane arutleb, kuidas ülesannet lahendada. Selles osas paneb õpilane kokku lõpliku valemi,
-  
-        - arvutamine: õpilane kasutab lõplikku valemit pannes sinna muutujatele väärtused, näitab arvutuskäigu ja arvutab kasutades korrektselt tüvenumbrite teooriat. Kui ülesande osa on vahetulemuste arvutamine, siis need tuleb arvutada igaüks vastava lõpliku valemiga ja lõpptulemuses võib siis vahetulemusi kasutada,
-  
-        - lahend täislausega.
+     - sisend(id): muutujad väärtustega teisendades kõik ühikud Système'i Internationale (SI), kui pole vajalik kasutada muud ühikut,
+     - väljund(id): muutuja(d), millele otsitakse ülesande lahendamise kaudu väärtust,
+     - (joonis),
+     - arutelu: õpilane arutleb, kuidas ülesannet lahendada. Selles osas paneb õpilane kokku lõpliku valemi,
+     - arvutamine: õpilane kasutab lõplikku valemit pannes sinna muutujatele väärtused, näitab arvutuskäigu ja arvutab kasutades korrektselt tüvenumbrite teooriat. Kui ülesande osa on vahetulemuste arvutamine, siis need tuleb arvutada igaüks vastava lõpliku valemiga ja lõpptulemuses võib siis vahetulemusi kasutada,
+     - lahend täislausega.
         
     Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest mulle märku anda käetõstmisega. Mitmeostarbelises arvutis oleva tõlkeprogrammi kasutamisest tuleb ka mulle käestõstmisega märku anda.
 
