@@ -1495,6 +1495,116 @@ Kava:
 
 Lahendasime *Describingi Motion Graphically* ja *Interpretingi Velocity-Time Graphs* ülesanded.
 
+### 2023-11-21
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustame *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)].
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+
+### 2023-11-21
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustame *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)].
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+
 ## Kohila Gümnaasiumi Kalender
 
 ### 2023-09-04
