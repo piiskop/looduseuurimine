@@ -10,7 +10,7 @@ Eksperimentide protokollid peavad kõik olema tehtud, korrektselt vormistatud ja
 
 See tähendab, et kui protokollidega on kõik korras, siis kontrolltööde tulemused moodustavad kursuse lõpphindest 100 %, ja kui protokollidega ei ole kõik korras, siis kontrolltööde tulemused moodustavad kursuse lõpphindest 0 %.
 
-Kui õpilane selgitab tahvli abil kõigile korrektselt mingi kontaktsessiooniväliseks lahendamiseks jäetud analüütikaülesande, saab ta selle kohta ühe protsendipunkti kursuse lõpphindest juurde. Tagan, et kõik soovijad saaksid võrdselt selgitada, mis tähendab, et kui keegi juba selgitas, aga soovijaid on veel, siis tuleb võtta järgmisena muu soovija, kes veel pole selgitanud. Esimesena saab selgitama esimesena soovi avaldanud õpilane.
+Kui õpilane selgitab tahvli abil kõigile korrektselt mingi kontaktsessiooniväliseks lahendamiseks jäetud analüütikaülesande, saab ta selle kohta ühe protsendipunkti kursuse lõpphindest juurde. Kui vajab abi, aga lahendab ära, saab pool protsendipunkti. Tagan, et kõik soovijad saaksid võrdselt selgitada, mis tähendab, et kui keegi juba selgitas, aga soovijaid on veel, siis tuleb võtta järgmisena muu soovija, kes veel pole selgitanud. Esimesena saab selgitama esimesena soovi avaldanud õpilane. Mitteeristava hindega kursuses tähendab üks protsendipunkt, et ühte sama mooduli praktilist asja tegema ei pea.
 
 []{#eksperimendi-protokolli-koostamise-juhend}
 
@@ -60,9 +60,9 @@ Iga kontrolltöö kirjeldusse on märgitud selle kontrolltöö hinde osakaal kur
 
 Kontrolltöö sisaldab viie ülesande lahendamist:
 
-1. Millegi sõnaline selgitamine kasutades vajadusel valemindust ja/või joonistamist/joonestamist (\qty{8}{\percent} kontrolltööd).
+1. Millegi sõnaline selgitamine kasutades vajadusel valemindust ja/või joonistamist/joonestamist (\qty{10}{\percent} kontrolltööd).
 
-2. Valemi tuletamine (\qty{16}{\percent} kontrolltööd).
+2. Valemi tuletamine (\qty{20}{\percent} kontrolltööd).
 
 3. Kõige lihtsam arvutusülesanne (\qty{50}{\percent} kontrolltööd).
 

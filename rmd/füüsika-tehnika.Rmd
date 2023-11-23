@@ -365,21 +365,29 @@ Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-5
 **Elastsuslained**:
 
 4. Heli allikad:
-Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Jätkame näite 16-8 lahendamisega. *12b*: Arvutame helikiiruse keeles näites 16-9.
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Jätkasime näite 16-8 lahendamisega. Gert Kevin näitab järgmine kord konspekti ette.
+*12b*: Arvutasime helikiiruse keeles näites 16-9. Lahendasime näite 16-10.
 
+### 2023-11-24
+
+*12a*: Gert Kevin näitab konspekti ette.
+
+**Elastsuslained**:
+
+4. Heli allikad:
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Näitan näite 16-8 lahenduskäigu. 
+*12b*: Lahendame ülesanded 29 ja 33[@physics(lk 487)]. Lahendame näite 16-11.
 5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473]. Ei tegele siit edasi, vaid jätkame järgmise mooduliga, kuna maht täis.
-
 6. Helilainete häired ja löögid[@physics(lk 473-476)].
-
 7. *Heli intensiivsuse ja interferentsist*[@labor2pdf] iseseisva eksperimendi selgitamine.
 
 **Optilised seadmed**:
 
 0. Digitaalne, kahendarvud, signaali pinge[@physics(lk 676-679)].
-
-1. Valguse kiiremudel[@physics(lk 927)].
-
-2. Täielik sisepeegeldus, fiiberoptika[@physics(943-945)].
+1. Teabe säilitamine:
+Magnet ja pooljuht[@physics(lk 856-858)].
+2. Valguse kiiremudel[@physics(lk 927)].
+3. Täielik sisepeegeldus, fiiberoptika[@physics(943-945)].
 
 ## Ülesanded
 
@@ -446,12 +454,59 @@ koguda, et tekitada tavavestluse heli võimsus \qty{60}{\watt}?
 27. Kalli võimendi A nimivõimsus on \qty{280}{\watt}, samas kui tagasihoidlikuma võimendi B nimivõimsus on \qty{45}{\watt}.
   - Hinnake helitaset detsibellides, mida võiksite oodata \qty{3,5}{\m} kaugusel asuvas punktis kõlarist, mis on ühendatud kord ühe, kord teise võimendiga.
   - Millise väljundvõimsusega võimendi tekitaks kahekordse \num{45}-\unit{watt} võimendi helitugevuse?
-  
+
+\onecolumn
+
 ### Heliallikad
 
 29. Orelitoru on \qty{108}{\centi\m} pikk. Määrake põhi- ja kolm esimest kuuldavat ülemheli, kui toru on
  - ühest otsast suletud ja
- - mõlemast otsast avatud.
-31. Hinnake oktaavide arvu inimese kuuldavas vahemikus \qty{20}{\Hz} kuni \qty{20}{\kilo\Hz}.
+ - mõlemast otsast avatud (joonis \@ref(fig:physics-and-engineering-tasks-sources-of-sound-29-31-rando) leheküljel `r render_pageref(reference="fig:physics-and-engineering-tasks-sources-of-sound-29-31-rando")`).
+31. Hinnake oktaavide arvu inimese kuuldavas vahemikus \qty{20}{\Hz} kuni \qty{20}{\kilo\Hz} (joonis \@ref(fig:physics-and-engineering-tasks-sources-of-sound-29-31-rando) leheküljel `r render_pageref(reference="fig:physics-and-engineering-tasks-sources-of-sound-29-31-rando")`).
 
-33\. Pingule kitarrikeele kolmanda ülemheli on sagedus \qty{540}{\Hz}. Milline on selle põhisagedus, kui seda keelt sõrmitsetakse niimoodi, et selle pikkus on 70% selle algset pikkust, kui see keel helisema pannakse?
+    ```{r label="physics-and-engineering-tasks-sources-of-sound-29-31-rando", echo=FALSE, fig.cap="Kuidas aidata õpilasel lahendada oreliülesannet?"}
+    include_external_graphics(path="rmd/29-31-rando.jpg")
+    
+    ```
+
+33\. Pingule kitarrikeele kolmanda ülemheli on sagedus \qty{540}{\Hz}. Milline on selle põhisagedus, kui seda keelt sõrmitsetakse niimoodi, et selle pikkus on 70% selle algset pikkust, kui see keel helisema pannakse (joonis \@ref(fig:physics-and-engineering-tasks-sources-of-sound-33-rando) leheküljel `r render_pageref(reference="fig:physics-and-engineering-tasks-sources-of-sound-33-rando")`)?
+
+    ```{r label="physics-and-engineering-tasks-sources-of-sound-33-rando", echo=FALSE, fig.cap="Kuidas aidata õpilasel lahendada kitarriülesannet?"}
+    include_external_graphics(path="rmd/33-rando.jpg")
+    
+    ```
+
+35\. Määrake lahtise orelitoru pikkus, mis kiirgab keskmist C'd (\qty{262}{Hz}), kui temperatuur on \qty{18}{degreeCelsius}.
+Millised on torus oleva põhiseisulaine lainepikkus ja sagedus? Millised on *l* ja *f* välisõhus tekitatavas liikuvas helilaines?
+
+37\. Orel on hääles \qty{24}{\degreeCelsius} juures. Mitme protsendi võrra kaob sagedus \qty{11}{\degreeCelsius} juures?
+
+39\. Toru õhus temperatuuril \qty{21,5}{\degreeCelsius} tuleb konstrueerida nii, et see tekitaks kaks järjestikust ülemheli sagedustel \qty{308}{\Hz} ja \qty{352}{\Hz}. Kui pikk peab toru olema ja kas see on avatud või suletud?
+
+41\. Mitu ülemheli on kuuldavas vahemikus \qty{2,18}{\m} pikkuse orelitoru puhul temperatuuril \qty{20}{\degreeCelsius},
+ - kui see on avatud ja
+ - kui see on suletud?
+
+43. Määrake põhi- ja esimene ülemhelisagedus, kui olete \qty{9,0}{\m} pikkuses koridoris ja kõik uksed on suletud.
+Modelleerige koridor mõlemast otsast suletud toruna.
+
+45\. Kui mängija sõrm surub kitarri keele alla nöörile, lüheneb keele vibreeriva osa pikkus, suurendades seeläbi keele põhisagedust (vt joonist 16-37[@physics(lk 487)]). Keele pinge ja mass pikkuseühiku kohta jäävad muutumatuks. Kui keele algpikkus on $l = \qty{75,0}{\centi\m}$, määrake esimese kuue värgi positsioonid $x$, kui iga värk tõstab põhihääle kõrgust ühe noodi võrra võrreldes naabernoodiga. Võrdselt tempereeritud kromaatilisel skaalal on naabernootide sageduste suhe $2^\frac{1}{12}$.
+
+\twocolumn
+
+### Digitaalne[@physics(lk 688)]
+
+63. Kirjutage kahendarvuna kümnendarv \num{3597}.
+
+65\. Kirjutage kümnendarvuna kahendarv \num{1010101010101010}.
+
+67\. \num{16}-\unit{\bit} diskreetimine annab mitu erinevat võimalikku pinget? Kui palju erinevaid võimalikke pingeid annab  \num{24}-\unit{\bit} diskreetimine? Kui palju erinevaid värve annab värviteleri puhul \num{3} alampikslit, igaüks \qty{8}{\bit}?
+
+69\. Tavaliselt kasutatavas ASCII-koodis salvestatakse numbrid, tähed ja muud sümbolid \num{8}-kohaliste kahendarvudena.
+Tähe A kood on \num{00100001}_2 ja järgmised tähed on vaid järgmised kahendarvud.
+ - Milliseid kahendarvusid kasutatakse C ja T salvestamiseks?
+ - Millised oleksid ASCII B ja H kümnendarvud?
+ - Kasutades joonisel 23-22[@physics(lk 676)] näidatud vormingut, visandage CAT-i tähistavate tähtede lainekuju.
+71. Analoogpinge signaal võib varieeruda vahemikus \qty{0}{\volt} kuni \qty{5,00}{\volt} ja see tuleb teisendada \num{8}-\unit{bit} binaarseks esituseks.
+ - Milline pinge täpsusega \qty{0,01}{V} oleks tähistatud binaarse esitusega \num{01110101}?
+ - Milline kahendarv esindaks kõige paremini \qty{3,47}{\volt}?

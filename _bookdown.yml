@@ -7,7 +7,7 @@ rmd_files: [
   "rmd/soovitusi-õppimiseks.Rmd",
   "rmd/baasreeglistik/baasreeglistik.Rmd",
   "rmd/sissejuhatus-kulgliikumise-kinemaatika/sissejuhatus-kulgliikumise-kinemaatika.Rmd",
-  "rmd/elektromagnetism.Rmd",
+  "rmd/elektromagnetism/elektromagnetism.Rmd",
   "rmd/mikro-megamaailma-füüsika.Rmd",
   "rmd/füüsika-tehnika.Rmd",
   "rmd/teistsugune-füüsika.Rmd",

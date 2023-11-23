@@ -376,7 +376,7 @@ Eesti keeles saab täiendavalt lugeda ka Ako Sauga konspektist[@fsikaline].
 
 Kuna õpilased on uurinud, miks mu nimi just selline on, siis selgitan.  Teatavasti nimed ei ole looduslikud, vaid inimeste konstrukt, ja mulle meeldib seda reeglistikku järgida. Leian, et nimi peaks olema igaühel unikaalne. Ühtlasi on igaühe enda asi, kuidas ta oma nime soovib näidata ja seda soovi tuleb austada. Igaüks saab ka ise endale sobiliku nime määrata kasvõi nõustudes kellegi muu poolt omistatud nimega.
 
-Mida suurem osakaal on suurtähtedel nimes, seda rohkem nimekandja oma õigusi ja vastutust delegeerib. Hauaplaadil, lennupiletil ja juhiloal, samuti ID-kaardil on kõik suurtähed. Viimasel kolmel juhul pole tegemist inimese, vaid isikuga, esimesel surnud keha nimetamisega.
+Mida suurem osakaal on suurtähtedel nimes, seda rohkem nimekandja oma õigusi ja vastutust delegeerib[@naturalperson]. Hauaplaadil, lennupiletil ja juhiloal, samuti ID-kaardil on kõik suurtähed. Viimasel kolmel juhul pole tegemist inimese, vaid isikuga, esimesel surnud keha nimetamisega.
 
 Vabaks ei ole vaja kuulutada. Samas, kuulutada ju võib, aga kas see teeb vabaks? Inimene ei saa mitte kunagi olla täiesti vaba. Keha alati sõltub ümbritsevast keskkonnast ja väga vähe on selliseid inimesi, kes hingena suudavad välistada endale keskkonna mõju. Oleme, nagu on viis inimest, kellega enim suhtleme. Nime kirjutusviisi puhul on pigem küsimus mitte vabaduses, vaid õigustes ja vastutuses.
 
