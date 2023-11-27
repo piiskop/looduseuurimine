@@ -48,8 +48,17 @@ Põhjuslikkus ja juhuslikkus füüsikas (6-5). Füüsika tunnetuslik ja ennustus
 
 ### Põhimõisted
 
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+taatlemine
+: protseduur, mille käigus pädev taatluslabor või teavitatud asutus kontrollib mõõtevahendi vastavust kehtestatud nõuetele ja märgistab nõuetele vastavaks tunnistatud mõõtevahendi taatlusmärgisega[@mtevahendite]
+
 loodus (1-2), loodusteadus (1-1), füüsika (1-1), mõõtevahend (1-3), taatlemine, nähtavushorisont, makro-, mikro- ja
-megamaailm; vaatlus, hüpotees, eksperiment, mõõtmine (1-1, 1-3), mõõtühik (1-4), mõõtühikute süsteem (1-4),
+megamaailm; vaatlus, hüpotees, eksperiment, mõõtmine (1-1, 1-3),
 mõõtemääramatus (1-3), mõõtesuurus, mõõdetava suuruse väärtus, mõõtetulemus
 
 1: 1-4
@@ -133,8 +142,29 @@ kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-
 
 ### Põhimõisted
 
-füüsikaline suurus, skalaarne ja vektoriaalne suurus (2-2, 3-1), pikkus (2-1), liikumisolek (2: 1-4), aeg (2-2), kulgliikumine (2, 3),
-punktmass, taustsüsteem (2-1), kinemaatika (2, 3)
+pikkus (2-1), kulgliikumine (2, 3),
+punktmass
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
 
 teepikkus
 : alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
@@ -149,7 +179,7 @@ keskmine kiirus
 hetkkiirus
 : keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
 
-kiirendus (2: 4, 5, 8)
+kiirendus
 : kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
 
 vaba
@@ -1644,11 +1674,7 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutan uuesti tahvlile tekstülesande lahendamise struktuuri. Kuvan näite 2-12 teksti ning kirjutan välja sisendid ja väljundi. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
-
-7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
-
-8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutasin uuesti tahvlile tekstülesande lahendamise struktuuri. Kuvasin näite 2-12 teksti ning kirjutasin välja sisendid ja väljundi. Lahendasime näite 2-13 arvutamise osani.
 
 ### 2023-11-23
 
@@ -1697,11 +1723,7 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutan uuesti tahvlile tekstülesande lahendamise struktuuri. Kuvan näite 2-12 teksti ning kirjutan välja sisendid ja väljundi. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
-
-7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
-
-8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutasin välja näite 2-13 lahendi. Jõudsime peatüki 2-6 lõppu. Lahendasime *Motion Problems*i variatsiooniülesannetest esimesed kaks[@a1dkinpacketpdf(lk 25-26)].
 
 ### 2023-11-23
 
@@ -1750,7 +1772,7 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutan uuesti tahvlile tekstülesande lahendamise struktuuri. Kuvan näite 2-12 teksti ning kirjutan välja sisendid ja väljundi. Lahendame *Motion Problems*i variatsiooniülesanded[@a1dkinpacketpdf(lk 25-26)].
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendasime *Motion Problems*i variatsiooniülesanded alates kolmandast viiendani[@a1dkinpacketpdf(lk 25-26)]. Jätsin viimased lahendada koju.
 
 7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
 
@@ -2434,10 +2456,56 @@ Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
 Kava:
 
-1. *10a*: Helena näitab ette oma konspekti, milles on näha kõik algusest peal, kaasa arvatud viimase kontaktsessiooni ülestähendused. *10b*: Mõõtemääramatuse leidmine kaudse mõõtmise korral [@mtmised(lk 18-19)].
+1. *10a*: Helena ei näidanud ette oma konspekti, milles on näha kõik algusest peal, kaasa arvatud viimase kontaktsessiooni ülestähendused. *10b*: Mõõtemääramatuse leidmine kaudse mõõtmise korral [@mtmised(lk 18-19)].
 
-6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Selgitan tuletamist alates parabooli puutujast. @a12(lk 28-29) oleva näitega 1.2.5 jätkame näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. Edasi näidet 1.2.6[@a12(lk 30-31)] ei tee, vaid jätkame variatsiooniülesannetega 1.2.9[@a12(lk 32-33)] lahendades ülesanded 1-7, sest kaheksas on segane.
- *10b*: Lahendame Exercise Préparatoires'st ülesanded 3-7.
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Selgitasin tuletamist alates parabooli puutujast. Jõudsin tuletada muutuja astme.
+@a12(lk 28-29) oleva näitega 1.2.5 jätkame näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. 
+ *10b*: Lahendasime Exercise Préparatoires'st ülesanded 3-4.
+
+### 2023-11-24
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tutvustasin liitmõõtemääramatuse viit olukorda ja vastavaid reegleid, kui on mitu sisendit.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+ *10b*: Lahendasime Exercise Préparatoires'st ülesannetest viienda. 
+
+### 2023-11-27
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+0. *10b*: Histogramm[@mtmised(lk 21-22)].
+
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+@a12(lk 28-29) oleva näitega 1.2.5 jätkame näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. Edasi jätkame variatsiooniülesannetega 1.2.9[@a12(lk 32-33)].
+ *10b*: Lahendame Exercise Préparatoires'st ülesanded 6-8. 
 
 7. Toores hinnang[@physics, lk 11-13].
 
@@ -2450,38 +2518,6 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
-
-### 2023-11-24
-
-Liikumise kirjeldamise teadmiste ja oskuste kaardistamine.
-
-### 2023-11-27
-
-### 2023-12-1
-
-### 2023-12-4
-
-### 2023-12-8
-
-### 2023-12-11
-
-### 2023-12-15
-
-### 2023-12-18
-
-### 2023-12-22
-
-### 2024-1-8
-
-### 2024-1-12
-
-### 2024-1-15
-
-### 2024-1-19
-
-Kinemaatika kahes dimensioonis ja vektorite teadmiste ja oskuste kaardistamine.
-
-### 2024-1-22
 
 []{#problems}
 

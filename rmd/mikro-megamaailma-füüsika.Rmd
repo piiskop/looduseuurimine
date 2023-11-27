@@ -536,69 +536,32 @@ Kava:
 
 1. *12a*: tiheduse ühik[@physics(lk 366)].
 
-5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: alustame.
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: alustasime. Rääkisin jooniseni 13-12.
 
-6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustasime näitest 13-10. Tegime läbi näite 13-10. Seejärel tegin eksperimendi Archimedese ämbriga ja arvutamisega kontrollisime.
 
-8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustame näitest 13-10.
+\onecolumn
 
 ### 2023-11-27
 
-### 2023-12-4
+Kava:
 
-### 2023-12-11
+*12a*: Kertu näitab alguses konspekti ette.
 
-### 2023-12-18
+1.  *12b*: Rõhk ja Pascali põhimõte. Lahendame ülesande 15[@physics(lk 392)] (joonis \@ref(fig:physics-of-micro-and-mega-world-pressure-pascal-s-principle-15) leheküljel `r render_pageref(reference="fig:physics-of-micro-and-mega-world-pressure-pascal-s-principle-15")`).
 
-Varase kvantteooria ja aatomi mudelite teadmiste ja oskuste kaardistamine.
+    ```{r label="physics-of-micro-and-mega-world-pressure-pascal-s-principle-15", echo=FALSE, fig.cap="Ujumisbasseini ülesande on õpilane lahendanud rõhu osas õigesti, kuid kas saad aru, millise vea on ta teinud jõu valemi koostamises?"}
+    include_external_graphics(path="rmd/15-rando.jpg")
+    
+    ```
 
-### 2024-1-8
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: alustame näitest 13-7.
 
-### 2024-1-15
+6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
-### 2024-1-22
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustame näite 13-10 järgsest palgiujutamisest.
 
-### 2024-1-29
-
-### 2024-2-5
-
-Aatomite kvantmehaanika teadmiste ja oskuste kaardistamine.
-
-### 2024-2-12
-
-### 2024-2-19
-
-### 2024-3-4
-
-### 2024-3-11
-
-### 2024-3-18
-
-Tuumafüüsika ja radioaktiivuse teadmiste ja oskuste kaardistamine.
-
-### 2024-3-25
-
-### 2024-4-1
-
-### 2024-4-8
-
-### 2024-4-15
-
-### 2024-4-22
-
-Tuumaenergia ning radiatsiooni mõju ja kasutamise teadmiste ja oskuste kaardistamine.
-
-### 2024-4-29
-
-### 2024-5-6
-
-### 2024-5-13
-
-### 2024-5-20
-
-### 2024-5-27
-
-Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
+\twocolumn
 
 ## Ülesanded
 
@@ -610,7 +573,7 @@ Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
 
 5) Pudeli mass tühjana on \qty{32,00}{\g} ja \qty{98,44}{\g}, kui see on täidetud veega. Kui täidetakse teise vedelikuga, on pudeli ja vedeliku mass kokku \qty{89,22}{\g}. Milline on selle teise vedeliku eritihedus?
 
-### Rõhk ja Pascali põhimõte
+### Rõhk ja Pascali põhimõte[@physics(lk 392-393)]
 
 7)  Hinnake põrandale avaldatavat survet
 
@@ -627,8 +590,26 @@ Astrofüüsika ja kosmoloogia teadmiste ja oskuste kaardistamine.
 13\) Soovitatav rehvirõhk konkreetse auto jaoks on \qty{220}{\kilo\pascal}. Kui auto mass on \qty{1250}{\kg}, siis milline iga rehvi ala peab olema kokkupuutes teega? Oletame, et auto
 kaal jaotub ühtlaselt kõigi \num{4} rehvi vahel.
 
-15\) Määrake kogujõud ja absoluutrõhk $\qty{24,0}{\m} \times \qty{8,5}{\m} basseini põhjas, mille ühtlane sügavus on \qty{1,8}{\m}. Kui suur on absoluutne rõhk vastu basseini põhja lähedal asuvat külge?
+15\) Määrake kogujõud ja absoluutrõhk $\qty{24,0}{\m} \times \qty{8,5}{\m}$ basseini põhjas, mille ühtlane sügavus on \qty{1,8}{\m}. Kui suur on absoluutne rõhk vastu basseini põhja lähedal asuvat külge?
 
-### Pindpinevus ja kapillaarsus[@physics(lk 396)]
+17\) Vesi ja seejärel õli (mis ei segune) valatakse U-kujulisse torusse, mis on mõlemast otsast avatud. Need ained saavutavad tasakaalu, nagu on näidatud joonisel 13-54[@physics(lk 392)].
+Milline on õli tihedus?
+[Vihje: rõhud punktides a ja b on võrdsed. Miks?]
+
+19\) Määrake hoonesse viiva veetoru minimaalne manomeetriline rõhk, kui vesi peaks tulema neljateistkümnendal korrusel, \qty{44}{\m} kõrgusel torust kõrgemal asuvast kraanist.
+
+21\) Rõhu mõõtmiseks hapnikupaagis kasutatakse avatud toruga elavhõbedamanomeetrit. Kui atmosfäärirõhk on \num{1040} millibaari, siis milline on absoluutrõhk (\unit{\pascal}) paagis, kui elavhõbeda kõrgus avatud torus on
+
+ - \qty{18,5}{\centi\m} kõrgem,
+
+ - \qty{7,6}{\centi\m} madalam
+ 
+ kui elavhõbeda kõrgus paagis.
+ Vt joonist 13-10a[@physics(lk 372)].
+
+23\) Tamm laiusega $b$ hoiab vett kõrgusega $h$. Kasutage integreerimist, et näidata, et vee kogujõud tammile on $F = \frac{g \cdot b \cdot h^2 \cdot \rho}{2}$. Kas peate lisama atmosfäärirõhu?
+Selgita!
+
+### Pindpinevus[@physics(lk 396)]
 
 73) Arvutage @physics(lk 386)'i joonisel 13-37 traadi liigutamiseks vajalik jõud, kui see hoiab seebilahust (tabel 13-4 @physics(lk 387)'s) ja traadi pikkus on \qty{21,5}{\centi\m}.

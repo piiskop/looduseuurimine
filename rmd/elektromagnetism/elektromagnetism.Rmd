@@ -53,7 +53,24 @@ Induktiivpool (30.2). Homogeenne magnetväli solenoidis (28.5). Elektri- ja magn
 
 ### Põhimõisted
 
-elektrilaeng (21.2), elementaarlaeng (21.5), voolutugevus (25.2), punktlaeng (21.5), elektriväli (21.6), elektrivälja tugevus (21.6),
+elektrilaeng (21.2)
+: füüsikaline suurus, mis iseloomustab, kui tugevasti osaleb laetud keha elektromagnetilises vastastikmõjus[@ebook]
+
+elementaarlaeng (21.5)
+: väikseim looduses täheldatud laeng[@physics, lk 614]
+
+punktlaeng (21.5)
+: laeng, mille ruumiline suurus on teiste vahemaadega võrreldes tühine[@physics, lk 615]
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+voolutugevus (25.2)
+: igasugune laenguvool[@physics, lk 720]
+
 potentsiaal (23), pinge (21.1), elektronvolt (23.8), jõujoon (21.8), kondensaator (24.1), püsimagnet (27.1), magnetväli (27.1), magnetinduktsioon (29.1-29.3),
 Lorentzi jõud (27.4), pööriselektriväli (29.1), induktsiooni elektromotoorjõud (29.1), magnetvoog (29.7), endainduktsioon (30.2)
 
@@ -684,8 +701,6 @@ Kava:
     include_external_graphics(path="rmd/elektrivälja-tugevus-laengute-ühendussihist-eemal-IMG_20231117_132222.jpg")
     
     ```
-    
-\twocolumn
 
 ### 2023-11-20
 
@@ -713,41 +728,72 @@ Kava:
 1. *11a*: Superpositsioon[@fsikaline(lk 37)].
 
 2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
-    Jätkame näitega 21-9[@physics(lk 621)] kirjutades $\overrightarrow{E_A}$ magnituudi arvutamiseeskirja lahti.
+    Jätkasime näitega 21-9[@physics(lk 621)] kirjutades $\overrightarrow{E_A}$ magnituudi arvutamiseeskirja lahti. *11a*: Jõudsime lõpliku valemini samas näites (joonis \@ref(fig:electromagnetism-electric-field-21-9) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-21-9")`). *11b*: Sama näite valemi tuletamisega sain dimensionaalanalüüsiga ebakõla.
+    
+    ```{r label="electromagnetism-electric-field-21-9", echo=FALSE, fig.cap="Kas leiad vea dimensionaalanalüüsis?"}
+    include_external_graphics(path="rmd/21-9-IMG_20231120_120821.jpg")
+    
+    ```
 
 3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)].
 
+\twocolumn
+
 ### 2023-11-24
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. *11a*: Valemi \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference="eq:electric-field-strength")` selgitamine[@physics(lk 619)].
+    Mõlemad: Jätkasime näitega 21-9[@physics(lk 621)] kirjutades $\overrightarrow{E_A}$ selgitades eelnevaid vigu (joonis \@ref(fig:electromagnetism-electric-field-21-9) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-21-9")`). *11a*: Näite 21-9 A-vektori suurust arvutasime ja mitte keegi ei arvutanud õiget välja. Kirjutasin õige lahendi tahvlile. *11b*: Jõudsime näite 21-9 puhul nurga arvutuskäigu välja kirjutada.
 
 ### 2023-11-27
 
-### 2023-12-1
+Kursuse lõpus õpilane:
 
-Magnetvälja allikate, elektromagnetilise induktsiooni ja Faraday' seaduse, induktiivsuse, elektromagnetiliste võnkumiste, valguse kui elektromagnetlaine ja elektromagnetilise spektri, valguse peegeldumise ja murdumise ning valguse lainelise olemuse teadmiste ja oskuste kaardistamine.
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
 
-### 2023-12-4
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
 
-### 2023-12-8
+Õppesisu:
 
-### 2023-12-11
+Väljatugevus (21.6).
 
-### 2023-12-15
+Põhimõisted:
 
-### 2023-12-18
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
 
-### 2023-12-22
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
 
-### 2024-1-8
+Kava:
 
-### 2024-1-12
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+    Jätkame näitega 21-9[@physics(lk 621)]. *11a*: Alustame $\overrightarrow{E_A}$ nurga valemi tuletamisega.  *11b*: Alustame $\overrightarrow{E_A}$ nurga väljaarvutamisest.
 
-Difraktsiooni, varase kvantteooria ja aatomimudelite ning elementaarosakeste teadmiste ja oskuste kaardistamine.
+3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)].
 
-### 2024-1-15
-
-### 2024-1-19
-
-### 2024-1-22
+*11a*: Kris tahab nõustamist 2023-11-27 seitsmendas sessioonis, võib kümmekond minutit hilineda.
 
 ## Ülesanded
 
@@ -802,7 +848,7 @@ electroscope <- c(
   0,
   0,
   0,
-  0,
+  1, # Birgit Tori
   0,
   0,
   0,
@@ -1330,6 +1376,86 @@ from_statical_electricity_to_coulomb_calculation_3 <- c(
 
 #### Järeltestid
 
+##### Anni Kaisi Paavel
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Anni Kaisi Paavel ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-24.
+
+\begin{large}
+
+1. Millisel juhul on kahe metallkuulikese vaheline elektriline mõjujõud suurem, kas sama- või vastasnimeliste laengute korral? Kuulikeste diameetrid on samas suurusjärgus nende vahekaugustega, nendele on antud ühesuurused laengud ning nedne vahekaugus on mõlemal juhul üks.
+
+2. Avaldan punktlaengutevaheline kauguse Coulomb' seaduses elementaarlaengute kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+
+  - väljund(id),
+
+  - (joonis),
+
+  - arutelu,
+
+  - arvutamine,
+
+  - lahend täislausega.
+
+3. Kui suured on kaks võrdset laengut, mis mõjutavad teineteist \qty{10}{\centi\m} kauguselt \qty{9}{\milli\newton} suuruse jõuga? 
+
+4. Söekübe laenguga \qty{5}{\pico\coulomb} liitus tolmuteraga, mille laeng oli \qty{-0,08}{\pico\coulomb}. Arvuta tekkinud konglomeraaditükikese laeng! Tehase korstnas on saasta püüdmiseks elektrostaatiline filter. Kas tükike tõmbub filtri pluss- või miinuspooluse külge?
+
+4\. Algselt positiivselt (\qty{0,2}{\nano\coulomb}) laetud nahatükiga hõõruti neutraalset klaaspulka, mis omandas lõpuks positiivse laengu \qty{0,6}{\nano\coulomb}. Kui suur laeng läks üle ühelt kehalt teisele? Mitme elektroni üleminekule niisugune laeng vastab?
+
+\end{large}
+
+\newpage
+
+##### Jasper Jakobson
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Jasper Jakobson ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-10.
+
+1. Mida tähendab Le Système'i international d'unités teisendatuna väide, et et elektroni laeng on \num{-1} ja prootoni laeng on \num{+1}?
+
+2. Avaldan ja / või arvutan punktlaengutevahelise kauguse Coulomb’ seaduses. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Klaaspulga elektriseerimisel eemaldati sellest 2000 miljardit elektroni. Kui suure laengu omandas klaaspulk? 
+
+4. Punktlaengud $q_1$, $q_2$ ja $q_3$ paiknevad ristküliku tippudes. Arvutada jõud $\vec{F_e}$, mis mõjub laengule $q_3$ laengute $q_1$ ja $q_2$ elektriväljas! Laeng $q_3$ on laengust $q_1$ \qty{1}{\centi\m} ja laengust $q_2$ \qty{3}{\centi\m} kaugusel. $q_3 = \qty{10e9}{\coulomb}$, $q_1 = \qty{-10e-9}{\coulomb}$ ja $q_2 = \qty{-4e-9}{\coulomb}$.
+ 
+5. Kaks kuulikest on riputatud \qty{5}{\centi\m} pikkuste niitide otsa, mis on kinnitatud statiivil ühte punkti. Võrdselt laetuna tõukusid need teineteisest \qty{6}{\centi\m} kaugusele. Mõlema kuuli mass on \qty{10}{\milli\g}. Arvutan laengute suurused.
+
+\newpage
+
 ##### Marie Allert 1
 
 ###### Reeglid
@@ -1405,7 +1531,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 4. Kaks ühesugust kuulikest asuvad teineteisest \qty{40}{\centi\m} kaugusel. Ühe kuulikese laeng on \qty{9e-9}{\coulomb} ja teise kuulikese laeng \qty{-2e-9}{\coulomb}. Kuulikesed viidi kokkupuutesse ja eemaldati uuesti endisele kaugusele. Arvutada kuulikeste vahel mõjuv jõud enne ja pärast kokkupuudet!
  
-5. Kaks punktlaengut, \qty{6e-8}{\coulomb} ja \qty{2,4e-7}{\coulomb}, asuvad transformaatoriõlis \qty{16}{\centi\m} kaugusel teineteisest. Kuhu nende vahele tuleb asetada laeng \qty{3,0e-4}{\coulomb}, et süsteem oleks tasakaalus? Kas tasakaal on püsiv? Kas tasakaal kaob, kui muuta kolmanda laeengu märk?
+5. Kaks punktlaengut, \qty{6e-8}{\coulomb} ja \qty{2,4e-7}{\coulomb}, asuvad transformaatoriõlis \qty{16}{\centi\m} kaugusel teineteisest. Kuhu nende vahele tuleb asetada laeng \qty{3,0e-4}{\coulomb}, et süsteem oleks tasakaalus? Kas tasakaal on püsiv? Kas tasakaal kaob, kui muuta kolmanda laengu märk?
 
 \newpage
 
@@ -1447,7 +1573,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 \newpage
 
-##### Martin Mäesalu
+##### Martin Mäesalu\*
 
 ###### Reeglid
 
@@ -1525,7 +1651,7 @@ laengute jaotus.
 
 \newpage
 
-##### Jasper Jakobson
+##### Martha Toom
 
 ###### Reeglid
 
@@ -1535,35 +1661,38 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 ###### Ülesanded
 
-0. Olen Jasper Jakobson ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-10.
+0. Olen Martha Toom ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-24.
 
-1. Mida tähendab Le Système'i international d'unités teisendatuna väide, et et elektroni laeng on \num{-1} ja prootoni laeng on \num{+1}?
+1. Kaks ühenimeliste laengutega väikest kuulikest on ripuTatud ühepikkuste isoleeritud niitide otsa. Mis juhtub kuulikestega kaaluta olekus?
 
-2. Avaldan ja / või arvutan punktlaengutevahelise kauguse Coulomb’ seaduses. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+2. Avaldan ja / või arvutan elektroni ja prootoni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
 
 3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
 
   - sisend(id),
-  
+
   - väljund(id),
-  
+
   - (joonis),
-  
+
   - arutelu,
-  
+
   - arvutamine,
-  
+
   - lahend täislausega.
 
-3. Klaaspulga elektriseerimisel eemaldati sellest 2000 miljardit elektroni. Kui suure laengu omandas klaaspulk? 
+3. Kahe teineteisest \qty{5}{\milli\m} kaugusel oleva laengu vaheline jõud on \qty{4}{\milli\newton}. Arvuta jõu suurus, kui
+ - kaugus on \qty{10}{\milli\m}, \qty{2,5}{\milli\m}, \qty{20}{\milli\m},
+ - üht laengut suurendada kaks korda,
+ - mõlemat laengut vähendada kaks korda,
+ - kaugust vähendada \num{3} korda ja samaaegselt üht laengut suurendada \num{3} korda.
+4. Punktlaengud $q_1$, $q_2$ ja $q_3$ paiknevad ristküliku tippudes. Arvutada jõud $\overrightarrow{F_e}$, mis mõjub laengule $q_3$ laengute $q_1$ ja $q_2$ elektriväljas! Laeng $q_3$ on laengust $q_1$ \qty{1}{\centi\m} ja laengust $q_2$ \qty{3}{\centi\m} kaugusel. $q_3 = \qty{10e9}{\coulomb}$, $q_1 = \qty{-10e-9}{\coulomb}$ ja $q_2 = \qty{-4e-9}{\coulomb}$.
 
-4. Punktlaengud $q_1$, $q_2$ ja $q_3$ paiknevad ristküliku tippudes. Arvutada jõud $\vec{F_e}$, mis mõjub laengule $q_3$ laengute $q_1$ ja $q_2$ elektriväljas! Laeng $q_3$ on laengust $q_1$ \qty{1}{\centi\m} ja laengust $q_2$ \qty{3}{\centi\m} kaugusel. $q_3 = \qty{10e9}{\coulomb}$, $q_1 = \qty{-10e-9}{\coulomb}$ ja $q_2 = \qty{-4e-9}{\coulomb}$.
- 
-5. Kaks kuulikest on riputatud \qty{5}{\centi\m} pikkuste niitide otsa, mis on kinnitatud statiivil ühte punkti. Võrdselt laetuna tõukusid need teineteisest \qty{6}{\centi\m} kaugusele. Mõlema kuuli mass on \qty{10}{\milli\g}. Arvutan laengute suurused.
+5. Mitu korda on vesiniku aatomis elektroni ja tuuma vaheline kuloniline vastasjõujõud suurem nendevahlisest gavitatsioonilisest vastasmõjust? Elektroni mass $m_\mathrm{e} = \qty{9,11e-31}{\kg}$ ja prootoni mass $m_\mathrm{p} = \qty{1,67e-27}{\kg}$. Gravitatsioonikonstant $G = \qty{6,67e-11}{\newton\m\squared\per\kg\squared}$.
 
 \newpage
 
-##### Morris Tobi 1
+##### Morris Tobi 1\*
 
 ###### Reeglid
 
@@ -1663,9 +1792,9 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.1, # Matteus Aus
     0, # Maarja-Lii Erm
     0.1, # Jasper Jakobson
-    0,
+    0.1, # Kaia Kretel Jürissaar
     0.06, # Miia Mirtel Jürissaar
-    0.08, # Kairit Kabel
+    0.1, # Kairit Kabel
     0.04, # Alice Kivirüüt
     0,
     0.05, # Sten-Erik Mihkelson
@@ -1704,9 +1833,9 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.08, # Matteus Aus
     0, # Maarja-Lii Erm
     0.19, # Jasper Jakobson
-    0.14, # Kaia Kretel Jürissaar
+    0.2, # Kaia Kretel Jürissaar
     0,
-    0,
+    0.2, # Kairit Kabel
     0,
     0,
     0,
@@ -1715,14 +1844,14 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     .06, # Karl Reiter
     0,
-    0,
+    0.2, # Morris Tobi
     0,
     0, # Teele Tuul
     0.1, # Toren
     0.2 # Andreas Volman
   ),
   c( # 3
-    0.01, # Marie Allert
+    0.07, # Marie Allert
     0.35, # Sander Brinkmann
     0.4, # Enrico Ernits
     0.25, # Merili
@@ -1745,9 +1874,9 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.2, # Mattias Aus
     0.48, # Maarja-Lii Erm
     0.45, # Jasper Jakobson
-    0.38, # Kaia Kretel Jürissaar
+    0.5, # Kaia Kretel Jürissaar
     0.33, # Miia Mirtel JÜrissaar
-    0.03, # Kairit Kabel 
+    0.24, # Kairit Kabel 
     0,
     0.38, # Ketli Kruusmann
     0,
@@ -1756,14 +1885,14 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     .18, # Karl Reiter
     0,
-    0.18, # Tobi Morris
+    0.43, # Tobi Morris
     0.15, # Martha Toom
     0.33, # Teele Tuul
     0,
     0.35 # Andreas Volman
   ),
   c( # 4
-    0.03, # Marie Allert
+    0.29, # Marie Allert
     0,
     0.72, # Enrico Ernits
     0.33, # Merili
@@ -1786,9 +1915,9 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0.45, # Maarja-Lii Erm
     0.4, # Jasper Jakobson
-    0.54, # Kaia Kretel Jürissaar
+    0.75, # Kaia Kretel Jürissaar
     0.36, # Miia Mirtel Jürissaar
-    0.3, # Kairit Kabel 
+    0.05, # Kairit Kabel 
     0.45, # Alice Kivirüüt
     0.39, # Ketli Kruusmann
     0,
@@ -1797,14 +1926,14 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.18, # Anni Kaisi Paavel
     .21, # Karl Reiter
     0.15, # Kärt Solman
-    0,
+    0.2, # Morris Tobi
     0.15, # Martha Toom
     0.51, # Teele Tuul
     0,
     0 # Andreas Volman
   ),
   c( # 5
-    0,
+    0.13, # Marie Allert
     0.22, # Sander Brinkmann
     0.2, # Enrico Ernits
     0.85, # Merili
@@ -1827,9 +1956,9 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0, 
     0.37, # Maarja-Lii Erm
     0.15, # Jasper Jakobson 
-    0,
+    0.24, # Kaia Kretel JÜrissaar
     0.46, # Miia Mirtel Jürissaar
-    0.25, # Kairit Kabel
+    0.3, # Kairit Kabel
     0,
     0.04, # Ketli Kruusmann
     0.25, # Sten-Erik Mihkelson
@@ -1883,7 +2012,8 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
   - arvutamine,
   - lahend täislausega.
 3. Voolutugevus ahelalõigus kasvab \qty{6}{\s} ühtlaselt \qty{0}{\ampere}'lt kuni \qty{1,5}{\ampere}'ni. Ehitada voolutugevuse ajast sõltuvuse graafik ja leida selle põhjal \qty{6}{\s} ahela osa läbinud laeng!
-4.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
+4. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
+5.  Mitu elektroni läbib juhi ristlõiget \qty{1}{\s}, kui voolutugevus on
  - \qty{8}{\milli\ampere},
  - \qty{8e-6}{\ampere},
  - \qty{3,2}{\ampere}?
@@ -1894,7 +2024,6 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
      - \qty{2e-9}{\s}
      
     vältel?
-5. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
 
 \newpage
 
@@ -1925,7 +2054,8 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
   - arvutamine,
   - lahend täislausega.
 3. Voolutugevus ahelalõigus kasvab \qty{6}{\s} ühtlaselt \qty{0}{\ampere}'lt kuni \qty{1,5}{\ampere}'ni. Ehitada voolutugevuse ajast sõltuvuse graafik ja leida selle põhjal \qty{6}{\s} ahela osa läbinud laeng!
-4.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
+4. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
+5.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
  - \qty{8}{\milli\ampere},
  - \qty{8e-6}{\ampere},
  - \qty{3,2}{\ampere}?
@@ -1936,7 +2066,6 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
      - \qty{2e-9}{\s}
      
     vältel?
-5. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
 
 \newpage
 
@@ -1967,7 +2096,8 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
   - arvutamine,
   - lahend täislausega.
 3. Voolutugevus ahelalõigus kasvab \qty{6}{\s} ühtlaselt \qty{0}{\ampere}'lt kuni \qty{1,5}{\ampere}'ni. Ehitada voolutugevuse ajast sõltuvuse graafik ja leida selle põhjal \qty{6}{\s} ahela osa läbinud laeng!
-4.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
+4. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
+5.  Mitu elektroni läbib juhi ristlõiged \qty{1}{\s}, kui voolutugevus on
  - \qty{8}{\milli\ampere},
  - \qty{8e-6}{\ampere},
  - \qty{3,2}{\ampere}?
@@ -1978,7 +2108,36 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
      - \qty{2e-9}{\s}
      
     vältel?
-5. Mida näitab galvanomeeter, kui \qty{10}{\minute} kestel läbib seda \qty{18}{\coulomb} suurne laeng? Mitu elektroni peab ajaühikus läbima juhi ristlõiget, et sellega ühendatud galvanomeeter näitaks \qty{1}{\milli\ampere}?
+
+\newpage
+
+##### Katharina Helene Schulzendorff
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti (http://whitebophir.ons.ee/boards/katharina) järelvaataja juuresolekul ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Aufgaben
+
+0. Ich bin Katharina Helene Schulzendorff und werde Probleme zum Thema *Elektrischer Strom* lösen. Das heutige Datum ist der 24.11.2023.
+
+1. Elektronen, die auf den Bildschirm einer Fernsehröhre fliegen, bilden einen Elektronenstrahl. Welche Stromrichtung hat der Elektronenstrahl?
+
+2. Ich drücke aus und/oder berechne die Beladung in Bezug auf Strom und Zeit. Ich werde den gesamten Ableitungsprozess so detailliert wie möglich zeigen. Ich markiere die Variablen entweder mit bekannten Notationen, oder wenn ich andere Notationen verwende, füge ich eine Legende hinzu.
+
+3.-5. Ich schreibe eine Beschreibung der Aufgabe. Ich löse die Aufgabe mit der Struktur:
+
+  - Eingabe(n),
+  - Ausgabe(n),
+  - (Entwurf),
+  - Diskussion,
+  - Berechnung,
+  - Lösung mit einem vollständigen Satz.
+3. Während \qty{5}{\s} fließt eine Ladung von \qty{2}{\coulomb} durch den Querschnitt des Leiters. Berechne den Strom!
+4.  Der Autostarter entnahm der Batterie einen Strom von \qty{150}{\ampere} und arbeitete damit \qty{3}{\s}. Während der Fahrt lädt der Generator die Batterien mit einem Strom von \qty{4,5}{\ampere} auf. Wie lange hat die Ladung gedauert, um die anfängliche Ladung wiederherzustellen?
+5. Was zeigt ein Galvanometer an, wenn eine Ladung von \qty{18}{\coulomb} für \qty{10}{\minute} durch das Galvanometer fließt? Wie viele Elektronen müssen pro Zeiteinheit den Querschnitt des Leiters durchlaufen, damit das daran angeschlossene Galvanometer \qty{1}{\milli\ampere} anzeigt?
 
 #### Tulemused
 
@@ -2196,7 +2355,7 @@ tasks_of_electric_current <- data.frame(
   c( # 1
     0, # 1. Allert, Marie
     0.1, # 2. Brinkmann, Sander
-    0, # 3. Ernits, Enrico
+    0.05, # 3. Ernits, Enrico
     0, # 4. Heinaru, Merili
     0.85 * .1, # Fredi Kaljuvee
     0.4 * .1, # 6. Kangro, Kristofer
@@ -2219,7 +2378,7 @@ tasks_of_electric_current <- data.frame(
     0, # 4. Jakobson, Jasper
     0, # 5. Jürissaar, Kaia Kretel
     0, # Miia Mirtel Jürissaar
-    0, # Kairit Kabel
+    0.1, # Kairit Kabel
     0, # Alice Kivirüüt
     0, # 9. Kruusmann, Ketli
     0, # Sten-Erik Mihkelson
@@ -2237,7 +2396,7 @@ tasks_of_electric_current <- data.frame(
   c( # 2
     0.2, # 1. Allert, Marie
     0.2, # 2. Brinkmann, Sander
-    .7 * 0.2, # 3. Ernits, Enrico
+    .18, # 3. Ernits, Enrico
     0.2, # 4. Heinaru, Merili
     0.2, # Fredi Kaljuvee
     0.85 * .2, # 6. Kangro, Kristofer
@@ -2260,7 +2419,7 @@ tasks_of_electric_current <- data.frame(
     0, # 4. Jakobson, Jasper
     0.2, # 5. Jürissaar, Kaia Kretel
     0.2, # Miia Mirtel Jürissaar
-    0.2, # Kairit Kabel
+    0, # Kairit Kabel
     0, # Alice Kivirüüt
     0.2, # 9. Kruusmann, Ketli
     0, # Sten-Erik Mihkelson
@@ -2278,7 +2437,7 @@ tasks_of_electric_current <- data.frame(
   c( # 3
     0, # 1. Allert, Marie
     0.5, # 2. Brinkmann, Sander
-    0, # 3. Ernits, Enrico
+    0.2, # 3. Ernits, Enrico
     0, # 4. Heinaru, Merili
     0.5, # Fredi Kaljuvee
     0.5, # 6. Kangro, Kristofer
@@ -2301,7 +2460,7 @@ tasks_of_electric_current <- data.frame(
     0.5, # 4. Jakobson, Jasper
     0, # 5. Jürissaar, Kaia Kretel
     0.7 * .5, # Miia Mirtel Jürissaar
-    0, # Kairit Kabel
+    0.3, # Kairit Kabel
     0, # Alice Kivirüüt
     0.7 * .5, # 9. Kruusmann, Ketli
     0, # Sten-Erik Mihkelson
@@ -2319,7 +2478,7 @@ tasks_of_electric_current <- data.frame(
   c( # 4
     (.16 + .16 + .136 + .01000000000000014) * .75, # 1. Allert, Marie
     (0.976 + .04 * .16 + .136) * .75, # 2. Brinkmann, Sander
-    0.24, # 3. Ernits, Enrico
+    0, # 3. Ernits, Enrico
     (.16 + .16 + .136 + .01000000000000014) * .75, # 4. Heinaru, Merili
     1.8 * .75, # Fredi Kaljuvee
     1.8 * 0.75, # 6. Kangro, Kristofer
@@ -2342,7 +2501,7 @@ tasks_of_electric_current <- data.frame(
     (.16 * 3 + .112 * 2 + .904) * 0.75, # 4. Jakobson, Jasper
     (2 * .16) * 0.75, # 5. Jürissaar, Kaia Kretel
     0, # Miia Mirtel Jürissaar
-    0, # Kairit Kabel
+    0.38, # Kairit Kabel
     (.112 + .088 + .16) * .75, # Alice Kivirüüt
     0, # 9. Kruusmann, Ketli
     0, # Sten-Erik Mihkelson
@@ -2360,7 +2519,7 @@ tasks_of_electric_current <- data.frame(
   c( # 5
     0, # 1. Allert, Marie
     0.9, # 2. Brinkmann, Sander
-    0, # 3. Ernits, Enrico
+    0.24, # 3. Ernits, Enrico
     0, # 4. Heinaru, Merili
     .85 * .9, # Fredi Kaljuvee
     0.9, # 6. Kangro, Kristofer
@@ -2383,7 +2542,7 @@ tasks_of_electric_current <- data.frame(
     0.9, # 4. Jakobson, Jasper
     0, # 5. Jürissaar, Kaia Kretel
     0, # Miia Mirtel Jürissaar
-    0, # Kairit Kabel
+    0.6, # Kairit Kabel
     0, # Alice Kivirüüt
     0, # 9. Kruusmann, Ketli
     0, # Sten-Erik Mihkelson

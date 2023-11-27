@@ -1852,17 +1852,93 @@ convert_degrees_to_radians <- function(degrees) {
 
 ## Mõõtemääramatus[@ldmtmisedloodusteadustesxlsx]
 
-### Usaldusintervall
+Iga kord, kui mõõdame midagi, esineb ebatäpsusi, sest me ei saa mitte kunagi täielikult täpselt midagi mõõta. Näiteks, kui mõõdame joonlauaga kirjutusvahendi pikkust, siis saame pikkuse väärtuse välja lugeda joonlaua skaalalt, millel on väikseim ühik, millest oluliselt täpsemalt me pikkust välja lugeda ei saa. Samuti on võimalik meil asetada joonlaud ainult joonlaua skaala täpsusega kirjutusvahendi algpunkti. Võimalik on ka, et mõõtmistingimused ei ole ideaalsed. Nii määratleme kirjutusvahendi pikkuse mingis vahemikus ja see vahemik ongi mõõtemääramatus.
 
-1 - α usaldusintervall aritmeetilise keskmise tõelise väärtuse jaoks:
+Alati on mõõtmise tulemusena olemas mingi keskväärtus. Kui tehakse vaid üks mõõtmine, siis selle tulemus ongi keskväärtus, mitme mõõtmise puhul on keskväärtus väljamõõdetud väärtuste aritmeetiline keskmine.
+
+Mõõtemääramatuse tüübid on A, B1 ja B2.
+
+Kui teostatakse sama suuruse mõõtmisi korduvalt saades erinevaid väärtusi, siis on vajalik arvutada A-tüüpi mõõtemääramatus. Nt muutub ruumis heliintensiivsus pidevalt, kui ruum pole akustiliselt isoleeritud. Seetõttu tehakse palju korduvaid mõõtmisi ning kasutatakse statistikat, et mõõtmistulemus interpreteerida.
+
+A-tüüpi mõõtemääramatuse jaoks on vaja arvutada standardhälve ning korrutada see standardhälve Studenti jaotuse teguriga. Jaotusi on mitmeid, ent füüsikas võiksime kasutada eelkõige Studenti jaotust, kuna Studenti jaotusele allub mõõtmistulemuste jagunemine lõpliku arvu mõõtmiste korral ja mõõtmiste arv on alati lõplik.
+
+A-tüüpi mõõtemääramatuse arvutamise valem usaldusmäära $1 - α$ korral on \@ref(eq:measurement-uncertainty-of-type-A) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-A")`. Selles valemis:
+
+$u_\mathrm{A}$
+: A-tüüpi mõõtemääramatus
+
+$\alpha$
+: usaldamatuse määr
+
+$n$
+: mõõtmiste arv
+
+$t$
+: Studenti t-jaotuse funktsioon
+
+$\overline{x}$
+: aritmeetiline keskmine
+
+$x_i$
+: mõõdetud väärtus
+
+Studenti t-jaotuse funktsiooni väljundi saab kas ise arvutada, arvutada lasta või vaadata tabelist[@haynes_2014_crc(lk A-72)].
 
 ```{=tex}
 \begin{equation}
-\overline{x} \pm \mathrm{t}(n - 1, \frac{\alpha}{2}) \times \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}}
-(\#eq:confidence-interval)
+u_\mathrm{A} = \mathrm{t}(n - 1, \frac{\alpha}{2}) \cdot \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \cdot (n - 1)}}
+(\#eq:measurement-uncertainty-of-type-A)
 \end{equation}
 
 ```
+
+B-tüüpi mõõtemääramatuseid on kaks. B1-tüüpi mõõtemääramatus arvutatakse mõõtevahendi dokumentatsiooni märgitud täpsusest. B2-tüüpi mõõtemääramatus arvutatakse mõõtevahendi väikseima ühiku põhjal.
+
+B1-tüüpi mõõtemääramatus on esitatud valemina \@ref(eq:measurement-uncertainty-of-type-B1) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-B1")`. Selles valemis
+
+$u_\mathrm{B1}$
+: B1-tüüpi mõõtemääramatus
+
+$e_\mathrm{p}$
+: mõõtevahendi lubatud piirhälve
+
+```{=tex}
+\begin{equation}
+u_\mathrm{B1} = \mathrm{t}(\infty, \frac{\alpha}{2}) \cdot \frac{e_\mathrm{p}}{3}.
+(\#eq:measurement-uncertainty-of-type-B1)
+\end{equation}
+
+```
+
+B2-tüüpi mõõtemääramatus on esitatud valemina \@ref(eq:measurement-uncertainty-of-type-B2) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-B2")`. Selles valemis
+
+$u_\mathrm{B2}$
+: B2-tüüpi mõõtemääramatus
+
+$l$
+: väikseim ühik
+
+$n$
+: mõõtevahendi kasutamisega võimalike veategemise kordade arv ühes mõõtmises
+
+Näiteks joonlauaga mõõtes saame teha kaks viga: joonlaua skaala alguse paigutamisel ja mõõdu väljalugemisel.
+
+```{=tex}
+\begin{equation}
+u_\mathrm{B2} = (1 - \alpha) \cdot \frac{l}{2} \cdot n.
+(\#eq:measurement-uncertainty-of-type-B2)
+\end{equation}
+
+```
+
+Kui kõiki tüüpi mõõtemääramatused on välja arvutatud, tuleb mõõtemääramatused liita, nagu liidetakse vektoreid (avaldis \@ref(eq:measurement-uncertainty) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty")`).
+
+\begin{align}
+u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B1}^2 + u_\mathrm{B2}^2}.
+(\#eq:measurement-uncertainty)
+\end{align}
+
+Lõpuks tuleb mõõdetud väärtus väljendada kujul, mis on esitatud
 
 ### Suhteline mõõtemääramatus
 
@@ -1999,7 +2075,7 @@ caliper_data_frame = data.frame(caliper)
 
 ```
 
-Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:confidence-interval) leheküljel `r render_pageref(reference = "eq:confidence-interval")`.
+Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:confidence-interval) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty-of-type-A")`.
 
 Selleks tuleb esmalt arvutada aritmeetiline keskmine. Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:caliper-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
 
