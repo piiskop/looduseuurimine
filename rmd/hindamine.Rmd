@@ -122,13 +122,15 @@ Kui õpilane on korrektselt lahendanud kõrgema raskusastmega arvutusülesande, 
 12. Kui õpilane on registreerunud Kohila Gümnaasiumis järelvastamisse, siis saab ta mult järelvastamiseks juba lehe(d), millel on kirjas ülesanded, ja lahendab samadele lehtedele need ülesanded kasutades teise reegli struktuuri.
 Kui õpilane on Edu Valemis mingi ülesande sooritanud tulemusele \qty{0}{\percent}, siis sama tüüpi ja sama teema ülesande sooritamiseks saab ta ülesande järgmises testis, välja arvatud viimase testi puhul.
 
+[]{#test-outside}
+
 #### Kontrolltöö välistingimustes
 
 Välistingimuste teeme testi *MathCityMap*iga[@mathcitymap]. Enne testi kontaktsessiooni peab õpilase nutitelefonis olema *MathCityMap*i rakendus ja nutitelefoni aku peab olema täis. Samuti peab olema tal võimalik kasutada Internetti ja sisse peab olema lülitatud Global Positioning Systemi sensor.
 
 Õpilane peab olema kontaktsessiooni alguseks valmis riietunud vastavalt välistingimustele ja kui on sadu, siis soovitan õpilasel kasutada vihmavarju, sest muidu on nutitelefoni kasutamine raskendatud. Samuti peab õpilasel olema kaasas kirjutusvahend ja koht, kuhu kirjutada. Sõltuvalt testist võib vaja minna mõõtmisvahendeid nagu nt mõõdulinti.
 
-Õpilane saab minult mängu koodi, mille sisestab *MathCityMap*pi. Samuti otsustab ta, kas mängib üksi, kahekesi või kolmekesi. Rühma peale on kasutuses ainult üks *MathCityMap*i isend. Õpilane sisestab kõikide rühma liikmete nimed mulle arusaadavalt.
+Õpilane saab minult mängu koodi, mille sisestab *MathCityMap*pi. Samuti otsustab ta, kas mängib üksi, kahekesi või kolmekesi. Rühma peale on kasutuses ainult üks *MathCityMap*i isend. Õpilane sisestab kõikide rühma liikmete nimed mulle arusaadavalt. Testi kestel on lubatud suhelda rühmasiseselt, kuid mitte rühmadevaheliselt. Kui ma tuvastan, et vastuseid on teatatud muu rühma liikmeile, siis tühistan vastavad tulemused mõlema rühma puhul.
 
 Testi kontaktsessiooni alguseks kogunevad õpilased minu poolt kirjeldatud kogunemispaika, milleks on Kohila Gümnaasiumis garderoobide tagaukse juures oleva poolhoovi ala, mille ühel küljel on söökla, Edu Valemis aga koolimaja esine. Testmäng algab kontaktsessiooni algusega. Pärast koodi sisestamist toimub kaardi allalaadimine, mis võib kesta sõltuvalt Interneti ühenduse kiirusest mitu minutit. Kui kaart on alla laetud, näeb mängija kaarti, millel on kontrollpunktid, ja asub neid otsima ning nendes olevaid ülesandeid vastavalt mängu juhendile lahendama. Mäng lõpeb kontaktsessiooni lõpuga.
 
