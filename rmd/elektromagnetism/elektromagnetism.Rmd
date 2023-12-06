@@ -789,11 +789,70 @@ elektrivälja tugevus
 Kava:
 
 2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
-    Jätkame näitega 21-9[@physics(lk 621)]. *11a*: Alustame $\overrightarrow{E_A}$ nurga valemi tuletamisega.  *11b*: Alustame $\overrightarrow{E_A}$ nurga väljaarvutamisest.
+    Jätkasime näitega 21-9[@physics(lk 621)]. *11a*: Alustasime $\overrightarrow{E_A}$ nurga valemi tuletamisega. Variatsiooniasjadest tegime kuni kolmandani.
+ *11b*: Alustasime $\overrightarrow{E_A}$ nurga väljaarvutamisest. Sektsiooni 21-6 asjad tehtud.
 
-3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)].
+*11a*: Kris tahtis nõustamist 2023-11-27 seitsmendas sessioonis, võis kümmekond minutit hilineda. Ei tulnud jälle üldse.
 
-*11a*: Kris tahab nõustamist 2023-11-27 seitsmendas sessioonis, võib kümmekond minutit hilineda.
+### 2023-12-1
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+   *11a*: Variatsiooniasjadest tegime alates neljandast. Lahendasime variatsiooniülesanded kaheksanda lõpuni.
+ *11b*: Näitasin, kuidas saabub tasakaal[@charges]. Alustasime variatsiooniülesannete lahendamist. Variatsiooniülesannetest lahendasime esimesed 8, viimasest a ja b.
+Mõlemad: Lahendame @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.16-14.29.
+
+3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)]. *11a*: Vaja eriliselt selgelt selgitada laengu jagamist ülipisikesteks laenguteks.
+
+### 2023-12-4
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+   *11a*: Lahendame üheksanda variatsiooniülesande.
+ *11b*: Variatsiooniülesannetest lahendame kaheksanda viimase, ja üheksanda.
+Mõlemad: Lahendame @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.16, 14.17, 14.23, 14.25-14.29.
+
+3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)]. *11a*: Vaja eriliselt selgelt selgitada laengu jagamist ülipisikesteks laenguteks.
 
 ## Ülesanded
 
@@ -1390,9 +1449,9 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 \begin{large}
 
-1. Millisel juhul on kahe metallkuulikese vaheline elektriline mõjujõud suurem, kas sama- või vastasnimeliste laengute korral? Kuulikeste diameetrid on samas suurusjärgus nende vahekaugustega, nendele on antud ühesuurused laengud ning nedne vahekaugus on mõlemal juhul üks.
+1. Millisel juhul on kahe metallkuulikese vaheline elektriline mõjujõud suurem, kas sama- või vastasnimeliste laengute korral? Kuulikeste diameetrid on samas suurusjärgus nende vahekaugustega, nendele on antud ühesuurused laengud ning nende vahekaugus on mõlemal juhul üks.
 
-2. Avaldan punktlaengutevaheline kauguse Coulomb' seaduses elementaarlaengute kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+2. Avaldan punktlaengutevahelise kauguse Coulomb' seaduses elementaarlaengute kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
 
 3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
 
@@ -1663,7 +1722,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 0. Olen Martha Toom ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-24.
 
-1. Kaks ühenimeliste laengutega väikest kuulikest on ripuTatud ühepikkuste isoleeritud niitide otsa. Mis juhtub kuulikestega kaaluta olekus?
+1. Kaks ühenimeliste laengutega väikest kuulikest on riputatud ühepikkuste isoleeritud niitide otsa. Mis juhtub kuulikestega kaaluta olekus?
 
 2. Avaldan ja / või arvutan elektroni ja prootoni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
 
@@ -1686,9 +1745,9 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
  - üht laengut suurendada kaks korda,
  - mõlemat laengut vähendada kaks korda,
  - kaugust vähendada \num{3} korda ja samaaegselt üht laengut suurendada \num{3} korda.
-4. Punktlaengud $q_1$, $q_2$ ja $q_3$ paiknevad ristküliku tippudes. Arvutada jõud $\overrightarrow{F_e}$, mis mõjub laengule $q_3$ laengute $q_1$ ja $q_2$ elektriväljas! Laeng $q_3$ on laengust $q_1$ \qty{1}{\centi\m} ja laengust $q_2$ \qty{3}{\centi\m} kaugusel. $q_3 = \qty{10e9}{\coulomb}$, $q_1 = \qty{-10e-9}{\coulomb}$ ja $q_2 = \qty{-4e-9}{\coulomb}$.
+5. Punktlaengud $q_1$, $q_2$ ja $q_3$ paiknevad ristküliku tippudes. Arvutada jõud $\overrightarrow{F_e}$, mis mõjub laengule $q_3$ laengute $q_1$ ja $q_2$ elektriväljas! Laeng $q_3$ on laengust $q_1$ \qty{1}{\centi\m} ja laengust $q_2$ \qty{3}{\centi\m} kaugusel. $q_3 = \qty{10e9}{\coulomb}$, $q_1 = \qty{-10e-9}{\coulomb}$ ja $q_2 = \qty{-4e-9}{\coulomb}$.
 
-5. Mitu korda on vesiniku aatomis elektroni ja tuuma vaheline kuloniline vastasjõujõud suurem nendevahlisest gavitatsioonilisest vastasmõjust? Elektroni mass $m_\mathrm{e} = \qty{9,11e-31}{\kg}$ ja prootoni mass $m_\mathrm{p} = \qty{1,67e-27}{\kg}$. Gravitatsioonikonstant $G = \qty{6,67e-11}{\newton\m\squared\per\kg\squared}$.
+5\. Mitu korda on vesiniku aatomis elektroni ja tuuma vaheline kuloniline vastasmõjujõud suurem nendevahelisest gavitatsioonilisest vastasmõjust? Elektroni mass $m_\mathrm{e} = \qty{9,11e-31}{\kg}$ ja prootoni mass $m_\mathrm{p} = \qty{1,67e-27}{\kg}$. Gravitatsioonikonstant $G = \qty{6,67e-11}{\newton\m\squared\per\kg\squared}$.
 
 \newpage
 
@@ -1726,7 +1785,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 4. Kaks võrdse laenguga kera asuvad \qty{20}{\centi\m} kaugusel teineteisest \qty{-18}{\degreeCelsius} korral jääga täidetud anumas. Kui suur on jää dielektriline läbitavus, kui jää sulamisel veeks temperatuuriga \qty{0}{\degreeCelsius} on vaja kerad lähendada \qty{3,8}{\centi\m} kaugusele teineteisest, et jõud jääks samaks? Vee suhteline dielektriline läbivatus \qty{0}{\degreeCelsius} korral on \num{88}.
  
-5. Kuulike massiga \qty{150}{\milli\g} ja laenguga \qty{1,00e-8}{\coulomb} on riputatud isoleeritud niidi otsa. \qty{32}{\centi\m} kaugusele selle alla on asetatud teine kuulike. Kui suur ja millise märgiga peab olema teise kuulikese laeng, et niidi pinge suureneks \num{2} korda?
+5. 
 
 \newpage
 
@@ -1804,7 +1863,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.1, # Karl Reiter
     0,
     0,
-    0,
+    0.1, # Martha Toom
     0, # Teele Tuul
     .1, # Toren
     0.05 # Andreas Volman
@@ -1841,11 +1900,11 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0,
     0,
-    0,
+    0.1, # Anni Kaisi Paavel
     .06, # Karl Reiter
     0,
     0.2, # Morris Tobi
-    0,
+    0.07, # Martha Toom
     0, # Teele Tuul
     0.1, # Toren
     0.2 # Andreas Volman
@@ -1882,11 +1941,11 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0,
     0,
-    0,
+    0.11, # Anni Kaisi Paavel
     .18, # Karl Reiter
     0,
     0.43, # Tobi Morris
-    0.15, # Martha Toom
+    0.07, # Martha Toom (enne .15)
     0.33, # Teele Tuul
     0,
     0.35 # Andreas Volman
@@ -1923,11 +1982,11 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0,
     0,
-    0.18, # Anni Kaisi Paavel
+    0.11, # Anni Kaisi Paavel
     .21, # Karl Reiter
     0.15, # Kärt Solman
     0.2, # Morris Tobi
-    0.15, # Martha Toom
+    0.05, # Martha Toom
     0.51, # Teele Tuul
     0,
     0 # Andreas Volman
@@ -1968,7 +2027,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     .31, # Karl Reiter
     0.16, # Kärt Solman
     0,
-    0,
+    0.23, # Martha Toom
     0.4, # Teele Tuul
     0.13, # Toren
     0.55 # Andreas Volman
@@ -2367,7 +2426,7 @@ tasks_of_electric_current <- data.frame(
     0.1, # Marken Parve
     0.4 * .1, # Kristofer-Robin Plamus
     0, # 14. Saar, Carl-Joonas
-    0, # 15. Schulzendorff, Katharina Helene
+    0.05, # 15. Schulzendorff, Katharina Helene
     0.1, # Kris Taimre
     0, # Kiara Keiti Tepp
     0, # Birgit Tori
@@ -2408,7 +2467,7 @@ tasks_of_electric_current <- data.frame(
     0.2, # Marken Parve
     0.85 * .2, # Kristofer-Robin Plamus
     0, # 14. Saar, Carl-Joonas
-    .7 * 0.2, # 15. Schulzendorff, Katharina Helene
+    .05, # 15. Schulzendorff, Katharina Helene, enne .7 * 0.2
     0.2, # Kris Taimre
     0.2, # Kiara Keiti Tepp
     0, # Birgit Tori
@@ -2449,7 +2508,7 @@ tasks_of_electric_current <- data.frame(
     0.5, # Marken Parve
     0.5, # Kristofer-Robin Plamus
     0, # 14. Saar, Carl-Joonas
-    0, # 15. Schulzendorff, Katharina Helene
+    0.1, # 15. Schulzendorff, Katharina Helene
     0.5, # Kris Taimre
     0, # Kiara Keiti Tepp
     0, # Birgit Tori
@@ -2490,7 +2549,7 @@ tasks_of_electric_current <- data.frame(
     1.8 * 0.75, # Marken Parve
     1.8 * 0.75, # Kristofer-Robin Plamus
     (.16 * 2 + .08 + .04 + .618) * 0.75, # 14. Saar, Carl-Joonas
-    0.24, # 15. Schulzendorff, Katharina Helene
+    .69, # 15. Schulzendorff, Katharina Helene, enne .24
     1.8 * 0.75, # Kris Taimre
     (.16 + .16 + .136 + .01000000000000014) * .75, # Kiara Keiti Tepp
     (.16 * 2 + .08 + .04 + .618) * 0.75, # Birgit Tori

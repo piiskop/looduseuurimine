@@ -1805,8 +1805,7 @@ leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_page
 Teepikkus
 ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
 liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
-vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
-kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+vektoriaalsed suurused (3-6).
 
 Põhimõisted:
 
@@ -1859,8 +1858,7 @@ leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_page
 Teepikkus
 ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
 liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
-vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
-kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+vektoriaalsed suurused (3-6).
 
 Põhimõisted:
 
@@ -1882,13 +1880,61 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-1. Daniil saab võrrandite seitsmenda D-taseme ülesanded lahendada.
+1. Daniil sai võrrandite seitsmenda D-taseme ülesanded lahendada.
 
-6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded alates seitsmendast[@a1dkinpacketpdf(lk 25-26)].
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendasime *Motion Problems*i variatsiooniülesanded alates seitsmendast kuni kaheksandani[@a1dkinpacketpdf(lk 25-26)]. Oli vaja meelde tuletada vahemaa üldvalem. See polnud lahendajal isegi konspektis, ühel muul õpilasel oli. Samuti näitasin, kuidas täisnurkne kolmnurk on pool ristkülikut, sest pindala valem oli ununenud.
 
-7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+### 2023-11-30
 
-8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+vaba
+langemine (2-7)
+: kehade kukkumine, kus õhutakistus puudub või on väike[@ebook]
+
+Kava:
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendasime *Motion Problems*i variatsiooniülesanded alates üheksandast[@a1dkinpacketpdf(lk 25-26)].
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Tegime läbi näiteni 2-16.
 
 ### 2023-11-30
 
@@ -1934,65 +1980,111 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded alates seitsmendast[@a1dkinpacketpdf(lk 25-26)].
-
-7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
-
-8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
-
-### 2023-11-30
-
-Kontaktsessiooni lõpus õpilane
-
-7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
-aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
-
-8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
-mõõtmise või määramise viise (2-2, 2-3);
-
-9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
-sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
-
-11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
-leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
-
-Õppesisu:
-
-Teepikkus
-ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
-liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
-vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
-kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
-
-Põhimõisted:
-
-teepikkus
-: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
-
-nihe
-: sihitise asukoha muutus[@physics, lk 22]
-(2-1)
-
-keskmine kiirus
-: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
-
-hetkkiirus
-: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
-
-kiirendus (2: 4, 5, 8)
-: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
-
-Kava:
-
-6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendame *Motion Problems*i variatsiooniülesanded alates seitsmendast[@a1dkinpacketpdf(lk 25-26)].
-
-7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Jõudsime teha läbi näite 2-21. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
 
 8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
 
 ### 2023-12-05
 
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Alustasime näitest 2-22. Jõudsime peatüki 2-7 lõpuni. Probleem tekkis, kui proovisime vahepeal uuesti arvutada aega, mis kuluks palli üles jõudmiseks, tehes seda ümardatud vahetulemusega.
+
+### 2023-12-05
+
 Kell 10:15 algab hindeline kinemaatikatest [väljaspool kooli territooriumi](#test-outside), mis sisaldab ka üht füüsika meetodi ülesannet juhuks, kui soovid oma füüsika meetodi testi tulemust parandada. Palun ole koolimaja ees valmis juba varem, sest siis saad minult testisessiooni koodi ja kui aeg on 10:15, on sul aega \qty{45}{\minute}, et läbida rada ja lahendada ülesanded.
+
+### 2023-12-07
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Näitan, mis meil viga oli, kui me saime ruutjuure alla negatiivse arvu arvutades palli üles jõudmise aega. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+
+### 2023-12-07
+
+Uus teadmiste-oskuste kontroll kinemaatika teemas. Seekord sisetingimustes.
 
 ## Kohila Gümnaasiumi Kalender
 
@@ -2699,6 +2791,8 @@ Kava:
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
  *10b*: Lahendasime Exercise Préparatoires'st ülesannetest viienda. 
 
+\onecolumn
+
 ### 2023-11-27
 
 Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
@@ -2717,11 +2811,73 @@ Kava:
 
 0. *10b*: Histogramm[@mtmised(lk 21-22)].
 
-1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf].
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletasin teise reeglini lk 4.
+
+6.  Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+@a12(lk 28-29) oleva näitega 1.2.5 jätkasime näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. 1.2.5 ja 1.2.6 lahendasime, viimases ilmselt tegin vea (joonis \@ref(fig:physics-method-uncertainty-1-2-6) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-1-2-6")`). 
+
+    ```{r label="physics-method-uncertainty-1-2-6", echo=FALSE, fig.cap="Mõõtemääramatuse valemi tuletamine üldreegli järgi. Kus on viga?"}
+    include_external_graphics(path="rmd/sissejuhatus-kulgliikumise-kinemaatika/1.2.6-IMG_20231127_092822.jpg")
+    
+    ```
+
+\twocolumn
+
+### 2023-12-1
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletame mõõtemääramatuse üldise valemi alustades leheküljelt 6.
+
+2. *10b*: Binoomtõenäosus[@mtmised(lk 23-24)].
+
+6.  Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+@a12(lk 30-31) oleva näitega 1.2.6 jätkasime näidates, kus tegin vea (joonis \@ref(fig:physics-method-uncertainty-1-2-6) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-1-2-6")`).
+Edasi jätkasime variatsiooniülesannetega 1.2.9[@a12(lk 32-33)]. Lahendasime variatsiooniülesannetest esimesed kaks.
+ *10b*: Lahendasime Exercise Préparatoires'st ülesanded 6-7. 8. jõudsime peaaegu lõppfunktsioonini, milles ühel pool kümme astmes pH, teisel pool vesinikiooni pöördväärtus (joonis \@ref(fig:physics-method-uncertainty-pH) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-pH")`).
+
+    ```{r label="physics-method-uncertainty-pH", echo=FALSE, fig.cap="Molaarsuse avaldamine pH kaudu."}
+    include_external_graphics(path="rmd/sissejuhatus-kulgliikumise-kinemaatika/8-IMG_20231201_101926.jpg")
+    
+    ```
+
+\onecolumn
+
+### 2023-12-4
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. *10b*: Arvuline näide: valemid 17, 18, 23, 4, 24. Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletame mõõtemääramatuse üldise valemi alustades leheküljelt 6 ja kasutame lõppvalemi puhul arvulist näidet.
+
+2. *10b*: Binoomtõenäosus, binoomjaotus, Poisson' jaotus[@mtmised(lk 23-25)].
 
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
-@a12(lk 28-29) oleva näitega 1.2.5 jätkame näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. Edasi jätkame variatsiooniülesannetega 1.2.9[@a12(lk 32-33)].
- *10b*: Lahendame Exercise Préparatoires'st ülesanded 6-8. 
+Jätkame variatsiooniülesannetega 1.2.9[@a12(lk 32-33)]. Lahendame alates kolmandast ülesandest.
+ *10b*: Lahendame Exercise Préparatoires'st ülesande 8 lõpuni (joonis \@ref(fig:physics-method-uncertainty-pH) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-pH")`).
 
 7. Toores hinnang[@physics, lk 11-13].
 
@@ -2735,13 +2891,15 @@ Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva al
 
 Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
 
+\twocolumn
+
 []{#problems}
 
 ## Ülesanded
 
-### Sissejuhatus, mõõtmine, hindamine
+### Mõõtmine
 
-#### Mõõtmine, määramatus, olulised numbrid[@physics(lk 16)]
+#### Olulised numbrid[@physics(lk 16)]
 
 1. Mitu olulist numbrit on igal järgmistel numbritel:
  - \num{777},
@@ -3125,6 +3283,8 @@ print_table(
 
 #### Lihtsad arvutusülesanded
 
+##### Illustreerimata
+
 Tabelis \@ref(tab:test-physics-method-analytics-at-beginner-level) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-at-beginner-level")` on lihtsaimad ülesanded.
 
 ```{r label = "test-physics-method-analytics-at-beginner-level", echo=FALSE}
@@ -3183,6 +3343,21 @@ print_table(
   column_spec(2, width = "32em") 
 
 ```
+
+\newpage
+
+##### Illustreeritud
+
+Aia juures olevale sildile on märgitud üks määr kõige alumisse ritta (joonis \@ref(fig:physics-method-test-parking-tariff) leheküljel `r render_pageref(reference="fig:physics-method-test-parking-tariff")`). Mitu tüvenumbrit on selle määra arvulises väärtuses? Ümardan selle arvu ühe tüvenumbrini. Seejärel teisendan tulemuse määraks Le Système'i international d'unités põhiajaühiku kohta. Ümardan tulemuse taas ühe tüvenumbri täpsuseni.
+
+```{r label="physics-method-test-parking-tariff", echo=FALSE, fig.cap="Kui palju maksab parkimine?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/3-aia-juures-IMG_20231012_152807-miniatuurne.jpg")
+
+```
+
+Määr sildil on \blank{\num{0,025}} \blank{€} / \blank{\unit{\minute}}.
+Ümardatuna ühe tüvenumbri täpsuseni on see ilma eesliiteta \blank{\num{0,02}} \blank{€} / \unit{\minute} ehk mikroeesliitega \blank{\num{20000}} \blank{μ€} / \unit{\minute}.
+Konverteerituna määraks SI põhiajaühiku kohta on see ühe tüvenumbri täpsusega ilma eesliiteta \blank{\num{0,0003}} \blank{€} / \blank{\unit{\s}} ehk \blank{\num{3}} $\times$ \blank{\num{10}}$^{-4}$ \blank{€} / \blank{\unit{\s}}.
 
 #### Keskmise raskusastmega arvutusülesanded
 
@@ -3251,7 +3426,7 @@ print_table(
 
 #### Struktuur
 
-0. Olen... ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev...
+0. Olen... ja asun lahendama ülesandeid teemal *Füüsika meetod*. Täna on kuupäev...
 
 1. Kirjutan ülesande tunnuse. Selgitan mõiste. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
 
@@ -3271,6 +3446,14 @@ print_table(
   
   - lahend täislausega.
 
+#### Vihjed
+
+Tüvenumbrid on kõik nullist erinevad numbrid ja nullid, välja arvatud nullist erinevate numbrite vahel ja enne neid.
+
+Mikro- tähendab miljondikku.
+
+SI põhiajaühik tuleneb ingliskeelsest väljendist, mis tähendab "teine väike".
+
 #### Tulemused
 
 ```{r label = "test-physics-method-results", echo=FALSE}
@@ -3289,7 +3472,7 @@ tasks_of_physics_method<- data.frame(
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0.42 # Volkova, Jeva
+    0 # Volkova, Jeva
   ),
   c( # 2
     0, # 1. Babiy, Alisa
@@ -3304,7 +3487,7 @@ tasks_of_physics_method<- data.frame(
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0.42 # Volkova, Jeva
+    0 # Volkova, Jeva
   ),
   c( # 3
     0, # 1. Babiy, Alisa
@@ -3319,7 +3502,7 @@ tasks_of_physics_method<- data.frame(
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0.42 # Volkova, Jeva
+    0 # Volkova, Jeva
   ),
   c( # 4
     0, # 1. Babiy, Alisa
@@ -3334,7 +3517,7 @@ tasks_of_physics_method<- data.frame(
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0.42 # Volkova, Jeva
+    0 # Volkova, Jeva
   ),
   c( # 5
     0, # 1. Babiy, Alisa
@@ -3349,7 +3532,7 @@ tasks_of_physics_method<- data.frame(
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0.42 # Volkova, Jeva
+    0 # Volkova, Jeva
   )
 )
 
@@ -3387,7 +3570,7 @@ tasks_of_physics_method<- data.frame(
   c( # 3
     0,
     0,
-    0.13, # Stansilavs
+    0, # Stansilavs, enne 0.13
     0.35, # Kustov, Vladimir
     0,
     0,
@@ -3432,6 +3615,307 @@ tasks_of_physics_method<- data.frame(
 )
 
 # build_table_with_grades(tasks = tasks_of_physics_method, names = names_10, caption = "Füüsika meetodi")
+
+```
+
+\twocolumn
+
+### Kinemaatika
+
+#### Juhend
+
+Lahendan kõik ülesanded. Arvutusülesannete puhul kasutan ülesande lahendamise struktuuri: joonis, sisend(id), väljund(id), arutelu, arvutamine, täislauseline lahend.
+
+#### Ülesanded
+
+##### Õige ja vale
+
+Märgistan iga vale väite:
+
+\begin{itemize}
+	\item[\faSquareO] Punktmass on keha mudel, mille korral keha massi vaadeldakse koondununa ühte punkti.
+	\item[\faSquareO] Taustsüsteem on taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem.
+	\item[\faSquareO] Kinemaatikas uuritakse, kuidas liikumine toimub.
+	\item[\faSquareO] Kinemaatikas uuritakse, miks liikumine toimub.
+	\item[\faSquareO] Skalaarsel suurusel on nii arvuline väärtus kui ruumiline suund.
+	\item[\faSquareO] Vektoriaalsel suurusel on nii arvuline väärtus kui ruumiline suund.
+\end{itemize}
+
+\newpage
+
+##### Valemi selgitamine
+
+Keskmist kiirendust saab arvutada kiiruste ja ajahetkede vahede kaudu järgnevalt:
+$$\bar{A} = \frac{B - F}{I - J},$$
+milles
+
+$A$
+: \blank{kiirendus}, mille üldine tähistus on \blank{$a$} ja mille lihtsaim ühik on $\unit{\m\per\s}$
+
+$B$
+: \blank{lõppkiirus}, mille üldine tähistus on \blank{$v$} ja mille lihtsaim ühik on $\unit{\blank{\m}\per\s}$
+
+$F$
+: \blank{algkiirus}, mille üldine tähistus on $v_0$ ja mille lihtsaim ühik on $\unit{\blank{\m}\per\s}$
+
+$I$
+: \blank{lõpphetk}, mille üldine tähistus on \blank{t} ja mille lihtsaim ühik on \blank{\unit{\s}}
+
+$J$
+: \blank{alghetk}, mille üldine tähistus on $t_0$ ja mille lihtsaim ühik on \blank{\unit{\s}}.
+
+\newpage
+
+##### Valgus
+
+Kui kaua võtab aega, et seistes tõkkepuu juures näeksid sa tegevust peatumiskeelu ala vastasotsas (joonis \@ref(fig:kinematics-test-light) leheküljel `r render_pageref(reference="fig:kinematics-test-light")`)?
+
+```{r label="kinematics-test-light", echo=FALSE, fig.cap="Kui pikk on vahemaa tõkkepuust peatumiskeelu ala lõpuni?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/3-valgus-parklas-IMG_20231012_153511.jpg")
+
+
+```
+
+\begin{itemize}
+	\item[\faSquareO] \qty{0,1}{\milli\s}.
+	\item[\faSquareO] \qty{0,1}{\micro\s}.
+	\item[\faSquareO] \qty{0,0000001}{\s}.
+	\item[\faSquareO] \num{0,1} millimeetrit.
+	\item[\faSquareO] Kümnendik mikrosekundit.
+	\item[\faSquareO] \qty{70}{\nano\s}.
+	\item[\faSquareO] \qty{0,00000007}{\s}.
+\end{itemize}
+
+\onecolumn
+
+##### Kukkuv laetükk
+
+Oletagem, et kangialuse laest murdub pauguga lahti tükk betooni (joonis \@ref(fig:kinematics-test-ceiling) leheküljel `r render_pageref(reference="fig:kinematics-test-ceiling")`)! Kui kaugel meetrites sellest kangialusest linnulennult on kuulda seda pauku just hetkes, kui see betoonitükk puutub kokku kangialuse teepinnaga? Heli kiirus kuivas õhus vahemikus $260 \mathrm{K}$ kuni $280 \mathrm{K}$ on $330 \mathrm{\frac{m}{s}}$.
+
+```{r label="kinematics-test-ceiling", echo=FALSE, fig.cap="Kui kõrgel on lagi?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/4-kukkuv-laetükk-IMG_20231012_152647.jpg")
+
+
+```
+
+Millised andmed on meile ülesande lahendamiseks teada?
+
+Sisendid:
+$$h=\blank{\qty{3,8}{\m}}.$$
+$$\blank{g}= \blank{9,8} \unit{\m\per\s\squared}.$$
+$$v_\text{s}=\qty{3,3e2}{\m\per\s}.$$
+
+Märgi muutujana üles, mida tahetakse teada!
+
+Väljund:
+$$\blank{x} = ...$$
+
+\newpage
+
+Palun pane kokku lõplik valem.
+
+Arutelu:
+Tüki kukkumise kestus:
+$$\blank{t} = \sqrt{\frac{2 \cdot h}{g}}.$$
+Kaugus kangialusest:
+$$\blank{x} = v_\text{s} \cdot \blank{t} = \blank{v}_\text{s} \cdot \sqrt{\frac{2 \cdot h}{g}}.$$
+
+Palun märgi üles, kuidas arvutad ja lõpplahendini jõuad.
+
+Arvutamise esitan avaldisena \@ref(eq:kinematics-test-falling-calculation) leheküljel `r render_pageref(reference="eq:kinematics-test-falling-calculation")`.
+\begin{align}
+\blank{x}\\
+&= (\blank{\num{3,3}} \times \num{10}^2 \unit{\m\per\s}) \times (\blank{\num{2}} \times (\blank{\num{3,8}}\unit{\m}) / (\qty{9,8}{\m\per\s\squared}))^\frac{1}{2}\\
+&= \blank{\num{2,9}} \times \blank{\num{10}}^2 \unit{\blank{\m}}.
+(\#eq:kinematics-test-falling-calculation)
+\end{align}
+
+Palun kirjuta täislauseline vastus ülesande püstitusele.
+
+Lahend:
+\blank{\num{290}}\blank{\unit{\m}} kaugusel linnulennult kangialusest on kuulda betoontüki lahtimurdumise hetke pauku samaaegselt betoontüki esmase kokkupuute hetkega teekattega.
+
+\twocolumn
+
+##### Kiirustaja
+
+Aia külge on märgitud peatumise keelu ala pikkusi (joonis \@ref(fig:kinematics-test-runner) leheküljel `r render_pageref(reference="fig:kinematics-test-runner")`). Oletagem, et selle peatumisaja ühes otsas ootab õpilane! Peagi möödub temast ühtlase kiirusega $18 \mathrm{\frac{km}{h}}$ joostes õpetaja liikudes peatumisala keelu sisse. Õpilane alustab jooksmist, jookseb ühtlase kiirendusega ja jõuab õpetajale järele just peatumisala keelu teises otsas. Millise kiirendusega õpilane jookseb õpetajale järele? Millise ajavahemiku järel jõuab õpilane õpetajani? Milline on õpilase kiirus õpetajaga teise kohtumise hetkes?
+
+```{r label="kinematics-test-runner", echo=FALSE, fig.cap="Kui pikk on vahemaa, jõudmaks kiirustajale järele?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/5-kiirustaja-IMG_20231012_153629.jpg")
+
+
+```
+
+\newpage
+
+Õpilane jooksis kiirendusega \blank{\num{3,3}}\unit{\m\per\s\squared} jõudes õpetajale järele \blank{\num{3,0}}{\blank{\unit{\s}}} pärast ning järelejõudmise hetkes oli õpilase kiirus \blank{\num{1,0}} $\times$ \blank{\num{10}} $\mathrm{\frac{m}{s}}$.
+
+#### Metateave
+
+Olen \blank{Šerstobitov, Mihhail} ja täna on 2023-12-07.
+
+\newpage
+
+#### Vihjed
+
+##### Õige ja vale
+
+1. Milline erinevus on kinemaatikal ja dünaamikal?
+
+2. Mille poolest erinevad lõik ja vektor?
+
+##### Valemi selgitamine
+
+Kiirendus on inglise keeles "acceleration", kiirus "velocity", aeg "time".
+
+Keskmine kiirendus tähendab kiiruse muutu ajas.
+
+Aja ühik on üks seitsmest SI põhiühikust ja see tähendab teist järku väikest osa.
+
+##### Valgus
+
+Ühtlaselt muutuva liikumise üldvalem on $x = x_0 + v_0 \cdot t + \frac{a_0 \cdot t^2}{2}$, milles $x$ on lõpppositsioon, $x_0$ on algpositsioon, $v_0$ on algkiirus, $t$ on ajavahemik ja $a_0$ on kiirendus.
+
+Peatumisala keelu pikkuse saad lugeda liiklusmärgilt.
+
+Valguse kiirus vaakumis on $299 792 458 \mathrm{\frac{m}{s}}$.
+
+##### Kukkuv laetükk
+
+Ühtlaselt muutuva liikumise üldvalem on $x = x_0 + v_0 \cdot t + \frac{a_0 \cdot t^2}{2}$, milles $x$ on lõpppositsioon, $x_0$ on algpositsioon, $v_0$ on algkiirus, $t$ on ajavahemik ja $a_0$ on kiirendus.
+
+Kangialuse kõrguse võid mõõta, hinnata või lugeda liiklusmärgilt.
+
+Lõppvastuses arvesta, mitme tüvenumbri täpsusega selle kirjutama pead!
+
+Kõrguse võid välja mõõta, hinnata või lugeda liiklusmärgilt.
+
+Gravitatsiooni tekitatud kiirendus on Maa pinnal meie asukohas $9,8 \mathrm{\frac{m}{s^2}}$.
+
+Kiirendust tähistatakse üldiselt inglise keelest pärit sõnade esitähtedega. Kiirendus on inglise keeles "acceleration". Gravitatsioonist tingitud kiirenduse tähistus pärineb sõnast "gravitation".
+
+Kaugust tähistatakse tavaliselt telje järgi või sõnade "spatium", "radius", "distance" esitähega.
+
+Pikkusdimensioonide telgede tähistused on tavaliselt $x$, $y$ ja $z$.
+
+Aega tähistatakse tavaliselt sõna "time" esitähega.
+
+Ühtlaselt muutuva liikumise üldvalem on $x = x_0 + v_0 \cdot t + \frac{a_0 \cdot t^2}{2}$, milles $x$ on lõpppositsioon, $x_0$ on algpositsioon, $v_0$ on algkiirus, $t$ on ajavahemik ja $a_0$ on kiirendus.
+
+Vaata eelnevatest osadest järele, kuidas sa tähistasid!
+
+Kasuta neidsamu muutujaid ja väärtusi, mida siiani oled kasutanud!
+
+Ümarda lahend õige tüvenumbrite arvuni!
+
+Lahendisse tuleb kirjutada see väärtus, mis sai arvutuskäigus välja arvutatud.
+
+Väärtus koosneb arvulisest väärtusest ja ühikust.
+
+##### Kiirustaja
+
+Kuna nii õpilane kui õpetaja läbivad ühesuguse vahemaa, siis saame ühtlaselt muutuva sirgjoonelise liikumise üldvalemist kummagi inimese lõpppositsioonid panna võrduma:
+$$v_{0; õpetaja} \cdot t = \frac{a_\text{0; õpilane} \cdot t^2}{2}.$$
+$$v_\text{0; õpetaja} = \frac{a_\text{0; õpilane} \cdot t}{2}.$$
+Õpilase lõppkiiruse saame valemist:
+$$v_\mathrm{õpilane} = a_{0; \mathrm{õpilane}} \cdot t.$$
+
+Asendan kiirenduse ja aja korrutise vahemaade võrdusse:
+$$v_\text{0; õpetaja} = \frac{v_\mathrm{õpilane}}{2}.$$
+
+Asendan kiirenduse ja aja korrutise vahemaade võrdusse:
+$$v_\text{0; õpetaja} = \frac{v_\mathrm{õpilane}}{2}.$$
+Avaldan viimasest võrrandist õpilase lõppkiiruse:
+$$v_\mathrm{õpilane} = 2 \cdot v_\text{0; õpetaja}.$$
+Kui õpilase lõppkiirus on arvutatud, saan arvutada õpilase kiirenduse:
+$$a_\text{0; õpilane} = \frac{v_\mathrm{õpilane}^2}{2 \cdot x}.$$
+
+\onecolumn
+
+#### Tulemused
+
+```{r label="kinematics-results", echo=FALSE}
+
+tasks_of_kinematics <- data.frame(
+  c( # 1
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # 2
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # 3
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # 4
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0.75*(.16+.16+.136), # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0.75 * (.16 + .16 + .112), # Malõšev, Polina
+    0.75 * (.16 + .16 + .112), # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0.75 * .16, # 9. Žukova, Darja
+    0.75 * (.16 + .16 + .112), # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0.75 * .16, # 12. Volkova, Darja
+    0.75 * .16 # Volkova, Jeva
+  ),
+  c( # 5
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
+
+ build_table_with_grades(tasks = tasks_of_kinematics, names = names_10, caption = "Kinemaatika")
 
 ```
 

@@ -370,24 +370,33 @@ Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-5
 
 ### 2023-11-24
 
+**Elastsuslained**:
+
+4. Heli allikad:
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Näitasin näite 16-8 lahenduskäigu. Jõudsime keelpillide lõpuni.
+*12b*: Lahendasime näite 16-11. Jõudsime peatüki 16-5 lõppu.
+
+### 2023-12-1
+
 *12a*: Gert Kevin näitab konspekti ette.
 
 **Elastsuslained**:
 
 4. Heli allikad:
-Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Näitan näite 16-8 lahenduskäigu. 
-*12b*: Lahendame ülesanded 29 ja 33[@physics(lk 487)]. Lahendame näite 16-11.
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Alustame puhkpillidega.
+*12b*: Lahendame ülesanded 29 ja 33[@physics(lk 487)].
 5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473]. Ei tegele siit edasi, vaid jätkame järgmise mooduliga, kuna maht täis.
 6. Helilainete häired ja löögid[@physics(lk 473-476)].
 7. *Heli intensiivsuse ja interferentsist*[@labor2pdf] iseseisva eksperimendi selgitamine.
 
 **Optilised seadmed**:
 
-0. Digitaalne, kahendarvud, signaali pinge[@physics(lk 676-679)].
-1. Teabe säilitamine:
+0. Digitaalne, kahendarvud, signaali pinge[@physics(lk 676-679)]. *12b*: alustame.
+1. Televisioon ja arvutikuvarid[@physics(lk 679-682)].
+2. Teabe säilitamine:
 Magnet ja pooljuht[@physics(lk 856-858)].
-2. Valguse kiiremudel[@physics(lk 927)].
-3. Täielik sisepeegeldus, fiiberoptika[@physics(943-945)].
+3. Valguse kiiremudel[@physics(lk 927)].
+4. Täielik sisepeegeldus, fiiberoptika[@physics(943-945)].
 
 ## Ülesanded
 
@@ -471,10 +480,10 @@ koguda, et tekitada tavavestluse heli võimsus \qty{60}{\watt}?
 
 33\. Pingule kitarrikeele kolmanda ülemheli on sagedus \qty{540}{\Hz}. Milline on selle põhisagedus, kui seda keelt sõrmitsetakse niimoodi, et selle pikkus on 70% selle algset pikkust, kui see keel helisema pannakse (joonis \@ref(fig:physics-and-engineering-tasks-sources-of-sound-33-rando) leheküljel `r render_pageref(reference="fig:physics-and-engineering-tasks-sources-of-sound-33-rando")`)?
 
-    ```{r label="physics-and-engineering-tasks-sources-of-sound-33-rando", echo=FALSE, fig.cap="Kuidas aidata õpilasel lahendada kitarriülesannet?"}
-    include_external_graphics(path="rmd/33-rando.jpg")
-    
-    ```
+```{r label="physics-and-engineering-tasks-sources-of-sound-33-rando", echo=FALSE, fig.cap="Kuidas aidata õpilasel lahendada kitarriülesannet?"}
+include_external_graphics(path="rmd/33-rando.jpg")
+
+```
 
 35\. Määrake lahtise orelitoru pikkus, mis kiirgab keskmist C'd (\qty{262}{Hz}), kui temperatuur on \qty{18}{degreeCelsius}.
 Millised on torus oleva põhiseisulaine lainepikkus ja sagedus? Millised on *l* ja *f* välisõhus tekitatavas liikuvas helilaines?
@@ -510,3 +519,11 @@ Tähe A kood on \num{00100001}_2 ja järgmised tähed on vaid järgmised kahenda
 71. Analoogpinge signaal võib varieeruda vahemikus \qty{0}{\volt} kuni \qty{5,00}{\volt} ja see tuleb teisendada \num{8}-\unit{bit} binaarseks esituseks.
  - Milline pinge täpsusega \qty{0,01}{V} oleks tähistatud binaarse esitusega \num{01110101}?
  - Milline kahendarv esindaks kõige paremini \qty{3,47}{\volt}?
+
+### Televisioon ja arvutikuvarid[@physics(lk 688-689)]
+
+73. Joonisel 23-30[@physics(lk 680)] oleva halltooniga pildi jaoks kirjutage kahendarvude rida, mis annab pildi üheteistkümnenda rea. Võtke 000 valgena ja 100 mustana. Vastuse hõlpsamaks lugemiseks eraldage iga arv semikooloniga.
+
+75. Arvutage bitimäär, mida on vaja HD-teleri ekraani kõikide 6 miljoni alampiksli ($\num{3} \times \num{1080} px \times \num{1920}$) käsitlemiseks (värskendussagedusega \num{60} kaadrit sekundis).
+Võrrelge tänapäevase digitaalse fikseeritud määraga $\num{19} \mathrm{\frac{Mb}{s}}$ ja selgitage erinevust. Mitu protsenti pikslitest keskmiselt iga kaadri kohta värskendatakse (värskendatakse sagedusega \qty{60}{\Hz})?
+Kui iga kaadri jaoks oleks vaja adresseerida iga pikslit, siis mitu täielikku ekraani skaneerimist saaks teha sekundis kiirusel $\num{19} \mathrm{\frac{Mb}{s}}$?

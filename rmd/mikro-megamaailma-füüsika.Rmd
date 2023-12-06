@@ -540,9 +540,17 @@ Kava:
 
 8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustasime näitest 13-10. Tegime läbi näite 13-10. Seejärel tegin eksperimendi Archimedese ämbriga ja arvutamisega kontrollisime.
 
+### 2023-11-27
+
+Kava:
+
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: Lahendasime viimati kodustest 11.
+
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustasime näite 13-10 järgsest palgiujutamisest. Lahendasime 13-11.
+
 \onecolumn
 
-### 2023-11-27
+### 2023-12-4
 
 Kava:
 
@@ -555,11 +563,11 @@ Kava:
     
     ```
 
-5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: alustame näitest 13-7.
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: Lahendame kodused ülesanded 13 ja 23. Õpikust alustame näitest 13-7. 
 
 6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
-8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustame näite 13-10 järgsest palgiujutamisest.
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustame ülesandest C.
 
 \twocolumn
 

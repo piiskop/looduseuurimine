@@ -2075,7 +2075,7 @@ caliper_data_frame = data.frame(caliper)
 
 ```
 
-Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:confidence-interval) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty-of-type-A")`.
+Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:measurement-uncertainty-of-type-A) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty-of-type-A")`.
 
 Selleks tuleb esmalt arvutada aritmeetiline keskmine. Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:caliper-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
 
