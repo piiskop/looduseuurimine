@@ -256,6 +256,7 @@ Keskkonna takistusjõud (5-6)[@looduseuurimine; @physics, lk 135]. *12a*'ga jät
 2. Heliintensiivus, detsibellid (16-3)[@physics, lk 464-467]. *12b*'ga alustasime. Jõudsime näiteni *16-5*, mida ei käsitlenud.
 
 *12b* iseseisvaks lahendamiseks enne järgmist kontaktsessiooni: @physics, lk 486 lahendada ülesanded *7*, *8* ja *9*! 
+
 ### 2023-10-6
 
 **Elastsuslained**
@@ -376,22 +377,35 @@ Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-5
 Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Näitasin näite 16-8 lahenduskäigu. Jõudsime keelpillide lõpuni.
 *12b*: Lahendasime näite 16-11. Jõudsime peatüki 16-5 lõppu.
 
-### 2023-12-1
+### 2023-12-7
 
 *12a*: Gert Kevin näitab konspekti ette.
 
 **Elastsuslained**:
 
 4. Heli allikad:
-Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Alustame puhkpillidega.
-*12b*: Lahendame ülesanded 29 ja 33[@physics(lk 487)].
-5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473]. Ei tegele siit edasi, vaid jätkame järgmise mooduliga, kuna maht täis.
+Vibreerivad keeled ja õhusambad[@physics, lk 467-472; @haynes_2014_crc, lk 14-50]. *12a*: Alustasime puhkpillidega. Jõudsime helimooduli lõppu.
+*12b*: Lahendasime ülesanded 29 ja 33[@physics(lk 487)]. Lõpetasime kahe ülesande lahendamisega akustika teema.
+5. Heli kvaliteet ja müra, superpositsioon[@physics, lk 472-473]. Ei tegelenud siit edasi, kuna maht täis.
 6. Helilainete häired ja löögid[@physics(lk 473-476)].
 7. *Heli intensiivsuse ja interferentsist*[@labor2pdf] iseseisva eksperimendi selgitamine.
 
+### 2023-12-15
+
+*12a*: Alik näitab konspekti ette.
+
+**Aero- ja hüdrodünaamika**
+
+1. Liikuvad vedelikud; voolukiirus ja järjepidevuse võrrand[@physics(lk 378-380)].
+
+2. Bernoulli võrrand[@physics(lk 380-382)].
+
+3. Bernoulli põhimõtte rakendused:
+Torricelli, lennukid, pesapallid, verevool[@physics(lk 382-385)].
+
 **Optilised seadmed**:
 
-0. Digitaalne, kahendarvud, signaali pinge[@physics(lk 676-679)]. *12b*: alustame.
+0. Digitaalne, kahendarvud, signaali pinge[@physics(lk 676-679)].
 1. Televisioon ja arvutikuvarid[@physics(lk 679-682)].
 2. Teabe säilitamine:
 Magnet ja pooljuht[@physics(lk 856-858)].
@@ -485,7 +499,7 @@ include_external_graphics(path="rmd/33-rando.jpg")
 
 ```
 
-35\. Määrake lahtise orelitoru pikkus, mis kiirgab keskmist C'd (\qty{262}{Hz}), kui temperatuur on \qty{18}{degreeCelsius}.
+35\. Määrake lahtise orelitoru pikkus, mis kiirgab keskmist C'd (\qty{262}{Hz}), kui temperatuur on \qty{18}{ \degreeCelsius}.
 Millised on torus oleva põhiseisulaine lainepikkus ja sagedus? Millised on *l* ja *f* välisõhus tekitatavas liikuvas helilaines?
 
 37\. Orel on hääles \qty{24}{\degreeCelsius} juures. Mitme protsendi võrra kaob sagedus \qty{11}{\degreeCelsius} juures?

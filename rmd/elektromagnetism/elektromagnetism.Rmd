@@ -71,7 +71,12 @@ elektrivälja tugevus
 voolutugevus (25.2)
 : igasugune laenguvool[@physics, lk 720]
 
-potentsiaal (23), pinge (21.1), elektronvolt (23.8), jõujoon (21.8), kondensaator (24.1), püsimagnet (27.1), magnetväli (27.1), magnetinduktsioon (29.1-29.3),
+potentsiaal (23), pinge (21.1), elektronvolt (23.8),
+
+jõujoon (21.8)
+: elektrivälja joon on joon, mis näitab positiivsel katselaengul antud väljast tuleneva jõu suunda[@physics(lk 626)]
+
+kondensaator (24.1), püsimagnet (27.1), magnetväli (27.1), magnetinduktsioon (29.1-29.3),
 Lorentzi jõud (27.4), pööriselektriväli (29.1), induktsiooni elektromotoorjõud (29.1), magnetvoog (29.7), endainduktsioon (30.2)
 
 ### Praktiline tegevus
@@ -824,7 +829,40 @@ Mõlemad: Lahendame @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.16-14
 
 3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)]. *11a*: Vaja eriliselt selgelt selgitada laengu jagamist ülipisikesteks laenguteks.
 
+\onecolumn
+
 ### 2023-12-4
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+Õppesisu:
+
+Väljatugevus (21.6).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+   *11a*: Lahendasime üheksanda variatsiooniülesande. Lahendasime @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.16, 14.17, 14.23.
+ *11b*: Variatsiooniülesannetest lahendasime kaheksanda viimase, ja üheksanda, välja arvatud viimased kolm rida, mille jätsin iseseisvaks nuputamiseks (joonis \@ref(fig:electromagnetism-electric-field-9) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-9")`).
+    
+    ```{r label="electromagnetism-electric-field-9", echo=FALSE, fig.cap="Elektrivälja tugevuse valemid ja variatsioonid."}
+    include_external_graphics(path="rmd/elektromagnetism/9-elektrivälja-tugevus-IMG_20231204_111406.jpg")
+    
+    ```
+
+\twocolumn
+
+### 2023-12-8
 
 Kursuse lõpus õpilane:
 
@@ -848,11 +886,80 @@ elektrivälja tugevus
 Kava:
 
 2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
-   *11a*: Lahendame üheksanda variatsiooniülesande.
- *11b*: Variatsiooniülesannetest lahendame kaheksanda viimase, ja üheksanda.
-Mõlemad: Lahendame @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.16, 14.17, 14.23, 14.25-14.29.
+   *11a*: Lahendasime @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.25-14.26. 14.29.
+ *11b*: Variatsiooniülesannetest lahendasime üheksanda viimased kolm rida, mille jätsin iseseisvaks nuputamiseks (joonis \@ref(fig:electromagnetism-electric-field-9) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-9")`). Lahendasime @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.16, 14.17, 14.23., 14.25-14.29.
 
-3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)]. *11a*: Vaja eriliselt selgelt selgitada laengu jagamist ülipisikesteks laenguteks.
+### 2023-12-11
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6). Välja
+visualiseerimine, välja jõujooned (21.8). Väljade liitumine, superpositsiooni printsiip (21.11). Homogeenne elektriväli kahe
+erinimeliselt laetud plaadi vahel, kondensaator (24.1, 24.3).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+jõujoon (21.8)
+: elektrivälja joon on joon, mis näitab positiivsel katselaengul antud väljast tuleneva jõu suunda[@physics(lk 626)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+   *11a*: Õpilasi polnud.
+ *11b*: Lahendasime @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.25-14.26.
+
+### 2023-12-15
+
+Kursuse lõpus õpilane:
+
+3. seostab elektrostaatilise välja laetud keha olemasoluga, rakendades valemit \@ref(eq:electric-field-strength) leheküljel `r render_pageref(reference = "eq:electric-field-strength")` (21.6);
+
+6. rakendab superpositsiooni printsiipi
+elektrostaatilise välja E-vektori konstrueerimisel etteantud punktis (21.6).
+
+Õppesisu:
+
+Väljatugevus (21.6). Välja
+visualiseerimine, välja jõujooned (21.8). Väljade liitumine, superpositsiooni printsiip (21.11). Homogeenne elektriväli kahe
+erinimeliselt laetud plaadi vahel, kondensaator (24.1, 24.3).
+
+Põhimõisted:
+
+elektriväli
+: positiivsele testlaengule mõjuv elektriline jõud[@physics(lk 618)]
+
+elektrivälja tugevus
+: elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
+
+jõujoon (21.8)
+: elektrivälja joon on joon, mis näitab positiivsel katselaengul antud väljast tuleneva jõu suunda[@physics(lk 626)]
+
+Kava:
+
+2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+   *11a*: Lahendame @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.27 ja 14.29.
+ *11b*: Lahendame @paju_2000_fsika(lk 86-87) elektrivälja ülesanded 14.27-14.29.
+
+3. Elektrivälja arvutused pideva laengujaotuse jaoks[@physics(lk 622-625)]. *11a*: Vaja eriliselt selgelt selgitada laengu jagamist ülipisikesteks laenguteks. Selgitan näiteni 21-10 ja rohkem mitte, sest õppekavas pole nii põhjalikult nõutud.
+
+4. Väljajooned[@physics(lk 626-627); @staticelectricitypdf(lk 17-18)].
+
+5. Elektriväljad ja -juhid[@physics(lk 627-628)].
+
+6. Laetud osakese liikumine elektriväljas[@physics(lk 628-629)].
 
 ## Ülesanded
 
@@ -1036,101 +1143,7 @@ rownames(data_frame_of_protocols) <- c(
 
 1.21.  Elektrostaatikat saime pulga sisse seda hõõrudes elektrostaatikat võimelise ülekandega riiet.
 
-1.1. Coulomb' seadus
-  
-1.2.  elektrilaeng
-
-1.3.  elementaarlaeng
-
-1.4.  punktlaeng
-
-1.5.  staatiline elekter
-
-1.6.  laenguliigid
-
-1.7.  elektrilaengu jäävuse seadus
-
-1.8.  laengu jaotumine polaarses molekulis
-
-1.9.  elektrijuht
-
-1.10.  elektri isolaator
-
-1.11.  pooljuht
-
-1.12.  kulon
-
-1.13.  kvantiseerimine
-
-1.14.  pöördruudu seadus
-
-1.15.  vaakumi läbilaskvus
-
-1.16.  elektrostaatiline jõud
-
-1.17.  Coulomb' jõud
-
-1.18.  elektrostaatika
-
-1.19.  superpositsiooni põhimõte
-
-1.20.  Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest, kas need kehad on laetud eri- või ühenimeliselt? Tee joonis, kus on näidatud laengute jaotus.
-
-1.21.  Elektrostaatikat saime pulga sisse seda hõõrudes elektrostaatikat võimelise ülekandega riiet.
-  
 #### Tuletamine
-
-2.1.  punktlaengu suurus Coulomb' seaduses
-
-2.2.  punktlaengutevaheline kaugus Coulomb' seaduses
-
-2.3.  elementaarlaengute arv ühes punktlaengus Coulomb' seaduses
-
-2.4.  punktlaengu suurus Coulomb' seaduses elementaarlaengute kaudu
-
-2.5.  punktlaengutevaheline kaugus Coulomb' seaduses elementaarlaengute kaudu
-
-2.6.  prootoni ja elektroni laengu suhe
-
-2.7.  prootoni ja elektroni massi suhe
-
-2.8.  gravitatsioonilise ja kulonilise jõu suhe
-
-2.9.  kulonilise ja gravitatsioonilise jõu suhe
-
-2.10.  elektroni ja prootoni laengu suhe
-
-2.11.  elektroni ja prootoni massi suhe
-
-2.12.  ülemaailmse gravitatsioonikonstandi ja Coulomb' seaduse *k* suhe
-
-2.13.  kahe laetud keha vahelise gravitatsioonijõu avaldamine Coulomb' seaduse kaudu nende kehade laengutest
-
-2.1.  punktlaengu suurus Coulomb' seaduses
-
-2.2.  punktlaengutevaheline kaugus Coulomb' seaduses
-
-2.3.  elementaarlaengute arv ühes punktlaengus Coulomb' seaduses
-
-2.4.  punktlaengu suurus Coulomb' seaduses elementaarlaengute kaudu
-
-2.5.  punktlaengutevaheline kaugus Coulomb' seaduses elementaarlaengute kaudu
-
-2.6.  prootoni ja elektroni laengu suhe
-
-2.7.  prootoni ja elektroni massi suhe
-
-2.8.  gravitatsioonilise ja kulonilise jõu suhe
-
-2.9.  kulonilise ja gravitatsioonilise jõu suhe
-
-2.10.  elektroni ja prootoni laengu suhe
-
-2.11.  elektroni ja prootoni massi suhe
-
-2.12.  ülemaailmse gravitatsioonikonstandi ja Coulomb' seaduse *k* suhe
-
-2.13.  kahe laetud keha vahelise gravitatsioonijõu avaldamine Coulomb' seaduse kaudu nende kehade laengutest
 
 2.1.  punktlaengu suurus Coulomb' seaduses
 
@@ -1181,161 +1194,11 @@ include_external_graphics("rmd/elektromagnetism/14-5.png")
 
 4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
 
-\newpage
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-\newpage
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-\newpage
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-\newpage
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
-4.1.  Kahe teineteisest \qty{20}{\cm} kaugusel paikneva punktlaengu vahel mõjuv jõud on \qty{18}{\milli\newton}. Kui suur on nendevaheline jõud siis, kui laengud viia teineteisest \qty{60}{\cm} kaugusele?
-
-4.2.  Kumba laengut mõjutab punktlaeng *q* suurema jõuga, kas sellest \qty{0,1}{\m} kaugusel paiknevat laengut \qty{0,1}{\micro\coulomb} või \qty{0,2}{\m} kaugusel paiknevat laengut \qty{0,3}{\micro\coulomb}?
-
-4.3.  Kaks ühesugust metallkuuli, mille laengud on \qty{-60}{\nano\coulomb} ja \qty{180}{\nano\coulomb}, viiakse kokkupuutesse ja eemaldatakse seejärel teineteisest \qty{20}{\cm} kaugusele. Kui suure jõuga mõjutavad need kuulikesed teineteist?
-
-4.4.  Kaks positiivset punktlaengut mõjutavad teineteist õhus \qty{10}{\cm} kauguselt jõuga \qty{2,5e-3}{\newton}. Üks laeng on neli korda suurem kui teine. Kui suured on need laengud?
-
-4.5.  Missugused võrdsed laengud tuleks anda kahele ühekilogrammise massiga kuulile, et nende laengute vaheline mõjujõud tasakaalustaks nendevahelise gravitatsioonijõu?
-
 #### Väljakutsuvaimad arvutusülesanded
 
 5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
 
 \newpage
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-\newpage
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
-
-5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
-
-5.3.  Kui suure jõuga mõjutavad teineteist kaks petrooleumis paiknevat veepiiska, mille laengud on vastavalt \qty{4}{\nano\coulomb} ja \qty{3}{\nano\coulomb}? Piiskadevaheline kaugus on \qty{3}{\milli\meter}[@list_of_dielectric_constants_enpdf, lk 6].
-
-5.4.  Kaks punktlaengut paiknevad petrooleumis teineteisest \qty{12}{\centi\meter} kaugusel. Kui kaugel teineteisest paeaksid need laengud paiknema õhus, et nendevaheline mõju oleks niisama suur kui petrooleumis[@list_of_dielectric_constants_enpdf, lk 6]?
-
-5.5.  Kaks laetud kuulikest mõjutavad teineteist \qty{5}{\centi\meter} kauguselt õlis sama suure jõuga nagu \qty{11,2}{\centi\meter} kaugusel vaakumis. Kui suur on selle õli dielektriline läbitavus?
-
-5.1.  Punktlaengud \qty{0,2}{\micro\coulomb} ja \qty{0,8}{\micro\coulomb} paiknevad teineteisest \qty{12}{\cm} kaugusel. Kuhu nende vahele tuleb paigutada kolmas laeng, et see oleks tasakaalus?
 
 5.2.  Kui suur on kahe laengu vahel mõjuv vastastikmõjujõud vees, kui vaakumis on see \qty{2e-10}{\newton}?
 
@@ -1632,84 +1495,6 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 \newpage
 
-##### Martin Mäesalu\*
-
-###### Reeglid
-
-Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
-
-Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
-
-###### Ülesanded
-
-0. Olen Martin Mäesalu ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-17.
-
-1. Selgitan mõiste *elektrostaatika*. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
-
-2. Avaldan ja / või arvutan  elektroni ja prootoni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
-
-3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
-
-  - sisend(id),
-  
-  - väljund(id),
-  
-  - (joonis),
-  
-  - arutelu,
-  
-  - arvutamine,
-  
-  - lahend täislausega.
-
-3. Hõljuv tolmukübe kaotas ultraviolettkiirguse mõjul \num{2} elektroni. Kui palju selle tolmukübeme laeng muutus? 
-
-4. Kaks ühesuurust samanimelise laenguga metallkuulikest viidi kokkupuutesse ning eemaldati teineteisest \qty{10}{\centi\m} kaugusele. Kui suur on laengutevaheline mõjujõud, kui enne kokkupuutumist olid laengud vastavalt \qty{7,00e-8}{\coulomb} ja \qty{3,00e-8}{\coulomb}? Arvutada kummagi kuulikese laeng pärast kokkupuutumist.
- 
-5. Leida transformaatoriõli absoluutne dielektriline läbitavus, kui kaks ühesugust laengut mõjutavad teineteist võrdse jõuga \qty{20}{\centi\m} kaugusel vaakumis ja \qty{0,14}{\m} kaugusel õlis. Lugedes laengutevahelise mõjujõu võrdseks \qty{90}{\newton}, arvutada laengute suurused!
-
-\newpage
-
-##### Oliver Orro
-
-###### Reeglid
-
-Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
-
-Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
-
-###### Ülesanded
-
-0. Olen Oliver Orro ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-10-13.
-
-1. Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest,
-kas need kehad on laetud eri- või ühenimeliselt? Teen joonise, kus on näidatud
-laengute jaotus.
-
-2. Avaldan ja / või arvutan kulonilise ja gravitatsioonilise jõu  suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
-
-3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
-
-  - sisend(id),
-  
-  - väljund(id),
-  
-  - (joonis),
-  
-  - arutelu,
-  
-  - arvutamine,
-  
-  - lahend täislausega.
-
-3. Kaks võrdset punktlaengut tõukuvad vaakumis teineteisest \qty{3}{\m} kaugusele jõuga \qty{0,4}{\newton}. Arvutan laengute suuruse. 
-
-4. \num{20}-\unit{\centi\m} läbimõõduga metallkera laeng on \qty{3,14e-7}{\coulomb}. Arvutan kera laengu pindtiheduse.
- 
-5. Kuidas muutub laengu pindtihedus, kui ristkülikukujuline juht keerata silindrikujuliseks?
-
-\newpage
-
 ##### Martha Toom
 
 ###### Reeglid
@@ -1761,7 +1546,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
 
 ###### Ülesanded
 
-0. Olen Morris Tobi ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-11-10.
+0. Olen Morris Tobi ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-12-15.
 
 1. Kas võib hõõrumise teel elektriseerida vaskkepikest?
 
@@ -1781,7 +1566,7 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
   
   - lahend täislausega.
 
-3. Kaks laengut, millest üks on teisest kaks korda suurem, on vaakumis teineteisest \qty{0,30}{\m} kaugusel ning mõjuvad jõuga \qty{30}{\newton}. Arvutada laengute suurused! Kui kaugel teinteteisest mõjuvad samad laengud sama jõuga vees? 
+3. Kaks laengut, millest üks on teisest kaks korda suurem, on vaakumis teineteisest \qty{0,30}{\m} kaugusel ning mõjuvad jõuga \qty{30}{\newton}. Arvutada laengute suurused! Kui kaugel teineteisest mõjuvad samad laengud sama jõuga vees? 
 
 4. Kaks võrdse laenguga kera asuvad \qty{20}{\centi\m} kaugusel teineteisest \qty{-18}{\degreeCelsius} korral jääga täidetud anumas. Kui suur on jää dielektriline läbitavus, kui jää sulamisel veeks temperatuuriga \qty{0}{\degreeCelsius} on vaja kerad lähendada \qty{3,8}{\centi\m} kaugusele teineteisest, et jõud jääks samaks? Vee suhteline dielektriline läbivatus \qty{0}{\degreeCelsius} korral on \num{88}.
  
@@ -1821,6 +1606,84 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroo
  - \qty{1}{\m}?
 4. Kaks elektrit juhtivast materjalist kuulikest laengutega \qty{-1,5e-5}{\coulomb} ja \qty{2,5e-5}{\coulomb} eemaldusid pärast kokkutõmbumist uuesti \qty{5}{\centi\m} kaugusele. Arvutada laengute suurused kuulikestel pärast kokkutõmbumist ja nendevaheline mõjujõud.
 5. Punktidesse *A* ja *B*, mille vahekaugus on \qty{10}{\centi\m}, paigutatud laengud \qty{5e-4}{\coulomb} ja \qty{-5e-4}{\coulomb} tekitavad elektrivälja. Laenguid ühendava sirge keskristsirgel, nende lõikepunktist \qty{5}{\centi\m} kaugusel, asub tilgake, mille laeng võrdub \num{10} elektroni laenguga. Arvutada tilgale mõjuv jõud! Millise kiirenduse saab tilgake, kui selle mass on \qty{0,4e-7}{\kg}?
+
+\newpage
+
+##### Oliver Orro
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Oliver Orro ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-10-13.
+
+1. Kas suurte mõõtmetega metallkerade vahel mõjuv jõud sõltub sellest,
+kas need kehad on laetud eri- või ühenimeliselt? Teen joonise, kus on näidatud
+laengute jaotus.
+
+2. Avaldan ja / või arvutan kulonilise ja gravitatsioonilise jõu  suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Kaks võrdset punktlaengut tõukuvad vaakumis teineteisest \qty{3}{\m} kaugusele jõuga \qty{0,4}{\newton}. Arvutan laengute suuruse. 
+
+4. \num{20}-\unit{\centi\m} läbimõõduga metallkera laeng on \qty{3,14e-7}{\coulomb}. Arvutan kera laengu pindtiheduse.
+ 
+5. Kuidas muutub laengu pindtihedus, kui ristkülikukujuline juht keerata silindrikujuliseks?
+
+\newpage
+
+##### Robert-Heinrich Oolma
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Robert-Heinrich Oolma ja asun lahendama ülesandeid teemal *Staatilisest elektrist Coulomb' seaduseni*. Täna on kuupäev 2023-12-15.
+
+1. Selgitan mõiste *elektrostaatika*. Kirjutan selle mõiste kohta nii palju tõtt kui tean. Jama ja teemast mööda ei kirjuta.
+
+2. Avaldan ja / või arvutan  elektroni ja prootoni laengu suhte. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  
+  - arutelu,
+  
+  - arvutamine,
+  
+  - lahend täislausega.
+
+3. Hõljuv tolmukübe kaotas ultraviolettkiirguse mõjul \num{2} elektroni. Kui palju selle tolmukübeme laeng muutus? 
+
+4. Kaks ühesuurust samanimelise laenguga metallkuulikest viidi kokkupuutesse ning eemaldati teineteisest \qty{10}{\centi\m} kaugusele. Kui suur on laengutevaheline mõjujõud, kui enne kokkupuutumist olid laengud vastavalt \qty{7,00e-8}{\coulomb} ja \qty{3,00e-8}{\coulomb}? Arvutada kummagi kuulikese laeng pärast kokkupuutumist.
+ 
+5. Leida transformaatoriõli absoluutne dielektriline läbitavus, kui kaks ühesugust laengut mõjutavad teineteist võrdse jõuga \qty{20}{\centi\m} kaugusel vaakumis ja \qty{0,14}{\m} kaugusel õlis. Lugedes laengutevahelise mõjujõu võrdseks \qty{90}{\newton}, arvutada laengute suurused!
 
 #### Tulemused
 
@@ -1896,10 +1759,10 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0.2, # Kairit Kabel
     0,
+    0.2, # Ketli Kruusmann
     0,
     0,
-    0,
-    0,
+    0.1, # Robert-Heinrich Oolma
     0.1, # Anni Kaisi Paavel
     .06, # Karl Reiter
     0,
@@ -1937,10 +1800,10 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.33, # Miia Mirtel JÜrissaar
     0.24, # Kairit Kabel 
     0,
-    0.38, # Ketli Kruusmann
+    0.02, # Ketli Kruusmann
     0,
     0,
-    0,
+    0.35, # Robert-Heinrich Oolma
     0.11, # Anni Kaisi Paavel
     .18, # Karl Reiter
     0,
@@ -2022,7 +1885,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0.04, # Ketli Kruusmann
     0.25, # Sten-Erik Mihkelson
     0,
-    0,
+    0.3, # Robert-Heinrich Oolma
     0,
     .31, # Karl Reiter
     0.16, # Kärt Solman
@@ -2197,6 +2060,38 @@ Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti (http://whitebop
 3. Während \qty{5}{\s} fließt eine Ladung von \qty{2}{\coulomb} durch den Querschnitt des Leiters. Berechne den Strom!
 4.  Der Autostarter entnahm der Batterie einen Strom von \qty{150}{\ampere} und arbeitete damit \qty{3}{\s}. Während der Fahrt lädt der Generator die Batterien mit einem Strom von \qty{4,5}{\ampere} auf. Wie lange hat die Ladung gedauert, um die anfängliche Ladung wiederherzustellen?
 5. Was zeigt ein Galvanometer an, wenn eine Ladung von \qty{18}{\coulomb} für \qty{10}{\minute} durch das Galvanometer fließt? Wie viele Elektronen müssen pro Zeiteinheit den Querschnitt des Leiters durchlaufen, damit das daran angeschlossene Galvanometer \qty{1}{\milli\ampere} anzeigt?
+
+\newpage
+
+##### Sten-Erik Mihkelson
+
+###### Reeglid
+
+Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest valvurile märku anda käetõstmisega.
+
+Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane valvuri enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega. Iga sellise kasutuskorra tähistab valvur kontrolltöö ülesannete paberile selgelt arusaadavalt.
+
+###### Ülesanded
+
+0. Olen Sten-Erik Mihkelson ja asun lahendama ülesandeid teemal *Elektrivool*. Täna on kuupäev 2023-12-15.
+
+1. Kui elektrielement on vooluringiga ühendatud, voolavad elektronid ahela negatiivsest klemmist eemale. Kuid vooluelemendi sees voolavad elektronid negatiivsesse terminali. Seleta!
+
+2. Avaldan ja / või arvutan laengu voolutugevuse ja aja kaudu. Näitan kogu tuletuskäigu võimalikult üksikasjaliselt. Tähistan muutujad kas üldtuntud tähistustega või kui kasutan muid tähistusi, siis kirjutan juurde legendi.
+
+3.-5. Kirjutan ülesande tunnuse. Lahendan ülesande kasutades struktuuri:
+
+  - sisend(id),
+  
+  - väljund(id),
+  
+  - (joonis),
+  - arutelu,
+  - arvutamine,
+  - lahend täislausega.
+3. Kui suur elektrihulk läbib juhtme ristlõiget \qty{10}{\s} kestel, kui voolutugevus selles ajavahemikus kasvab ühtlaselt nullist kuni \qty{6}{\ampere}'ni?
+4. Mitu elektroni läbib juhtme ristlõiget \qty{1}{\nano\s} kestel, kui voolutugevus on \qty{32}{\micro\ampere}?
+5. Juhet läbib alalisvool \qty{10}{\ampere}. Kui suur elektronide mass läbib selle juhtme ristlõiget ühe aastaga?
 
 #### Tulemused
 
@@ -2435,7 +2330,7 @@ tasks_of_electric_current <- data.frame(
     0, # Matteus Aus
     0, # Maarja-Lii Erm
     0, # 4. Jakobson, Jasper
-    0, # 5. Jürissaar, Kaia Kretel
+    0.1, # 5. Jürissaar, Kaia Kretel
     0, # Miia Mirtel Jürissaar
     0.1, # Kairit Kabel
     0, # Alice Kivirüüt
@@ -2478,10 +2373,10 @@ tasks_of_electric_current <- data.frame(
     0, # 4. Jakobson, Jasper
     0.2, # 5. Jürissaar, Kaia Kretel
     0.2, # Miia Mirtel Jürissaar
-    0, # Kairit Kabel
+    0.2, # Kairit Kabel
     0, # Alice Kivirüüt
     0.2, # 9. Kruusmann, Ketli
-    0, # Sten-Erik Mihkelson
+    0.2, # Sten-Erik Mihkelson
     0.85 * .2, # 11. Mäesalu, Martin
     0, # 12. Oolma, Robert-Heinrich
     0, # Anni Kaisi Paavel
@@ -2517,12 +2412,12 @@ tasks_of_electric_current <- data.frame(
     0.5, # Matteus Aus
     0.4 * .5, # Maarja-Lii Erm
     0.5, # 4. Jakobson, Jasper
-    0, # 5. Jürissaar, Kaia Kretel
+    0.5, # 5. Jürissaar, Kaia Kretel
     0.7 * .5, # Miia Mirtel Jürissaar
     0.3, # Kairit Kabel
     0, # Alice Kivirüüt
     0.7 * .5, # 9. Kruusmann, Ketli
-    0, # Sten-Erik Mihkelson
+    0.3, # Sten-Erik Mihkelson
     0.5, # 11. Mäesalu, Martin
     0.5, # 12. Oolma, Robert-Heinrich
     0, # Anni Kaisi Paavel
@@ -2558,12 +2453,12 @@ tasks_of_electric_current <- data.frame(
     0.16 * .75, # Matteus Aus
     0.16 * 3 * .75, # Maarja-Lii Erm
     (.16 * 3 + .112 * 2 + .904) * 0.75, # 4. Jakobson, Jasper
-    (2 * .16) * 0.75, # 5. Jürissaar, Kaia Kretel
+    .75, # 5. Jürissaar, Kaia Kretel # enne (2 * .16) * 0.75
     0, # Miia Mirtel Jürissaar
     0.38, # Kairit Kabel
     (.112 + .088 + .16) * .75, # Alice Kivirüüt
     0, # 9. Kruusmann, Ketli
-    0, # Sten-Erik Mihkelson
+    0.15, # Sten-Erik Mihkelson
     (.16 * 4 + .112 + .952) * 0.75, # 11. Mäesalu, Martin
     (.16 * 3 + .112 * 2 + .904) * 0.75, # 12. Oolma, Robert-Heinrich
     (.112 + .088 + .16) * .75, # Anni Kaisi Paavel
@@ -2599,12 +2494,12 @@ tasks_of_electric_current <- data.frame(
     0, # Matteus Aus
     0, # Maarja-Lii Erm
     0.9, # 4. Jakobson, Jasper
-    0, # 5. Jürissaar, Kaia Kretel
+    0.8, # 5. Jürissaar, Kaia Kretel
     0, # Miia Mirtel Jürissaar
     0.6, # Kairit Kabel
     0, # Alice Kivirüüt
     0, # 9. Kruusmann, Ketli
-    0, # Sten-Erik Mihkelson
+    0.17, # Sten-Erik Mihkelson
     0.9, # 11. Mäesalu, Martin
     0.9, # 12. Oolma, Robert-Heinrich
     0, # Anni Kaisi Paavel

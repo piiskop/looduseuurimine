@@ -64,13 +64,49 @@ names_10 <- c(
 	"4. Kustov, Vladimir",
 	"5. Malõšev, Polina",
 	"6. Šerstobitov, Mihhail",
+  "7. Salnikova, Veronika",
 	"7. Šesterikov, Daniil",
 	"8. Žigadlo, Grigori",
 	"9. Žukova, Darja",
 	"10. Trubilko, Vladislav",
 	"11. Tšerkesov, Demid",
 	"12. Volkova, Darja",
-	"13. Volkova, Jeva"
+	"13. Volkova, Jeva",
+	"1. Freiberg, Karl",
+	"2. Freiberg, Rasmus",
+	"3. Halman, Lisette",
+	"4. Hein, Emily",
+	"5. Kabel, Kristofer",
+	"6. Kunimägi, William",
+	"7. Lest, Helena",
+	"8. Meerbach, Sten",
+	"9. Männa, Karl Marcus",
+	"10. Ojala, Mikk Kaspar",
+	"11. Preimann, Kirke Mari",
+	"12. Schults, Klea Karola",
+	"13. Stankevitš, Marita",
+	"14. Vaap, Gloria",
+	"15. Vaarmets, Kauri",
+	"16. Vahi, Maarja",
+	"17. Vetkal, Miron",
+	"18. Viimsalu, Lisell",
+	"1. Haug, Henry",
+	"2. Kattai, Elisabeth",
+	"3. Kidra, Kristofer",
+	"4. Koppelmann, Tõnis",
+	"5. Kosk, Annabel",
+	"6. Kuik, Silver",
+	"7. Lepasepp, Albert",
+	"8. Liiva, Laura-Liisa",
+	"9. Lillemaa, Liisbet",
+	"10. Pajur, Arbo",
+	"11. Saavan, Ranelle",
+	"12. Silivask, Sten Marten",
+	"13. Tamm, Kärol",
+	"14. Tee, Kaspar Taavet",
+	"15. Vaikre, Hanna",
+	"16. Õismets, Grethel",
+	"17. Ööpik, Tanel"
 )
 
 names_11 <- c(
@@ -113,6 +149,60 @@ names_11 <- c(
 	"18. Tuul, Teele",
 	"19. Vahesaar, Toren Holder",
 	"20. Volman, Andreas"
+)
+
+names_12 <- c(
+	"1. Aamisepp, Gert Kevin",
+	"2. Ehtmaa, Pillery",
+	"3. Haava, Ken Marti",
+	"4. Hupponen, Lisandra",
+	"5. Juhkam, Janete",
+	"6. Katt, Iason",
+	"7. Koppas, Henri",
+	"8. Kosarv, Lotta Eleanora",
+	"9. Künk, Kaspar",
+	"10. Lenk, Kätriin",
+	"11. Leppiksaar, Lisete",
+	"12. Lest, Hendrik",
+	"13. Lugovaja, Natalia",
+	"14. Lõhmus, Katrina",
+	"15. Miljand, Marleen",
+	"16. Mohan, Marc",
+	"17. Mäesalu, Elisabeth",
+	"18. Oepa, Karolin",
+	"19. Ojala, Ott Kaarel",
+	"20. Piisang, Egle",
+	"21. Schotter, Laura",
+	"22. Skuratovitš, Alik",
+	"23. Säälik, Lisett",
+	"24. Tamm, Kertu",
+	"25. Tulk, Robert",
+	"26. Urgard, Triinu-Liis",
+	"27. Äkke, Mirjam",
+	"1. Alviste, Rando",
+	"2. Aumeste, Mia Rianna",
+	"3. Blei, Ralf",
+	"4. Blei, Rasmus",
+	"5. Evisalu, Eneli",
+	"6. Kerno, Kristel",
+	"7. Koljada, Kert",
+	"8. Laanemets, Robin",
+	"9. Liiker, Lisete",
+	"10. Luik, Oliver",
+	"11. Moosar, Magnus",
+	"12. Nurm, Sander Egert",
+	"13. Piirmets, Miia-Mari",
+	"14. Piisang, Rasmus",
+	"15. Raun, Kevin",
+	"16. Rikkinen, Artur Rihhard",
+	"17. Rungi, Kerttu",
+	"18. Salujõe, Mihkel",
+	"19. Sepp, Marie",
+	"20. Taukul, Karina",
+	"21. Tomson, Erkko Villem",
+	"22. Vahtmäe, Elis",
+	"23. Vaikla, Helina",
+	"24. Volkov, Hether"
 )
 
 #' This function builds a table with test results.
@@ -357,7 +447,7 @@ render_color <- function(color, text) {
 
 # Sissejuhatus {-}
 
-Olen peacecop kalmer: ning õpetan füüsikat Kohila Gümnaasiumis, füüsikat ja keemiat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2023 on mul esimene kord neid kaht teadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See koduleht siin kajastab iga kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
+Olen peacecop kalmer: ning õpetan füüsikat Kohila Gümnaasiumis, füüsikat ja keemiat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2023 on mul esimene kord neid kaht teadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See konspekt siin kajastab iga kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
 
 Leian, et tõhus on iga teema puhul käsitleda juppi teooriat, lahendada selle kohta hulganisti arvutusülesandeid ning kontrollides teooriat eksperimentaalselt, enne kui võtta ette järgmine jupp. Samuti peavad jupid olema üksteisega loogiliselt seotud. Iga järgmine jupp võib eeldada eelneva jupi valdamist. Iseseisvaks lahendamiseks jäetavad arvutusülesanded on mul ka üldjuhul tahvlile lahendatud, nii et on võimalik kontrollida ja võrrelda lahendusi[@looduseuurimine].
 

@@ -1852,6 +1852,8 @@ convert_degrees_to_radians <- function(degrees) {
 
 ## Mõõtemääramatus[@ldmtmisedloodusteadustesxlsx]
 
+### Arvutusreeglid
+
 Iga kord, kui mõõdame midagi, esineb ebatäpsusi, sest me ei saa mitte kunagi täielikult täpselt midagi mõõta. Näiteks, kui mõõdame joonlauaga kirjutusvahendi pikkust, siis saame pikkuse väärtuse välja lugeda joonlaua skaalalt, millel on väikseim ühik, millest oluliselt täpsemalt me pikkust välja lugeda ei saa. Samuti on võimalik meil asetada joonlaud ainult joonlaua skaala täpsusega kirjutusvahendi algpunkti. Võimalik on ka, et mõõtmistingimused ei ole ideaalsed. Nii määratleme kirjutusvahendi pikkuse mingis vahemikus ja see vahemik ongi mõõtemääramatus.
 
 Alati on mõõtmise tulemusena olemas mingi keskväärtus. Kui tehakse vaid üks mõõtmine, siis selle tulemus ongi keskväärtus, mitme mõõtmise puhul on keskväärtus väljamõõdetud väärtuste aritmeetiline keskmine.
@@ -1862,7 +1864,40 @@ Kui teostatakse sama suuruse mõõtmisi korduvalt saades erinevaid väärtusi, s
 
 A-tüüpi mõõtemääramatuse jaoks on vaja arvutada standardhälve ning korrutada see standardhälve Studenti jaotuse teguriga. Jaotusi on mitmeid, ent füüsikas võiksime kasutada eelkõige Studenti jaotust, kuna Studenti jaotusele allub mõõtmistulemuste jagunemine lõpliku arvu mõõtmiste korral ja mõõtmiste arv on alati lõplik.
 
-A-tüüpi mõõtemääramatuse arvutamise valem usaldusmäära $1 - α$ korral on \@ref(eq:measurement-uncertainty-of-type-A) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-A")`. Selles valemis:
+Selgitan A-tüüpi mõõtemääramatuse valemi tuletamist sammhaaval. Esmalt tuleb arvutada mõõtmistulemuste aritmeetiline keskmine kasutades valemit \@ref(eq:mean) leheküljel `r render_pageref(reference="eq:mean")`, milles
+
+$\bar{x}$
+: mõõtmistulemuste aritmeetiline keskmine
+
+$i$
+: järjekorra tunnus, mis näitab, mitmenda mõõtmistulemusega on tegemist
+
+$n$
+: mõõtmiste arv
+
+$x$
+: mõõtmistulemus
+
+\begin{equation}
+\bar{x} = \frac{\sum_{i = 1}^n(x_i)}{n}.
+(\#eq:mean)
+\end{equation}
+
+Üksikmõõtmise tulemuse standardhälve näitab, kui palju tegelik väärtus statistiliselt keskmisest väärtusest kõrvale kaldub (valem \@ref(eq:standard-deviation) leheküljel `r render_pageref(reference="eq:standard-deviation")`). Selles valemis jagatakse ühega vähem kui mõõtmiste arv, sest mõõtmiste arv on lõplik ja soovime laiendada hälvet populatsioonile.
+
+\begin{equation}
+\sigma_x = \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n - 1}}.
+(\#eq:standard-deviation)
+\end{equation}
+
+Kui mõõtmisi oleks tehtud mitu seeriat, siis iga seeria kohta saab arvutada aritmeetilise keskmise ning kui nende aritmeetiliste keskmiste kohta arvutada standardhälve, siis see on aritmeetiliste keskmiste standardhälve. Tuleb arvestada, et ka seeriate arv on lõplik, mistõttu arvutatakse aritmeetilise keskmise standardhälve statistiliselt kasvõi ainult õhe seeria puhul kasutades valemit \@ref(eq:standard-error) leheküljel `r render_pageref(reference="eq:standard-error")`. Aritmeetilise keskmise standardhälvet nimetatakse ka standardveaks.
+
+\begin{equation}
+\sigma_{\bar{x}} = \frac{\sigma_x}{\sqrt{n}}.
+(\#eq:standard-error)
+\end{equation}
+
+A-tüüpi mõõtemääramatuse arvutamiseks korrutatakse standardviga Studenti teguriga. A-tüüpi mõõtemääramatuse arvutamise valem usaldusmäära $1 - α$ korral on \@ref(eq:measurement-uncertainty-of-type-A) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-A")` [@mtmised(lk 12)]. Selles valemis:
 
 $u_\mathrm{A}$
 : A-tüüpi mõõtemääramatus
@@ -1886,7 +1921,7 @@ Studenti t-jaotuse funktsiooni väljundi saab kas ise arvutada, arvutada lasta v
 
 ```{=tex}
 \begin{equation}
-u_\mathrm{A} = \mathrm{t}(n - 1, \frac{\alpha}{2}) \cdot \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \cdot (n - 1)}}
+u_\mathrm{A} = \mathrm{t}(n - 1, \frac{\alpha}{2}) \cdot \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \cdot (n - 1)}}.
 (\#eq:measurement-uncertainty-of-type-A)
 \end{equation}
 
@@ -1894,7 +1929,7 @@ u_\mathrm{A} = \mathrm{t}(n - 1, \frac{\alpha}{2}) \cdot \sqrt{\frac{\sum_{i = 1
 
 B-tüüpi mõõtemääramatuseid on kaks. B1-tüüpi mõõtemääramatus arvutatakse mõõtevahendi dokumentatsiooni märgitud täpsusest. B2-tüüpi mõõtemääramatus arvutatakse mõõtevahendi väikseima ühiku põhjal.
 
-B1-tüüpi mõõtemääramatus on esitatud valemina \@ref(eq:measurement-uncertainty-of-type-B1) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-B1")`. Selles valemis
+B1-tüüpi mõõtemääramatus on esitatud valemina \@ref(eq:measurement-uncertainty-of-type-B1) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-of-type-B1")`[@mtmised(lk 13)]. Selles valemis
 
 $u_\mathrm{B1}$
 : B1-tüüpi mõõtemääramatus
@@ -1918,36 +1953,105 @@ $u_\mathrm{B2}$
 $l$
 : väikseim ühik
 
-$n$
+$m$
 : mõõtevahendi kasutamisega võimalike veategemise kordade arv ühes mõõtmises
 
 Näiteks joonlauaga mõõtes saame teha kaks viga: joonlaua skaala alguse paigutamisel ja mõõdu väljalugemisel.
 
 ```{=tex}
 \begin{equation}
-u_\mathrm{B2} = (1 - \alpha) \cdot \frac{l}{2} \cdot n.
+u_\mathrm{B2} = (1 - \alpha) \cdot \frac{l}{2} \cdot m.
 (\#eq:measurement-uncertainty-of-type-B2)
 \end{equation}
 
 ```
 
-Kui kõiki tüüpi mõõtemääramatused on välja arvutatud, tuleb mõõtemääramatused liita, nagu liidetakse vektoreid (avaldis \@ref(eq:measurement-uncertainty) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty")`).
+Kui kõiki tüüpi mõõtemääramatused on välja arvutatud, tuleb mõõtemääramatused liita, nagu liidetakse üksteise suhtes risti olevaid vektoreid (avaldis \@ref(eq:measurement-uncertainty) leheküljel `r render_pageref(reference = "eq:measurement-uncertainty")`)[@mtmised(lk 14)].
 
 \begin{align}
 u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B1}^2 + u_\mathrm{B2}^2}.
 (\#eq:measurement-uncertainty)
 \end{align}
 
-Lõpuks tuleb mõõdetud väärtus väljendada kujul, mis on esitatud
+Lõpuks tuleb mõõdetud väärtus väljendada kujul, mis on esitatud avaldisena \@ref(eq:value-with-measurement-uncertainty-with-plus-minus) leheküljel `r render_pageref(reference="eq:value-with-measurement-uncertainty-with-plus-minus")`. Plussi ja miinuse asemel saab kasutada ka sulge, ent nende näitamine valemina on liiga väljakutsuv, mistõttu ma selgitan seda konkreetse näite varal edaspidi.
 
-### Suhteline mõõtemääramatus
+```{=tex}
+\begin{equation}
+x = \bar{x} \pm u.
+(\#eq:value-with-measurement-uncertainty-with-plus-minus)
+\end{equation}
 
-Suhteline mõõtemääramatus arvutatakse absoluutse mõõtemääramatuse ja mõõdetud keskväärtuse suhtena (valem \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")`)[@uncertaintypdf, lk 22, 23; @mtmised, lk 16].
+```
+
+Juurde märgitakse tõenäosus ja kasutatud jaotus.
+
+Et võrrelda eri mõõtmiste täpsust, annab täielikust mõõtemääramatusest üldisemat teavet suhteline mõõtemääramatus. Suhteline mõõtemääramatus arvutatakse absoluutse mõõtemääramatuse ja mõõdetud keskväärtuse suhtena (valem \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")`)[@uncertaintypdf, lk 22, 23; @mtmised, lk 16].
 
 \begin{align}
-R = \frac{u}{\overline{q}}
+R = \frac{u}{\overline{x}}
 (\#eq:relative-uncertainty)
 \end{align}
+
+Kui talitluse sisendeid on rohkem kui üks, nt pindala arvutamiseks pikkus ja laius, siis talitluse väärtuse mõõtemääramatuse saab arvutada kõige üldisemalt kasutades valemit \@ref(eq:measurement-uncertainty-on-multiple-inputs) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiple-inputs")`, milles
+
+$f$
+: talitlus
+
+$i$
+: indeks, mis näitab, mitmenda sisendiga on tegemist
+
+$n$
+: sisendite arv[@a2propagation_of_uncertaintpdf(lk 7)]
+
+```{=tex}
+\begin{equation}
+u = \sqrt{\sum_{i = 1}^n[(\frac{\partial{\mathrm{f}}}{\partial{x_i}} \cdot u_{x_i})^2]}.
+(\#eq:measurement-uncertainty-on-multiple-inputs)
+\end{equation}
+
+```
+
+Kui tuletise arvutamine käib üle jõu, siis selliste talitluste puhul, milles on ainult sisendite liitmine või korrutamine, saab kasutada ka primitiivsemaid mõõtemääramatuse arvutamise meetodeid. Kummaski juhus on vaja arvestada, kas sisendite mõõtemääramatused üksteisest sõltuvad või mitte. Üksteisest sõltuvad sisendite mõõtemääramatused, kui nende sisendite mõõtmiseks või loendamiseks kasutame sama vahendit, mille mõõtemääramatus levib. Näiteks, kui on vaja arvutada ristküliku pindala ja mõõdame nii ristküliku pikkuse kui laiuse sama joonlauaga. Üksteisest sõltumatud on sisendite mõõtemääramatused, kui nende sisendite mõõtmiseks kasutame eri vahendeid. Näiteks, kui on vaja arvutada tihedus ning mõõdame massi ja ruumala eri vahenditega.
+
+Kui talitluse sisendid on ainult liidetavad ja nende mõõtemääramatused üksteisest sõltuvad, siis avaldub mõõtemääramatus valemi \@ref(eq:measurement-uncertainty-on-additive-dependent-inputs) kaudu leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-additive-dependent-inputs")`[@a2propagation_of_uncertaintpdf(lk 1)].
+
+```{=tex}
+\begin{equation}
+u = \sum_{i = 1}^n(u_{x_i}).
+(\#eq:measurement-uncertainty-on-additive-dependent-inputs)
+\end{equation}
+
+```
+
+Kui talitluse sisendid on ainult korrutatavad ja nende mõõtemääramatused üksteisest sõltuvad, siis avaldub mõõtemääramatus valemi \@ref(eq:measurement-uncertainty-on-multiplicative-dependent-inputs) kaudu leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiplicative-dependent-inputs")`[@a2propagation_of_uncertaintpdf(lk 4)].
+
+```{=tex}
+\begin{equation}
+u = \bar{x} \cdot \sum_{i = 1}^n(\frac{u_{x_i}}{\bar{x_i}}).
+(\#eq:measurement-uncertainty-on-multiplicative-dependent-inputs)
+\end{equation}
+
+```
+
+Kui talitluse sisendid on ainult liidetavad ja nende mõõtemääramatused üksteisest sõltumatud, siis avaldub mõõtemääramatus valemi \@ref(eq:measurement-uncertainty-on-additive-independent-inputs) kaudu leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-additive-independent-inputs")`[@a2propagation_of_uncertaintpdf(lk 5)].
+
+```{=tex}
+\begin{equation}
+u = \sqrt{\sum_{i = 1}^n(u_{x_i}^2)}.
+(\#eq:measurement-uncertainty-on-additive-independent-inputs)
+\end{equation}
+
+```
+
+Kui talitluse sisendid on ainult korrutatavad ja nende mõõtemääramatused üksteisest sõltumatud, siis avaldub mõõtemääramatus valemi \@ref(eq:measurement-uncertainty-on-multiplicative-independent-inputs) kaudu leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiplicative-independent-inputs")`.
+
+```{=tex}
+\begin{equation}
+u = \bar{x} \cdot \sqrt{\sum_{i = 1}^n(\frac{u_{x_i}}{\bar{x_i}}^2)}.
+(\#eq:measurement-uncertainty-on-multiplicative-independent-inputs)
+\end{equation}
+
+```
 
 \newpage
 
@@ -1959,37 +2063,38 @@ Kui mõõdan sellega staatilist sihitist, siis saan ilmselt iga kord sama või a
 
 ```{r label = "ruler", echo=FALSE}
 ruler_smallest_unit <- .5
-ruler_relation = 4000 / 400
-ruler_smallest_unit_actual <- ruler_smallest_unit * ruler_relation 
-ruler_x <- 42
-ruler_x_actual <- ruler_x * ruler_relation
-ruler_relative <- ruler_smallest_unit / ruler_x
-ruler_data_frame <- data.frame(ruler_x_actual)
+map_scale = 4000
+ruler_scale = 400
+ruler_relation = map_scale / ruler_scale
+p <- .95
+ruler_smallest_unit_actual <- p * ruler_smallest_unit * ruler_relation 
+ruler_x1 <- 42
+ruler_x1_actual <- ruler_x1 * ruler_relation
+ruler_relative <- ruler_smallest_unit / ruler_x1
+ruler_data_frame <- data.frame(ruler_x1_actual)
 
-ruler_lower <- ruler_x_actual - ruler_smallest_unit_actual
-ruler_upper <- ruler_x_actual + ruler_smallest_unit_actual
+ruler_lower <- ruler_x1_actual - ruler_smallest_unit_actual
+ruler_upper <- ruler_x1_actual + ruler_smallest_unit_actual
 
 ```
 
-Minu kasutada oleva *deli* joonlaua kohta puuduvad tehaseandmed, mistõttu lähtun B-tüüpi mõõtemääramatuse arvutamises joonlaua väikseimast ühikust, milleks on skaalat $\frac{\num{1}}{\num{400}}$ kasutades \qty{`r as.character(ruler_smallest_unit)`}{\m} (joonis \@ref(fig:measuring-with-ruler-with-scales) leheküljel `r render_pageref(reference = "fig:measuring-with-ruler-with-scales")`[@noauthor_undated-ar]). Kuna kaardi mõõtkava on $\frac{\num{1}}{{4000}}$, siis on tegelikkuses lühim selle joonlauaga ja skaalaga mõõdetav vahemaa \qty{`r as.character(ruler_smallest_unit_actual)`}{\m}.
+Minu kasutada oleva *deli* joonlaua kohta puuduvad tehaseandmed, mistõttu lähtun B-tüüpi mõõtemääramatuse arvutamises joonlaua väikseimast ühikust, milleks on skaalat $\frac{\num{1}}{\num{`r as.character(ruler_scale)`}}$ kasutades \qty{`r as.character(ruler_smallest_unit)`}{\m} (joonis \@ref(fig:measuring-with-ruler-with-scales) leheküljel `r render_pageref(reference = "fig:measuring-with-ruler-with-scales")`[@noauthor_undated-ar]). Kuna kaardi mõõtkava on $\frac{\num{1}}{\num{`r as.character(map_scale)`}}$, siis on tegelikkuses lühim selle joonlauaga ja skaalaga mõõdetav vahemaa \qty{`r as.character(ruler_smallest_unit_actual)`}{\m}. Kuna mõõtemääramatus on ühe tüvenumbrini ümardatult üheline, siis edaspidi seda nii ka kasutan.
 
 ```{r label = "measuring-with-ruler-with-scales", echo=FALSE, fig.cap = "Kahe kontrollpunkti vahelise kauguse mõõtmine mõõtkavadega joonlauaga."}
 include_external_graphics("rmd/baasreeglistik/skaaladega-joonlaud.png")
 
 ```
 
-See joonlaud ei ole digitaalne, mistõttu jääb B-tüüpi mõõtemääramatuseks väikseim ühik.
+Ainus mõistlik mõõtemääramatuse tüüp selle joonlauaga tehtud mõõtmise jaoks on B2.
 
-Mõõdetud vahemaa on väljendatuna täielikult \qty{`r as.character(ruler_x_actual)`(`r as.character(ruler_smallest_unit_actual)`)}{\m}.
+Mõõdetud vahemaa on väljendatuna täielikult \qty{`r as.character(ruler_x1_actual)` +- `r as.character(signif(x=ruler_smallest_unit_actual, digits=1))`}{\m} ($p=\num{`r as.character(p)`}$).
 
 Suhtelise mõõtemääramatuse arvutamiseks tuleb absoluutne mõõtemääramatus jagada mõõdetud suurusega vastavalt valemile \@ref(eq:relative-uncertainty) leheküljel `r render_pageref(reference = "eq:relative-uncertainty")` ning see arvutuskäik on esitatud avaldisena \@ref(eq:ruler-relational-uncertainty) leheküljel `r render_pageref(reference = "eq:ruler-relational-uncertainty")`:
 
 \begin{align}
-R = \frac{\qty{`r as.character(ruler_smallest_unit)`}{\m}}{\qty{`r as.character(ruler_x)`}{\m}} =  \num{`r as.character(signif(x = ruler_relative, digits = 3))`}
+R = \frac{\qty{`r as.character(ruler_smallest_unit)`}{\m}}{\qty{`r as.character(ruler_x1)`}{\m}} =  \num{`r as.character(signif(x = ruler_relative, digits = 3))`}.
 (\#eq:ruler-relational-uncertainty)
 \end{align}
-
-Mõõdetud suurus esitatuna suhtelise mõõtemääramatusega on \qty{`r as.character(ruler_x)`}{\m}\pm\num{`r as.character(signif(x = ruler_relative, digits = 3))`}.
 
 See tähendab, et nende kahe kontrollpunkti vaheline kaugus on vahemikus vahemikus [\qty{`r as.character(signif(x = ruler_lower, digits = 3))`}{\m}; \qty{`r as.character(signif(x = ruler_upper, digits = 3))`}{\m}].
 
@@ -2005,7 +2110,7 @@ color_x <- "#008000"                                                            
                                                                                                                                                                                                                                                                                                  # 12
 ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +                                                                                                                                                                                                   # 13
   geom_point(shape = 23, size = 1) +                                                                                                                                                                                                                                                             # 14
-  labs(x = TeX("$\\frac{\\textit{q}}{m}$")) +                                                                                                                                                                                              # 15
+  labs(x = TeX("$\\frac{\\textit{x}}{m}$")) +                                                                                                                                                                                              # 15
   geom_errorbarh(aes(xmin = `ruler_x_actual` - ruler_smallest_unit_actual, xmax = `ruler_x_actual` + ruler_smallest_unit_actual), color = color_x) +                                                                                                                                                                      # 16
   theme(
     axis.title.x = element_text(colour = color_x),
@@ -2020,6 +2125,48 @@ ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +   
 
 ```
 
+Oletagem, et vaja on mõõta mitte üksnes kahe kontrollpunkti vaheline kaugus, vaid kolme järjestikuse kontrollpunkti vaheline kaugus! Selleks liidame keskväärtuse saamiseks kummagi lõigu pikkuse (valem \@ref(eq:measurement-uncertainty-ruler-two-lines) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-ruler-two-lines")`).
+
+\begin{equation}
+l = l_1 + l_2.
+(\#eq:measurement-uncertainty-ruler-two-lines)
+\end{equation}
+
+```{r label = "ruler-addition", echo=FALSE}
+ruler_x2 <- 9
+ruler_x2_actual <- ruler_x2 * ruler_relation
+ruler_x_actual <- ruler_x1_actual + ruler_x2_actual
+
+```
+
+Kui üks lõik on juba varem mõõdetud lõik ja teine on pikkusega \qty{`r as.character(ruler_x2_actual)`}{\m}, siis kogupikkuse arvutamiseks saame kasutada valemit \@ref(eq:measurement-uncertainty-ruler-two-lines) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-ruler-two-lines")`. See arvutuskäik on näidatud avaldisena \@ref(eq:measurement-uncertainty-ruler-two-lines-calculation) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-ruler-two-lines-calculation")`.
+
+\begin{equation}
+l = \qty{`r as.character(ruler_x1_actual)`}{\m} + \qty{`r as.character(ruler_x2_actual)`}{\m} = \qty{`r as.character(ruler_x_actual)`}{\m}.
+(\#eq:measurement-uncertainty-ruler-two-lines-calculation)
+\end{equation}
+
+Kuna kasutan sama joonlauda mõlema lõigu mõõtmiseks, siis levib joonlaua mõõtemääramatus ja lõikude pikkuste mõõtemääramatused on üksteisest sõltuvad. Et tegemist on ühtlasi sisendite liitmisega, saame kasutada kogupikkuse mõõtemääramatuse arvutamiseks valemit \@ref(eq:measurement-uncertainty-on-additive-dependent-inputs) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-additive-dependent-inputs")`. Mina soovin siiski kasutada üldvalemit \@ref(eq:measurement-uncertainty-on-multiple-inputs) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiple-inputs")`, mille põhjal koostan kogupikkuse mõõtemääramatuse valemi \@ref(eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length")` arvestades, et kummagi lõigu mõõtmise mõõtemääramatus on sama.
+
+\begin{equation}
+u_l = \sqrt{(\frac{\partial(l_1 + l_2)}{\partial(l_1)} \cdot u_{l_1})^2 + (\frac{\partial(l_1 + l_2)}{\partial(l_2)} \cdot u_{l_2})^2} = \sqrt{u_{l_1}^2 + u_{l_2}^2} = \sqrt{2} \cdot u_{l_1}.
+(\#eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length)
+\end{equation}
+
+```{r label = "ruler-addition-uncertainty", echo=FALSE}
+ruler_total_uncertainty <- sqrt(2) * ruler_smallest_unit_actual
+
+```
+
+Panen valemisse \@ref(eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length")` joonlaua mõõtemääramatuse ja arvutan teekonna mõõtemääramatuse (avaldis \@ref(eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length-calculation) leheküljel `r render_pageref(reference="eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length-calculation")`)
+
+\begin{equation}
+u_l = \sqrt{2} \times \qty{`r as.character(ruler_smallest_unit_actual)`}{\m} = \qty{`r as.character(ruler_total_uncertainty)`}{\m}.
+(\#eq:measurement-uncertainty-on-multiple-inputs-ruler-total-length-calculation)
+\end{equation}
+
+Seekonna on teekonna kogupikkus \qty{`r as.character(ruler_x_actual)` +- `r as.character(signif(x=ruler_total_uncertainty, digits=1))`}{\m} ($p=\num{`r as.character(p)`}$). Näeme, et kogupikkuse mõõtemääramatus on suurem kui ühe lõigu mõõtemääramatus, mis on loogiline, sest mõõtemääramatus levib.
+
 \onecolumn
 
 []{#caliper}
@@ -2028,7 +2175,7 @@ ggplot(data = ruler_data_frame, mapping = aes(x = `ruler_x_actual`, y = 0)) +   
 
 Nihik on kauguse mõõtmisvahend, mille haarade vahele saab panna mõõdetava sihitise või mille haarad saab panna mõõdetavasse vahesse ja lugeda skaalalt välja kaugus.
 
-Digitaalne nihik omab kuva, mis näitab elektrooniliselt kauguse kuvades selle teatud täpsusega ja tehes ümardamise inimese eest. Elektrooniliste vahenditega pruugime kordusmõõtmisel saada eelmisest veidi erineva tulemuse, sest eksperimenteerija ei pruugi sättida haarasid täpselt, eri väljad võivad mõjutada masina tööd. Mida tundlikum on sensor, seda rohkem mõõtetulemused üksteisest erinevad. Seetõttu tuleb digitaalse mõõtmisvahendi puhul arvutada mõõtmistulemusele ka A-tüüpi mõõtemääramatus. Et tulemusi vähegi tõsiselt võtta, tuleb teha vähemalt neli mõõtmist. Mida rohkem mõõtmisi eksperimenteerija teeb, seda stabiilsemaks ta mõõtmistulemuste keskväärtuse saab.
+Digitaalne nihik omab kuva, mis näitab elektrooniliselt kauguse, kuvades selle teatud täpsusega ja tehes ümardamise inimese eest. Elektrooniliste vahenditega pruugime kordusmõõtmisel saada eelmisest veidi erineva tulemuse, sest eksperimenteerija ei pruugi sättida haarasid täpselt, eri väljad võivad mõjutada masina tööd. Mida tundlikum on sensor, seda rohkem mõõtetulemused üksteisest erinevad. Seetõttu tuleb digitaalse mõõtmisvahendi puhul arvutada mõõtmistulemusele ka A-tüüpi mõõtemääramatus. Et tulemusi vähegi tõsiselt võtta, tuleb teha vähemalt neli mõõtmist. Mida rohkem mõõtmisi eksperimenteerija teeb, seda stabiilsemaks ta mõõtmistulemuste keskväärtuse saab.
 
 Näitena on mul kasutuses digitaalne nihik ja ma mõõdan sellega oma sõrme jämedust, nagu on näha joonisel \@ref(fig:measuring-with-caliper) leheküljel `r render_pageref(reference = "fig:measuring-with-caliper")`.
 
@@ -2056,15 +2203,16 @@ librarian::shelf(c(
   "distributions3"
 ))
 studentTDistribution = StudentsT(df = caliper_number_less_1)
-alpha <- 1 - .05 / 2
-caliper_number_student = quantile(studentTDistribution, alpha)
-student_7 <- quantile(StudentsT(df = 6), alpha)
+alpha <- 0.05
+probability_for_Student <- 1 - alpha / 2
+caliper_number_student = quantile(studentTDistribution, probability_for_Student)
+student_7 <- quantile(StudentsT(df = 6), probability_for_Student)
 
 caliper_uncertainty_A <- caliper_sd_mean * caliper_number_student
 
 caliper_smallest_unit <- .01e-3
-caliper_b <- caliper_smallest_unit / 2
-#caliper_b_last <- caliper_b * 10
+probability <- 1 - alpha
+caliper_b <- probability * caliper_smallest_unit / 2
 caliper_uncertainty <- sqrt(caliper_uncertainty_A^2 + caliper_b^2)
 
 caliper_lower <- caliper_mean - caliper_uncertainty
@@ -2145,21 +2293,21 @@ Järgnevalt on vaja standardhälve jagada ruutjuurega mõõtmiste arvust (avaldi
 (\#eq:caliper-mean-x-squared-sum-over-n-1-sqrt-over-n-sqrt)
 \end{align}
 
-Lõpliku arvu mõõtmiste korral allub mõõtetulemuste jagunemine aritmeetilise keskmise ümber Studenti jaotusele. Tulemus on vaja korrutada Studenti jaotuse teguriga *t*, milleks on  \num{0,95} tõenäosuse ja nelja katse korral \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} ning seitsme katse korral nagu õpilasel \num{`r as.character(signif(x = student_7, digits = 3))`} (avaldis \@ref(eq:caliper-uncertainty-a) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty-a")`).
+Lõpliku arvu mõõtmiste korral allub mõõtetulemuste jagunemine aritmeetilise keskmise ümber Studenti jaotusele. Tulemus on vaja korrutada Studenti jaotuse teguriga *t*, milleks on  \num{0,95} tõenäosuse ja nelja katse korral \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} ning seitsme katse korral, nagu õpilasel oleks vaja teha, \num{`r as.character(signif(x = student_7, digits = 3))`} (avaldis \@ref(eq:caliper-uncertainty-a) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty-a")`).
 
 \begin{align}
-u_\mathrm{A} = t \times \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m} \times \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} =\qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m}.
+u_\mathrm{A} = t \times \sqrt{\frac{\sum_{i = 1}^n{(\overline{x} - x_i)^2}}{n \times (n - 1)}} = \qty{`r as.character(signif(x = caliper_sd_over_number, digits = 4))`}{\m} \times \num{`r as.character(signif(x = caliper_number_student, digits = 3))`} =\qty{`r as.character(signif(x = caliper_uncertainty_A, digits = 4))`}{\m}.
 (\#eq:caliper-uncertainty-a)
 \end{align}
 
-Studenti tegurid on ka @haynes_2014_crc, lk A-72, kuid need on esitatud meile vajalikust ühe tulba võrra nihkes. Ehk siis tuleb mõõtmiste arvust lahutada üks ja otsida väärtus tulbast, mis on soovitud tõenäosusele järgmine tulp.
+Studenti tegurid on ka @haynes_2014_crc, lk A-72, milles tuleb valida rida, mille vabadusastmete arv on üks vähem kui mõõtmiste arv, ja tulp, mis on soovitud tõenäosusele järgmine tulp.
 
 Nüüd on A-tüüpi mõõtemääramatus arvutatud.
 
 Kuna pole teada, milline on nihiku tegija poolt spetsifitseeritud mõõtemääramatus, siis ainus B-tüüpi mõõtemääramatus, mille saame määrata ja peame määrama, on näidiku viimase numbrikoha järgi peale koma. See nihik näitab millimeetri sajandiku täpsusega. Kuna tegemist on digiseadmega ja eksimisvõimalust algusega pole, küll aga on lõpuga, siis B-tüüpi mõõtemääramatus on pool seda kõige väiksemat ühikut (avaldis \@ref(eq:caliper-smallest-unit-by-2) leheküljel `r render_pageref(reference = "eq:caliper-smallest-unit-by-2")`).
 
 \begin{align}
-u_\mathrm{B} = \frac{\qty{`r as.character(signif(x = caliper_smallest_unit, digits = 1))`}{\m}}{\num{2}} = \qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m}.
+u_\mathrm{B} = (1 - \alpha) \cdot \frac{l}{2} \cdot m = (1 - \num{0,05}) \cdot \frac{\qty{`r as.character(signif(x = caliper_smallest_unit, digits = 1))`}{\m}}{\num{2}} \cdot \num{1} = \qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m}.
 (\#eq:caliper-smallest-unit-by-2)
 \end{align}
 
@@ -2168,7 +2316,7 @@ u_\mathrm{B} = \frac{\qty{`r as.character(signif(x = caliper_smallest_unit, digi
 Järgnevalt tuleb mõõtemääramatused liita, nagu liidetakse vektoreid (avaldis \@ref(eq:caliper-uncertainty) leheküljel `r render_pageref(reference = "eq:caliper-uncertainty")`).
 
 \begin{align}
-u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B}^2} = \sqrt{(\qty{`r as.character(signif(x = caliper_sd_mean, digits = 4))`}{\m})^2 + (\qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m})^2} = \qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}.
+u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B}^2} = \sqrt{(\qty{`r as.character(signif(x = caliper_uncertainty_A, digits = 4))`}{\m})^2 + (\qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m})^2} = \qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}.
 (\#eq:caliper-uncertainty)
 \end{align}
 
@@ -2176,7 +2324,7 @@ Nüüd on mõõtemääramatus arvutatud ja saan keskmise mõõtetulemuse koos se
 
 See tähendab, et minu sõrme jämedus on tõenäosusega \num{0,95} Studenti jaotuse korral vahemikus [\qty{`r as.character(signif(x = caliper_lower, digits = 3))`}{\m}; \qty{`r as.character(signif(x = caliper_upper, digits = 3))`}{\m}].
 
-Suhteline mõõtemääramatus on $\frac{\qty{`r as.character(signif(x = caliper_sd_mean, digits = 2))`}{\m}}{\qty{`r as.character(signif(x = caliper_mean, digits = 3))`}{\m}} = \num{`r as.character(signif(x = caliper_relative, digits = 3))`}$.
+Suhteline mõõtemääramatus on $\frac{\qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}}{\qty{`r as.character(signif(x = caliper_mean, digits = 3))`}{\m}} = \num{`r as.character(signif(x = caliper_relative, digits = 3))`}$.
 
 Joonisel \@ref(fig:caliper-uncertainties) leheküljel `r render_pageref(reference = "fig:caliper-uncertainties")` on esitatud mõõdetud keskväärtus koos mõõtemääramatusega graafiliselt. Graafikule on märgitud neli mõõtmistulemust ja nende seas on suuremalt tähistatud mõõtmistulemuste aritmeetiline keskmine. Mustalt on tähistatud üksiktulemuse standardhälbed, oranžilt aritmeetilise keskmise standardhälbed, roosalt A-tüüpi mõõtemääramatus, roheliselt kogu mõõtemääramatus. Mustalt tähistatud vahemikku mahub \qty{70}{\percent} andmeid. Kui kahekordistada standardhälve, siis sellisesse vahemikku mahuks \qty{95}{\percent} andmeid. Kui kolmekordistada standardhälve, siis sellisesse vahemikku mahuks \qty{99}{\percent} andmeid. Kuna tegeliku väärtus sõltub ka sellest, mitu mõõtmisseeriat tehakse, siis tegelik väärtus on roheliselt tähistatud vahemikus tõenäosusega \qty{68,3}{\percent}. Kui aritmeetilise keskmise standardhälve kahekordistada, siis sellisesse vahemikku mahuks tegelik väärtus tõenäosusega \qty{95,4}{\percent}. Kui aritmeetilise keskmise standardhälve kolmekordistada, siis sellisesse vahemikku mahuks tegelik väärtus tõenäosusega \qty{99,7}{\percent}.
 
@@ -2234,14 +2382,14 @@ librarian::shelf(c(
 ))
 illuminance_se <- as.numeric(mean_se(illuminance)["ymax"] - illuminance_mean) 
 illuminance_uncertainty_A <- caliper_number_student * illuminance_se
-probability <- .95
+
 precision_ratio <- .05
 number_of_least_sigfig = 10
-illuminance_uncertainty_B_1 <- probability * (illuminance_mean * precision_ratio + number_of_least_sigfig)
+student_inf <- quantile(StudentsT(df = Inf), probability_for_Student)
+illuminance_uncertainty_B_1 <- student_inf * (illuminance_mean * precision_ratio + number_of_least_sigfig) / 3
 
 illuminance_smallest_unit <- 1
-student_inf <- quantile(StudentsT(df = Inf), alpha)
-illuminance_uncertainty_B_2 <- student_inf * illuminance_smallest_unit / 2
+illuminance_uncertainty_B_2 <- probability * illuminance_smallest_unit / 2
 
 illuminance_uncertainty <- sqrt(illuminance_uncertainty_A^2 + illuminance_uncertainty_B_1^2 + illuminance_uncertainty_B_2^2)
 illuminance_uncertainty_relative <- illuminance_uncertainty / illuminance_mean
@@ -2260,24 +2408,24 @@ x_4 = \qty{`r as.character(illuminance[4])`}{\lux}.
 (\#eq:illuminance-x)
 \end{align}
 
-Mõõtetulemuste aritmeetiline keskmine on \qty{`r as.character(illuminance_mean)`}{\m}. A-tüüpi mõõtemääramatus nelja mõõtmise ja \num{95}-\% tõenäosuse korral on \qty{`r as.character(signif(x = illuminance_uncertainty_A, digits = 3))`}{\lux}.
+Mõõtetulemuste aritmeetiline keskmine on \qty{`r as.character(illuminance_mean)`}{\lux}. A-tüüpi mõõtemääramatus nelja mõõtmise ja  tõenäosuse \num{`r as.character(probability)`} korral on \qty{`r as.character(signif(x = illuminance_uncertainty_A, digits = 3))`}{\lux}.
 
 Kuna kõik mõõdetud väärtused on väiksemad kui \qty{10000}{\lux}, siis kasutan tabavuskarakteristikut $\pm \qty{5}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$. Esimese B-tüüpi mõõtemääramatuse saan niimoodi, et arvutan aritmeetilisest keskmisest nimetatud osamäära ja liidan kümnekordse minimaalse ühiku. See on ühese tõenäosusega. Kui tahan kasutada tõenäosust \num{`r as.character(probability)`}, siis korrutan tulemuse sellega läbi (avaldis \@ref(eq:illuminance-uncertainty-B-1) leheküljel `r render_pageref(reference = "eq:illuminance-uncertainty-B-1")`.
 
 \begin{align}
-u_\mathrm{B1} &= p \cdot (\text{täpsusosamäär} \cdot \bar{q} + \text{vähim oluliste tüvenumbrite arv})\\
-&= \num{`r as.character(probability)`} \times (\num{`r as.character(precision_ratio)`} \times \qty{`r as.character(illuminance_mean)`}{\lux} + \qty{`r as.character(number_of_least_sigfig)`}{\lux}) = \qty{`r as.character(signif(x = illuminance_uncertainty_B_1, digits = 2))`}{\lux}.
+u_\mathrm{B1} &= t(\infty, \frac{\alpha}{2}) \cdot \frac{\text{täpsusosamäär} \cdot \bar{q} + \text{vähim oluliste tüvenumbrite arv}}{3}\\
+&= \num{`r as.character(student_inf)`} \times \frac{\num{`r as.character(precision_ratio)`} \times \qty{`r as.character(illuminance_mean)`}{\lux} + \qty{`r as.character(number_of_least_sigfig)`}{\lux}}{3} = \qty{`r as.character(signif(x = illuminance_uncertainty_B_1, digits = 2))`}{\lux}.
 (\#eq:illuminance-uncertainty-B-1)
 \end{align}
 
 Väikseim ühik on \qty{`r as.character(illuminance_smallest_unit)`}{\lux}. Kuna sisendeid on ainult üks, siis teine B-tüüpi mõõtemääramatus on pool väikseimat ühikut korrutatuna lõputu arvu mõõtmiste Studenti teguriga antud tõenäosuse korral (avaldis \@ref(eq:illuminance-uncertainty-B-2) leheküljel `r render_pageref(reference = "eq:illuminance-uncertainty-B-2")`.
 
 \begin{align}
-u_\mathrm{B2} = t_{\infty, p} \cdot \frac{\text{väikseim ühik}}{2} = \num{`r as.character(signif(x = student_inf, digits = 4))`} \times \frac{\qty{`r as.character(illuminance_smallest_unit)`}{\lux}}{2} = \qty{`r as.character(signif(x = illuminance_uncertainty_B_2, digits = 3))`}{\lux}.
+u_\mathrm{B2} = (1 - \alpha) \cdot \frac{\text{väikseim ühik}}{2} = (1 - \num{`r as.character(signif(x = alpha, digits = 4))`}) \times \frac{\qty{`r as.character(illuminance_smallest_unit)`}{\lux}}{2} = \qty{`r as.character(signif(x = illuminance_uncertainty_B_2, digits = 3))`}{\lux}.
 (\#eq:illuminance-uncertainty-B-2)
 \end{align}
 
-Kogu mõõtemääramatuse arvutamiseks tuleb kõik alammõõtemääramatuste vektorid kokku liita nagu [nihiku](#caliper-uncertainty) osas. Seega on kogu mõõtemääramatus \qty{`r as.character(signif(x = illuminance_uncertainty, digits = 3))`}{\lux} ja mõõtetulemuse võib välja kirjutada järgnevalt: \num{`r as.character(probability)`}-\% tõenäosusega nelja mõõtmise korral mõõtsin valgustugevuseks \qty{`r as.character(signif(x = illuminance_mean, digits = 3))`(`r as.character(signif(x = illuminance_uncertainty, digits = 3))`)}{\lux}. Suhteline mõõtemääramatus on samadel tingimustel \num{`r as.character(signif(x = illuminance_uncertainty_relative, digits = 3))`}. Viimane näitab, et mõõtmine on ebaõnnestunud ja see tuleks uuesti läbi viia, sest suhteline viga ületab \qty{10}{\percent}.
+Kogu mõõtemääramatuse arvutamiseks tuleb kõik alammõõtemääramatuste vektorid kokku liita nagu [nihiku](#caliper-uncertainty) osas. Seega on kogu mõõtemääramatus \qty{`r as.character(signif(x = illuminance_uncertainty, digits = 3))`}{\lux} ja mõõtetulemuse võib välja kirjutada järgnevalt: tõenäosusega \num{`r as.character(probability)`} nelja mõõtmise korral mõõtsin valgustugevuseks \qty{`r as.character(signif(x = illuminance_mean, digits = 3))`(`r as.character(signif(x = illuminance_uncertainty, digits = 3))`)}{\lux}. Suhteline mõõtemääramatus on samadel tingimustel \num{`r as.character(signif(x = illuminance_uncertainty_relative, digits = 3))`}. Viimane näitab, et mõõtmine on ebaõnnestunud ja see tuleks uuesti läbi viia, sest suhteline viga ületab \qty{10}{\percent}.
 
 Joonisel \@ref(fig:illuminance-uncertainties) leheküljel `r render_pageref(reference = "fig:illuminance-uncertainties")` on esitatud valgustugevuse mõõtmise tulemused keskväärtuse ja mõõtemääramatustega: mustaga on tähistatud A-, oranžiga B1-, roosaga B2-tüüpi ja rohelisega kogu mõõtemääramatus. Sellelt jooniselt näeme, kui palju mingit tüüpi mõõtemääramatus antud juhul mõju avaldab.
 

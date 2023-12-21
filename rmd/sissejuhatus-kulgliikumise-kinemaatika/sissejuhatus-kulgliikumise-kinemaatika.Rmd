@@ -34,13 +34,44 @@ kehtivust kooskõla eksperimendiga.
 
 ### Õppesisu
 
-Füüsika kui loodusteadus. Füüsika kui nähtavushorisonte edasi nihutav teadus. Mikro-, makro- ja
-megamaailm. Loodusteaduslik meetod (1-1). Vaatlus, eksperiment, mudeli loomine (1-2). Mudeli järelduste kontroll
-ning mudeli areng (1-2). Mõõtmine ja mõõtetulemus (1-3). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
-ja vastavate kokkulepete areng (1-4). Rahvusvaheline mõõtühikute süsteem (SI) (1-4). Mõõteriistad ja mõõtevahendid (1-3).
-Mõõteseadus. Mõõtemääramatus ning selle hindamine (1-3). Mõõtetulemuste analüüs (1-7).
-Põhjuslikkus ja juhuslikkus füüsikas (6-5). Füüsika tunnetuslik ja ennustuslik väärtus. Füüsikaga seotud ohud (26-6).
-Üldprintsiibid.
+1. Füüsika kui loodusteadus.
+
+2. Füüsika kui nähtavushorisonte edasi nihutav teadus.
+
+3. Mikro-, makro- ja
+megamaailm.
+
+4. Loodusteaduslik meetod (1-1).
+
+5. Vaatlus, eksperiment, mudeli loomine (1-2).
+
+6. Mudeli järelduste kontroll
+ning mudeli areng (1-2).
+
+7. Mõõtmine ja mõõtetulemus (1-3).
+
+8. Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+9. Mõõtühikud
+ja vastavate kokkulepete areng (1-4).
+
+10. Rahvusvaheline mõõtühikute süsteem (SI) (1-4). 
+
+11. Mõõteriistad ja mõõtevahendid (1-3).
+
+12. Mõõteseadus. 
+
+13. Mõõtemääramatus ning selle hindamine (1-3).
+
+14. Mõõtetulemuste analüüs (1-7).
+
+15. Põhjuslikkus ja juhuslikkus füüsikas (6-5).
+
+16. Füüsika tunnetuslik ja ennustuslik väärtus.
+
+17. Füüsikaga seotud ohud (26-6).
+
+18. Üldprintsiibid.
 
 1
 6: 5
@@ -57,9 +88,50 @@ mõõtühikute süsteem
 taatlemine
 : protseduur, mille käigus pädev taatluslabor või teavitatud asutus kontrollib mõõtevahendi vastavust kehtestatud nõuetele ja märgistab nõuetele vastavaks tunnistatud mõõtevahendi taatlusmärgisega[@mtevahendite]
 
-loodus (1-2), loodusteadus (1-1), füüsika (1-1), mõõtevahend (1-3), taatlemine, nähtavushorisont, makro-, mikro- ja
-megamaailm; vaatlus, hüpotees, eksperiment, mõõtmine (1-1, 1-3),
-mõõtemääramatus (1-3), mõõtesuurus, mõõdetava suuruse väärtus, mõõtetulemus
+loodus (1-2)
+: inimest ümbritsev ja inimesest sõltumatult eksisteeriv keskkond[@ebook_changing_movement]
+
+loodusteadus (1-1)
+: teadus, mis annab loodusnähtustele teaduslikke kirjeldusi ja seletusi ning ennustab loodusnähtusi[@ebook_changing_movement]
+
+füüsika (1-1)
+: loodusteadus, mis eelistatult täppisteaduslike meetoditega uurib loodust ja tekitab looduse kõige üldisemad mudelid[@ebook_changing_movement]
+
+mõõtevahend (1-3)
+: tehniline vahend, mida kasutatakse mõõtmiseks kas üksi või koos lisaseadmetega[@ebook_changing_movement]
+
+nähtavushorisont
+: piir, kuni milleni on vaatlejal või inimkonnal tervikuna olemas eksperimentaalselt kontrollitud teadmised füüsikaliste objektide kohta[@ebook_changing_movement]
+
+makromaailm
+: maailm, mille moodustavad inimesest mõõtmete poolest mitte väga palju erinevad objektid[@ebook_changing_movement]
+
+mikromaailm
+: maailm, mille moodustavad inimesest mõõtmete poolest palju väiksemad objektid tüüpilise mõõtmega, mis jääb alla ühe mikromeetri (miljondiku meetri)[@ebook_changing_movement]
+
+megamaailm
+: maailm, mille moodustavad inimesest mõõtmete poolest palju suuremad objektid tüüpilise mõõtmega, mis on üle ühe megameetri (miljoni meetri ehk 1000 km)[@ebook_changing_movement]
+
+vaatlus
+: meelelise info kogumine loodusobjekti omaduste kohta objekti mõjutamata, protsessidesse sekkumata[@ebook_changing_movement]
+
+hüpotees
+: katselist kontrollimist vajav teaduslikult põhjendatud oletus[@ebook_changing_movement]
+
+eksperiment
+: looduse objekti eesmärgipärane mõjutamine või uuritava loodusnähtuse kunstlik esilekutsumine kontrollitavates tingimustes, mõõtmine (1-1, 1-3)[@ebook_changing_movement]
+
+mõõtemääramatus (1-3)
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@ebook_changing_movement]
+
+mõõtesuurus
+: nähtuse, keha või aine oluline omadus, mida saab teistest omadustest eristada ja arvuliselt kirjeldada[@ebook_changing_movement]
+
+mõõdetava suuruse väärtus
+: konkreetse suuruse arvuline määrang, mida väljendatakse arvväärtuse ehk mõõtarvu ja mõõtühiku korrutisena[@ebook_changing_movement]
+
+mõõtetulemus
+: mõõtmise teel saadud mõõtesuuruse väärtus[@ebook_changing_movement]
 
 1: 1-4
 
@@ -2078,9 +2150,9 @@ kiirendus (2: 4, 5, 8)
 
 Kava:
 
-7. Vabalt langevad objektid[@physics(lk 37-43)]. Näitan, mis meil viga oli, kui me saime ruutjuure alla negatiivse arvu arvutades palli üles jõudmise aega. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Näitasin, mis meil viga oli, kui me saime ruutjuure alla negatiivse arvu arvutades palli üles jõudmise aega. Lahendasime *Free Fall*i variatsiooniülesanded 1-4[@a1dkinpacketpdf(lk 27)].
 
-8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)]. Seda teemat ei käsitlenud.
 
 ### 2023-12-07
 
@@ -2871,27 +2943,158 @@ Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
 
 Kava:
 
-1. *10b*: Arvuline näide: valemid 17, 18, 23, 4, 24. Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletame mõõtemääramatuse üldise valemi alustades leheküljelt 6 ja kasutame lõppvalemi puhul arvulist näidet.
+1. *10b*: Arvuline näide: valemid 17, 18, 23, 4, 24. Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletasime mõõtemääramatuse üldise valemi alustades leheküljelt 6 ja kasutasime lõppvalemi puhul arvulist näidet.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+Jätkasime variatsiooniülesannetega 1.2.9[@a12(lk 32-33)]. Lahendasime alates kolmandast ülesandest. Lahendasime neljanda esimese osani.
+
+\twocolumn
+
+### 2023-12-8
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+*10a*: William esitas konspekti kohe alguses.
+
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]: selgitasin, kuidas valem 12 on valemi 10 laiendus.
 
 2. *10b*: Binoomtõenäosus, binoomjaotus, Poisson' jaotus[@mtmised(lk 23-25)].
 
 6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
-Jätkame variatsiooniülesannetega 1.2.9[@a12(lk 32-33)]. Lahendame alates kolmandast ülesandest.
- *10b*: Lahendame Exercise Préparatoires'st ülesande 8 lõpuni (joonis \@ref(fig:physics-method-uncertainty-pH) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-pH")`).
+Jätkasime variatsiooniülesannetega 1.2.9 lahendades alates neljanda teisest osast[@a12(lk 32-33)]. Lahendasime kuuenda variatsiooniülesandeni.
+ *10b*: Lahendasime Exercise Préparatoires'st ülesande 8 lõpuni (joonis \@ref(fig:physics-method-uncertainty-pH) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-pH")`).
 
-7. Toores hinnang[@physics, lk 11-13].
+7. Toores hinnang[@physics, lk 11-13]. *10b*: Toore hinnangu puhul tegime läbi näite 1-5.
 
-Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+### 2023-12-11
 
-2, 6: 1, 3, 5, 7, 9, 11, 13,
+Kursuse lõpus õpilane:
 
-7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
 
-2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
+6\. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid (1-4);
 
-Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (1-3).
 
-\twocolumn
+Õppesisu:
+
+7. Mõõtmine ja mõõtetulemus (1-3).
+
+8. Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+9. Mõõtühikud
+ja vastavate kokkulepete areng (1-4).
+
+10. Rahvusvaheline mõõtühikute süsteem (SI) (1-4). 
+
+11. Mõõteriistad ja mõõtevahendid (1-3).
+
+13\. Mõõtemääramatus ning selle hindamine (1-3).
+
+14. Mõõtetulemuste analüüs (1-7).
+
+Põhimõisted:
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+mõõtevahend (1-3)
+: tehniline vahend, mida kasutatakse mõõtmiseks kas üksi või koos lisaseadmetega[@ebook_changing_movement]
+
+mõõtemääramatus (1-3)
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@ebook_changing_movement]
+
+mõõtesuurus
+: nähtuse, keha või aine oluline omadus, mida saab teistest omadustest eristada ja arvuliselt kirjeldada[@ebook_changing_movement]
+
+mõõdetava suuruse väärtus
+: konkreetse suuruse arvuline määrang, mida väljendatakse arvväärtuse ehk mõõtarvu ja mõõtühiku korrutisena[@ebook_changing_movement]
+
+mõõtetulemus
+: mõõtmise teel saadud mõõtesuuruse väärtus[@ebook_changing_movement]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+Jätkasime variatsiooniülesannetega 1.2.9 lahendades alates seitsmendast[@a12(lk 32-33)].
+ *10b*: Praktika. Tegimegi praktikat. Mõni jõudis ka kõik valmis. Igatahes tuleb järgmine kord veel teha ja teise rühma jaoks rohkem juhendeid tekitada.
+
+7. Toores hinnang[@physics, lk 11-13]. *10a*: Toore hinnangu osas lahendasime järve ülesande.
+
+### 2023-12-15
+
+Kursuse lõpus õpilane:
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6\. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid (1-4);
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (1-3).
+
+Õppesisu:
+
+7. Mõõtmine ja mõõtetulemus (1-3).
+
+8. Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+9. Mõõtühikud
+ja vastavate kokkulepete areng (1-4).
+
+10. Rahvusvaheline mõõtühikute süsteem (SI) (1-4). 
+
+11. Mõõteriistad ja mõõtevahendid (1-3).
+
+13\. Mõõtemääramatus ning selle hindamine (1-3).
+
+14. Mõõtetulemuste analüüs (1-7).
+
+Põhimõisted:
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+mõõtevahend (1-3)
+: tehniline vahend, mida kasutatakse mõõtmiseks kas üksi või koos lisaseadmetega[@ebook_changing_movement]
+
+mõõtemääramatus (1-3)
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@ebook_changing_movement]
+
+mõõtesuurus
+: nähtuse, keha või aine oluline omadus, mida saab teistest omadustest eristada ja arvuliselt kirjeldada[@ebook_changing_movement]
+
+mõõdetava suuruse väärtus
+: konkreetse suuruse arvuline määrang, mida väljendatakse arvväärtuse ehk mõõtarvu ja mõõtühiku korrutisena[@ebook_changing_movement]
+
+mõõtetulemus
+: mõõtmise teel saadud mõõtesuuruse väärtus[@ebook_changing_movement]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. Praktika.
+
+### 2023-12-18
+
+Füüsika meetodi test.
 
 []{#problems}
 
@@ -3241,18 +3444,18 @@ physics_method_dimensional_analysis <- c(
 	"$\\unit{\\gray} = \\frac{\\unit{\\m\\squared}}{\\unit{\\s\\squared}}$",
 	"$\\unit{\\sievert} = \\frac{\\unit{\\m\\squared}}{\\unit{\\s\\squared}}$",
 	"$\\unit{\\katal} = \\frac{\\unit{\\mole}}{\\unit{\\s}}$",
-	"$A = \\unit{\\m\\squared}$",
-	"$V = \\unit{\\m\\cubed}$",
-	"$v = \\frac{\\unit{\\m}}{\\unit{\\s}}$",
-	"$a = \\frac{\\unit{\\m}}{\\unit{\\s\\squared}}$",
-	"$\\sigma = \\frac{1}{\\unit{\\m}}$",
-	"$\\rho = \\frac{\\unit{\\kilogram}}{\\unit{\\m\\cubed}}$",
-	"$\\rho_\\mathrm{A} = \\unit{\\kilogram\\per\\m\\squared}$",
-	"$\\nu = \\unit{\\m\\cubed\\per\\kilogram}$",
-	"$j = \\unit{\\ampere\\per\\m\\squared}$",
-	"$H = \\unit{\\ampere\\per\\m}$",
-	"$c = \\unit{\\mole\\per\\m\\cubed}$",
-	"$L_\\mathrm{v} = \\unit{\\candela\\per\\m\\squared}$",
+	"$\\frac{A}{\\unit{\\m\\squared}}$",
+	"$\\frac{V}{\\unit{\\m\\cubed}}$",
+	"$\\frac{v}{\\frac{\\unit{\\m}}{\\unit{\\s}}}$",
+	"$\\frac{a}{\\frac{\\unit{\\m}}{\\unit{\\s\\squared}}}$",
+	"$\\frac{\\sigma}{\\frac{1}{\\unit{\\m}}}$",
+	"$\\frac{\\rho}{\\frac{\\unit{\\kilogram}}{\\unit{\\m\\cubed}}}$",
+	"$\\frac{\\rho_\\mathrm{A}}{\\unit{\\kilogram\\per\\m\\squared}}$",
+	"$\\frac{\\nu}{\\unit{\\m\\cubed\\per\\kilogram}}$",
+	"$\\frac{j}{\\unit{\\ampere\\per\\m\\squared}}$",
+	"$\\frac{H}{\\unit{\\ampere\\per\\m}}$",
+	"$\\frac{c}{\\unit{\\mole\\per\\m\\cubed}}$",
+	"$\\frac{L_\\mathrm{v}}{\\unit{\\candela\\per\\m\\squared}}$",
 	"Mille dimensioonid on $[ \\mathrm{L}^2 ]$?
 a) \\unit{\\centi\\meter\\squared}.
 c) \\unit{\\m\\squared}.
@@ -3321,7 +3524,7 @@ a) korrutama \\num{3}'ga.
 d) korrutama $\\frac{\\num{1}}{\\num{9}}$'ga.
 b) korrutama $\\frac{\\num{1}}{\\num{3}}$'ga.
 e) korrutama \\num{6}'ga.
-(f ) korrutama  $\\frac{\\num{1}}{\\num{6}}$'ga.
+f) korrutama  $\\frac{\\num{1}}{\\num{6}}$'ga.
 c) korrutama \\num{9}'ga."
 )
 
@@ -3361,16 +3564,18 @@ Konverteerituna määraks SI põhiajaühiku kohta on see ühe tüvenumbri täpsu
 
 #### Keskmise raskusastmega arvutusülesanded
 
+##### Illustreerimata
+
 Tabelis \@ref(tab:test-physics-method-analytics-at-intermediate-level) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-at-intermediate-level")` on ülesanded, mis on keskmise raskusastmega.
 
 (ref:test-physics-method-baseball) Tavalise pesapalli ümbermõõt on umbes \qty{23}{\centi\m}. Kui pesapallil oleks sama mass ruumalaühiku kohta[@physics, lk 7-8] kui neutronil või prootonil, siis milline oleks selle mass?
 
-(ref:test-physics-method-sailboats) Paljud purjekad on dokitud jahisadamas, mis asub \qty{4,4}{\kilo\m} kaugusel järve vastaskaldal. Vaatate ühte purjekat, sest kui lebate veepiiril, näete lihtsalt selle tekki, kuid mitte ühtegi purjeka külge. Seejärel lähete teisel pool järve asuvale purjekale ja mõõdate, et tekk $d$ on \qty{1,5}{\m} veepinnast kõrgemal. Kasutades @physics, lk 18 arvestades, et $h = \qty{1,5}{\m}$, hinnake Maa raadiust $R$.
+(ref:test-physics-method-sailboats) Paljud purjekad on dokitud jahisadamas, mis asub \qty{4,4}{\kilo\m} kaugusel järve vastaskaldal. Vaatate ühte purjekat, sest kui lebate veepiiril, näete lihtsalt selle tekki, kuid mitte ühtegi purjeka külge. Seejärel lähete teisel pool järve asuvale purjekale ja mõõdate, et tekk $d$ on \qty{1,5}{\m} veepinnast kõrgemal. Kasutades @physics, lk 18 arvestades, et $h = \qty{1,5}{\m}$, hinda Maa raadiust $R$.
 
 ```{r label = "test-physics-method-analytics-at-intermediate-level", echo=FALSE}
 physics_method_analytics_at_intermediate_level <- c(
 	"Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\centi\\volt}, mõõdeti patarei elektriliste potentsiaalide erinevuseks ehk pingeks \\qty{2,85}{\\volt}. Milline on mõõdetud pinge koos täieliku mõõtemääramatusega SI põhiühikuga? Esitan mõõdetud pinge täieliku mõõtemääramatusega ka graafiliselt. Milline on mõõdetud pinge suhteline mõõtemääramatus? Kas mõõtmise tabavuse või täpsuse kohta saab hinnangu anda? Miks?",
-	"Mis on \\num{5,1e4}-\\unit{\\centi\\m} raadiusega ringi pindala ja selle ligikaudne määramatus?",
+	"Milline on \\num{5,1e4}-\\unit{\\centi\\m} raadiusega ringi pindala ja selle ligikaudne määramatus?",
 	"(ref:test-physics-method-baseball)",
 	"Mulle tehakse pakkumine \\num{30}-päevaseks tööks. Saan valida kahe makseviisi vahel: kas (1) \\num{1000} dollarit päevas või (2) üks penn esimesel päeval, kaks senti teisel päeval ja jätkata oma päevapalga kahekordistamist kuni \\num{30}. päevani. Kasutan kiiresti hinnangut oma otsuse tegemiseks ja põhjendan seda.",
 	"(ref:test-physics-method-sailboats)"
@@ -3395,14 +3600,41 @@ print_table(
 
 ```
 
+\newpage
+
+##### Illustreeritud
+
+Avalda tuletõrje veevõtu koha sildi pindala koos mõõtemääramatusega meetrites (joonis \@ref(fig:physics-method-test-firefighting) leheküljel `r render_pageref(reference="fig:physics-method-test-firefighting")`)! Arvutada suhteline mõõtemääramatus!
+
+```{r label="physics-method-test-firefighting", echo=FALSE, fig.cap="Veevõtu koha silt on ristkülikukujuline mõõtkavas $\\frac{\\num{1}}{\\num{4.0243}}$."}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/4-tuletõrje-IMG_20231217_204856.jpg")
+
+```
+
+Ristkülikukujulise sildi pikem külg on \blank{\qty{0,600}{\m}} pikk, lühem külg \blank{\qty{0,199}{\m}} pikk. Väikseim ühik on \qty{1}{\milli\m}. \num{95}-\unit{\percent} tõenäosusega on B2-tüüpi mõõtemääramatus \blank{\qty{1}{\milli\m}}$\times$ \blank{\num{0,95}} = \blank{\qty{0,95}{\milli\m}}. See on kogu mõõtemääramatus ühe dimensiooni kohta.
+
+Ristküliku pindala avaldub valemiga $\blank{S = x \cdot y}.$ Seega on ristküliku pindala keskväärtus $(\blank{\qty{0,600}{\m}}) \times (\blank{\qty{0,199}{\m}}) = \blank{\qty{0,1194}{\m\squared}}$.
+
+Ristküliku pindala mõõtemääramatus avaldub valemiga $(\blank{(\frac{\partial(x \cdot y)}{\partial(x)} \cdot u)^2}\\ + \blank{(\frac{\partial(x \cdot y)}{\partial(y)} \cdot u)^2})^\frac{1}{2}\\ = \blank{u \cdot \sqrt{y^2 + x^2}}$.
+
+Arvutan pindala mõõtemääramatuse: $(\blank{\qty{9,5e-4}{\m}})\\
+\times \sqrt{(\blank{\qty{0,199}{\m}})^2 + (\blank{\qty{0,600}{\m}})^2} = \blank{\qty{0,000600533}{\m}}.$
+
+Ristküliku pindala on 95-% tõenäosuse korral $(\blank{\num{0,1194}} \pm \blank{\num{0,0006}}) \blank{\unit{\m}}$.
+
+Suhteline mõõtemääramatus on $\frac{\blank{\qty{0,0006}{\m}}}{\blank{\qty{0,1194}{\m}}} = \blank{\num{0,00502}}$.
+
 #### Väljakutsuvad arvutusülesanded
 
 Tabelis \@ref(tab:test-physics-method-analytics-with-challenge) leheküljel `r render_pageref(reference = "tab:test-physics-method-analytics-with-challenge")` on ülesanded, mis on kõige suurema väljakutsega.
 
+(ref:test-physics-method-tennis-racquet-string-tension) Keelestasin oma *instinct*-reketi, mille pea suurus on \qty{645}{\centi\m\squared}, keelestu 2021-08-27 pikkupidi pingega \num{28} STI. See viimane akronüüm tähendab keelepinge indeksit, mis on ajaloolisel põhjusel ekvivalentne ühikuga \unit{kg}. Seetõttu on ka võetud jõu arvutamise aluseks ajalooline gravitatsioonist tingitud kiirendus suurusega \qty{980.665}{\centi\m\per\s\squared}, mis korrutatakse STI'ga, et saada pinge. *GAMMA STT* on vahend, millega saab mõõta, kui palju jõudu on vaja, et painutada keelt. Selle juhendis on kirjas, et kui keelestu kaotab \qtyrange{5}{6}{\kg} pinget, tuleb vana keel välja võtta ja uus asemele panna. Täna, kui ma seda ülesannet loon, mõõtsin välja järgmised seitse pinget: \qty{29}{\kg}, \qty{24}{\kg}, \qty{22}{\kg}, \qty{26}{\kg}, \qty{28}{\kg}, \qty{23}{\kg}, \qty{24}{\kg}. Mõõtmisvahendi väikseim ühik on \qty{1}{\kg}. Tennisereketi keelestu vibreerimise fundamentaalse sageduse $f$ saab arvutada juurides keelestu pinge $T$ suhet neljakordsesse ühe raamist raamini keele pikkuse $l$ ja massi $m$ korrutisse[@531096720010801]. Keele pikkus raamist raamini on ruutjuur keelestu pindalast $S$. Mass on ruumala $V$ ja tiheduse $\rho$ korrutis. Raamist raamini keele ruumala on keele ristlõike pindala ja raamist raamini keele pikkuse korrutis. Keele ristlõike pindala on keele jämeduse $d$ ruudu ja pii korrutise jagatis neljaga. Keele jämedust mõõtsin digitaalse kaliperiga, mille väikseim ühik on \qty{0,01}{\milli\m}, ja sain järgmised tulemused: \qty{1,41}{\milli\m}, \qty{1,30}{\milli\m}, \qty{1,34}{\milli\m}, \qty{1,33}{\milli\m}, \qty{1,45}{\milli\m}, \qty{1,26}{\milli\m}, \qty{1,30}{\milli\m}. Keel on tõenäoliselt mingi plastikusegu ja eeldan, et selle tihedus on \qty{1,34}{\gram\per\cubic\centi\m}[@a2006_measuring]. Väljenda selle reketi keelestu fundamentaalsagedus koos mõõtemääramatusega nii arvuliselt kui graafiliselt! Arvuta suhteline mõõtemääramatus ja mõõteviga arvestades esialgset pinget! Kas ma peaksin keelestu välja vahetama?
+
 ```{r label = "test-physics-method-analytics-with-challenge", echo=FALSE}
 physics_method_analytics_with_challenge <- c(
-	"Jõumoment $L$ on jõu $F$ ja jõuõla pikkuse $x$ korrutis. Jõud on massi $m$ ja kiirenduse $g$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $t$ jagatis. Kiirus on vahemaa $s$ ja ajavahemiku $t$ jagatis. Sihitist kaaluti seitse korda digikaaluga, mille väikseim ühik on \\qty{0,1}{\\kilogram}, ja saadi järgmised tulemused: \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram} ja \\qty{78,8}{\\kilogram}. Jõuõla pikkuseks mõõdeti mõõdulindiga, mille väikseim ühik on \\num{0,0625} in., \\num{13,8125} in. $g = \\qty{9,82}{\\m\\per\\s\\squared}$. Milline on jõumomendi väärtus koos mõõtemääramatusega SI ühikuga? Esitan jõumomendi väärtused ja keskmise väärtuse mõõtemääramatusega ka graafiliselt. Milline on jõumomendi suhteline mõõtemääramatus? Milline on suhteline viga, kui aktsepteeritavaks väärtuseks on \\qty{109}{\\mega\\g\\m\\squared\\per\\s\\squared}? Kas mõõtmine oli tabav? Kas mõõtmine oli täpne?",
-	"Elektrivälja tugevus $E$ on elektriliste potentsiaalide erinevuse ehk pinge $U$ ja vahemaa $x$ suhe. Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\milli\\volt} ja mille mõõtetäpsuseks on märgitud $\\pm(\\qty{0,8}{\\percent} + \\num{1})$ mõõdeti aku pooluste elektriliste potentsiaalide erinevuseks \\qty{1,260}{\\volt}. Aku nominaalpingeks on märgitud \\qty{1,2}{\\volt}. Mõõdulindiga, mille väikseim ühik on \\qty{1}{\\milli\\m}, mõõdeti aku pikkuseks \\qty{4,3}{\\centi\\m}. Milline on elektrivälja tugevuse väärtus koos mõõtemääramatusega SI ühikuga? Esitan elektrivälja tugevuse väärtuse mõõtemääramatusega ka graafiliselt. Milline on elektrivälja tugevuse suhteline mõõtemääramatus? Milline on mõõtmistulemuse suhteline viga? Kas mõõtmine oli tabav? Kas mõõtetäpsuse kohta saab hinnangu anda? Miks?"
+	"Jõumoment $L$ on jõu $F$ ja jõuõla pikkuse $x$ korrutis. Jõud on massi $m$ ja kiirenduse $g$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $t$ jagatis. Kiirus on vahemaa $s$ ja ajavahemiku $t$ jagatis. Sihitist kaaluti seitse korda digikaaluga, mille väikseim ühik on \\qty{0,1}{\\kilogram}, ja saadi järgmised tulemused: \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,9}{\\kilogram}, \\qty{78,8}{\\kilogram}, \\qty{78,8}{\\kilogram} ja \\qty{78,8}{\\kilogram}. Jõuõla pikkuseks mõõdeti mõõdulindiga, mille väikseim ühik on \\num{0,0625} in., \\num{13,8125} in. $g = \\qty{9,82}{\\m\\per\\s\\squared}$. Milline on jõumomendi väärtus koos mõõtemääramatusega SI ühikuga? Esitan jõuõla pikkuse ja massi keskväärtuse koos mõõtemääramatustega samal graafikul. Milline on jõumomendi suhteline mõõtemääramatus? Milline on suhteline viga, kui aktsepteeritavaks väärtuseks on \\qty{109}{\\mega\\g\\m\\squared\\per\\s\\squared}? Kas mõõtmine oli tabav? Kas mõõtmine oli täpne?",
+	"Elektrivälja tugevus $E$ on elektriliste potentsiaalide erinevuse ehk pinge $U$ ja vahemaa $x$ suhe. Elektriline potentsiaal on võimsuse $P$ ja voolutugevuse $I$ suhe. Võimsus on töö $W$ ja ajavahemiku $t$ suhe. Töö on jõu $F$ ja vahemaa $x$ korrutis. Jõud on massi $m$ ja kiirenduse $a$ korrutis. Kiirendus on kiiruse $v$ ja ajavahemiku $x$ jagatis. Kiirus on vahemaa $x$ ja ajavahemiku $t$ jagatis. Multimeetriga, mille väikseim ühik on \\qty{1}{\\milli\\volt} ja mille mõõtetäpsuseks on märgitud $\\pm(\\qty{0,8}{\\percent} + \\num{1})$ mõõdeti aku pooluste elektriliste potentsiaalide erinevuseks \\qty{1,260}{\\volt}. Aku nominaalpingeks on märgitud \\qty{1,2}{\\volt}. Mõõdulindiga, mille väikseim ühik on \\qty{1}{\\milli\\m}, mõõdeti aku pikkuseks \\qty{4,3}{\\centi\\m}. Milline on elektrivälja tugevuse väärtus koos mõõtemääramatusega SI ühikuga? Esitan elektrivälja tugevuse väärtuse mõõtemääramatusega ka graafiliselt. Milline on elektrivälja tugevuse suhteline mõõtemääramatus? Milline on mõõtmistulemuse suhteline viga? Kas mõõtmine oli tabav? Kas mõõtetäpsuse kohta saab hinnangu anda? Miks?",
+	"(ref:test-physics-method-tennis-racquet-string-tension)"
 )
 
 number_of_elements_in_physics_method_analytics_with_challenge <- length(physics_method_analytics_with_challenge)
@@ -3423,6 +3655,8 @@ print_table(
   column_spec(2, width = "32em") 
 
 ```
+
+\newpage
 
 #### Struktuur
 
@@ -3448,11 +3682,37 @@ print_table(
 
 #### Vihjed
 
+##### Aia juures
+
 Tüvenumbrid on kõik nullist erinevad numbrid ja nullid, välja arvatud nullist erinevate numbrite vahel ja enne neid.
 
 Mikro- tähendab miljondikku.
 
 SI põhiajaühik tuleneb ingliskeelsest väljendist, mis tähendab "teine väike".
+
+##### Tuletõrje
+
+B2-tüüpi mõõtemääramatus on esitatud valemina, milles
+
+$u_\mathrm{B2}$ on B2-tüüpi mõõtemääramatus,
+
+$l$ on väikseim ühik ja
+
+$m$ on mõõtevahendi kasutamisega võimalike veategemise kordade arv ühes mõõtmises:
+
+$$u_\mathrm{B2} = (1 - \alpha) \cdot \frac{l}{2} \cdot m.$$
+
+Ristküliku pindala avaldub valemiga $S = x \cdot y.$
+
+Kui talitluse sisendeid on rohkem kui üks, nt pindala arvutamiseks pikkus ja laius, siis talitluse väärtuse mõõtemääramatuse saab arvutada kõige üldisemalt kasutades valemit, milles
+
+$f$ on talitlus
+
+$i$ on indeks, mis näitab, mitmenda sisendiga on tegemist
+
+$n$ on sisendite arv:
+
+$$u = \sqrt{\sum_{i = 1}^n[(\frac{\partial{\mathrm{f}}}{\partial{x_i}} \cdot u_{x_i})^2]}.$$
 
 #### Tulemused
 
@@ -3466,13 +3726,49 @@ tasks_of_physics_method<- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
+    0, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   ),
   c( # 2
     0, # 1. Babiy, Alisa
@@ -3481,13 +3777,49 @@ tasks_of_physics_method<- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
+    0, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   ),
   c( # 3
     0, # 1. Babiy, Alisa
@@ -3496,13 +3828,49 @@ tasks_of_physics_method<- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
+    0, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   ),
   c( # 4
     0, # 1. Babiy, Alisa
@@ -3511,13 +3879,49 @@ tasks_of_physics_method<- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
+    0, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   ),
   c( # 5
     0, # 1. Babiy, Alisa
@@ -3526,13 +3930,49 @@ tasks_of_physics_method<- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
     0, # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
     0, # 12. Volkova, Darja
-    0 # Volkova, Jeva
+    0, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   )
 )
 
@@ -3544,13 +3984,49 @@ tasks_of_physics_method<- data.frame(
     0.1, # Kustov, Vladimir
     0,
     0.1, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0.1, # Šesterikov, Daniil
     0,
     0,
     0,
     0,
     0, 
-    0.1 # Volkova, Jeva
+    0.1, # Volkova, Jeva
+		0.05, # 	"1. Freiberg, Karl",
+		0.05, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0.1, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0.1, # 	"8. Meerbach, Sten",
+		0.1, # 	"9. Männa, Karl Marcus",
+		0.1, # 	"10. Ojala, Mikk Kaspar",
+		0.05, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0.1, # 	"13. Stankevitš, Marita",
+		0.05, # 	"14. Vaap, Gloria",
+		0.1, # 	"15. Vaarmets, Kauri",
+		0.05, # 	"16. Vahi, Maarja",
+		0.1, # 	"17. Vetkal, Miron",
+		0.05, # 	"18. Viimsalu, Lisell",
+		0.05, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0.1, # 	"4. Koppelmann, Tõnis",
+		0.03, # 	"5. Kosk, Annabel",
+		0.05, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0.05, # 	"9. Lillemaa, Liisbet",
+		0.05, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0.05, # 	"14. Tee, Kaspar Taavet",
+		0.05, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0.1 # 	"17. Ööpik, Tanel"
   ),
   c( # 2
     0.06, # Alisa Babiy
@@ -3559,13 +4035,49 @@ tasks_of_physics_method<- data.frame(
     0,
     0.09, # Malõšev, Polina
     0,
+    0, # 7. Salnikova, Veronika
     0,
     0,
     0,
     0,
     0,
     0, 
-    0.07  # Volkova, Jeva
+    0.07, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0.07, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0.2, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0.05, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0.2, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0.05, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   ),
   c( # 3
     0,
@@ -3574,13 +4086,49 @@ tasks_of_physics_method<- data.frame(
     0.35, # Kustov, Vladimir
     0,
     0,
+    0, # 7. Salnikova, Veronika
     0,
     0.15, # Žigadlo, Grigori
     0,
     0,
     0,
     0.45, # Volkova, Darja
-    0
+    0, # Volkova, Jeva
+		0.07, # 	"1. Freiberg, Karl",
+		0.5, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0.5, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0.49, # 	"8. Meerbach, Sten",
+		0, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0.2, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0, # 	"13. Stankevitš, Marita",
+		0.43, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0.5, # 	"16. Vahi, Maarja",
+		0.3, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0.5, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0.25, # 	"4. Koppelmann, Tõnis",
+		0.3, # 	"5. Kosk, Annabel",
+		0.5, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0.5, # 	"9. Lillemaa, Liisbet",
+		0.34, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0.11, # 	"14. Tee, Kaspar Taavet",
+		0.5, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0.1 # 	"17. Ööpik, Tanel"
   ),
   c( # 4
     0,
@@ -3589,13 +4137,49 @@ tasks_of_physics_method<- data.frame(
     0.15, # Kustov, Vladimir
     0.36, # Malõšev, Polina
     0.24, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0,
     0.6, # Žigadlo, Grigori
     0,
     0,
     0,
     0, 
-    0.42 # Volkova, Jeva
+    0.42, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0.01, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0.4, # 	"8. Meerbach, Sten",
+		0.1, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0.4, # 	"13. Stankevitš, Marita",
+		0, # 	"14. Vaap, Gloria",
+		0.6, # 	"15. Vaarmets, Kauri",
+		0.02, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0, # 	"18. Viimsalu, Lisell",
+		0, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0.6, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0.2, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   ),
   c( # 5
     0,
@@ -3604,13 +4188,49 @@ tasks_of_physics_method<- data.frame(
     0,
     0,
     0,
+    0, # 7. Salnikova, Veronika
     0,
     0,
     0,
     0,
     0,
     0, 
-    0
+    0, # Volkova, Jeva
+		0, # 	"1. Freiberg, Karl",
+		0, # 	"2. Freiberg, Rasmus",
+		0, # 	"3. Halman, Lisette",
+		0.06, # 	"4. Hein, Emily",
+		0, # 	"5. Kabel, Kristofer",
+		0, # 	"6. Kunimägi, William",
+		0, # 	"7. Lest, Helena",
+		0.04, # 	"8. Meerbach, Sten",
+		0.01, # 	"9. Männa, Karl Marcus",
+		0, # 	"10. Ojala, Mikk Kaspar",
+		0, # 	"11. Preimann, Kirke Mari",
+		0, # 	"12. Schults, Klea Karola",
+		0.15, # 	"13. Stankevitš, Marita",
+		0.02, # 	"14. Vaap, Gloria",
+		0, # 	"15. Vaarmets, Kauri",
+		0, # 	"16. Vahi, Maarja",
+		0, # 	"17. Vetkal, Miron",
+		0.05, # 	"18. Viimsalu, Lisell",
+		0.15, # 	"1. Haug, Henry",
+		0, # 	"2. Kattai, Elisabeth",
+		0, # 	"3. Kidra, Kristofer",
+		0, # 	"4. Koppelmann, Tõnis",
+		0, # 	"5. Kosk, Annabel",
+		0, # 	"6. Kuik, Silver",
+		0, # 	"7. Lepasepp, Albert",
+		0, # 	"8. Liiva, Laura-Liisa",
+		0, # 	"9. Lillemaa, Liisbet",
+		0, # 	"10. Pajur, Arbo",
+		0, # 	"11. Saavan, Ranelle",
+		0, # 	"12. Silivask, Sten Marten",
+		0, # 	"13. Tamm, Kärol",
+		0, # 	"14. Tee, Kaspar Taavet",
+		0, # 	"15. Vaikre, Hanna",
+		0, # 	"16. Õismets, Grethel",
+		0 # 	"17. Ööpik, Tanel"
   )
 )
 
@@ -3845,6 +4465,7 @@ tasks_of_kinematics <- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
@@ -3860,6 +4481,7 @@ tasks_of_kinematics <- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
@@ -3875,6 +4497,7 @@ tasks_of_kinematics <- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
@@ -3886,12 +4509,13 @@ tasks_of_kinematics <- data.frame(
   c( # 4
     0, # 1. Babiy, Alisa
     0, # Donat Irhin
-    0.75*(.16+.16+.136), # 3. Kimasks, Stanislavs
-    0, # Kustov, Vladimir
-    0.75 * (.16 + .16 + .112), # Malõšev, Polina
+    0.75*(.16+.16), # 3. Kimasks, Stanislavs # enne 0.75*(.16+.16+.136)
+    0.75 * .16, # Kustov, Vladimir # enne 0
+    0, # Malõšev, Polina # enne 0.75 * (.16 + .16 + .112)
     0.75 * (.16 + .16 + .112), # Šerstobitov, Mihhail
+    0.75 * .16, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
-    0, # Žigadlo, Grigori
+    0.75 * 0.16, # Žigadlo, Grigori # enne 0
     0.75 * .16, # 9. Žukova, Darja
     0.75 * (.16 + .16 + .112), # 10. Trubilko, Vladislav
     0, # 11. Tšerkesov, Demid
@@ -3905,6 +4529,7 @@ tasks_of_kinematics <- data.frame(
     0, # Kustov, Vladimir
     0, # Malõšev, Polina
     0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
     0, # 7. Šesterikov, Daniil
     0, # Žigadlo, Grigori
     0, # 9. Žukova, Darja
@@ -3915,7 +4540,7 @@ tasks_of_kinematics <- data.frame(
   )
 )
 
- build_table_with_grades(tasks = tasks_of_kinematics, names = names_10, caption = "Kinemaatika")
+# build_table_with_grades(tasks = tasks_of_kinematics, names = names_10, caption = "Kinemaatika")
 
 ```
 

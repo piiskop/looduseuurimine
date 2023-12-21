@@ -554,7 +554,7 @@ Kava:
 
 Kava:
 
-*12a*: Kertu näitab alguses konspekti ette.
+*12a*: Kertu ei näidanud alguses konspekti ette.
 
 1.  *12b*: Rõhk ja Pascali põhimõte. Lahendame ülesande 15[@physics(lk 392)] (joonis \@ref(fig:physics-of-micro-and-mega-world-pressure-pascal-s-principle-15) leheküljel `r render_pageref(reference="fig:physics-of-micro-and-mega-world-pressure-pascal-s-principle-15")`).
 
@@ -563,11 +563,38 @@ Kava:
     
     ```
 
-5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: Lahendame kodused ülesanded 13 ja 23. Õpikust alustame näitest 13-7. 
+5. Rõhu mõõtmine; mõõdikud ja baromeeter[@giancoli, lk 266-267; @physics, lk 372-374]. *12a*: Lahendasime kodused ülesanded 13 ja 23. Õpikust alustasime näitest 13-7. 
 
 6. Harku õhurõhuga tutvumine[@proweatherlive_proweatherlive].
 
-8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12b*: Alustame ülesandest C.
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12a*: Selgitasin ujuvuse esimese juhu - puidust kast ujus vees.
+*12b*: Alustasime ülesandest C. Selgitasin 13-12 lahendust kuni lõppvalemi tuletamiseni. Jätsin iseseisvaks lõpuni lahendamiseks.
+
+### 2023-12-11
+
+Kursuse lõpus õpilane:
+
+1. kirjeldab aine olekuid mikrotasandil (13-1, 17-1);
+
+2. võrdleb reaalgaasi ja ideaalgaasi mudeleid (17: 7-10, 18-3).
+
+Õppesisu:
+
+Aine olekud mikrotasemel (17-1).
+
+Kava:
+
+8. Ujuvus ja Archimedese põhimõte[@giancoli, lk 268-272; @physics, lk 374-378]. Õpilasel tekkis küsimus, et kuidas siiski näites *13-8* ämbrid sisuga ühepalju kaaluvad ja leidsin seletuse[@a4]. *12a*: Selgitasin ujuvuse juhud peale esimese, mis oli, et puidust kast ujus vees. Seejärel lahendasime ülesandest 13-8. Jõudsime näite 13-8 läbi teha.
+Alguses ei olnud mitte ükski õpilane kohal. Millalgi nad tulid ilma ilmsete süümepiinadeta, et hilinesid. Kuna õpetamise ajast võtaks olulise osa ära, et teha iga õpilase kohta neli klikki, et puudumine hilinemiseks ümber märkida, siis ma ei muutnud puudumisandmeid. Selle peale kõik peale ühe õpilase lahkusid ja nii me tegime üks-ühele õpet.
+*12b*: Alustasime näitest 13-13.
+
+9. Aine aatomiteooria[@physics(lk 492-494)]. Jõudsin selgitada aine eri faaside struktuurid joonise 17-2 järgi. Einsteinist ja aatomi mõõtmest veel ei rääkinud.
+
+10. Ideaalse gaasi seadus[@physics(lk 503-504)].
+
+### 2023-12-18
+
+Pindpinevuse ja kapillaarsuse teadmiste-oskuste kaardistamine.
 
 \twocolumn
 
@@ -621,3 +648,283 @@ Selgita!
 ### Pindpinevus[@physics(lk 396)]
 
 73) Arvutage @physics(lk 386)'i joonisel 13-37 traadi liigutamiseks vajalik jõud, kui see hoiab seebilahust (tabel 13-4 @physics(lk 387)'s) ja traadi pikkus on \qty{21,5}{\centi\m}.
+
+\onecolumn
+
+## Testid
+
+```{r label="micro-megaworld-test-surface-tension-results", echo=FALSE}
+
+tasks_of_surface_tension <- data.frame(
+  c( # 1
+		0, # "1. Aamisepp, Gert Kevin"
+		0, # "2. Ehtmaa, Pillery"
+		0, # "3. Haava, Ken Marti"
+		0, # "4. Hupponen, Lisandra"
+		0, # "5. Juhkam, Janete"
+		0, # "6. Katt, Iason"
+		0, # "7. Koppas, Henri"
+		0, # "8. Kosarv, Lotta Eleanora"
+		0, # "9. Künk, Kaspar"
+		0, # "10. Lenk, Kätriin"
+		0, # "11. Leppiksaar, Lisete"
+		0, # "12. Lest, Hendrik"
+		0, # "13. Lugovaja, Natalia"
+		0.1 * 1, # "14. Lõhmus, Katrina"
+		0, # "15. Miljand, Marleen"
+		0, # "16. Mohan, Marc"
+		0, # "17. Mäesalu, Elisabeth"
+		0, # "18. Oepa, Karolin"
+		0, # "19. Ojala, Ott Kaarel"
+		0, # "20. Piisang, Egle"
+		0, # "21. Schotter, Laura"
+		0, # "22. Skuratovitš, Alik"
+		0, # "23. Säälik, Lisett"
+		0, # "24. Tamm, Kertu"
+		0, # "25. Tulk, Robert"
+		00.1 * 1, # "26. Urgard, Triinu-Liis"
+		00.1 * 1, # "27. Äkke, Mirjam"
+		0, # "1. Alviste, Rando"
+		00.1 * 1, # "2. Aumeste, Mia Rianna"
+		0, # "3. Blei, Ralf"
+		0, # "4. Blei, Rasmus"
+		0, # "5. Evisalu, Eneli"
+		0, # "6. Kerno, Kristel"
+		0, # "7. Koljada, Kert"
+		0, # "8. Laanemets, Robin"
+		0.1 * 1, # "9. Liiker, Lisete"
+		0, # "10. Luik, Oliver"
+		00.1 * 1, # "11. Moosar, Magnus"
+		0, # "12. Nurm, Sander Egert"
+		00.1 * 1, # "13. Piirmets, Miia-Mari"
+		0, # "14. Piisang, Rasmus"
+		0, # "15. Raun, Kevin"
+		0, # "16. Rikkinen, Artur Rihhard"
+		0, # "17. Rungi, Kerttu"
+		0, # "18. Salujõe, Mihkel"
+		0.1 * 1, # "19. Sepp, Marie"
+		0.1 * 1, # "20. Taukul, Karina"
+		0, # "21. Tomson, Erkko Villem"
+		00.1 * 1, # "22. Vahtmäe, Elis"
+		0.1 * 1, # "23. Vaikla, Helina"
+	  0 # "24. Volkov, Hether"
+  ),
+  c( # 2
+		0, # "1. Aamisepp, Gert Kevin"
+		0, # "2. Ehtmaa, Pillery"
+		0, # "3. Haava, Ken Marti"
+		0, # "4. Hupponen, Lisandra"
+		0, # "5. Juhkam, Janete"
+		0, # "6. Katt, Iason"
+		0, # "7. Koppas, Henri"
+		0, # "8. Kosarv, Lotta Eleanora"
+		0, # "9. Künk, Kaspar"
+		0, # "10. Lenk, Kätriin"
+		0, # "11. Leppiksaar, Lisete"
+		0, # "12. Lest, Hendrik"
+		0, # "13. Lugovaja, Natalia"
+		0.2 * .7, # "14. Lõhmus, Katrina"
+		0, # "15. Miljand, Marleen"
+		0, # "16. Mohan, Marc"
+		0, # "17. Mäesalu, Elisabeth"
+		0, # "18. Oepa, Karolin"
+		0, # "19. Ojala, Ott Kaarel"
+		0, # "20. Piisang, Egle"
+		0, # "21. Schotter, Laura"
+		0, # "22. Skuratovitš, Alik"
+		0, # "23. Säälik, Lisett"
+		0, # "24. Tamm, Kertu"
+		0, # "25. Tulk, Robert"
+		0.2 * .7, # "26. Urgard, Triinu-Liis"
+		0.2 * .7, # "27. Äkke, Mirjam"
+		0, # "1. Alviste, Rando"
+		0, # "2. Aumeste, Mia Rianna"
+		0, # "3. Blei, Ralf"
+		0, # "4. Blei, Rasmus"
+		0, # "5. Evisalu, Eneli"
+		0, # "6. Kerno, Kristel"
+		0, # "7. Koljada, Kert"
+		0, # "8. Laanemets, Robin"
+		0, # "9. Liiker, Lisete"
+		0, # "10. Luik, Oliver"
+		0, # "11. Moosar, Magnus"
+		0, # "12. Nurm, Sander Egert"
+		0, # "13. Piirmets, Miia-Mari"
+		0, # "14. Piisang, Rasmus"
+		0, # "15. Raun, Kevin"
+		0, # "16. Rikkinen, Artur Rihhard"
+		0, # "17. Rungi, Kerttu"
+		0, # "18. Salujõe, Mihkel"
+		0, # "19. Sepp, Marie"
+		0, # "20. Taukul, Karina"
+		0, # "21. Tomson, Erkko Villem"
+		0, # "22. Vahtmäe, Elis"
+		0, # "23. Vaikla, Helina"
+	  0 # "24. Volkov, Hether"
+  ),
+  c( # 3
+		0, # "1. Aamisepp, Gert Kevin"
+		0, # "2. Ehtmaa, Pillery"
+		0, # "3. Haava, Ken Marti"
+		0, # "4. Hupponen, Lisandra"
+		0, # "5. Juhkam, Janete"
+		0, # "6. Katt, Iason"
+		0, # "7. Koppas, Henri"
+		0, # "8. Kosarv, Lotta Eleanora"
+		0, # "9. Künk, Kaspar"
+		0, # "10. Lenk, Kätriin"
+		0, # "11. Leppiksaar, Lisete"
+		0, # "12. Lest, Hendrik"
+		0, # "13. Lugovaja, Natalia"
+		0.5 * 1, # "14. Lõhmus, Katrina"
+		0, # "15. Miljand, Marleen"
+		0, # "16. Mohan, Marc"
+		0, # "17. Mäesalu, Elisabeth"
+		0, # "18. Oepa, Karolin"
+		0, # "19. Ojala, Ott Kaarel"
+		0, # "20. Piisang, Egle"
+		0, # "21. Schotter, Laura"
+		0, # "22. Skuratovitš, Alik"
+		0, # "23. Säälik, Lisett"
+		0, # "24. Tamm, Kertu"
+		0, # "25. Tulk, Robert"
+		0.5 * 1, # "26. Urgard, Triinu-Liis"
+		0.5 * 1, # "27. Äkke, Mirjam"
+		0, # "1. Alviste, Rando"
+		0, # "2. Aumeste, Mia Rianna"
+		0.5 * .42, # "3. Blei, Ralf"
+		00.5 * .42, # "4. Blei, Rasmus"
+		0, # "5. Evisalu, Eneli"
+		0, # "6. Kerno, Kristel"
+		0, # "7. Koljada, Kert"
+		0, # "8. Laanemets, Robin"
+		0, # "9. Liiker, Lisete"
+		0, # "10. Luik, Oliver"
+		0, # "11. Moosar, Magnus"
+		00.5 * .42, # "12. Nurm, Sander Egert"
+		0, # "13. Piirmets, Miia-Mari"
+		0, # "14. Piisang, Rasmus"
+		0, # "15. Raun, Kevin"
+		0, # "16. Rikkinen, Artur Rihhard"
+		0, # "17. Rungi, Kerttu"
+		0, # "18. Salujõe, Mihkel"
+		0, # "19. Sepp, Marie"
+		0, # "20. Taukul, Karina"
+		0, # "21. Tomson, Erkko Villem"
+		0, # "22. Vahtmäe, Elis"
+		0, # "23. Vaikla, Helina"
+	  0 # "24. Volkov, Hether"
+  ),
+  c( # 4
+		0, # "1. Aamisepp, Gert Kevin"
+		0, # "2. Ehtmaa, Pillery"
+		0, # "3. Haava, Ken Marti"
+		0, # "4. Hupponen, Lisandra"
+		0, # "5. Juhkam, Janete"
+		0, # "6. Katt, Iason"
+		0, # "7. Koppas, Henri"
+		0, # "8. Kosarv, Lotta Eleanora"
+		0, # "9. Künk, Kaspar"
+		0, # "10. Lenk, Kätriin"
+		0, # "11. Leppiksaar, Lisete"
+		0, # "12. Lest, Hendrik"
+		0, # "13. Lugovaja, Natalia"
+		0.75 * .55, # "14. Lõhmus, Katrina"
+		0, # "15. Miljand, Marleen"
+		0, # "16. Mohan, Marc"
+		0, # "17. Mäesalu, Elisabeth"
+		0, # "18. Oepa, Karolin"
+		0, # "19. Ojala, Ott Kaarel"
+		0, # "20. Piisang, Egle"
+		0, # "21. Schotter, Laura"
+		0, # "22. Skuratovitš, Alik"
+		0, # "23. Säälik, Lisett"
+		0, # "24. Tamm, Kertu"
+		0, # "25. Tulk, Robert"
+		00.75 * .55, # "26. Urgard, Triinu-Liis"
+		0.75 * .55, # "27. Äkke, Mirjam"
+		0, # "1. Alviste, Rando"
+		0, # "2. Aumeste, Mia Rianna"
+		0, # "3. Blei, Ralf"
+		0, # "4. Blei, Rasmus"
+		0, # "5. Evisalu, Eneli"
+		0, # "6. Kerno, Kristel"
+		0, # "7. Koljada, Kert"
+		0, # "8. Laanemets, Robin"
+		0.75 * 1, # "9. Liiker, Lisete"
+		0, # "10. Luik, Oliver"
+		0, # "11. Moosar, Magnus"
+		0, # "12. Nurm, Sander Egert"
+		0.75 * 1, # "13. Piirmets, Miia-Mari"
+		0, # "14. Piisang, Rasmus"
+		0, # "15. Raun, Kevin"
+		0, # "16. Rikkinen, Artur Rihhard"
+		0, # "17. Rungi, Kerttu"
+		0, # "18. Salujõe, Mihkel"
+		0.75 * 1, # "19. Sepp, Marie"
+		0, # "20. Taukul, Karina"
+		0, # "21. Tomson, Erkko Villem"
+		0.75 * 1, # "22. Vahtmäe, Elis"
+		0.75 * 1, # "23. Vaikla, Helina"
+	  0 # "24. Volkov, Hether"
+  ),
+  c( # 5
+		0, # "1. Aamisepp, Gert Kevin"
+		0, # "2. Ehtmaa, Pillery"
+		0, # "3. Haava, Ken Marti"
+		0, # "4. Hupponen, Lisandra"
+		0, # "5. Juhkam, Janete"
+		0, # "6. Katt, Iason"
+		0, # "7. Koppas, Henri"
+		0, # "8. Kosarv, Lotta Eleanora"
+		0, # "9. Künk, Kaspar"
+		0, # "10. Lenk, Kätriin"
+		0, # "11. Leppiksaar, Lisete"
+		0, # "12. Lest, Hendrik"
+		0, # "13. Lugovaja, Natalia"
+		0, # "14. Lõhmus, Katrina"
+		0, # "15. Miljand, Marleen"
+		0, # "16. Mohan, Marc"
+		0, # "17. Mäesalu, Elisabeth"
+		0, # "18. Oepa, Karolin"
+		0, # "19. Ojala, Ott Kaarel"
+		0, # "20. Piisang, Egle"
+		0, # "21. Schotter, Laura"
+		0, # "22. Skuratovitš, Alik"
+		0, # "23. Säälik, Lisett"
+		0, # "24. Tamm, Kertu"
+		0, # "25. Tulk, Robert"
+		0, # "26. Urgard, Triinu-Liis"
+		0, # "27. Äkke, Mirjam"
+		0, # "1. Alviste, Rando"
+		0, # "2. Aumeste, Mia Rianna"
+		0, # "3. Blei, Ralf"
+		0, # "4. Blei, Rasmus"
+		0, # "5. Evisalu, Eneli"
+		0, # "6. Kerno, Kristel"
+		0, # "7. Koljada, Kert"
+		0, # "8. Laanemets, Robin"
+		0, # "9. Liiker, Lisete"
+		0, # "10. Luik, Oliver"
+		0, # "11. Moosar, Magnus"
+		0, # "12. Nurm, Sander Egert"
+		0, # "13. Piirmets, Miia-Mari"
+		0, # "14. Piisang, Rasmus"
+		0, # "15. Raun, Kevin"
+		0, # "16. Rikkinen, Artur Rihhard"
+		0, # "17. Rungi, Kerttu"
+		0, # "18. Salujõe, Mihkel"
+		0, # "19. Sepp, Marie"
+		0, # "20. Taukul, Karina"
+		0, # "21. Tomson, Erkko Villem"
+		0, # "22. Vahtmäe, Elis"
+		0, # "23. Vaikla, Helina"
+	  0 # "24. Volkov, Hether"
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_surface_tension, names = names_12, caption = "Pindpinevuse ja kapillaarsuse")
+
+```
+
+\twocolumn
