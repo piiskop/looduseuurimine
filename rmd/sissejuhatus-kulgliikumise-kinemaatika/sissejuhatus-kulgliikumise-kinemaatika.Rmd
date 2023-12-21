@@ -4152,7 +4152,7 @@ tasks_of_physics_method<- data.frame(
 		0, # 	"5. Kabel, Kristofer",
 		0.01, # 	"6. Kunimägi, William",
 		0, # 	"7. Lest, Helena",
-		0.4, # 	"8. Meerbach, Sten",
+		0, # 	"8. Meerbach, Sten",
 		0.1, # 	"9. Männa, Karl Marcus",
 		0, # 	"10. Ojala, Mikk Kaspar",
 		0, # 	"11. Preimann, Kirke Mari",
