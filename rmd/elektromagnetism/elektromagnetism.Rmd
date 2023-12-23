@@ -1721,7 +1721,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
     0,
     0.05, # Sten-Erik Mihkelson
     0,
-    0,
+    0.1, # Robert-Heinrich Oolma
     0.1, # Anni Kaisi Paavel
     0.1, # Karl Reiter
     0,
