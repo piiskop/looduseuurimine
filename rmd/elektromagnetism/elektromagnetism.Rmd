@@ -1897,7 +1897,7 @@ tasks_of_from_static_electricity_to_coulomb_law <- data.frame(
   )
 )
 
-# build_table_with_grades(tasks = tasks_of_from_static_electricity_to_coulomb_law, names = names_11, caption = "Staatikast Coulomb' seaduseni")
+ build_table_with_grades(tasks = tasks_of_from_static_electricity_to_coulomb_law, names = names_11, caption = "Staatikast Coulomb' seaduseni")
 
 ```
 

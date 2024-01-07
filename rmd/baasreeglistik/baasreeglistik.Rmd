@@ -12,7 +12,7 @@ include_external_graphics("rmd/baasreeglistik/physics-measuring.svg")
 ```
 
 ```{r label = "activities-of-learning-uncertainty", echo=FALSE, fig.cap = "Mõõtemääramatuse otsustamine.", out.height="96%"}
-include_external_graphics("rmd/baasreeglistik/physics-uncertainty.svg")
+include_external_graphics("rmd/baasreeglistik/füüsika-Mõõtmine-Mõõtmine.drawio.pdf")
 
 ```
 
