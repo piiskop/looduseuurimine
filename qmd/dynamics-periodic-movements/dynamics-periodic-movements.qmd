@@ -1,0 +1,249 @@
+---
+author:
+  - name: 'peacecop kalmer:'
+bibliography: dynamics-periodic-movements.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+title: |
+    | Dünaamika ja
+    | perioodilised liikumised
+output-file: dynamics-periodic-movements.html
+format:
+  revealjs:
+    incremental: false
+    multiplex:
+      url: 'http://manual-for-rstudio.ons.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+language: et.yml
+crossref:
+  eq-prefix: avaldis
+  fig-prefix: joonis   # (default is "Figure")
+
+---
+
+## Hinnatavad tegevused
+
+- lühitestid ja
+- kontrolltöö
+
+## Üldtingimused
+
+- enda nutiseadmed eemale
+- tõlkimiseks ja kalkuleerimiseks õpetaja arvuti kuni 30 s järjest
+- muu arvuti puudutamine mittelubatud kõrvalise abi kasutamine
+- enda konspekti tohib kasutada
+
+## Lühitestid
+
+- uues teemas lahendamised,
+- kooliväliseks lahendamiseks jäetud ülesande lahendamine ja
+- lähiajalugu
+
+## Uues teemas lahendamised
+
+- protsendipunktid kursuse lõpphinde osamäärale juurde
+- abita lahendus: üks protsendipunkt
+- abiga lahendus: pool protsendipunkti
+- võrdne võimalus
+- esimesena esimene soovija
+- hinded võrdse kaaluga
+
+## Lähiajalugu
+
+- esimesed kümme minutit
+- eelneva õppekorra temaatika
+- üks ülesanne
+- kõik kohalolevad õpilased
+- hinded võrdse kaaluga
+- koondhinde eeldus osalus vastavalt hinde kriteeriumosamäärale
+
+## Kontrolltöö
+
+- kursuse lõpus
+- fakultatiivne
+- senise koondhinde parandamisvõimalus
+- viis eri raskusega ülesannet
+- SI
+- õpilase enda loodud ülesanded
+
+## Konspekt
+
+- õpilase enda õpik
+- soovituslik *A4*-vormingus ja ruuduline
+- soovituslik kasutada eri värve
+- soovituslik sisujuht lehekülgede numeratsiooniga
+- kontrollin õppekordade lõpus ja tagasisidestan
+
+## Kohalolu
+
+Õppesessiooni ruumist väljas võibkäia üksnes üks õpilane korraga,kui pole minuga kokku lepitudteistmoodi.
+
+## Kordamine
+
+Nõustamine ja järelevastamine le-pitakse iga kord eraldi kokku.
+
+## Teemad
+
+- dünaamika
+- perioodilised liikumised
+
+## Jõud: simulatsioon[@forces]
+
+```{r label="sim-forces", echo=FALSE}
+knitr::include_url("https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html") 
+
+```
+
+## Jõud: ülesanded
+
+Lahendame ülesanded 1-5[@ekoolikottee] (@fig-qr-force-ekoolikott).
+
+```{r label="fig-qr-force-ekoolikott", echo=FALSE, fig.cap="Jõud - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229894#229895-Kehade-vastastikmoju-Joud", ecl="H")
+plot(code)
+
+```
+
+## Jõudude liitmine: eksperiment
+
+toolil oleva õpilase koos tooliga ühe käega tõstmise eksperiment
+
+## Jõudude liitmine: simulatsioon[@vector]
+
+```{r label="sim-adding-forces", echo=FALSE}
+knitr::include_url("https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_all.html") 
+
+```
+
+## Jõudude liitmine: ülesanded
+
+Lahendame ülesanded 1-7[@ekoolikottee] (@fig-qr-adding-forces-ekoolikott).
+
+```{r label="fig-qr-adding-forces-ekoolikott", echo=FALSE, fig.cap="Jõudude liitmine - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229896#229897-Joudude-vektoriaalne-liitmine-Resultantjoud", ecl="H")
+plot(code)
+
+```
+
+## Newtoni seadused: I
+
+Kui kehale mõjuvate jõudude resultant on null, on keha kas paigal või liigub ühtlaselt ja sirgjooneliselt[@ekoolikottee].
+
+## Newtoni seadused: I: ülesanded
+
+Lahendame ülesanded 1-6[@ekoolikottee] (@fig-qr-newton-i-ekoolikott).
+
+```{r label="fig-qr-newton-i-ekoolikott", echo=FALSE, fig.cap="Newtoni esimene seadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229898#229899-Newtoni-esimene-seadus", ecl="H")
+plot(code)
+
+```
+
+## Newtoni seadused: II: näitamine
+
+pallid[@ekoolikottee]
+
+## Newtoni seadused: II: inertsus
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+## Newtoni seadused: II: mass
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+## Newtoni seadused: II
+
+Keha kiirendus on võrdeline kehale mõjuva jõuga ja pöördvõrdeline keha massiga[@ekoolikottee] (@eq-newton-ii).
+
+$$
+\vec{\bf{a}} = \frac{\vec{\bf{F}}}{m}
+$${#eq-newton-ii}
+
+## Newtoni seadused: II: ülesanded
+
+Lahendame ülesanded 1-7[@ekoolikottee] (@fig-qr-newton-ii-ekoolikott).
+
+```{r label="fig-qr-newton-ii-ekoolikott", echo=FALSE, fig.cap="Newtoni teine seadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229900#229901-Newtoni-teine-seadus-Keha-mass", ecl="H")
+plot(code)
+
+```
+
+## Newtoni seadused: III: näitamine
+
+- sõrm ja laud
+
+- sõrm ja pall[@ekoolikottee]
+
+## Newtoni seadused: III
+
+Kaks keha mõjutavad teineteist alati absoluutväärtuselt võrdsete ja vastassuunaliste jõududega[@ekoolikottee] (@eq-newton-iii).
+
+$$
+F_\text{1; 2} = -F_\text{2; 1}
+$${#eq-newton-iii}
+
+Tingimused:
+
+- jõud alati paaris ja sama liiki,
+
+- ei tasakaalusta üksteist, sest mõjuvad eri kehadele.
+
+## Newtoni seadused: III: ülesanded
+
+Lahendame kõik ülesanded[@ekoolikottee] (@fig-qr-newton-iii-ekoolikott).
+
+```{r label="fig-qr-newton-iii-ekoolikott", echo=FALSE, fig.cap="Newtoni kolmas seadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229902#229903-Newtoni-kolmas-seadus", ecl="H")
+plot(code)
+
+```
+
+## Gravitatsiooniseadus
+
+Kaks keha tõmbuvad teineteise poole jõuga, mis on võrdeline nende masside korrutisega ja pöördvõrdeline vahekauguse ruuduga[@haynes_2014_crc(lk 1-1); @ekoolikottee] (@eq-gravitation).
+
+$$
+G = 6,673 84(80) × 10^{−11} \mathrm{m^3 kg^{-1} s^{-2}}.\\
+F = \frac{G \cdot m_\text{1} \cdot m_\text{2}}{r^2}.
+$${#eq-gravitation}
+
+## Gravitatsiooniseadus: ülesanded
+
+Lahendame ülesanded 1-3, 5[@ekoolikottee] (@fig-qr-gravitation-ekoolikott).
+
+```{r label="fig-qr-gravitation-ekoolikott", echo=FALSE, fig.cap="Gravitatsiooniseadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229904#229905-Gravitatsioon-Gravitatsiooniseadus", ecl="H")
+plot(code)
+
+```
+
+## Välised allikad
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
+
+[Looduseuurimine](/)

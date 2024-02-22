@@ -1,0 +1,938 @@
+
+# Kinemaatika Kohila Gümnaasiumi Kalender
+
+## 2023-09-04
+
+Teaduse olemus.
+
+Mudelid, teooriad ja seadused.
+
+Kava:
+
+1. Tutvustus.
+
+2. Ajurünnak õpitu kohta.
+
+3. Plickers: *Teaduse olemus*[@giancoli, lk 2-4].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave!
+
+## 2023-09-08
+
+Teaduse olemus.
+
+Füüsika ja selle seos teiste valdkondadega.
+
+Mudelid, teooriad ja seadused.
+
+Eesmärgina õpilane oskab
+
+1. selgitada mõisteid loodus, maailm ja vaatleja; hindab füüsika kohta teiste loodusteaduste seas ning
+määratleb füüsika uurimisala;
+
+2. määratleda looduse struktuuritasemete skeemil makro-, mikro- ja megamaailma ning nimetab nende
+erinevusi;
+
+3. selgitada loodusteadusliku meetodi olemust ja teab, et eksperimenditulemusi üldistades jõutakse
+mudelini.
+
+Õppesisu: Füüsika kui loodusteadus. Füüsika kui nähtavushorisonte edasi nihutav teadus. Mikro-, makro- ja
+megamaailm. Loodusteaduslik meetod. Vaatlus, eksperiment, mudeli loomine. Mudeli järelduste kontroll
+ning mudeli areng.
+
+Kava:
+
+1. Arutelu teaduse olemuse üle[@fsikaline, lk 3-5]. Mis on füüsika? Millised on teised loodusteadused? Milline tööriistade komplekt toetab kõiki teadusi?
+
+2. Ajurünnak oma tulevikusoovide ja füüsikaseoste kohta[@giancoli, lk 4-5].
+
+3. Plickers: *Mudelid, teooriad ja seadused*[@giancoli, lk 5].
+
+4. Arutelu mudelite, teooriate ja seaduste üle[@loodusteaduslik].
+
+5. Teaduste piiride kirjeldamine[@looduse, @mikro].
+
+## 2023-09-11
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
+
+Ühikute teisendamine[@giancoli, lk 11-12].
+
+Eesmärk: Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+0. *10.b*: Plickers: *Mudelid, teooriad ja seadused*.
+
+1. Mudelid.
+
+2. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers; @giancoli, lk 9-10].
+
+3. Näidete esitamine põhjusliku seose kohta[@giancoli, lk 128].
+
+4. Füüsika üldprintsiibid ja nende kehtivuse tõestamine[@teised].
+
+5. Plickers: *Teaduse olemus* ning *Mudelid, teooriad ja seadused*.
+
+6. Ühik[@mtmised, lk 7].
+
+7. Mõõtühikute eesliidetega tutvumine[@mthikute; @giancoli, lk 10; @mdulint].
+
+8. Harjutused mõõtühikute eesliidetega.
+
+## 2023-09-15
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+Õppesisu: Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Kava:
+
+0. *10.b*: Plickers: *Mudelid, teooriad ja seadused*.
+
+1. Ümardamine[@rounding].
+
+2. Tüvenumbrid[@sigfigpdf; @significantfigurespdf; @physics, lk 4-6; @introduction; @rounding].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+\onecolumn
+
+## 2023-09-18
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
+
+Ühikute teisendamine[@giancoli, lk 11-12].
+
+Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+2. Tüvenumbrite harjutamine[@significantfigurespdf, lk 2].
+
+3. Ühikute teisendamine[@physics, lk 1, 9-10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+
+7. Toores hinnang[@physics, lk 11-13].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-09-22
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@giancoli, lk 8-11].
+
+Ühikute teisendamine[@giancoli, lk 11-12].
+
+Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
+
+Eesmärgid:
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+\twocolumn
+
+## 2023-09-25
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Alustame ülesandest *F*. Jõudsime *A4*-lehelt osa ülesandeid lahendatud. *10b*: Jätkame *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10b*: selgitasin SI.
+
+\onecolumn
+
+## 2023-10-02
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151]. *10a*: Jätkasime *A4*-lehel olevate ühikute teisendamise ülesannete lahendamist.
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10a*: Jõudsin seletada SI. *10b*: Alustasime prantsuskeelsete ülesannete lahendamisega. Prantsuskeelsete ülesannete lehelt jõuti eelviimase plokini.
+
+## 2023-10-6
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. *10a*: Alustasime prantsuskeelsete SI ülesannete lahendamist. Prantsuskeelsete SI ülesannete lehelt jõudsime kõige kaugemale kolmanda plokini.
+*10b*: Jätkasime prantsuskeelsete ülesannete lahendamist. Prantsuskeelselt ühikute teisendamise lehelt kõik lahendatud 1.1.5.
+
+\twocolumn
+
+## 2023-10-9
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkame *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist. Jõudsime neljanda plokini.
+*10b*: Alustasime *Physics 151* ülesannete lahendamist[@physics_151]. *Physics 151* lehelt jõudsime kolmanda plokini. 
+
+\onecolumn
+
+## 2023-10-13
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+1. [Vigadest õppimine](qmd/physics-method/physics-method.html).
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkasime *1.1.5* ehk prantsuskeelsete SI ülesannete lahendamist. *1.1.5* ehk prantsuskeelsed ülesanded lahendatud.
+*10b*: Jätkasime *Physics 151* ülesannete lahendamist[@physics_151]. Jõudsime lõpuni.
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs. *10b*: Jõudsime pendli valemi testitud.
+
+\twocolumn
+
+## 2023-10-16
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Alustasime *Physics 151* ülesannete lahendamist[@physics_151]. Jõudsime *Physics 151* lehtedelt lahendada Mironi kaudu 2.h'ni, kristoferi kaudu 3'ni.
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs. *10b*: Tõnis lahendas tahvli abil näite  *1-10*.
+
+Gretheliga leppisime kokku konsultatsiooni: 2023-10-16 seitsmes periood. Ta ei tulnud.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni:
+
+*10b*: Lahendada [ülesanded](#problems): *15*, *17*, *19*, *21*, *23*, *25*, *27*, *29*, *31*, *33*, *55* ja *57*!
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+
+3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
+
+5: 55, 57,
+
+2, 6: 1, 3, 5, 7, 9, 11, 13,
+
+7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
+
+2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+\onecolumn
+
+## 2023-10-20
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4.  SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Jätkasime *Physics 151* lehtedelt 2.i'st ja 4'st[@physics_151]. Lahendasime kuuendani. Seitsmes on irrelevantne. Kaheksandas läks vist miski valesti (joonis \@ref(fig:converting-from-m-per-s-into-mi-per-h) leheküljel `r render_pageref(reference = "fig:converting-from-m-per-s-into-mi-per-h")`).
+
+    ```{r label = "converting-from-m-per-s-into-mi-per-h", echo = FALSE, fig.cap = "Mis on konverteerimises meetrist sekundi kohta miilideks tunni kohta valesti?"}
+    include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/IMG_20231020_111150.jpg")
+    
+    ```
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10b*: Selgitasin A-tüüpi mõõtemääramatuse.
+
+7. Toores hinnang[@physics, lk 11-13].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+
+3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
+
+5: 55, 57,
+
+2, 6: 1, 3, 5, 7, 9, 11, 13,
+
+7: 35, 37, 39, 41, 43, 45, 47, 49, 51, 53.
+
+2-7: 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79.
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+\twocolumn
+
+## 2023-10-30
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+4.  SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11; @physics_151]. *10a*: Mis läks konverteerimises joonisel \@ref(fig:converting-from-m-per-s-into-mi-per-h) leheküljel `r render_pageref(reference = "fig:converting-from-m-per-s-into-mi-per-h")` nihu?
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. *10a*: Jõudsime näite 1-10 komponendid dimensionaalanalüüsida.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10b*: Giancoli õpikust rääkisin mõõtemääramatuse ära, samuti eestikeelse õpiku näited.
+
+## 2023-11-3
+
+Ühikud, standardid ja Le Système international d’unités (SI)[@physics, lk 6-9].
+
+Ühikute teisendamine[@physics, lk 10].
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+3. Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. *10a*: Näite 1-10 magnituudi arvutasime. 
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Selgitasin tabavuse, täpsuse, mõõtemääramatuse tüübid, B-tüüpi määramatuste olemuse, väikseima ühiku kasutamise, mõõtemääramatuse kirjutamise stiilid, liitmõõtemääramatuse, milles tüübid. Järgmine kord alustame A-tüüpi mõõtemääramatuse eksperimendiga. *10b*: -ga jätkame.Näitasin "The Beginner’s Guide to
+Uncertainty of Measurement"-st asjad ette, näitasin liitmõõtemääramatuse valemi mitme sisendi puhul. Järgmisena võtame ette prantsuskeelse juhendi ja teeme selle näited läbi eri moel alustades näitest 1.2.2 @a12(lk 10)'l.
+
+Grethel tuli reedes seitsmenda perioodi või kaheksanda perioodi kestel konsultatsiooni.
+
+## 2023-11-6
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustasime A-tüüpi mõõtemääramatuse eksperimendiga. Tegime läbi A-tüüpi mõõtemääramatuse arvutamise eksperimendi.
+ *10b*: -ga jätkasime. Võtsime ette prantsuskeelse juhendi. Jõudsime prantsuskeelse näite 1.2.5 läbi teha[@a12(lk 28-29)].
+
+7. Toores hinnang[@physics, lk 11-13].
+
+## 2023-11-13
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. Ühiku tuletamine[@mtmised(lk 8)] (*10b*).
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Kogesime eestikeelse õpiku näiteid. Prantsuskeelse mõõtemääramatuse juhendi osa 1.2.7 läbitud.
+ *10b*: Alustasime prantsuskeelse näitega 1.2.6[@a12(lk 30-31)]. Tegime prantsuskeelse näite 1.2.6 läbi.
+
+7. Toores hinnang[@physics, lk 11-13].
+
+\onecolumn
+
+## 2023-11-17
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. *10a*: Mõõtevead ja mõõtemääramatus: metoodilise vea selgitamine[@mtmised(lk 9)]. *10b*: Keskmine, ruutkeskmine hälve, dispersioon: tõenäosusjaotuse joonis[@mtmised(lk 11)] või Studenti koefitsientide tabel[@mtmised(lk 12); @create; @rstudio].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Alustasime @a12(lk 27) peatükiga 1.2.8. Selgitasin näite 1.2.5 ekstreemumite ja suhteliste määramatuste meetodi. Jõudsin tuletise osas rääkida parabooli puutujast. Helena näitab järgmine kord konspekti ette.
+ *10b*: Alustasime @a12 (lk 32-33) variatsiooniülesannete lahendamist. Lahendasime Exercise Préparatoires'st esimesed kaks ülesannet.
+
+\twocolumn
+
+## 2023-11-20
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. *10a*: Helena ei näidanud ette oma konspekti, milles on näha kõik algusest peal, kaasa arvatud viimase kontaktsessiooni ülestähendused. *10b*: Mõõtemääramatuse leidmine kaudse mõõtmise korral [@mtmised(lk 18-19)].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: Selgitasin tuletamist alates parabooli puutujast. Jõudsin tuletada muutuja astme.
+@a12(lk 28-29) oleva näitega 1.2.5 jätkame näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. 
+ *10b*: Lahendasime Exercise Préparatoires'st ülesanded 3-4.
+
+## 2023-11-24
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tutvustasin liitmõõtemääramatuse viit olukorda ja vastavaid reegleid, kui on mitu sisendit.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+ *10b*: Lahendasime Exercise Préparatoires'st ülesannetest viienda. 
+
+\onecolumn
+
+## 2023-11-27
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+0. *10b*: Histogramm[@mtmised(lk 21-22)].
+
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletasin teise reeglini lk 4.
+
+6.  Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+@a12(lk 28-29) oleva näitega 1.2.5 jätkasime näidates, kuidas saab liitmääramatuse arvutada osatuletiste kaudu. 1.2.5 ja 1.2.6 lahendasime, viimases ilmselt tegin vea (joonis \@ref(fig:physics-method-uncertainty-1-2-6) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-1-2-6")`). 
+
+    ```{r label="physics-method-uncertainty-1-2-6", echo=FALSE, fig.cap="Mõõtemääramatuse valemi tuletamine üldreegli järgi. Kus on viga?"}
+    include_external_graphics(path="rmd/sissejuhatus-kulgliikumise-kinemaatika/1.2.6-IMG_20231127_092822.jpg")
+    
+    ```
+
+\twocolumn
+
+## 2023-12-1
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletame mõõtemääramatuse üldise valemi alustades leheküljelt 6.
+
+2. *10b*: Binoomtõenäosus[@mtmised(lk 23-24)].
+
+6.  Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+@a12(lk 30-31) oleva näitega 1.2.6 jätkasime näidates, kus tegin vea (joonis \@ref(fig:physics-method-uncertainty-1-2-6) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-1-2-6")`).
+Edasi jätkasime variatsiooniülesannetega 1.2.9[@a12(lk 32-33)]. Lahendasime variatsiooniülesannetest esimesed kaks.
+ *10b*: Lahendasime Exercise Préparatoires'st ülesanded 6-7. 8. jõudsime peaaegu lõppfunktsioonini, milles ühel pool kümme astmes pH, teisel pool vesinikiooni pöördväärtus (joonis \@ref(fig:physics-method-uncertainty-pH) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-pH")`).
+
+    ```{r label="physics-method-uncertainty-pH", echo=FALSE, fig.cap="Molaarsuse avaldamine pH kaudu."}
+    include_external_graphics(path="rmd/sissejuhatus-kulgliikumise-kinemaatika/8-IMG_20231201_101926.jpg")
+    
+    ```
+
+\onecolumn
+
+## 2023-12-4
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+1. *10b*: Arvuline näide: valemid 17, 18, 23, 4, 24. Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]. Tuletasime mõõtemääramatuse üldise valemi alustades leheküljelt 6 ja kasutasime lõppvalemi puhul arvulist näidet.
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+Jätkasime variatsiooniülesannetega 1.2.9[@a12(lk 32-33)]. Lahendasime alates kolmandast ülesandest. Lahendasime neljanda esimese osani.
+
+\twocolumn
+
+## 2023-12-8
+
+Mõõtmine ja määramatus; tüvenumbrid[@physics, lk 3-6].
+
+Eesmärgid:
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Kava:
+
+*10a*: William esitas konspekti kohe alguses.
+
+1. *10b*: Mitme sisendi puhul mõõtemääramatus [@a2propagation_of_uncertaintpdf]: selgitasin, kuidas valem 12 on valemi 10 laiendus.
+
+2. *10b*: Binoomtõenäosus, binoomjaotus, Poisson' jaotus[@mtmised(lk 23-25)].
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+Jätkasime variatsiooniülesannetega 1.2.9 lahendades alates neljanda teisest osast[@a12(lk 32-33)]. Lahendasime kuuenda variatsiooniülesandeni.
+ *10b*: Lahendasime Exercise Préparatoires'st ülesande 8 lõpuni (joonis \@ref(fig:physics-method-uncertainty-pH) leheküljel `r render_pageref(reference="fig:physics-method-uncertainty-pH")`).
+
+7. Toores hinnang[@physics, lk 11-13]. *10b*: Toore hinnangu puhul tegime läbi näite 1-5.
+
+## 2023-12-11
+
+Kursuse lõpus õpilane:
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6\. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid (1-4);
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (1-3).
+
+Õppesisu:
+
+7. Mõõtmine ja mõõtetulemus (1-3).
+
+8. Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+9. Mõõtühikud
+ja vastavate kokkulepete areng (1-4).
+
+10. Rahvusvaheline mõõtühikute süsteem (SI) (1-4). 
+
+11. Mõõteriistad ja mõõtevahendid (1-3).
+
+13\. Mõõtemääramatus ning selle hindamine (1-3).
+
+14. Mõõtetulemuste analüüs (1-7).
+
+Põhimõisted:
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+mõõtevahend (1-3)
+: tehniline vahend, mida kasutatakse mõõtmiseks kas üksi või koos lisaseadmetega[@ebook_changing_movement]
+
+mõõtemääramatus (1-3)
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@ebook_changing_movement]
+
+mõõtesuurus
+: nähtuse, keha või aine oluline omadus, mida saab teistest omadustest eristada ja arvuliselt kirjeldada[@ebook_changing_movement]
+
+mõõdetava suuruse väärtus
+: konkreetse suuruse arvuline määrang, mida väljendatakse arvväärtuse ehk mõõtarvu ja mõõtühiku korrutisena[@ebook_changing_movement]
+
+mõõtetulemus
+: mõõtmise teel saadud mõõtesuuruse väärtus[@ebook_changing_movement]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. *10a*: 
+Jätkasime variatsiooniülesannetega 1.2.9 lahendades alates seitsmendast[@a12(lk 32-33)].
+ *10b*: Praktika. Tegimegi praktikat. Mõni jõudis ka kõik valmis. Igatahes tuleb järgmine kord veel teha ja teise rühma jaoks rohkem juhendeid tekitada.
+
+7. Toores hinnang[@physics, lk 11-13]. *10a*: Toore hinnangu osas lahendasime järve ülesande.
+
+## 2023-12-15
+
+Kursuse lõpus õpilane:
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6\. teab ja rakendab rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid (1-4);
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (1-3).
+
+Õppesisu:
+
+7. Mõõtmine ja mõõtetulemus (1-3).
+
+8. Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+9. Mõõtühikud
+ja vastavate kokkulepete areng (1-4).
+
+10. Rahvusvaheline mõõtühikute süsteem (SI) (1-4). 
+
+11. Mõõteriistad ja mõõtevahendid (1-3).
+
+13\. Mõõtemääramatus ning selle hindamine (1-3).
+
+14. Mõõtetulemuste analüüs (1-7).
+
+Põhimõisted:
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+mõõtevahend (1-3)
+: tehniline vahend, mida kasutatakse mõõtmiseks kas üksi või koos lisaseadmetega[@ebook_changing_movement]
+
+mõõtemääramatus (1-3)
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@ebook_changing_movement]
+
+mõõtesuurus
+: nähtuse, keha või aine oluline omadus, mida saab teistest omadustest eristada ja arvuliselt kirjeldada[@ebook_changing_movement]
+
+mõõdetava suuruse väärtus
+: konkreetse suuruse arvuline määrang, mida väljendatakse arvväärtuse ehk mõõtarvu ja mõõtühiku korrutisena[@ebook_changing_movement]
+
+mõõtetulemus
+: mõõtmise teel saadud mõõtesuuruse väärtus[@ebook_changing_movement]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12; @kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6]. Praktika.
+
+## 2023-12-18
+
+Füüsika meetodi test.

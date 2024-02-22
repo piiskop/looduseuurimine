@@ -1,0 +1,308 @@
+
+\twocolumn
+
+# Kinemaatika testid
+
+## Juhend
+
+Lahendan kõik ülesanded. Arvutusülesannete puhul kasutan ülesande lahendamise struktuuri: joonis, sisend(id), väljund(id), arutelu, arvutamine, täislauseline lahend.
+
+## Ülesanded
+
+## Õige ja vale
+
+Märgistan iga vale väite:
+
+\begin{itemize}
+	\item[\faSquareO] Punktmass on keha mudel, mille korral keha massi vaadeldakse koondununa ühte punkti.
+	\item[\faSquareO] Taustsüsteem on taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem.
+	\item[\faSquareO] Kinemaatikas uuritakse, kuidas liikumine toimub.
+	\item[\faSquareO] Kinemaatikas uuritakse, miks liikumine toimub.
+	\item[\faSquareO] Skalaarsel suurusel on nii arvuline väärtus kui ruumiline suund.
+	\item[\faSquareO] Vektoriaalsel suurusel on nii arvuline väärtus kui ruumiline suund.
+\end{itemize}
+
+\newpage
+
+## Valemi selgitamine
+
+Keskmist kiirendust saab arvutada kiiruste ja ajahetkede vahede kaudu järgnevalt:
+$$\bar{A} = \frac{B - F}{I - J},$$
+milles
+
+$A$
+: \blank{kiirendus}, mille üldine tähistus on \blank{$a$} ja mille lihtsaim ühik on $\unit{\m\per\s}$
+
+$B$
+: \blank{lõppkiirus}, mille üldine tähistus on \blank{$v$} ja mille lihtsaim ühik on $\unit{\blank{\m}\per\s}$
+
+$F$
+: \blank{algkiirus}, mille üldine tähistus on $v_0$ ja mille lihtsaim ühik on $\unit{\blank{\m}\per\s}$
+
+$I$
+: \blank{lõpphetk}, mille üldine tähistus on \blank{t} ja mille lihtsaim ühik on \blank{\unit{\s}}
+
+$J$
+: \blank{alghetk}, mille üldine tähistus on $t_0$ ja mille lihtsaim ühik on \blank{\unit{\s}}.
+
+\newpage
+
+## Valgus
+
+Kui kaua võtab aega, et seistes tõkkepuu juures näeksid sa tegevust peatumiskeelu ala vastasotsas (joonis \@ref(fig:kinematics-test-light) leheküljel `r render_pageref(reference="fig:kinematics-test-light")`)?
+
+```{r label="kinematics-test-light", echo=FALSE, fig.cap="Kui pikk on vahemaa tõkkepuust peatumiskeelu ala lõpuni?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/3-valgus-parklas-IMG_20231012_153511.jpg")
+
+
+```
+
+\begin{itemize}
+	\item[\faSquareO] \qty{0,1}{\milli\s}.
+	\item[\faSquareO] \qty{0,1}{\micro\s}.
+	\item[\faSquareO] \qty{0,0000001}{\s}.
+	\item[\faSquareO] \num{0,1} millimeetrit.
+	\item[\faSquareO] Kümnendik mikrosekundit.
+	\item[\faSquareO] \qty{70}{\nano\s}.
+	\item[\faSquareO] \qty{0,00000007}{\s}.
+\end{itemize}
+
+\onecolumn
+
+## Kukkuv laetükk
+
+Oletagem, et kangialuse laest murdub pauguga lahti tükk betooni (joonis \@ref(fig:kinematics-test-ceiling) leheküljel `r render_pageref(reference="fig:kinematics-test-ceiling")`)! Kui kaugel meetrites sellest kangialusest linnulennult on kuulda seda pauku just hetkes, kui see betoonitükk puutub kokku kangialuse teepinnaga? Heli kiirus kuivas õhus vahemikus $260 \mathrm{K}$ kuni $280 \mathrm{K}$ on $330 \mathrm{\frac{m}{s}}$.
+
+```{r label="kinematics-test-ceiling", echo=FALSE, fig.cap="Kui kõrgel on lagi?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/4-kukkuv-laetükk-IMG_20231012_152647.jpg")
+
+
+```
+
+Millised andmed on meile ülesande lahendamiseks teada?
+
+Sisendid:
+$$h=\blank{\qty{3,8}{\m}}.$$
+$$\blank{g}= \blank{9,8} \unit{\m\per\s\squared}.$$
+$$v_\text{s}=\qty{3,3e2}{\m\per\s}.$$
+
+Märgi muutujana üles, mida tahetakse teada!
+
+Väljund:
+$$\blank{x} = ...$$
+
+\newpage
+
+Palun pane kokku lõplik valem.
+
+Arutelu:
+Tüki kukkumise kestus:
+$$\blank{t} = \sqrt{\frac{2 \cdot h}{g}}.$$
+Kaugus kangialusest:
+$$\blank{x} = v_\text{s} \cdot \blank{t} = \blank{v}_\text{s} \cdot \sqrt{\frac{2 \cdot h}{g}}.$$
+
+Palun märgi üles, kuidas arvutad ja lõpplahendini jõuad.
+
+Arvutamise esitan avaldisena \@ref(eq:kinematics-test-falling-calculation) leheküljel `r render_pageref(reference="eq:kinematics-test-falling-calculation")`.
+\begin{align}
+\blank{x}\leavevmode\\
+&= (\blank{\num{3,3}} \times \num{10}^2 \unit{\m\per\s}) \times (\blank{\num{2}} \times (\blank{\num{3,8}}\unit{\m}) / (\qty{9,8}{\m\per\s\squared}))^\frac{1}{2}\leavevmode\\
+&= \blank{\num{2,9}} \times \blank{\num{10}}^2 \unit{\blank{\m}}.
+(\#eq:kinematics-test-falling-calculation)
+\end{align}
+
+Palun kirjuta täislauseline vastus ülesande püstitusele.
+
+Lahend:
+\blank{\num{290}}\blank{\unit{\m}} kaugusel linnulennult kangialusest on kuulda betoontüki lahtimurdumise hetke pauku samaaegselt betoontüki esmase kokkupuute hetkega teekattega.
+
+\twocolumn
+
+## Kiirustaja
+
+Aia külge on märgitud peatumise keelu ala pikkusi (joonis \@ref(fig:kinematics-test-runner) leheküljel `r render_pageref(reference="fig:kinematics-test-runner")`). Oletagem, et selle peatumisaja ühes otsas ootab õpilane! Peagi möödub temast ühtlase kiirusega $18 \mathrm{\frac{km}{h}}$ joostes õpetaja liikudes peatumisala keelu sisse. Õpilane alustab jooksmist, jookseb ühtlase kiirendusega ja jõuab õpetajale järele just peatumisala keelu teises otsas. Millise kiirendusega õpilane jookseb õpetajale järele? Millise ajavahemiku järel jõuab õpilane õpetajani? Milline on õpilase kiirus õpetajaga teise kohtumise hetkes?
+
+```{r label="kinematics-test-runner", echo=FALSE, fig.cap="Kui pikk on vahemaa, jõudmaks kiirustajale järele?"}
+include_external_graphics("rmd/sissejuhatus-kulgliikumise-kinemaatika/5-kiirustaja-IMG_20231012_153629.jpg")
+
+
+```
+
+\newpage
+
+Õpilane jooksis kiirendusega \blank{\num{3,3}}\unit{\m\per\s\squared} jõudes õpetajale järele \blank{\num{3,0}}{\blank{\unit{\s}}} pärast ning järelejõudmise hetkes oli õpilase kiirus \blank{\num{1,0}} $\times$ \blank{\num{10}} $\mathrm{\frac{m}{s}}$.
+
+## Metateave
+
+Olen \blank{Šerstobitov, Mihhail} ja täna on 2023-12-07.
+
+\newpage
+
+## Vihjed
+
+## Õige ja vale
+
+1. Milline erinevus on kinemaatikal ja dünaamikal?
+
+2. Mille poolest erinevad lõik ja vektor?
+
+## Valemi selgitamine
+
+Kiirendus on inglise keeles "acceleration", kiirus "velocity", aeg "time".
+
+Keskmine kiirendus tähendab kiiruse muutu ajas.
+
+Aja ühik on üks seitsmest SI põhiühikust ja see tähendab teist järku väikest osa.
+
+## Valgus
+
+Ühtlaselt muutuva liikumise üldvalem on $x = x_0 + v_0 \cdot t + \frac{a_0 \cdot t^2}{2}$, milles $x$ on lõpppositsioon, $x_0$ on algpositsioon, $v_0$ on algkiirus, $t$ on ajavahemik ja $a_0$ on kiirendus.
+
+Peatumisala keelu pikkuse saad lugeda liiklusmärgilt.
+
+Valguse kiirus vaakumis on $299 792 458 \mathrm{\frac{m}{s}}$.
+
+## Kukkuv laetükk
+
+Ühtlaselt muutuva liikumise üldvalem on $x = x_0 + v_0 \cdot t + \frac{a_0 \cdot t^2}{2}$, milles $x$ on lõpppositsioon, $x_0$ on algpositsioon, $v_0$ on algkiirus, $t$ on ajavahemik ja $a_0$ on kiirendus.
+
+Kangialuse kõrguse võid mõõta, hinnata või lugeda liiklusmärgilt.
+
+Lõppvastuses arvesta, mitme tüvenumbri täpsusega selle kirjutama pead!
+
+Kõrguse võid välja mõõta, hinnata või lugeda liiklusmärgilt.
+
+Gravitatsiooni tekitatud kiirendus on Maa pinnal meie asukohas $9,8 \mathrm{\frac{m}{s^2}}$.
+
+Kiirendust tähistatakse üldiselt inglise keelest pärit sõnade esitähtedega. Kiirendus on inglise keeles "acceleration". Gravitatsioonist tingitud kiirenduse tähistus pärineb sõnast "gravitation".
+
+Kaugust tähistatakse tavaliselt telje järgi või sõnade "spatium", "radius", "distance" esitähega.
+
+Pikkusdimensioonide telgede tähistused on tavaliselt $x$, $y$ ja $z$.
+
+Aega tähistatakse tavaliselt sõna "time" esitähega.
+
+Ühtlaselt muutuva liikumise üldvalem on $x = x_0 + v_0 \cdot t + \frac{a_0 \cdot t^2}{2}$, milles $x$ on lõpppositsioon, $x_0$ on algpositsioon, $v_0$ on algkiirus, $t$ on ajavahemik ja $a_0$ on kiirendus.
+
+Vaata eelnevatest osadest järele, kuidas sa tähistasid!
+
+Kasuta neidsamu muutujaid ja väärtusi, mida siiani oled kasutanud!
+
+Ümarda lahend õige tüvenumbrite arvuni!
+
+Lahendisse tuleb kirjutada see väärtus, mis sai arvutuskäigus välja arvutatud.
+
+Väärtus koosneb arvulisest väärtusest ja ühikust.
+
+## Kiirustaja
+
+Kuna nii õpilane kui õpetaja läbivad ühesuguse vahemaa, siis saame ühtlaselt muutuva sirgjoonelise liikumise üldvalemist kummagi inimese lõpppositsioonid panna võrduma:
+$$v_{0; õpetaja} \cdot t = \frac{a_\text{0; õpilane} \cdot t^2}{2}.$$
+$$v_\text{0; õpetaja} = \frac{a_\text{0; õpilane} \cdot t}{2}.$$
+Õpilase lõppkiiruse saame valemist:
+$$v_\mathrm{õpilane} = a_{0; \mathrm{õpilane}} \cdot t.$$
+
+Asendan kiirenduse ja aja korrutise vahemaade võrdusse:
+$$v_\text{0; õpetaja} = \frac{v_\mathrm{õpilane}}{2}.$$
+
+Asendan kiirenduse ja aja korrutise vahemaade võrdusse:
+$$v_\text{0; õpetaja} = \frac{v_\mathrm{õpilane}}{2}.$$
+Avaldan viimasest võrrandist õpilase lõppkiiruse:
+$$v_\mathrm{õpilane} = 2 \cdot v_\text{0; õpetaja}.$$
+Kui õpilase lõppkiirus on arvutatud, saan arvutada õpilase kiirenduse:
+$$a_\text{0; õpilane} = \frac{v_\mathrm{õpilane}^2}{2 \cdot x}.$$
+
+\onecolumn
+
+## Tulemused
+
+```{r label="kinematics-results", echo=FALSE}
+
+tasks_of_kinematics <- data.frame(
+  c( # 1
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # 2
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # 3
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  ),
+  c( # 4
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0.75*(.16+.16), # 3. Kimasks, Stanislavs # enne 0.75*(.16+.16+.136)
+    0.75 * .16, # Kustov, Vladimir # enne 0
+    0, # Malõšev, Polina # enne 0.75 * (.16 + .16 + .112)
+    0.75 * (.16 + .16 + .112), # Šerstobitov, Mihhail
+    0.75 * .16, # 7. Salnikova, Veronika
+    0, # 7. Šesterikov, Daniil
+    0.75 * 0.16, # Žigadlo, Grigori # enne 0
+    0.75 * .16, # 9. Žukova, Darja
+    0.75 * (.16 + .16 + .112), # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0.75 * .16, # 12. Volkova, Darja
+    0.75 * .16 # Volkova, Jeva
+  ),
+  c( # 5
+    0, # 1. Babiy, Alisa
+    0, # Donat Irhin
+    0, # 3. Kimasks, Stanislavs
+    0, # Kustov, Vladimir
+    0, # Malõšev, Polina
+    0, # Šerstobitov, Mihhail
+    0, # 7. Salnikova, Veronika
+    0, # 7. Šesterikov, Daniil
+    0, # Žigadlo, Grigori
+    0, # 9. Žukova, Darja
+    0, # 10. Trubilko, Vladislav
+    0, # 11. Tšerkesov, Demid
+    0, # 12. Volkova, Darja
+    0 # Volkova, Jeva
+  )
+)
+
+# build_table_with_grades(tasks = tasks_of_kinematics, names = names_10, caption = "Kinemaatika")
+
+```
+
+\twocolumn

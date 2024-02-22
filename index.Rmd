@@ -12,7 +12,7 @@ title: "`r if (knitr::is_latex_output()) { '' } else { 'Looduseuurimine' }`"
 documentclass: book
 papersize: a4
 geometry: top=2cm, right=2cm, bottom=3cm, left=3cm
-classoption: twocolumn, twoside
+classoption: onecolumn, twoside
 linestretch: 1.5
 
 fontsize: 12pt
@@ -445,9 +445,11 @@ render_color <- function(color, text) {
 
 ```
 
+\multicolsbegin
+
 # Sissejuhatus {-}
 
-Olen peacecop kalmer: ning õpetan füüsikat Kohila Gümnaasiumis, füüsikat ja keemiat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2023 on mul esimene kord neid kaht teadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See konspekt siin kajastab iga kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
+Olen peacecop kalmer:. Õpetasin füüsikat Kohila Gümnaasiumis ning õpetan füüsikat ja keemiat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2023 on mul esimene kord neid kaht teadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See konspekt siin kajastab iga kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
 
 Leian, et tõhus on iga teema puhul käsitleda juppi teooriat, lahendada selle kohta hulganisti arvutusülesandeid ning kontrollides teooriat eksperimentaalselt, enne kui võtta ette järgmine jupp. Samuti peavad jupid olema üksteisega loogiliselt seotud. Iga järgmine jupp võib eeldada eelneva jupi valdamist. Iseseisvaks lahendamiseks jäetavad arvutusülesanded on mul ka üldjuhul tahvlile lahendatud, nii et on võimalik kontrollida ja võrrelda lahendusi[@looduseuurimine].
 
@@ -475,3 +477,5 @@ Kasutan oma nimekujus koolonit, mis tähendab soovi olla ka juriidiliselt sõltu
 Mõni aasta tagasi leidis vastuseid hõlpsasti, aga järjepanu neid vastuseid eemaldati. Selleks ajaks olin enda jaoks juhtmõtte piisavalt selgeks teinud. Eesti inimestel kipub jah olema, et kas osatakse inglise keelt või vene keelt, mõlema oskajaid on üsna vähe. Kui sa valdad vene keelt, siis leiad ka selles keeles hullult palju infot, aga tuleb täheldada, et šarlatane on sõltumata keeleoskusest ja tuleb osata välja lugeda enda jaoks tõest teavet. Nimelt paljuski loodavad inimesed, kes oma eluga ise hakkama ei saa, lihtsatele lahendustele, et umbes kuulutada end vabaks ja kohtutäitur ei võta korterit ära. Nii see ei toimi. Tuleb pühenduda ja aru saada ümbritsevast keskkonnast ning hästi oluline on mitte tegutseda pelgalt kellegi muu järgi, vaid minna oma teed, sest ainult nii suudetakse põhjendada, miks midagi tehakse. Muidu oleks ka vastuolu: kirjutatakse nimi küll väikeselt, aga ikkagi elatakse kellegi muu järgi.
 
 Eesti suhtes avalikult teatamiseks loetakse vähemalt üle-Eestilises avalikus väljaandes teatamist. Kui väljaanne on saadaval Interneti kaudu, siis on tegemist lausa globaalse teadaandega. Mina olen seda teinud Harku Valla Teatajas[@lk, lk 4]  ja Õhtulehes[@jrgmine].
+
+\multicolsend

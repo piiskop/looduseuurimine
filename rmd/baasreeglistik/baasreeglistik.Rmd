@@ -217,11 +217,11 @@ Nurgateisendus kraadidest radiaanidesse on esitatud valemine \@ref(eq:angle-from
 Koosinusteoreem on esitatud avaldisena \@ref(eq:cosine-theorem) leheküljel `r render_pageref(reference = "eq:cosine-theorem")`.
 
 ```{=tex}
-\begin{equation}
-|a| =\\
+\begin{align}
+|a| =\leavevmode\\
 \sqrt{|b|^2 + |c|^2 - 2 \cdot |b| \cdot |c| \cdot \mathrm{cos}(\text{nurk}_{b, c})}
 (\#eq:cosine-theorem)
-\end{equation}
+\end{align}
 
 ```
 
@@ -455,8 +455,8 @@ Kiirenduse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on nä
 
 ```{=tex}
 \begin{align}
-\int{w(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(a(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-w(t) \cdot t + C &= a(t) + D,\\
+\int{w(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(a(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\leavevmode\\
+w(t) \cdot t + C &= a(t) + D,\leavevmode\\
 w(t) \cdot t + C - D &= a(t),
 (\#eq:acceleration-by-jerk-with-integration-constants)
 \end{align}
@@ -496,9 +496,9 @@ Kiiruse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on näida
 
 ```{=tex}
 \begin{align}
-\int{a(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-\int{w(t) \cdot t + a(0)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\\
-\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + E &= v(t) + F,\\
+\int{a(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\leavevmode\\
+\int{w(t) \cdot t + a(0)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(v(t))}{\mathrm{d}(t)}} \cdot \mathrm{d}(t),\leavevmode\\
+\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + E &= v(t) + F,\leavevmode\\
 \frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0) &= v(t).
 (\#eq:speed-by-jerk)
 \end{align}
@@ -511,9 +511,9 @@ Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on n�
 
 ```{=tex}
 \begin{align}
-\int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \\
-\int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \\
-\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \\
+\int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \leavevmode\\
+\int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \leavevmode\\
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \leavevmode\\
 \frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t)
 (\#eq:path-length-by-jerk)
 \end{align}
@@ -526,9 +526,9 @@ Kuna püsikiirenduse puhul jõnksu pole, lihtsustub valem \@ref(eq:path-length-b
 
 ```{=tex}
 \begin{align}
-\frac{a(0) \cdot (\frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}})^2}{2} + \overrightarrow{v(0)} \cdot \frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}} + r(0) &= r, \\
-\frac{\overrightarrow{v}^2 - 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v} + \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + \frac{\overrightarrow{v(0)} \cdot \overrightarrow{v} - \overrightarrow{v(0)}^2}{\overrightarrow{a(0)}} + r(0) &= r, \\
-\frac{\overrightarrow{v}^2 \cancel{- 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} + \overrightarrow{v(0)}^2 \cancel{+ 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} - 2 \cdot \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + r(0) &= r, \\
+\frac{a(0) \cdot (\frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}})^2}{2} + \overrightarrow{v(0)} \cdot \frac{\overrightarrow{v} - \overrightarrow{v(0)}}{\overrightarrow{a(0)}} + r(0) &= r, \leavevmode\\
+\frac{\overrightarrow{v}^2 - 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v} + \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + \frac{\overrightarrow{v(0)} \cdot \overrightarrow{v} - \overrightarrow{v(0)}^2}{\overrightarrow{a(0)}} + r(0) &= r, \leavevmode\\
+\frac{\overrightarrow{v}^2 \cancel{- 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} + \overrightarrow{v(0)}^2 \cancel{+ 2 \cdot \overrightarrow{v(0)} \cdot \overrightarrow{v}} - 2 \cdot \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} + r(0) &= r, \leavevmode\\
 \frac{\overrightarrow{v}^2 - \overrightarrow{v(0)}^2}{2 \cdot \overrightarrow{a(0)}} &= r - r(0).
 (\#eq:constant-acceleration-via-velocities-and-displacement)
 \end{align}
@@ -567,7 +567,7 @@ Avaldan avaldisest \@ref(eq:planck-constant) leheküljel `r render_pageref(refer
 
 ```{=tex}
 \begin{align}
-\mathrm{kg} &= \frac{h}{\num{`r as.character(h)`}} \unit{\s\per\meter\squared} = \frac{h}{\num{`r as.character(h)`}} \times \frac{\frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}{(\frac{`r delta_nu_cs_over_speed_of_light_in_vacuum_over` \times c}{\Delta(\nu_\text{Cs})})^2} \\
+\mathrm{kg} &= \frac{h}{\num{`r as.character(h)`}} \unit{\s\per\meter\squared} = \frac{h}{\num{`r as.character(h)`}} \times \frac{\frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}{(\frac{`r delta_nu_cs_over_speed_of_light_in_vacuum_over` \times c}{\Delta(\nu_\text{Cs})})^2} \leavevmode\\
 &= `r scalar_of_kg` \times \frac{h \times \Delta(\nu_\text{Cs})}{c^2}.
 (\#eq:kilogram)
 \end{align}
@@ -754,7 +754,7 @@ Inertsimomendi saab avaldada impulsimomendi ja nurkkiiruse kaudu. Selleks asenda
 
 ```{=tex}
 \begin{align}
-I = \sum{\frac{\vec{p_i}}{\vec{v_i}} \times r_i^2} = \sum{\frac{\vec{p}}{\vec{\omega \times r}} \times r^2} \\ = \sum{\frac{\vec{\frac{\vec{L}}{\vec{r}}}}{\vec{\omega \times r}} \times r^2} = \frac{\sum{\vec{L}}}{\vec{\omega}}.
+I = \sum{\frac{\vec{p_i}}{\vec{v_i}} \times r_i^2} = \sum{\frac{\vec{p}}{\vec{\omega \times r}} \times r^2} \leavevmode\\ = \sum{\frac{\vec{\frac{\vec{L}}{\vec{r}}}}{\vec{\omega \times r}} \times r^2} = \frac{\sum{\vec{L}}}{\vec{\omega}}.
 (\#eq:moment-of-inertia-by-angular-moment)
 \end{align}
 
@@ -770,67 +770,67 @@ Avaldistena \@ref(eq:triple-vector-product) leheküljel `r render_pageref(refere
 \begin{align}
 \vec{V_1} \times (\vec{V_2} \times \vec{V_3}) = \vec{V_1} \times
 \begin{vmatrix}
-\vec{i}&\vec{j}&\vec{k}\\
-V_{2; x}&V_{2; y}&V_{2; z}\\
+\vec{i}&\vec{j}&\vec{k}\leavevmode\\
+V_{2; x}&V_{2; y}&V_{2; z}\leavevmode\\
 V_{3; x}&V_{3; y}&V_{3; z}
 \end{vmatrix}
 = \vec{V_1} \times (\vec{i} \cdot
 \begin{vmatrix}
-V_{2; y}&V_{2; z}\\
+V_{2; y}&V_{2; z}\leavevmode\\
 V_{3; y}&V_{3; z}
 \end{vmatrix}
 - \vec{j} \cdot
 \begin{vmatrix}
-V_{2; x}&V_{2; z}\\
+V_{2; x}&V_{2; z}\leavevmode\\
 V_{3; x}&V_{3; z}
 \end{vmatrix}
 + \vec{k} \cdot
 \begin{vmatrix}
-V_{2; x}&V_{2; y}\\
+V_{2; x}&V_{2; y}\leavevmode\\
 V_{3; x}&V_{3; y}
 \end{vmatrix}
-)\\
-= \vec{V_1} \times (\vec{i} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}) - \vec{j} \cdot (V_{2; x} \cdot V_{3; z} - V_{2; z} \cdot V_{3; x}) + \vec{k} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}))\\
+)\leavevmode\\
+= \vec{V_1} \times (\vec{i} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}) - \vec{j} \cdot (V_{2; x} \cdot V_{3; z} - V_{2; z} \cdot V_{3; x}) + \vec{k} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}))\leavevmode\\
 =
 \begin{vmatrix}
-\vec{i}&\vec{j}&\vec{k}\\
-V_{1; x}&V_{1; y}&V_{1; z}\\
+\vec{i}&\vec{j}&\vec{k}\leavevmode\\
+V_{1; x}&V_{1; y}&V_{1; z}\leavevmode\\
 V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
-\end{vmatrix}\\
+\end{vmatrix}\leavevmode\\
 = \vec{i} \cdot
 \begin{vmatrix}
-V_{1; y}&V_{1; z}\\
+V_{1; y}&V_{1; z}\leavevmode\\
 V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
 \end{vmatrix}
 - \vec{j} \cdot
 \begin{vmatrix}
-V_{1; x}&V_{1; z}\\
+V_{1; x}&V_{1; z}\leavevmode\\
 V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}
-\end{vmatrix}\\
+\end{vmatrix}\leavevmode\\
 + \vec{k} \cdot
 \begin{vmatrix}
-V_{1; x}&V_{1; y}\\
+V_{1; x}&V_{1; y}\leavevmode\\
 V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}
-\end{vmatrix}\\
-= \vec{i} \cdot (V_{1; y} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}))\\
-- \vec{j} \cdot (V_{1; x} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}))\\
+\end{vmatrix}\leavevmode\\
+= \vec{i} \cdot (V_{1; y} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}))\leavevmode\\
+- \vec{j} \cdot (V_{1; x} \cdot (V_{2; x} \cdot V_{3; y} - V_{2; y} \cdot V_{3; x}) - V_{1; z} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y}))\leavevmode\\
 + \vec{k} \cdot (V_{1; x} \cdot (V_{2; z} \cdot V_{3; x} - V_{2; x} \cdot V_{3; z}) - V_{1; y} \cdot (V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y})).
 (\#eq:triple-vector-product)
 \end{align}
 
 \begin{align}
-\vec{V_1} \times (\vec{V_2} \times \vec{V_3})\\
-= \vec{i} \cdot (V_{1; y} \cdot V_{2; x} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; z} \cdot V_{3; x} + V_{1; z} \cdot V_{2; x} \cdot V_{3; z} + V_{1; x} \cdot V_{2; x} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; x})\\
-- \vec{j} \cdot (V_{1; x} \cdot V_{2; x} \cdot V_{3; y} - V_{1; x} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; y} \cdot V_{3; z} + V_{1; z} \cdot V_{2; z} \cdot V_{3; y} + V_{1; y} \cdot V_{2; y} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; y})\\
-+ \vec{k} \cdot (V_{1; x} \cdot V_{2; z} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; z}- V_{1; y} \cdot V_{2; y} \cdot V_{3; z} + V_{1; y} \cdot V_{2; z} \cdot V_{3; y} + V_{1; z} \cdot V_{2; z} \cdot V_{3; z} - V_{1; z} \cdot V_{2; z} \cdot V_{3; z})\\
-= \vec{i} \cdot (V_{2; x} \cdot (V_{1; y} \cdot V_{3; y} + V_{1; z} \cdot V_{3; z} + V_{1; x} \cdot V_{3; x}) - V_{3; x} \cdot (V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z} + V_{1; x} \cdot V_{2; x}))\\
-- \vec{j} \cdot (-V_{2; y} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; z} \cdot V_{3; z} + V_{1; y} \cdot V_{3; y}) + V_{3; y} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; z} \cdot V_{2; z} + V_{1; y} \cdot V_{2; y})) \\
-+\vec{k} \cdot (V_{2; z} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; y} \cdot V_{3; y}+ V_{1; z} \cdot V_{3; z}) + -V_{3; z} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z}))\\
+\vec{V_1} \times (\vec{V_2} \times \vec{V_3})\leavevmode\\
+= \vec{i} \cdot (V_{1; y} \cdot V_{2; x} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; z} \cdot V_{3; x} + V_{1; z} \cdot V_{2; x} \cdot V_{3; z} + V_{1; x} \cdot V_{2; x} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; x})\leavevmode\\
+- \vec{j} \cdot (V_{1; x} \cdot V_{2; x} \cdot V_{3; y} - V_{1; x} \cdot V_{2; y} \cdot V_{3; x} - V_{1; z} \cdot V_{2; y} \cdot V_{3; z} + V_{1; z} \cdot V_{2; z} \cdot V_{3; y} + V_{1; y} \cdot V_{2; y} \cdot V_{3; y} - V_{1; y} \cdot V_{2; y} \cdot V_{3; y})\leavevmode\\
++ \vec{k} \cdot (V_{1; x} \cdot V_{2; z} \cdot V_{3; x} - V_{1; x} \cdot V_{2; x} \cdot V_{3; z}- V_{1; y} \cdot V_{2; y} \cdot V_{3; z} + V_{1; y} \cdot V_{2; z} \cdot V_{3; y} + V_{1; z} \cdot V_{2; z} \cdot V_{3; z} - V_{1; z} \cdot V_{2; z} \cdot V_{3; z})\leavevmode\\
+= \vec{i} \cdot (V_{2; x} \cdot (V_{1; y} \cdot V_{3; y} + V_{1; z} \cdot V_{3; z} + V_{1; x} \cdot V_{3; x}) - V_{3; x} \cdot (V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z} + V_{1; x} \cdot V_{2; x}))\leavevmode\\
+- \vec{j} \cdot (-V_{2; y} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; z} \cdot V_{3; z} + V_{1; y} \cdot V_{3; y}) + V_{3; y} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; z} \cdot V_{2; z} + V_{1; y} \cdot V_{2; y})) \leavevmode\\
++\vec{k} \cdot (V_{2; z} \cdot (V_{1; x} \cdot V_{3; x} + V_{1; y} \cdot V_{3; y}+ V_{1; z} \cdot V_{3; z}) + -V_{3; z} \cdot (V_{1; x} \cdot V_{2; x} + V_{1; y} \cdot V_{2; y} + V_{1; z} \cdot V_{2; z}))\leavevmode\\
 = \vec{i} \cdot (V_{2; x} \cdot (\vec{V_1} \cdot \vec{V_3}) - V_{3; x} \cdot (\vec{V_1} \cdot \vec{V_2}))
 - \vec{j} \cdot (-V_{2; y} \cdot (\vec{V_1} \cdot \vec{V_3})+ V_{3; y} \cdot (\vec{V_1} \cdot \vec{V_2}))
-+ \vec{k} \cdot (V_{2; z} \cdot (\vec{V_1} \cdot \vec{V_3})-V_{3; z} \cdot (\vec{V_1} \cdot \vec{V_2}))\\
++ \vec{k} \cdot (V_{2; z} \cdot (\vec{V_1} \cdot \vec{V_3})-V_{3; z} \cdot (\vec{V_1} \cdot \vec{V_2}))\leavevmode\\
 =(\vec{V_1} \cdot \vec{V_3}) \cdot (V_{2; x} \cdot \vec{i} + V_{2; y} \cdot \vec{j} + V_{2; z} \cdot \vec{k})
-- (\vec{V_1} \cdot \vec{V_2}) \cdot (V_{3; x} \cdot \vec{i} + V_{3; y} \cdot \vec{j} + V_{3; z} \cdot \vec{k})\\
+- (\vec{V_1} \cdot \vec{V_2}) \cdot (V_{3; x} \cdot \vec{i} + V_{3; y} \cdot \vec{j} + V_{3; z} \cdot \vec{k})\leavevmode\\
 =(\vec{V_1} \cdot \vec{V_3}) \cdot \vec{V_2} - (\vec{V_1} \cdot \vec{V_2}) \cdot \vec{V_3}.
 (\#eq:triple-vector-product-continued)
 \end{align}
@@ -961,10 +961,10 @@ Et väljendada jõumoment inertsimomendi ja nurkkiirenduse kaudu, asendan jõumo
 
 ```{=tex}
 \begin{align}
-\vec{T} = \vec{r} \times \vec{m \cdot \vec{a}} = m \cdot \vec{r} \times \vec{a} = \\
-m \cdot \vec{r} \times \vec{\vec{r} \times \vec{\alpha}}\\
-= m \cdot ((\vec{r} \cdot \vec{r}) \cdot \vec{\alpha} - (\vec{\alpha} \cdot \vec{r}) \cdot \vec{r}) =\\
-m \times r^2 \times \vec{\alpha}\\
+\vec{T} = \vec{r} \times \vec{m \cdot \vec{a}} = m \cdot \vec{r} \times \vec{a} = \leavevmode\\
+m \cdot \vec{r} \times \vec{\vec{r} \times \vec{\alpha}}\leavevmode\\
+= m \cdot ((\vec{r} \cdot \vec{r}) \cdot \vec{\alpha} - (\vec{\alpha} \cdot \vec{r}) \cdot \vec{r}) =\leavevmode\\
+m \times r^2 \times \vec{\alpha}\leavevmode\\
 = I \cdot \vec{\alpha}.
 (\#eq:torque-by-moment-of-inertia)
 \end{align}
@@ -1081,12 +1081,12 @@ Küllastusrõhk vedela vee kohal temperatuurivahemikus $\qty{`r as.character(T_0
 ```{=tex}
 
 \begin{align}
-& p_\text{sat} && := e^{\sum_{i := 8}^{n}{C_i \times T^{i - 9}} + 6.5459673 \times \mathrm{ln}(T)}\\
-&&&= e^{\sum_{i := 8}^n{C_i \times (t + 273.15)^{i - 9}} + 6.5459673 \times \mathrm{ln}(t + 273.15)}\text{, kus}\\
-& C_8 && := -5.8002206 \times 10^3,\\
-& C_9 && := 1.3914993,\\
-& C_{10} && := -4.8640239 \times 10^{-2},\\
-& C_{11} && := 4.1764768 \times 10^{-5},\\
+& p_\text{sat} && := e^{\sum_{i := 8}^{n}{C_i \times T^{i - 9}} + 6.5459673 \times \mathrm{ln}(T)}\leavevmode\\
+&&&= e^{\sum_{i := 8}^n{C_i \times (t + 273.15)^{i - 9}} + 6.5459673 \times \mathrm{ln}(t + 273.15)}\text{, kus}\leavevmode\\
+& C_8 && := -5.8002206 \times 10^3,\leavevmode\\
+& C_9 && := 1.3914993,\leavevmode\\
+& C_{10} && := -4.8640239 \times 10^{-2},\leavevmode\\
+& C_{11} && := 4.1764768 \times 10^{-5},\leavevmode\\
 & C_{12} && := -1.4452093 \times 10^{-8}
 (\#eq:saturation-pressure-over-liquid-h2o)
 \end{align}
@@ -1445,7 +1445,7 @@ Avaldan avaldisest \@ref(eq:elementary-charge) leheküljel `r render_pageref(ref
 
 ```{=tex}
 \begin{align}
-\unit{A} &= \frac{e}{\qty{`r as.character(e)`}{\s}} = \frac{e}{\num{`r as.character(e)`} \times \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}\\
+\unit{A} &= \frac{e}{\qty{`r as.character(e)`}{\s}} = \frac{e}{\num{`r as.character(e)`} \times \frac{9 192 631 770}{\Delta(\nu_\text{Cs})}}\leavevmode\\
 &= \num{`r as.character(A)`} \times e \times \Delta(\nu_\text{Cs}).
 (\#eq:ampere)
 \end{align}
@@ -1757,8 +1757,8 @@ Avaldan helitaseme valemist \@ref(eq:sound-level) leheküljel `r render_pageref(
 
 ```{=tex}
 \begin{align}
-\frac{\beta}{10} &= \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}}) \\
-10^{\frac{\beta}{10}} &= \frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}} \\
+\frac{\beta}{10} &= \mathrm{log}(\frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}}) \leavevmode\\
+10^{\frac{\beta}{10}} &= \frac{I}{\qty{`r as.character(I_0)`}{\W\per\m\squared}} \leavevmode\\
 I &= \qty{`r as.character(I_0)`}{\W\per\m\squared} \times 10^{\frac{\beta}{10}}.
 (\#eq:power-intensity)
 \end{align}
@@ -2228,9 +2228,9 @@ Arvutan A-tüüpi mõõtemääramatuse kasutades valemit \@ref(eq:measurement-un
 Selleks tuleb esmalt arvutada aritmeetiline keskmine. Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:caliper-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
 
 \begin{align}
-x_1 = \qty{`r as.character(caliper[1])`}{\m},\\
-x_2 = \qty{`r as.character(caliper[2])`}{\m},\\
-x_3 = \qty{`r as.character(caliper[3])`}{\m},\\
+x_1 = \qty{`r as.character(caliper[1])`}{\m},\leavevmode\\
+x_2 = \qty{`r as.character(caliper[2])`}{\m},\leavevmode\\
+x_3 = \qty{`r as.character(caliper[3])`}{\m},\leavevmode\\
 x_4 = \qty{`r as.character(caliper[4])`}{\m}.
 (\#eq:caliper-x)
 \end{align}
@@ -2246,9 +2246,9 @@ Aritmeetilise keskmise arvutan liites kõik mõõdetud väärtused kokku ja jaga
 Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (avaldised \@ref(eq:caliper-mean-x) leheküljel `r render_pageref(reference = "eq:caliper-mean-x")`).
 
 \begin{align}
-\overline{x} - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\\
-\overline{x} - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\\
-\overline{x} - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\\
+\overline{x} - x_1 = (\qty{`r as.character(caliper[1])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[1])`}{\m},\leavevmode\\
+\overline{x} - x_2 = (\qty{`r as.character(caliper[2])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m},\leavevmode\\
+\overline{x} - x_3 = (\qty{`r as.character(caliper[3])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(caliper_difference_from_mean[3])`}{\m},\leavevmode\\
 \overline{x} - x_4 = (\qty{`r as.character(caliper[4])`}{\m}) - (\qty{`r as.character(caliper_mean)`}{\m}) = \qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m}.
 (\#eq:caliper-mean-x)
 \end{align}
@@ -2256,9 +2256,9 @@ Nüüd on vaja arvutada iga väärtuse erinevus aritmeetilisest keskmisest (aval
 Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared) leheküljel `r render_pageref(reference = "eq:caliper-mean-x-squared")`).
 
 \begin{align}
-(\overline{x} - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\\
-(\overline{x} - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\\
-(\overline{x} - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\\
+(\overline{x} - x_1)^2 = (\qty{`r as.character(caliper_difference_from_mean[1])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared},\leavevmode\\
+(\overline{x} - x_2)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[2], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared},\leavevmode\\
+(\overline{x} - x_3)^2 = (\qty{`r as.character(caliper_difference_from_mean[3])`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared},\leavevmode\\
 (\overline{x} - x_4)^2 = (\qty{`r as.character(round(x = caliper_difference_from_mean[4], digits = 6))`}{\m})^{2} = \qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}.
 (\#eq:caliper-mean-x-squared)
 \end{align}
@@ -2266,8 +2266,8 @@ Need erinevused on vaja ruutu tõsta (avaldised \@ref(eq:caliper-mean-x-squared)
 Ruudustatud erinevused on vaja kokku liita (avaldis \@ref(eq:caliper-difference-from-mean-square-sum) leheküljel `r render_pageref(reference = "eq:caliper-difference-from-mean-square-sum")`).
 
 \begin{align}
-\sum_{i = 1}{\overline{x} - x_i} =\\
-(\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}) =\\
+\sum_{i = 1}{\overline{x} - x_i} =\leavevmode\\
+(\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[1], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[2], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[3], digits = 4))`}{\m\squared}) + (\qty{`r as.character(signif(x = caliper_difference_from_mean_squared[4], digits = 4))`}{\m\squared}) =\leavevmode\\
 \qty{`r as.character(signif(x = caliper_difference_from_mean_squared_sum, digits = 4))`}{\m\squared}.
 (\#eq:caliper-difference-from-mean-square-sum)
 \end{align}
@@ -2401,9 +2401,9 @@ illuminance_data_frame = data.frame(illuminance)
 Oletagem, et ma tegin neli mõõtmist ja sain tulemused, mis on esitatud avaldistes \@ref(eq:illuminance-x) leheküljel `r render_pageref(reference = "eq:caliper-x")`.
 
 \begin{align}
-x_1 = \qty{`r as.character(illuminance[1])`}{\lux},\\
-x_2 = \qty{`r as.character(illuminance[2])`}{\lux},\\
-x_3 = \qty{`r as.character(illuminance[3])`}{\lux},\\
+x_1 = \qty{`r as.character(illuminance[1])`}{\lux},\leavevmode\\
+x_2 = \qty{`r as.character(illuminance[2])`}{\lux},\leavevmode\\
+x_3 = \qty{`r as.character(illuminance[3])`}{\lux},\leavevmode\\
 x_4 = \qty{`r as.character(illuminance[4])`}{\lux}.
 (\#eq:illuminance-x)
 \end{align}
@@ -2413,7 +2413,7 @@ Mõõtetulemuste aritmeetiline keskmine on \qty{`r as.character(illuminance_mean
 Kuna kõik mõõdetud väärtused on väiksemad kui \qty{10000}{\lux}, siis kasutan tabavuskarakteristikut $\pm \qty{5}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$. Esimese B-tüüpi mõõtemääramatuse saan niimoodi, et arvutan aritmeetilisest keskmisest nimetatud osamäära ja liidan kümnekordse minimaalse ühiku. See on ühese tõenäosusega. Kui tahan kasutada tõenäosust \num{`r as.character(probability)`}, siis korrutan tulemuse sellega läbi (avaldis \@ref(eq:illuminance-uncertainty-B-1) leheküljel `r render_pageref(reference = "eq:illuminance-uncertainty-B-1")`.
 
 \begin{align}
-u_\mathrm{B1} &= t(\infty, \frac{\alpha}{2}) \cdot \frac{\text{täpsusosamäär} \cdot \bar{q} + \text{vähim oluliste tüvenumbrite arv}}{3}\\
+u_\mathrm{B1} &= t(\infty, \frac{\alpha}{2}) \cdot \frac{\text{täpsusosamäär} \cdot \bar{q} + \text{vähim oluliste tüvenumbrite arv}}{3}\leavevmode\\
 &= \num{`r as.character(student_inf)`} \times \frac{\num{`r as.character(precision_ratio)`} \times \qty{`r as.character(illuminance_mean)`}{\lux} + \qty{`r as.character(number_of_least_sigfig)`}{\lux}}{3} = \qty{`r as.character(signif(x = illuminance_uncertainty_B_1, digits = 2))`}{\lux}.
 (\#eq:illuminance-uncertainty-B-1)
 \end{align}

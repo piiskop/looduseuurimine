@@ -1,0 +1,1875 @@
+# Kinemaatika Edu Valemi Kalender
+
+## 2023-09-05
+
+Teaduse olemus.
+
+Füüsika ja selle seos teiste valdkondadega.
+
+Mudelid, teooriad ja seadused.
+
+Eesmärgina õpilane oskab
+
+1. selgitada mõisteid loodus, maailm ja vaatleja; hindab füüsika kohta teiste loodusteaduste seas ning
+määratleb füüsika uurimisala;
+
+2. määratleda looduse struktuuritasemete skeemil makro-, mikro- ja megamaailma ning nimetab nende
+erinevusi;
+
+3. selgitada loodusteadusliku meetodi olemust ja teab, et eksperimenditulemusi üldistades jõutakse
+mudelini;
+
+8. tuua näiteid põhjusliku seose kohta;
+
+9. mõista, et füüsika üldprintsiibid on kõige üldisemad tõdemused looduse kohta, ning tõestada nende
+kehtivust kooskõla eksperimendiga.
+
+Õppesisu: Füüsika kui loodusteadus. Füüsika kui nähtavushorisonte edasi nihutav teadus. Mikro-, makro- ja
+megamaailm. Loodusteaduslik meetod. Vaatlus, eksperiment, mudeli loomine. Mudeli järelduste kontroll
+ning mudeli areng.
+
+Kava:
+
+1. Tutvustus.
+
+2. Ajurünnak õpitu kohta.
+
+3. Arutelu teaduse olemuse üle[@fsikaline, lk 3-5, @giancoli, lk 2-4].
+
+4. Ajurünnak oma tulevikusoovide ja füüsikaseoste kohta[@giancoli, lk 4-5].
+
+5. Arutelu mudelite, teooriate ja seaduste üle.
+
+6. Näidete esitamine põhjusliku seose kohta[@giancoli, lk 128].
+
+7. Füüsika üldprintsiipid ja nende kehtivuse tõestamine[@teised].
+
+8. Kokkuvõte.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Kui veel pole, siis soetada *A4*-vormingus ruuduline kaustik või sellised lehed ja köitja, et sinna luua konspekt. Kõik seekord ülestäheldatu sinna konspekti ümber kirjutada! Kui veel pole, siis ka soetada eri värvi füüsilised kirjutusvahendid ja geomeetriavahendid! Lugeda, vaadata ja kuulata üle kontaktsessioonis viidatud teave!
+
+## 2023-09-05
+
+Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
+
+Eesmärgid:
+
+1. Oskus põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks.
+
+2. Mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevus on selge.
+
+7. Õpilane teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning kasutab mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet (ilmselt käsitleme standardhälvet hiljem).
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõteriistad ja mõõtevahendid.
+Mõõteseadus (ilmselt käsitleme hiljem). Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+## 2023-9-7
+
+Ühikud, standardid ja Système Internationale[@giancoli, lk 8-11].
+
+Ühikute teisendamine[@giancoli, lk 11-12].
+
+Eesmärk: Õpilane teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühik
+: füüsikalise suuruse konkreetne väärtus, mida kokkuleppeliselt kasutatakse sama suuruse teiste väärtuste  arvuliseks iseloomustamiseks[@fsikalised]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikute ning neist tuletatud ülejäänud mõõtühikute moodustatud kogum[@erinevad]
+
+Kava:
+
+1. Teaduste piiride kirjeldamine[@looduse; @mikro].
+
+2. *Powers of Ten - Ultimate Zoom (micro-macro - Imax combined)*[@powers; @giancoli, lk 9].
+
+3. Mõõtühikute eesliidetega tutvumine[@mthikute; @giancoli, lk 10].
+
+4. Harjutused mõõtühikute eesliidetega.
+
+## 2023-09-7
+
+Mõõtmine ja määramatus; tüvenumbrid[@giancoli, lk 5-8].
+
+Kava:
+
+1. Mõõtemääramatusega tutvumine[@kella; @mtetulemus; @neli; @higgsi; @a; @giancoli, lk 5-6].
+
+2. Mõõtemääramatuse praktiliste ülesannete lahendamine.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni alguseni: Lahendada @giancoli, lk 18 ülesanded 1, 3, 5, 7, 9, 11, 13!
+
+## 2023-9-7
+
+Õpilased jätkasid teisendamisharjutuste sooritamist.
+
+## 2023-9-12
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+Õppesisu: Mõõtesuurus ja mõõdetava suuruse väärtus.
+
+Kava:
+
+1. Ümardamine[@rounding].
+
+2. Tüvenumbrid[@sigfigpdf; @significantfigurespdf; @physics, lk 4-6; @introduction; @rounding].
+
+Selgitasin ümardamise ja tüvenumbrite reegleid.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-9-12
+
+Rakendasime ümardamise ja tüvenumbrite reegleid.
+
+## 2023-09-14
+
+Õppesisu: Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng.
+
+Kava:
+
+3. Ühikute teisendamine[@physics, lk 1, 9-10; @introduction_conversions; @haynes_2014_crc, lk 1-27-1-46; @erinevad; @mthikute; @conversions; @unit; @physics_151].
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-09-19
+
+Eesmärgina õpilane
+
+4. oskab põhjendada mõõteseaduse vajalikkust üldaktseptitavate mõõtmistulemuste saamiseks;
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus.
+
+Põhimõisted:
+
+taatlemine
+: protseduur, mille käigus pädev taatluslabor või teavitatud asutus kontrollib mõõtevahendi vastavust kehtestatud nõuetele ja märgistab nõuetele vastavaks tunnistatud mõõtevahendi taatlusmärgisega[@mtevahendite]
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. Ainult selgitasin.
+
+## 2023-9-19
+
+Eesmärgina õpilane
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. Õpilased lahendasid ülesandeid jõudes kolmanda plokini.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-09-21
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11]. Kõige kaugemale jõuti viienda ploki ülesanneteni.
+
+## 2023-09-21
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+4. SI[@sipostera4pdf; @physics, lk 8-9; @bureau_1974_the; @rahvusvaheline; @nistsp_1247png; @a11].
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. Jõudsin selgitada dimensionaalanalüüsi enne näidet 1-10.
+
+## 2023-09-21
+
+Eesmärgina õpilane
+
+5. mõistab mõõdetava suuruse ja mõõtmistulemuse suuruse väärtuse erinevust;
+
+6. teab ja oskab rakendada rahvusvahelise mõõtühikute süsteemi (SI) põhisuurusi ning nende mõõtühikuid.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI).
+
+Põhimõisted:
+
+mõõtühikute süsteem
+: kokkulepitud põhiühikud ning neist tuletatud ülejäänud mõõtühikud[@erinevad]
+
+Kava:
+
+5. Dimensionaalanalüüs[@physics, lk 14-15; @introduction_base_dimensions]. SI tuletatud ühikute dimensionaalanalüüs.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni vastavalt kava teemadele, kui jõudsime selle teema läbida: Lahendada @physics, lk 16-18 järgmised ülesanded:
+
+3, 4: 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,
+
+5: 55, 57.
+
+Näidislahendused on mõeldud kasutamaks pärast endapoolset lahendada proovimist, kui lahendaja jääb hätta[@looduseuurimine].
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-9-26
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Selgitasin tabavust ja täpsust, erinevust analoog- ja digitaalmõõtevahendite vahel ja kuidas arvutada A-tüüpi mõõtemääramatust kehade kõrguste näitel.
+
+## 2023-9-26
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Selgitasin sagedusgraafikut seoses standardhälbega ja B-tüüpi mõõtemääramatust. Neli mõõtemääramatuse harjutusteplokki sai lahendatud, viiendast jätkame.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni:
+Lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-9-28
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Selgitasin suhtelist viga, esitatud mõõtetulemuse ja mõõtevea eraldi interpreteerimist koos interpreteerimisena, eraldi mõõdetud komponentide mõõtetulemuste esitamist kokku välja arvutatud tulemusena, intervalle. Õpilased asusid mõõtemääramatuse prantsuskeelselt lehelt lahendama ülesandeid kolm ja neli minu selgituste järgi.
+
+## 2023-9-28
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Selgitasin prantsuskeelsel lehel olevate ülesannete sisu lõpuni ja kõige kaugemale lahendamisega jõutigi viimase ülesandeni, mis jäi iseseisvalt lõpetada.
+
+## 2023-10-3
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Tutvuti mõõtmisvahenditega ja raporteeriti kuni seitsmenda punktini. Alisa: analoogtermomeeter, Demid ja Grigori: vana multimeeter, Daniil ja Vladimir: nurgik, Stanislavs: mõõtkavadega joonlaud, Vladislav: pulsi- ja oksümeeter, Polina ja Mihhail: kompass. Ülejäänud lahkusid.
+
+## 2023-10-3
+
+Eesmärgina õpilane
+
+7. teab, et korrektne mõõtetulemus sisaldab ka määramatust, ning oskab kasutada mõõtmisega kaasnevat
+mõõtemääramatust hinnates standardhälvet.
+
+Õppesisu: Mõõtmine ja mõõtetulemus. Mõõtesuurus ja mõõdetava suuruse väärtus. Mõõtühikud
+ja vastavate kokkulepete areng. Rahvusvaheline mõõtühikute süsteem (SI). Mõõteriistad ja mõõtevahendid.
+Mõõteseadus. Mõõtemääramatus ning selle hindamine. Mõõtetulemuste analüüs.
+
+Põhimõiste:
+
+mõõtemääramatus
+: suurus, mis kuulub mõõtetulemuse juurde ja iseloomustab tõenäosuslikult mõõtesuuruse võimalike väärtuste vahemikku[@mtmise]
+
+Kava:
+
+6. Tabavus, täpsus, veatüübid ja määramatus[@mgpg11pdf; @physics, lk 3-4, 6; @introduction_accuracy_precision; @mtmise_precision; @a12]. Jätkasime mõõtmistega ja nende tulemuste raporteerimisega. Alisa jõudis digitermomeetriga teha veidi A-tabelit, Mihhail ja Polina tutvuda valgustugevuse mõõtjaga. Donat uuris nihikut.
+
+## 2023-10-5
+
+Õppesisu: Mõõtetulemuste analüüs.
+
+Kava:
+
+7. Toores hinnang[@physics, lk 11-13]. Jõudsime käsitleda kõik, välja arvatud klaverihäälestajate näite.
+
+## 2023-10-5
+
+Üks võõras õpilane rääkis interferentsist kahe piluga, prootonite koostisest, Schrödingeri kassist. Demid rääkis kvantsurematusest.
+
+Kontaktsessiooniväline teemakohane tegevus järgmise kontaktsessiooni päeva alguseni: Lahendada @physics, lk 17-19'st järgmised ülesanded: *1*, *3*, *5*, *7*, *9*, *11*, *13*, *35*, *37*, *39*, *41*, *43*, *45*, *47*, *49*, *51*, *53*, *59*, *61*, *63*, *65*, *67*, *69*, *71*, *73*, *75*, *77* ja *79*.
+
+Lisaks lugeda, vaada-kuulata kõik kontaktsessiooni kirjelduses viidatud allikad!
+
+## 2023-10-10
+
+Õppesisu: Mõõtetulemuste analüüs.
+
+Kava:
+
+1. Loodusteaduste klubi tutvustamine.
+
+7. Toores hinnang[@physics, lk 11-13]. Klaverihäälestajate näide. Lahendasime ka ülesande *51*.
+
+## 2023-10-10
+
+Füüsika meetodi teadmiste ja oskuste kontroll.
+
+## 2023-10-12
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+Tagasiside füüsika meetodi testi kohta.
+
+Jõudsin ka tutvustada asjad osast *2-1* (taustsüsteem ja nihe).
+
+Iseseisvaks lahendamiseks ülesanne järgmise kontaktsessiooni päeva esimese kontaktsessiooni alguseni:
+Lahenda kõik enda testi ülesanded oma vihikusse! Seejärel kommenteeri igat enda lahendust testipaberil testipaberile tühjale alale või eraldi lehele! Lõpuks hinda oma testitulemus! Testipaber koos sinu kommentaaride ja hindega tuleb mulle tagastada kohe kontaktsessiooni alguses.
+
+## 2023-10-12
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+1. Võrdlusraamid ja nihe[@physics, lk 20-22].
+
+2. Keskmine kiirus[@physics, lk 22-24]. Näide *2-2* tehtud. Näite *2-3* valem koostatud, nüüd vaja arvud asemele panna ja arvutada. Daniil pusis minu abiga ja väga vaevaliselt tuleb. Algebra on nõrk. Vladislav jätkas ja ta oskas liita harilikke murde, kuid oli unustanud, kuidas jagada hariliku murruga. Samuti vajab palju harjutamist valemisse asendamine teisest valemist.
+
+3. Hetkekiirus[@physics, lk 24-26].
+
+## 2023-10-17
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+Kava:
+
+1. Võrdlusraamid ja nihe[@a1dkinpacketpdf(lk 1-2)]. Lahendasime kõik variatsiooniülesanded vahemaa ja nihke kohta.
+
+2. Keskmine kiirus[@physics, lk 22-24]. Näite *2-3* valemi koostamiseni teen ise, misjärel vaja arvutada. Lahendasime lõpuni keskmise kiiruse näite õpikust.
+
+## 2023-10-17
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+1. Võrdlusraamid ja nihe[@a1dkinpacketpdf(lk 1-4)]. Lahendasime kõik variatsiooniülesanded vahemaa ja nihke kohta.
+
+2. Keskmine kiirus[@physics, lk 22-24]. Näite *2-3* valemi koostamiseni teen ise, misjärel vaja arvutada. Lahendasime lõpuni keskmise kiiruse näite õpikust. Lahendasime kõik variatsiooniülesanded keskmise kiiruse kohta. Näitasin graafiliselt, kuidas saada kiiruse graafikust vahemaa graafik.
+
+3. Hetkekiirus[@physics, lk 24-26]. Näitasin ka võrdluseks keskmise kiiruse ja hetkekiiruse valemit.
+
+## 2023-10-19
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+3. Hetkekiirus[@a1dkinpacketpdf(lk 5-6, 19); @physics, lk 24-26]. Jõudsime lahendada hetkekiiruse ja keskmise kiiruse lehelt ülesandeni 11.a.
+
+## 2023-10-19
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+3. Hetkekiirus[@a1dkinpacketpdf(lk 5-6, 19); @physics, lk 24-26]. Lahendasime hetkekiiruse ja keskmise kiiruse ülesanded lehelt kuni 13.'ni.
+
+## 2023-10-19
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+3. Hetkekiirus[@a1dkinpacketpdf(lk 5-6, 19); @physics, lk 24-26]. Lahendasime hetkekiiruse ja keskmise kiiruse ülesanded lehelt kuni lõpuni.
+
+Tuletasin tuletise üldvalemi ja ruutfunktsiooni tuletise üldvalemi.
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)].
+
+Iseiseisvaks lahendamiseks järgmise kontaktsessioonide päeva esimese kontaktsessiooni alguseni: Lahendada ülesanded @physics(lk 47-48) 1, 3, 5, 7, 9, 11, 13, 15, 17 ja 19!
+
+## 2023-10-31
+
+Sessiooni lõpus õpilane:
+
+1. mõistab, et füüsikalised suurused pikkus (ka teepikkus), ajavahemik (∆t) ja ajahetk (t) põhinevad
+kehade ning nende liikumise (protsesside) omavahelisel võrdlemisel (2-1);
+
+2. teab, et keha liikumisolekut iseloomustab kiirus, ning toob näiteid liikumise suhtelisuse kohta
+makromaailmas (2-2, 2-3);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3).
+
+Õppesisu: Punktmass kui keha mudel. Koordinaadid (2-1, 3-8). Taustsüsteem, liikumise suhtelisus (2-1). Relatiivsusprintsiip. Teepikkus
+ja nihe (2-1).
+
+Põhimõisted:
+
+füüsikaline suurus
+: füüsikalise objekti mõõdetav iseloomustaja[@fsikaline, lk 5]
+
+skalaarne suurus
+: füüsikaline suurus, mis on esitatav vaid ühe mõõtarvu ja mõõtühikuga[@epik]
+
+vektoriaalne suurus
+: füüsikaline suurus, mis koosneb nii skalaarsest suurusest kui suunast[@physics, lk 22]
+
+liikumisolek
+: keha omadus, mis seisneb keha asukoha, asendi või kuju muutumises mingi teise keha ehk taustkeha suhtes[@epik]
+
+aeg
+: vaatleja kujutlus, mis tekitatakse liikumiste omavahelisel võrdlemisel[@epik]
+
+taustsüsteem
+: taustkeha, sellega seotud koordinaadistik ja ajamõõtmise süsteem[@epik]
+
+kinemaatika
+: sihitiste liikumise kirjeldamine[@physics, lk 20]
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+3. Hetkekiirus[@a1dkinpacketpdf(lk 5-6, 19); @physics, lk 24-26]. Alustasime õpiku näitest 2-4.
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)]. Selgitasin kiirendust üldiselt ja keskmist kiirendust. Lahendasime ka näite 2-5.
+
+## 2023-10-31
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)]. Näide 2-8 tehtud. Jätkame juuresolevate graafikute kirjeldamisega.
+
+Ülesanne järgmiseks kontaktsessiooniks:
+
+Lugeda esimese arusaamatu kohani:
+
+1. @physics(lk 24-30),
+
+2. @ebook_changing_movement.
+
+## 2023-11-2
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)]. Jätkasime juuresolevate graafikute kirjeldamisega. Lahendasime ülesande E kiirendusfunktsioonini.
+
+## 2023-11-2
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+4. Kiirendus[@physics(lk 27-30); @a1dkinpacketpdf(lk 7-18, 20-23)].
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jõudsime näites 2-10 selgitada välja, et lennuk ei suuda tõusta.
+
+## 2023-11-2
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jõudsime näites 2-11 tuletada lõpliku valemi.
+
+Ülesanne järgmiseks kontaktsessiooniks:
+
+Lahendada @physics(lk 48-49)'st ülesanded 21, 23, 25, 27, 29 ja 31! Lahendeid saab kontrollida @physics(lk A-23)'st.
+
+Lugeda esimese arusaamatu kohani ja raporteerida mulle arusaamatu koht:
+
+1. @physics(lk 30-33).
+
+Kui jõudsid lõpuni ja kõik oli selge, siis palun kirjuta, et kõik oli selge.
+
+## 2023-11-7
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jätkasime näitega 2-11 kasutades eelmine kord tuletatud lõplikku valemit. Lahendasime näite 2-11, kuid saime veidi vale tulemuse. Võisin ka valemi valesti tuletada.
+
+F-näites jäime valemi tuletamisega pooleli. Avaldasime kiirenduse valemist aja ja panime selle põhivalemisse.
+
+\onecolumn
+
+## 2023-11-7
+
+Kontaktsessiooni lõpus õpilane
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendasime näidet F ja tuli nulliga jagamine, seega miski läks ka siin valesti (joonis \@ref(fig:f-ralliauto) leheküljel `r render_pageref(reference="fig:f-ralliauto")`).
+
+```{r label="f-ralliauto", echo=FALSE, fig.cap="Siniselt on püütud lahendada ralliauto ülesannet. Kus on viga?"}
+include_external_graphics(path="rmd/sissejuhatus-kulgliikumise-kinemaatika/f-IMG_20231107_110344.jpg")
+
+```
+
+Lahendasime kiirenduse variatsiooniülesannete lehelt esimese lehekülje, seega selle, kus trammivagunid lõbustuspargis kiirenevalt või mittekiirenevalt liiguvad.
+
+\twocolumn
+
+## 2023-11-9
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja (2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+1. Tekitasime tahvlile positsiooni valemist algpositsiooni, algkiiruse ja ajahetke.
+
+## 2023-11-9
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendasime uuesti ülesande F. Tegime tahvlile kiiruse valemi ehk tuletise positsiooni valemist. Panime sinna ajahetke valemi asemele ja arvutasime ülesande F lõppkiiruse.
+
+## 2023-11-9
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Tegime ülesande F kohta veel tabeli, kus aeg, positsioon ja kiirus, lisaks kõik graafikud kuni kiirenduseni välja. *Acceleration*-i variatsiooniülesannetest lahendasime esimese lehekülje ülesanded. Jätkame *Describing Motion with Diagrams*-i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 10)].
+
+6. Probleemide lahendamine[@physics(lk 33-37)].
+
+## 2023-11-14
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. *Acceleration*-i variatsiooniülesannetest lahendasime teise lehekülje ülesanded[@a1dkinpacketpdf(lk 8)]. Jätkasime *Describing Motion with Diagrams*-i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 10)]. Lahendasime Describing Motion Numerically teise ülesande Honda Accordini[@a1dkinpacketpdf(lk 11)].
+
+## 2023-11-14
+
+Kontaktsessiooni lõpus õpilane
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone (2: 2-6).
+
+Õppesisu:
+
+Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5).
+
+Põhimõiste:
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Lahendasime Numerically variatsiooniülesanded lõpuni[@a1dkinpacketpdf(lk 11-12)].
+
+## 2023-11-16
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustasime *Describingi Motion with Position-Time Graphs* variatsiooniülesannete lahendamist[@a1dkinpacketpdf(lk 13)].
+
+## 2023-11-16
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jätkasime *Describingi Motion with Position-Time Graphs* variatsiooniülesannete lahendamist[@a1dkinpacketpdf(lk 13)] ja lahendasime need lõpuni.
+
+## 2023-11-16
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustasime *Interpretingi Velocity-Time Graphs* variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 19-20)] ja lahendasime lõpuni
+
+## 2023-11-21
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Alustasime *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)]. Esimese graafiku lahendasime täielikult. Teise puhul arvutasime kiirendused.
+
+## 2023-11-21
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+5. Liikumine püsiva kiirendusega[@physics(lk 30-33)]. Jätkasime *Kinematic Graphing – Mathematical Analysis*i variatsiooniülesannete lahendamisega[@a1dkinpacketpdf(lk 21-22)]. Võtsime ette teise graafiku ning arvutame kiirused ja positsioonid. Tegime lõpuni.
+
+## 2023-11-23
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutasin uuesti tahvlile tekstülesande lahendamise struktuuri. Kuvasin näite 2-12 teksti ning kirjutasin välja sisendid ja väljundi. Lahendasime näite 2-13 arvutamise osani.
+
+## 2023-11-23
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+10. analüüsib ühtlase ja ühtlaselt muutuva sirgjoonelise liikumise kiiruse ning teepikkuse graafikuid;
+oskab leida teepikkust kui kiiruse graafiku alust pindala (2: 2-4, 6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Kirjutasin välja näite 2-13 lahendi. Jõudsime peatüki 2-6 lõppu. Lahendasime *Motion Problems*i variatsiooniülesannetest esimesed kaks[@a1dkinpacketpdf(lk 25-26)].
+
+## 2023-11-23
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendasime *Motion Problems*i variatsiooniülesanded alates kolmandast viiendani[@a1dkinpacketpdf(lk 25-26)]. Jätsin viimased lahendada koju.
+
+## 2023-11-28
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+Kava:
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Hakkasime lahendama *Motion Problems*i variatsiooniülesannet 6[@a1dkinpacketpdf(lk 25-26)]. Jõudsime tabelis täita sisendkiirused. Probleemne oli kiiruse valemi kirjutamine.
+
+## 2023-11-28
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+Saabusin 9:40.
+
+1. Tutvustasin järgneva nädala testi.
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Hakkasime lahendama *Motion Problems*i variatsiooniülesannet 6[@a1dkinpacketpdf(lk 25-26)]. Selgitasin õpilasele aja tuletamist kiiruse valemist. Tal on tõsised probleemid võrrandi lahendamisega. See tuleb tal selgeks saada oma matemaatikaõpetaja kaudu. Me ei saa muidu jätkata temaga füüsikas.
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+
+## 2023-11-30
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+1. Daniil sai võrrandite seitsmenda D-taseme ülesanded lahendada.
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendasime *Motion Problems*i variatsiooniülesanded alates seitsmendast kuni kaheksandani[@a1dkinpacketpdf(lk 25-26)]. Oli vaja meelde tuletada vahemaa üldvalem. See polnud lahendajal isegi konspektis, ühel muul õpilasel oli. Samuti näitasin, kuidas täisnurkne kolmnurk on pool ristkülikut, sest pindala valem oli ununenud.
+
+## 2023-11-30
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+vaba
+langemine (2-7)
+: kehade kukkumine, kus õhutakistus puudub või on väike[@ebook]
+
+Kava:
+
+6. Probleemide lahendamine[@physics(lk 33-37)]. Lahendasime *Motion Problems*i variatsiooniülesanded alates üheksandast[@a1dkinpacketpdf(lk 25-26)].
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Tegime läbi näiteni 2-16.
+
+## 2023-11-30
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Jõudsime teha läbi näite 2-21. Lahendame *Free Fall*i variatsiooniülesanded[@a1dkinpacketpdf(lk 27-28)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)].
+
+## 2023-12-05
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Alustasime näitest 2-22. Jõudsime peatüki 2-7 lõpuni. Probleem tekkis, kui proovisime vahepeal uuesti arvutada aega, mis kuluks palli üles jõudmiseks, tehes seda ümardatud vahetulemusega.
+
+## 2023-12-05
+
+Kell 10:15 algab hindeline kinemaatikatest [väljaspool kooli territooriumi](#test-outside), mis sisaldab ka üht füüsika meetodi ülesannet juhuks, kui soovid oma füüsika meetodi testi tulemust parandada. Palun ole koolimaja ees valmis juba varem, sest siis saad minult testisessiooni koodi ja kui aeg on 10:15, on sul aega \qty{45}{\minute}, et läbida rada ja lahendada ülesanded.
+
+## 2023-12-07
+
+Kontaktsessiooni lõpus õpilane
+
+7. eristab nähtuste ühtlane sirgjooneline liikumine, ühtlaselt kiirenev sirgjooneline liikumine, ühtlaselt
+aeglustuv sirgjooneline liikumine ja vaba langemine olulisi tunnuseid ning toob sellekohaseid näiteid (2-5, 2-7);
+
+8. selgitab füüsikaliste suuruste kiirus, kiirendus, teepikkus ja nihe tähendusi ning nende suuruste
+mõõtmise või määramise viise (2-2, 2-3);
+
+9. lahendab probleemülesandeid, rakendades keskmise kiiruse ja kiirenduse definitsioone \@ref(eq:velocity) leheküljel `r render_pageref(reference="eq:velocity")` ja \@ref(eq:a) leheküljel `r render_pageref(reference="eq:a")` (2: 2-6); kasutab ühtlase
+sirgjoonelise liikumise ja ühtlaselt muutuva liikumise kirjeldamiseks liikumisvõrrandeid vahemaa pikkuse kohta püsiva kiiruse ja püsiva kiirenduse kaudu (2-5, 2-6);
+
+11. rakendab ühtlaselt muutuva sirgjoonelise liikumise, sh vaba langemise kiiruse, nihke ja kiirenduse
+leidmiseks järgmisi seoseid: \@ref(eq:speed-by-jerk) leheküljel `r render_pageref(reference="eq:speed-by-jerk")`, \@ref(eq:path-length-by-jerk) leheküljel `r render_pageref(reference="eq:path-length-by-jerk")` ja \@ref(eq:constant-acceleration-via-velocities-and-displacement) leheküljel `r render_pageref(reference="eq:constant-acceleration-via-velocities-and-displacement")`(2: 5-7).
+
+Õppesisu:
+
+Teepikkus
+ja nihe (2-1). Ühtlane sirgjooneline liikumine ja ühtlaselt muutuv sirgjooneline liikumine: kiirus, kiirendus,
+liikumisvõrrand, kiiruse ja läbitud teepikkuse sõltuvus ajast, vastavad graafikud (2: 2-5). Nihe, kiirus ja kiirendus kui
+vektoriaalsed suurused (3-6). Vaba langemine kui näide ühtlaselt kiireneva liikumise kohta (2-7). Vaba langemise
+kiirendus (2-7). Kiiruse ja kõrguse sõltuvus ajast vertikaalsel liikumisel (2-7). Erisihiliste liikumiste sõltumatus (3-4).
+
+Põhimõisted:
+
+teepikkus
+: alg- ja lõppasukoha vahekaugus täpselt piki trajektoori[@epik]
+
+nihe
+: sihitise asukoha muutus[@physics, lk 22]
+(2-1)
+
+keskmine kiirus
+: jagatud selle vahemaa läbimiseks kuluva ajaga[@physics, lk 22]
+
+hetkkiirus
+: keskmine kiirus lõpmatult lühikese ajavahemiku kestel[@physics, lk 24]
+
+kiirendus (2: 4, 5, 8)
+: kiiruse muutumise kiirust väljendav suurus (2: 4, 5, 8)
+
+Kava:
+
+7. Vabalt langevad objektid[@physics(lk 37-43)]. Näitasin, mis meil viga oli, kui me saime ruutjuure alla negatiivse arvu arvutades palli üles jõudmise aega. Lahendasime *Free Fall*i variatsiooniülesanded 1-4[@a1dkinpacketpdf(lk 27)].
+
+8. Muutuv kiirendus, integraalarvutus[@physics(lk 43-44)]. Seda teemat ei käsitlenud.
+
+## 2023-12-07
+
+Uus teadmiste-oskuste kontroll kinemaatika teemas. Seekord sisetingimustes.

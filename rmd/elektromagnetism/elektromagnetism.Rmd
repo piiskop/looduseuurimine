@@ -588,7 +588,7 @@ Kursuse lõpus õpilane:
 Tegin konsultatsiooni Marthale ja Anni Kaisile. Selgitasin kompaktselt kogu elektrostaatika arvutamise osa, st Coulomb' seaduse eri kujud ja nende komponendid (joonis \@ref(fig:electrostatics) leheküljel `r render_pageref(reference="fig:electrostatics")`).
 
 ```{r label = "electrostatics", echo=FALSE, fig.cap="Elektrostaatika arvutusülesannete reeglistik."}
-include_external_graphics(path="rmd/elektrostaatika-IMG_20231103_120635.jpg")
+include_external_graphics(path="rmd/elektromagnetism/elektrostaatika-IMG_20231103_120635.jpg")
 
 ```
 
@@ -703,7 +703,7 @@ Kava:
     Alustasime näite 21-8 kiirenduse arvutamisest. Jõudsime näite 21-9 EA vektori üldvalemini, detailselt ei jõudnud lahti kirjutada (joonis \@ref(fig:electromagnetism-electric-field-superposition) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-superposition")`).
 
     ```{r label="electromagnetism-electric-field-superposition", echo=FALSE, fig.cap="Elektrivälja tugevuse arvutamine kahe laengu ühendussihist eemal."}
-    include_external_graphics(path="rmd/elektrivälja-tugevus-laengute-ühendussihist-eemal-IMG_20231117_132222.jpg")
+    include_external_graphics(path="rmd/elektromagnetism/elektrivälja-tugevus-laengute-ühendussihist-eemal-IMG_20231117_132222.jpg")
     
     ```
 
@@ -736,7 +736,7 @@ Kava:
     Jätkasime näitega 21-9[@physics(lk 621)] kirjutades $\overrightarrow{E_A}$ magnituudi arvutamiseeskirja lahti. *11a*: Jõudsime lõpliku valemini samas näites (joonis \@ref(fig:electromagnetism-electric-field-21-9) leheküljel `r render_pageref(reference="fig:electromagnetism-electric-field-21-9")`). *11b*: Sama näite valemi tuletamisega sain dimensionaalanalüüsiga ebakõla.
     
     ```{r label="electromagnetism-electric-field-21-9", echo=FALSE, fig.cap="Kas leiad vea dimensionaalanalüüsis?"}
-    include_external_graphics(path="rmd/21-9-IMG_20231120_120821.jpg")
+    include_external_graphics(path="rmd/elektromagnetism/21-9-IMG_20231120_120821.jpg")
     
     ```
 

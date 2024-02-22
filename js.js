@@ -45,6 +45,9 @@ function setTargets() {
   nameOfPresentation = "from-statical-electricity-to-coulomb";
   createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "staatilisest elektrist Coulomb' seaduseni esitlus");
   createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "staatilisest elektrist Coulomb' seaduseni esitluse kaugjuhtimine");
+  nameOfPresentation = "dynamics-periodic-movements";
+  createLink(div, "presentation-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + ".html", "dünaamika ja perioodiliste liikumiste esitlus");
+  createLink(div, "presentation-speaker-" + nameOfPresentation, "qmd/" + nameOfPresentation + "/" + nameOfPresentation + "-speaker.html", "dünaamika ja perioodiliste liikumiste esitluse kaugjuhtimine");
 }
 
 window.onload = function () {

@@ -53,6 +53,8 @@ riskide minimeerimise võimalusi;
 suhestatust kooli loodusteaduslike õppeainetega;
 7. on seesmiselt motiveeritud täiendama oma füüsikalis-tehnoloogilisi teadmisi terve elu vältel.
 
+\onecolumn
+
 ## Õppesisu
 
 1.  **Aero- ja hüdrodünaamika.** Keskkonna takistusjõud (5-6)[@labor_9_keskkonnatakistuse_uurimine_vedelikesdocxpdf; @looduseuurimine]. Teised õhusõidukile mõjuvad jõud (5-6). Vedelike
@@ -151,6 +153,8 @@ vedelkristallekraan.
     34: 10-11
     35: 7
 
+\multicolsbegin
+
 ## Õppetegevus
 
 Kasutatakse järgmisi õppemeetodeid:
@@ -174,6 +178,10 @@ ajurünnak;
 seoseid;
 
 8. uuenduslike projektide kavandamine. 
+
+\multicolsend
+
+\twocolumn
 
 ## Kalender
 

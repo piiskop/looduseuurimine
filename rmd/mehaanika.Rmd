@@ -54,9 +54,26 @@ selgitab energia miinimumi printsiibi kehtivust looduses ja tehiskeskkonnas (7.1
 
 ### Õppesisu
 
-Newtoni seadused (4-6). Jõud (4: 1). Jõudude vektoriaalne liitmine (4: 4). Resultantjõud (4: 4). Muutumatu kiirusega liikumine
-jõudude tasakaalustumisel (4: 2). Keha impulss (9). Impulsi jäävuse seadus (9: 2). Reaktiivliikumine (9: 2).
-Gravitatsiooniseadus (6: 1-2). Raskusjõud, keha kaal, toereaktsioon (4: 6). Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
+1. Newtoni seadused (4-6).
+
+2. Jõud (4: 1).
+
+3. Jõudude vektoriaalne liitmine (4: 4).
+
+4. Resultantjõud (4: 4).
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel (4: 2).
+
+6. Keha impulss (9).
+
+7. Impulsi jäävuse seadus (9: 2).
+
+8. Reaktiivliikumine (9: 2).
+
+9. Gravitatsiooniseadus (6: 1-2).
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6). Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
 Jäikustegur (7: 3). Hõõrdejõud ja hõõrdetegur (5: 1). Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
 seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
 jäävuse seadus looduses ja tehnikas (8).
@@ -74,7 +91,20 @@ jäävuse seadus looduses ja tehnikas (8).
 
 ### Põhimõisted
 
-Kuju muutumine, reaktiivliikumine (9: 2), resultantjõud (4: 4), keha inertsus ja mass (4: 2-3), impulss (9), impulsi
+kuju muutumine
+
+reaktiivliikumine (9: 2),
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+inertsus (4: 2-3)
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass (4: 2-3)
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+impulss (9), impulsi
 jäävuse seadus (9: 2), raskusjõud (4: 6), keha kaal (4: 6), kaalutus (6: 4), toereaktsioon (4: 6), elastsusjõud (7: 3), jäikustegur (7: 3), hõõrdejõud (5: 1),
 hõõrdetegur (5: 1), mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
 
@@ -221,3 +251,464 @@ ristlaine (15: 2), lainepikkus (15: 1), peegeldumine (15: 7, 32: 1-2, 32: 9, 34:
 32: 1-2, 9-10
 34: 5
 44: 4
+
+## Õppesessioonid
+
+### 2024-2-15
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses.
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+Õppesisu:
+
+1. Jõud.
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud.
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel.
+
+Põhimõisted:
+
+kuju muutumine
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+Kava:
+
+1. Tutvumine.
+
+2. Jõud.
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud.
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel. Jõudsime jõudude liitmise simulatsioonini.
+
+### 2024-2-15
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses.
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+Õppesisu:
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud.
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel.
+
+Põhimõisted:
+
+kuju muutumine
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+Kava:
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud. Jõudsime jõudude liitmise ülesanded lahendada.
+
+\onecolumn
+
+### 2024-2-20
+
+Kava: Arutelu hindamissüsteemi üle (joonis \@ref(fig:grading) leheküljel `r render_pageref(reference="fig:grading")`).
+
+```{r label="grading", echo=FALSE, fig.cap="Hindamissüsteemi arutelu tulemus."}
+include_external_graphics("rmd/hindamine-IMG_20240220_131955.jpg")
+
+```
+
+\multicolsbegin
+
+### 2024-2-20
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Jõudsime viienda ülesande lahendatud Newtoni I seaduse kohta.
+
+### 2024-2-22
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Alustame kuuenda ülesande lahendamisest Newtoni I seaduse kohta.
+
+### 2024-2-22
+
+Kursuse lõpus õpilane:
+8. rakendab gravitatsiooniseadust (6: 1-2).
+
+Kava: Gravitatsiooniseadus.
+
+\multicolsend
+
+\pagebreak
+
+\onecolumn
+
+\multicolsbegin
+
+## Ülesanded
+
+### 2024-3-3
+
+Kuupäevani 2024-3-3 tuleb lahendada järgmised ülesanded iseseisvalt kasutades ülesande lahendamise struktuuri ja näidates terve lahenduskäigu:
+
+1.  Tee kindlaks kolme vektori
+    $$\overrightarrow{\bf{V}_1} = 4,0 \hat{\bf{i}} - 8,0 \hat{\bf{j}},$$
+    $$\overrightarrow{\bf{V}_2} = \hat{\bf{i}} + \hat{\bf{j}} \text{ ja}$$
+    $$\overrightarrow{\bf{V}_3} = -2,0 \hat{\bf{i}} + 4,0 \hat{\bf{j}}$$
+    suurus ja suund!
+
+    Tee kindlaks $\overrightarrow{\bf{V}_1} - \overrightarrow{\bf{V}_2} + \overrightarrow{\bf{V}_3}$.
+
+2.  Vektorid $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$ liituvad summaarseks vektoriks $\overrightarrow{\bf{V}_R} = \overrightarrow{\bf{V}_1} + \overrightarrow{\bf{V}_2}$.
+
+    Kirjelda $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$, kui
+
+ - $V_\text{R} = V_\text{1} + V_\text{2}$,
+    
+ - $V_\text{R}^2 = V_\text{1}^2 + V_\text{2}^2$,
+ 
+ - $V_1 + V_2 = V_1 - V_2$.
+
+3.  Konkreetse osakese asukoha aja funktsioonina annab
+    $$\overrightarrow{\bf{r}} = ( 9,60 t \hat{\bf{i}} + 6,45 \hat{\bf{j}} - 1,50 \cdot t^2 \hat{\bf{k}}) \text{m}.$$
+    Määra osakese kiirus ja kiirendus aja funktsioonina.
+
+4.  Auto liigub kiirusega \qty{16,0}{\m\per\s} otse lõunasse ühel hetkel ja \qty{25,7}{\m\per\s} otse itta \qty{8,00}{\s} hiljem. Selle ajavahemiku jooksul määra auto
+ - keskmine suunatud kiirus,
+ 
+ - keskmise kiirenduse suurus ja suund,
+ 
+ - keskmine kiirus.
+
+    [Vihje: kas saad antud teabe põhjal kõikidele alamküsimustele vastata?]
+
+\multicolsend
+
+\twocolumn
+
+5.  Suusataja kiirendab \qty{30,0}{\degree} mäest alla \qty{1,80}{\m\per\s\squared} (joonis \@ref(fig:dynamics-tasks-vectors-23) leheküljel `r render_pageref(reference="fig:dynamics-tasks-vectors-23")`).
+
+    ```{r label="dynamics-tasks-vectors-23", echo=FALSE, fig.cap="Suusataja laskumas."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-23.svg")
+    
+    ```
+
+ - Milline on tema kiirenduse vertikaalne komponent?
+ 
+ - Kui kaua kulub tal mäe põhja jõudmiseks, eeldades, et ta alustab puhkeasendist ja kiirendab ühtlaselt, kui $a = \qty{1,80}{\m\per\s\squared}$ ja 
+kõrguse muutus on \qty{125}{\m}?
+
+\onecolumn
+
+\multicolsbegin
+
+6. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $x$-komponent!
+
+7. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $y$-komponent!
+
+8. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $x$-komponent trajektoori esimese lõigu lõpust!
+
+9. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $y$-komponent trajektoori esimese lõigu lõpust!
+
+10. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $x$-komponent trajektoori viimase lõigu algusest!
+
+11. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $y$-komponent trajektoori viimase lõigu algusest!
+
+12. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{x}}} = (\qty{1,424e-1}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga keskmise kiiruse vektori $x$-komponent!
+
+13. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{y}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektori $y$-komponent!
+
+\multicolsend
+
+\onecolumn
+
+## Testid
+
+### 2024-2-20
+
+1.  Sõidetakse autoga \qty{245}{\kilo\m} läände ja seejärel \qty{118}{\kilo\m} edelasse (\qty{45,0}{\degree}). Kui suur on auto nihkumine lähtepunktist? Joonista diagramm.
+              
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+2.  Sõidetakse autoga \qty{245}{\kilo\m} läände ja seejärel \qty{118}{\kilo\m} edelasse (\qty{45,0}{\degree}). Kui suur on auto nihkumise lähtepunktist suurus (suurus ja suund)? Joonista diagramm.
+              
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+3.  Kui $\overrightarrow{\bf{V_x}} = \num{9,40}$ ühikut ja $\overrightarrow{\bf{V_y}} = \num{-6,80}$ ühikut, määra $\overrightarrow{\bf{V}}$ suurus ja suund!
+              
+    \vspace{0.2\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+4.  $\bf{V}$ on vektor, mille suurus on \num{21,8} ühikut ja mis osutab negatiivse $x$-telje kohal \qty{23,4}{\degree} nurga all.
+
+    Joonista see vektor.
+    
+    Arvuta $V_x$ ja $V_y$.
+    
+    Kasuta $V_x$'i ja $V_y$'t, et arvutada kontrolliks tagasi $\overrightarrow{\bf{V}}$!
+                  
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5.  Joonisel \@ref(fig:dynamics-test-vectors-7) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-7")` on kujutatud kaks vektorit, $\overrightarrow{\bf{A}}$ ja  $\overrightarrow{\bf{B}}$, mille suurused on $A = \num{6,8}$ ühikut ja $B = \num{5,5}$ ühikut.
+
+    ```{r label="dynamics-test-vectors-7", echo=FALSE, fig.cap="Kaks antiparalleelset vektorit."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-7.svg")
+    
+    ```
+
+    Kui $\overrightarrow{\bf{C}} = \overrightarrow{\bf{A}} + \overrightarrow{\bf{B}}$, siis $\overrightarrow{\bf{C}}= \blank{(\num{1,3}; \num{0})}$.
+
+    Kui $\overrightarrow{\bf{C}} = \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$, siis $\overrightarrow{\bf{C}}= \blank{(\num{1,2e1}; \num{0})}$.
+
+    Kui $\overrightarrow{\bf{C}} = \overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$, siis $\overrightarrow{\bf{C}}= \blank{(\num{1,2e1}; \pi)}$.
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+6.  Mäe tipp, mis asub baaslaagrist \qty{2450}{\m} kõrgusel, on kaardil mõõdetud \qty{4580}{\m} kaugusel laagrist \qty{38,4}{\degree} loode suunas. Millised on laagrist tipuni nihkevektori komponendid? Milline on selle suurusjärk? Vali $x$-telg ida suunas, $y$-telg põhja suunas ja $z$-telg ülespoole.
+                  
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+7.  Joonisel \@ref(fig:dynamics-test-vectors-11-7) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-7")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-7", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Määra $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suurus!
+    
+    $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus on \num{53.9}.
+    
+    Võrdle kummagi vahe tulemusi ja selgita!
+                  
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+8.  Joonisel \@ref(fig:dynamics-test-vectors-11-8) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-8")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-8", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Määra $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suund!
+
+    $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund on \num{-0,09109}.
+    
+    Võrdle kummagi vahe tulemusi ja märka, et need on vastandlikud!
+                  
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+9.  Joonisel \@ref(fig:dynamics-test-vectors-11-9) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-9")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-9", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Arvuta $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus!
+    
+    $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suurus on \num{53.9}.
+
+    Võrdle kummagi vahe tulemusi ja selgita!
+                  
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+10. Joonisel \@ref(fig:dynamics-test-vectors-11-10) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-10")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-10", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Arvuta $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund!
+    
+    $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suund on \num{3,050}.
+
+    Võrdle kummagi vahe tulemusi ja märka, et need on vastandlikud!
+                      
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+11. Joonisel \@ref(fig:dynamics-test-vectors-11-11) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-11")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{B}} - 3 \cdot \overrightarrow{\bf{A}}$ suurus!
+
+    ```{r label="dynamics-test-vectors-11-11", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+12. Joonisel \@ref(fig:dynamics-test-vectors-11-12) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-12")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{B}} - 3 \cdot \overrightarrow{\bf{A}}$ suund!
+
+    ```{r label="dynamics-test-vectors-11-12", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+13. Joonisel \@ref(fig:dynamics-test-vectors-11-13) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-13")` kujutatud vektorite osas arvuta $2 \cdot \overrightarrow{\bf{A}} - 3 \cdot \overrightarrow{\bf{B}} + 2 \cdot \overrightarrow{\bf{C}}$ suurus!
+
+    ```{r label="dynamics-test-vectors-11-13", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+14. Joonisel \@ref(fig:dynamics-test-vectors-11-14) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-14")` kujutatud vektorite osas arvuta $2 \cdot \overrightarrow{\bf{A}} - 3 \cdot \overrightarrow{\bf{B}} + 2 \cdot \overrightarrow{\bf{C}}$ suund!
+
+    ```{r label="dynamics-test-vectors-11-14", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+15. Joonisel \@ref(fig:dynamics-test-vectors-11-15) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-15")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{C}} - \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus!
+
+    ```{r label="dynamics-test-vectors-11-15", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+16. Joonisel \@ref(fig:dynamics-test-vectors-11-16) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-16")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{C}} - \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund!
+
+    ```{r label="dynamics-test-vectors-11-16", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+### 2024-3-14
+
+1.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Selle, esimese lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{1; x}}} = (\qty{1,00e-1}{\m}; \frac{\pi}{2}; \num{0})$. Seejärel pöörab ta \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Selle, teise lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{2; x}}} = (\qty{7,660e-2}{\m}; \frac{\pi}{2}; \num{0})$. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Selle, kolmanda lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{3; x}}} = (\qty{-3,421e-2}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga nihke vektori $x$-komponent!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+2.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Selle, esimese lõigu nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{1; y}}} = \overrightarrow{0}$. Seejärel pöörab ta \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Selle, teise lõigu nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{2; y}}} = (\qty{6,428e-2}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Selle, kolmanda lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{3; x}}} = (\qty{9,396e-2}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga nihke vektori $y$-komponent!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+3.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga keskmise kiiruse vektori rõhtne komponent on $\overrightarrow{\bf{\overline{v_\text{x}}}} = (\qty{2,48e-2}{\m}; \frac{\pi}{2}; \num{0})$. Sipelga keskmise kiiruse vektori püstine komponent on $\overrightarrow{\bf{\overline{v_\text{x}}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektor!
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
