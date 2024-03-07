@@ -23,6 +23,30 @@ crossref:
 
 ## Hinnatavad tegevused
 
+```{r label="setup", echo=FALSE}
+#' This function displays external graphics by making the appropriate conversion aforehead.
+#' 
+#' @param path the path to the image file
+include_external_graphics = function(path) {
+
+  if (knitr::is_latex_output() && ("pdf" != xfun::file_ext(path))) {
+    output = xfun::with_ext(path, 'pdf')
+    
+    if ("svg" == xfun::file_ext(path)) {
+      system2('rsvg-convert', c('-f', 'pdf', '-a', '-o', shQuote(c(output, path))))
+    } else {
+      system(paste('gm convert ', path, ' ', output), intern = FALSE, ignore.stdout = FALSE, ignore.stderr = FALSE, wait = TRUE) # graphicsmagick
+    }
+    
+  } else {
+    output = path
+  }
+  
+  knitr::include_graphics(output)
+}
+
+```
+
 - lühitestid ja
 - kontrolltöö
 
@@ -234,6 +258,60 @@ librarian::shelf(c(
   "qrcode"
 ))
 code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229904#229905-Gravitatsioon-Gravitatsiooniseadus", ecl="H")
+plot(code)
+
+```
+
+## Raskusjõud
+
+raskusjõud
+: taevakeha külgetõmbe jõud[@ekoolikottee] (@eq-gravitational-force)
+
+$$
+F = \frac{G \cdot M \cdot m}{r^2}.
+$${#eq-gravitational-force}
+
+## Raskuskiirendus
+
+raskuskiirendus
+: kiirendus, mille annab kehale raskusjõud[@ekoolikottee] (@eq-acceleration-due-to-gravitation)
+
+$$
+g = \frac{F}{m} = \frac{\frac{G \cdot M \cdot m}{r^2}}{m} = \frac{G \cdot M}{r^2}.
+$${#eq-acceleration-due-to-gravitation}
+
+## Raskuskiirendus Maa pinnal[@elert_2019_glenn]
+
+![Gravitatsioonist põhjustatud kiirendus eri Maa paigus.](g.png)
+
+## Raskuskiirenduse konverteerimine[@haynes_2014_crc, p. 2-44, 14-11] 
+
+$$9,80665\frac{\text{m}}{\text{s}^2}.$$
+
+## Raskuskiirendus pinnalt kõrgemal
+
+$$g = G \cdot \frac{M}{(r + h) ^ 2},$$
+
+kus 
+
+*M*
+: Maa mass,
+
+*r*
+: Maa raadius,
+
+*h*
+: kõrgus Maa pinnast.
+
+## Raskusjõud ja -kiirendus: ülesanded
+
+Lahendame ülesanded 1-2, 6-7[@ekoolikottee] (@fig-qr-acceleration-due-to-gravitation-ekoolikott).
+
+```{r label="fig-qr-acceleration-due-to-gravitation-ekoolikott", echo=FALSE, fig.cap="Raskusjõud ja -kiirendus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229906#229907-Raskusjoud-Raskuskiirendus", ecl="H")
 plot(code)
 
 ```

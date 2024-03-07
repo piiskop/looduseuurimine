@@ -76,13 +76,13 @@ Kui ma annan iseseisvaks lahendamiseks ülesandeid, siis vähemalt ühe sellise 
 
 Kui õpilasel on iseseisvaks lahendamiseks jäetud ülesanne lahendamata, peab ta seda tüüpi ülesande lahendama kursuse lõpus kontrolltöös. Tahvlile lahendab ülesande sellises juhus muu õpilane samadel tingimustel, kui selline õpilane on.
 
-Iseseisvaks lahendamiseks jäetud ülesannete lahendused tuleb mulle esitada eraldi paberil või virtuaalsel tahvlil mulle identifitseeritavana, kelle lahendusega on tegemist, ja kuupäevaga ülesande lahendamise tähtajale järgneva õppesessioonini. Tagasisidestan hiljemalt omakorda järgmise õppesessioonide päeva kestel, misjärel õpilane lisab kommentaarid oma soorituse kohta ja hinde, lahendab oma vihikusse ka ning tagastab mulle hiljemalt omakorda järgmise õppesessioonide päeva õppesessioonis.
+Iseseisvaks lahendamiseks jäetud ülesannete lahendused tuleb mulle esitada eraldi paberil või virtuaalselt mulle identifitseeritavana, kelle lahendusega on tegemist, ja kuupäevaga ülesande lahendamise tähtajale järgneva õppesessioonini. Tagasisidestan hiljemalt omakorda järgmise õppesessioonide päeva kestel, misjärel õpilane lisab kommentaarid oma soorituse kohta ja hinde, lahendab oma vihikusse ka ning tagastab mulle hiljemalt omakorda järgmise õppesessioonide päeva õppesessioonis.
 
 Kui õpilane näitab oma lahenduskäigu tahvli abil kõigile, on hinde kaal \num{0,6}, muidu \num{0,4}. Igat ülesannet saab tahvli abil selgitada ainult üks õpilane, välja arvatud juhul, kui teine lahenduskäik erineb esimesest.
 
 #### Lähiajalugu
 
-Kui iseseisvaks lahendamiseks pole vastavaks kontaktsessioonide päevaks jäetud mitte ühtki ülesannet, toimub esimese 30 minuti kestel kontroll teadmiste-oskuste kohta infos, mis on saadud alates eelmise sellise kontrolli järgsest hetkest kuni eelneva kontaktsessioonide päeva lõpuni. Selles kontrollis osalevad kõik kohalolevad õpilased. Arutleda tuleb võimalikult põhjalikult, kuid püsides teemas. Väliseid allikaid kasutada ei ole lubatud.
+Kui iseseisvaks lahendamiseks pole vastavaks kontaktsessioonide päevaks jäetud mitte ühtki ülesannet, toimub esimese 20 minuti kestel kontroll teadmiste-oskuste kohta infos, mis on saadud alates eelmise sellise kontrolli järgsest hetkest kuni eelneva kontaktsessioonide päeva lõpuni. Selles kontrollis osalevad kõik kohalolevad õpilased. Arutleda tuleb võimalikult põhjalikult, kuid püsides teemas. Väliseid allikaid kasutada ei ole lubatud.
 
 Pärast minupoolset kontrollimist tagastan õpilasele tema soorituslehe, misjärel õpilane kommenteerib oma sooritust ja hindab ise ka tagastades soorituslehe seejärel minule järgmise kontaktsessioonide päeva esimese kontaktsessiooni alguses, misjärel saab õpilane teada minu pandud hinde ja võrrelda enda panduga.
 

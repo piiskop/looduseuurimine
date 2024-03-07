@@ -73,7 +73,9 @@ jõudude tasakaalustumisel (4: 2).
 
 9. Gravitatsiooniseadus (6: 1-2).
 
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6). Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+11. Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
 Jäikustegur (7: 3). Hõõrdejõud ja hõõrdetegur (5: 1). Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
 seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
 jäävuse seadus looduses ja tehnikas (8).
@@ -105,7 +107,12 @@ mass (4: 2-3)
 : füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
 
 impulss (9), impulsi
-jäävuse seadus (9: 2), raskusjõud (4: 6), keha kaal (4: 6), kaalutus (6: 4), toereaktsioon (4: 6), elastsusjõud (7: 3), jäikustegur (7: 3), hõõrdejõud (5: 1),
+jäävuse seadus (9: 2),
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+keha kaal (4: 6), kaalutus (6: 4), toereaktsioon (4: 6), elastsusjõud (7: 3), jäikustegur (7: 3), hõõrdejõud (5: 1),
 hõõrdetegur (5: 1), mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
 
 ### Praktiline tegevus
@@ -378,14 +385,70 @@ inertsus
 mass
 : füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
 
-Kava: Newtoni seadused. Alustame kuuenda ülesande lahendamisest Newtoni I seaduse kohta.
+Kava: Newtoni seadused. Alustasime kuuenda ülesande lahendamisest Newtoni I seaduse kohta. Jõudsime II seaduse neljanda ülesandeni.
 
 ### 2024-2-22
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Alustasime II seaduse viiendast ülesandest. Jõudsime tutvuda III seadusega.
+
+### 2024-3-7
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Alustame III seaduse ülesannete lahendamist.
+
+### 2024-3-7
 
 Kursuse lõpus õpilane:
 8. rakendab gravitatsiooniseadust (6: 1-2).
 
 Kava: Gravitatsiooniseadus.
+
+### 2024-3-7
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Raskusjõud ja -kiirendus.
 
 \multicolsend
 
@@ -401,13 +464,15 @@ Kava: Gravitatsiooniseadus.
 
 Kuupäevani 2024-3-3 tuleb lahendada järgmised ülesanded iseseisvalt kasutades ülesande lahendamise struktuuri ja näidates terve lahenduskäigu:
 
-1.  Tee kindlaks kolme vektori
-    $$\overrightarrow{\bf{V}_1} = 4,0 \hat{\bf{i}} - 8,0 \hat{\bf{j}},$$
-    $$\overrightarrow{\bf{V}_2} = \hat{\bf{i}} + \hat{\bf{j}} \text{ ja}$$
-    $$\overrightarrow{\bf{V}_3} = -2,0 \hat{\bf{i}} + 4,0 \hat{\bf{j}}$$
-    suurus ja suund!
+::: {.exercise #dynamics-task-20240303-1 name="Kolme vektori suurus ja suund."}
+Tee kindlaks kolme vektori
+$$\overrightarrow{\bf{V}_1} = 4,0 \hat{\bf{i}} - 8,0 \hat{\bf{j}},$$
+$$\overrightarrow{\bf{V}_2} = \hat{\bf{i}} + \hat{\bf{j}} \text{ ja}$$
+$$\overrightarrow{\bf{V}_3} = -2,0 \hat{\bf{i}} + 4,0 \hat{\bf{j}}$$
+suurus ja suund!
 
-    Tee kindlaks $\overrightarrow{\bf{V}_1} - \overrightarrow{\bf{V}_2} + \overrightarrow{\bf{V}_3}$.
+Tee kindlaks $\overrightarrow{\bf{V}_1} - \overrightarrow{\bf{V}_2} + \overrightarrow{\bf{V}_3}$.
+:::
 
 2.  Vektorid $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$ liituvad summaarseks vektoriks $\overrightarrow{\bf{V}_R} = \overrightarrow{\bf{V}_1} + \overrightarrow{\bf{V}_2}$.
 
@@ -468,6 +533,101 @@ kõrguse muutus on \qty{125}{\m}?
 
 13. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{y}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektori $y$-komponent!
 
+### 2024-3-19
+
+1. Osakese asukoha aja $t$ funktsioonina annab $\overrightarrow{\bf{r}} = ( \qty{5,0}{\m\per\s} \cdot t + \qty{6,0}{\m\per\s\squared} \cdot t^2 ) \hat{\bf{i}} + ( \qty{7,0}{\m} \qty{- 3,0}{\m\per\s\cubed} \cdot t^3 ) \hat{\bf{j}}$. Kui $t = \qty{5,0}{\s}$, arvuta osakese nihkevektori $∆(\overrightarrow{\bf{r}})$ suurus ja suund punkti $\overrightarrow{\bf{r_0}} =\nolinebreak(\qty{2,0}{\m} \hat{\bf{i}} +\nolinebreak \qty{7,0}{\m} \hat{\bf{j}} )$ suhtes!
+
+2. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur on õhu liikumise kiirus otse lennuki tegelikule suunale vastu?
+
+3. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur tuule kiiruse lennuki arvatud suunaga risti olev komponent?
+
+4. Osake alustab liikumist lähtepunktist $t = 0$ algkiirusega \qty{5,0}{\m\per\s} piki positiivset $x$-telge. Kui kiirendus on $(-3,0 \hat{\bf{i}} + 4,5 \hat{\bf{j}} ) \unit{\m\per\s\squared}$, määra osakese kiirus ja asukoht hetkel, mil see jõuab maksimaalsele $x$-koordinaadile!
+
+5. \qty{2,5}{\m\per\s} jooksev sukelduja hüppab vertikaalse kalju servalt horisontaalselt välja ja jõuab \qty{3,5}{\s} hiljem alla vette. Kui kõrge oli kalju ja kui kaugel selle alusest sukelduja vette plärtsatas? Eira õhutakistust!
+
+\columnbreak
+
+6. Hoone katuselt \qty{10,8}{\m\per\s} horisontaalselt visatud pall maandub \qty{21,0}{\m} kaugusel hoone alusest. Kui kõrge hoone on? Eira õhutakistust!
+
+\multicolsend
+
+7.  Maapinna lähedal hoitud tuletõrjevoolik tulistab vett kiirusega \qty{6,5}{\m\per\s}. Millise nurga all peaks otsik olema, et vesi maanduks
+\qty{2,5}{\m} kaugusel (joonis \@ref(fig:dynamics-tasks-projectiles-37) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-37")`)? Miks on kaks erinevat nurka? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-37", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-37.svg")
+    
+    ```
+
+\multicolsbegin
+
+8.  Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra
+
+ - mürsu maksimaalne kõrgus,
+ 
+ - kogu õhus viibitud aeg ja
+ 
+ - horisontaalne kogu läbitud kaugus (st laskeulatus).
+ 
+    Eira õhutakistust!
+
+\columnbreak
+
+9. Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra mürsu kiirus \qty{1,50}{\s} peale tulistamist. Eira õhutakistust!
+
+\columnbreak
+
+10. Mürsu maksimaalne laskekaugus on \qty{95}{\m}.
+Avalda tegeliku mürsu lendamise aja ja maksimaalse lennukauguse lennu kestuse suhe nii rõhtsate kui püstiste komponentide kaudu! Eira õhutakistust!
+
+\multicolsend
+
+11. Mürsu maksimaalne laskekaugus $R$ on \qty{95}{\m}.
+Kui mürsk tabab maad $x = \qty{68}{\m}$ kaugusel,
+milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynamics-tasks-projectiles-41-test-angle) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-angle")`.
+
+    \begin{align}
+    \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{\text{sin}(2 \cdot \measuredangle{(v_0)_\text{max}})}{R}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
+    (\#eq:dynamics-tasks-projectiles-41-test-angle)
+    \end{align}
+
+    Eira õhutakistust!
+
+\multicolsbegin
+
+12. Kaugushüpet sooritav sportlane lahkub maapinnast \qty{27,0}{\degree} nurga all ja maandub \qty{7,80}{\m} kaugusele.
+
+ - Milline oli stardikiirus?
+ 
+ - Kui seda kiirust suurendataks vaid \qty{5,0}{\percent}, kui palju pikem oleks hüpe?
+
+    Eira õhutakistust!
+
+\multicolsend
+
+13. Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
+
+    ```{r label="dynamics-tasks-projectiles-45", echo=FALSE, fig.cap="Hüppav auto."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-45.svg")
+    
+    ```
+
+    Millise minimaalse kiirusega peab ta horisontaalselt kaldteelt maha sõitma? Kaldtee vertikaalne kõrgus on autokatuste kohal \qty{1,5}{\m} ja horisontaalne vahemaa, mille ta peab läbima, on \qty{22}{\m}.
+
+    Eira õhutakistust!
+    
+\newpage
+
+### 2024-4-2
+
+\multicolsbegin
+
+1.  Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
+
+    Kui kaldtee on nüüd kallutatud ülespoole, nii et stardinurk on \qty{9,0}{\degree} horisontaaltasapinnast kõrgemal, siis milline on uus minimaalne kiirus?
+
+    Eira õhutakistust!
+    
 \multicolsend
 
 \onecolumn
@@ -710,5 +870,59 @@ kõrguse muutus on \qty{125}{\m}?
 3.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga keskmise kiiruse vektori rõhtne komponent on $\overrightarrow{\bf{\overline{v_\text{x}}}} = (\qty{2,48e-2}{\m}; \frac{\pi}{2}; \num{0})$. Sipelga keskmise kiiruse vektori püstine komponent on $\overrightarrow{\bf{\overline{v_\text{x}}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektor!
 
     \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+4. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Õhu liikumise kiirus otse lennuki tegelikule suunale vastu on \qty{21,39}{\m\per\s}. Kui suur on lennukile otse vastu liikuva õhu kiirusvektori lennuki arvatud suuna sihiline komponent?
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Lennukile otse vastu liikuva õhu kiirusvektori lennuki arvatud suuna sihiline komponent on \qty{20,66}{\m\per\s}. Tuule kiiruse lennuki arvatud suunaga risti olev komponent on \qty{7.765}{\m\per\s}. Kui suur on tuule kiirus?
+
+    \vspace{0.2\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+6. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Lennukile otse vastu liikuva õhu kiirusvektori lennuki arvatud suuna sihiline komponent on \qty{20,66}{\m\per\s}. Tuule kiiruse lennuki arvatud suunaga risti olev komponent on \qty{7.765}{\m\per\s}. Milline on on tuule kiirus suund?
+
+    \vspace{0.2\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+7.  Maapinna lähedal hoitud tuletõrjevoolik tulistab vett kiirusega \qty{6,5}{\m\per\s}. Otsik on nurga \num{3,19e-1} või \num{1,26} all, et vesi maanduks
+\qty{2,5}{\m} kaugusel (joonis \@ref(fig:dynamics-tasks-projectiles-37-test) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-37-test")`)?
+Joonista kummagi trajektoor! Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-37-test", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-37.svg")
+    
+    ```
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+8.  Mürsu maksimaalne laskekaugus $R$ on \qty{95}{\m}.
+Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lendamise aja ($t$) ja maksimaalse lennukauguse lennu kestuse ($t_\text{max}$) suhe rõhtsate komponentide kaudu avaldub valemina \@ref(eq:dynamics-tasks-projectiles-41-test-x) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-x")` ning püstiste komponentide kaudu valemina \@ref(eq:dynamics-tasks-projectiles-41-test-y) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-y")`. Tuleta valem stardinurga $\angle{v_0}$ arvutamiseks! Eira õhutakistust!
+
+    \begin{align}
+    \frac{t}{t_\text{max}} = \frac{x \cdot \text{cos}(\measuredangle(v_0)_\text{max})}{R \cdot \text{cos}(\angle{v_0})}.
+    (\#eq:dynamics-tasks-projectiles-41-test-x)
+    \end{align}
+
+    \begin{align}
+    \frac{t}{t_\text{max}} = \frac{\text{sin}(\angle{v_0})}{\text{sin}(\measuredangle(v_0)_\text{max})}.
+    (\#eq:dynamics-tasks-projectiles-41-test-y)
+    \end{align}
+
+    \vspace{0.5\textheight}
 
     Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
