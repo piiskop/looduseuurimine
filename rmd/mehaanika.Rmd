@@ -423,7 +423,7 @@ inertsus
 mass
 : füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
 
-Kava: Newtoni seadused. Alustame III seaduse ülesannete lahendamist.
+Kava: Newtoni seadused. Alustasime III seaduse ülesannete lahendamist.
 
 ### 2024-3-7
 
@@ -433,6 +433,10 @@ Kursuse lõpus õpilane:
 Kava: Gravitatsiooniseadus.
 
 ### 2024-3-7
+
+Õpilasi polnud.
+
+### 2024-3-14
 
 Kursuse lõpus õpilane:
 
@@ -627,7 +631,52 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
     Kui kaldtee on nüüd kallutatud ülespoole, nii et stardinurk on \qty{9,0}{\degree} horisontaaltasapinnast kõrgemal, siis milline on uus minimaalne kiirus?
 
     Eira õhutakistust!
+
+\columnbreak
+
+2.  Päästelennuki tegelased tahavad \qty{265}{\m} allpool asuval kivisel harjal varusid eraldada mägironijatele. Kui lennuk liigub horisontaalselt kiirusega \qty{125}{\kilo\m\per\hour}, siis kui kaugel enne saajaid (horisontaalne vahemaa) tuleb kaup kukutada?
+
+    Eira õhutakistust!
+
+3.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Arvuta mürsu algkiirus!
+
+    Eira õhutakistust!
+
+4.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Aeg, mis mürsul kulub jõudmiseks maksimaalsele kõrgusele, on \qty{3,53}{\s}. Määra mürsu horisontaalne ulatus!
+
+    Eira õhutakistust!
+
+\multicolsend
+
+5.  Pall visatakse horisontaalselt kalju tipust algkiirusega $v_0$ (kui $t = 0$). Igal hetkel moodustab selle liikumissuund horisontaaltasandi suhtes nurga $u$ (joonis \@ref(fig:dynamics-tasks-projectiles-51) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-51")`). Tuleta $u$ valem aja $t$ funktsioonina, arvestades, et kuul järgib mürsu rada.
+
+    ```{r label="dynamics-tasks-projectiles-51", echo=FALSE, fig.cap="Visatud pall."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-51.svg")
     
+    ```
+
+    Eira õhutakistust!
+
+\multicolsbegin
+
+6.  Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Milline on tema stardikiirus $v_0$?
+
+    Eira õhutakistust!
+
+7.  Kui pall lüüakse maapinnalt \qty{15,0}{\m\per\s}, on kaks stardinurka, mis panevad palli maanduma \qty{20,0}{\m} kaugusele. Tuleta nende kahe nurga arvutamise valem!
+
+    Ignoreeri õhutakistust.
+
+\columnbreak
+
+8.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Millise maksimaalse kõrguse pall igal juhul saavutab?
+
+    Ignoreeri õhutakistust.
+
+9.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Kui kaua on pall igal juhul õhus?
+
+    Ignoreeri õhutakistust.
+
 \multicolsend
 
 \onecolumn
@@ -924,5 +973,64 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     \end{align}
 
     \vspace{0.5\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Täpselt $t_3 = \qty{3,0}{\s}$ pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Mürsu algkiiruseks arvutasin \qty{24,2}{\m\per\s} või \qty{34,6}{\m\per\s} vastavalt valemile \@ref(eq:dynamics-tasks-projectiles-49-test-start-velocity-y) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-49-test-start-velocity-y")`, milles $v_{t; y; 3}$ on mürsu kiiruse püstine komponent pärast $t_3$ möödumist. Arvuta aeg, mis kulub mürsul jõudmiseks maksimaalsele kõrgusele!
+
+    \begin{align}
+    v_{0; y} = g \cdot t_3 \pm v_{t; y; 3}.
+    (\#eq:dynamics-tasks-projectiles-49-test-start-velocity-y)
+    \end{align}
+
+    Eira õhutakistust!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+10. Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Mürsu algkiiruse püstine komponent on \qty{34,6}{\m\per\s}. Aeg, mis mürsul kulub jõudmiseks maksimaalsele kõrgusele, on \qty{3,53}{\s}. Arvuta, kui kõrgele mürsk maapinnast kõige kõrgemale lendab! 
+
+    Eira õhutakistust!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+11. Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{\bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$\nobreakdash-telg on positiivne ülespoole. Mürsu algkiiruse püstine komponent on \qty{34,6}{\m\per\s}. Määra mürsu kiirus ja liikumisnurk vahetult enne maapinnaga kokkupuutumist!
+
+    Eira õhutakistust!
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+12. Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Nüüd on ta matkamas ja jõuab jõe vasakule kaldale. Silda ei ole ja parem kallas on horisontaalselt \qty{10,0}{\m} kaugusel ja vertikaalselt \qty{2,5}{\m} allpool. Kui ta hüppab vasaku kalda servalt \qty{45}{\degree} eelneva hüppe kiirusega, siis kui kaugele vastaskalda servast ja kummale poole ta maandub (joonis \@ref(fig:dynamics-tasks-projectiles-53) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-53")`)? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-53", echo=FALSE, fig.cap="Hüpe üle vee."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-53.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Nende kahe nurga arvutamise valem on \@ref(eq:dynamics-tasks-projectiles-55) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-55")`. Arvuta need kaks nurka!
+
+    \begin{align}
+    \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{g \cdot x}{v_0^2}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
+    (\#eq:dynamics-tasks-projectiles-55)
+    \end{align}
+
+    Ignoreeri õhutakistust.
+
+    \vspace{0.3\textheight}
 
     Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
