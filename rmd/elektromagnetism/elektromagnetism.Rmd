@@ -636,6 +636,8 @@ Kava:
 
 2. Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. Selgitasin valemini välja, tabeli tegime ja lahendasime ülesande 21-6.
 
+\onecolumn
+
 ### 2023-11-13
 
 Kursuse lõpus õpilane:
@@ -657,24 +659,22 @@ elektriväli
 elektrivälja tugevus
 : elektrivälja poolt punktlaengule mõjuv jõud jagatud elektrilaenguga[@haynes_2014_crc(lk 2-51)]
 
+[]{#geogebra-21-9}
+
 Kava:
 
-2.  Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook]. Jätkasime näitest 21-7. Näite 21-9[@physics(lk 621)] ilmestamiseks tegin GeoGebras joonise \@ref(fig:geogebra-21-9).
+2. Elektriväli[@physics(lk 618-622); @staticelectricitypdf(lk 15); @ebook].
+   Jätkasime näitest 21-7.
+   Näite 21-9[@physics(lk 621)] `r if (knitr::is_html_output()) " ilmestamiseks tegin GeoGebras joonise \\@ref(fig:geogebra-21-9)" else " ilmestasin GeoGebras veebivaates[@_2023_7]"`.
 
-    (ref:geogebra-21-9) Punktile A mõjuv elektriväli[@geogebra].
+   ```{r geogebra-21-9, echo=FALSE, eval=knitr::is_html_output(), fig.cap="Punktile A mõjuv elektriväli[@geogebra]."}
+   knitr::include_url("https://www.geogebra.org/classic/wfafawp5?embed", height = "500px")
+   
+   ```
 
-    ```{r label="geogebra-21-9", echo=FALSE, fig.cap="(ref:geogebra-21-9)"}
-    if (knitr::is_html_output()) {
-      knitr::include_url("https://www.geogebra.org/classic/wfafawp5?embed")
-    }
-    
-    ```
-
-    Tegime näite 21-8 läbi kuni elektrivälja tugevuse arvutamiseni.
+   Tegime näite 21-8 läbi kuni elektrivälja tugevuse arvutamiseni.
 
 Esmaspäevas tahab Marie nõustamist seitsmendas perioodis.
-
-\onecolumn
 
 ### 2023-11-17
 
@@ -989,111 +989,7 @@ Kava:
 
 5) Kui suur on voolutugevus amprites, kui \num{1200} \ce{Na+}-iooni voolab läbi rakumembraani \qty{2,8}{\micro\s} kestel? Naatriumiooni laeng on sama, mis elektronil, kuid positiivne.
 
-## Eksperimentide protokollid
-
-Eksperimentide protokollide seis on esitatud tabelis \@ref(tab:protocols) leheküljel `r render_pageref(reference = "tab:protocols")`.
-
 \onecolumn
-
-```{r label = "protocols", echo=FALSE}
-electroscope <- c(
-  0,
-  0,
-  0,
-  1, # Heinaru, Merili
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  1, # Birgit Tori
-  0,
-  0,
-  0,
-  1, # Maarja-Lii Erm
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  0,
-  1, # Martha Toom
-  1, # Teele Tuul
-  1, # Toren Holder Vahesaar
-  1 # Andreas Volman
-)
-
-data_frame_of_protocols <- data.frame(
-  electroscope
-)
-
-colnames(data_frame_of_protocols) <- c(
-  "Elektroskoop"
-)
-
-rownames(data_frame_of_protocols) <- c(
-	"1. Allert, Marie",
-	"2. Brinkmann, Sander",
-	"3. Ernits, Enrico",
-	"4. Heinaru, Merili",
-	"5. Kaljuvee, Fredi",
-	"6. Kangro, Kristofer",
-	"7. Küling, Mireta",
-	"8. Meriküll, Eteli",
-	"9. Miljand, Hugo",
-	"10. Orro, Oliver",
-	"11. Parkkanen, Henrico",
-	"12. Parve, Marken",
-	"13. Plamus, Kristofer-Robin",
-	"14. Saar, Carl-Joonas",
-	"15. Schulzendorff, Katharina Helene",
-	"16. Taimre, Kris",
-	"17. Tepp, Kiara Keiti",
-	"18. Tori, Birgit",
-	"19. Ööbik, Markus",
-	"1. Ader, Georg",
-	"2. Aus, Matteus",
-	"3. Erm, Maarja-Lii",
-	"4. Jakobson, Jasper",
-	"5. Jürissaar, Kaia Kretel",
-	"6. Jürissaar, Miia Mirtel",
-	"7. Kabel, Kairit",
-	"8. Kivirüüt, Alice",
-	"9. Kruusmann, Ketli",
-	"10. Mihkelson, Sten-Erik",
-	"11. Mäesalu, Martin",
-	"12. Oolma, Robert-Heinrich",
-  "13. Paavel, Anni Kaisi",
-	"14. Reiter, Karl Mattias",
-	"15. Solman, Kärt",
-	"16. Tobi, Morris",
-	"17. Toom, Martha",
-	"18. Tuul, Teele",
-	"19. Vahesaar, Toren Holder",
-	"20. Volman, Andreas"
-)
-
-#print_table(
-#  caption = "Eksperimentide protokollid. Kui tabelis on \\textit{1}, siis on korras.",
-#  table = data_frame_of_protocols
-#)
-
-```
 
 ## Testid
 

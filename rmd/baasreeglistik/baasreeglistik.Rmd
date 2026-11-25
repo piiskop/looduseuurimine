@@ -535,8 +535,6 @@ Kuna püsikiirenduse puhul jõnksu pole, lihtsustub valem \@ref(eq:path-length-b
 
 ```
 
-[]{#mass}
-
 ## Mass
 
 mass
@@ -1387,11 +1385,13 @@ data_frame_of_permittivity <- data.frame(
   permittivity
 )
 
-rownames(data_frame_of_permittivity) <- c(
+zw <- "\u200C"
+
+rownames(data_frame_of_permittivity) <- paste0(zw, c(
   "(ref:permittivity-co2)",
   "(ref:permittivity-h2o)",
   "(ref:permittivity-air)"
-)
+))
 
 colnames(data_frame_of_permittivity) <- c(
   "$\\epsilon_\\mathrm{r}$"

@@ -180,51 +180,21 @@ print_table(
 
 ```{r label="different-physics-choosing-date", echo=FALSE}
 different_physics_date <- c(
-  "2024-2-6",
-  "2024-2-8",
-  "2024-2-13",
-  "2024-2-15",
-  "2024-2-20",
-  "2024-2-22",
-  "2024-3-5",
-  "2024-3-7",
-  "2024-3-12",
   "2024-3-14",
-  "2024-3-19",
   "2024-3-21",
-  "2024-3-26",
   "2024-3-28",
-  "2024-3-28",
-  "2024-4-2",
   "2024-4-4",
-  "2024-4-9",
   "2024-4-11",
-  "2024-4-16",
   "2024-4-18"
 )
 
 different_physics_chooser_of_date_1 <- c(
-  module[8],
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
   module[7],
-  "",
-  "",
-  "",
   module[12],
-  "",
-  "",
-  "",
   "",
   module[10],
   module[11],
-  module[6],
-  module[5],
-  module[13]
+  module[5]
 )
 
 different_physics_chooser_of_date_2 <- c(
@@ -232,23 +202,8 @@ different_physics_chooser_of_date_2 <- c(
   "",
   "",
   "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  ""
+  module[6],
+  module[13]
 )
 
 data_frame_of_dates_of_different_physics <- data.frame(

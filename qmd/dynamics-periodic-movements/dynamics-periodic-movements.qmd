@@ -244,10 +244,172 @@ plot(code)
 
 Kaks keha tõmbuvad teineteise poole jõuga, mis on võrdeline nende masside korrutisega ja pöördvõrdeline vahekauguse ruuduga[@haynes_2014_crc(lk 1-1); @ekoolikottee] (@eq-gravitation).
 
+```{r label="gravitational-constant", echo=FALSE}
+librarian::shelf(c(
+  "constants",
+  "formatdown"
+))
+formatted_G <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=syms$bg, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
 $$
-G = 6,673 84(80) × 10^{−11} \mathrm{m^3 kg^{-1} s^{-2}}.\\
+G = `r formatted_G` \mathrm{m^3 kg^{-1} s^{-2}}.\\
 F = \frac{G \cdot m_\text{1} \cdot m_\text{2}}{r^2}.
 $${#eq-gravitation}
+
+## Gravitatsioonikonstandi ühik
+
+$$
+G = \frac{F \cdot r^2}{m_\text{1} \cdot m_\text{2}}.
+$$
+
+Dimensionaalanalüüs:
+
+$$
+\text{dim}(G) = \frac{\frac{\text{M} \cdot \text{L}}{\text{T}^2} \cdot \text{L}^2}{\text{M} \cdot \text{M}} = \frac{\text{L}^3}{\text{M} \cdot \text{T}^2}.
+$$
+
+Ühik:
+
+$$
+\frac{\text{m}^3}{\text{kg}\ \text{s}^2}.
+$$
+
+## Raskusjõud Maa pinnal
+
+Gravitatsioonijõud:
+
+$$
+M = m_1,\\
+m = m_2,\\
+F = \frac{G \cdot M \cdot m}{r^2}.
+$$
+
+
+Maa mass[@planetary]:
+
+```{r label="mass-of-Earth", echo=FALSE}
+librarian::shelf(c(
+  "formatdown"
+))
+M <- 5.972e24
+formatted_M <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=M, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+$$
+M = `r formatted_M`\ \text{kg}.
+$$
+
+## Maa raadius
+
+Maa raadius ekvaatoril[@haynes_2014_crc, lk 14-11; @planetary]:
+
+```{r label="radius-of-Earth", echo=FALSE}
+librarian::shelf(c(
+  "formatdown"
+))
+mean_equatorial_radius <- 6.37814e6
+formatted_mean_equatorial_radius <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=mean_equatorial_radius, format="sci", delim = "\ "), fixed = TRUE)
+mean_polar_radius <- 6.356753e6
+formatted_mean_polar_radius <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=mean_polar_radius, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+$$
+\overline{a} = `r formatted_mean_equatorial_radius`\ \text{m}.
+$$
+
+Maa raadius poolustel[@ahrens_1995_a, lk 14-11]:
+
+$$
+\overline{c} = `r formatted_mean_polar_radius`\ \text{m}.
+$$
+
+## Raskusjõud ekvaatoril
+
+:::: {layout="[65, 35]"}
+
+::: {#gravitational-force-onequator-formula}
+
+Valem:
+
+$$
+\overline{a} = r,\\
+F = \frac{G \cdot M \cdot m}{\overline{a}^2}.
+$$
+
+Õigem:
+
+:::
+
+::: {#gravitational-force-on-equator-figure}
+
+![](ekvatoriaalne-raskusjõud.svg)
+
+:::
+
+::::
+
+```{r label="F_g_equatorial", echo=FALSE}
+g_equatorial <- syms$bg * M / (mean_equatorial_radius)^2
+formatted_g_equatorial <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=g_equatorial, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+
+$$
+\begin{align}
+F &= \frac{(`r formatted_G` \mathrm{m^3 kg^{-1} s^{-2}}) \times (`r formatted_M`\ \text{kg}) \cdot m}{(`r formatted_mean_equatorial_radius`\ \text{m})^2}\\
+&= (`r formatted_g_equatorial`\ \text{m}\ \text{s}^{-2}) \cdot m.
+\end{align}
+$$
+
+## Raskusjõud poolustel
+
+:::: {layout="[65, 35]"}
+
+::: {#gravitational-force-to-poles-formula}
+
+Valem:
+
+$$
+\overline{c} = r,\\
+F = \frac{G \cdot M \cdot m}{\overline{c}^2}.
+$$
+
+Õigem:
+
+:::
+
+::: {#gravitational-force-to-poles-figure}
+
+![](polaarne-raskusjõud.svg)
+
+:::
+
+::::
+
+```{r label="F_g_polar", echo=FALSE}
+g_polar <- syms$bg * M / (mean_polar_radius)^2
+formatted_g_polar <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=g_polar, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+
+$$
+\begin{align}
+F &= \frac{(`r formatted_G` \mathrm{m^3 kg^{-1} s^{-2}}) \times (`r formatted_M`\ \text{kg}) \cdot m}{(`r formatted_mean_polar_radius`\ \text{m})^2}\\
+&= (`r formatted_g_polar`\ \text{m}\ \text{s}^{-2}) \cdot m.
+\end{align}
+$$
+
+## Suurupi
+
+9,818235038
+
+## Kaks inimest
 
 ## Gravitatsiooniseadus: ülesanded
 
@@ -315,6 +477,10 @@ code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/22
 plot(code)
 
 ```
+
+## Kaal
+
+
 
 ## Välised allikad
 

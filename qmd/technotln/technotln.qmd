@@ -1,0 +1,412 @@
+---
+author:
+  - name: 'peacecop kalmer:'
+bibliography: technotln.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+title: |
+    | Looduseuurimine
+    | Tallinna
+    | Tehnoloogiakolledžis
+output-file: technotln.html
+format:
+  revealjs:
+    hash: true
+    incremental: false
+    multiplex:
+      url: 'http://manual-for-rstudio.ons.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+language: ../et.yml
+crossref: 
+  exm-prefix: näide
+  exm-title: Näide
+  exr-prefix: ülesanne
+  exr-title: Ülesanne
+  fig-prefix: joonis
+  
+---
+
+## Õpetaja
+
+e-portfoolio[@_2025_sissejuhatus]
+
+## Õpiväljundid
+
+```{r label="preamble"}
+
+#' This function displays external graphics by making the appropriate conversion aforehead.
+#' 
+#' @param path the path to the image file
+include_external_graphics = function(path,
+                                     landscape = FALSE,
+                                     caption = NULL,
+                                     width = "0.95\\linewidth",
+                                     height = "0.85\\textheight") {
+  
+  output <- path
+  
+  if (knitr::is_latex_output()) {
+    pdf_candidate <- xfun::with_ext(path, "pdf")
+    
+    # Kui sama nimega PDF on olemas, kasuta seda.
+    # See on Mermaid diagrammide puhul tähtis.
+    if (xfun::file_ext(path) != "pdf" && file.exists(pdf_candidate)) {
+      output <- pdf_candidate
+    } else if (xfun::file_ext(path) != "pdf") {
+      output <- pdf_candidate
+      
+      if (xfun::file_ext(path) == "svg") {
+        system2(
+          "rsvg-convert",
+          c("-f", "pdf", "-a", "-o", shQuote(output), shQuote(path))
+        )
+      } else {
+        system(
+          paste("gm convert", shQuote(path), shQuote(output)),
+          intern = FALSE,
+          ignore.stdout = FALSE,
+          ignore.stderr = FALSE,
+          wait = TRUE
+        )
+      }
+    }
+  }
+  
+  if (knitr::is_latex_output() && landscape) {
+    tex <- c(
+      "\\begin{landscape}",
+      "\\begin{figure}[p]",
+      "\\centering",
+      sprintf(
+        "\\includegraphics[width=%s,height=%s,keepaspectratio]{%s}",
+        width,
+        height,
+        output
+      ),
+      if (!is.null(caption)) sprintf("\\caption{%s}", caption),
+      "\\end{figure}",
+      "\\end{landscape}"
+    )
+    
+    return(knitr::asis_output(paste(tex, collapse = "\n")))
+  }
+  
+  if (knitr::is_html_output()) {
+    image_dir <- knitr::opts_chunk$get("fig.path")
+    dir.create(image_dir, recursive = TRUE, showWarnings = FALSE)
+
+    html_image <- file.path(image_dir, basename(output))
+
+    if (!file.copy(output, html_image, overwrite = TRUE)) {
+      stop("SVG kopeerimine slaidiesitluse pildikataloogi ebaõnnestus.")
+    }
+
+    output <- html_image
+  }
+
+  knitr::include_graphics(output)
+}
+
+```
+
+```{r label = "relations", echo=FALSE, fig.cap = "Seosed."}
+name_of_file_of_relations <- "relations"
+path_to_file_of_relations <- paste0("../../", name_of_file_of_relations, ".")
+mmd_file <- paste0(path_to_file_of_relations, "mmd")
+svg_file <- paste0(path_to_file_of_relations, "svg")
+pdf_file <- paste0(path_to_file_of_relations, "pdf")
+
+mmdc <- "/snap/bin/mmdc"
+puppeteer_config <- "../../puppeteer-config.json"
+mermaid_config <- file.path(
+  dirname(normalizePath(mmd_file, mustWork = TRUE)),
+  "mermaid-config.json"
+)
+writeLines(
+  '{"htmlLabels": false, "flowchart": {"htmlLabels": false}}',
+  mermaid_config
+)
+status_svg <- system2(
+  mmdc,
+  c(
+    "-i", mmd_file,
+    "-o", svg_file,
+    "-p", puppeteer_config,
+    "-c", shQuote(mermaid_config),
+    "-b", "transparent",
+    "-w", "1600",
+    "-H", "1200"
+  )
+)
+
+if (!identical(status_svg, 0L)) {
+  stop("SVG genereerimine ebaõnnestus.")
+}
+
+status_pdf <- system2(
+  mmdc,
+  c(
+    "-i", mmd_file,
+    "-o", pdf_file,
+    "-p", puppeteer_config,
+    "-c", shQuote(mermaid_config),
+    "-b", "transparent",
+    "-w", "2200",
+    "-H", "1200",
+    "--pdfFit"
+  )
+)
+
+if (!identical(status_pdf, 0L)) {
+  stop("PDF genereerimine ebaõnnestus.")
+}
+
+include_external_graphics(
+  svg_file,
+  landscape = TRUE,
+  caption = "Seosed."
+)
+
+invisible(file.copy(
+  svg_file,
+  paste0("../../_book/rmd/", name_of_file_of_relations, ".svg"),
+  overwrite = TRUE
+))
+
+```
+
+## Õppeaeg: 1.-72. kontaktsessioon
+
+1.-2. kontaktsessioon: reeglid, ootused ja õpe.
+
+3.-14. kontaktsessioon: õpe.
+
+15.-16. kontaktsessioon: kokkuvõttev test.
+
+17.-34. kontaktsessioon: õpe.
+
+35.-36. kontaktsessioon: kokkuvõttev test.
+
+37.-50. kontaktsessioon: õpe.
+
+51.-52. kontaktsessioon: kokkuvõttev test.
+
+53.-70. kontaktsessioon: õpe.
+
+71.-72. kontaktsessioon: kokkuvõttev test.
+
+## Õppeaeg: 73.-90. kontaktsessioon
+
+73.-88. kontaktsessioon: õpe.
+
+89.-90. kontaktsessioon: kokkuvõttev test.
+
+## Õppeprotsess
+
+Sama järjega õpilased õpivad koos sammhaaval iga õpiväljundi suunas täites kõik oma lüngad teadmistes-oskustes:
+
+1. Selgitan teooriat.
+
+2. Väikese variatsiooniga harjutusülesanded.
+
+3. Suure variatsiooniga harjutusülesanded.
+
+4. Sulandsortimine ja praktika.
+
+Keelatud on kõik abivahendid, välja arvatud need, mis on minu poolt ekstra lubatud.
+
+## Hindamine: sulandsortimine
+
+1. Kaks õpilast, kel harjutusülesanded sooritatud, lahendavad üheaegselt sama ülesannet.
+
+2. Kiirem õige lahenduse esitaja võidab. Moodustub kahene edetabel.
+
+3. Võrreldakse kõiki moodustunud edetabeleid omavahel samamoodi paarikaupa võisteldes, kuni meil on selle õpiväljundi kohta lõplik edetabel.
+
+4. Lõplikku edetabelisse mitte viimasena paigutunud õpilane saab teema kohta hindeks *5*.
+
+5. Edetabeli viimane õpilane saab eritoetust, edetabeli esimestelt on mõistlik nõu küsida.
+
+## Hindamine: kokkuvõttev hindamine
+
+- *MathCityMap*iga[@mathcitymap]
+
+- välistingimustes
+
+- täislaetud aku, *MathCityMap*i, Interneti ligipääsu ja sisselülitatud Global Position Systemi sensoriga nutitelefoniga
+
+- rühmas või üksi
+
+- igasuguse ilmaga, seega varuks vihmavarjuga
+
+- oma vihiku ja kirjutusvahendiga
+
+- algusega mitte ruumis *PM-368*, vaid fuajees välisukse juures.
+
+## Hindamine: osakaalud
+
+- Vihik 10 %: teooria ning iga ülesande püstitus, lahendus ja lahend.
+
+- Alateemad 30 %:
+
+  - hindamine ainult kohapeal,
+  
+  - hindeks *X*, kui kontaktsessioonipaari lõpuks hinne puudub, kuid keegi on selle paari jooksul alateema kiirtesti võitnud.
+
+- Vahekokkuvõtted 60 %.
+
+Alateema hinne läheb Tahvlisse pärast praktika sooritamist ja raporti heakskiitmist.
+
+## Vahendid
+
+- *A4*-vihik, ruuduline,
+
+- kirjutusvahend,
+
+- vastavas osas joonestusvahendid,
+
+- vastavas osas kalkulaator,
+
+- praktika jaoks vahendid, mille loetelu saab õpilane pärast alateema kiirtesti hinde 3, 4 või 5 saamist.
+
+## Õppimise järgud
+
+1. Uue teabe vastuvõtmine.
+
+2. Uue teabe kasutamine.
+
+3. Õpetamise ettevalmistamine.
+
+4. Õpetamine.
+
+## Muljed 1
+
+- Viimase 3a. jooksul need olid parimad matemaatika tunnid kus ma lõpuks hakkasin põhiteemasid aimama. Õpetaja oskab kõigele vastata ja töölehed on üsna arusaadavad.
+
+- väga tore.
+
+- hea kiirele mõtlemisele, kus õpid numbritedega kui ka teoorilisi asju.
+
+- matemaatika on tore ja arusaadav.
+
+- Tore oli veidi test moodi õpida ja teadmisi täiendada
+
+- Tunnid on rahulikud ja materjal tundub arusaadav.
+
+- KERGE
+
+## Muljed 2
+
+- huvitav ja õpetlink ning aitas mulle oma teadmisi täiendada
+
+- kasulik. Õpetaja seletas hästi ja andis piisavalt harjutusi, Eriti hea olid need testid mida sai tehtud iga tund.
+
+- Normaalne.
+
+- alguses tuleb ara harjuda Siis on aru Saadav
+
+- oma moodi õpi viis aga lihtne ja aru saadav
+
+- Parim matemaatika õpetaja, kes mul siiani olnud on. Pol emidagi halba öelda
+
+- kiire ja tempokas ning iseseisev.
+
+- enam vähem aga õpetaja oleks võinud rohkem õpetada
+
+## Muljed 3
+
+- Täitsa hästi.
+
+- KURSUSES ON IGA TEEMA PÕHJALIKULT LÄBI VÕETUD. PINGE TASE ON MÕÕDUKAS. KURSUSES SAAD TEHA HULGA KIIR TESTE MIS PANEVAD SIND PROOVILE. TÖÖ LEHTI ON KA SAMUTI MÕÕDUKALT AGA ISESEISEV JA G HINDELINE TÖÖ KÄIVAD KÄSI KÄES.
+
+- Matemaatika tundub algul raske, aga kui loogikast aru saada, on kõik tehtav. Õpematerjalid olid head.
+
+- väga huvitav Materjal on hästi struktuuritud ning õppima käib loomulikus tempos ära karada vigu teha sest see ongi õppimise osa.
+
+## Muljed 4
+
+- väga kasulik. õppematerjal oli selge ning praktilised ülesanded aitasid teooriat kinnistada.
+
+- tavapärasest väga erinev kuid ma arvan et effektiivne. Tempo on päris sobilik ja ei tekita stressi. Iseseisvat õppimist on natuke palju
+
+## Nõuanded edukaks läbimiseks 1
+
+- Kui proovid ja küsid õpetajalt millest aru ei saa saad sa hästi hakkama. Ole valmis oma keskendumist harjutama sest tund on vaikne ja rahulik.
+
+- Tee kõik kodutööd õigel ajal ära ja ära karda küsida, kui midagi on arusaamatu. Tee märkmeid
+
+- Tee kõik kodutööd.
+
+- ÕPI TUBLISTI JA ÄRA PUUDU. KIRJUTA TEEMAD ENDALE PÕHJALIKULT LAHTI.
+
+- Kui midagi on segane, küsi julgelt abi.
+
+- Tee nägu, et saad aru
+
+## Nõuanded edukaks läbimiseks 2
+
+- Kuulata tunnis rohkem.
+
+- Õpi, kuula õpetajad hoolikalt
+
+- peab ise õppima palju
+
+- Tee tunnis kaasa.
+
+- Kindlasti kuula tunnis kaasa, siin ei pea kodus põhiliselt üldse õppima.
+
+- hakk alguss jub hasti apima
+
+- Hoia telefoni kotis
+
+- Ära jäta asju tegematta.
+
+## Nõuanded edukaks läbimiseks 3
+
+- Tee iga nädal kodutöid jooksvalt, ära jäta kõike viimasele hetkele. harjuta palju iseseisvalt
+
+- Istu rahulikult tunnides, kuula õpetajat, tee töid ja kõik tuleb lõpuks hästi välja.
+
+- tuleb tunnis tähele panna
+
+- Kuula ja käi kohal see on kõik
+
+- Ole tunnis kohal ja tööta kas või natuke kaasa, sellest piisab.
+
+- Õppi Hoolega
+
+- Kuula mis õpetaja räägib, küsi abi kui on vaja.
+
+- Vaheta Kooli
+
+## Nõuandeid edukaks läbimiseks 4
+
+Kui sul on tööd mida teha tee see kohe ära, sest sa pead muidu passima vabal nädalal koolis ja parandama x-se.
+
+## Hinded
+
+- Kolm *2*.
+
+- 19 õpilast saavutasid selle tulemuse, mida ootasid.
+
+- Neli õpilast saavutas parema tulemuse kui ootas.
+
+- Levinuim hinne: *4* (48,6 %).
+
+- Üks *5*.
+
+- Hinnatud 35 inimest.
+
+## Nimed
+
+Ootused.
+
+## Välised allikad
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
+
+[Looduseuurimine](/../../)

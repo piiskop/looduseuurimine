@@ -306,3 +306,7 @@ tasks_of_kinematics <- data.frame(
 ```
 
 \twocolumn
+
+Tähelepanekud
+
+So you are practicing your fingering skills - mina alisale, kes harjutas sõrmedega nutitelefoni mängu

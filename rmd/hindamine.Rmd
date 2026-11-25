@@ -86,7 +86,7 @@ Kui iseseisvaks lahendamiseks pole vastavaks kontaktsessioonide päevaks jäetud
 
 Pärast minupoolset kontrollimist tagastan õpilasele tema soorituslehe, misjärel õpilane kommenteerib oma sooritust ja hindab ise ka tagastades soorituslehe seejärel minule järgmise kontaktsessioonide päeva esimese kontaktsessiooni alguses, misjärel saab õpilane teada minu pandud hinde ja võrrelda enda panduga.
 
-Lähiajaloo test koosneb kolmest ülesandest, millest igaüht hinnatakse eraldi. Igat hinnet on võimalik parandada kursuse lõpus toimuvas kontrolltöös.
+Lähiajaloo test koosneb kahest ülesandest, millest igaüht hinnatakse eraldi. Igat hinnet on võimalik parandada kursuse lõpus toimuvas kontrolltöös.
 
 Lähiajaloo hinnete kaal on \num{0,6}.
 

@@ -88,3 +88,60 @@
 \RaggedRight
 
 \raggedbottom % for hindering to spread paragraphs over the page
+
+\newcommand{\landscapebegin}{\begin{landscape}}
+\newcommand{\landscapeend}{\end{landscape}}
+
+% Markdowni ~~läbikriipsutus~~ jaoks: pandoc teeb sellest \st{...}
+\usepackage[normalem]{ulem}
+\providecommand{\st}[1]{\sout{#1}}
+
+% Pandoc citeproc compatibility
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+\begingroup
+\def\citeproctext{#2}%
+\cite{#1}%
+\endgroup
+}
+\makeatletter
+\let\@cite@ofmt\@firstofone
+\def\@biblabel#1{}
+\def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+
+
+% Pandoc 3.8 pandocbounded compatibility
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{%
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi
+}
+\makeatother
+
+
+
+% Pandoc 3.8 CSLReferences compatibility
+\renewenvironment{CSLReferences}[2]{%
+  \begin{list}{}{%
+    \setlength{\itemindent}{0pt}
+    \setlength{\leftmargin}{0pt}
+    \setlength{\parsep}{0pt}
+    \ifodd #1
+      \setlength{\leftmargin}{\cslhangindent}
+      \setlength{\itemindent}{-1\cslhangindent}
+    \fi
+    \setlength{\itemsep}{#2\baselineskip}
+  }%
+}{%
+  \end{list}
+}
+
+% Viited pealkirjades
+\AddToNoCaseChangeList{\citeproc}

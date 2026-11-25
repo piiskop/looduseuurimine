@@ -1,0 +1,25 @@
+# Ootused
+
+<!-- Vastused sinu soovide ja tausta kohta aitavad sul ja mul paremat selgust saada sinu õppimisprotsessis, et edaspidi tõhusalt edasi liikuda. Palun vasta igale sellisele küsimusele ja täida lüngad jäädes kõigile peale enda ja õpetaja anonüümseks: -->
+
+Milline on sinu eesmärk seoses Tallinna Tehnoloogiakolledžiga (Techno TLN), st miks sa õpid Techno TLN's?
+
+\vspace{0.3\textheight}
+
+Mida sa oled valmis selle eesmärgi saavutamiseks tegema?
+
+\vspace{0.3\textheight}
+
+Mis sind takistab selle eesmärgi saavutamises?
+
+\vspace{0.3\textheight}
+
+Kuidas õpetaja saab sind selle eesmärgi saavutamiseks aidata?
+
+\vspace{0.3\textheight}
+
+Millise hinde sa soovid looduseuurimise kursuse osas tervikuna saavutada? \blank{5.}
+
+Tänane kuupäev on \blank{2026-11-10}.
+
+Sinu nimi on \blank{Oleksandr Bondarenko}.
